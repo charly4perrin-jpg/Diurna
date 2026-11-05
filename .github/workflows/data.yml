@@ -7,6 +7,11 @@ on:
   schedule:
     - cron: '23 4 * * *'   # vers 5 h 23 à Paris en hiver, avant l'édition de 6 h 47
   workflow_dispatch:
+  push:                    # relance automatique quand le script de récupération change
+    branches: [main]
+    paths:
+      - 'tools/fetch-data.mjs'
+      - '.github/workflows/data.yml'
 
 permissions:
   contents: write
