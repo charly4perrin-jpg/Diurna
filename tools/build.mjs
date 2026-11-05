@@ -361,7 +361,7 @@ function status(C, st) {
   const key = 'status', rootRel = rootRelOf(PATHS[C.lang][key]);
   const fHm = new Intl.DateTimeFormat(C.S.locale, { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
   const when = (iso) => (iso ? C.t(fHm.format(new Date(iso))) : C.S.stNone);
-  const ed = (x) => (x ? `${C.t(C.L('no', { n: x.number }))} · ${C.t(C.longDate(x.date))} · ${when(x.updated)}` : C.S.stNone);
+  const ed = (x) => (x ? `${C.t(C.L('no', { n: x.number }))} · ${C.t(C.longDate(x.date))} · ${C.t(C.L('updated', { h: C.hour(x.updated) }))}` : C.S.stNone);
   const rows = [
     [C.S.stFr, ed(st.edition.fr)], [C.S.stEn, ed(st.edition.en)],
     [C.S.stData, st.data.markets ? C.t(C.dmy(st.data.markets)) : C.S.stNone],
