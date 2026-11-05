@@ -66,6 +66,7 @@ for (const p of [...pages, ...stories]) {
   if (/robots\.txt$/.test(p)) r.text.trim().split('\n').forEach((x) => line(`      ${x}`));
   if (/(feed|atom|all)\.xml$/.test(p)) {
     line(`      ${(r.text.match(/<item>|<entry[ >]/g) || []).length} articles`);
+    await new Promise((ok) => setTimeout(ok, 4000)); // le validateur limite le rythme des requêtes
     const v = await get(`https://validator.w3.org/feed/check.cgi?output=soap12&url=${encodeURIComponent(base + p)}`);
     const valid = (v.text.match(/<m:validity>([^<]*)<\/m:validity>/) || [])[1];
     const errs = (v.text.match(/<m:errorcount>([^<]*)<\/m:errorcount>/) || [])[1];
