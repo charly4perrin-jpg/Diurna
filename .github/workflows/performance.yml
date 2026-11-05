@@ -1,0 +1,51 @@
+# Lighthouse CI sur le site public (mobile), après chaque mise en ligne et à la demande.
+# Objectif : 90 ou plus dans les 4 catégories. Le résultat ne bloque jamais la publication :
+# s'il est sous l'objectif, ce workflow échoue et le journal donne le détail.
+name: Performance
+
+on:
+  page_build:
+  workflow_run:
+    workflows: ["Publier"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'lighthouserc.json'
+      - '.github/workflows/performance.yml'
+      - 'tools/lh-summary.mjs'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: performance
+  cancel-in-progress: true
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Attendre la mise en ligne
+        run: sleep 60
+      - name: Pages à mesurer
+        id: urls
+        run: |
+          BASE=$(node -p "require('./site.json').url.replace(/\/$/, '')")
+          STORY=$(curl -fsSL "$BASE/data/routes.json" | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const r=JSON.parse(s).fr;const d=Object.keys(r).sort().pop();console.log(r[d][1])})")
+          echo "list=$BASE/ $BASE/$STORY $BASE/en/" >> "$GITHUB_OUTPUT"
+      - name: Mesurer
+        run: npx --yes @lhci/cli@0.14.0 collect $(for u in ${{ steps.urls.outputs.list }}; do printf -- '--url=%s ' "$u"; done)
+      - name: Résumé
+        run: node tools/lh-summary.mjs .lighthouseci
+      - name: Rapports publics
+        if: always()
+        run: npx --yes @lhci/cli@0.14.0 upload || true
+      - name: Objectif 90
+        run: npx --yes @lhci/cli@0.14.0 assert
