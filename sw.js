@@ -1,6 +1,6 @@
 // Généré par tools/build.mjs — ne pas modifier à la main.
-const CACHE = 'tp-71dccaef45';
-const SHELL = ["./","globe/","archives/","methode/","manifest.webmanifest","icons/favicon.svg","assets/css/site.css?v=71dccaef45","assets/js/common.js?v=71dccaef45","assets/js/globe.js?v=71dccaef45","assets/js/home.js?v=71dccaef45","assets/js/reader.js?v=71dccaef45","assets/vendor/d3-array.min.js?v=71dccaef45","assets/vendor/d3-geo.min.js?v=71dccaef45","assets/vendor/topojson-client.min.js?v=71dccaef45","assets/world.json","assets/fonts/archivo-latin-standard-normal.woff2","assets/fonts/bodoni-moda-latin-standard-italic.woff2","assets/fonts/bodoni-moda-latin-standard-normal.woff2","assets/fonts/newsreader-latin-standard-italic.woff2","assets/fonts/newsreader-latin-standard-normal.woff2"];
+const CACHE = 'tp-940222e059';
+const SHELL = ["./","globe/","archives/","methode/","manifest.webmanifest","icons/favicon.svg","assets/css/site.css?v=940222e059","assets/js/common.js?v=940222e059","assets/js/globe.js?v=940222e059","assets/js/home.js?v=940222e059","assets/js/reader.js?v=940222e059","assets/vendor/d3-array.min.js?v=940222e059","assets/vendor/d3-geo.min.js?v=940222e059","assets/vendor/topojson-client.min.js?v=940222e059","assets/world.json","assets/fonts/archivo-latin-standard-normal.woff2","assets/fonts/newsreader-latin-standard-italic.woff2","assets/fonts/newsreader-latin-standard-normal.woff2"];
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
 });

@@ -40,7 +40,7 @@ const ICON = {
   recenter: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>',
   install: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>'
 };
-const MARK = '<svg viewBox="0 0 30 22" aria-hidden="true"><rect x="0" y="1" width="30" height="4" rx="2" fill="#F3EFE7"/><rect x="0" y="9" width="22" height="4" rx="2" fill="#F3EFE7"/><rect x="0" y="17" width="14" height="4" rx="2" fill="#FF6A4D"/></svg>';
+const MARK = '<svg viewBox="0 0 30 22" aria-hidden="true"><rect x="0" y="1" width="30" height="4" rx="2" fill="#F2EEE6"/><rect x="0" y="9" width="22" height="4" rx="2" fill="#F2EEE6"/><rect x="0" y="17" width="14" height="4" rx="2" fill="#FF6A4D"/></svg>';
 
 function head({ rootRel, title, desc, cls = '' }) {
   const abs = (site.url || '').replace(/\/$/, '');
@@ -51,7 +51,7 @@ function head({ rootRel, title, desc, cls = '' }) {
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${title}</title>
 <meta name="description" content="${desc}">
-<meta name="theme-color" content="#060B1C">
+<meta name="theme-color" content="#070C1D">
 <link rel="manifest" href="${rootRel}manifest.webmanifest">
 <link rel="icon" href="${rootRel}icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${rootRel}icons/apple-touch-icon.png">
@@ -64,7 +64,6 @@ function head({ rootRel, title, desc, cls = '' }) {
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
 ${abs ? `<meta property="og:image" content="${abs}/og.png">\n<meta name="twitter:card" content="summary_large_image">` : ''}
-<link rel="preload" href="${rootRel}assets/fonts/bodoni-moda-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="${rootRel}assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${rootRel}assets/css/site.css?v=${V}">
 </head>
@@ -77,7 +76,7 @@ function header(rootRel, current) {
 <header class="site-head">
   <a class="mark" href="${rootRel}">${MARK}<span class="mark-name">Trois <em>Phrases</em></span></a>
   <nav class="nav" aria-label="Navigation principale">
-    ${a('globe/', 'Le globe', 'globe')}
+    ${a('globe/', 'L’édition', 'globe')}
     ${a('archives/', 'Archives', 'archives', true)}
     ${a('methode/', 'Méthode', 'methode')}
     <button class="install" type="button" hidden>${ICON.install}Installer l’appli</button>
@@ -88,7 +87,7 @@ function header(rootRel, current) {
 function footer(rootRel) {
   return `
 <footer class="site-foot">
-  <p>${t("Trois Phrases — l'actualité du monde, chaque matin, en cinq sujets.")}</p>
+  <p>${t("Trois Phrases — l'actualité internationale, chaque matin, en cinq sujets.")}</p>
   <nav aria-label="Pied de page"><a href="${rootRel}archives/">Archives</a><a href="${rootRel}methode/">Méthode</a></nav>
 </footer>`;
 }
@@ -97,36 +96,40 @@ const scripts = (rootRel, list) => list.map((s) => `<script src="${rootRel}${s}?
 const VENDOR = ['assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/js/common.js', 'assets/js/globe.js'];
 
 /* ---------- Accueil ---------- */
+const rubric = (s) => `<p class="rubric"><span class="rank">${s.rank}</span>${t(s.section)}${s.radar ? '<span class="radar">Loin des caméras</span>' : ''}</p>`;
+const briefItem = (b) => `<li><b>${t(b.place)}</b>${t(b.text)}${b.url ? ` <a href="${esc(b.url)}" target="_blank" rel="noopener">Source</a>` : ''}</li>`;
+const fHm = new Intl.DateTimeFormat('fr-FR', { hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
+const hour = (iso) => fHm.format(new Date(iso)).replace(':', ' h ');
+
 function home() {
   const summary = ed.essentials.map((s) => `
       <li class="c${s.rank}"><a href="globe/#${s.rank}">
-        <span class="n" aria-hidden="true">${s.rank}</span>
-        <span class="place">${t(s.place)}</span>
+        ${rubric(s)}
         <span class="title">${t(s.title)}</span>
-        ${s.radar ? `<span class="tag">Loin des caméras</span>` : ''}
+        <span class="chapo">${t(s.standfirst)}</span>
       </a></li>`).join('');
   const brief = (ed.brief || []).map((b) => `
-        <li><b>${t(b.place)}</b><span>${b.url ? `<a href="${esc(b.url)}" target="_blank" rel="noopener">${t(b.text)}</a>` : t(b.text)}</span></li>`).join('');
+        ${briefItem(b)}`).join('');
   const agenda = (ed.agenda || []).map((a) => `
         <li><time datetime="${esc(a.d)}">${esc(fDm.format(utc(a.d)))}</time><span>${t(a.t)}</span></li>`).join('');
   const title = 'Trois Phrases — ' + fr(ed.headline);
-  return `${head({ rootRel: '', title: esc(title), desc: t(ed.lede) })}
+  return `${head({ rootRel: '', title: esc(title), desc: t(ed.standfirst) })}
 ${header('', 'home')}
 <main>
   <section class="cover">
     <div class="cover-text">
-      <h1 class="rise">${t(ed.headline)}</h1>
-      <p class="lede rise rise-2">${t(ed.lede)}</p>
-      <p class="edition-line rise rise-3"><span class="num">N° ${ed.number}</span><b>${t(longDate(ed.date))}</b><span>${t('5 sujets · 3 minutes de lecture')}</span></p>
+      <p class="edition-line rise"><b>N° ${ed.number}</b><span>${t(longDate(ed.date))}</span><span>${t('Mise à jour à ' + hour(ed.updated))}</span></p>
+      <h1 class="rise rise-2">${t(ed.headline)}</h1>
+      <p class="chapo rise rise-3">${t(ed.standfirst)}</p>
       <div class="actions rise rise-4">
-        <a class="btn" href="globe/">Ouvrir le globe${ICON.right}</a>
-        <a class="link-quiet" href="#sommaire">Voir les cinq sujets</a>
+        <a class="btn" href="globe/">Lire l’édition${ICON.right}</a>
+        <a class="link-quiet" href="#sommaire">Sommaire</a>
       </div>
     </div>
     <div class="cover-globe" id="coverGlobe"></div>
   </section>
   <section class="band" id="sommaire" aria-labelledby="h-sommaire">
-    <h2 class="band-h" id="h-sommaire">Les cinq essentiels</h2>
+    <h2 class="band-h" id="h-sommaire">Les cinq sujets du jour</h2>
     <ol class="summary">${summary}
     </ol>
     <div class="duo">
@@ -150,15 +153,15 @@ ${scripts('', [...VENDOR, 'assets/js/home.js'])}
 `;
 }
 
-/* ---------- Globe ---------- */
+/* ---------- Édition (globe + lecture) ---------- */
 function globePage() {
-  return `${head({ rootRel: '../', title: esc('Le globe — Trois Phrases'), desc: t(ed.lede), cls: 'reader-page' })}
+  return `${head({ rootRel: '../', title: esc(fr(ed.headline) + ' — Trois Phrases'), desc: t(ed.standfirst), cls: 'reader-page' })}
 ${header('../', 'globe')}
 <main class="reader">
   <h1 class="sr" id="edTitle">${t(ed.headline)}</h1>
   <section class="stage" aria-label="Globe">
     <div class="stage-globe" id="globe"></div>
-    <p class="stage-note">${t('Fais tourner le globe et touche un numéro pour lire le sujet.')}</p>
+    <p class="stage-note">${t('Faites tourner le globe ; un numéro ouvre le sujet correspondant.')}</p>
     <div class="zoom">
       <button id="zin" type="button" aria-label="Zoomer">${ICON.plus}</button>
       <button id="zout" type="button" aria-label="Dézoomer">${ICON.minus}</button>
@@ -166,7 +169,7 @@ ${header('../', 'globe')}
     </div>
   </section>
   <section class="panel" id="panel" aria-label="Lecture de l'édition">
-    <p class="edition-line ed-line" id="edLine"><span class="num">N° ${ed.number}</span><span>${t(longDate(ed.date))}</span></p>
+    <p class="edition-line ed-line" id="edLine"><b>N° ${ed.number}</b><span>${t(longDate(ed.date))}</span></p>
     <nav class="steps" id="steps" aria-label="Sujets de l'édition"></nav>
     <article class="read" id="read" aria-live="polite">
       <div class="loading"><div class="sk big"></div><div class="sk"></div><div class="sk"></div><div class="sk" style="width:70%"></div></div>
@@ -192,7 +195,7 @@ function archives() {
 ${header('../', 'archives')}
 <main class="page">
   <h1>Archives</h1>
-  <p class="intro">${t("Chaque édition reste consultable telle qu'elle a été publiée ce jour-là, globe compris.")}</p>
+  <p class="chapo">${t("Chaque édition reste consultable telle qu'elle a paru ce jour-là, carte comprise.")}</p>
   <ul class="archive">${rows}
   </ul>
 </main>
@@ -209,24 +212,25 @@ function methode() {
   return `${head({ rootRel: '../', title: esc('Méthode — Trois Phrases'), desc: t('Comment chaque édition de Trois Phrases est choisie, écrite et mise à jour.') })}
 ${header('../', 'methode')}
 <main class="page">
-  <h1>Comment c'est fait</h1>
-  <p class="intro">${t("Trois Phrases sert à suivre le monde sans y passer une heure : cinq sujets par jour, trois phrases chacun, et la carte pour voir où ça se passe.")}</p>
+  <h1>Méthode</h1>
+  <p class="chapo">${t("Trois Phrases est un quotidien international bref : cinq sujets chaque matin, choisis en croisant les unes des grandes rédactions, et une carte pour les situer.")}</p>
 
   <h2>Le choix des sujets</h2>
-  ${p("Un sujet entre dans l'édition quand il fait la une d'au moins trois grandes rédactions internationales : Reuters, Associated Press, AFP, BBC, Le Monde, The Economist, Al Jazeera, The New York Times, Financial Times, France 24, The Guardian ou NPR.")}
-  ${p("On garde ce qui change quelque chose cette semaine : un vote, une décision, des combats, un prix, une date. Les tendances de fond attendent qu'un événement les remette au premier plan.")}
-  ${p("Le cinquième sujet est toujours « loin des caméras » : une crise grave dont on parle peu en France.")}
+  ${p("Un sujet entre dans l'édition lorsqu'il est traité en tête par au moins trois rédactions de référence : Reuters, Associated Press, AFP, BBC, Le Monde, The Economist, Al Jazeera, The New York Times, Financial Times, France 24, The Guardian ou NPR.")}
+  ${p("La priorité va aux faits qui changent la situation dans la semaine : un vote, une décision, des combats, une négociation, une échéance. Les tendances de fond attendent qu'un événement les ramène au premier plan.")}
+  ${p("Le cinquième sujet, « Loin des caméras », est réservé à une crise grave peu couverte par la presse française : Soudan, République démocratique du Congo, Sahel, Haïti, Birmanie, Yémen. Il change d'une semaine à l'autre.")}
 
   <h2>L'écriture</h2>
-  ${p("Chaque sujet tient en trois phrases : ce qui se passe, pourquoi, et la suite. Les chiffres et les accusations sont attribués à ceux qui les avancent, et chaque sujet renvoie aux articles qui ont servi à l'écrire.")}
+  ${p("Chaque sujet suit la forme d'un article court : un titre, un chapô, un paragraphe de trois phrases qui pose le fait, en donne les causes et en ouvre la suite, puis une analyse. Des repères chronologiques et les articles de référence complètent chaque sujet.")}
+  ${p("Les chiffres, accusations et revendications sont attribués à ceux qui les avancent. Les textes sont rédigés à partir des sources citées, sans reprise de leurs phrases.")}
 
   <h2>La fabrication</h2>
-  ${p("Les éditions sont préparées automatiquement chaque matin vers 7 h, et mises à jour le soir si un événement majeur survient. Un modèle d'intelligence artificielle (Claude, d'Anthropic) lit les articles des rédactions citées, sélectionne les sujets et rédige les textes en suivant cette charte. En cas de doute sur un fait, ce sont les sources liées sous chaque sujet qui font foi.")}
+  ${p("L'édition est préparée chaque matin vers 7 heures, heure de Paris, et révisée le soir lorsqu'un événement majeur survient. La sélection et la rédaction sont assurées par un modèle d'intelligence artificielle (Claude, développé par Anthropic), selon une charte éditoriale publique. En cas de doute sur un fait, les sources liées sous chaque sujet font foi.")}
 
-  <h2>Installer l'appli</h2>
+  <h2>Installer l'application</h2>
   <ul>
-    <li><strong>${t('Android, Chrome ou Edge')}</strong>${t(' : bouton « Installer l\'appli » en haut de la page, ou menu du navigateur, puis « Installer ».')}</li>
-    <li><strong>iPhone</strong>${t(' : dans Safari, bouton Partager, puis « Sur l\'écran d\'accueil ».')}</li>
+    <li><strong>${t('Android, Chrome ou Edge')}</strong>${t(" : bouton « Installer l'appli » en haut de page, ou menu du navigateur, puis « Installer ».")}</li>
+    <li><strong>iPhone</strong>${t(" : dans Safari, bouton Partager, puis « Sur l'écran d'accueil ».")}</li>
   </ul>
 </main>
 ${footer('../')}

@@ -1,6 +1,6 @@
 # Trois Phrases
 
-L'actualité du monde chaque matin : cinq sujets, trois phrases chacun, et un globe pour voir où ça se passe.
+Un quotidien international bref : cinq sujets chaque matin, écrits comme un article de presse, et un globe pour les situer.
 
 Site statique publié avec GitHub Pages, installable comme application (PWA).
 
