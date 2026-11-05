@@ -1,7 +1,7 @@
 /* Page de l'édition : les cinq essentiels un par un, puis En bref. */
 (function () {
   'use strict';
-  const { t, esc, fr, day, longDate, hour, dayCount, nf, json, icon } = TP;
+  const { t, esc, fr, day, longDate, hour, dayCount, json, icon } = TP;
   const $ = (id) => document.getElementById(id);
   const panel = $('panel'), steps = $('steps'), read = $('read'), edLine = $('edLine');
   const prevBtn = $('prev'), nextBtn = $('next');
@@ -40,7 +40,7 @@
     const meta = [`<b>${t(s.place)}</b>`];
     if (s.since) {
       const n = dayCount(s.since.date, ed.date);
-      meta.push(`<span>${nf.format(n)}${n > 1 ? ' jours ' : ' jour '}${t(s.since.label)}</span>`);
+      meta.push(`<span>${String(n).replace(/\B(?=(\d{3})+(?!\d))/g, '\u202f')}${n > 1 ? ' jours ' : ' jour '}${t(s.since.label)}</span>`);
     }
     meta.push(`<span>${t('Édition du ' + day(ed.date))}</span>`);
 
