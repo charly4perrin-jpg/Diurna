@@ -59,6 +59,7 @@
     install: '<path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>',
     out: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
     close: '<path d="M6 6l12 12M18 6L6 18"/>',
+    share: '<path d="M12 15V3M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/>',
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>'
   };
   const icon = (n) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n] || ''}</svg>`;
@@ -84,11 +85,38 @@
     set(k, v) { try { localStorage.setItem('tp.' + k, JSON.stringify(v)); } catch (_) {} }
   };
 
+  // Mesure d'audience anonyme (GoatCounter, sans cookie, seulement si le site l'a activée).
+  // Un événement n'est qu'un compteur : son nom et un libellé, jamais rien sur le lecteur.
+  // Noms utilisés : fiche-ouverte, pays-clique, quiz-termine, partage, changement-langue,
+  // installation-appli, inscription-newsletter, et module/<nom> pour chaque module interactif.
+  const pending = [];
+  function track(name, label) {
+    const ev = { path: name, title: String(label || name).slice(0, 80), event: true };
+    const gc = global.goatcounter;
+    if (gc && typeof gc.count === 'function') { try { gc.count(ev); } catch (_) {} } else if (pending.length < 30) pending.push(ev);
+  }
+  global.addEventListener('load', () => {
+    const gc = global.goatcounter;
+    if (gc && typeof gc.count === 'function') pending.splice(0).forEach((ev) => { try { gc.count(ev); } catch (_) {} });
+  });
+  // Chaque module n'est compté qu'une fois par sujet affiché.
+  const seen = new Set();
+  const trackOnce = (name, label) => { if (seen.has(name + label)) return; seen.add(name + label); track(name, label); };
+
+  // Partager : la feuille de partage du téléphone, sinon le lien est copié.
+  async function share(title, url) {
+    if (navigator.share) {
+      try { await navigator.share({ title, url }); track('partage', 'natif'); return 'shared'; } catch (e) { if (e && e.name === 'AbortError') return 'cancel'; }
+    }
+    try { await navigator.clipboard.writeText(url); track('partage', 'lien copié'); return 'copied'; } catch (_) { return 'failed'; }
+  }
+
   // Changement de langue : on mémorise le choix et on garde le sujet ouvert (#3) et l'archive (?d=).
   document.addEventListener('click', (e) => {
     const a = e.target.closest('a.lang');
     if (!a) return;
     store.set('lang', a.getAttribute('hreflang'));
+    track('changement-langue', 'vers ' + a.getAttribute('hreflang'));
     a.href = a.href.split(/[?#]/)[0] + location.search + location.hash;
   });
 
@@ -106,6 +134,8 @@
     deferred = null;
     document.querySelectorAll('.install').forEach((x) => { x.hidden = true; });
   });
+  global.addEventListener('appinstalled', () => track('installation-appli'));
+  document.addEventListener('submit', (e) => { if (e.target.matches && e.target.matches('[data-newsletter]')) track('inscription-newsletter', LANG); });
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     global.addEventListener('load', () => navigator.serviceWorker.register(ROOT + 'sw.js').catch(() => {}));
   }
@@ -120,5 +150,5 @@
   const methodHref = () => ROOT + (LANG === 'en' ? 'en/method/' : 'methode/');
   const aiLabel = () => `<span class="ai-label">${t(L('aiLabel'))} · <a href="${methodHref()}">${t(L('aiMore'))}</a></span>`;
 
-  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel };
+  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share };
 })(window);

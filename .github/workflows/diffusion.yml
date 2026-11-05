@@ -1,0 +1,57 @@
+# Chaque matin, après les éditions française (6 h 47) et anglaise (7 h 22) :
+# le carrousel de 6 images pour les réseaux, sa légende, et l'e-mail du jour.
+# Tout se télécharge en bas de la page du workflow (« Artifacts »). Si le secret
+# BUTTONDOWN_API_KEY existe, l'e-mail est aussi déposé dans Buttondown (brouillon par défaut).
+name: Diffusion
+
+on:
+  schedule:
+    - cron: '50 6 * * *'   # 7 h 50 à Paris en hiver, 8 h 50 en été
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/carousel.mjs'
+      - 'tools/newsletter.mjs'
+      - '.github/workflows/diffusion.yml'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  diffusion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Date de l'édition
+        id: ed
+        run: |
+          TODAY=$(TZ=Europe/Paris date +%F)
+          LAST=$(node -p "require('./data/latest.json').date")
+          echo "date=$LAST" >> "$GITHUB_OUTPUT"
+          if [ "$TODAY" != "$LAST" ]; then echo "::warning::L'édition du $TODAY n'est pas encore publiée : diffusion de la dernière ($LAST)."; fi
+      - name: Installer le navigateur
+        run: npm install --no-save playwright@1.49.1 && npx playwright install --with-deps chromium
+      - name: Carrousel (6 images 1080 x 1350 et légende, FR et EN)
+        run: node tools/carousel.mjs out/carrousel
+      - name: E-mail du jour
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+        run: node tools/newsletter.mjs out/e-mail
+      - name: Mettre à disposition
+        uses: actions/upload-artifact@v4
+        with:
+          name: diurna-${{ steps.ed.outputs.date }}
+          path: out/
+          retention-days: 14
+      - name: Alerte
+        if: failure() && github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: tools/alert.sh "Diffusion du jour en échec" "Le carrousel ou l'e-mail du jour n'a pas pu être généré. Détails : $RUN_URL"

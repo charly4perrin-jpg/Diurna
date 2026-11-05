@@ -17,7 +17,7 @@
   const globe = new Globe($('globe'), {
     drag: true, wheel: true, spin: 0, start: [-20, -24],
     label: L('globeLabel'),
-    onPick: (rank) => go(rank)
+    onPick: (rank) => { const s = ed && ed.essentials.find((x) => x.rank === rank); if (s) TP.track('pays-clique', s.id); go(rank); }
   });
   $('zin').addEventListener('click', () => globe.zoomBy(1.3));
   $('zout').addEventListener('click', () => globe.zoomBy(1 / 1.3));
@@ -50,7 +50,9 @@
   }
 
   let first = true;
-  const fold = (label, body) => `<details class="fold"><summary>${label}${icon('plus')}</summary><div class="fold-body">${body}</div></details>`;
+  // Le formulaire de newsletter (s'il est configuré) est rendu par le serveur : on le garde pour « En bref ».
+  const nlHtml = (() => { const n = read.querySelector('.newsletter'); return n ? n.outerHTML : ''; })();
+  const fold = (label, body, key) => `<details class="fold"${key ? ` data-fold="${key}"` : ''}><summary>${label}${icon('plus')}</summary><div class="fold-body">${body}</div></details>`;
 
   // Bandeau d'identité : une ligne repliée, la fiche complète au toucher.
   function idBand(s) {
@@ -143,12 +145,28 @@
         ${Modules.html(s)}
         ${s.analysis ? `<h3>${t(s.analysis.title)}</h3><p class="analysis">${t(s.analysis.text)}</p>` : ''}
         <div class="folds">
-          ${keys ? fold(L('keys'), `<dl class="keys">${keys}</dl>`) : ''}
-          ${ctx ? fold(L('timeline'), `<ol class="timeline">${ctx}</ol>`) : ''}
-          ${src ? fold(L('sources'), `<ul class="sources">${src}</ul>`) : ''}
+          ${keys ? fold(L('keys'), `<dl class="keys">${keys}</dl>`, 'cles') : ''}
+          ${ctx ? fold(L('timeline'), `<ol class="timeline">${ctx}</ol>`, 'reperes') : ''}
+          ${src ? fold(L('sources'), `<ul class="sources">${src}</ul>`, 'sources') : ''}
         </div>
+        ${actions(s)}
         ${nextReads(s)}
       </div>`;
+  }
+
+  // Partager, donner son avis, signaler une erreur. Les deux derniers n'apparaissent que si le site les a configurés.
+  function actions(s) {
+    const url = location.origin + urlOf(s.rank);
+    const fb = B.fb || '', repo = B.repo || '';
+    const avis = fb.startsWith('tally:') ? `https://tally.so/r/${fb.slice(6)}?page=${encodeURIComponent(url)}&lang=${LANG}`
+      : fb.startsWith('mail:') ? `mailto:${fb.slice(5)}?subject=${encodeURIComponent('Diurna — ' + typo(s.title))}&body=${encodeURIComponent(url + '\n\n')}` : '';
+    const issue = repo ? `https://github.com/${repo}/issues/new?template=erreur.yml&page=${encodeURIComponent(url)}&title=${encodeURIComponent((LANG === 'en' ? 'Error: ' : 'Erreur : ') + typo(s.title))}` : '';
+    return `
+        <div class="story-actions">
+          <button class="act" type="button" data-share>${icon('share')}<span>${L('share')}</span></button>
+          ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${L('feedback')}</a>` : ''}
+          ${issue ? `<a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${L('reportError')}</a>` : ''}
+        </div>`;
   }
 
   function briefHtml() {
@@ -163,6 +181,7 @@
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${L('comingUp')}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${t(L('endNote'))}</p>
+        ${nlHtml}
         <p><a class="link-quiet" href="${archives}">${t(L('allEditions'))} →</a></p>
       </div>`;
   }
@@ -172,7 +191,7 @@
     const s = ed.essentials.find((x) => x.rank === step);
     panel.className = 'panel' + (s ? ' c' + s.rank : '');
     read.innerHTML = s ? storyHtml(s) : briefHtml();
-    if (s) Modules.mount(read, s);
+    if (s) { Modules.mount(read, s); TP.track('fiche-ouverte', `${s.rank} · ${s.id}`); }
     read.scrollTop = 0;
     globe.hideCard();
     globe.clearOverlays();
@@ -183,7 +202,7 @@
     prevBtn.innerHTML = `${icon('left')}${L('prev')}`;
     nextBtn.disabled = step === 6;
     nextBtn.innerHTML = step === 5 ? `${L('inBrief')}${icon('right')}` : next ? `${L('next')} <span>· ${flag(C(next.id))}${t(cname(next.id, next.place))}</span>${icon('right')}` : '';
-    document.title = s ? `${typo(s.title)} — Diurna` : `${typo(L('editionOf', { d: TP.dayLong(ed.date) }))} : ${typo(ed.headline)} — Diurna`;
+    document.title = s ? `${typo(s.title)} — Diurna` : `${typo(L('editionOf', { d: TP.dayLong(ed.date) }) + (LANG === 'fr' ? ' : ' : ': ') + ed.headline)} — Diurna`;
     $('edTitle').textContent = typo(s ? s.title : ed.headline);
     // Le lien FR/EN pointe vers le même sujet dans l'autre langue, s'il existe.
     const alt = routes && routes[other] && routes[other][ed.date];
@@ -209,7 +228,27 @@
   // Un clic simple change de sujet sur place ; Ctrl/⌘-clic ouvre la page dans un nouvel onglet.
   const plain = (e) => !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button);
   steps.addEventListener('click', (e) => { const b = e.target.closest('[data-step]'); if (b && ed && plain(e)) { e.preventDefault(); go(Number(b.dataset.step)); } });
-  read.addEventListener('click', (e) => {
+  // Quels modules servent vraiment : on compte la première interaction avec chacun.
+  const modOf = (el) => { const m = el.closest && el.closest('[data-mod]'); return m ? m.dataset.mod : null; };
+  const current = () => (ed ? (ed.essentials.find((x) => x.rank === step) || {}).id || 'bref' : '');
+  read.addEventListener('pointerdown', (e) => { const m = modOf(e.target); if (m) TP.trackOnce('module/' + m, current()); });
+  read.addEventListener('keydown', (e) => { const m = modOf(e.target); if (m) TP.trackOnce('module/' + m, current()); });
+  read.addEventListener('toggle', (e) => {
+    const d = e.target;
+    if (!d.open || !d.classList) return;
+    if (d.classList.contains('explore')) TP.trackOnce('module/explorer-plus', current());
+    else if (d.classList.contains('idband')) TP.trackOnce('module/fiche-pays', current());
+    else if (d.classList.contains('fold')) TP.trackOnce('module/' + (d.dataset.fold || 'repli'), current());
+  }, true);
+  read.addEventListener('click', async (e) => {
+    const sh = e.target.closest('[data-share]');
+    if (sh) {
+      const s = ed.essentials.find((x) => x.rank === step);
+      const r = await TP.share(typo(s ? s.title : ed.headline), location.origin + urlOf(step));
+      if (r === 'copied') { const label = sh.querySelector('span'); label.textContent = L('shareCopied'); setTimeout(() => { label.textContent = L('share'); }, 2200); }
+      return;
+    }
+    if (e.target.closest('[data-feedback]')) TP.track('avis', current());
     const b = e.target.closest('[data-go]');
     if (b && plain(e)) { e.preventDefault(); go(Number(b.dataset.go)); return; }
     const gb = e.target.closest('[data-globe]');

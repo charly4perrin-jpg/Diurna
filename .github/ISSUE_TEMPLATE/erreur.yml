@@ -1,0 +1,29 @@
+name: Signaler une erreur / Report an error
+description: Un fait, un chiffre, une source ou une traduction te semble faux. / A fact, figure, source or translation looks wrong.
+title: "Erreur : "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci ! Indique la page, ce qui est faux et, si possible, une source qui établit le bon fait. Les corrections sont faites lors de l'édition suivante.
+        Thank you! Give the page, what is wrong and, if possible, a source that establishes the correct fact. Corrections are made in the next edition.
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Adresse de la page concernée / Address of the page
+      placeholder: https://…
+    validations:
+      required: true
+  - type: textarea
+    id: erreur
+    attributes:
+      label: "Ce qui est faux / What is wrong"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: "Source qui établit le bon fait / Source for the correct fact"
+      placeholder: https://…

@@ -19,7 +19,9 @@ async function get(url, opts = {}) {
 const pick = (html, re, n = 4) => [...html.matchAll(re)].slice(0, n).map((m) => m[0].replace(/\s+/g, ' ').slice(0, 220));
 
 line(`== Site : ${base}`);
-const pages = ['/', '/en/', '/globe/', '/en/edition/', '/archives/', '/pays/', '/dossiers/', '/recherche/', '/en/country/', '/en/dossiers/', '/methode/', '/status/', '/status.json', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', ...(site.checkPaths || [])];
+const pages = ['/', '/en/', '/globe/', '/en/edition/', '/archives/', '/pays/', '/dossiers/', '/recherche/', '/en/country/', '/en/dossiers/', '/methode/', '/status/',
+  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/',
+  '/status.json', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', '/feed.xml', '/atom.xml', '/en/feed.xml', '/all.xml', ...(site.checkPaths || [])];
 // Les pages des sujets du jour, d'après le plan des adresses publié par le site.
 const routes = await get(base + '/data/routes.json');
 const stories = [];
@@ -50,10 +52,27 @@ for (const p of [...pages, ...stories]) {
         line(`      JSON-LD ${j['@type']} (JSON valide) :${sum}`);
       } catch (e) { line(`      JSON-LD INVALIDE : ${e.message}`); }
     }
-    if (/goatcounter/.test(r.text)) line('      GoatCounter présent');
+    if (/goatcounter/.test(r.text)) line('      GoatCounter présent : ' + ((r.text.match(/data-goatcounter="[^"]*"/) || [])[0] || ''));
+    const foot = (r.text.match(/<footer[\s\S]*?<\/footer>/) || [''])[0];
+    if (foot && (p === '/' || p === '/en/')) line(`      pied de page : ${[...foot.matchAll(/<a [^>]*>([^<]+)<\/a>/g)].map((m) => m[1]).join(' · ')}`);
+    if (/class="support"/.test(r.text)) line('      lien de soutien affiché : ' + ((r.text.match(/<a class="support" href="[^"]*"/) || [])[0] || ''));
+    else if (p === '/' || p === '/en/') line('      lien de soutien : absent (option désactivée ou pas de compte Ko-fi)');
+    if (/class="sponsor"/.test(r.text)) line('      emplacement partenaire affiché');
+    if (/data-newsletter/.test(r.text)) line('      formulaire newsletter présent : ' + ((r.text.match(/action="https:\/\/buttondown[^"]*"/) || [])[0] || ''));
+    const todo = (r.text.match(/class="todo"/g) || []).length;
+    if (todo) line(`      ${todo} champ(s) [À REMPLIR] sur la page`);
   }
   if (/sitemap\.xml$/.test(p)) line(`      ${(r.text.match(/<url>/g) || []).length} adresses${/<\/urlset>\s*$/.test(r.text) ? ', XML complet' : ', XML TRONQUÉ'}`);
   if (/robots\.txt$/.test(p)) r.text.trim().split('\n').forEach((x) => line(`      ${x}`));
+  if (/(feed|atom|all)\.xml$/.test(p)) {
+    line(`      ${(r.text.match(/<item>|<entry[ >]/g) || []).length} articles`);
+    const v = await get(`https://validator.w3.org/feed/check.cgi?output=soap12&url=${encodeURIComponent(base + p)}`);
+    const valid = (v.text.match(/<m:validity>([^<]*)<\/m:validity>/) || [])[1];
+    const errs = (v.text.match(/<m:errorcount>([^<]*)<\/m:errorcount>/) || [])[1];
+    const warns = (v.text.match(/<m:warningcount>([^<]*)<\/m:warningcount>/) || [])[1];
+    line(`      validateur W3C : ${valid === 'true' ? 'VALIDE' : valid === 'false' ? 'INVALIDE' : `pas de réponse (HTTP ${v.status || v.error})`}${errs !== undefined ? `, ${errs} erreur(s), ${warns} avertissement(s)` : ''}`);
+    for (const m of v.text.matchAll(/<m:text>([^<]*)<\/m:text>/g)) line(`        · ${m[1]}`);
+  }
 }
 
 for (const old of legacy) {

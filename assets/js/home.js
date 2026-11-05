@@ -11,7 +11,7 @@
   const globe = new Globe(host, {
     drag: true, wheel: false, spin: 0.0055, start: [-20, -24],
     label: TP.L('homeGlobe'),
-    onPick: (rank) => { location.href = TP.ROOT + (routes[rank] || (TP.LANG === 'en' ? 'en/edition/#' : 'globe/#') + rank); }
+    onPick: (rank) => { TP.track('pays-clique', 'accueil · ' + rank); location.href = TP.ROOT + (routes[rank] || (TP.LANG === 'en' ? 'en/edition/#' : 'globe/#') + rank); }
   });
   Promise.all([TP.json('assets/world.json'), TP.json((host.dataset.lang === 'en' ? 'data/en/' : 'data/') + 'latest.json').catch(() => TP.json('data/latest.json')), TP.json('data/countries.json').catch(() => ({}))]).then(([world, ed, countries]) => {
     globe.setMeta(countries);

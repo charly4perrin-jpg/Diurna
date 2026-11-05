@@ -19,13 +19,19 @@ const countries = readJ('data/countries.json', {});
 const gov = readJ('data/gov.json', {});
 const abs = (site.url || '').replace(/\/$/, '');
 const NOW = Date.now();
+// Comptes externes : tant qu'un champ est vide dans site.json, la fonction correspondante n'apparaît pas.
+const GC = /^[a-z0-9-]{2,40}$/.test(site.goatcounter || '') ? site.goatcounter : '';
+const REPO = site.repo || 'charly4perrin-jpg/Diurna';
+const BD = /^[A-Za-z0-9_-]{2,40}$/.test(site.buttondown || '') ? site.buttondown : '';
+const SPONSOR = site.sponsor && site.sponsor.enabled && site.sponsor.name ? site.sponsor : null;
+const FB = /^[A-Za-z0-9]{3,20}$/.test(site.tally || '') ? `tally:${site.tally}` : /^[^@\s"<>]+@[^@\s"<>]+\.[a-z]{2,}$/i.test(site.contact || '') ? `mail:${site.contact}` : '';
 
 const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/' }
 };
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
@@ -52,7 +58,8 @@ const ICON = {
   plus: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
   minus: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>',
   recenter: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>',
-  install: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>'
+  install: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>',
+  share: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/></svg>'
 };
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const utc = (d) => { const p = String(d).split('-').map(Number); return Date.UTC(p[0], (p[1] || 1) - 1, p[2] || 1); };
@@ -199,8 +206,9 @@ ${abs ? `<meta property="og:url" content="${abs}/${p}">
 ${(o.jsonld || []).map(ldScript).join('\n')}
 <link rel="preload" href="${rootRel}assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${rootRel}assets/css/site.css?v=${V}">
+${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>` : ''}
 </head>
-<body data-root="${rootRel}"${o.data ? ' ' + o.data : ''}>
+<body data-root="${rootRel}" data-repo="${esc(REPO)}"${FB ? ` data-fb="${esc(FB)}"` : ''}${o.data ? ' ' + o.data : ''}>
 <header class="site-head">
   <a class="mark" href="${rootRel}${P.home}" aria-label="${esc(C.S.home)}"><span class="mark-name" aria-hidden="true">DIURNA<span class="mark-dot">.</span></span><span class="mark-sub">${C.t(C.S.sub)}</span></a>
   <nav class="nav" aria-label="${esc(C.S.navMain)}">
@@ -220,14 +228,38 @@ ${o.after || ''}
 `;
 }
 function footer(C, rootRel) {
-  const P = FIXED[C.lang];
+  const P = FIXED[C.lang], r = rootRel, a = (href, label, extra = '') => `<a href="${r}${href}"${extra}>${label}</a>`;
+  const kofi = site.kofi && site.support !== false ? `<a class="support" href="https://ko-fi.com/${esc(site.kofi)}" rel="noopener" target="_blank">${C.S.navSupport}</a>` : '';
   return `<footer class="site-foot">
-  <p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span> ${C.t(C.S.sub)}</p>
-  <nav aria-label="${esc(C.S.navFoot)}"><a href="${rootRel}${P.archives}">${C.S.navArchives}</a><a href="${rootRel}${P.method}">${C.S.navMethod}</a><a href="${rootRel}${P.search}">${C.S.navSearch}</a><a href="${rootRel}${P.status}">${C.S.navStatus}</a></nav>
+  <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
+  <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
+    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
+    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.method, C.S.navMethod)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
+    <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.credits, C.S.navCredits)}</div>
+  </nav>
 </footer>`;
 }
 const BASE = ['assets/js/i18n.js', 'assets/js/common.js'];
 const VENDOR = ['assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', ...BASE, 'assets/js/globe.js'];
+
+/* ---------- Newsletter (Buttondown) et partenaire : affichés seulement s'ils sont configurés ---------- */
+function newsletterForm(C, where) {
+  if (!BD) return '';
+  const id = `nl-${where}`;
+  return `<section class="newsletter" aria-labelledby="${id}-h">
+    <h2 class="band-h" id="${id}-h">${C.S.nlTitle}</h2>
+    <p>${C.t(C.S.nlText)}</p>
+    <form class="nl-form" action="https://buttondown.com/api/emails/embed-subscribe/${BD}" method="post" target="_blank" data-newsletter>
+      <label class="sr" for="${id}">${C.S.nlLabel}</label>
+      <input id="${id}" type="email" name="email" required autocomplete="email" placeholder="${esc(C.S.nlPh)}">
+      <input type="hidden" name="embed" value="1">
+      <input type="hidden" name="tag" value="${C.lang}">
+      <button class="btn" type="submit">${C.S.nlBtn}</button>
+    </form>
+    <p class="nl-note"><a href="${C.rootRel}${FIXED[C.lang].privacy}">${C.S.nlPrivacy}</a></p>
+  </section>`;
+}
+const sponsorLine = (C) => (SPONSOR ? `<p class="sponsor">${C.t(C.L('sponsoredBy', { x: '' }).trim())} <a href="${esc(SPONSOR.url)}" rel="sponsored noopener" target="_blank">${C.t(SPONSOR.name)}</a><span class="sponsor-note">${C.t(C.S.sponsorNote)}</span></p>` : '');
 
 /* ---------- Image de partage propre à chaque sujet (générée au déploiement) ---------- */
 const ogFor = (lang, date, rank) => {
@@ -273,7 +305,7 @@ function storySSR(C, ed, s) {
   meta.push(`<span>${C.t(C.L('editionOf', { d: C.day(ed.date) }))}</span>`);
   if (s.dossier) meta.push(`<a class="dossier" href="${r}${dossierPath(C.lang, s.dossier.id)}">${C.t(C.S.dossier)} · ${C.t(s.dossier.title)}</a>`);
   meta.push(`<span class="ai-label">${C.t(C.S.aiLabel)} · <a href="${r}${FIXED[C.lang].method}">${C.t(C.S.aiMore)}</a></span>`);
-  const fold = (label, body) => `<details class="fold"><summary>${label}${ICON.plus}</summary><div class="fold-body">${body}</div></details>`;
+  const fold = (label, body, key) => `<details class="fold" data-fold="${key}"><summary>${label}${ICON.plus}</summary><div class="fold-body">${body}</div></details>`;
   const keys = (s.keys || []).map((k) => `<div><dt>${C.t(k.title)}</dt><dd>${C.t(k.text)}</dd></div>`).join('');
   const ctx = (s.context || []).map((c) => `<li class="${utc(c.d) > utc(ed.date) ? 'soon' : ''}"><time datetime="${esc(c.d)}">${esc(C.day(c.d, ed.date))}</time><span>${C.t(c.t)}</span></li>`).join('');
   const src = (s.sources || []).map((x) => `<li><b>${C.t(x.name)}</b><a href="${esc(x.url)}" target="_blank" rel="noopener">${C.t(x.title)}</a></li>`).join('');
@@ -289,9 +321,21 @@ function storySSR(C, ed, s) {
         <p class="body">${(s.body || []).map(C.t).join(' ')}</p>
         ${fig}
         ${s.analysis ? `<h3>${C.t(s.analysis.title)}</h3><p class="analysis">${C.t(s.analysis.text)}</p>` : ''}
-        <div class="folds">${keys ? fold(C.S.keys, `<dl class="keys">${keys}</dl>`) : ''}${ctx ? fold(C.S.timeline, `<ol class="timeline">${ctx}</ol>`) : ''}${src ? fold(C.S.sources, `<ul class="sources">${src}</ul>`) : ''}</div>
+        <div class="folds">${keys ? fold(C.S.keys, `<dl class="keys">${keys}</dl>`, 'cles') : ''}${ctx ? fold(C.S.timeline, `<ol class="timeline">${ctx}</ol>`, 'reperes') : ''}${src ? fold(C.S.sources, `<ul class="sources">${src}</ul>`, 'sources') : ''}</div>
+        ${actionsSSR(C, ed, s)}
         <section class="nextreads" aria-labelledby="nr-h"><h3 id="nr-h">${C.S.readNext}</h3><ul>${next}</ul></section>
       </div>`;
+}
+function actionsSSR(C, ed, s) {
+  const url = `${abs}/${storyPath(C.lang, ed.date, s.slug)}`;
+  const avis = FB.startsWith('tally:') ? `https://tally.so/r/${FB.slice(6)}?page=${encodeURIComponent(url)}&lang=${C.lang}`
+    : FB.startsWith('mail:') ? `mailto:${FB.slice(5)}?subject=${encodeURIComponent('Diurna — ' + C.typo(s.title))}&body=${encodeURIComponent(url + '\n\n')}` : '';
+  const issue = `https://github.com/${REPO}/issues/new?template=erreur.yml&page=${encodeURIComponent(url)}&title=${encodeURIComponent((C.lang === 'en' ? 'Error: ' : 'Erreur : ') + C.typo(s.title))}`;
+  return `<div class="story-actions">
+          <button class="act" type="button" data-share>${ICON.share}<span>${C.S.share}</span></button>
+          ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${C.S.feedback}</a>` : ''}
+          <a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${C.S.reportError}</a>
+        </div>`;
 }
 function briefSSR(C, ed) {
   const r = C.rootRel;
@@ -304,6 +348,7 @@ function briefSSR(C, ed) {
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${C.S.comingUp}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${C.t(C.S.endNote)}</p>
+        ${newsletterForm(C, 'bref')}
       </div>`;
 }
 
@@ -319,7 +364,7 @@ function readerPage(C, ed, rank) {
   const isLatest = ed.date === latestOf(C.lang).date;
   const steps = ed.essentials.map((x) => `<a class="step c${x.rank}" href="${r}${storyPath(C.lang, ed.date, x.slug)}" data-step="${x.rank}" aria-label="${esc(x.rank + '. ' + C.cname(x.id, x.place))}"${x.rank === rank ? ' aria-current="step"' : ''}>${x.rank}</a>`).join('')
     + `<a class="step brief-step" href="${r}${datePath(C.lang, ed.date)}" data-step="6"${rank === 'bref' ? ' aria-current="step"' : ''}>${C.S.inBrief}</a>`;
-  const title = s ? `${C.typo(s.title)} — Diurna` : `${C.typo(C.L('editionOf', { d: C.dayLong(ed.date) }))} : ${C.typo(ed.headline)} — Diurna`;
+  const title = s ? `${C.typo(s.title)} — Diurna` : `${C.typo(C.L('editionOf', { d: C.dayLong(ed.date) }) + (C.lang === 'fr' ? ' : ' : ': ') + ed.headline)} — Diurna`;
   const desc = C.t(s ? s.standfirst : ed.standfirst);
   const edLabel = C.typo(C.L('editionOf', { d: C.dayLong(ed.date) }));
   const jsonld = [crumbs([['Diurna', FIXED[C.lang].home], [edLabel, datePath(C.lang, ed.date)], ...(s ? [[C.cname(s.id, s.place), p]] : [])])];
@@ -351,6 +396,7 @@ function readerPage(C, ed, rank) {
   </section>
   <section class="panel${s ? ' c' + s.rank : ''}" id="panel" aria-label="${esc(C.S.panelLabel)}">
     <p class="edition-line ed-line" id="edLine"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span>${latestLine}</p>
+    ${SPONSOR ? `<div class="ed-sponsor">${sponsorLine(C)}</div>` : ''}
     <nav class="steps" id="steps" aria-label="${esc(C.S.stepsLabel)}">${steps}</nav>
     <article class="read" id="read" aria-live="polite">
       ${s ? storySSR(C, ed, s) : briefSSR(C, ed)}
@@ -394,6 +440,7 @@ function home(C) {
       <h1 class="rise rise-2">${C.t(ed.headline)}</h1>
       <p class="chapo rise rise-3">${C.t(ed.standfirst)}</p>
       <p class="ai-label rise rise-3">${C.t(C.S.aiLabel)} · <a href="${r}${FIXED[C.lang].method}">${C.t(C.S.aiMore)}</a></p>
+      ${sponsorLine(C)}
       <div class="actions rise rise-4">
         <a class="btn" href="${url(ed.essentials[0])}">${C.S.readEdition}${ICON.right}</a>
         <a class="link-quiet" href="#sommaire">${C.S.contents}</a>
@@ -417,6 +464,7 @@ function home(C) {
         </ul>
       </section>
     </div>
+    ${newsletterForm(C, 'home')}
   </section>
 </main>`;
   return page(C, {
@@ -544,6 +592,7 @@ function dossierPage(C, id, items) {
   <h1>${C.t(title)}</h1>
   <p class="chapo">${C.t(C.L('dossierDesc', { x: title }))}</p>
   ${listItems(C, items)}
+  <p class="more-links"><a href="feed.xml" type="application/rss+xml">${C.S.navFeed}</a><a href="atom.xml" type="application/atom+xml">Atom</a></p>
 </main>`, scripts: BASE
   });
 }
@@ -615,6 +664,19 @@ function method(C) {
     body: `<main class="page">${METHOD[C.lang](C.t)}</main>`, scripts: BASE
   });
 }
+const PAGES = require('./pages-content.cjs');
+const TODO = { fr: 'À REMPLIR', en: 'TO FILL IN' };
+function infoPage(C, key) {
+  const p = FIXED[C.lang][key]; C.rootRel = rootRelOf(p);
+  const x = { t: C.t, site: { ...site, repo: REPO }, r: C.rootRel, P: { ...FIXED[C.lang], credits: FIXED[C.lang].credits }, lang: C.lang,
+    todo: (label) => `<mark class="todo">${C.t(`[${TODO[C.lang]}${C.lang === 'fr' ? ' : ' : ': '}${label}]`)}</mark>` };
+  const T = { about: ['aboutTitle', 'aboutDesc'], legal: ['legalTitle', 'legalDesc'], privacy: ['privacyTitle', 'privacyDesc'], credits: ['creditsTitle', 'creditsDesc'] }[key];
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr[key], en: FIXED.en[key] }, title: esc(C.S[T[0]] + ' — Diurna'), desc: C.t(C.S[T[1]]),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S[T[0]], p]])],
+    body: `<main class="page page-info">${PAGES[key][C.lang](x)}</main>`, scripts: BASE
+  });
+}
 function statusData() {
   const fr = LATEST.fr, en = LATEST.en;
   const mk = readJ('data/markets.json', {}), ind = readJ('data/indicators.json', {}), al = readJ('data/alerts.json', null);
@@ -643,6 +705,89 @@ function status(C, st) {
 </main>`, scripts: BASE,
     after: `<script>(function(){var d=document.getElementById('stLine').dataset.fr,t=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris'}).format(new Date());document.getElementById('stLine').textContent=d===t?${JSON.stringify(C.S.stOk)}:${JSON.stringify(C.S.stLate)};})();</script>`
   });
+}
+
+/* ---------- Flux RSS et Atom : tout, par langue, par dossier ---------- */
+const xesc = (str) => String(str ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&apos;' }[c]));
+function feedItems(lang, filter) {
+  const C = makeCtx(lang), out = [];
+  for (const ed of EDS[lang].slice().reverse()) {
+    ed.essentials.forEach((s) => {
+      if (filter && !filter(s)) return;
+      const url = `${abs}/${storyPath(lang, ed.date, s.slug)}`;
+      const html = `<p><strong>${esc(C.typo(s.standfirst))}</strong></p><p>${esc((s.body || []).map(C.typo).join(' '))}</p><p><em>${esc(C.typo(C.S.aiLabel))}.</em></p>`;
+      out.push({ lang, url, title: C.typo(s.title), html, section: s.section, dossier: s.dossier && s.dossier.title, date: `${ed.date}T07:00:00+01:00`, updated: ed.updated, img: ogFor(lang, ed.date, s.rank) });
+    });
+  }
+  return out;
+}
+function rss({ title, desc, home, self, lang, items }) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>${xesc(title)}</title>
+<link>${xesc(home)}</link>
+<description>${xesc(desc)}</description>
+<language>${lang}</language>
+<atom:link href="${xesc(self)}" rel="self" type="application/rss+xml"/>
+<image><url>${abs}/icons/icon-192.png</url><title>${xesc(title)}</title><link>${xesc(home)}</link></image>
+${items[0] ? `<lastBuildDate>${new Date(items[0].updated).toUTCString()}</lastBuildDate>` : ''}
+${items.map((i) => `<item>
+<title>${xesc(i.title)}</title>
+<link>${xesc(i.url)}</link>
+<guid isPermaLink="true">${xesc(i.url)}</guid>
+<pubDate>${new Date(i.date).toUTCString()}</pubDate>
+<category>${xesc(i.section)}</category>${i.dossier ? `\n<category>${xesc(i.dossier)}</category>` : ''}
+<description>${xesc(i.html)}</description>${i.img ? `\n<media:content url="${xesc(i.img)}" medium="image" type="image/jpeg" width="1200" height="630"/>` : ''}
+</item>`).join('\n')}
+</channel>
+</rss>
+`;
+}
+function atom({ title, desc, home, self, lang, items }) {
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="${lang}">
+<title>${xesc(title)}</title>
+<subtitle>${xesc(desc)}</subtitle>
+<id>${xesc(self)}</id>
+<link rel="self" type="application/atom+xml" href="${xesc(self)}"/>
+<link rel="alternate" type="text/html" href="${xesc(home)}"/>
+<updated>${new Date(items[0] ? items[0].updated : NOW).toISOString()}</updated>
+<author><name>Diurna</name><uri>${abs}/</uri></author>
+<icon>${abs}/icons/icon-192.png</icon>
+${items.map((i) => `<entry xml:lang="${i.lang}">
+<title>${xesc(i.title)}</title>
+<link rel="alternate" type="text/html" href="${xesc(i.url)}"/>
+<id>${xesc(i.url)}</id>
+<published>${new Date(i.date).toISOString()}</published>
+<updated>${new Date(i.updated).toISOString()}</updated>
+<category term="${xesc(i.section)}"/>
+<content type="html">${xesc(i.html)}</content>
+</entry>`).join('\n')}
+</feed>
+`;
+}
+const FEED_MAX = 60;
+function writeFeeds() {
+  const list = [];
+  const both = (base, meta) => {
+    wr(base + 'feed.xml', rss({ ...meta, self: `${abs}/${base}feed.xml` }));
+    wr(base + 'atom.xml', atom({ ...meta, self: `${abs}/${base}atom.xml` }));
+    list.push(base + 'feed.xml', base + 'atom.xml');
+  };
+  for (const lang of LANGS) {
+    const S = I18N[lang], items = feedItems(lang).slice(0, FEED_MAX);
+    both(PRE[lang], { title: 'Diurna', desc: S.sub, home: `${abs}/${FIXED[lang].home}`, lang, items });
+    for (const [id, its] of COL[lang].byDossier) {
+      const t = its[its.length - 1].dossier.title;
+      both(dossierPath(lang, id), { title: `Diurna — ${makeCtx(lang).typo(t)}`, desc: makeCtx(lang).L('dossierDesc', { x: t }), home: `${abs}/${dossierPath(lang, id)}`, lang, items: feedItems(lang, (s) => s.dossier && s.dossier.id === id).slice(0, FEED_MAX) });
+    }
+  }
+  const all = [...feedItems('fr'), ...feedItems('en')].sort((a, b) => b.date.localeCompare(a.date) || a.lang.localeCompare(b.lang)).slice(0, FEED_MAX * 2);
+  wr('all.xml', rss({ title: 'Diurna (FR + EN)', desc: `${I18N.fr.sub} / ${I18N.en.sub}`, home: `${abs}/`, self: `${abs}/all.xml`, lang: 'fr', items: all }));
+  wr('all.atom.xml', atom({ title: 'Diurna (FR + EN)', desc: `${I18N.fr.sub} / ${I18N.en.sub}`, home: `${abs}/`, self: `${abs}/all.atom.xml`, lang: 'fr', items: all }));
+  list.push('all.xml', 'all.atom.xml');
+  return list;
 }
 
 /* ---------- Sitemaps et robots ---------- */
@@ -714,6 +859,7 @@ for (const lang of LANGS) {
   wr(P.method + 'index.html', method(C));
   wr(P.status + 'index.html', status(C, ST));
   wr(P.search + 'index.html', searchPage(C));
+  for (const key of ['about', 'legal', 'privacy', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
   wr(dataOf(lang, 'search.json'), JSON.stringify(searchIndex(lang)));
   SM.push({ path: P.home, lastmod: latestOf(lang).updated.slice(0, 10), alt: { fr: FIXED.fr.home, en: FIXED.en.home } });
   SM.push({ path: P.archives, alt: { fr: FIXED.fr.archives, en: FIXED.en.archives } }, { path: P.method, alt: { fr: FIXED.fr.method, en: FIXED.en.method } });
@@ -723,9 +869,10 @@ for (const lang of LANGS) {
   for (const [id, items] of COL[lang].byDossier) { const p = dossierPath(lang, id); wr(p + 'index.html', dossierPage(C, id, items)); SM.push({ path: p, alt: dossierAlt(lang, id) ? { [lang]: p, [OTHER[lang]]: dossierAlt(lang, id) } : null }); count++; }
 }
 wr('data/routes.json', JSON.stringify(routes));
+const FEEDS = writeFeeds();
 const { sitemap, news, robots } = sitemaps(SM);
 wr('sitemap.xml', sitemap); wr('news-sitemap.xml', news); wr('robots.txt', robots);
 wr('en/manifest.webmanifest', manifestEn());
 const shellPages = [FIXED.fr.home, FIXED.en.home, editionHome('fr'), editionHome('en'), FIXED.fr.archives, FIXED.en.archives, FIXED.fr.method, FIXED.en.method];
 wr('sw.js', sw([...new Set(shellPages)]));
-console.log(`Pages générées (assets ${V}) — ${count} pages d'édition, pays et dossiers ; FR : ${LATEST.fr.date}${LATEST.en ? `, EN : ${LATEST.en.date}` : ''} ; sitemap : ${SM.length} adresses.`);
+console.log(`Pages générées (assets ${V}) — ${count} pages d'édition, pays et dossiers ; FR : ${LATEST.fr.date}${LATEST.en ? `, EN : ${LATEST.en.date}` : ''} ; sitemap : ${SM.length} adresses ; ${FEEDS.length} flux.`);

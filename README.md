@@ -28,3 +28,35 @@ Aucune dépendance à installer : Node 18 ou plus suffit.
 - `data/countries.json` : capitale, population, langues, monnaie, continent et drapeau de chaque pays du globe. Généré par `node tools/countries.mjs <countries.json> <population.csv>` à partir de [mledoze/countries](https://github.com/mledoze/countries) et des données de population de la Banque mondiale ([datasets/population](https://github.com/datasets/population)). À relancer une fois par an.
 - `data/gov.json` : dirigeants et régime des pays de l'édition, vérifiés chaque jour par la mise à jour automatique (voir `EDITORIAL.md`).
 - `assets/flags/` : drapeaux de [flag-icons](https://github.com/lipis/flag-icons) (licence MIT) ; les plus lourds sont convertis en WebP.
+
+## Configuration : `site.json`
+
+Une seule ligne à changer pour déménager le site : `url` (sans barre finale). Tout le reste du site
+utilise des chemins relatifs. Les comptes externes restent éteints tant que leur champ est vide.
+
+| Champ | Rôle |
+|---|---|
+| `url` | adresse publique du site (`https://diurna.world` quand le domaine sera branché) |
+| `legacy` | anciennes adresses, contrôlées par le workflow « Contrôle en ligne » |
+| `domain` | domaine choisi : le contrôle en ligne vérifie ses DNS |
+| `repo` | dépôt GitHub (formulaire « Signaler une erreur ») |
+| `contact` | adresse e-mail publique de contact (mentions légales, confidentialité, « Ton avis ? » si pas de Tally) |
+| `goatcounter` | code du site GoatCounter (`diurna` pour `https://diurna.goatcounter.com`) : active la mesure d'audience |
+| `buttondown` | nom d'utilisateur Buttondown : affiche le formulaire d'inscription |
+| `newsletter` | `{ "mode": "draft" ou "send", "langs": ["fr"] }` : brouillon (par défaut) ou envoi automatique |
+| `tally` | identifiant du formulaire Tally (`https://tally.so/r/XXXX`) pour « Ton avis ? » |
+| `kofi` | identifiant Ko-fi : affiche « Soutenir Diurna » dans le pied de page |
+| `support` | `false` masque le lien de soutien même si `kofi` est rempli |
+| `sponsor` | `{ "enabled": false, "name": "", "url": "" }` : bandeau « Édition soutenue par… » |
+| `license`, `license_en` | licence des textes, affichée dans les mentions légales |
+| `googleVerification` | jeton de vérification Google Search Console (méthode « balise HTML ») |
+
+Secrets GitHub Actions (jamais dans le site) : `BUTTONDOWN_API_KEY` pour déposer l'e-mail du jour.
+
+## Workflows
+
+- **Publier** : valide l'édition et les liens, construit, déploie (si Pages est en mode « GitHub Actions »), alerte en cas d'échec.
+- **Données chiffrées** : marchés, taux, inflation, catastrophes, chaque matin.
+- **Diffusion** : carrousel de 6 images 1080 × 1350 avec légende, et e-mail du jour, à télécharger dans « Artifacts ».
+- **Surveillance** : vérifie matin et soir que l'édition du jour est en ligne.
+- **Contrôle en ligne** : preuves du site public (codes HTTP, balises, données structurées, flux validés par le W3C).
