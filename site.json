@@ -1,19 +1,6 @@
 {
-  "url": "https://charly4perrin-jpg.github.io/trois-phrases",
-  "legacy": [],
-  "domainCandidates": [
-    "diurna.fr",
-    "diurna.eu",
-    "diurna.news",
-    "getdiurna.com",
-    "diurna.org",
-    "diurna.net",
-    "diurna.info",
-    "diurna.media",
-    "diurna.app",
-    "diurna.world",
-    "lediurna.fr",
-    "diurna-info.fr",
-    "diurnanews.com"
-  ]
+  "url": "https://charly4perrin-jpg.github.io/diurna",
+  "legacy": ["https://charly4perrin-jpg.github.io/trois-phrases"],
+  "domain": "diurna.world",
+  "domainCandidates": ["diurna.world"]
 }

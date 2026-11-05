@@ -107,6 +107,23 @@ même structure et mêmes modules que l'édition française.
 - Les champs de `data/gov.json` existent en anglais : `regime_en`, `role_en`, et `name_en` quand
   la graphie anglaise d'un nom diffère.
 
+## 3 quater. Dossiers et adresses
+
+Chaque sujet qui s'inscrit dans une histoire suivie sur plusieurs jours est rattaché à un
+**dossier** : `"dossier": { "id": "guerre-ukraine", "title": "La guerre en Ukraine" }`.
+
+- Réutilise l'`id` existant quand l'histoire continue (liste dans `dossiers/` et dans les
+  éditions récentes) : c'est lui qui rassemble les sujets sur la page du dossier.
+- `id` : minuscules, chiffres et tirets, 40 caractères au plus. `title` : 1 à 8 mots.
+- En anglais, le dossier a son propre `id` et son propre titre (`"ukraine-war"`, « The war in
+  Ukraine ») ; le lien entre les deux langues se fait par le rang du sujet le même jour.
+- Un sujet ponctuel peut ne pas avoir de dossier.
+
+L'adresse d'un sujet est `/AAAA/MM/JJ/<slug>/` (et `/en/AAAA/MM/JJ/<slug>/`). **N'écris jamais
+le champ `slug`** : `tools/build.mjs` le crée à partir du titre la première fois, le note dans
+`data/slugs.json` et ne le change plus, même si le titre est corrigé le soir, pour que les liens
+partagés restent valables.
+
 ## 4. Fichiers
 
 ```
@@ -118,6 +135,8 @@ data/en/…                        la même chose en anglais (latest.json, editi
 data/gov.json                    dirigeants et régime des pays cités, vérifiés (voir ci-dessous)
 data/countries.json              fiche fixe de chaque pays (capitale, population…) : ne pas modifier
                                  à la main, regénérée par tools/countries.mjs
+data/slugs.json                  adresses des sujets, tenues par tools/build.mjs : ne pas modifier
+data/routes.json, data/search.json  générés par tools/build.mjs : ne pas modifier
 ```
 
 ### Dirigeants et régime : `data/gov.json`
@@ -170,7 +189,9 @@ peuvent y être ajoutés de la même façon.
       "zones": [ { "id": "HORMUZ", "name": "Ormuz", "coords": [56.4, 26.5] } ],  // optionnel
       "context": [ { "d": "2026-02-28", "t": "…" } ],         // 3 à 6 repères, du plus ancien
                                                                // au plus récent ; dates futures permises
-      "sources": [ { "name": "Al Jazeera", "title": "…", "url": "https://…", "date": "2026-11-04" } ]
+      "sources": [ { "name": "Al Jazeera", "title": "…", "url": "https://…", "date": "2026-11-04" } ],
+      "dossier": { "id": "guerre-iran", "title": "La guerre avec l’Iran" }   // optionnel, voir 3 quater
+      // "slug" : ajouté par tools/build.mjs, ne pas l'écrire
     }
   ],
   "brief": [ { "id": "BRA", "place": "Brésil", "text": "Une phrase de 20 à 45 mots.", "url": "https://…" } ],
@@ -196,5 +217,7 @@ la carte (Bahreïn, Singapour, Malte…) se placent avec `focus` et une entrée 
    vérifier et mettre à jour `data/gov.json` pour les pays de l'édition. L'édition anglaise suit
    (même procédure dans `data/en/`).
 2. `node tools/validate.mjs` doit répondre `OK`.
-3. `node tools/build.mjs` régénère les pages.
-4. Commit `Édition du <date>` puis push sur `main` : le site se met à jour en une à deux minutes.
+3. `node tools/og-images.mjs` dessine l'image de partage de chaque sujet (si l'outil échoue,
+   continuer : la page garde l'image générique).
+4. `node tools/build.mjs` régénère les pages, les adresses, le plan du site et la recherche.
+5. Commit `Édition du <date>` puis push sur `main` : le site se met à jour en une à deux minutes.

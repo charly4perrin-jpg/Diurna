@@ -158,7 +158,12 @@
           "url": "https://www.10things.news/p/10-things-global-news-5th-november-4d0",
           "date": "2026-11-05"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "us-midterms-2026",
+        "title": "The US midterms"
+      },
+      "slug": "midterms-democrats-retake-congress-trump-pays-price-iran"
     },
     {
       "rank": 2,
@@ -398,7 +403,12 @@
           "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
           "date": "2026-11-03"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "washington-tehran-fears-return-war-after-us-vote"
     },
     {
       "rank": 3,
@@ -567,7 +577,12 @@
           "url": "https://meduza.io/en/feature/2026/10/12/how-would-nato-defeat-a-russian-invasion-its-top-commander-envisions-a-wall-of-drones-a-counteroffensive-and-missile-strikes-deep-behind-russian-lines",
           "date": "2026-10-12"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "russia-targets-ukraine-power-grid-ahead-new-talks"
     },
     {
       "rank": 4,
@@ -746,7 +761,12 @@
           "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds",
           "date": "2026-11-03"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israel and Gaza"
+      },
+      "slug": "israel-left-without-majority-after-election-strikes-go"
     },
     {
       "rank": 5,
@@ -921,7 +941,12 @@
           "url": "https://thenationalnews.com/news/mena/2026/11/02/talks-with-rsf-on-transition-to-civilian-rule-in-sudan-expected-within-weeks-says-un-envoy",
           "date": "2026-11-02"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "sudan-war",
+        "title": "The war in Sudan"
+      },
+      "slug": "sudan-drone-war-strangling-civilians"
     }
   ],
   "brief": [

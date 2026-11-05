@@ -1,0 +1,6 @@
+# Diurna
+User-agent: *
+Allow: /
+
+Sitemap: https://charly4perrin-jpg.github.io/diurna/sitemap.xml
+Sitemap: https://charly4perrin-jpg.github.io/diurna/news-sitemap.xml

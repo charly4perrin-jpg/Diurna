@@ -1,13 +1,18 @@
-/* Page de l'édition : les cinq essentiels un par un, puis En bref. Français ou anglais selon la page. */
+/* Page de l'édition : les cinq essentiels un par un, puis En bref. Français ou anglais selon la page.
+   Chaque sujet a sa propre adresse (/AAAA/MM/JJ/slug/) et son texte est déjà dans la page :
+   ce script allume le globe, ajoute les modules et passe d'un sujet à l'autre sans recharger. */
 (function () {
   'use strict';
   const { t, esc, typo, L, LANG, DATA, day, longDate, hour, dayCount, int, json, icon, flag, cfield, population, store } = TP;
   const $ = (id) => document.getElementById(id);
   const panel = $('panel'), steps = $('steps'), read = $('read'), edLine = $('edLine');
   const prevBtn = $('prev'), nextBtn = $('next');
-  const params = new URLSearchParams(location.search);
-  const wanted = params.get('d');
-  let ed = null, step = 1, countries = {}, gov = {}, world = null;
+  const B = document.body.dataset;
+  const isLatest = B.latest === '1';
+  let ed = null, step = B.rank === 'bref' ? 6 : Number(B.rank) || 1, countries = {}, gov = {}, world = null, routes = null;
+  const other = LANG === 'en' ? 'fr' : 'en';
+  const datePath = () => TP.ROOT + (LANG === 'en' ? 'en/' : '') + ed.date.replace(/-/g, '/') + '/';
+  const urlOf = (n) => { const s = ed.essentials.find((x) => x.rank === n); return s ? datePath() + s.slug + '/' : datePath(); };
 
   const globe = new Globe($('globe'), {
     drag: true, wheel: true, spin: 0, start: [-20, -24],
@@ -25,19 +30,26 @@
   const C = (id) => countries[id] || null;
   const cname = (id, fb) => cfield(C(id), 'name') || fb;
 
+  // Anciennes adresses (#1 à #5, #bref) et retour arrière : on retrouve le sujet.
   function stepFromHash() {
     const h = location.hash.replace('#', '');
     if (h === 'bref') return 6;
     const n = Number(h);
-    return n >= 1 && n <= 5 ? n : 1;
+    return n >= 1 && n <= 5 ? n : 0;
+  }
+  function stepFromPath() {
+    const slug = location.pathname.replace(/\/$/, '').split('/').pop();
+    const s = ed.essentials.find((x) => x.slug === slug);
+    return s ? s.rank : 6;
   }
 
   function renderSteps() {
     steps.innerHTML = ed.essentials.map((s) =>
-      `<button class="step c${s.rank}" data-step="${s.rank}" aria-label="${t(s.rank + '. ' + cname(s.id, s.place))}"${step === s.rank ? ' aria-current="step"' : ''}>${s.rank}</button>`
-    ).join('') + `<button class="step brief-step" data-step="6"${step === 6 ? ' aria-current="step"' : ''}>${L('inBrief')}</button>`;
+      `<a class="step c${s.rank}" href="${urlOf(s.rank)}" data-step="${s.rank}" aria-label="${t(s.rank + '. ' + cname(s.id, s.place))}"${step === s.rank ? ' aria-current="step"' : ''}>${s.rank}</a>`
+    ).join('') + `<a class="step brief-step" href="${datePath()}" data-step="6"${step === 6 ? ' aria-current="step"' : ''}>${L('inBrief')}</a>`;
   }
 
+  let first = true;
   const fold = (label, body) => `<details class="fold"><summary>${label}${icon('plus')}</summary><div class="fold-body">${body}</div></details>`;
 
   // Bandeau d'identité : une ligne repliée, la fiche complète au toucher.
@@ -93,10 +105,10 @@
       <section class="nextreads" aria-labelledby="nr-h">
         <h3 id="nr-h">${L('readNext')}</h3>
         <ul>${related(s).map((o) => `
-          <li><button class="nr c${o.rank}" type="button" data-go="${o.rank}">
+          <li><a class="nr c${o.rank}" href="${urlOf(o.rank)}" data-go="${o.rank}">
             <span class="rubric"><span class="rank">${o.rank}</span>${flag(C(o.id))}${t(cname(o.id, o.place))}</span>
             <span class="nr-t">${t(o.title)}</span>
-          </button></li>`).join('')}
+          </a></li>`).join('')}
         </ul>
       </section>`;
   }
@@ -109,6 +121,7 @@
       meta.push(`<b>${t(L(n > 1 ? 'days' : 'day1', { n: int(n), label: s.since.label }))}</b>`);
     }
     meta.push(`<span>${t(L('editionOf', { d: day(ed.date) }))}</span>`);
+    if (s.dossier) meta.push(`<a class="dossier" href="${TP.ROOT}${LANG === 'en' ? 'en/' : ''}dossiers/${esc(s.dossier.id)}/">${t(L('dossier'))} · ${t(s.dossier.title)}</a>`);
     meta.push(TP.aiLabel());
 
     const keys = (s.keys || []).map((k) => `<div><dt>${t(k.title)}</dt><dd>${t(k.text)}</dd></div>`).join('');
@@ -120,7 +133,7 @@
     const acc = C(s.id) && C(s.id).accent;
 
     return `
-      <div class="article swap"${acc ? ` style="--acc:${acc}"` : ''}>
+      <div class="article${first ? '' : ' swap'}"${acc ? ` style="--acc:${acc}"` : ''}>
         ${idBand(s)}
         <p class="rubric"><span class="rank">${s.rank}</span>${t(s.section)}${s.radar ? `<span class="radar">${L('radar')}</span>` : ''}</p>
         <h2>${t(s.title)}</h2>
@@ -143,7 +156,7 @@
     const agenda = (ed.agenda || []).map((a) => `<li><time datetime="${esc(a.d)}">${esc(day(a.d, ed.date))}</time><span>${t(a.t)}</span></li>`).join('');
     const archives = TP.ROOT + (LANG === 'en' ? 'en/archives/' : 'archives/');
     return `
-      <div class="article swap">
+      <div class="article${first ? '' : ' swap'}">
         <p class="rubric">${t(L('elsewhere'))}</p>
         <h2>${L('inBrief')}</h2>
         <p class="byline">${TP.aiLabel()}</p>
@@ -170,14 +183,22 @@
     prevBtn.innerHTML = `${icon('left')}${L('prev')}`;
     nextBtn.disabled = step === 6;
     nextBtn.innerHTML = step === 5 ? `${L('inBrief')}${icon('right')}` : next ? `${L('next')} <span>· ${flag(C(next.id))}${t(cname(next.id, next.place))}</span>${icon('right')}` : '';
-    document.title = (s ? `${typo(cname(s.id, s.place))} — ` : `${L('inBrief')} — `) + 'Diurna';
+    document.title = s ? `${typo(s.title)} — Diurna` : `${typo(L('editionOf', { d: TP.dayLong(ed.date) }))} : ${typo(ed.headline)} — Diurna`;
+    $('edTitle').textContent = typo(s ? s.title : ed.headline);
+    // Le lien FR/EN pointe vers le même sujet dans l'autre langue, s'il existe.
+    const alt = routes && routes[other] && routes[other][ed.date];
+    const lang = document.querySelector('a.lang');
+    if (lang && alt) lang.href = TP.ROOT + (step === 6 ? alt.bref : alt[step] || alt.bref);
+    first = false;
   }
 
   const mobile = () => window.matchMedia('(max-width: 900px)').matches;
   function go(n) {
-    step = Math.max(1, Math.min(6, n));
-    const h = step === 6 ? '#bref' : '#' + step;
-    if (location.hash !== h) history.replaceState(null, '', location.pathname + location.search + h);
+    n = Math.max(1, Math.min(6, n));
+    if (n === step) return;
+    step = n;
+    const url = urlOf(step);
+    if (location.pathname !== new URL(url, location.href).pathname) history.pushState({ step }, '', url);
     render(true);
     const top = panel.getBoundingClientRect().top + window.scrollY - 4;
     if (mobile() && window.scrollY > top) window.scrollTo({ top, behavior: 'smooth' });
@@ -185,10 +206,12 @@
   // Sur téléphone, le globe est au-dessus : on y remonte quand un module l'utilise.
   const toGlobe = () => { if (mobile()) window.scrollTo({ top: 0, behavior: 'smooth' }); };
 
-  steps.addEventListener('click', (e) => { const b = e.target.closest('[data-step]'); if (b) go(Number(b.dataset.step)); });
+  // Un clic simple change de sujet sur place ; Ctrl/⌘-clic ouvre la page dans un nouvel onglet.
+  const plain = (e) => !(e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button);
+  steps.addEventListener('click', (e) => { const b = e.target.closest('[data-step]'); if (b && ed && plain(e)) { e.preventDefault(); go(Number(b.dataset.step)); } });
   read.addEventListener('click', (e) => {
     const b = e.target.closest('[data-go]');
-    if (b) { go(Number(b.dataset.go)); return; }
+    if (b && plain(e)) { e.preventDefault(); go(Number(b.dataset.go)); return; }
     const gb = e.target.closest('[data-globe]');
     if (gb) { try { globe.highlight(JSON.parse(gb.dataset.globe).groups); toGlobe(); } catch (_) {} return; }
     const pl = e.target.closest('[data-place]');
@@ -206,28 +229,24 @@
     if (e.key === 'ArrowRight') go(step + 1);
     if (e.key === 'ArrowLeft') go(step - 1);
   });
-  window.addEventListener('hashchange', () => { const n = stepFromHash(); if (n !== step) { step = n; render(true); } });
+  window.addEventListener('popstate', () => { if (!ed) return; const n = stepFromPath(); if (n !== step) { step = n; render(true); } });
+  window.addEventListener('hashchange', () => { const n = stepFromHash(); if (n) go(n); });
 
-  const src = wanted && /^\d{4}-\d{2}-\d{2}$/.test(wanted) ? `${DATA}editions/${wanted}.json` : `${DATA}latest.json`;
+  const src = `${DATA}editions/${B.date}.json`;
   const soft = (p) => json(p).catch(() => ({}));
-  Promise.all([json('assets/world.json'), json(src), soft('data/countries.json'), soft('data/gov.json'), soft('data/markets.json'), soft('data/indicators.json')]).then(([w, edition, cs, gv, mk, ind]) => {
-    ed = edition; countries = cs; gov = gv; world = w;
+  Promise.all([json('assets/world.json'), json(src), soft('data/countries.json'), soft('data/gov.json'), soft('data/markets.json'), soft('data/indicators.json'), soft('data/routes.json')]).then(([w, edition, cs, gv, mk, ind, rt]) => {
+    ed = edition; countries = cs; gov = gv; world = w; routes = rt;
     globe.setMeta(countries);
     globe.load(world);
     globe.setStories(ed.essentials, 0);
     Modules.setData({ ed, countries, markets: mk, indicators: ind, world: topojson.feature(w, w.objects.countries) });
-    const archive = !!wanted;
-    const todayHref = location.pathname;
-    edLine.innerHTML = `<b>${L('no', { n: ed.number })}</b><span>${t(longDate(ed.date))}</span>`
-      + (archive ? `<a href="${todayHref}">${t(L('backToday'))}</a>` : `<span>${t(L('updated', { h: hour(ed.updated) }))}</span>`)
-      + (!archive && TP.stale(ed.date) ? `<span class="preparing">${t(L('preparing'))}</span>` : '');
-    $('edTitle').textContent = typo(ed.headline);
-    step = stepFromHash();
+    if (isLatest && TP.stale(ed.date)) edLine.insertAdjacentHTML('beforeend', `<span class="preparing">${t(L('preparing'))}</span>`);
+    const h = stepFromHash();
+    if (h) { step = h; history.replaceState({ step }, '', urlOf(step)); }
+    history.replaceState({ step }, '', location.pathname);
     render(true);
   }).catch(() => {
-    const frHref = TP.ROOT + 'globe/' + location.search + location.hash;
-    read.innerHTML = LANG === 'en' && wanted
-      ? `<p class="err">${t(L('notTranslated'))} <a href="${frHref}" hreflang="fr">${t('Lire en français')} →</a></p>`
-      : `<p class="err">${t(L('loadError'))}</p>`;
+    // Le texte du sujet est déjà dans la page : seul le globe manque. On le signale sans effacer l'article.
+    $('globe').insertAdjacentHTML('beforeend', `<p class="err">${t(L('loadError'))}</p>`);
   });
 })();

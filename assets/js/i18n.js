@@ -56,6 +56,15 @@
       statusTitle: 'Statut du site', statusDesc: 'Heure de la dernière édition publiée et des dernières données.',
       stFr: 'Édition française', stEn: 'Édition anglaise', stData: 'Données chiffrées', stBuild: 'Site généré',
       stNone: 'aucune', stOk: 'Tout est à jour.', stLate: 'L’édition du jour n’est pas encore publiée.',
+      navSearch: 'Rechercher', searchTitle: 'Rechercher', searchDesc: 'Retrouve un sujet, un pays ou un dossier dans toutes les éditions de Diurna.',
+      searchPh: 'Un pays, un mot, un dossier…', searchNone: 'Aucun résultat.', searchCount: '{n} résultat(s)', searchHint: 'Tape au moins deux lettres.',
+      kindStory: 'Sujet', kindCountry: 'Pays', kindDossier: 'Dossier',
+      countries: 'Pays', countryDesc: 'Tous les sujets de Diurna consacrés à ce pays : {x}.',
+      dossier: 'Dossier', dossiers: 'Dossiers', dossierDesc: 'Le suivi de Diurna, jour après jour : {x}.',
+      browseBy: 'Chercher un pays ou un dossier :', byCountry: 'Par pays', byDossier: 'Par dossier',
+      countriesDesc: 'Les pays traités par Diurna, avec tous leurs sujets, du plus récent au plus ancien.',
+      dossiersDesc: 'Les grandes histoires que Diurna suit dans la durée, jour après jour.',
+      nStory: '{n} sujet', nStories: '{n} sujets',
       stAlert: 'Dernière publication bloquée', stWatch: 'Chaque matin à 8 h 30 et chaque soir à 20 h 15, un contrôle automatique vérifie que l’édition du jour est en ligne ; en cas d’échec, une alerte est envoyée et le site garde l’édition précédente.'
     },
     en: {
@@ -105,6 +114,15 @@
       statusTitle: 'Site status', statusDesc: 'When the latest edition and the latest data were published.',
       stFr: 'French edition', stEn: 'English edition', stData: 'Public data', stBuild: 'Site built',
       stNone: 'none', stOk: 'Everything is up to date.', stLate: 'Today’s edition has not been published yet.',
+      navSearch: 'Search', searchTitle: 'Search', searchDesc: 'Find a story, a country or a running story in every edition of Diurna.',
+      searchPh: 'A country, a word, a running story…', searchNone: 'No results.', searchCount: '{n} result(s)', searchHint: 'Type at least two letters.',
+      kindStory: 'Story', kindCountry: 'Country', kindDossier: 'Running story',
+      countries: 'Countries', countryDesc: 'Every Diurna story about this country: {x}.',
+      dossier: 'Running story', dossiers: 'Running stories', dossierDesc: 'Diurna’s day-by-day coverage: {x}.',
+      browseBy: 'Look up a country or a running story:', byCountry: 'By country', byDossier: 'By running story',
+      countriesDesc: 'Every country Diurna has covered, with all its stories, newest first.',
+      dossiersDesc: 'The big stories Diurna follows over time, day after day.',
+      nStory: '{n} story', nStories: '{n} stories',
       stAlert: 'Last blocked publication', stWatch: 'Every morning at 8.30am and every evening at 8.15pm (Paris time), an automatic check makes sure today’s edition is online; if it is not, an alert is sent and the site keeps the previous edition.'
     }
   };

@@ -105,9 +105,17 @@ function checkEdition(ed, where, lang = 'fr') {
     const src = e.sources || [];
     if (src.length < 2 || src.length > 5) fail(w, 'sources : 2 à 5');
     src.forEach((s) => { if (!s.name || !s.title || !isUrl(s.url)) fail(w, 'source invalide'); });
+    // Adresse et dossier : le slug est donné par tools/build.mjs (ne pas l'écrire, ne jamais le modifier).
+    if (e.slug !== undefined && !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(e.slug)) fail(w, 'slug invalide (minuscules, chiffres et tirets)');
+    if (e.dossier !== undefined) {
+      if (!e.dossier || !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(e.dossier.id || '') || e.dossier.id.length > 40) fail(w, 'dossier.id : minuscules, chiffres et tirets, 40 caractères au plus');
+      if (e.dossier) range(w, 'dossier.title', e.dossier.title, 1, 8);
+    }
     const all = [e.title, e.standfirst, ...(e.body || []), e.analysis && e.analysis.text, ...(e.keys || []).map((k) => k.text)].join(' ');
     if (lang === 'fr' && /(?<![\p{L}\u2019'])(tu|toi|ton|ta|tes|te)(?![\p{L}])/iu.test(all)) fail(w, 'pas de tutoiement dans les articles');
   });
+  const slugs = es.map((e) => e.slug).filter(Boolean);
+  if (new Set(slugs).size !== slugs.length) fail(where, 'deux sujets ont le même slug');
   const br = ed.brief || [];
   if (br.length < 2 || br.length > 5) fail(where, 'brief : 2 à 5 lignes');
   br.forEach((b) => { if (!b.place) fail(where, 'brief sans lieu'); range(where, `brief ${b.place}`, b.text, 8, 50); if (b.url && !isUrl(b.url)) fail(where, `brief ${b.place} : url invalide`); });

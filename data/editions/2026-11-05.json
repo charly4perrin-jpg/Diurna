@@ -157,7 +157,12 @@
           "url": "https://www.10things.news/p/10-things-global-news-5th-november-4d0",
           "date": "2026-11-05"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "midterms-2026",
+        "title": "Les élections de mi-mandat américaines"
+      },
+      "slug": "midterms-democrates-reprennent-congres-trump-paie-prix-guerre"
     },
     {
       "rank": 2,
@@ -397,7 +402,12 @@
           "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
           "date": "2026-11-03"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "guerre-iran",
+        "title": "La guerre avec l’Iran"
+      },
+      "slug": "washington-teheran-crainte-reprise-guerre-apres-scrutin"
     },
     {
       "rank": 3,
@@ -566,7 +576,12 @@
           "url": "https://meduza.io/en/feature/2026/10/12/how-would-nato-defeat-a-russian-invasion-its-top-commander-envisions-a-wall-of-drones-a-counteroffensive-and-missile-strikes-deep-behind-russian-lines",
           "date": "2026-10-12"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "ukraine-russie-prend-reseau-electrique-avant-nouveaux-pourparlers"
     },
     {
       "rank": 4,
@@ -745,7 +760,12 @@
           "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds",
           "date": "2026-11-03"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israël et Gaza"
+      },
+      "slug": "israel-sans-majorite-apres-legislatives-gaza-sous-feu"
     },
     {
       "rank": 5,
@@ -920,7 +940,12 @@
           "url": "https://thenationalnews.com/news/mena/2026/11/02/talks-with-rsf-on-transition-to-civilian-rule-in-sudan-expected-within-weeks-says-un-envoy",
           "date": "2026-11-02"
         }
-      ]
+      ],
+      "dossier": {
+        "id": "guerre-soudan",
+        "title": "La guerre au Soudan"
+      },
+      "slug": "soudan-guerre-drones-etrangle-civils"
     }
   ],
   "brief": [
