@@ -53,6 +53,15 @@ const CAPITAL = {
   TTO: 'Port of Spain', SSD: 'Djouba'
 };
 
+// Capitales en anglais quand la base anglaise ne convient pas.
+const CAPITAL_EN = {
+  USA: 'Washington, DC', ISR: 'Jerusalem (disputed status)', PSE: 'Ramallah (seat of the Palestinian Authority)',
+  ESH: 'Laayoune (disputed territory)', SOL: 'Hargeisa', XKX: 'Pristina', GNQ: 'Malabo', SWZ: 'Mbabane', ZAF: 'Pretoria',
+  BOL: 'Sucre', MEX: 'Mexico City', PAN: 'Panama City', GTM: 'Guatemala City', KWT: 'Kuwait City', YEM: "Sana'a"
+};
+const NAME_EN = { XKX: 'Kosovo', SOL: 'Somaliland', CYN: 'Northern Cyprus', COD: 'DR Congo', COG: 'Republic of the Congo', PSE: 'Palestine', CIV: "Côte d'Ivoire", MKD: 'North Macedonia', CZE: 'Czechia', TLS: 'Timor-Leste', SWZ: 'Eswatini' };
+const CONTINENT_EN = { Afrique: 'Africa', Asie: 'Asia', Europe: 'Europe', Océanie: 'Oceania', 'Amérique du Nord': 'North America', 'Amérique du Sud': 'South America' };
+
 const SUB = {
   'South America': 'Amérique du Sud', 'North America': 'Amérique du Nord', 'Central America': 'Amérique du Nord', Caribbean: 'Amérique du Nord'
 };
@@ -67,9 +76,16 @@ const FIX = {
   PSE: { currencies: ['nouveau shekel israélien', 'dinar jordanien'] }
 };
 const CURRENCY = { USD: 'dollar américain', IRR: 'rial iranien' };
+const CURRENCY_EN = { USD: 'US dollar', IRR: 'Iranian rial' };
+const FIX_EN = { ISR: { languages: ['Hebrew', 'Arabic'] }, PSE: { currencies: ['Israeli new shekel', 'Jordanian dinar'] } };
+const accentsFile = path.join(root, 'tools/flag-accents.json');
+const ACCENTS = fs.existsSync(accentsFile) ? JSON.parse(fs.readFileSync(accentsFile, 'utf8')) : {};
 
 const lang = new Intl.DisplayNames('fr', { type: 'language' });
 const cur = new Intl.DisplayNames('fr', { type: 'currency' });
+const langEn = new Intl.DisplayNames('en', { type: 'language' });
+const curEn = new Intl.DisplayNames('en', { type: 'currency' });
+const regionEn = new Intl.DisplayNames('en', { type: 'region' });
 const flagDir = path.join(root, 'assets/flags');
 const flags = new Set(fs.existsSync(flagDir) ? fs.readdirSync(flagDir) : []);
 const flagFile = (a2) => a2 && (flags.has(a2 + '.svg') ? a2 + '.svg' : flags.has(a2 + '.webp') ? a2 + '.webp' : null);
@@ -91,6 +107,16 @@ for (const g of world.objects.countries.geometries) {
   if (m && m.currencies) e.currencies = Object.keys(m.currencies).slice(0, 2).map((k) => { if (CURRENCY[k]) return CURRENCY[k]; try { return cur.of(k); } catch (_) { return m.currencies[k].name; } });
   e.continent = (m && (SUB[m.subregion] || REGION[m.region])) || (EXTRA[a3] && EXTRA[a3].continent) || null;
   Object.assign(e, FIX[a3] || {});
+  if (e.a2 && ACCENTS[e.a2]) e.accent = ACCENTS[e.a2];
+  // Version anglaise
+  const en = { name: NAME_EN[a3] || (m && m.name && m.name.common) || (e.a2 ? regionEn.of(e.a2.toUpperCase()) : g.properties.fr) };
+  const capEn = CAPITAL_EN[a3] || (m && m.capital && m.capital[0]);
+  if (capEn) en.capital = capEn;
+  if (m && m.languages) en.languages = Object.keys(m.languages).slice(0, 3).map((k) => { try { return langEn.of(k); } catch (_) { return m.languages[k]; } });
+  if (m && m.currencies) en.currencies = Object.keys(m.currencies).slice(0, 2).map((k) => CURRENCY_EN[k] || m.currencies[k].name);
+  if (e.continent) en.continent = CONTINENT_EN[e.continent] || e.continent;
+  Object.assign(en, FIX_EN[a3] || {});
+  e.en = en;
   out[a3] = e;
 }
 fs.writeFileSync(path.join(root, 'data/countries.json'), JSON.stringify(out));

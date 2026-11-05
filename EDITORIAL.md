@@ -64,6 +64,49 @@ jamais de vouvoiement non plus : on écrit de manière impersonnelle, à la troi
 - Typographie française : espace insécable avant « : ; ? ! », guillemets « », apostrophe ’
   (le site l'applique automatiquement à l'affichage).
 
+## 3 bis. Types d'actualité et modules
+
+Chaque sujet reçoit 1 à 3 **types**, le principal d'abord : `conflict`, `election`, `economy`,
+`diplomacy`, `disaster`, `society`. La fiche affiche automatiquement les modules de ces types,
+dans `modules`. **Règle absolue : un module n'est écrit que si ses données sont vérifiées et
+sourcées.** Sinon on l'omet : jamais de module vide, jamais de chiffre estimé, jamais de citation.
+
+| Module | Pour | Contenu |
+|---|---|---|
+| `toll` | conflit, catastrophe | bilans chiffrés, chacun avec `value`, `label`, `by` (qui l'avance), `date` |
+| `places` | conflit, catastrophe | lieux cités : `name`, `coords` [lon, lat] vérifiées, `note` |
+| `sides` | conflit | camps (`groups` : `name`, `lead`, `ids`, `note`, `backers` [{`id`, `note`}]) et `mediators` |
+| `vote` | élection | `title`, `date`, `asOf`, `system`, `note`, `bodies` [{`name`, `total`, `majority`, `parties` [{`name`, `value`, `color`}], `rest`}] |
+| `scenarios` | élection | « ce qui change si… » : `items` [{`if`, `then`}], uniquement des conséquences établies ou attribuées |
+| `table` | diplomatie | pays à la table (`ids`, `host`), `positions` [{`who`, `wants`}], `next` {`d`, `t`} |
+| `impact` | tous | « ce que ça change pour toi » : 15 à 70 mots, un effet concret et chiffré pour un jeune en France (en anglais : en Europe), écrit de façon impersonnelle |
+| `market` | économie | `{ "series": "brent", "from": "AAAA-MM-JJ", "mark": { "d": "…", "label": "…" } }` : la courbe vient de `data/markets.json` |
+| `rate` | économie | `{ "currency": "USD" }` : taux BCE, seulement pour les monnaies publiées par la BCE |
+| `inflation` | économie | `{}` : dernier chiffre de la Banque mondiale pour le pays |
+| `help` | catastrophe, crise humanitaire | `{ "orgs": [...] }`, uniquement parmi `icrc`, `ifrc`, `msf`, `unicef`, `wfp`, `unhcr`, `crf` |
+| `actors`, `dates` | société | acteurs (`name`, `role`) ; trois dates (`d`, `t`) |
+
+- Chaque module porte une `source` { `name`, `url` } (ou une source par élément), sauf
+  `market`, `rate`, `inflation` et `help`, alimentés par les données publiques ou une liste fermée.
+- Le compteur de durée vient de `since` ; le chiffre du jour de `figure`.
+- `colors` des partis : `blue`, `red`, `amber`, `green`, `violet`, `grey`.
+- Les données chiffrées publiques (`data/markets.json`, `data/indicators.json`, `data/hazards.json`)
+  sont récupérées chaque matin vers 5 h 30 par la GitHub Action « Données chiffrées » : ne pas les
+  modifier à la main.
+
+## 3 ter. L'édition anglaise
+
+Chaque édition existe aussi en anglais, dans `data/en/editions/<date>.json` (copie dans
+`data/en/latest.json`, liste dans `data/en/index.json`). Mêmes rangs, mêmes pays, même numéro,
+même structure et mêmes modules que l'édition française.
+
+- Elle est **écrite pour un lecteur anglophone**, pas traduite mot à mot : anglais britannique,
+  ton d'un quotidien de référence (*The Economist*, *The Guardian*), graphies anglaises (Kyiv,
+  Netanyahu, al-Burhan, Hemedti), chiffres à l'anglaise (15,172 ; $107 ; €2.29).
+- `impact` vise un jeune Européen en général, pas seulement un Français.
+- Les champs de `data/gov.json` existent en anglais : `regime_en`, `role_en`, et `name_en` quand
+  la graphie anglaise d'un nom diffère.
+
 ## 4. Fichiers
 
 ```
@@ -71,6 +114,7 @@ data/latest.json                 l'édition du jour (copie exacte du fichier dat
 data/editions/AAAA-MM-JJ.json    une édition par jour, jamais modifiée après coup
                                  (sauf mise à jour du soir le même jour)
 data/index.json                  liste des éditions, la plus récente en premier
+data/en/…                        la même chose en anglais (latest.json, editions/, index.json)
 data/gov.json                    dirigeants et régime des pays cités, vérifiés (voir ci-dessous)
 data/countries.json              fiche fixe de chaque pays (capitale, population…) : ne pas modifier
                                  à la main, regénérée par tools/countries.mjs
@@ -115,7 +159,9 @@ peuvent y être ajoutés de la même façon.
       "radar": false,                // true uniquement pour le rang 5
       "title": "…",
       "standfirst": "…",
+      "types": ["diplomacy", "conflict", "economy"],
       "body": ["phrase 1", "phrase 2", "phrase 3"],
+      "modules": { "table": { … }, "toll": { … }, "market": { "series": "brent", "from": "2026-01-01" } },
       "figure": { "value": "≈ 100 $", "label": "le prix du baril de Brent", "compare": "contre environ 72 $ avant la guerre" },
       "since": { "date": "2026-02-28", "label": "de guerre" },  // optionnel
       "analysis": { "title": "…", "text": "…" },
@@ -147,7 +193,8 @@ la carte (Bahreïn, Singapour, Malte…) se placent avec `focus` et une entrée 
 ## 5. Publier
 
 1. Écrire `data/editions/<date>.json`, copier vers `data/latest.json`, mettre à jour `data/index.json`,
-   vérifier et mettre à jour `data/gov.json` pour les pays de l'édition.
+   vérifier et mettre à jour `data/gov.json` pour les pays de l'édition. L'édition anglaise suit
+   (même procédure dans `data/en/`).
 2. `node tools/validate.mjs` doit répondre `OK`.
 3. `node tools/build.mjs` régénère les pages.
 4. Commit `Édition du <date>` puis push sur `main` : le site se met à jour en une à deux minutes.

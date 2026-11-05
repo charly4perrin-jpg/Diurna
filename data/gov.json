@@ -1,11 +1,165 @@
 {
-  "USA": { "regime": "République fédérale, régime présidentiel", "leaders": [{ "role": "Président", "name": "Donald Trump" }], "checked": "2026-11-05", "source": { "name": "CNBC", "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html" } },
-  "IRN": { "regime": "République islamique", "leaders": [{ "role": "Guide suprême", "name": "Mojtaba Khamenei" }, { "role": "Président", "name": "Massoud Pezeshkian" }], "checked": "2026-11-05", "source": { "name": "Wikipédia", "url": "https://en.wikipedia.org/wiki/Mojtaba_Khamenei" } },
-  "UKR": { "regime": "République semi-présidentielle, sous loi martiale", "leaders": [{ "role": "Président", "name": "Volodymyr Zelensky" }], "checked": "2026-11-05", "source": { "name": "Kyiv Post", "url": "https://www.kyivpost.com/post/89070" } },
-  "ISR": { "regime": "Démocratie parlementaire", "leaders": [{ "role": "Premier ministre (affaires courantes)", "name": "Benyamin Nétanyahou" }, { "role": "Président", "name": "Isaac Herzog" }], "checked": "2026-11-05", "source": { "name": "Al-Monitor", "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-set-remain-caretaker-after-inconclusive-israeli-election" } },
-  "SDN": { "regime": "Pouvoir militaire de transition, en guerre civile", "leaders": [{ "role": "Président du Conseil de souveraineté", "name": "Abdel Fattah Al-Bourhane" }, { "role": "Premier ministre", "name": "Kamil Idris" }], "checked": "2026-11-05", "source": { "name": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/06/29/sudans-army-aligned-prime-minister-under-fire-for-worsening-services/" } },
-  "IDN": { "regime": "République présidentielle", "leaders": [{ "role": "Président", "name": "Prabowo Subianto" }], "checked": "2026-11-05", "source": { "name": "KSAT (AP)", "url": "https://www.ksat.com/news/world/2026/11/04/indonesia-deploys-thousands-of-troops-after-generals-arrested-over-wiretapping-allegations/" } },
-  "BRA": { "regime": "République fédérale, régime présidentiel", "leaders": [{ "role": "Président", "name": "Luiz Inácio Lula da Silva" }], "checked": "2026-11-05", "source": { "name": "NPR", "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election" } },
-  "HUN": { "regime": "Démocratie parlementaire", "leaders": [{ "role": "Premier ministre", "name": "Péter Magyar" }], "checked": "2026-11-05", "source": { "name": "Euronews", "url": "https://www.euronews.com/my-europe/2026/05/09/peter-magyar-sworn-in-as-hungarys-new-prime-minister-after-landslide-april-election-victor" } },
-  "FRA": { "regime": "République semi-présidentielle", "leaders": [{ "role": "Président", "name": "Emmanuel Macron" }], "checked": "2026-11-05", "source": { "name": "Élysée", "url": "https://www.elysee.fr/agenda-novembre-1371" } }
+ "USA": {
+  "regime": "République fédérale, régime présidentiel",
+  "leaders": [
+   {
+    "role": "Président",
+    "name": "Donald Trump",
+    "role_en": "President"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+  },
+  "regime_en": "Federal republic, presidential system"
+ },
+ "IRN": {
+  "regime": "République islamique",
+  "leaders": [
+   {
+    "role": "Guide suprême",
+    "name": "Mojtaba Khamenei",
+    "role_en": "Supreme Leader"
+   },
+   {
+    "role": "Président",
+    "name": "Massoud Pezeshkian",
+    "role_en": "President",
+    "name_en": "Masoud Pezeshkian"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "Wikipédia",
+   "url": "https://en.wikipedia.org/wiki/Mojtaba_Khamenei",
+   "name_en": "Wikipedia"
+  },
+  "regime_en": "Islamic republic"
+ },
+ "UKR": {
+  "regime": "République semi-présidentielle, sous loi martiale",
+  "leaders": [
+   {
+    "role": "Président",
+    "name": "Volodymyr Zelensky",
+    "role_en": "President"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "Kyiv Post",
+   "url": "https://www.kyivpost.com/post/89070"
+  },
+  "regime_en": "Semi-presidential republic, under martial law"
+ },
+ "ISR": {
+  "regime": "Démocratie parlementaire",
+  "leaders": [
+   {
+    "role": "Premier ministre (affaires courantes)",
+    "name": "Benyamin Nétanyahou",
+    "role_en": "Prime Minister (caretaker)",
+    "name_en": "Benjamin Netanyahu"
+   },
+   {
+    "role": "Président",
+    "name": "Isaac Herzog",
+    "role_en": "President"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "Al-Monitor",
+   "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-set-remain-caretaker-after-inconclusive-israeli-election"
+  },
+  "regime_en": "Parliamentary democracy"
+ },
+ "SDN": {
+  "regime": "Pouvoir militaire de transition, en guerre civile",
+  "leaders": [
+   {
+    "role": "Président du Conseil de souveraineté",
+    "name": "Abdel Fattah Al-Bourhane",
+    "role_en": "Chair of the Sovereignty Council",
+    "name_en": "Abdel Fattah al-Burhan"
+   },
+   {
+    "role": "Premier ministre",
+    "name": "Kamil Idris",
+    "role_en": "Prime Minister"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "The National",
+   "url": "https://www.thenationalnews.com/news/mena/2026/06/29/sudans-army-aligned-prime-minister-under-fire-for-worsening-services/"
+  },
+  "regime_en": "Military-led transitional rule, in civil war"
+ },
+ "IDN": {
+  "regime": "République présidentielle",
+  "leaders": [
+   {
+    "role": "Président",
+    "name": "Prabowo Subianto",
+    "role_en": "President"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "KSAT (AP)",
+   "url": "https://www.ksat.com/news/world/2026/11/04/indonesia-deploys-thousands-of-troops-after-generals-arrested-over-wiretapping-allegations/"
+  },
+  "regime_en": "Presidential republic"
+ },
+ "BRA": {
+  "regime": "République fédérale, régime présidentiel",
+  "leaders": [
+   {
+    "role": "Président",
+    "name": "Luiz Inácio Lula da Silva",
+    "role_en": "President"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "NPR",
+   "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+  },
+  "regime_en": "Federal republic, presidential system"
+ },
+ "HUN": {
+  "regime": "Démocratie parlementaire",
+  "leaders": [
+   {
+    "role": "Premier ministre",
+    "name": "Péter Magyar",
+    "role_en": "Prime Minister"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "Euronews",
+   "url": "https://www.euronews.com/my-europe/2026/05/09/peter-magyar-sworn-in-as-hungarys-new-prime-minister-after-landslide-april-election-victor"
+  },
+  "regime_en": "Parliamentary democracy"
+ },
+ "FRA": {
+  "regime": "République semi-présidentielle",
+  "leaders": [
+   {
+    "role": "Président",
+    "name": "Emmanuel Macron",
+    "role_en": "President"
+   }
+  ],
+  "checked": "2026-11-05",
+  "source": {
+   "name": "Élysée",
+   "url": "https://www.elysee.fr/agenda-novembre-1371"
+  },
+  "regime_en": "Semi-presidential republic"
+ }
 }

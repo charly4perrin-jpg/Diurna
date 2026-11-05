@@ -113,7 +113,7 @@
     }
 
     setMeta(meta) { this.o.meta = meta; }
-    name(id) { const m = this.o.meta && this.o.meta[id]; if (m) return m.name; const f = this.byId.get(id); return f ? f.properties.fr : id; }
+    name(id) { const m = this.o.meta && this.o.meta[id]; if (m) return TP.cfield(m, 'name'); const f = this.byId.get(id); return f ? f.properties.fr : id; }
     where(story) { return story.focus || this.centroid.get(story.id) || null; }
     // Zoom qui donne au pays une taille lisible : grand pays, peu de zoom ; petit pays, davantage.
     zoomFor(story) {
@@ -144,10 +144,17 @@
       const main = new Map(this.stories.map((s) => [s.id, s]));
       const inv = new Set(cur ? cur.involved || [] : []);
       const preview = this.card ? this.card.rank : 0;
+      const hl = this.hl || null;
       for (const f of this.features) {
         const id = f.properties.a3;
         const s = main.get(id);
         let cls = 'g-land';
+        if (hl) {
+          if (hl.has(id)) cls += ' hl ' + hl.get(id);
+          if (this.hover === id) cls += ' hover';
+          f._el.setAttribute('class', cls);
+          continue;
+        }
         if (s) cls += ` story hot c${s.rank}${this.current && s.rank !== this.current && s.rank !== preview ? ' dim' : ''}`;
         else if (cur && inv.has(id)) cls += ` inv c${cur.rank}`;
         if (this.hover === id || (s && s.rank === preview)) cls += ' hover';
@@ -158,6 +165,43 @@
         g.classList.toggle('on', r === this.current || r === preview);
         g.classList.toggle('off', !!this.current && r !== this.current && r !== preview);
       });
+    }
+
+    // Surligne des groupes de pays (camps, soutiens, médiateurs) et cadre le globe dessus.
+    highlight(groups) {
+      this.hl = new Map();
+      (groups || []).forEach((g) => (g.ids || []).forEach((id) => { if (!this.hl.has(id)) this.hl.set(id, g.cls || 'hl-a'); }));
+      this.gArcs.style.display = 'none';
+      this.paint();
+      const pts = [...this.hl.keys()].map((id) => this.centroid.get(id)).filter(Boolean);
+      if (!pts.length) return;
+      const c = pts.length === 1 ? pts[0] : d3.geoCentroid({ type: 'MultiPoint', coordinates: pts });
+      const far = Math.max(0.12, ...pts.map((p) => d3.geoDistance(c, p)));
+      this.flyTo(c, clamp(0.62 / Math.sin(Math.min(far + 0.2, 1.45)), 1, 2));
+    }
+    // Pose un repère numéroté sur un lieu cité et y amène le globe.
+    showPlace(coords, label, n) {
+      this.clearPlace();
+      const g = this.placePin = make('g', { class: 'g-place', 'aria-hidden': 'true' }, this.gPins);
+      if (!reduce) make('circle', { class: 'ring', r: 10 }, g);
+      make('circle', { r: 10 }, g);
+      const tn = make('text', { class: 'n', y: 1 }, g); tn.textContent = n || '';
+      const tl = make('text', { class: 'lab', x: 15, y: 4 }, g); tl.textContent = label;
+      this.pins.push({ el: g, ll: coords });
+      this.flyTo(coords, Math.max(this.k, 1.8));
+      this.draw();
+    }
+    clearPlace() {
+      if (!this.placePin) return;
+      this.pins = this.pins.filter((p) => p.el !== this.placePin);
+      this.placePin.remove();
+      this.placePin = null;
+    }
+    clearOverlays() {
+      this.hl = null;
+      this.gArcs.style.display = '';
+      this.clearPlace();
+      this.paint();
     }
 
     _buildArcs() {
@@ -217,10 +261,10 @@
       if (!this.card || this.card.rank !== rank || this.card.sheet !== !!sheet) {
         const first = (s.body && s.body[0]) || s.standfirst || '';
         el.className = `g-card c${rank}${sheet ? ' sheet' : ''}`;
-        el.setAttribute('aria-label', 'Aperçu : ' + this.name(s.id));
-        const go = `<button class="g-card-go" type="button" data-rank="${rank}">Lire${TP.icon('right')}</button>`;
+        el.setAttribute('aria-label', TP.L('preview', { x: this.name(s.id) }));
+        const go = `<button class="g-card-go" type="button" data-rank="${rank}">${TP.L('read')}${TP.icon('right')}</button>`;
         el.innerHTML = `
-          <div class="g-card-k"><span class="rank">${rank}</span>${m ? TP.flag(m) : ''}<span class="g-card-n">${TP.t(this.name(s.id))}</span>${sheet ? go + `<button class="g-card-x" type="button" aria-label="Fermer l'aperçu">${TP.icon('close')}</button>` : ''}</div>
+          <div class="g-card-k"><span class="rank">${rank}</span>${m ? TP.flag(m) : ''}<span class="g-card-n">${TP.t(this.name(s.id))}</span>${sheet ? go + `<button class="g-card-x" type="button" aria-label="${TP.esc(TP.L('closePreview'))}">${TP.icon('close')}</button>` : ''}</div>
           <p class="g-card-t">${TP.t(s.title)}</p>
           <p class="g-card-s">${TP.t(first)}</p>
           ${sheet ? '' : go}`;

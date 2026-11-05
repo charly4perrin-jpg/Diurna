@@ -10,6 +10,9 @@
       "id": "USA",
       "place": "États-Unis",
       "section": "Amériques",
+      "types": [
+        "election"
+      ],
       "focus": [
         -97,
         39
@@ -26,6 +29,69 @@
         "value": "7",
         "label": "sièges gagnés par les démocrates au Sénat",
         "compare": "dont celui du Texas, une première depuis 1988"
+      },
+      "modules": {
+        "vote": {
+          "title": "Élections de mi-mandat",
+          "date": "2026-11-03",
+          "asOf": "2026-11-04",
+          "system": "Renouvellement de toute la Chambre des représentants et d'un tiers du Sénat, au scrutin majoritaire dans la plupart des États.",
+          "note": "Résultats provisoires : tous les sièges n'étaient pas encore attribués.",
+          "bodies": [
+            {
+              "name": "Sénat",
+              "total": 100,
+              "majority": 51,
+              "parties": [
+                {
+                  "name": "Démocrates",
+                  "value": 54,
+                  "color": "blue"
+                },
+                {
+                  "name": "Républicains",
+                  "value": 44,
+                  "color": "red"
+                }
+              ],
+              "rest": "Non attribués"
+            },
+            {
+              "name": "Chambre des représentants",
+              "total": 435,
+              "majority": 218,
+              "parties": [
+                {
+                  "name": "Démocrates",
+                  "value": 228,
+                  "color": "blue"
+                }
+              ],
+              "rest": "Républicains et sièges non attribués"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera, d'après l'AP",
+            "name_en": "Al Jazeera, citing AP",
+            "url": "https://www.aljazeera.com/news/2026/11/4/democrats-win-control-of-house-and-senate-key-us-midterms-takeaways"
+          }
+        },
+        "scenarios": {
+          "items": [
+            {
+              "if": "les démocrates usent de leur pouvoir budgétaire",
+              "then": "ils pourront peser sur les crédits militaires, y compris ceux de la guerre contre l'Iran ; la conduite de la politique étrangère reste, pour l'essentiel, l'affaire du président."
+            },
+            {
+              "if": "les commissions d'enquête de la Chambre se saisissent du Pentagone",
+              "then": "le secrétaire à la défense, Pete Hegseth, déjà visé par une demande de destitution, devra rendre des comptes devant le Congrès, à partir du 3 janvier 2027."
+            }
+          ],
+          "source": {
+            "name": "CNBC",
+            "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html"
+          }
+        }
       },
       "analysis": {
         "title": "Un vote sur la guerre",
@@ -98,18 +164,153 @@
       "id": "IRN",
       "place": "Iran",
       "section": "Moyen-Orient",
+      "types": [
+        "diplomacy",
+        "conflict",
+        "economy"
+      ],
       "radar": false,
       "title": "Entre Washington et Téhéran, la crainte d'une reprise de la guerre après le scrutin",
-      "standfirst": "Le Qatar s'efforce d'arracher un accord intérimaire avant que les États-Unis ne relancent leurs frappes. Huit mois après le début du conflit, le détroit d'Ormuz reste quasi fermé et le baril avoisine les 100 dollars.",
+      "standfirst": "Le Qatar s'efforce d'arracher un accord intérimaire avant que les États-Unis ne relancent leurs frappes. Huit mois après le début du conflit, le détroit d'Ormuz reste quasi fermé et le baril dépasse les 100 dollars.",
       "body": [
         "Après trois jours de discussions à Doha, la délégation iranienne est rentrée à Téhéran sans accord, et les messages entre les deux capitales ne transitent plus que par le médiateur qatari.",
         "Les positions restent éloignées : Washington exige des engagements sur le programme nucléaire iranien avant toute concession, tandis que Téhéran conditionne la réouverture du détroit d'Ormuz à la levée des sanctions pétrolières, au dégel de ses avoirs à l'étranger et à l'arrêt des combats au Liban.",
         "Les frappes américaines n'ont d'ailleurs jamais totalement cessé : l'île de Qeshm a encore été visée le 2 novembre, et Donald Trump, qui s'était engagé à ne pas relancer d'offensive avant les élections, n'a pas exclu de nouvelles opérations."
       ],
       "figure": {
-        "value": "≈ 100 $",
-        "label": "le prix du baril de Brent",
+        "value": "107 $",
+        "label": "le prix du baril de Brent, le 3 novembre",
         "compare": "contre environ 72 $ avant la guerre"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "IRN"
+          ],
+          "host": "QAT",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Des engagements sur le programme nucléaire iranien avant toute concession."
+            },
+            {
+              "who": "Téhéran",
+              "wants": "La levée des sanctions pétrolières, le dégel de ses avoirs à l'étranger et l'arrêt des combats au Liban, en échange de la réouverture du détroit d'Ormuz."
+            },
+            {
+              "who": "Doha, médiateur",
+              "wants": "Un accord intérimaire : l'Iran cesserait d'attaquer les navires, ce qui permettrait la reprise de discussions directes."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre"
+          }
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 3 400",
+              "label": "morts en Iran",
+              "by": "l'ONU (OCHA)",
+              "date": "2026-06-30"
+            },
+            {
+              "value": "72",
+              "label": "morts en Israël",
+              "date": "2026-08-05"
+            }
+          ],
+          "note": "Bilans non vérifiés de façon indépendante, et non arrêtés.",
+          "source": {
+            "name": "Wikipédia, synthèse des bilans",
+            "name_en": "Wikipedia, summary of tolls",
+            "url": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Détroit d'Ormuz",
+              "coords": [
+                56.4,
+                26.5
+              ],
+              "note": "Quasi fermé à la navigation depuis la fin février."
+            },
+            {
+              "name": "Île de Qeshm",
+              "coords": [
+                55.95,
+                26.85
+              ],
+              "note": "Frappe américaine le 2 novembre."
+            },
+            {
+              "name": "Doha",
+              "coords": [
+                51.53,
+                25.29
+              ],
+              "note": "Trois jours de discussions, sans accord."
+            }
+          ],
+          "source": {
+            "name": "Associated Press",
+            "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "États-Unis et Israël",
+              "ids": [
+                "USA",
+                "ISR"
+              ],
+              "note": "Campagne de frappes lancée le 28 février."
+            },
+            {
+              "name": "Iran",
+              "ids": [
+                "IRN"
+              ],
+              "note": "Ripostes contre Israël et les bases américaines du Golfe."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "QAT"
+            },
+            {
+              "id": "PAK",
+              "note": "a annoncé un arrêt des opérations le 15 juin"
+            }
+          ],
+          "source": {
+            "name": "Associated Press",
+            "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html"
+          }
+        },
+        "impact": {
+          "text": "Le prix du pétrole se répercute à la pompe : en France, le gazole coûtait en moyenne 2,29 euros le litre début novembre, selon l'AFP, malgré la mise sur le marché de 10 millions de barils puisés dans les stocks stratégiques.",
+          "date": "2026-11-02",
+          "source": {
+            "name": "AFP, via Connaissance des énergies",
+            "name_en": "AFP, via Connaissance des énergies",
+            "url": "https://www.connaissancedesenergies.org/afp/prix-du-gazole-macron-se-felicite-de-solutions-concretes-qui-portent-leurs-fruits-261102"
+          }
+        },
+        "inflation": {}
       },
       "since": {
         "date": "2026-02-28",
@@ -117,7 +318,7 @@
       },
       "analysis": {
         "title": "Ormuz, l'arme économique de Téhéran",
-        "text": "Avant la guerre, environ un cinquième du pétrole mondial empruntait ce bras de mer étroit qui sépare l'Iran de la péninsule Arabique. Depuis la fin février, les gardiens de la révolution y attaquent ou y minent les navires qu'ils n'ont pas autorisés, et l'Agence internationale de l'énergie évoque la plus grande perturbation de l'histoire du marché pétrolier. Une partie du brut du Golfe contourne désormais le détroit par oléoduc, mais le coût du fret et de l'assurance s'est envolé, si bien que le baril de Brent évolue autour de 100 dollars, contre environ 72 avant le conflit. C'est ce levier que Téhéran entend monnayer à la table des négociations."
+        "text": "Avant la guerre, environ un cinquième du pétrole mondial empruntait ce bras de mer étroit qui sépare l'Iran de la péninsule Arabique. Depuis la fin février, les gardiens de la révolution y attaquent ou y minent les navires qu'ils n'ont pas autorisés, et l'Agence internationale de l'énergie évoque la plus grande perturbation de l'histoire du marché pétrolier. Une partie du brut du Golfe contourne désormais le détroit par oléoduc, mais le coût du fret et de l'assurance s'est envolé, si bien que le baril de Brent, qui a frôlé 130 dollars à la mi-octobre, s'échangeait encore à 107 dollars le 3 novembre, contre environ 72 avant le conflit. C'est ce levier que Téhéran entend monnayer à la table des négociations."
       },
       "keys": [
         {
@@ -189,6 +390,12 @@
           "title": "Les attaques contre les navires dans le détroit",
           "url": "https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable",
           "date": "2026-10-06"
+        },
+        {
+          "name": "EIA (Agence américaine d'information sur l'énergie)",
+          "title": "Prix du Brent au comptant",
+          "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+          "date": "2026-11-03"
         }
       ]
     },
@@ -197,6 +404,10 @@
       "id": "UKR",
       "place": "Ukraine",
       "section": "Europe",
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
       "radar": false,
       "title": "En Ukraine, la Russie s'en prend au réseau électrique avant de nouveaux pourparlers",
       "standfirst": "À l'approche de l'hiver, Moscou multiplie les attaques contre les infrastructures énergétiques. Des délégations ukrainienne, russe et américaine doivent se retrouver les 10 et 11 novembre à Abou Dhabi.",
@@ -209,6 +420,84 @@
         "value": "9",
         "label": "régions touchées par les frappes contre le réseau électrique",
         "compare": "à l'approche de l'hiver, une partie de Kiev privée d'eau"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "15 172",
+              "label": "civils tués entre février 2022 et février 2026",
+              "by": "la mission de l'ONU pour les droits humains",
+              "date": "2026-02-16",
+              "source": {
+                "name": "ONU, via Ukrinform",
+                "name_en": "UN, via Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4092556-un-confirms-over-15000-civilian-deaths-in-ukraine-since-start-of-fullscale-war.html"
+              }
+            },
+            {
+              "value": "328",
+              "label": "civils tués en septembre 2026",
+              "by": "l'ONU",
+              "date": "2026-09-30",
+              "source": {
+                "name": "ONU, via Ukrainska Pravda",
+                "name_en": "UN, via Ukrainska Pravda",
+                "url": "https://www.pravda.com.ua/eng/news/2026/10/16/8058373/index.amp"
+              }
+            }
+          ]
+        },
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Kiev",
+              "wants": "Aucun accord sans l'Ukraine, et des garanties de sécurité durables."
+            },
+            {
+              "who": "Washington",
+              "wants": "Un accord : les États-Unis, à l'origine de cette ronde, pressent les deux parties de conclure."
+            }
+          ],
+          "next": {
+            "d": "2026-11-10",
+            "t": "Pourparlers à trois à Abou Dhabi, les 10 et 11 novembre."
+          },
+          "source": {
+            "name": "Reuters, via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Kiev",
+              "coords": [
+                30.52,
+                50.45
+              ],
+              "note": "Une partie de la ville privée d'eau après les frappes du 3 novembre."
+            },
+            {
+              "name": "Pokrovsk",
+              "coords": [
+                37.18,
+                48.28
+              ],
+              "note": "Les combats les plus intenses du front, selon l'ISW."
+            }
+          ],
+          "source": {
+            "name": "Institute for the Study of War, via Kyiv Post",
+            "url": "https://www.kyivpost.com/post/89070"
+          }
+        }
       },
       "since": {
         "date": "2022-02-24",
@@ -284,6 +573,10 @@
       "id": "ISR",
       "place": "Israël",
       "section": "Moyen-Orient",
+      "types": [
+        "election",
+        "conflict"
+      ],
       "radar": false,
       "title": "Israël sans majorité après les législatives, Gaza toujours sous le feu",
       "standfirst": "Ni le bloc de Benyamin Nétanyahou ni l'opposition emmenée par Gadi Eisenkot n'atteignent la barre des 61 sièges. À Gaza, un an après le cessez-le-feu, les frappes israéliennes font encore des victimes presque chaque jour.",
@@ -296,6 +589,99 @@
         "value": "53",
         "label": "sièges pour la coalition de Benyamin Nétanyahou",
         "compare": "il en faut 61 sur 120 pour gouverner"
+      },
+      "modules": {
+        "vote": {
+          "title": "Élections législatives",
+          "date": "2026-10-27",
+          "asOf": "2026-10-29",
+          "system": "Scrutin proportionnel de liste à l'échelle nationale pour les 120 sièges de la Knesset.",
+          "note": "Décompte définitif.",
+          "bodies": [
+            {
+              "name": "Knesset",
+              "total": 120,
+              "majority": 61,
+              "parties": [
+                {
+                  "name": "Coalition sortante (Nétanyahou)",
+                  "value": 53,
+                  "color": "blue"
+                },
+                {
+                  "name": "Opposition (Eisenkot)",
+                  "value": 48,
+                  "color": "amber"
+                },
+                {
+                  "name": "Partis arabes",
+                  "value": 19,
+                  "color": "green"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+          }
+        },
+        "scenarios": {
+          "items": [
+            {
+              "if": "aucun dirigeant ne réunit 61 députés dans les délais légaux",
+              "then": "les électeurs seront rappelés aux urnes, ce que le président, Isaac Herzog, appelle à tout faire pour éviter.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+              }
+            },
+            {
+              "if": "Benyamin Nétanyahou et Gadi Eisenkot s'entendent",
+              "then": "un gouvernement d'union verrait le jour : c'est la piste que privilégierait la présidence, selon le site israélien Ynet.",
+              "source": {
+                "name": "Ynet",
+                "url": "https://www.ynetnews.com/article/bkotdiqsmg"
+              }
+            }
+          ]
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 1 600",
+              "label": "Palestiniens tués à Gaza depuis le cessez-le-feu d'octobre 2025",
+              "by": "le ministère de la santé de Gaza",
+              "date": "2026-11-03"
+            },
+            {
+              "value": "> 74 600",
+              "label": "morts à Gaza depuis octobre 2023",
+              "by": "le ministère de la santé de Gaza",
+              "date": "2026-11-03"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Gaza",
+              "coords": [
+                34.4,
+                31.45
+              ],
+              "note": "Frappes israéliennes presque quotidiennes malgré la trêve."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        }
       },
       "analysis": {
         "title": "À Gaza, une trêve qui ne protège pas",
@@ -366,6 +752,9 @@
       "id": "SDN",
       "place": "Soudan",
       "section": "Afrique",
+      "types": [
+        "conflict"
+      ],
       "radar": true,
       "title": "Au Soudan, la guerre des drones étrangle les civils",
       "standfirst": "Plus de trois ans après le début du conflit, les paramilitaires des Forces de soutien rapide multiplient les frappes contre les infrastructures. La crise déborde désormais sur l'Éthiopie voisine.",
@@ -375,9 +764,93 @@
         "Les autorités soudanaises accusent l'Éthiopie d'abriter des sites de lancement de drones des FSR ; Addis-Abeba a riposté le 4 novembre en expulsant six diplomates soudanais, faisant craindre un élargissement du conflit à la Corne de l'Afrique."
       ],
       "figure": {
-        "value": "13 millions",
-        "label": "de déplacés",
-        "compare": "environ un Soudanais sur quatre"
+        "value": "13,5 millions",
+        "label": "de Soudanais déplacés, dans le pays ou à l'étranger",
+        "compare": "environ un habitant sur quatre (OIM, avril 2026)"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 9 millions",
+              "label": "de déplacés à l'intérieur du pays",
+              "by": "l'OIM",
+              "date": "2026-04-21"
+            },
+            {
+              "value": "4,5 millions",
+              "label": "de réfugiés, surtout en Égypte, au Soudan du Sud et au Tchad",
+              "by": "l'OIM",
+              "date": "2026-04-21"
+            },
+            {
+              "value": "≈ 4 millions",
+              "label": "de déplacés rentrés chez eux",
+              "by": "l'OIM",
+              "date": "2026-04-21"
+            }
+          ],
+          "source": {
+            "name": "OIM, via ONU Info",
+            "name_en": "IOM, via UN News",
+            "url": "https://allafrica.com/stories/202604220013.html"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "El-Fasher",
+              "coords": [
+                25.35,
+                13.63
+              ],
+              "note": "Aux mains des FSR depuis octobre 2025 ; exactions documentées par Amnesty International."
+            },
+            {
+              "name": "État du Nil-Bleu",
+              "coords": [
+                34.1,
+                11.3
+              ],
+              "note": "Les FSR y ont pris la base militaire de Sali le 3 novembre."
+            }
+          ],
+          "source": {
+            "name": "ONU Info",
+            "name_en": "UN News",
+            "url": "https://news.un.org/en/story/2026/11/1168731"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Armée soudanaise",
+              "lead": "Abdel Fattah Al-Bourhane"
+            },
+            {
+              "name": "Forces de soutien rapide (FSR)",
+              "lead": "Mohamed Hamdan Daglo, dit « Hemetti »",
+              "backers": [
+                {
+                  "id": "ETH",
+                  "note": "accusée par Khartoum d'abriter des sites de lancement de drones des FSR"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia"
+          }
+        },
+        "help": {
+          "orgs": [
+            "msf",
+            "unicef",
+            "wfp",
+            "unhcr"
+          ]
+        }
       },
       "since": {
         "date": "2023-04-15",
@@ -385,7 +858,7 @@
       },
       "analysis": {
         "title": "Une guerre à l'abri des regards",
-        "text": "Avec treize millions de déplacés, le Soudan traverse l'une des plus graves crises humanitaires de la planète, mais le pays reste presque fermé aux journalistes étrangers, et l'attention internationale se porte ailleurs. Le conflit oppose deux anciens alliés : le général Abdel Fattah Al-Bourhane, à la tête de l'armée, et Mohamed Hamdan Daglo, dit « Hemetti », chef des FSR, qui avaient ensemble évincé le gouvernement civil en 2021. Les deux camps sont accusés de crimes de guerre, et le Royaume-Uni vient de sanctionner quinze de leurs commandants. L'émissaire des Nations unies, Pekka Haavisto, espère réunir les FSR avant Noël pour discuter d'une transition vers un pouvoir civil."
+        "text": "Avec plus de treize millions de déplacés, le Soudan traverse l'une des plus graves crises humanitaires de la planète, mais le pays reste presque fermé aux journalistes étrangers, et l'attention internationale se porte ailleurs. Le conflit oppose deux anciens alliés : le général Abdel Fattah Al-Bourhane, à la tête de l'armée, et Mohamed Hamdan Daglo, dit « Hemetti », chef des FSR, qui avaient ensemble évincé le gouvernement civil en 2021. Les deux camps sont accusés de crimes de guerre, et le Royaume-Uni vient de sanctionner quinze de leurs commandants. L'émissaire des Nations unies, Pekka Haavisto, espère réunir les FSR avant Noël pour discuter d'une transition vers un pouvoir civil."
       },
       "keys": [
         {

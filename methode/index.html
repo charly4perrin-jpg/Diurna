@@ -4,8 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Méthode — Diurna</title>
+<script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='fr'&&!/bot|crawl|spider|slurp|preview/i.test(navigator.userAgent))location.replace('../en/method/'+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="D’où vient le nom Diurna, et comment chaque édition est choisie, écrite et mise à jour.">
 <meta name="theme-color" content="#070C1D">
+<link rel="canonical" href="https://charly4perrin-jpg.github.io/trois-phrases/methode/">
+<link rel="alternate" hreflang="fr" href="https://charly4perrin-jpg.github.io/trois-phrases/methode/">
+<link rel="alternate" hreflang="en" href="https://charly4perrin-jpg.github.io/trois-phrases/en/method/">
+<link rel="alternate" hreflang="x-default" href="https://charly4perrin-jpg.github.io/trois-phrases/methode/">
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="icon" href="../icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
@@ -18,14 +23,16 @@
 <meta property="og:title" content="Méthode — Diurna">
 <meta property="og:description" content="D’où vient le nom Diurna, et comment chaque édition est choisie, écrite et mise à jour.">
 <meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Méthode — Diurna">
 <meta name="twitter:description" content="D’où vient le nom Diurna, et comment chaque édition est choisie, écrite et mise à jour.">
+<meta property="og:url" content="https://charly4perrin-jpg.github.io/trois-phrases/methode/">
 <meta property="og:image" content="https://charly4perrin-jpg.github.io/trois-phrases/og.png">
 <meta name="twitter:image" content="https://charly4perrin-jpg.github.io/trois-phrases/og.png">
 <meta property="og:image:alt" content="Diurna — Le monde, chaque jour, en trois phrases.">
 <link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/css/site.css?v=2294eb95cc">
+<link rel="stylesheet" href="../assets/css/site.css?v=7973dd4b69">
 </head>
 <body data-root="../">
 
@@ -35,6 +42,7 @@
     <a href="../globe/">L’édition</a>
     <a href="../archives/" class="opt">Archives</a>
     <a href="../methode/" aria-current="page">Méthode</a>
+    <span class="langs"><span class="lang-self" aria-current="true">FR</span><a class="lang" href="../en/method/" hreflang="en" lang="en" aria-label="Read in English">EN</a></span>
     <button class="install" type="button" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Installer l’appli</button>
   </nav>
 </header>
@@ -55,11 +63,14 @@
   <p>Le cinquième sujet, « Loin des caméras », est réservé à une crise grave peu couverte par la presse française : Soudan, République démocratique du Congo, Sahel, Haïti, Birmanie, Yémen. Il change d’une semaine à l’autre.</p>
 
   <h2>L'écriture</h2>
-  <p>Chaque sujet suit la forme d’un article court : un titre, un chapô, un paragraphe de trois phrases qui pose le fait, en donne les causes et en ouvre la suite, puis une analyse. Des repères chronologiques et les articles de référence complètent chaque sujet.</p>
-  <p>Les chiffres, accusations et revendications sont attribués à ceux qui les avancent. Les textes sont rédigés à partir des sources citées, sans reprise de leurs phrases.</p>
+  <p>Chaque sujet suit la forme d’un article court : un titre, un chapô, un paragraphe de trois phrases qui pose le fait, en donne les causes et en ouvre la suite, puis une analyse. Selon la nature de l’actualité (conflit, élection, économie, diplomatie, catastrophe, société), la fiche ajoute des modules : bilan, lieux, résultats, positions des parties, courbes.</p>
+  <p>Les chiffres, accusations et revendications sont attribués à ceux qui les avancent. Un module ne s’affiche que si ses données sont sourcées. Les textes sont rédigés à partir des sources citées, sans reprise de leurs phrases.</p>
+
+  <h2>Les données</h2>
+  <p>Les chiffres de référence viennent de sources publiques, récupérées automatiquement chaque matin : la Banque mondiale (population, inflation), la Banque centrale européenne (taux de change), l’Agence américaine d’information sur l’énergie (prix du pétrole), l’USGS et le GDACS (catastrophes naturelles). Chaque module indique sa source et sa date.</p>
 
   <h2>La fabrication</h2>
-  <p>L’édition est préparée chaque matin vers 7 heures, heure de Paris, et révisée le soir lorsqu’un événement majeur survient. La sélection et la rédaction sont assurées par un modèle d’intelligence artificielle (Claude, développé par Anthropic), selon une charte éditoriale publique. En cas de doute sur un fait, les sources liées sous chaque sujet font foi.</p>
+  <p>L’édition est préparée chaque matin vers 7 heures, heure de Paris, en français puis en anglais, et révisée le soir lorsqu’un événement majeur survient. La sélection et la rédaction sont assurées par un modèle d’intelligence artificielle (Claude, développé par Anthropic), selon une charte éditoriale publique. En cas de doute sur un fait, les sources liées sous chaque sujet font foi.</p>
 
   <h2>Installer l'application</h2>
   <ul>
@@ -72,6 +83,7 @@
   <p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span> Le monde, chaque jour, en trois phrases.</p>
   <nav aria-label="Pied de page"><a href="../archives/">Archives</a><a href="../methode/">Méthode</a></nav>
 </footer>
-<script src="../assets/js/common.js?v=2294eb95cc"></script>
+<script src="../assets/js/i18n.js?v=7973dd4b69"></script>
+<script src="../assets/js/common.js?v=7973dd4b69"></script>
 </body>
 </html>

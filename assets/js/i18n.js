@@ -1,0 +1,101 @@
+/* Textes de l'interface, en français et en anglais.
+   Utilisé par le navigateur (window.I18N) et par tools/build.mjs (require).
+   {x} est remplacé par une valeur. L'interface française tutoie le lecteur ;
+   les articles, eux, restent impersonnels. */
+(function (g) {
+  'use strict';
+  const S = {
+    fr: {
+      name: 'Diurna',
+      sub: 'Le monde, chaque jour, en trois phrases.',
+      locale: 'fr-FR', og: 'fr_FR',
+      home: 'Diurna, accueil',
+      navMain: 'Navigation principale', navFoot: 'Pied de page',
+      navEdition: 'L’édition', navArchives: 'Archives', navMethod: 'Méthode',
+      install: 'Installer l’appli',
+      langSwitch: 'Read in English', langOther: 'EN', langSelf: 'FR', langOtherCode: 'en',
+      no: 'N° {n}', updated: 'Mise à jour à {h}',
+      readEdition: 'Lire l’édition', contents: 'Sommaire',
+      fiveStories: 'Les cinq sujets du jour', inBrief: 'En bref', comingUp: 'À venir',
+      radar: 'Loin des caméras', source: 'Source',
+      stageNote: 'Fais tourner le globe ; touche un numéro pour ouvrir le sujet.',
+      zoomIn: 'Zoomer', zoomOut: 'Dézoomer', recentre: 'Recentrer',
+      globeLabel: 'Globe : les pays des cinq sujets du jour', homeGlobe: 'Globe des cinq sujets du jour',
+      panelLabel: 'Lecture de l’édition', stepsLabel: 'Sujets de l’édition',
+      archivesTitle: 'Archives', archivesDesc: 'Toutes les éditions de Diurna, jour après jour.',
+      archivesChapo: 'Chaque édition reste consultable telle qu’elle a paru ce jour-là, carte comprise.',
+      frOnly: '', methodTitle: 'Méthode',
+      methodDesc: 'D’où vient le nom Diurna, et comment chaque édition est choisie, écrite et mise à jour.',
+      // Lecture
+      keys: 'Les clés', timeline: 'Repères', sources: 'Sources', readNext: 'Lire ensuite',
+      elsewhere: 'Le reste de l’actualité', endNote: 'Fin de cette édition. La suivante paraît demain matin.',
+      allEditions: 'Toutes les éditions', prev: 'Précédent', next: 'Suivant', backToday: 'Revenir à l’édition du jour',
+      loadError: 'L’édition n’a pas pu être chargée. Vérifie ta connexion, puis recharge la page.',
+      editionOf: 'Édition du {d}', days: '{n} jours {label}', day1: '{n} jour {label}',
+      notTranslated: '',
+      // Fiche pays
+      profile: 'Fiche pays', capital: 'Capitale', population: 'Population', language: 'Langue', languages: 'Langues',
+      currency: 'Monnaie', regime: 'Régime', inhabitants: '{p} d’habitants', inhabShort: '{p} d’hab.',
+      checked: 'Dirigeants vérifiés le {d} ({s})', popSource: 'population : Banque mondiale, {y}',
+      million: 'million', millions: 'millions', billion: 'milliard', billions: 'milliards',
+      // Globe
+      read: 'Lire', closePreview: 'Fermer l’aperçu', preview: 'Aperçu : {x}',
+      // Modules
+      figure: 'Le chiffre du jour', explore: 'Explorer plus', showOnGlobe: 'Voir sur le globe',
+      mCounter: 'Depuis le début', mCounterSince: 'depuis le {d}', mToll: 'Bilan humain', mPlaces: 'Les lieux cités',
+      mSides: 'Les camps', mBackers: 'Soutiens étrangers', mMediators: 'Médiateurs', mVote: 'Le scrutin', mScenarios: 'Ce qui change si…',
+      mImpact: 'Ce que ça change pour toi', mTable: 'À la table', mWants: 'Ce que veut chaque partie', mNext: 'Prochaine échéance',
+      mMarket: 'La courbe', mRate: 'Le taux de change', mInflation: 'L’inflation', mHelp: 'Comment aider',
+      mActors: 'Les acteurs', mDates: 'En trois dates', majority: 'majorité : {n}', seats: '{n} sièges',
+      according: 'Selon {s}', asOf: 'au {d}', helpNote: 'Liens vers des organisations humanitaires reconnues, sans intermédiaire.',
+      rateLine: '1 € = {v} {c}', rateSince: '{p} sur trois mois', inflationLine: '{v} % en {y}',
+      chartStart: 'Début de la guerre', chartLabel: '{l} : {a} le {d1}, {b} le {d2}',
+      lead: 'Dirigé par {x}'
+    },
+    en: {
+      name: 'Diurna',
+      sub: 'The world, every day, in three sentences.',
+      locale: 'en-GB', og: 'en_GB',
+      home: 'Diurna, home',
+      navMain: 'Main navigation', navFoot: 'Footer',
+      navEdition: 'Today', navArchives: 'Archive', navMethod: 'Method',
+      install: 'Install the app',
+      langSwitch: 'Lire en français', langOther: 'FR', langSelf: 'EN', langOtherCode: 'fr',
+      no: 'No. {n}', updated: 'Updated {h} (Paris)',
+      readEdition: 'Read the edition', contents: 'Contents',
+      fiveStories: 'Today’s five stories', inBrief: 'In brief', comingUp: 'Coming up',
+      radar: 'Out of the spotlight', source: 'Source',
+      stageNote: 'Spin the globe; tap a number to open the story.',
+      zoomIn: 'Zoom in', zoomOut: 'Zoom out', recentre: 'Recentre',
+      globeLabel: 'Globe: the countries in today’s five stories', homeGlobe: 'Globe of today’s five stories',
+      panelLabel: 'Reading the edition', stepsLabel: 'Stories in this edition',
+      archivesTitle: 'Archive', archivesDesc: 'Every edition of Diurna, day by day.',
+      archivesChapo: 'Every edition stays available as it was published that day, map included.',
+      frOnly: 'Available in French only', methodTitle: 'Method',
+      methodDesc: 'Where the name Diurna comes from, and how each edition is chosen, written and updated.',
+      keys: 'Key points', timeline: 'Timeline', sources: 'Sources', readNext: 'Read next',
+      elsewhere: 'Elsewhere in the world', endNote: 'That’s the edition. The next one is out tomorrow morning.',
+      allEditions: 'All editions', prev: 'Previous', next: 'Next', backToday: 'Back to today’s edition',
+      loadError: 'The edition could not be loaded. Check your connection, then reload the page.',
+      editionOf: 'Edition of {d}', days: '{n} days {label}', day1: '{n} day {label}',
+      notTranslated: 'This edition is available in French only.',
+      profile: 'Country profile', capital: 'Capital', population: 'Population', language: 'Language', languages: 'Languages',
+      currency: 'Currency', regime: 'Government', inhabitants: '{p} people', inhabShort: '{p} people',
+      checked: 'Leaders checked on {d} ({s})', popSource: 'population: World Bank, {y}',
+      million: 'million', millions: 'million', billion: 'billion', billions: 'billion',
+      read: 'Read', closePreview: 'Close preview', preview: 'Preview: {x}',
+      figure: 'The number', explore: 'Explore more', showOnGlobe: 'Show on the globe',
+      mCounter: 'How long it has lasted', mCounterSince: 'since {d}', mToll: 'Human toll', mPlaces: 'Places in the story',
+      mSides: 'Who is fighting whom', mBackers: 'Foreign backers', mMediators: 'Mediators', mVote: 'The vote', mScenarios: 'What changes if…',
+      mImpact: 'What it means for you', mTable: 'At the table', mWants: 'What each side wants', mNext: 'Next deadline',
+      mMarket: 'The trend', mRate: 'Exchange rate', mInflation: 'Inflation', mHelp: 'How to help',
+      mActors: 'Key players', mDates: 'In three dates', majority: 'majority: {n}', seats: '{n} seats',
+      according: 'According to {s}', asOf: 'as of {d}', helpNote: 'Links to recognised humanitarian organisations, with no middleman.',
+      rateLine: '€1 = {v} {c}', rateSince: '{p} over three months', inflationLine: '{v}% in {y}',
+      chartStart: 'War begins', chartLabel: '{l}: {a} on {d1}, {b} on {d2}',
+      lead: 'Led by {x}'
+    }
+  };
+  if (typeof module === 'object' && module.exports) module.exports = S;
+  else g.I18N = S;
+})(typeof window !== 'undefined' ? window : globalThis);

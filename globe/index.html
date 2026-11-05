@@ -4,8 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Au lendemain des midterms, l’Amérique sanctionne la guerre en Iran — Diurna</title>
+<script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='fr'&&!/bot|crawl|spider|slurp|preview/i.test(navigator.userAgent))location.replace('../en/edition/'+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="Les démocrates reprennent le Congrès et Donald Trump admet le poids du conflit avec Téhéran dans sa défaite. Au Moyen-Orient, la médiation qatarie tente d’empêcher une reprise des hostilités, tandis qu’en Ukraine la Russie s’en prend au réseau électrique avant des pourparlers prévus le 10 novembre.">
 <meta name="theme-color" content="#070C1D">
+<link rel="canonical" href="https://charly4perrin-jpg.github.io/trois-phrases/globe/">
+<link rel="alternate" hreflang="fr" href="https://charly4perrin-jpg.github.io/trois-phrases/globe/">
+<link rel="alternate" hreflang="en" href="https://charly4perrin-jpg.github.io/trois-phrases/en/edition/">
+<link rel="alternate" hreflang="x-default" href="https://charly4perrin-jpg.github.io/trois-phrases/globe/">
 <link rel="manifest" href="../manifest.webmanifest">
 <link rel="icon" href="../icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="../icons/apple-touch-icon.png">
@@ -18,14 +23,16 @@
 <meta property="og:title" content="Au lendemain des midterms, l’Amérique sanctionne la guerre en Iran — Diurna">
 <meta property="og:description" content="Les démocrates reprennent le Congrès et Donald Trump admet le poids du conflit avec Téhéran dans sa défaite. Au Moyen-Orient, la médiation qatarie tente d’empêcher une reprise des hostilités, tandis qu’en Ukraine la Russie s’en prend au réseau électrique avant des pourparlers prévus le 10 novembre.">
 <meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_GB">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Au lendemain des midterms, l’Amérique sanctionne la guerre en Iran — Diurna">
 <meta name="twitter:description" content="Les démocrates reprennent le Congrès et Donald Trump admet le poids du conflit avec Téhéran dans sa défaite. Au Moyen-Orient, la médiation qatarie tente d’empêcher une reprise des hostilités, tandis qu’en Ukraine la Russie s’en prend au réseau électrique avant des pourparlers prévus le 10 novembre.">
+<meta property="og:url" content="https://charly4perrin-jpg.github.io/trois-phrases/globe/">
 <meta property="og:image" content="https://charly4perrin-jpg.github.io/trois-phrases/og.png">
 <meta name="twitter:image" content="https://charly4perrin-jpg.github.io/trois-phrases/og.png">
 <meta property="og:image:alt" content="Diurna — Le monde, chaque jour, en trois phrases.">
 <link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="../assets/css/site.css?v=2294eb95cc">
+<link rel="stylesheet" href="../assets/css/site.css?v=7973dd4b69">
 </head>
 <body data-root="../">
 
@@ -35,6 +42,7 @@
     <a href="../globe/" aria-current="page">L’édition</a>
     <a href="../archives/" class="opt">Archives</a>
     <a href="../methode/">Méthode</a>
+    <span class="langs"><span class="lang-self" aria-current="true">FR</span><a class="lang" href="../en/edition/" hreflang="en" lang="en" aria-label="Read in English">EN</a></span>
     <button class="install" type="button" hidden><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Installer l’appli</button>
   </nav>
 </header>
@@ -42,27 +50,29 @@
   <h1 class="sr" id="edTitle">Au lendemain des midterms, l’Amérique sanctionne la guerre en Iran</h1>
   <section class="stage" aria-label="Globe">
     <div class="stage-globe" id="globe"></div>
-    <p class="stage-note">Faites tourner le globe ; un numéro ouvre le sujet correspondant.</p>
+    <p class="stage-note">Fais tourner le globe ; touche un numéro pour ouvrir le sujet.</p>
     <div class="zoom">
       <button id="zin" type="button" aria-label="Zoomer"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></button>
       <button id="zout" type="button" aria-label="Dézoomer"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg></button>
       <button id="zre" type="button" aria-label="Recentrer"><svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg></button>
     </div>
   </section>
-  <section class="panel" id="panel" aria-label="Lecture de l'édition">
+  <section class="panel" id="panel" aria-label="Lecture de l’édition">
     <p class="edition-line ed-line" id="edLine"><b>N° 1</b><span>Jeudi 5 novembre 2026</span></p>
-    <nav class="steps" id="steps" aria-label="Sujets de l'édition"></nav>
+    <nav class="steps" id="steps" aria-label="Sujets de l’édition"></nav>
     <article class="read" id="read" aria-live="polite">
       <div class="loading"><div class="sk big"></div><div class="sk"></div><div class="sk"></div><div class="sk" style="width:70%"></div></div>
     </article>
     <div class="pager"><button class="prev" id="prev" type="button" disabled></button><button class="next" id="next" type="button" disabled></button></div>
   </section>
 </main>
-<script src="../assets/vendor/d3-array.min.js?v=2294eb95cc"></script>
-<script src="../assets/vendor/d3-geo.min.js?v=2294eb95cc"></script>
-<script src="../assets/vendor/topojson-client.min.js?v=2294eb95cc"></script>
-<script src="../assets/js/common.js?v=2294eb95cc"></script>
-<script src="../assets/js/globe.js?v=2294eb95cc"></script>
-<script src="../assets/js/reader.js?v=2294eb95cc"></script>
+<script src="../assets/vendor/d3-array.min.js?v=7973dd4b69"></script>
+<script src="../assets/vendor/d3-geo.min.js?v=7973dd4b69"></script>
+<script src="../assets/vendor/topojson-client.min.js?v=7973dd4b69"></script>
+<script src="../assets/js/i18n.js?v=7973dd4b69"></script>
+<script src="../assets/js/common.js?v=7973dd4b69"></script>
+<script src="../assets/js/globe.js?v=7973dd4b69"></script>
+<script src="../assets/js/modules.js?v=7973dd4b69"></script>
+<script src="../assets/js/reader.js?v=7973dd4b69"></script>
 </body>
 </html>
