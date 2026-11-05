@@ -11,6 +11,8 @@ const wr = (p, s) => { fs.mkdirSync(path.dirname(path.join(root, p)), { recursiv
 const site = JSON.parse(rd('site.json'));
 const ed = JSON.parse(rd('data/latest.json'));
 const index = JSON.parse(rd('data/index.json'));
+const countries = JSON.parse(rd('data/countries.json'));
+const flag = (id, rootRel = '') => { const c = countries[id]; return c && c.flag ? `<img class="flag" src="${rootRel}assets/flags/${c.flag}" alt="" width="20" height="15" loading="lazy" decoding="async">` : ''; };
 
 /* ---------- utilitaires texte ---------- */
 const fr = (s) => String(s ?? '').replace(/'/g, '’').replace(/ ([?!;])/g, ' $1').replace(/ :/g, ' :').replace(/« /g, '« ').replace(/ »/g, ' »');
@@ -96,8 +98,8 @@ const scripts = (rootRel, list) => list.map((s) => `<script src="${rootRel}${s}?
 const VENDOR = ['assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/js/common.js', 'assets/js/globe.js'];
 
 /* ---------- Accueil ---------- */
-const rubric = (s) => `<p class="rubric"><span class="rank">${s.rank}</span>${t(s.section)}${s.radar ? '<span class="radar">Loin des caméras</span>' : ''}</p>`;
-const briefItem = (b) => `<li><b>${t(b.place)}</b>${t(b.text)}${b.url ? ` <a href="${esc(b.url)}" target="_blank" rel="noopener">Source</a>` : ''}</li>`;
+const rubric = (s) => `<p class="rubric"><span class="rank">${s.rank}</span>${flag(s.id)}${t(s.place)}${s.radar ? '<span class="radar">Loin des caméras</span>' : ''}</p>`;
+const briefItem = (b) => `<li><b>${flag(b.id)}${t(b.place)}</b>${t(b.text)}${b.url ? ` <a href="${esc(b.url)}" target="_blank" rel="noopener">Source</a>` : ''}</li>`;
 const fHm = new Intl.DateTimeFormat('fr-FR', { hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
 const hour = (iso) => fHm.format(new Date(iso)).replace(':', ' h ');
 
@@ -184,12 +186,16 @@ ${scripts('../', [...VENDOR, 'assets/js/reader.js'])}
 }
 
 /* ---------- Archives ---------- */
+function placesOf(e) {
+  try { return JSON.parse(rd(`data/editions/${e.date}.json`)).essentials.map((s) => [s.id, s.place]); }
+  catch (_) { return (e.places || []).map((p) => [null, p]); }
+}
 function archives() {
   const rows = index.map((e, i) => `
     <li><a href="../globe/${i === 0 ? '' : '?d=' + e.date}">
       <time datetime="${e.date}">${t(cap(fDmy.format(utc(e.date))))}</time>
       <span class="h">${t(e.headline)}</span>
-      <span class="p">${(e.places || []).map((p, j) => `<span class="c${j + 1}">${t(p)}</span>`).join('')}</span>
+      <span class="p">${placesOf(e).map(([id, p], j) => `<span class="c${j + 1}">${flag(id, '../')}${t(p)}</span>`).join('')}</span>
     </a></li>`).join('');
   return `${head({ rootRel: '../', title: esc('Archives — Trois Phrases'), desc: t('Toutes les éditions de Trois Phrases, jour après jour.') })}
 ${header('../', 'archives')}

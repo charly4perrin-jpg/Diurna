@@ -1,8 +1,10 @@
-/* Globe orthographique en SVG : rotation à la souris ou au doigt, zoom, épingles numérotées. */
+/* Globe orthographique en SVG : rotation à la souris ou au doigt, zoom, épingles numérotées,
+   carte d'aperçu au survol, à l'appui long ou au clavier. */
 (function (global) {
   'use strict';
   const NS = 'http://www.w3.org/2000/svg';
   const reduce = global.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const coarse = () => global.matchMedia('(pointer: coarse)').matches;
 
   function make(name, attrs, parent) {
     const n = document.createElementNS(NS, name);
@@ -10,7 +12,7 @@
     if (parent) parent.appendChild(n);
     return n;
   }
-  function mainCentroid(f) {
+  function mainPolygon(f) {
     const g = f.geometry;
     if (g && g.type === 'MultiPolygon') {
       let best = null, area = -1;
@@ -19,16 +21,17 @@
         const a = d3.geoArea(p);
         if (a > area) { area = a; best = p; }
       }
-      return d3.geoCentroid(best);
+      return best;
     }
-    return d3.geoCentroid(f);
+    return f;
   }
   const easeOut = (t) => 1 - Math.pow(1 - t, 3);
+  const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
 
   class Globe {
     constructor(host, opts) {
       this.host = host;
-      this.o = Object.assign({ drag: true, wheel: true, spin: 0, onPick: null, start: [-12, -26] }, opts || {});
+      this.o = Object.assign({ drag: true, wheel: true, spin: 0, onPick: null, start: [-12, -26], meta: null }, opts || {});
       this.rot = this.o.start.slice();
       this.k = 1;
       this.stories = [];
@@ -36,9 +39,11 @@
       this.features = [];
       this.byId = new Map();
       this.centroid = new Map();
+      this.span = new Map();
       this.hover = null;
       this.anim = null;
       this.idleUntil = 0;
+      this.card = null;
       this.proj = d3.geoOrthographic().clipAngle(90).precision(0.4);
       this.path = d3.geoPath(this.proj);
 
@@ -68,6 +73,20 @@
       this.tip.hidden = true;
       box.appendChild(this.tip);
 
+      this.cardEl = document.createElement('div');
+      this.cardEl.className = 'g-card';
+      this.cardEl.hidden = true;
+      this.cardEl.setAttribute('role', 'group');
+      box.appendChild(this.cardEl);
+      this.cardEl.addEventListener('pointerenter', () => clearTimeout(this.hideT));
+      this.cardEl.addEventListener('pointerleave', (e) => { if (e.pointerType === 'mouse') this._hideSoon(); });
+      this.cardEl.addEventListener('click', (e) => {
+        if (e.target.closest('.g-card-x')) { this.hideCard(); return; }
+        const go = e.target.closest('.g-card-go');
+        if (go && this.o.onPick) { const r = Number(go.dataset.rank); this.hideCard(); this.o.onPick(r); }
+      });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && this.card) this.hideCard(); });
+
       this._events();
       this.ro = new ResizeObserver(() => this.resize());
       this.ro.observe(box);
@@ -81,8 +100,10 @@
       this.features = fc.features.filter((f) => f.properties.a3 !== 'ATA');
       this.features.forEach((f) => {
         const id = f.properties.a3;
+        const main = mainPolygon(f);
         this.byId.set(id, f);
-        this.centroid.set(id, mainCentroid(f));
+        this.centroid.set(id, d3.geoCentroid(main));
+        this.span.set(id, Math.sqrt(d3.geoArea(main) / Math.PI));
         f._el = make('path', { class: 'g-land' }, this.gLand);
         f._el.__f = f;
       });
@@ -91,8 +112,14 @@
       this.draw();
     }
 
-    name(id) { const f = this.byId.get(id); return f ? f.properties.fr : id; }
+    setMeta(meta) { this.o.meta = meta; }
+    name(id) { const m = this.o.meta && this.o.meta[id]; if (m) return m.name; const f = this.byId.get(id); return f ? f.properties.fr : id; }
     where(story) { return story.focus || this.centroid.get(story.id) || null; }
+    // Zoom qui donne au pays une taille lisible : grand pays, peu de zoom ; petit pays, davantage.
+    zoomFor(story) {
+      const r = this.span.get(story.id) || 0.12;
+      return clamp(0.24 / Math.sin(Math.min(r, 1.2)), 1.15, coarse() ? 1.9 : 2);
+    }
 
     setStories(stories, current) {
       this.stories = stories || [];
@@ -108,7 +135,7 @@
       this._buildArcs();
       this.paint();
       const s = this.stories.find((x) => x.rank === rank);
-      if (s && fly !== false) this.flyTo(this.where(s), this.o.focusZoom || 1.25);
+      if (s && fly !== false) this.flyTo(this.where(s), this.zoomFor(s));
       this.draw();
     }
 
@@ -116,24 +143,24 @@
       const cur = this.stories.find((s) => s.rank === this.current);
       const main = new Map(this.stories.map((s) => [s.id, s]));
       const inv = new Set(cur ? cur.involved || [] : []);
+      const preview = this.card ? this.card.rank : 0;
       for (const f of this.features) {
         const id = f.properties.a3;
         const s = main.get(id);
         let cls = 'g-land';
-        if (s) cls += ` story hot c${s.rank}${this.current && s.rank !== this.current ? ' dim' : ''}`;
+        if (s) cls += ` story hot c${s.rank}${this.current && s.rank !== this.current && s.rank !== preview ? ' dim' : ''}`;
         else if (cur && inv.has(id)) cls += ` inv c${cur.rank}`;
-        if (this.hover === id) cls += ' hover';
+        if (this.hover === id || (s && s.rank === preview)) cls += ' hover';
         f._el.setAttribute('class', cls);
       }
       this.gPins.querySelectorAll('.g-pin').forEach((g) => {
         const r = Number(g.dataset.rank);
-        g.classList.toggle('on', r === this.current);
-        g.classList.toggle('off', !!this.current && r !== this.current);
+        g.classList.toggle('on', r === this.current || r === preview);
+        g.classList.toggle('off', !!this.current && r !== this.current && r !== preview);
       });
     }
 
     _buildArcs() {
-      // arcs du sujet courant vers les pays concernés
       const cur = this.stories.find((s) => s.rank === this.current);
       this.gArcs.textContent = '';
       this.arcs = [];
@@ -155,22 +182,94 @@
         const ll = this.where(s);
         if (!ll) continue;
         (s.zones || []).forEach((z) => {
-          const g = make('g', { class: `g-zone c${s.rank}` }, this.gPins);
+          const g = make('g', { class: `g-zone c${s.rank}`, 'aria-hidden': 'true' }, this.gPins);
           make('rect', { x: -5, y: -5, width: 10, height: 10, transform: 'rotate(45)' }, g);
           const t = make('text', { x: 10, y: 4 }, g);
           t.textContent = z.name;
           this.pins.push({ el: g, ll: z.coords });
         });
-        const g = make('g', { class: `g-pin c${s.rank}`, 'data-rank': s.rank, tabindex: '-1' }, this.gPins);
+        const label = `${s.rank}. ${this.name(s.id)} : ${TP.fr(s.title)}`;
+        const g = make('g', { class: `g-pin c${s.rank}`, 'data-rank': s.rank, tabindex: '0', role: 'button', 'aria-label': label }, this.gPins);
         if (!reduce) make('circle', { class: 'ring', r: 12 }, g);
+        make('circle', { r: 20, class: 'hit' }, g);
         make('circle', { r: 12 }, g);
         const t = make('text', { y: 1 }, g);
         t.textContent = s.rank;
-        g.addEventListener('click', (e) => { e.stopPropagation(); if (this.o.onPick) this.o.onPick(s.rank); });
+        g.addEventListener('click', (e) => { e.stopPropagation(); if (this.lp) { this.lp = false; return; } if (this.o.onPick) this.o.onPick(s.rank); });
+        g.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); this.hideCard(); if (this.o.onPick) this.o.onPick(s.rank); }
+        });
+        g.addEventListener('focus', () => { if (g.matches(':focus-visible')) this.showCard(s.rank, this._pinXY(ll)); });
+        g.addEventListener('blur', () => this._hideSoon());
         this.pins.push({ el: g, ll });
       }
     }
 
+    _pinXY(ll) { const xy = this.proj(ll); return xy ? { x: xy[0], y: xy[1] } : null; }
+
+    /* ---------- Carte d'aperçu ---------- */
+    showCard(rank, at, sheet) {
+      const s = this.stories.find((x) => x.rank === rank);
+      if (!s) return;
+      clearTimeout(this.hideT);
+      const el = this.cardEl;
+      const m = this.o.meta && this.o.meta[s.id];
+      if (!this.card || this.card.rank !== rank || this.card.sheet !== !!sheet) {
+        const first = (s.body && s.body[0]) || s.standfirst || '';
+        el.className = `g-card c${rank}${sheet ? ' sheet' : ''}`;
+        el.setAttribute('aria-label', 'Aperçu : ' + this.name(s.id));
+        const go = `<button class="g-card-go" type="button" data-rank="${rank}">Lire${TP.icon('right')}</button>`;
+        el.innerHTML = `
+          <div class="g-card-k"><span class="rank">${rank}</span>${m ? TP.flag(m) : ''}<span class="g-card-n">${TP.t(this.name(s.id))}</span>${sheet ? go + `<button class="g-card-x" type="button" aria-label="Fermer l'aperçu">${TP.icon('close')}</button>` : ''}</div>
+          <p class="g-card-t">${TP.t(s.title)}</p>
+          <p class="g-card-s">${TP.t(first)}</p>
+          ${sheet ? '' : go}`;
+      }
+      el.hidden = false;
+      this.tip.hidden = true;
+      this.card = { rank, sheet: !!sheet };
+      if (!sheet && at) this._place(at);
+      else { el.style.left = ''; el.style.top = ''; }
+      this.paint();
+    }
+
+    _place(at) {
+      const el = this.cardEl;
+      const W = this.box.clientWidth, H = this.box.clientHeight;
+      const w = el.offsetWidth, h = el.offsetHeight;
+      let x = at.x + 18, y = at.y - h / 2;
+      if (x + w > W - 8) x = at.x - w - 18;
+      x = clamp(x, 8, Math.max(8, W - w - 8));
+      y = clamp(y, 8, Math.max(8, H - h - 8));
+      el.style.left = x + 'px';
+      el.style.top = y + 'px';
+    }
+
+    hideCard() {
+      clearTimeout(this.hideT);
+      if (!this.card) return;
+      this.card = null;
+      this.cardEl.hidden = true;
+      this.paint();
+    }
+
+    _hideSoon() {
+      clearTimeout(this.hideT);
+      this.hideT = setTimeout(() => {
+        if (this.cardEl.matches(':hover') || this.cardEl.contains(document.activeElement)) return;
+        if (document.activeElement && document.activeElement.closest && document.activeElement.closest('.g-pin')) return;
+        this.hideCard();
+      }, 280);
+    }
+
+    _storyAt(target) {
+      const pin = target.closest && target.closest('.g-pin');
+      if (pin) return this.stories.find((x) => x.rank === Number(pin.dataset.rank));
+      const f = target.__f;
+      return f ? this.stories.find((x) => x.id === f.properties.a3) : null;
+    }
+
+    /* ---------- Rendu ---------- */
     resize() {
       const r = this.box.getBoundingClientRect();
       this.W = Math.max(120, r.width);
@@ -202,7 +301,7 @@
     flyTo(ll, k) {
       if (!ll) return;
       const from = this.rot.slice(), fromK = this.k;
-      const to = [-ll[0], Math.max(-50, Math.min(50, -ll[1]))];
+      const to = [-ll[0], clamp(-ll[1], -50, 50)];
       const toK = k || this.k;
       while (to[0] - from[0] > 180) to[0] -= 360;
       while (to[0] - from[0] < -180) to[0] += 360;
@@ -218,11 +317,11 @@
       };
     }
 
-    zoomBy(f) { this.k = Math.max(0.9, Math.min(5, this.k * f)); this.idleUntil = performance.now() + 12000; this.draw(); }
+    zoomBy(f) { this.k = clamp(this.k * f, 0.9, 5); this.idleUntil = performance.now() + 12000; this.draw(); }
 
     _loop(now) {
       if (this.anim) this.anim(now);
-      else if (this.o.spin && !reduce && !this.drag && now > this.idleUntil) {
+      else if (this.o.spin && !reduce && !this.drag && !this.card && now > this.idleUntil) {
         this.rot[0] += this.o.spin * 16;
         this.draw();
       }
@@ -231,23 +330,43 @@
 
     _events() {
       const svg = this.svg;
+      svg.addEventListener('contextmenu', (e) => { if (e.pointerType !== 'mouse') e.preventDefault(); });
       svg.addEventListener('pointerdown', (e) => {
         if (!this.o.drag || e.button !== 0) return;
-        this.drag = { x: e.clientX, y: e.clientY, rot: this.rot.slice(), moved: false, id: e.pointerId, target: e.target };
+        this.drag = { x: e.clientX, y: e.clientY, rot: this.rot.slice(), moved: false, id: e.pointerId, target: e.target, type: e.pointerType };
         this.anim = null;
+        this.lp = false;
+        clearTimeout(this.lpT);
+        if (e.pointerType !== 'mouse') {
+          // Appui long : aperçu du sujet sans quitter le globe.
+          this.lpT = setTimeout(() => {
+            const d = this.drag;
+            if (!d || d.moved) return;
+            const s = this._storyAt(d.target);
+            if (!s) return;
+            this.lp = true;
+            this.showCard(s.rank, null, true);
+            // On décale le centrage vers le bas pour que le pays reste visible au-dessus de la carte.
+            const k = Math.max(this.k, this.zoomFor(s)), ll = this.where(s);
+            const dy = Math.asin(clamp((this.H * 0.2) / (this.R * k), 0, 0.8)) * 180 / Math.PI;
+            this.flyTo([ll[0], ll[1] - dy], k);
+            if (navigator.vibrate) try { navigator.vibrate(8); } catch (_) {}
+          }, 460);
+        }
       });
       svg.addEventListener('pointermove', (e) => {
         const d = this.drag;
         if (d && e.pointerId === d.id) {
           const dx = e.clientX - d.x, dy = e.clientY - d.y;
-          if (!d.moved && Math.hypot(dx, dy) > 4) {
+          if (!d.moved && Math.hypot(dx, dy) > 6) {
             d.moved = true; this.box.classList.add('dragging');
+            clearTimeout(this.lpT);
             try { svg.setPointerCapture(e.pointerId); } catch (_) {}
             this.tip.hidden = true;
           }
           if (d.moved) {
             const f = 60 / (this.R * this.k);
-            this.rot = [d.rot[0] + dx * f, Math.max(-80, Math.min(80, d.rot[1] - dy * f))];
+            this.rot = [d.rot[0] + dx * f, clamp(d.rot[1] - dy * f, -80, 80)];
             this.idleUntil = performance.now() + 12000;
             this.draw();
           }
@@ -257,19 +376,25 @@
       });
       const end = (e) => {
         const d = this.drag;
+        clearTimeout(this.lpT);
         if (!d || e.pointerId !== d.id) return;
         this.drag = null; this.box.classList.remove('dragging');
+        if (this.lp) return; // l'appui long a ouvert l'aperçu : pas de navigation
         if (!d.moved && e.type === 'pointerup') {
-          const f = d.target && d.target.__f;
-          if (f && this.o.onPick) {
-            const s = this.stories.find((x) => x.id === f.properties.a3);
-            if (s) this.o.onPick(s.rank);
-          }
+          if (d.target.closest && d.target.closest('.g-pin')) return; // géré par le clic de l'épingle
+          const s = this._storyAt(d.target);
+          if (s && this.o.onPick) { this.hideCard(); this.o.onPick(s.rank); }
+          else if (this.card && d.type !== 'mouse') this.hideCard();
         }
       };
       svg.addEventListener('pointerup', end);
       svg.addEventListener('pointercancel', end);
-      svg.addEventListener('pointerleave', () => { if (!this.drag) { this.tip.hidden = true; this._setHover(null); } });
+      svg.addEventListener('pointerleave', (e) => {
+        if (this.drag) return;
+        this.tip.hidden = true;
+        this._setHover(null);
+        if (e.pointerType === 'mouse' && this.card) this._hideSoon();
+      });
       svg.addEventListener('wheel', (e) => {
         if (!this.o.wheel) return;
         e.preventDefault();
@@ -280,15 +405,28 @@
     _setHover(id) { if (id !== this.hover) { this.hover = id; this.paint(); } }
 
     _hover(e) {
+      const s = this._storyAt(e.target);
       const f = e.target.__f;
-      const id = f ? f.properties.a3 : null;
+      const id = s ? s.id : f ? f.properties.a3 : null;
       this._setHover(id);
-      if (!id) { this.tip.hidden = true; return; }
-      const s = this.stories.find((x) => x.id === id);
-      this.tip.textContent = s ? `${s.rank} · ${s.place}` : f.properties.fr;
       const r = this.box.getBoundingClientRect();
-      this.tip.style.left = (e.clientX - r.left) + 'px';
-      this.tip.style.top = (e.clientY - r.top) + 'px';
+      const at = { x: e.clientX - r.left, y: e.clientY - r.top };
+      if (s) {
+        this.tip.hidden = true;
+        clearTimeout(this.hideT);
+        if (!this.card || this.card.rank !== s.rank) {
+          clearTimeout(this.showT);
+          this.showT = setTimeout(() => this.showCard(s.rank, at), this.card ? 60 : 140);
+        }
+        return;
+      }
+      clearTimeout(this.showT);
+      if (this.card) this._hideSoon();
+      if (!id) { this.tip.hidden = true; return; }
+      const m = this.o.meta && this.o.meta[id];
+      this.tip.innerHTML = `${m ? TP.flag(m) : ''}<span>${TP.t(this.name(id))}</span>`;
+      this.tip.style.left = at.x + 'px';
+      this.tip.style.top = at.y + 'px';
       this.tip.hidden = false;
     }
   }

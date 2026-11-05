@@ -44,6 +44,9 @@ jamais de vouvoiement non plus : on écrit de manière impersonnelle, à la troi
 - `body` : **trois phrases**, qui s'enchaînent comme un paragraphe d'article. La première pose
   le fait du jour, daté et situé ; la deuxième en donne les causes et les enjeux ; la troisième
   ouvre sur la suite. Chaque phrase fait 20 à 55 mots.
+- `figure` : le **chiffre du jour**, tiré du texte ou des sources du sujet, jamais calculé au jugé.
+  `value` (1 à 4 mots : « 53 », « ≈ 100 $ », « 13 millions »), `label` (ce qu'il mesure),
+  `compare` (facultatif, une comparaison qui lui donne du sens : « contre environ 72 $ avant la guerre »).
 - `analysis` : un intertitre court et un paragraphe de décryptage (70 à 150 mots) qui apporte
   ce que le lecteur ne trouvera pas dans le fait brut : un contexte, un mécanisme, une perspective.
 - `keys` : deux ou trois « clés », chacune avec un titre nominal (« Le rôle du Qatar »,
@@ -68,7 +71,30 @@ data/latest.json                 l'édition du jour (copie exacte du fichier dat
 data/editions/AAAA-MM-JJ.json    une édition par jour, jamais modifiée après coup
                                  (sauf mise à jour du soir le même jour)
 data/index.json                  liste des éditions, la plus récente en premier
+data/gov.json                    dirigeants et régime des pays cités, vérifiés (voir ci-dessous)
+data/countries.json              fiche fixe de chaque pays (capitale, population…) : ne pas modifier
+                                 à la main, regénérée par tools/countries.mjs
 ```
+
+### Dirigeants et régime : `data/gov.json`
+
+Chaque pays des **5 essentiels** doit y figurer, vérifié depuis moins de 30 jours (le validateur
+le refuse sinon). Pour chaque pays de l'édition : vérifier dans une source récente qui dirige
+le pays, mettre à jour l'entrée si besoin, et passer `checked` à la date du jour. Les pays d'En bref
+peuvent y être ajoutés de la même façon.
+
+```json
+"IRN": { "regime": "République islamique",
+         "leaders": [ { "role": "Guide suprême", "name": "Mojtaba Khamenei" },
+                      { "role": "Président", "name": "Massoud Pezeshkian" } ],
+         "checked": "2026-11-05",
+         "source": { "name": "…", "url": "https://…" } }
+```
+
+- Un ou deux dirigeants : le chef de l'exécutif réel, et le chef de l'État s'il est distinct et
+  significatif. Fonctions en français, sans majuscule superflue (« Premier ministre », « Président »).
+- Situation particulière dite dans la fonction : « Premier ministre (affaires courantes) ».
+- Régime en quelques mots, neutre : « Démocratie parlementaire », « Pouvoir militaire de transition ».
 
 ### Format d'une édition
 
@@ -90,6 +116,7 @@ data/index.json                  liste des éditions, la plus récente en premie
       "title": "…",
       "standfirst": "…",
       "body": ["phrase 1", "phrase 2", "phrase 3"],
+      "figure": { "value": "≈ 100 $", "label": "le prix du baril de Brent", "compare": "contre environ 72 $ avant la guerre" },
       "since": { "date": "2026-02-28", "label": "de guerre" },  // optionnel
       "analysis": { "title": "…", "text": "…" },
       "keys": [ { "title": "…", "text": "…" } ],              // 2 ou 3
@@ -119,7 +146,8 @@ la carte (Bahreïn, Singapour, Malte…) se placent avec `focus` et une entrée 
 
 ## 5. Publier
 
-1. Écrire `data/editions/<date>.json`, copier vers `data/latest.json`, mettre à jour `data/index.json`.
+1. Écrire `data/editions/<date>.json`, copier vers `data/latest.json`, mettre à jour `data/index.json`,
+   vérifier et mettre à jour `data/gov.json` pour les pays de l'édition.
 2. `node tools/validate.mjs` doit répondre `OK`.
 3. `node tools/build.mjs` régénère les pages.
 4. Commit `Édition du <date>` puis push sur `main` : le site se met à jour en une à deux minutes.

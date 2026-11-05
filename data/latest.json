@@ -10,7 +10,10 @@
       "id": "USA",
       "place": "États-Unis",
       "section": "Amériques",
-      "focus": [-97, 39],
+      "focus": [
+        -97,
+        39
+      ],
       "radar": false,
       "title": "Midterms : les démocrates reprennent le Congrès, Trump paie le prix de la guerre en Iran",
       "standfirst": "Au terme d'une soirée électorale historique, l'opposition s'empare de la Chambre des représentants et du Sénat. Le président américain reconnaît que le conflit avec Téhéran a largement pesé sur le scrutin.",
@@ -19,27 +22,75 @@
         "Donald Trump lui-même admet que la guerre contre l'Iran, engagée en février et devenue de plus en plus impopulaire, a « largement » contribué à cette défaite, une lecture que partage son vice-président, JD Vance.",
         "Privé de majorité au Capitole pour les deux dernières années de son mandat, le président devra composer avec une opposition maîtresse du budget et du pouvoir d'enquête, alors que son secrétaire à la défense, Pete Hegseth, fait déjà l'objet d'une demande de destitution déposée par un élu républicain."
       ],
+      "figure": {
+        "value": "7",
+        "label": "sièges gagnés par les démocrates au Sénat",
+        "compare": "dont celui du Texas, une première depuis 1988"
+      },
       "analysis": {
         "title": "Un vote sur la guerre",
         "text": "Les élections de mi-mandat sont traditionnellement défavorables au parti du président, mais l'ampleur du revers de 2026 tient à un facteur singulier. Déclenchée le 28 février avec Israël, la guerre contre l'Iran s'est installée dans la durée, sans victoire nette, et elle a fait flamber le prix des carburants à mesure que le détroit d'Ormuz se fermait. Les enquêtes d'opinion la montraient de plus en plus impopulaire, et la vague démocrate a atteint des États longtemps acquis aux républicains, comme le Texas. Reste à savoir si ce désaveu infléchira la stratégie de la Maison Blanche à l'égard de Téhéran, alors que les négociations menées par l'intermédiaire du Qatar demeurent suspendues à la menace de nouvelles frappes."
       },
       "keys": [
-        { "title": "Ce que contrôle le Congrès", "text": "Le Congrès vote les lois et le budget fédéral, y compris les crédits militaires, et dispose d'un large pouvoir d'enquête sur l'exécutif. La conduite de la politique étrangère reste en revanche, pour l'essentiel, entre les mains du président, chef des armées." },
-        { "title": "Le calendrier", "text": "Les nouveaux élus siégeront à partir du 3 janvier 2027 ; d'ici là, l'actuelle majorité républicaine reste en place. Donald Trump est attendu les 18 et 19 novembre à Shenzhen, en Chine, pour le sommet de l'APEC." }
+        {
+          "title": "Ce que contrôle le Congrès",
+          "text": "Le Congrès vote les lois et le budget fédéral, y compris les crédits militaires, et dispose d'un large pouvoir d'enquête sur l'exécutif. La conduite de la politique étrangère reste en revanche, pour l'essentiel, entre les mains du président, chef des armées."
+        },
+        {
+          "title": "Le calendrier",
+          "text": "Les nouveaux élus siégeront à partir du 3 janvier 2027 ; d'ici là, l'actuelle majorité républicaine reste en place. Donald Trump est attendu les 18 et 19 novembre à Shenzhen, en Chine, pour le sommet de l'APEC."
+        }
       ],
-      "involved": ["IRN"],
+      "involved": [
+        "IRN"
+      ],
       "context": [
-        { "d": "2026-02-28", "t": "Les États-Unis et Israël lancent leurs frappes contre l'Iran." },
-        { "d": "2026-11-03", "t": "Élections de mi-mandat : vague démocrate à la Chambre et au Sénat." },
-        { "d": "2026-11-04", "t": "Donald Trump accepte les résultats ; le président de la Chambre, Mike Johnson, renonce à diriger la future minorité." },
-        { "d": "2026-11-18", "t": "Sommet de l'APEC à Shenzhen, nouvelle rencontre entre Donald Trump et Xi Jinping." },
-        { "d": "2027-01-03", "t": "Entrée en fonctions du nouveau Congrès." }
+        {
+          "d": "2026-02-28",
+          "t": "Les États-Unis et Israël lancent leurs frappes contre l'Iran."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Élections de mi-mandat : vague démocrate à la Chambre et au Sénat."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Donald Trump accepte les résultats ; le président de la Chambre, Mike Johnson, renonce à diriger la future minorité."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Sommet de l'APEC à Shenzhen, nouvelle rencontre entre Donald Trump et Xi Jinping."
+        },
+        {
+          "d": "2027-01-03",
+          "t": "Entrée en fonctions du nouveau Congrès."
+        }
       ],
       "sources": [
-        { "name": "CNBC", "title": "Résultats des élections de mi-mandat", "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html", "date": "2026-11-04" },
-        { "name": "MS NOW", "title": "Les enseignements du scrutin", "url": "https://www.ms.now/liveblog/midterm-election-results-2026-live-updates", "date": "2026-11-04" },
-        { "name": "Yahoo News", "title": "JD Vance attribue la défaite à la guerre", "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html", "date": "2026-11-04" },
-        { "name": "10 Things", "title": "Revue de presse internationale", "url": "https://www.10things.news/p/10-things-global-news-5th-november-4d0", "date": "2026-11-05" }
+        {
+          "name": "CNBC",
+          "title": "Résultats des élections de mi-mandat",
+          "url": "https://www.cnbc.com/2026/11/04/2026-midterm-election-results-live-updates.html",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "MS NOW",
+          "title": "Les enseignements du scrutin",
+          "url": "https://www.ms.now/liveblog/midterm-election-results-2026-live-updates",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "Yahoo News",
+          "title": "JD Vance attribue la défaite à la guerre",
+          "url": "https://www.yahoo.com/news/politics/live/midterms-2026-live-updates-election-day-voters-head-to-the-polls-as-democrats-look-to-flip-gop-control-of-the-house-and-senate-110000715.html",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "10 Things",
+          "title": "Revue de presse internationale",
+          "url": "https://www.10things.news/p/10-things-global-news-5th-november-4d0",
+          "date": "2026-11-05"
+        }
       ]
     },
     {
@@ -55,28 +106,90 @@
         "Les positions restent éloignées : Washington exige des engagements sur le programme nucléaire iranien avant toute concession, tandis que Téhéran conditionne la réouverture du détroit d'Ormuz à la levée des sanctions pétrolières, au dégel de ses avoirs à l'étranger et à l'arrêt des combats au Liban.",
         "Les frappes américaines n'ont d'ailleurs jamais totalement cessé : l'île de Qeshm a encore été visée le 2 novembre, et Donald Trump, qui s'était engagé à ne pas relancer d'offensive avant les élections, n'a pas exclu de nouvelles opérations."
       ],
-      "since": { "date": "2026-02-28", "label": "de guerre" },
+      "figure": {
+        "value": "≈ 100 $",
+        "label": "le prix du baril de Brent",
+        "compare": "contre environ 72 $ avant la guerre"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "de guerre"
+      },
       "analysis": {
         "title": "Ormuz, l'arme économique de Téhéran",
         "text": "Avant la guerre, environ un cinquième du pétrole mondial empruntait ce bras de mer étroit qui sépare l'Iran de la péninsule Arabique. Depuis la fin février, les gardiens de la révolution y attaquent ou y minent les navires qu'ils n'ont pas autorisés, et l'Agence internationale de l'énergie évoque la plus grande perturbation de l'histoire du marché pétrolier. Une partie du brut du Golfe contourne désormais le détroit par oléoduc, mais le coût du fret et de l'assurance s'est envolé, si bien que le baril de Brent évolue autour de 100 dollars, contre environ 72 avant le conflit. C'est ce levier que Téhéran entend monnayer à la table des négociations."
       },
       "keys": [
-        { "title": "L'origine du conflit", "text": "Le 28 février, les États-Unis et Israël ont lancé une campagne de frappes contre l'Iran, au cours de laquelle le Guide suprême, Ali Khamenei, a été tué ; son fils Mojtaba lui a succédé. Téhéran a riposté contre Israël et contre les bases américaines du Golfe." },
-        { "title": "Le rôle du Qatar", "text": "Allié de Washington, qui y dispose de sa principale base aérienne dans la région, mais en contact régulier avec Téhéran, l'émirat est devenu l'intermédiaire obligé. Il espère un accord intérimaire : l'Iran cesserait d'attaquer les navires, ce qui permettrait la reprise de discussions directes." }
+        {
+          "title": "L'origine du conflit",
+          "text": "Le 28 février, les États-Unis et Israël ont lancé une campagne de frappes contre l'Iran, au cours de laquelle le Guide suprême, Ali Khamenei, a été tué ; son fils Mojtaba lui a succédé. Téhéran a riposté contre Israël et contre les bases américaines du Golfe."
+        },
+        {
+          "title": "Le rôle du Qatar",
+          "text": "Allié de Washington, qui y dispose de sa principale base aérienne dans la région, mais en contact régulier avec Téhéran, l'émirat est devenu l'intermédiaire obligé. Il espère un accord intérimaire : l'Iran cesserait d'attaquer les navires, ce qui permettrait la reprise de discussions directes."
+        }
       ],
-      "involved": ["USA", "ISR", "QAT", "LBN", "YEM", "SAU"],
-      "zones": [ { "id": "HORMUZ", "name": "Ormuz", "coords": [56.4, 26.5] } ],
+      "involved": [
+        "USA",
+        "ISR",
+        "QAT",
+        "LBN",
+        "YEM",
+        "SAU"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Ormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
       "context": [
-        { "d": "2026-02-28", "t": "Frappes américaines et israéliennes ; mort d'Ali Khamenei. L'Iran riposte et bloque le détroit d'Ormuz." },
-        { "d": "2026-06-15", "t": "Le Pakistan annonce un arrêt des opérations militaires, régulièrement violé depuis." },
-        { "d": "2026-10-30", "t": "Médiateurs qataris à Téhéran, puis trois jours de discussions à Doha." },
-        { "d": "2026-11-02", "t": "Frappe américaine sur l'île de Qeshm, révélée par des responsables américains." }
+        {
+          "d": "2026-02-28",
+          "t": "Frappes américaines et israéliennes ; mort d'Ali Khamenei. L'Iran riposte et bloque le détroit d'Ormuz."
+        },
+        {
+          "d": "2026-06-15",
+          "t": "Le Pakistan annonce un arrêt des opérations militaires, régulièrement violé depuis."
+        },
+        {
+          "d": "2026-10-30",
+          "t": "Médiateurs qataris à Téhéran, puis trois jours de discussions à Doha."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Frappe américaine sur l'île de Qeshm, révélée par des responsables américains."
+        }
       ],
       "sources": [
-        { "name": "Al Jazeera", "title": "L'Iran et les États-Unis entre diplomatie et menaces", "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war", "date": "2026-11-01" },
-        { "name": "Associated Press", "title": "Où en est-on avec l'Iran", "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html", "date": "2026-11-02" },
-        { "name": "Just Security", "title": "Revue du 3 novembre", "url": "https://www.justsecurity.org/163177/early-edition-november-3-2026/", "date": "2026-11-03" },
-        { "name": "Al Jazeera", "title": "Les attaques contre les navires dans le détroit", "url": "https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable", "date": "2026-10-06" }
+        {
+          "name": "Al Jazeera",
+          "title": "L'Iran et les États-Unis entre diplomatie et menaces",
+          "url": "https://www.aljazeera.com/news/2026/11/1/iran-and-us-explore-diplomacy-amid-rising-threats-of-war",
+          "date": "2026-11-01"
+        },
+        {
+          "name": "Associated Press",
+          "title": "Où en est-on avec l'Iran",
+          "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html",
+          "date": "2026-11-02"
+        },
+        {
+          "name": "Just Security",
+          "title": "Revue du 3 novembre",
+          "url": "https://www.justsecurity.org/163177/early-edition-november-3-2026/",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Les attaques contre les navires dans le détroit",
+          "url": "https://www.aljazeera.com/news/2026/10/6/hormuz-ship-attacks-surge-are-increased-oil-exports-sustainable",
+          "date": "2026-10-06"
+        }
       ]
     },
     {
@@ -92,27 +205,78 @@
         "Selon l'Institute for the Study of War, un centre de recherche américain, cette campagne vise à rendre l'hiver toujours plus coûteux pour la population afin de contraindre l'Ukraine à céder, alors que le front, lui, ne bouge presque plus.",
         "C'est dans ce contexte que les trois délégations doivent se retrouver à Abou Dhabi pour aborder les garanties de sécurité de l'après-guerre, la désescalade et des mesures humanitaires, après trois rondes de discussions infructueuses en début d'année."
       ],
-      "since": { "date": "2022-02-24", "label": "depuis l'invasion à grande échelle" },
+      "figure": {
+        "value": "9",
+        "label": "régions touchées par les frappes contre le réseau électrique",
+        "compare": "à l'approche de l'hiver, une partie de Kiev privée d'eau"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
+      },
       "analysis": {
         "title": "Le flanc oriental de l'OTAN sous tension",
         "text": "Le conflit déborde désormais sur les frontières de l'Alliance atlantique. La Pologne affirme avoir déjoué une provocation russe dans la nuit du 2 au 3 novembre, après une série d'incidents depuis l'été, dont l'incursion d'un hélicoptère militaire russe en septembre. Les services de renseignement américains jugent possible une attaque limitée contre la Pologne ou les pays baltes, destinée à tester la cohésion de l'OTAN, ce que Moscou dément. Le commandant suprême des forces alliées en Europe a présenté en octobre une doctrine plus offensive, fondée sur un « mur de drones » et des frappes en profondeur sur le territoire russe en cas d'agression."
       },
       "keys": [
-        { "title": "La position de Kiev", "text": "Volodymyr Zelensky répète qu'aucun accord ne peut être conclu sans l'Ukraine et réclame des garanties de sécurité durables. Washington, à l'origine de cette nouvelle ronde, presse les deux parties de conclure." },
-        { "title": "La situation sur le front", "text": "Les combats les plus intenses se concentrent autour de Pokrovsk, dans la région de Donetsk. D'après l'Institute for the Study of War, aucune des deux armées n'a enregistré de progression notable ces derniers jours." }
+        {
+          "title": "La position de Kiev",
+          "text": "Volodymyr Zelensky répète qu'aucun accord ne peut être conclu sans l'Ukraine et réclame des garanties de sécurité durables. Washington, à l'origine de cette nouvelle ronde, presse les deux parties de conclure."
+        },
+        {
+          "title": "La situation sur le front",
+          "text": "Les combats les plus intenses se concentrent autour de Pokrovsk, dans la région de Donetsk. D'après l'Institute for the Study of War, aucune des deux armées n'a enregistré de progression notable ces derniers jours."
+        }
       ],
-      "involved": ["RUS", "POL", "USA", "ARE"],
+      "involved": [
+        "RUS",
+        "POL",
+        "USA",
+        "ARE"
+      ],
       "context": [
-        { "d": "2022-02-24", "t": "La Russie lance son invasion à grande échelle de l'Ukraine." },
-        { "d": "2026-02", "t": "Trois rondes de négociations, à Abou Dhabi puis à Genève, sans accord." },
-        { "d": "2026-11-03", "t": "Frappe massive sur le réseau énergétique ; Kiev en partie privée d'eau." },
-        { "d": "2026-11-10", "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi." }
+        {
+          "d": "2022-02-24",
+          "t": "La Russie lance son invasion à grande échelle de l'Ukraine."
+        },
+        {
+          "d": "2026-02",
+          "t": "Trois rondes de négociations, à Abou Dhabi puis à Genève, sans accord."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Frappe massive sur le réseau énergétique ; Kiev en partie privée d'eau."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi."
+        }
       ],
       "sources": [
-        { "name": "Institute for the Study of War, via Kyiv Post", "title": "Point sur l'offensive russe du 3 novembre", "url": "https://www.kyivpost.com/post/89070", "date": "2026-11-03" },
-        { "name": "Al Jazeera", "title": "Frappes croisées et coupures de courant", "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region", "date": "2026-11-04" },
-        { "name": "Reuters, via Devdiscourse", "title": "Pourparlers à trois à Abou Dhabi", "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official", "date": "2026-11-02" },
-        { "name": "Meduza", "title": "Le plan de l'OTAN face à la Russie", "url": "https://meduza.io/en/feature/2026/10/12/how-would-nato-defeat-a-russian-invasion-its-top-commander-envisions-a-wall-of-drones-a-counteroffensive-and-missile-strikes-deep-behind-russian-lines", "date": "2026-10-12" }
+        {
+          "name": "Institute for the Study of War, via Kyiv Post",
+          "title": "Point sur l'offensive russe du 3 novembre",
+          "url": "https://www.kyivpost.com/post/89070",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Frappes croisées et coupures de courant",
+          "url": "https://www.aljazeera.com/news/2026/11/4/ukrainian-strikes-kill-three-in-russias-belgorod-region",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "Reuters, via Devdiscourse",
+          "title": "Pourparlers à trois à Abou Dhabi",
+          "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
+          "date": "2026-11-02"
+        },
+        {
+          "name": "Meduza",
+          "title": "Le plan de l'OTAN face à la Russie",
+          "url": "https://meduza.io/en/feature/2026/10/12/how-would-nato-defeat-a-russian-invasion-its-top-commander-envisions-a-wall-of-drones-a-counteroffensive-and-missile-strikes-deep-behind-russian-lines",
+          "date": "2026-10-12"
+        }
       ]
     },
     {
@@ -128,26 +292,73 @@
         "Les deux camps refusant jusqu'ici de gouverner avec ces derniers, le pays semble promis à de longues tractations, voire à un nouveau scrutin, que le président, Isaac Herzog, appelle à tout faire pour éviter.",
         "Ce blocage intervient alors que Donald Trump annonce l'arrêt, à la fin de l'année, de 4 milliards de dollars d'aide américaine à Israël, et que certains démocrates fraîchement élus, comme le futur sénateur du Maine Troy Jackson, réclament la fin de l'assistance militaire."
       ],
+      "figure": {
+        "value": "53",
+        "label": "sièges pour la coalition de Benyamin Nétanyahou",
+        "compare": "il en faut 61 sur 120 pour gouverner"
+      },
       "analysis": {
         "title": "À Gaza, une trêve qui ne protège pas",
         "text": "Le cessez-le-feu négocié par Washington est entré en vigueur en octobre 2025, mais près de 1 600 Palestiniens ont été tués depuis, selon le ministère de la santé de Gaza, qui recense au total plus de 74 600 morts depuis le début de la guerre, en octobre 2023. L'armée israélienne affirme viser des membres du Hamas, notamment des commandants impliqués dans l'attaque du 7 octobre. Le plan de paix en vingt points de Donald Trump, qui prévoit de confier l'administration du territoire à un « Conseil de la paix » et sa sécurité à une force internationale, reste largement à l'arrêt ; ses émissaires, Nickolay Mladenov et Tony Blair, sont en Israël cette semaine pour tenter de le relancer."
       },
       "keys": [
-        { "title": "Le poids des partis arabes", "text": "Ils représentent les citoyens arabes d'Israël, environ un cinquième de la population. En 2021, le parti Raam avait, pour la première fois, participé à une coalition gouvernementale ; cette fois, la droite comme Gadi Eisenkot excluent de s'appuyer sur eux." },
-        { "title": "La suite", "text": "Le président doit consulter les groupes parlementaires avant de confier à l'un des dirigeants la formation d'un gouvernement. Faute de coalition dans les délais légaux, les électeurs seraient rappelés aux urnes." }
+        {
+          "title": "Le poids des partis arabes",
+          "text": "Ils représentent les citoyens arabes d'Israël, environ un cinquième de la population. En 2021, le parti Raam avait, pour la première fois, participé à une coalition gouvernementale ; cette fois, la droite comme Gadi Eisenkot excluent de s'appuyer sur eux."
+        },
+        {
+          "title": "La suite",
+          "text": "Le président doit consulter les groupes parlementaires avant de confier à l'un des dirigeants la formation d'un gouvernement. Faute de coalition dans les délais légaux, les électeurs seraient rappelés aux urnes."
+        }
       ],
-      "involved": ["PSE", "USA", "LBN"],
+      "involved": [
+        "PSE",
+        "USA",
+        "LBN"
+      ],
       "context": [
-        { "d": "2023-10-07", "t": "Attaque menée par le Hamas dans le sud d'Israël, suivie de la guerre à Gaza." },
-        { "d": "2025-10-10", "t": "Entrée en vigueur du cessez-le-feu à Gaza." },
-        { "d": "2026-10-27", "t": "Élections législatives : aucun bloc n'obtient la majorité." },
-        { "d": "2026-11-03", "t": "Donald Trump annonce l'arrêt de 4 milliards de dollars d'aide à Israël à la fin de l'année." }
+        {
+          "d": "2023-10-07",
+          "t": "Attaque menée par le Hamas dans le sud d'Israël, suivie de la guerre à Gaza."
+        },
+        {
+          "d": "2025-10-10",
+          "t": "Entrée en vigueur du cessez-le-feu à Gaza."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "Élections législatives : aucun bloc n'obtient la majorité."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Donald Trump annonce l'arrêt de 4 milliards de dollars d'aide à Israël à la fin de l'année."
+        }
       ],
       "sources": [
-        { "name": "ABC News", "title": "Les résultats définitifs des législatives", "url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276", "date": "2026-10-29" },
-        { "name": "Al Jazeera", "title": "Pas de majorité au Parlement israélien", "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete", "date": "2026-10-29" },
-        { "name": "The Times of Israel", "title": "Les émissaires du Conseil de la paix en Israël", "url": "https://www.timesofisrael.com/liveblog-november-03-2026/", "date": "2026-11-03" },
-        { "name": "Al Jazeera", "title": "Frappes à Gaza malgré la trêve", "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds", "date": "2026-11-03" }
+        {
+          "name": "ABC News",
+          "title": "Les résultats définitifs des législatives",
+          "url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276",
+          "date": "2026-10-29"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Pas de majorité au Parlement israélien",
+          "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete",
+          "date": "2026-10-29"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "Les émissaires du Conseil de la paix en Israël",
+          "url": "https://www.timesofisrael.com/liveblog-november-03-2026/",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Frappes à Gaza malgré la trêve",
+          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds",
+          "date": "2026-11-03"
+        }
       ]
     },
     {
@@ -163,42 +374,135 @@
         "Un an après la chute d'El-Fasher, la capitale du Darfour-Nord, Amnesty International y documente toujours exécutions, détentions et tortures, et décrit une ville vidée de l'immense majorité de ses habitants.",
         "Les autorités soudanaises accusent l'Éthiopie d'abriter des sites de lancement de drones des FSR ; Addis-Abeba a riposté le 4 novembre en expulsant six diplomates soudanais, faisant craindre un élargissement du conflit à la Corne de l'Afrique."
       ],
-      "since": { "date": "2023-04-15", "label": "de guerre civile" },
+      "figure": {
+        "value": "13 millions",
+        "label": "de déplacés",
+        "compare": "environ un Soudanais sur quatre"
+      },
+      "since": {
+        "date": "2023-04-15",
+        "label": "de guerre civile"
+      },
       "analysis": {
         "title": "Une guerre à l'abri des regards",
         "text": "Avec treize millions de déplacés, le Soudan traverse l'une des plus graves crises humanitaires de la planète, mais le pays reste presque fermé aux journalistes étrangers, et l'attention internationale se porte ailleurs. Le conflit oppose deux anciens alliés : le général Abdel Fattah Al-Bourhane, à la tête de l'armée, et Mohamed Hamdan Daglo, dit « Hemetti », chef des FSR, qui avaient ensemble évincé le gouvernement civil en 2021. Les deux camps sont accusés de crimes de guerre, et le Royaume-Uni vient de sanctionner quinze de leurs commandants. L'émissaire des Nations unies, Pekka Haavisto, espère réunir les FSR avant Noël pour discuter d'une transition vers un pouvoir civil."
       },
       "keys": [
-        { "title": "El-Fasher", "text": "La ville est tombée aux mains des FSR le 26 octobre 2025, après dix-huit mois de siège. Plus de 6 000 personnes auraient été tuées lors de l'assaut et sur les routes de l'exode, et les Nations unies ont relevé des actes assimilables à des crimes de guerre." },
-        { "title": "L'Éthiopie dans la crise", "text": "Le Soudan a saisi le Conseil de sécurité de l'ONU et l'Union africaine. L'Éthiopie, déjà en tension avec l'Érythrée, se retrouve ainsi exposée sur deux fronts à ses frontières." }
+        {
+          "title": "El-Fasher",
+          "text": "La ville est tombée aux mains des FSR le 26 octobre 2025, après dix-huit mois de siège. Plus de 6 000 personnes auraient été tuées lors de l'assaut et sur les routes de l'exode, et les Nations unies ont relevé des actes assimilables à des crimes de guerre."
+        },
+        {
+          "title": "L'Éthiopie dans la crise",
+          "text": "Le Soudan a saisi le Conseil de sécurité de l'ONU et l'Union africaine. L'Éthiopie, déjà en tension avec l'Érythrée, se retrouve ainsi exposée sur deux fronts à ses frontières."
+        }
       ],
-      "involved": ["ETH"],
+      "involved": [
+        "ETH"
+      ],
       "context": [
-        { "d": "2023-04-15", "t": "Début de la guerre entre l'armée et les FSR." },
-        { "d": "2025-10-26", "t": "Chute d'El-Fasher après dix-huit mois de siège." },
-        { "d": "2026-10-29", "t": "Le Royaume-Uni sanctionne quinze commandants des deux camps." },
-        { "d": "2026-11-03", "t": "Les FSR prennent la base de Sali, dans le Nil-Bleu." },
-        { "d": "2026-11-04", "t": "L'Éthiopie expulse six diplomates soudanais." }
+        {
+          "d": "2023-04-15",
+          "t": "Début de la guerre entre l'armée et les FSR."
+        },
+        {
+          "d": "2025-10-26",
+          "t": "Chute d'El-Fasher après dix-huit mois de siège."
+        },
+        {
+          "d": "2026-10-29",
+          "t": "Le Royaume-Uni sanctionne quinze commandants des deux camps."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Les FSR prennent la base de Sali, dans le Nil-Bleu."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "L'Éthiopie expulse six diplomates soudanais."
+        }
       ],
       "sources": [
-        { "name": "ONU Info", "title": "Les frappes de drones au Soudan", "url": "https://news.un.org/en/story/2026/11/1168731", "date": "2026-11-03" },
-        { "name": "Al Jazeera", "title": "Les drones creusent le fossé entre le Soudan et l'Éthiopie", "url": "https://aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia", "date": "2026-11-03" },
-        { "name": "Amnesty International", "title": "El-Fasher, un an après", "url": "https://www.amnesty.org/en/latest/news/2026/10/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-by-the-rsf-new-testimony/", "date": "2026-10-24" },
-        { "name": "The National", "title": "L'émissaire de l'ONU espère des discussions", "url": "https://thenationalnews.com/news/mena/2026/11/02/talks-with-rsf-on-transition-to-civilian-rule-in-sudan-expected-within-weeks-says-un-envoy", "date": "2026-11-02" }
+        {
+          "name": "ONU Info",
+          "title": "Les frappes de drones au Soudan",
+          "url": "https://news.un.org/en/story/2026/11/1168731",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Les drones creusent le fossé entre le Soudan et l'Éthiopie",
+          "url": "https://aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Amnesty International",
+          "title": "El-Fasher, un an après",
+          "url": "https://www.amnesty.org/en/latest/news/2026/10/sudan-el-fasher-civilians-suffer-unlawful-killings-detention-and-torture-one-year-after-citys-capture-by-the-rsf-new-testimony/",
+          "date": "2026-10-24"
+        },
+        {
+          "name": "The National",
+          "title": "L'émissaire de l'ONU espère des discussions",
+          "url": "https://thenationalnews.com/news/mena/2026/11/02/talks-with-rsf-on-transition-to-civilian-rule-in-sudan-expected-within-weeks-says-un-envoy",
+          "date": "2026-11-02"
+        }
       ]
     }
   ],
   "brief": [
-    { "id": "IDN", "place": "Indonésie", "text": "Trois hauts gradés de la police, dont l'ancien chef de la police nationale devenu chef de cabinet du président, ont été arrêtés pour des écoutes illégales visant notamment Prabowo Subianto ; l'armée a déployé près de 21 000 hommes à Jakarta.", "url": "https://www.ksat.com/news/world/2026/11/04/indonesia-deploys-thousands-of-troops-after-generals-arrested-over-wiretapping-allegations/" },
-    { "id": "BRA", "place": "Brésil", "text": "Réélu le 25 octobre avec un peu plus de 51 % des voix, Luiz Inácio Lula da Silva entame un quatrième mandat, contesté par son adversaire, Flávio Bolsonaro, qui réclame l'annulation du scrutin.", "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election" },
-    { "id": "HUN", "place": "Hongrie", "text": "Le gouvernement de Péter Magyar a rendu publics, le 4 novembre, date anniversaire de l'écrasement de l'insurrection de 1956, les noms de quelque 50 000 informateurs de la police politique communiste.", "url": "https://political.org/2026/10/06/hungary-to-publicly-unveil-communist-era-secret-police-informer-files-starting-november-4-2026/" },
-    { "id": "FRA", "place": "France", "text": "Journée de grève interprofessionnelle à l'appel de cinq syndicats, sur fond de contestation du budget 2027 et de mobilisation lycéenne.", "url": "https://www.24matins.fr/greve-du-5-novembre-le-prive-sous-contrat-bascule-a-son-tour-1422972" }
+    {
+      "id": "IDN",
+      "place": "Indonésie",
+      "text": "Trois hauts gradés de la police, dont l'ancien chef de la police nationale devenu chef de cabinet du président, ont été arrêtés pour des écoutes illégales visant notamment Prabowo Subianto ; l'armée a déployé près de 21 000 hommes à Jakarta.",
+      "url": "https://www.ksat.com/news/world/2026/11/04/indonesia-deploys-thousands-of-troops-after-generals-arrested-over-wiretapping-allegations/"
+    },
+    {
+      "id": "BRA",
+      "place": "Brésil",
+      "text": "Réélu le 25 octobre avec un peu plus de 51 % des voix, Luiz Inácio Lula da Silva entame un quatrième mandat, contesté par son adversaire, Flávio Bolsonaro, qui réclame l'annulation du scrutin.",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+    },
+    {
+      "id": "HUN",
+      "place": "Hongrie",
+      "text": "Le gouvernement de Péter Magyar a rendu publics, le 4 novembre, date anniversaire de l'écrasement de l'insurrection de 1956, les noms de quelque 50 000 informateurs de la police politique communiste.",
+      "url": "https://political.org/2026/10/06/hungary-to-publicly-unveil-communist-era-secret-police-informer-files-starting-november-4-2026/"
+    },
+    {
+      "id": "FRA",
+      "place": "France",
+      "text": "Journée de grève interprofessionnelle à l'appel de cinq syndicats, sur fond de contestation du budget 2027 et de mobilisation lycéenne.",
+      "url": "https://www.24matins.fr/greve-du-5-novembre-le-prive-sous-contrat-bascule-a-son-tour-1422972"
+    }
   ],
   "agenda": [
-    { "d": "2026-11-09", "t": "Ouverture de la COP31 sur le climat à Antalya, en Turquie." },
-    { "d": "2026-11-10", "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi." },
-    { "d": "2026-11-18", "t": "Sommet de l'APEC à Shenzhen, rencontre entre Donald Trump et Xi Jinping." },
-    { "d": "2026-11-28", "t": "Élections locales à Taïwan." }
+    {
+      "d": "2026-11-09",
+      "t": "Ouverture de la COP31 sur le climat à Antalya, en Turquie."
+    },
+    {
+      "d": "2026-11-10",
+      "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "Sommet de l'APEC à Shenzhen, rencontre entre Donald Trump et Xi Jinping."
+    },
+    {
+      "d": "2026-11-28",
+      "t": "Élections locales à Taïwan."
+    }
   ],
-  "consulted": ["Al Jazeera", "Associated Press", "Reuters", "Anadolu", "CNBC", "NPR", "Kyiv Post", "ONU Info", "CFR"]
+  "consulted": [
+    "Al Jazeera",
+    "Associated Press",
+    "Reuters",
+    "Anadolu",
+    "CNBC",
+    "NPR",
+    "Kyiv Post",
+    "ONU Info",
+    "CFR"
+  ]
 }

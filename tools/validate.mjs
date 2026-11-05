@@ -14,6 +14,9 @@ const codes = new Set(world.objects.countries.geometries.map((g) => g.properties
 const isDate = (s) => /^\d{4}-\d{2}(-\d{2})?$/.test(String(s));
 const words = (s) => String(s || '').trim().split(/\s+/).filter(Boolean).length;
 const isUrl = (s) => /^https:\/\/\S+$/.test(String(s || ''));
+const countries = read('data/countries.json');
+const gov = read('data/gov.json');
+const days = (a, b) => Math.round((Date.parse(b) - Date.parse(a)) / 864e5);
 
 function checkEdition(ed, where) {
   const range = (w, label, text, min, max) => { const n = words(text); if (n < min || n > max) fail(w, `${label} : ${min} à ${max} mots (${n})`); };
@@ -34,6 +37,12 @@ function checkEdition(ed, where) {
     range(w, 'standfirst', e.standfirst, 15, 55);
     if (!Array.isArray(e.body) || e.body.length !== 3) fail(w, 'body : exactement trois phrases');
     (e.body || []).forEach((b, j) => range(w, `phrase ${j + 1}`, b, 12, 62));
+    if (!e.figure || !e.figure.value || !e.figure.label) fail(w, 'figure (chiffre du jour) manquant : value et label');
+    else { range(w, 'figure.value', e.figure.value, 1, 4); range(w, 'figure.label', e.figure.label, 1, 14); if (e.figure.compare) range(w, 'figure.compare', e.figure.compare, 2, 16); }
+    if (!countries[e.id]) fail(w, `pays absent de data/countries.json : ${e.id}`);
+    const gv = gov[e.id];
+    if (!gv) fail(w, `dirigeant et régime à vérifier puis ajouter dans data/gov.json : ${e.id}`);
+    else if (days(gv.checked, ed.date) > 30) fail(w, `data/gov.json : ${e.id} vérifié il y a plus de 30 jours (${gv.checked}), revérifier`);
     if (!e.analysis || !e.analysis.title) fail(w, 'analysis manquant');
     else { range(w, 'analysis.title', e.analysis.title, 2, 10); range(w, 'analysis.text', e.analysis.text, 50, 170); }
     if (!Array.isArray(e.keys) || e.keys.length < 2 || e.keys.length > 3) fail(w, 'keys : 2 ou 3 clés');
@@ -55,6 +64,15 @@ function checkEdition(ed, where) {
   br.forEach((b) => { if (!b.place) fail(where, 'brief sans lieu'); range(where, `brief ${b.place}`, b.text, 8, 50); if (b.url && !isUrl(b.url)) fail(where, `brief ${b.place} : url invalide`); });
   (ed.agenda || []).forEach((a) => { if (!isDate(a.d) || !a.t) fail(where, 'agenda invalide'); });
 }
+
+Object.entries(gov).forEach(([id, g]) => {
+  const w = `data/gov.json › ${id}`;
+  if (!countries[id]) fail(w, 'code pays inconnu');
+  if (!g.regime || !Array.isArray(g.leaders) || !g.leaders.length) fail(w, 'regime et leaders obligatoires');
+  (g.leaders || []).forEach((l) => { if (!l.role || !l.name) fail(w, 'chaque dirigeant a un role et un name'); });
+  if (!isDate(g.checked)) fail(w, 'checked doit être une date AAAA-MM-JJ');
+  if (!g.source || !g.source.name || !isUrl(g.source.url)) fail(w, 'source invalide');
+});
 
 const dir = path.join(root, 'data/editions');
 const files = fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort();

@@ -8,7 +8,8 @@
     label: 'Globe des cinq sujets du jour',
     onPick: (rank) => { location.href = TP.ROOT + 'globe/#' + rank; }
   });
-  Promise.all([TP.json('assets/world.json'), TP.json('data/latest.json')]).then(([world, ed]) => {
+  Promise.all([TP.json('assets/world.json'), TP.json('data/latest.json'), TP.json('data/countries.json').catch(() => ({}))]).then(([world, ed, countries]) => {
+    globe.setMeta(countries);
     globe.load(world);
     globe.setStories(ed.essentials, 0);
   }).catch(() => { host.hidden = true; });

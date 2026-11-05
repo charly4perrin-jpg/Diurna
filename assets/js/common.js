@@ -46,9 +46,30 @@
     minus: '<path d="M5 12h14"/>',
     recenter: '<path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/>',
     install: '<path d="M12 3v12M7 10l5 5 5-5M5 21h14"/>',
-    out: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>'
+    out: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
+    close: '<path d="M6 6l12 12M18 6L6 18"/>'
   };
   const icon = (n) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n] || ''}</svg>`;
+
+  // Drapeau d'un pays (entrée de data/countries.json). Décoratif : le nom du pays est toujours à côté.
+  const flag = (c, cls) => c && c.flag
+    ? `<img class="flag${cls ? ' ' + cls : ''}" src="${ROOT}assets/flags/${c.flag}" alt="" width="20" height="15" loading="lazy" decoding="async">`
+    : '';
+
+  // Population à la manière de la presse : « 92,4 millions », « 1,4 milliard », « 560 000 ».
+  const dec1 = new Intl.NumberFormat('fr-FR', { maximumFractionDigits: 1 });
+  function population(n) {
+    if (!n) return '';
+    if (n >= 1e9) { const v = n / 1e9; return `${dec1.format(v)} milliard${v >= 2 ? 's' : ''}`; }
+    if (n >= 1e6) { const v = n / 1e6; return `${v >= 100 ? Math.round(v) : dec1.format(v)} million${v >= 2 ? 's' : ''}`; }
+    return nf.format(Math.round(n / 1000) * 1000);
+  }
+
+  // Préférences du lecteur, sur cet appareil uniquement.
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem('tp.' + k); return v === null ? d : JSON.parse(v); } catch (_) { return d; } },
+    set(k, v) { try { localStorage.setItem('tp.' + k, JSON.stringify(v)); } catch (_) {} }
+  };
 
   // Installation comme application (Android, Chrome, Edge).
   let deferred = null;
@@ -68,5 +89,5 @@
     global.addEventListener('load', () => navigator.serviceWorker.register(ROOT + 'sw.js').catch(() => {}));
   }
 
-  global.TP = { ROOT, fr, esc, t, day, longDate, hour, dayCount, nf, json, icon, utc };
+  global.TP = { ROOT, fr, esc, t, day, longDate, hour, dayCount, nf, json, icon, utc, flag, population, store };
 })(window);
