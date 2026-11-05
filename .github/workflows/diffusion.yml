@@ -54,4 +54,5 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
-        run: tools/alert.sh "Diffusion du jour en échec" "Le carrousel ou l'e-mail du jour n'a pas pu être généré. Détails : $RUN_URL"
+        run: |
+          tools/alert.sh "Diffusion du jour en échec" "Le carrousel ou l'e-mail du jour n'a pas pu être généré. Détails : $RUN_URL"

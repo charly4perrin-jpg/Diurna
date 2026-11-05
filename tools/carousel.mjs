@@ -22,8 +22,8 @@ const host = base.replace(/^https?:\/\//, '');
 const { chromium } = require('playwright');
 const b64 = (p) => rd(p).toString('base64');
 const FONTS = `
-@font-face{font-family:N;src:url(data:font/woff2;base64,${b64('assets/fonts/newsreader-latin-standard-normal.woff2')}) format("woff2");font-weight:200 800}
-@font-face{font-family:A;src:url(data:font/woff2;base64,${b64('assets/fonts/archivo-latin-standard-normal.woff2')}) format("woff2");font-weight:100 900;font-stretch:62% 125%}`;
+@font-face{font-family:N;src:url(data:font/woff2;base64,${b64('tools/fonts-src/newsreader-latin-standard-normal.woff2')}) format("woff2");font-weight:200 800}
+@font-face{font-family:A;src:url(data:font/woff2;base64,${b64('tools/fonts-src/archivo-latin-standard-normal.woff2')}) format("woff2");font-weight:100 900;font-stretch:62% 125%}`;
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const typo = (lang, s) => {
   s = String(s ?? '').replace(/'/g, '’');

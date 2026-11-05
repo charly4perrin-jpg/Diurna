@@ -240,7 +240,7 @@
     const lead = ['figure', 'impact'].filter((k) => R[k].has(s));
     return { first: lead.concat(ok.slice(0, FIRST_LEVEL)), more: ok.slice(FIRST_LEVEL) };
   }
-  const box = (k, s) => `<section class="mod mod-${k}" data-mod="${k}"><h4 class="mod-h">${t(R[k].title(s))}</h4>${R[k].html(s)}</section>`;
+  const box = (k, s) => `<section class="mod mod-${k}" data-mod="${k}"><h3 class="mod-h">${t(R[k].title(s))}</h3>${R[k].html(s)}</section>`;
   function html(s) {
     const p = plan(s);
     return `<div class="mods">${p.first.map((k) => box(k, s)).join('')}</div>

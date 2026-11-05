@@ -42,7 +42,10 @@
       this.span = new Map();
       this.hover = null;
       this.anim = null;
-      this.idleUntil = 0;
+      // La rotation automatique attend quelques secondes (spinDelay) : la page s'affiche et se lit d'abord.
+      this.idleUntil = performance.now() + (this.o.spinDelay || 0);
+      this.visible = true;
+      this.lastSpin = 0;
       this.card = null;
       this.proj = d3.geoOrthographic().clipAngle(90).precision(0.4);
       this.path = d3.geoPath(this.proj);
@@ -91,6 +94,8 @@
       this.ro = new ResizeObserver(() => this.resize());
       this.ro.observe(box);
       this.resize();
+      // Hors de l'écran ou onglet caché : le globe ne tourne pas (économie de batterie et de processeur).
+      if ('IntersectionObserver' in window) new IntersectionObserver((es) => { this.visible = es[0].isIntersecting; }).observe(box);
       this._loop = this._loop.bind(this);
       requestAnimationFrame(this._loop);
     }
@@ -365,8 +370,11 @@
 
     _loop(now) {
       if (this.anim) this.anim(now);
-      else if (this.o.spin && !reduce && !this.drag && !this.card && now > this.idleUntil) {
-        this.rot[0] += this.o.spin * 16;
+      else if (this.o.spin && !reduce && !this.drag && !this.card && this.visible && !document.hidden && now > this.idleUntil && now - this.lastSpin > 32) {
+        // Rotation à 30 images par seconde, à vitesse constante quel que soit l'écran.
+        const dt = this.lastSpin ? Math.min(now - this.lastSpin, 100) : 16;
+        this.lastSpin = now;
+        this.rot[0] += this.o.spin * dt;
         this.draw();
       }
       requestAnimationFrame(this._loop);

@@ -60,3 +60,12 @@ Secrets GitHub Actions (jamais dans le site) : `BUTTONDOWN_API_KEY` pour dépose
 - **Diffusion** : carrousel de 6 images 1080 × 1350 avec légende, et e-mail du jour, à télécharger dans « Artifacts ».
 - **Surveillance** : vérifie matin et soir que l'édition du jour est en ligne.
 - **Contrôle en ligne** : preuves du site public (codes HTTP, balises, données structurées, flux validés par le W3C).
+
+## Performance
+
+- Polices : `python3 tools/fonts.py` produit, depuis les polices complètes de `tools/fonts-src/`, trois fichiers
+  WOFF2 allégés (79 ko au total) dans `assets/fonts/`.
+- Carte : `node tools/simplify-map.mjs` simplifie et quantifie `tools/map-src/world-110m.json` vers `assets/world.json`.
+- Le CSS est écrit dans chaque page par `tools/build.mjs` (pas de requête bloquante) ; le globe, d3 et les modules
+  se chargent une fois le texte affiché, et le globe de l'accueil ne commence à tourner qu'après quelques secondes.
+- Le workflow **Performance** mesure le site public avec Lighthouse (mobile) après chaque mise en ligne.

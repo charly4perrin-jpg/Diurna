@@ -3,9 +3,9 @@
    les titres et le texte, Archivo pour les rubriques et l'interface), un globe éclairé, et cinq
    couleurs, une par sujet du jour, qui servent de repère d'un bout à l'autre de l'édition. */
 
-@font-face { font-family: "Newsreader"; src: url("../fonts/newsreader-latin-standard-normal.woff2") format("woff2"); font-weight: 200 800; font-style: normal; font-display: swap; }
-@font-face { font-family: "Newsreader"; src: url("../fonts/newsreader-latin-standard-italic.woff2") format("woff2"); font-weight: 200 800; font-style: italic; font-display: swap; }
-@font-face { font-family: "Archivo"; src: url("../fonts/archivo-latin-standard-normal.woff2") format("woff2"); font-weight: 100 900; font-stretch: 62% 125%; font-style: normal; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("../fonts/newsreader-text.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Newsreader"; src: url("../fonts/newsreader-italic.woff2") format("woff2"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Archivo"; src: url("../fonts/archivo.woff2") format("woff2"); font-weight: 400 700; font-style: normal; font-display: swap; }
 
 :root {
   color-scheme: dark;
@@ -370,7 +370,7 @@ a.step, a.nr { text-decoration: none; }
 .mods { display: flex; flex-direction: column; gap: 14px; }
 .mod { position: relative; padding: 15px 16px 14px; border: 1px solid var(--line); border-radius: 12px; background: color-mix(in srgb, var(--night) 55%, transparent); display: flex; flex-direction: column; gap: 10px; min-width: 0; }
 .mod > * { margin: 0; }
-.mod-h { font: 650 .7rem/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--acc); }
+.mod-h, .article h3.mod-h { margin: 0; font: 650 .7rem/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--acc); }
 .mod-src { font: 400 .76rem/1.45 var(--sans); color: var(--ink-3); }
 .mod-src a { color: var(--ink-2); }
 .mod-note { font: italic 400 .9rem/1.5 var(--serif); color: var(--ink-3); }

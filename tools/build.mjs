@@ -155,6 +155,29 @@ const ldScript = (o) => `<script type="application/ld+json">${JSON.stringify(o).
 const ORG = () => ({ '@type': 'Organization', '@id': `${abs}/#organization`, name: 'Diurna', url: `${abs}/`, logo: { '@type': 'ImageObject', url: `${abs}/icons/icon-512.png`, width: 512, height: 512 } });
 const crumbs = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, p], i) => ({ '@type': 'ListItem', position: i + 1, name, item: `${abs}/${p}` })) });
 
+/* ---------- Feuille de style en ligne (aucune requête bloquante) et scripts chargés après l'affichage ---------- */
+// Le CSS minifié (≈ 10 ko compressé) est écrit dans chaque page : le texte s'affiche dès l'arrivée du HTML.
+const CSS = rd('assets/css/site.css')
+  .replace(/\/\*[\s\S]*?\*\//g, '')
+  .replace(/\s+/g, ' ')
+  .replace(/\s*([{}:;,>])\s*/g, '$1')
+  .replace(/;}/g, '}')
+  .replace(/:(is|where|not)\(/g, ':$1(')
+  .trim();
+// i18n et common sont différés ; le globe (d3, carte) et les modules se chargent quand le navigateur est libre,
+// une fois le texte affiché. Les pages sans globe n'ont que les deux premiers.
+const EARLY = new Set(['assets/js/i18n.js', 'assets/js/common.js', 'assets/js/search.js']);
+function scriptTags(rootRel, list) {
+  const early = list.filter((x) => EARLY.has(x)), late = list.filter((x) => !EARLY.has(x));
+  const tag = (x) => `<script defer src="${rootRel}${x}?v=${V}"></script>`;
+  if (!late.length) return early.map(tag).join('\n');
+  const urls = JSON.stringify(late.map((x) => `${rootRel}${x}?v=${V}`));
+  return early.map(tag).join('\n') + `
+<script>(function(){var L=${urls};function go(){L.forEach(function(u){var s=document.createElement('script');s.src=u;s.async=false;document.body.appendChild(s);});}
+function idle(){if('requestIdleCallback' in window)requestIdleCallback(go,{timeout:900});else setTimeout(go,150);}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',idle);else idle();})();</script>`;
+}
+
 /* ---------- Gabarit commun ---------- */
 function page(C, o) {
   const p = o.path, rootRel = rootRelOf(p), other = OTHER[C.lang];
@@ -173,7 +196,7 @@ function page(C, o) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${o.title}</title>
-<script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='${C.lang}'&&!/bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent))location.replace('${rootRel}${altOther}'+location.search+location.hash);}}catch(e){}})();</script>
+<script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='${C.lang}'&&!navigator.webdriver&&!/bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent))location.replace('${rootRel}${altOther}'+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="${o.desc}">
 ${o.noindex ? '<meta name="robots" content="noindex, follow">' : ''}
 ${site.googleVerification ? `<meta name="google-site-verification" content="${esc(site.googleVerification)}">` : ''}
@@ -204,8 +227,8 @@ ${abs ? `<meta property="og:url" content="${abs}/${p}">
 <meta name="twitter:image" content="${og}">
 <meta property="og:image:alt" content="${o.ogAlt || `Diurna — ${esc(C.S.sub)}`}">` : ''}
 ${(o.jsonld || []).map(ldScript).join('\n')}
-<link rel="preload" href="${rootRel}assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="${rootRel}assets/css/site.css?v=${V}">
+<link rel="preload" href="${rootRel}assets/fonts/newsreader-text.woff2" as="font" type="font/woff2" crossorigin>
+<style>${CSS.replace(/url\("\.\.\/fonts\//g, `url("${rootRel}assets/fonts/`)}</style>
 ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>` : ''}
 </head>
 <body data-root="${rootRel}" data-repo="${esc(REPO)}"${FB ? ` data-fb="${esc(FB)}"` : ''}${o.data ? ' ' + o.data : ''}>
@@ -221,7 +244,7 @@ ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src
 </header>
 ${o.body}
 ${o.footer === false ? '' : footer(C, rootRel)}
-${(o.scripts || []).map((s) => `<script src="${rootRel}${s}?v=${V}"></script>`).join('\n')}
+${scriptTags(rootRel, o.scripts || [])}
 ${o.after || ''}
 </body>
 </html>
@@ -309,7 +332,7 @@ function storySSR(C, ed, s) {
   const keys = (s.keys || []).map((k) => `<div><dt>${C.t(k.title)}</dt><dd>${C.t(k.text)}</dd></div>`).join('');
   const ctx = (s.context || []).map((c) => `<li class="${utc(c.d) > utc(ed.date) ? 'soon' : ''}"><time datetime="${esc(c.d)}">${esc(C.day(c.d, ed.date))}</time><span>${C.t(c.t)}</span></li>`).join('');
   const src = (s.sources || []).map((x) => `<li><b>${C.t(x.name)}</b><a href="${esc(x.url)}" target="_blank" rel="noopener">${C.t(x.title)}</a></li>`).join('');
-  const fig = s.figure ? `<div class="mods"><section class="mod mod-figure" data-mod="figure"><h4 class="mod-h">${C.t(C.S.figure)}</h4><p class="fig-v">${C.t(s.figure.value)}</p><p class="fig-l">${C.t(s.figure.label)}</p>${s.figure.compare ? `<p class="fig-c">${C.t(s.figure.compare)}</p>` : ''}</section></div>` : '';
+  const fig = s.figure ? `<div class="mods"><section class="mod mod-figure" data-mod="figure"><h3 class="mod-h">${C.t(C.S.figure)}</h3><p class="fig-v">${C.t(s.figure.value)}</p><p class="fig-l">${C.t(s.figure.label)}</p>${s.figure.compare ? `<p class="fig-c">${C.t(s.figure.compare)}</p>` : ''}</section></div>` : '';
   const acc = countries[s.id] && countries[s.id].accent;
   const next = related(ed, s).map((o) => `<li><a class="nr c${o.rank}" href="${r}${storyPath(C.lang, ed.date, o.slug)}" data-go="${o.rank}"><span class="rubric"><span class="rank">${o.rank}</span>${flag(o.id, r)}${C.t(C.cname(o.id, o.place))}</span><span class="nr-t">${C.t(o.title)}</span></a></li>`).join('');
   return `<div class="article"${acc ? ` style="--acc:${acc}"` : ''}>

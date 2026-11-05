@@ -9,7 +9,7 @@
   let routes = {};
   try { routes = JSON.parse(host.dataset.routes || '{}'); } catch (_) {}
   const globe = new Globe(host, {
-    drag: true, wheel: false, spin: 0.0055, start: [-20, -24],
+    drag: true, wheel: false, spin: 0.0055, spinDelay: 7000, start: [-20, -24],
     label: TP.L('homeGlobe'),
     onPick: (rank) => { TP.track('pays-clique', 'accueil · ' + rank); location.href = TP.ROOT + (routes[rank] || (TP.LANG === 'en' ? 'en/edition/#' : 'globe/#') + rank); }
   });
