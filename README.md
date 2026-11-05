@@ -1,6 +1,6 @@
-# Trois Phrases
+# Diurna
 
-Un quotidien international bref : cinq sujets chaque matin, écrits comme un article de presse, et un globe pour les situer.
+**Le monde, chaque jour, en trois phrases.** Un quotidien international bref : cinq sujets chaque matin, écrits comme un article de presse, et un globe pour les situer.
 
 Site statique publié avec GitHub Pages, installable comme application (PWA).
 

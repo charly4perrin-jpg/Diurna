@@ -1,4 +1,4 @@
-# Trois Phrases — charte éditoriale et format des données
+# Diurna — charte éditoriale et format des données
 
 Ce fichier fait foi pour chaque mise à jour du site. Toute édition qui ne respecte pas
 ces règles ou ce format doit être corrigée avant publication (`node tools/validate.mjs`).

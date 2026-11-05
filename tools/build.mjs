@@ -42,7 +42,8 @@ const ICON = {
   recenter: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>',
   install: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>'
 };
-const MARK = '<svg viewBox="0 0 30 22" aria-hidden="true"><rect x="0" y="1" width="30" height="4" rx="2" fill="#F2EEE6"/><rect x="0" y="9" width="22" height="4" rx="2" fill="#F2EEE6"/><rect x="0" y="17" width="14" height="4" rx="2" fill="#FF6A4D"/></svg>';
+const NAME = 'Diurna';
+const SUB = 'Le monde, chaque jour, en trois phrases.';
 
 function head({ rootRel, title, desc, cls = '' }) {
   const abs = (site.url || '').replace(/\/$/, '');
@@ -59,13 +60,17 @@ function head({ rootRel, title, desc, cls = '' }) {
 <link rel="apple-touch-icon" href="${rootRel}icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Trois Phrases">
+<meta name="apple-mobile-web-app-title" content="${NAME}">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="Trois Phrases">
+<meta property="og:site_name" content="${NAME}">
 <meta property="og:title" content="${title}">
 <meta property="og:description" content="${desc}">
-${abs ? `<meta property="og:image" content="${abs}/og.png">\n<meta name="twitter:card" content="summary_large_image">` : ''}
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${title}">
+<meta name="twitter:description" content="${desc}">
+${abs ? `<meta property="og:image" content="${abs}/og.png">\n<meta name="twitter:image" content="${abs}/og.png">\n<meta property="og:image:alt" content="${NAME} — ${SUB}">` : ''}
 <link rel="preload" href="${rootRel}assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="${rootRel}assets/css/site.css?v=${V}">
 </head>
@@ -76,7 +81,7 @@ function header(rootRel, current) {
   const a = (href, label, key, opt) => `<a href="${rootRel}${href}"${opt ? ' class="opt"' : ''}${current === key ? ' aria-current="page"' : ''}>${label}</a>`;
   return `
 <header class="site-head">
-  <a class="mark" href="${rootRel}">${MARK}<span class="mark-name">Trois <em>Phrases</em></span></a>
+  <a class="mark" href="${rootRel}" aria-label="${NAME}, accueil"><span class="mark-name" aria-hidden="true">DIURNA<span class="mark-dot">.</span></span><span class="mark-sub">${t(SUB)}</span></a>
   <nav class="nav" aria-label="Navigation principale">
     ${a('globe/', 'L’édition', 'globe')}
     ${a('archives/', 'Archives', 'archives', true)}
@@ -89,7 +94,7 @@ function header(rootRel, current) {
 function footer(rootRel) {
   return `
 <footer class="site-foot">
-  <p>${t("Trois Phrases — l'actualité internationale, chaque matin, en cinq sujets.")}</p>
+  <p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span> ${t(SUB)}</p>
   <nav aria-label="Pied de page"><a href="${rootRel}archives/">Archives</a><a href="${rootRel}methode/">Méthode</a></nav>
 </footer>`;
 }
@@ -114,7 +119,7 @@ function home() {
         ${briefItem(b)}`).join('');
   const agenda = (ed.agenda || []).map((a) => `
         <li><time datetime="${esc(a.d)}">${esc(fDm.format(utc(a.d)))}</time><span>${t(a.t)}</span></li>`).join('');
-  const title = 'Trois Phrases — ' + fr(ed.headline);
+  const title = `${NAME} — ${fr(ed.headline)}`;
   return `${head({ rootRel: '', title: esc(title), desc: t(ed.standfirst) })}
 ${header('', 'home')}
 <main>
@@ -157,7 +162,7 @@ ${scripts('', [...VENDOR, 'assets/js/home.js'])}
 
 /* ---------- Édition (globe + lecture) ---------- */
 function globePage() {
-  return `${head({ rootRel: '../', title: esc(fr(ed.headline) + ' — Trois Phrases'), desc: t(ed.standfirst), cls: 'reader-page' })}
+  return `${head({ rootRel: '../', title: esc(fr(ed.headline) + ' — ' + NAME), desc: t(ed.standfirst), cls: 'reader-page' })}
 ${header('../', 'globe')}
 <main class="reader">
   <h1 class="sr" id="edTitle">${t(ed.headline)}</h1>
@@ -197,7 +202,7 @@ function archives() {
       <span class="h">${t(e.headline)}</span>
       <span class="p">${placesOf(e).map(([id, p], j) => `<span class="c${j + 1}">${flag(id, '../')}${t(p)}</span>`).join('')}</span>
     </a></li>`).join('');
-  return `${head({ rootRel: '../', title: esc('Archives — Trois Phrases'), desc: t('Toutes les éditions de Trois Phrases, jour après jour.') })}
+  return `${head({ rootRel: '../', title: esc('Archives — ' + NAME), desc: t(`Toutes les éditions de ${NAME}, jour après jour.`) })}
 ${header('../', 'archives')}
 <main class="page">
   <h1>Archives</h1>
@@ -215,11 +220,18 @@ ${scripts('../', ['assets/js/common.js'])}
 /* ---------- Méthode ---------- */
 function methode() {
   const p = (s) => `<p>${t(s)}</p>`;
-  return `${head({ rootRel: '../', title: esc('Méthode — Trois Phrases'), desc: t('Comment chaque édition de Trois Phrases est choisie, écrite et mise à jour.') })}
+  return `${head({ rootRel: '../', title: esc('Méthode — ' + NAME), desc: t(`D'où vient le nom ${NAME}, et comment chaque édition est choisie, écrite et mise à jour.`) })}
 ${header('../', 'methode')}
 <main class="page">
   <h1>Méthode</h1>
-  <p class="chapo">${t("Trois Phrases est un quotidien international bref : cinq sujets chaque matin, choisis en croisant les unes des grandes rédactions, et une carte pour les situer.")}</p>
+  <p class="chapo">${t("Diurna est un quotidien international bref : cinq sujets chaque matin, choisis en croisant les unes des grandes rédactions, et une carte pour les situer.")}</p>
+
+  <section class="origin" aria-labelledby="h-origin">
+    <p class="inscr" aria-hidden="true">ACTA<span>·</span>DIVRNA</p>
+    <h2 id="h-origin">Pourquoi Diurna</h2>
+    <p>${t("En 59 av. J.-C., Jules César, alors consul, fait afficher chaque jour dans les lieux publics de Rome les ")}<em>Acta Diurna</em>${t(", « les actes du jour » : décisions politiques, procès, naissances, mariages et décès. Recopiées et diffusées, ces nouvelles étaient lues, rapporte l'historien Tacite, jusque dans les provinces et les armées. On y voit souvent le premier journal de l'histoire.")}</p>
+    ${p("Diurna reprend l'idée, deux mille ans plus tard : chaque jour, le monde expliqué en trois phrases.")}
+  </section>
 
   <h2>Le choix des sujets</h2>
   ${p("Un sujet entre dans l'édition lorsqu'il est traité en tête par au moins trois rédactions de référence : Reuters, Associated Press, AFP, BBC, Le Monde, The Economist, Al Jazeera, The New York Times, Financial Times, France 24, The Guardian ou NPR.")}

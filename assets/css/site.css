@@ -1,4 +1,4 @@
-/* Trois Phrases — feuille de style
+/* Diurna — feuille de style
    Direction : un quotidien du soir lu sur fond de nuit. Typographie de presse (Newsreader pour
    les titres et le texte, Archivo pour les rubriques et l'interface), un globe éclairé, et cinq
    couleurs, une par sujet du jour, qui servent de repère d'un bout à l'autre de l'édition. */
@@ -92,10 +92,13 @@ img, svg { max-width: 100%; }
   padding: calc(16px + env(safe-area-inset-top, 0px)) var(--gutter-r) 16px var(--gutter);
   border-bottom: 1px solid var(--line);
 }
-.mark { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ink); }
-.mark svg { width: 28px; height: 21px; flex: none; }
-.mark-name { font: 700 1.42rem/1 var(--serif); letter-spacing: -0.015em; font-variation-settings: "opsz" 72; }
-.mark-name em { font-style: italic; font-weight: 500; }
+.mark { display: inline-flex; align-items: baseline; gap: 18px; text-decoration: none; color: var(--ink); }
+/* Logo : capitales romaines espacées, et le point final de la phrase */
+.mark-name { font: 600 1.32rem/1 var(--serif); letter-spacing: .2em; font-variation-settings: "opsz" 72; margin-right: -.2em; white-space: nowrap; }
+.mark-dot { color: var(--c1); letter-spacing: 0; margin-left: -.14em; }
+.mark-sub { font: 500 .84rem/1.2 var(--sans); color: var(--ink-3); letter-spacing: .01em; }
+.foot-name { font: 600 .92rem/1 var(--serif); letter-spacing: .2em; color: var(--ink-2); margin-right: 6px; }
+@media (max-width: 1080px) { .mark-sub { display: none; } }
 .nav { margin-left: auto; display: flex; align-items: center; gap: 4px 24px; flex-wrap: wrap; font: 500 .9rem/1 var(--sans); letter-spacing: .01em; }
 .nav a { text-decoration: none; color: var(--ink-2); padding: 10px 0; }
 .nav a:hover, .nav a[aria-current="page"] { color: var(--ink); }
@@ -364,6 +367,14 @@ img, svg { max-width: 100%; }
 .page p, .page li { font: 400 1.08rem/1.68 var(--serif); color: var(--ink-2); }
 .page p strong, .page li strong { color: var(--ink); font-weight: 650; }
 .page ul { padding-left: 1.2em; }
+/* Méthode : l'origine du nom */
+.origin { margin: 0 0 8px; padding: 30px 0 14px; border-top: 2px solid var(--ink); border-bottom: 1px solid var(--line); }
+.inscr {
+  margin: 0 0 6px !important; font: 500 clamp(2rem, 1.2rem + 3.6vw, 3.6rem)/1 var(--serif) !important; letter-spacing: .24em; color: var(--ink) !important;
+  font-variation-settings: "opsz" 72; white-space: nowrap; overflow: hidden;
+}
+.inscr span { color: var(--c1); margin: 0 .04em 0 -.1em; }
+.origin h2 { margin-top: 18px; }
 .archive { list-style: none; margin: 0; padding: 0; border-top: 2px solid var(--ink); }
 .archive li { border-bottom: 1px solid var(--line); }
 .archive a { display: grid; grid-template-columns: 9rem minmax(0, 1fr); gap: 8px 22px; padding: 20px 0; text-decoration: none; }
@@ -417,7 +428,7 @@ img, svg { max-width: 100%; }
   .id-more > span { display: none; }
 }
 @media (max-width: 420px) {
-  .mark-name { font-size: 1.26rem; }
+  .mark-name { font-size: 1.16rem; letter-spacing: .17em; }
   .nav a.opt { display: none; }
   .step { min-width: 38px; padding: 0 10px; }
 }

@@ -172,7 +172,7 @@
     prevBtn.innerHTML = `${icon('left')}Précédent`;
     nextBtn.disabled = step === 6;
     nextBtn.innerHTML = step === 5 ? `En bref${icon('right')}` : next ? `Suivant <span>· ${flag(C(next.id))}${t(next.place)}</span>${icon('right')}` : '';
-    document.title = (s ? `${fr(s.place)} — ` : 'En bref — ') + 'Trois Phrases';
+    document.title = (s ? `${fr(s.place)} — ` : 'En bref — ') + 'Diurna';
   }
 
   function go(n) {
