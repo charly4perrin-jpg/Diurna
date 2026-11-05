@@ -44,16 +44,23 @@ for (const old of legacy) {
   }
 }
 
-line('== Domaines envisagés (RDAP : 404 = libre à l’enregistrement, 200 = déjà pris)');
-const RDAP = {
-  'diurna.fr': 'https://rdap.nic.fr/domain/diurna.fr',
-  'diurna.eu': 'https://rdap.eurid.eu/domain/diurna.eu',
-  'diurna.news': 'https://rdap.identitydigital.services/rdap/domain/diurna.news',
-  'getdiurna.com': 'https://rdap.verisign.com/com/v1/domain/getdiurna.com'
-};
-for (const [d, u] of Object.entries(RDAP)) {
-  const r = await get(u);
-  let extra = '';
-  try { const j = JSON.parse(r.text); extra = (j.events || []).filter((e) => /registration|expiration/.test(e.eventAction)).map((e) => `${e.eventAction} ${String(e.eventDate).slice(0, 10)}`).join(', '); } catch (_) {}
-  line(`${r.status || r.error}  ${d}${r.status === 404 ? '  → semble libre' : r.status === 200 ? `  → déjà enregistré ${extra}` : ''}`);
+line('== Domaines (RDAP officiel via l’annuaire de l’IANA : 404 = libre, 200 = déjà pris)');
+const boot = await get('https://data.iana.org/rdap/dns.json');
+let services = [];
+try { services = JSON.parse(boot.text).services; } catch (_) {}
+const rdapBase = (tld) => { const s = services.find((x) => x[0].includes(tld)); return s ? s[1][0].replace(/\/?$/, '/') : null; };
+const DOMAINS = site.domainCandidates || ['diurna.fr', 'diurna.eu', 'diurna.news', 'getdiurna.com'];
+for (const d of DOMAINS) {
+  const tld = d.split('.').pop();
+  const b = rdapBase(tld);
+  let verdict = 'pas de RDAP pour ce domaine de premier niveau';
+  if (b) {
+    const r = await get(b + 'domain/' + d);
+    let extra = '';
+    try { const j = JSON.parse(r.text); extra = (j.events || []).filter((e) => /registration|expiration/.test(e.eventAction)).map((e) => `${e.eventAction} ${String(e.eventDate).slice(0, 10)}`).join(', '); } catch (_) {}
+    verdict = r.status === 404 ? 'semble LIBRE' : r.status === 200 ? `déjà enregistré (${extra || 'dates non publiées'})` : `réponse ${r.status || r.error}`;
+  }
+  const home = await get('https://' + d + '/');
+  const title = ((home.text || '').match(/<title[^>]*>([^<]{0,80})/i) || [])[1];
+  line(`${d} : ${verdict}${home.status ? ` · site : HTTP ${home.status}${title ? ` « ${title.trim()} »` : ''}` : ' · aucun site'}`);
 }
