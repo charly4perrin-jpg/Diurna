@@ -1,0 +1,33 @@
+# Contrôle du site public après chaque publication (et à la demande).
+# Le journal de ce workflow sert de preuve : codes HTTP, balises, données structurées, sitemap.
+name: Contrôle en ligne
+
+on:
+  page_build:
+  workflow_run:
+    workflows: ["Publier"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'tools/online-check.mjs'
+      - '.github/workflows/online-check.yml'
+      - 'site.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Attendre la mise en ligne
+        run: sleep 45
+      - name: Contrôler le site public
+        run: node tools/online-check.mjs
