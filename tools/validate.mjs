@@ -59,7 +59,15 @@ function checkModules(e, w) {
 
 function range(w, label, text, min, max) { const n = words(text); if (n < min || n > max) fail(w, `${label} : ${min} à ${max} mots (${n})`); }
 
+// Aucun champ texte vide, nulle part dans l'édition.
+function noEmpty(x, where, trail = '') {
+  if (typeof x === 'string') { if (!x.trim()) fail(where, `champ vide : ${trail || '(racine)'}`); return; }
+  if (Array.isArray(x)) { x.forEach((v, i) => noEmpty(v, where, `${trail}[${i}]`)); return; }
+  if (x && typeof x === 'object') Object.entries(x).forEach(([k, v]) => noEmpty(v, where, trail ? `${trail}.${k}` : k));
+}
+
 function checkEdition(ed, where, lang = 'fr') {
+  noEmpty(ed, where);
   if (!/^\d{4}-\d{2}-\d{2}$/.test(ed.date)) fail(where, 'date invalide');
   if (!Number.isInteger(ed.number) || ed.number < 1) fail(where, 'number invalide');
   if (!ed.updated || Number.isNaN(Date.parse(ed.updated))) fail(where, 'updated invalide');

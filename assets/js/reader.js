@@ -109,6 +109,7 @@
       meta.push(`<b>${t(L(n > 1 ? 'days' : 'day1', { n: int(n), label: s.since.label }))}</b>`);
     }
     meta.push(`<span>${t(L('editionOf', { d: day(ed.date) }))}</span>`);
+    meta.push(TP.aiLabel());
 
     const keys = (s.keys || []).map((k) => `<div><dt>${t(k.title)}</dt><dd>${t(k.text)}</dd></div>`).join('');
     const ctx = (s.context || []).map((c) => {
@@ -145,6 +146,7 @@
       <div class="article swap">
         <p class="rubric">${t(L('elsewhere'))}</p>
         <h2>${L('inBrief')}</h2>
+        <p class="byline">${TP.aiLabel()}</p>
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${L('comingUp')}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${t(L('endNote'))}</p>
@@ -217,7 +219,8 @@
     const archive = !!wanted;
     const todayHref = location.pathname;
     edLine.innerHTML = `<b>${L('no', { n: ed.number })}</b><span>${t(longDate(ed.date))}</span>`
-      + (archive ? `<a href="${todayHref}">${t(L('backToday'))}</a>` : `<span>${t(L('updated', { h: hour(ed.updated) }))}</span>`);
+      + (archive ? `<a href="${todayHref}">${t(L('backToday'))}</a>` : `<span>${t(L('updated', { h: hour(ed.updated) }))}</span>`)
+      + (!archive && TP.stale(ed.date) ? `<span class="preparing">${t(L('preparing'))}</span>` : '');
     $('edTitle').textContent = typo(ed.headline);
     step = stepFromHash();
     render(true);

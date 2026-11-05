@@ -50,7 +50,13 @@
       according: 'Selon {s}', asOf: 'au {d}', helpNote: 'Liens vers des organisations humanitaires reconnues, sans intermédiaire.',
       rateLine: '1 € = {v} {c}', rateSince: '{p} sur trois mois', inflationLine: '{v} % en {y}',
       chartStart: 'Début de la guerre', chartLabel: '{l} : {a} le {d1}, {b} le {d2}',
-      lead: 'Dirigé par {x}'
+      lead: 'Dirigé par {x}',
+      aiLabel: 'Rédigé par une IA à partir des sources citées', aiMore: 'Comment c’est fait',
+      preparing: 'Prochaine édition en préparation', navStatus: 'Statut',
+      statusTitle: 'Statut du site', statusDesc: 'Heure de la dernière édition publiée et des dernières données.',
+      stFr: 'Édition française', stEn: 'Édition anglaise', stData: 'Données chiffrées', stBuild: 'Site généré',
+      stNone: 'aucune', stOk: 'Tout est à jour.', stLate: 'L’édition du jour n’est pas encore publiée.',
+      stAlert: 'Dernière publication bloquée', stWatch: 'Chaque matin à 8 h 30 et chaque soir à 20 h 15, un contrôle automatique vérifie que l’édition du jour est en ligne ; en cas d’échec, une alerte est envoyée et le site garde l’édition précédente.'
     },
     en: {
       name: 'Diurna',
@@ -93,7 +99,13 @@
       according: 'According to {s}', asOf: 'as of {d}', helpNote: 'Links to recognised humanitarian organisations, with no middleman.',
       rateLine: '€1 = {v} {c}', rateSince: '{p} over three months', inflationLine: '{v}% in {y}',
       chartStart: 'War begins', chartLabel: '{l}: {a} on {d1}, {b} on {d2}',
-      lead: 'Led by {x}'
+      lead: 'Led by {x}',
+      aiLabel: 'Written by an AI from the sources cited', aiMore: 'How it’s made',
+      preparing: 'Next edition in preparation', navStatus: 'Status',
+      statusTitle: 'Site status', statusDesc: 'When the latest edition and the latest data were published.',
+      stFr: 'French edition', stEn: 'English edition', stData: 'Public data', stBuild: 'Site built',
+      stNone: 'none', stOk: 'Everything is up to date.', stLate: 'Today’s edition has not been published yet.',
+      stAlert: 'Last blocked publication', stWatch: 'Every morning at 8.30am and every evening at 8.15pm (Paris time), an automatic check makes sure today’s edition is online; if it is not, an alert is sent and the site keeps the previous edition.'
     }
   };
   if (typeof module === 'object' && module.exports) module.exports = S;

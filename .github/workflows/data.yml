@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: data
@@ -40,3 +41,9 @@ jobs:
           git commit -m "Données du $(date -u +%F)"
           git pull --rebase origin main
           git push origin main
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tools/alert.sh "Données chiffrées non récupérées" "L'Action des données a échoué ; le site garde les valeurs de la veille. Détails : ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

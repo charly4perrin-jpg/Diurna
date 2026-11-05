@@ -1,0 +1,32 @@
+# Vérifie que l'édition du jour est bien en ligne, en français et en anglais.
+# Sinon, ouvre une issue « alerte » (e-mail automatique).
+name: Surveillance
+
+on:
+  schedule:
+    - cron: '30 7 * * *'    # vers 8 h 30 à Paris en hiver
+    - cron: '15 19 * * *'   # vers 20 h 15
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Contrôler l'édition du jour
+        run: node tools/watchdog.mjs | tee watchdog.log; exit ${PIPESTATUS[0]}
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          tools/alert.sh "Édition du $(TZ=Europe/Paris date +%F) non publiée" "$(cat watchdog.log; printf '\n\nDétails : %s' "$RUN_URL")"

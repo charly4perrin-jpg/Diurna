@@ -108,6 +108,18 @@ img, svg { max-width: 100%; }
 .lang-self { background: var(--ink); color: var(--night); }
 .nav .langs a.lang { color: var(--ink-2); padding: 0 8px; }
 .nav .langs a.lang:hover { color: var(--ink); background: var(--night-2); }
+.ai-label { font: 500 .8rem/1.45 var(--sans); color: var(--ink-3); }
+.ai-label a { color: var(--ink-2); }
+.cover .ai-label { margin: -8px 0 0; }
+.byline .ai-label { flex-basis: 100%; }
+.preparing { color: var(--c2); font-weight: 600; }
+.preparing::before { content: ""; display: inline-block; width: 7px; height: 7px; border-radius: 50%; background: var(--c2); margin-right: 7px; vertical-align: .1em; }
+.status { margin: 0 0 28px; border-top: 2px solid var(--ink); }
+.status > div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 6px 20px; padding: 14px 0; border-bottom: 1px solid var(--line); }
+.status dt { font: 650 .8rem/1.5 var(--sans); letter-spacing: .06em; text-transform: uppercase; color: var(--ink-3); }
+.status dd { margin: 0; font: 500 1.02rem/1.5 var(--serif); }
+.status code { font: 500 .85rem/1 ui-monospace, monospace; color: var(--ink-3); }
+@media (max-width: 520px) { .status > div { grid-template-columns: minmax(0, 1fr); } }
 .notice { max-width: 1400px; margin: 16px auto 0; padding: 12px var(--gutter-r) 12px var(--gutter); font: 500 .9rem/1.4 var(--sans); color: var(--c2); }
 .fr-only { font: italic 500 .8rem/1.4 var(--sans); color: var(--c2); }
 .install {

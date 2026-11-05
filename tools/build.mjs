@@ -20,8 +20,8 @@ const abs = (site.url || '').replace(/\/$/, '');
 const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PATHS = {
-  fr: { home: '', edition: 'globe/', archives: 'archives/', method: 'methode/' },
-  en: { home: 'en/', edition: 'en/edition/', archives: 'en/archives/', method: 'en/method/' }
+  fr: { home: '', edition: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/' },
+  en: { home: 'en/', edition: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/' }
 };
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
@@ -138,7 +138,7 @@ function footer(C, key) {
   return `
 <footer class="site-foot">
   <p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span> ${C.t(C.S.sub)}</p>
-  <nav aria-label="${esc(C.S.navFoot)}"><a href="${rootRel}${P.archives}">${C.S.navArchives}</a><a href="${rootRel}${P.method}">${C.S.navMethod}</a></nav>
+  <nav aria-label="${esc(C.S.navFoot)}"><a href="${rootRel}${P.archives}">${C.S.navArchives}</a><a href="${rootRel}${P.method}">${C.S.navMethod}</a><a href="${rootRel}${P.status}">${C.S.navStatus}</a></nav>
 </footer>`;
 }
 
@@ -168,9 +168,10 @@ ${header(C, key)}
   ${C.fallback ? `<p class="notice">${t(C.S.notTranslated)}</p>` : ''}
   <section class="cover">
     <div class="cover-text">
-      <p class="edition-line rise"><b>${L('no', { n: ed.number })}</b><span>${t(C.longDate(ed.date))}</span><span>${t(L('updated', { h: C.hour(ed.updated) }))}</span></p>
+      <p class="edition-line rise" data-date="${ed.date}"><b>${L('no', { n: ed.number })}</b><span>${t(C.longDate(ed.date))}</span><span>${t(L('updated', { h: C.hour(ed.updated) }))}</span></p>
       <h1 class="rise rise-2">${t(ed.headline)}</h1>
       <p class="chapo rise rise-3">${t(ed.standfirst)}</p>
+      <p class="ai-label rise rise-3">${t(C.S.aiLabel)} · <a href="${rootRel}${PATHS[C.lang].method}">${t(C.S.aiMore)}</a></p>
       <div class="actions rise rise-4">
         <a class="btn" href="${editionHref}">${C.S.readEdition}${ICON.right}</a>
         <a class="link-quiet" href="#sommaire">${C.S.contents}</a>
@@ -344,6 +345,45 @@ ${scripts(rootRel, BASE)}
 `;
 }
 
+/* ---------- Statut ---------- */
+function statusData() {
+  const fr = readJ('data/latest.json', null), en = readJ('data/en/latest.json', null);
+  const mk = readJ('data/markets.json', {}), ind = readJ('data/indicators.json', {}), al = readJ('data/alerts.json', null);
+  const e = (x) => (x ? { date: x.date, number: x.number, updated: x.updated } : null);
+  return {
+    built: new Date().toISOString(), sha: (process.env.BUILD_SHA || '').slice(0, 7) || null,
+    edition: { fr: e(fr), en: e(en) },
+    data: { markets: mk.updated || null, indicators: ind.updated || null },
+    alert: al && al.errors && al.errors.length ? { date: al.date, run: al.run, count: al.errors.length } : null
+  };
+}
+function status(C, st) {
+  const key = 'status', rootRel = rootRelOf(PATHS[C.lang][key]);
+  const fHm = new Intl.DateTimeFormat(C.S.locale, { day: 'numeric', month: 'long', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'Europe/Paris' });
+  const when = (iso) => (iso ? C.t(fHm.format(new Date(iso))) : C.S.stNone);
+  const ed = (x) => (x ? `${C.t(C.L('no', { n: x.number }))} · ${C.t(C.longDate(x.date))} · ${when(x.updated)}` : C.S.stNone);
+  const rows = [
+    [C.S.stFr, ed(st.edition.fr)], [C.S.stEn, ed(st.edition.en)],
+    [C.S.stData, st.data.markets ? C.t(C.dmy(st.data.markets)) : C.S.stNone],
+    [C.S.stBuild, `${when(st.built)}${st.sha ? ` · <code>${st.sha}</code>` : ''}`]
+  ];
+  if (st.alert) rows.push([C.S.stAlert, `${when(st.alert.date)} · <a href="${esc(st.alert.run)}" rel="noopener">GitHub</a>`]);
+  return `${head(C, key, { title: esc(C.S.statusTitle + ' — Diurna'), desc: C.t(C.S.statusDesc) })}
+${header(C, key)}
+<main class="page">
+  <h1>${C.S.statusTitle}</h1>
+  <p class="chapo" id="stLine" data-fr="${st.edition.fr ? st.edition.fr.date : ''}">${C.t(C.S.statusDesc)}</p>
+  <dl class="status">${rows.map(([k, v]) => `<div><dt>${C.t(k)}</dt><dd>${v}</dd></div>`).join('')}</dl>
+  <p>${C.t(C.S.stWatch)}</p>
+</main>
+${footer(C, key)}
+${scripts(rootRel, BASE)}
+<script>(function(){var d=document.getElementById('stLine').dataset.fr,t=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris'}).format(new Date());document.getElementById('stLine').textContent=d===t?${JSON.stringify(C.S.stOk)}:${JSON.stringify(C.S.stLate)};})();</script>
+</body>
+</html>
+`;
+}
+
 /* ---------- Manifeste anglais ---------- */
 function manifestEn() {
   const fr = JSON.parse(rd('manifest.webmanifest'));
@@ -390,9 +430,12 @@ self.addEventListener('fetch', (e) => {
 `;
 }
 
+const ST = statusData();
+wr('status.json', JSON.stringify(ST, null, 1) + '\n');
 for (const lang of LANGS) {
   const C = makeCtx(lang);
   const P = PATHS[lang];
+  wr(P.status + 'index.html', status(C, ST));
   wr(P.home + 'index.html', home(C));
   wr(P.edition + 'index.html', editionPage(C));
   wr(P.archives + 'index.html', archives(C));

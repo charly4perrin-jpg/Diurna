@@ -1,0 +1,101 @@
+# Publie le site seulement si l'édition est valide.
+# Si une vérification échoue : rien n'est déployé (le site garde la version précédente),
+# une issue « alerte » est ouverte (e-mail automatique) et les erreurs sont écrites dans
+# data/alerts.json pour que la tâche suivante les corrige.
+name: Publier
+
+on:
+  push:
+    branches: [main, 'test-*']   # les branches test-* servent à éprouver la vérification, sans déployer
+  workflow_run:
+    workflows: ["Données chiffrées"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+  issues: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      mode: ${{ steps.mode.outputs.mode }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Vérifier l'édition (schéma, sources, champs, longueurs, langues)
+        run: node tools/validate.mjs 2>&1 | tee -a check.log; exit ${PIPESTATUS[0]}
+      - name: Vérifier les liens des sources
+        run: node tools/check-links.mjs 2>&1 | tee -a check.log; exit ${PIPESTATUS[0]}
+      - name: Construire le site
+        env:
+          BUILD_SHA: ${{ github.sha }}
+        run: node tools/build.mjs
+      - name: Mode de publication de GitHub Pages
+        id: mode
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: echo "mode=$(gh api repos/${{ github.repository }}/pages --jq .build_type 2>/dev/null || echo legacy)" >> "$GITHUB_OUTPUT"
+      - name: Préparer le site
+        if: steps.mode.outputs.mode == 'workflow' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Alerte et consignes pour la tâche suivante
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          node -e "const fs=require('fs');const log=fs.existsSync('check.log')?fs.readFileSync('check.log','utf8'):'';fs.writeFileSync('data/alerts.json',JSON.stringify({date:new Date().toISOString(),run:process.env.RUN_URL,errors:log.split('\n').filter(l=>l.startsWith('✗')).slice(0,40)},null,1)+'\n')"
+          git config user.name "diurna-publication"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ "$GITHUB_REF" = "refs/heads/main" ]; then
+            git add data/alerts.json && git commit -m "Alerte : publication bloquée" && git pull --rebase origin main && git push origin main || true
+            TITLE="Publication bloquée"
+          else
+            TITLE="Publication bloquée (test sur ${GITHUB_REF#refs/heads/})"
+          fi
+          tools/alert.sh "$TITLE" "$(printf 'La vérification a échoué : le site garde la version précédente.\n\n%s\n\nDétails : %s' "$(grep '^✗' check.log | head -20)" "$RUN_URL")"
+
+  deploy:
+    needs: check
+    if: needs.check.outputs.mode == 'workflow' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    outputs:
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  e2e:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-save --no-audit --no-fund playwright@1.49.1 && npx playwright install --with-deps chromium
+      - name: Tester l'accueil, le globe et une fiche (FR et EN)
+        run: node tools/e2e.mjs "${{ needs.deploy.outputs.url }}"
+      - name: Alerte
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tools/alert.sh "Test du site en ligne en échec" "Le site a été déployé mais le test de bout en bout a échoué : ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"

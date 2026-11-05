@@ -110,5 +110,15 @@
     global.addEventListener('load', () => navigator.serviceWorker.register(ROOT + 'sw.js').catch(() => {}));
   }
 
-  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap };
+  // L'édition affichée est-elle en retard ? (après 7 h 45, heure de Paris, celle du jour devrait être là)
+  function stale(date) {
+    const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());
+    const g = (k) => (parts.find((p) => p.type === k) || {}).value;
+    const today = `${g('year')}-${g('month')}-${g('day')}`, mins = Number(g('hour')) * 60 + Number(g('minute'));
+    return !!date && date < today && mins >= 7 * 60 + 45;
+  }
+  const methodHref = () => ROOT + (LANG === 'en' ? 'en/method/' : 'methode/');
+  const aiLabel = () => `<span class="ai-label">${t(L('aiLabel'))} · <a href="${methodHref()}">${t(L('aiMore'))}</a></span>`;
+
+  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel };
 })(window);

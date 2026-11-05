@@ -1,6 +1,8 @@
 /* Page d'accueil : le texte est déjà dans la page ; ici on allume le globe. */
 (function () {
   'use strict';
+  const line = document.querySelector('.cover .edition-line');
+  if (line && TP.stale(line.dataset.date)) line.insertAdjacentHTML('beforeend', `<span class="preparing">${TP.t(TP.L('preparing'))}</span>`);
   const host = document.getElementById('coverGlobe');
   if (!host) return;
   const globe = new Globe(host, {
