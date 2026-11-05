@@ -1,10 +1,10 @@
 {
   "date": "2026-11-05",
   "number": 1,
-  "updated": "2026-11-05T13:30:00+01:00",
+  "updated": "2026-11-05T20:15:00+01:00",
   "lang": "en",
   "headline": "After the midterms, America delivers its verdict on the Iran war",
-  "standfirst": "Democrats take both houses of Congress and Donald Trump concedes that the conflict with Tehran weighed on his defeat. In the Middle East, Qatar is trying to head off a return to war, while in Ukraine Russia is pounding the power grid ahead of talks due on 10 November.",
+  "standfirst": "Democrats take both houses of Congress and Donald Trump concedes that the conflict with Tehran weighed on his defeat. In the Middle East, Qatar is trying to head off a return to war, while in Ukraine a Russian strike on a school has killed 43 people ahead of talks due on 10 November.",
   "essentials": [
     {
       "rank": 1,
@@ -420,21 +420,32 @@
         "diplomacy"
       ],
       "radar": false,
-      "title": "Russia targets Ukraine's power grid ahead of new talks",
-      "standfirst": "With winter approaching, Moscow is stepping up its attacks on energy infrastructure. Ukrainian, Russian and American delegations are due to meet in Abu Dhabi on 10 and 11 November.",
+      "title": "Russia strikes civilians and the power grid in Ukraine ahead of new talks",
+      "standfirst": "A Russian strike on a school where humanitarian aid was being handed out has killed at least 43 people in the Zaporizhzhia region, as Moscow keeps pounding the power grid. Ukrainian, Russian and American delegations are due to meet in Abu Dhabi on 10 and 11 November.",
       "body": [
-        "In recent days, waves of drones and missiles have damaged power stations and substations in nine regions, forcing emergency blackouts in many cities and cutting off water to parts of Kyiv.",
-        "According to the Institute for the Study of War, an American think-tank, the campaign aims to make each winter more painful for civilians in order to force Ukraine to give ground, while the front line itself has barely moved.",
+        "On Monday 2 November, nine Russian aerial bombs hit an underground school in Komyshuvakha, in the Zaporizhzhia region, while humanitarian aid was being distributed; by Thursday the death toll had reached 43, according to President Volodymyr Zelensky, and dozens more people may still be trapped under the rubble.",
+        "Meanwhile, drones and missiles are hitting power stations and substations in nine regions, a campaign which, according to the Institute for the Study of War, an American think-tank, aims to make each winter more painful for civilians in order to force Ukraine to give ground.",
         "It is against this backdrop that the three delegations will meet in Abu Dhabi to discuss post-war security guarantees, de-escalation and humanitarian measures, after three fruitless rounds of talks earlier this year."
       ],
       "figure": {
-        "value": "9",
-        "label": "regions hit by strikes on the power grid",
-        "compare": "with winter coming, parts of Kyiv without water"
+        "value": "43",
+        "label": "killed in the Russian strike on a school in Komyshuvakha",
+        "compare": "according to Volodymyr Zelensky on 5 November; others still missing"
       },
       "modules": {
         "toll": {
           "items": [
+            {
+              "value": "43",
+              "label": "killed in the 2 November strike on a school in Komyshuvakha",
+              "by": "Volodymyr Zelensky",
+              "date": "2026-11-05",
+              "source": {
+                "name": "Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+                "name_en": "Ukrinform"
+              }
+            },
             {
               "value": "15,172",
               "label": "civilians killed between February 2022 and February 2026",
@@ -544,6 +555,10 @@
           "t": "Three rounds of negotiations, in Abu Dhabi and then Geneva, without a deal."
         },
         {
+          "d": "2026-11-02",
+          "t": "Russian strike on a school in Komyshuvakha during an aid distribution: at least 43 dead."
+        },
+        {
           "d": "2026-11-03",
           "t": "Massive strike on the energy grid; parts of Kyiv without water."
         },
@@ -553,6 +568,12 @@
         }
       ],
       "sources": [
+        {
+          "name": "Ukrinform",
+          "title": "The death toll in Komyshuvakha",
+          "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+          "date": "2026-11-05"
+        },
         {
           "name": "Institute for the Study of War, via Kyiv Post",
           "title": "Russian offensive campaign assessment, 3 November",
@@ -594,17 +615,17 @@
         "conflict"
       ],
       "radar": false,
-      "title": "Israel left without a majority after the election, as strikes go on in Gaza",
-      "standfirst": "Neither Benjamin Netanyahu's bloc nor the opposition led by Gadi Eisenkot reached the 61 seats needed to govern. In Gaza, a year after the ceasefire, Israeli strikes still claim lives almost every day.",
+      "title": "In Israel, Gadi Eisenkot wins the backing of most MPs against Benjamin Netanyahu",
+      "standfirst": "Abandoned by the ultra-Orthodox United Torah Judaism party, Benjamin Netanyahu gathers only 46 recommendations, against 67 for his rival, who is backed by the Arab parties. In Gaza, a year after the ceasefire, Israeli strikes still claim lives almost every day.",
       "body": [
-        "The final count from the 27 October election gives the outgoing coalition 53 seats and the opposition 48, while the Arab parties, sharply up, win 19.",
-        "With both camps so far refusing to govern with them, the country looks set for long negotiations, or even a fresh election, which the president, Isaac Herzog, is urging everyone to avoid.",
-        "The deadlock comes as Donald Trump announces an end to $4bn of American aid to Israel at the end of the year, and as some newly elected Democrats, such as Maine's senator-elect Troy Jackson, call for military assistance to stop."
+        "At the end of consultations held by the president, Isaac Herzog, on 4 and 5 November, 67 of the Knesset's 120 members recommended Gadi Eisenkot to form a government: the opposition's 48, joined by the two Arab parties, Raam and the Joint List, with 19 seats between them.",
+        "Benjamin Netanyahu, whose camp won 53 seats on 27 October, now musters only 46, after the ultra-Orthodox United Torah Judaism declined to recommend anyone without guarantees on military-service exemptions for yeshiva students.",
+        "The head of state is expected within days to ask Mr Eisenkot, who says he wants to form a “Zionist government”, to build a coalition within 28 days, extendable by 14, with the Joint List pledging to back him from outside government."
       ],
       "figure": {
-        "value": "53",
-        "label": "seats for Benjamin Netanyahu's coalition",
-        "compare": "61 of the 120 are needed to govern"
+        "value": "67",
+        "label": "MPs recommend Gadi Eisenkot as prime minister",
+        "compare": "against 46 for Benjamin Netanyahu; 61 of 120 are needed"
       },
       "modules": {
         "vote": {
@@ -644,6 +665,14 @@
         },
         "scenarios": {
           "items": [
+            {
+              "if": "Gadi Eisenkot is asked to form a government",
+              "then": "he will have 28 days, extendable by 14, to assemble a coalition of at least 61 members.",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408"
+              }
+            },
             {
               "if": "no leader can gather 61 members within the legal deadlines",
               "then": "voters will be called back to the polls, which the president, Isaac Herzog, is urging everyone to avoid.",
@@ -706,11 +735,11 @@
       "keys": [
         {
           "title": "The weight of the Arab parties",
-          "text": "They represent Israel's Arab citizens, about a fifth of the population. In 2021 the Raam party joined a governing coalition for the first time; this time both the right and Gadi Eisenkot have ruled out relying on them."
+          "text": "They represent Israel's Arab citizens, about a fifth of the population. In 2021 the Raam party joined a governing coalition for the first time; this time both Raam and the Joint List are recommending Gadi Eisenkot, though the Joint List rules out joining his government."
         },
         {
           "title": "What happens next",
-          "text": "The president must consult the parliamentary groups before asking one of the leaders to form a government. If no coalition emerges within the legal deadlines, voters would be called back to the polls."
+          "text": "The president must now ask one of the leaders to form a government, with the new Knesset holding its opening session on 10 November. If no coalition emerges within the legal deadlines, voters would be called back to the polls."
         }
       ],
       "involved": [
@@ -734,14 +763,24 @@
         {
           "d": "2026-11-03",
           "t": "Donald Trump announces an end to $4bn of aid to Israel at the end of the year."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Presidential consultations: 67 recommendations for Gadi Eisenkot, 46 for Benjamin Netanyahu."
         }
       ],
       "sources": [
         {
-          "name": "ABC News",
-          "title": "Final results of the election",
-          "url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276",
-          "date": "2026-10-29"
+          "name": "ANI, via The Tribune",
+          "title": "Party recommendations",
+          "url": "https://www.tribuneindia.com/news/eisenkot/israel-eisenkot-clears-pm-mandate-threshold-with-67-endorsements-leaving-netanyahus-bloc-at-46-seats-utj-abstains",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Anadolu",
+          "title": "United Torah Judaism drops Netanyahu",
+          "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408",
+          "date": "2026-11-05"
         },
         {
           "name": "Al Jazeera",

@@ -1,9 +1,9 @@
 {
   "date": "2026-11-05",
   "number": 1,
-  "updated": "2026-11-05T13:30:00+01:00",
+  "updated": "2026-11-05T20:15:00+01:00",
   "headline": "Au lendemain des midterms, l'Amérique sanctionne la guerre en Iran",
-  "standfirst": "Les démocrates reprennent le Congrès et Donald Trump admet le poids du conflit avec Téhéran dans sa défaite. Au Moyen-Orient, la médiation qatarie tente d'empêcher une reprise des hostilités, tandis qu'en Ukraine la Russie s'en prend au réseau électrique avant des pourparlers prévus le 10 novembre.",
+  "standfirst": "Les démocrates reprennent le Congrès et Donald Trump admet le poids du conflit avec Téhéran dans sa défaite. Au Moyen-Orient, la médiation qatarie tente d'empêcher une reprise des hostilités, tandis qu'en Ukraine une frappe russe sur une école a fait 43 morts avant des pourparlers prévus le 10 novembre.",
   "essentials": [
     {
       "rank": 1,
@@ -419,21 +419,32 @@
         "diplomacy"
       ],
       "radar": false,
-      "title": "En Ukraine, la Russie s'en prend au réseau électrique avant de nouveaux pourparlers",
-      "standfirst": "À l'approche de l'hiver, Moscou multiplie les attaques contre les infrastructures énergétiques. Des délégations ukrainienne, russe et américaine doivent se retrouver les 10 et 11 novembre à Abou Dhabi.",
+      "title": "En Ukraine, la Russie frappe les civils et le réseau électrique avant de nouveaux pourparlers",
+      "standfirst": "Une frappe russe contre une école où était distribuée l'aide humanitaire a fait au moins 43 morts dans la région de Zaporijia, tandis que Moscou s'en prend au réseau électrique. Des délégations ukrainienne, russe et américaine doivent se retrouver les 10 et 11 novembre à Abou Dhabi.",
       "body": [
-        "Ces derniers jours, des salves de drones et de missiles ont endommagé centrales et sous-stations dans neuf régions, provoquant des coupures d'urgence dans de nombreuses villes et privant d'eau une partie de Kiev.",
-        "Selon l'Institute for the Study of War, un centre de recherche américain, cette campagne vise à rendre l'hiver toujours plus coûteux pour la population afin de contraindre l'Ukraine à céder, alors que le front, lui, ne bouge presque plus.",
+        "Lundi 2 novembre, neuf bombes aériennes russes se sont abattues sur une école souterraine de Komyshuvakha, dans la région de Zaporijia, pendant une distribution d'aide humanitaire : le bilan atteignait jeudi 43 morts, selon le président, Volodymyr Zelensky, et des dizaines de personnes pourraient encore se trouver sous les décombres.",
+        "Dans le même temps, drones et missiles frappent centrales et sous-stations dans neuf régions, une campagne qui vise, selon l'Institute for the Study of War, un centre de recherche américain, à rendre l'hiver toujours plus coûteux pour la population afin de contraindre l'Ukraine à céder.",
         "C'est dans ce contexte que les trois délégations doivent se retrouver à Abou Dhabi pour aborder les garanties de sécurité de l'après-guerre, la désescalade et des mesures humanitaires, après trois rondes de discussions infructueuses en début d'année."
       ],
       "figure": {
-        "value": "9",
-        "label": "régions touchées par les frappes contre le réseau électrique",
-        "compare": "à l'approche de l'hiver, une partie de Kiev privée d'eau"
+        "value": "43",
+        "label": "morts dans la frappe russe sur une école de Komyshuvakha",
+        "compare": "selon Volodymyr Zelensky, le 5 novembre ; des disparus sous les décombres"
       },
       "modules": {
         "toll": {
           "items": [
+            {
+              "value": "43",
+              "label": "morts dans la frappe du 2 novembre sur une école de Komyshuvakha",
+              "by": "Volodymyr Zelensky",
+              "date": "2026-11-05",
+              "source": {
+                "name": "Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+                "name_en": "Ukrinform"
+              }
+            },
             {
               "value": "15 172",
               "label": "civils tués entre février 2022 et février 2026",
@@ -543,6 +554,10 @@
           "t": "Trois rondes de négociations, à Abou Dhabi puis à Genève, sans accord."
         },
         {
+          "d": "2026-11-02",
+          "t": "Frappe russe sur une école de Komyshuvakha pendant une distribution d'aide : au moins 43 morts."
+        },
+        {
           "d": "2026-11-03",
           "t": "Frappe massive sur le réseau énergétique ; Kiev en partie privée d'eau."
         },
@@ -552,6 +567,12 @@
         }
       ],
       "sources": [
+        {
+          "name": "Ukrinform",
+          "title": "Le bilan de la frappe sur Komyshuvakha",
+          "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+          "date": "2026-11-05"
+        },
         {
           "name": "Institute for the Study of War, via Kyiv Post",
           "title": "Point sur l'offensive russe du 3 novembre",
@@ -593,17 +614,17 @@
         "conflict"
       ],
       "radar": false,
-      "title": "Israël sans majorité après les législatives, Gaza toujours sous le feu",
-      "standfirst": "Ni le bloc de Benyamin Nétanyahou ni l'opposition emmenée par Gadi Eisenkot n'atteignent la barre des 61 sièges. À Gaza, un an après le cessez-le-feu, les frappes israéliennes font encore des victimes presque chaque jour.",
+      "title": "En Israël, Gadi Eisenkot rallie une majorité de députés face à Benyamin Nétanyahou",
+      "standfirst": "Lâché par le parti ultraorthodoxe Judaïsme unifié de la Torah, Benyamin Nétanyahou ne recueille que 46 recommandations, contre 67 pour son rival, soutenu par les partis arabes. À Gaza, un an après le cessez-le-feu, les frappes israéliennes font encore des victimes presque chaque jour.",
       "body": [
-        "Le décompte définitif des élections du 27 octobre accorde 53 sièges à la coalition sortante et 48 à l'opposition, tandis que les partis arabes, en forte progression, en obtiennent 19.",
-        "Les deux camps refusant jusqu'ici de gouverner avec ces derniers, le pays semble promis à de longues tractations, voire à un nouveau scrutin, que le président, Isaac Herzog, appelle à tout faire pour éviter.",
-        "Ce blocage intervient alors que Donald Trump annonce l'arrêt, à la fin de l'année, de 4 milliards de dollars d'aide américaine à Israël, et que certains démocrates fraîchement élus, comme le futur sénateur du Maine Troy Jackson, réclament la fin de l'assistance militaire."
+        "À l'issue des consultations menées les 4 et 5 novembre par le président, Isaac Herzog, 67 députés sur 120 ont recommandé Gadi Eisenkot pour former le gouvernement : les 48 élus de l'opposition, rejoints par les deux partis arabes, Raam et la Liste unifiée, qui totalisent 19 sièges.",
+        "Benyamin Nétanyahou, dont le camp avait obtenu 53 sièges le 27 octobre, n'en réunit plus que 46, le parti ultraorthodoxe Judaïsme unifié de la Torah ayant refusé de recommander quiconque faute de garanties sur l'exemption de service militaire des étudiants des écoles talmudiques.",
+        "Le chef de l'État devrait confier dans les prochains jours à Gadi Eisenkot, qui dit vouloir former un « gouvernement sioniste », la tâche de bâtir une coalition en 28 jours, prolongeables de quatorze, la Liste unifiée ayant annoncé qu'elle le soutiendrait sans entrer au gouvernement."
       ],
       "figure": {
-        "value": "53",
-        "label": "sièges pour la coalition de Benyamin Nétanyahou",
-        "compare": "il en faut 61 sur 120 pour gouverner"
+        "value": "67",
+        "label": "députés recommandent Gadi Eisenkot comme Premier ministre",
+        "compare": "contre 46 pour Benyamin Nétanyahou ; il en faut 61 sur 120"
       },
       "modules": {
         "vote": {
@@ -643,6 +664,14 @@
         },
         "scenarios": {
           "items": [
+            {
+              "if": "Gadi Eisenkot est chargé de former le gouvernement",
+              "then": "il disposera de 28 jours, prolongeables de quatorze, pour réunir une coalition d'au moins 61 députés.",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408"
+              }
+            },
             {
               "if": "aucun dirigeant ne réunit 61 députés dans les délais légaux",
               "then": "les électeurs seront rappelés aux urnes, ce que le président, Isaac Herzog, appelle à tout faire pour éviter.",
@@ -705,11 +734,11 @@
       "keys": [
         {
           "title": "Le poids des partis arabes",
-          "text": "Ils représentent les citoyens arabes d'Israël, environ un cinquième de la population. En 2021, le parti Raam avait, pour la première fois, participé à une coalition gouvernementale ; cette fois, la droite comme Gadi Eisenkot excluent de s'appuyer sur eux."
+          "text": "Ils représentent les citoyens arabes d'Israël, environ un cinquième de la population. En 2021, le parti Raam avait, pour la première fois, participé à une coalition gouvernementale ; cette fois, Raam et la Liste unifiée recommandent Gadi Eisenkot, la seconde excluant toutefois d'entrer au gouvernement."
         },
         {
           "title": "La suite",
-          "text": "Le président doit consulter les groupes parlementaires avant de confier à l'un des dirigeants la formation d'un gouvernement. Faute de coalition dans les délais légaux, les électeurs seraient rappelés aux urnes."
+          "text": "Le président doit désormais confier à l'un des dirigeants la formation d'un gouvernement, la nouvelle Knesset tenant sa séance inaugurale le 10 novembre. Faute de coalition dans les délais légaux, les électeurs seraient rappelés aux urnes."
         }
       ],
       "involved": [
@@ -733,14 +762,24 @@
         {
           "d": "2026-11-03",
           "t": "Donald Trump annonce l'arrêt de 4 milliards de dollars d'aide à Israël à la fin de l'année."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Consultations présidentielles : 67 recommandations pour Gadi Eisenkot, 46 pour Benyamin Nétanyahou."
         }
       ],
       "sources": [
         {
-          "name": "ABC News",
-          "title": "Les résultats définitifs des législatives",
-          "url": "https://abcnews.com/International/israel-election-partial-results-deadlock-netanyahu-alleges-fraud/story?id=137665276",
-          "date": "2026-10-29"
+          "name": "ANI, via The Tribune",
+          "title": "Les recommandations des partis",
+          "url": "https://www.tribuneindia.com/news/eisenkot/israel-eisenkot-clears-pm-mandate-threshold-with-67-endorsements-leaving-netanyahus-bloc-at-46-seats-utj-abstains",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Le Judaïsme unifié de la Torah lâche Nétanyahou",
+          "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408",
+          "date": "2026-11-05"
         },
         {
           "name": "Al Jazeera",
