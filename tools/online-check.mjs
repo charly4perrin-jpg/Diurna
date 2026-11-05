@@ -71,7 +71,7 @@ for (const p of [...pages, ...stories]) {
     const errs = (v.text.match(/<m:errorcount>([^<]*)<\/m:errorcount>/) || [])[1];
     const warns = (v.text.match(/<m:warningcount>([^<]*)<\/m:warningcount>/) || [])[1];
     line(`      validateur W3C : ${valid === 'true' ? 'VALIDE' : valid === 'false' ? 'INVALIDE' : `pas de réponse (HTTP ${v.status || v.error})`}${errs !== undefined ? `, ${errs} erreur(s), ${warns} avertissement(s)` : ''}`);
-    for (const m of v.text.matchAll(/<m:text>([^<]*)<\/m:text>/g)) line(`        · ${m[1]}`);
+    for (const m of v.text.matchAll(/<(?:m:)?text>([^<]*)<\/(?:m:)?text>/g)) line(`        · ${m[1]}`);
   }
 }
 
