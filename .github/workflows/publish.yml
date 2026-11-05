@@ -19,7 +19,7 @@ permissions:
   issues: write
 
 concurrency:
-  group: pages
+  group: publish-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
@@ -72,6 +72,9 @@ jobs:
     needs: check
     if: needs.check.outputs.mode == 'workflow' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    concurrency:
+      group: pages
+      cancel-in-progress: false
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
