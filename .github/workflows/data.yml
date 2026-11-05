@@ -1,6 +1,8 @@
 # Récupère chaque matin les données chiffrées publiques (pétrole, taux de change, inflation,
 # catastrophes) et les met en cache dans data/. Aucune clé API. Lancement manuel possible
 # depuis l'onglet Actions (« Run workflow »).
+# Enchaînement quotidien : Données chiffrées → Publier → Contrôle en ligne et Performance ;
+# Diffusion (carrousel, e-mail) suit à 7 h 50, heure de Paris.
 name: Données chiffrées
 
 on:
