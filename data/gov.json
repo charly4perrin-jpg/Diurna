@@ -166,8 +166,8 @@
   "regime_en": "Presidential republic",
   "leaders": [
    {
-    "role": "Président (démissionnaire, mis en accusation)",
-    "role_en": "President (resigning, impeached)",
+    "role": "Président (mis en accusation, jugé par le Sénat)",
+    "role_en": "President (impeached, on trial in the Senate)",
     "name": "Santiago Peña"
    },
    {
@@ -178,9 +178,9 @@
   ],
   "checked": "2026-11-06",
   "source": {
-   "name": "Associated Press, via PBS",
-   "name_en": "Associated Press, via PBS",
-   "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+   "name": "Associated Press, via KSAT",
+   "name_en": "Associated Press, via KSAT",
+   "url": "https://www.ksat.com/news/2026/11/06/pena-skips-senate-impeachment-trial-as-paraguay-reels-from-ueno-bank-collapse/"
   }
  },
  "SOM": {

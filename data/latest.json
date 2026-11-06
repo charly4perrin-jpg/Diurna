@@ -1,9 +1,9 @@
 {
   "date": "2026-11-06",
   "number": 2,
-  "updated": "2026-11-06T06:55:58+01:00",
+  "updated": "2026-11-06T19:45:06+01:00",
   "headline": "À Ormuz, des pétroliers en feu tandis que l'Iran pose ses conditions à Washington",
-  "standfirst": "Téhéran fait état de cinq pétroliers touchés par des mines dans le détroit et transmet par le Qatar une proposition nucléaire assortie de sept exigences. Au Paraguay, le président Santiago Peña démissionne et se voit aussitôt mis en accusation après la faillite d'une banque, tandis qu'en Somalie la Cour suprême juge illégale la prolongation du mandat présidentiel.",
+  "standfirst": "Téhéran fait état de cinq pétroliers touchés par des mines dans le détroit et transmet par le Qatar une proposition nucléaire assortie de sept exigences. Au Paraguay, le Sénat ouvre le procès en destitution du président Santiago Peña, dont la démission a échoué après la faillite d'une banque, tandis qu'en Somalie la Cour suprême déclare illégale la prolongation du mandat présidentiel.",
   "essentials": [
     {
       "rank": 1,
@@ -247,24 +247,24 @@
         "economy"
       ],
       "radar": false,
-      "title": "Au Paraguay, le président Santiago Peña démissionne et se retrouve aussitôt mis en accusation",
-      "standfirst": "Emporté par la faillite d'Ueno, une banque numérique qui revendiquait plus de 60 % des adultes du pays parmi ses clients, le chef de l'État a annoncé jeudi son départ. Les députés ont voté sa mise en accusation dans la foulée.",
+      "title": "Au Paraguay, le Sénat ouvre le procès en destitution de Santiago Peña, dont la démission a échoué",
+      "standfirst": "Faute de quorum, le Congrès n'a pas pu accepter jeudi la démission du président, emporté par la faillite de la banque numérique Ueno. Les sénateurs ont entamé vendredi son procès, en son absence.",
       "body": [
-        "Jeudi 5 novembre, dans une vidéo publiée sur X, le président paraguayen, Santiago Peña, a annoncé sa démission au nom de la « paix sociale » et de la stabilité des institutions, quelques minutes avant que les députés ne votent, par 78 voix contre 0, sa mise en accusation devant le Sénat.",
-        "Sa chute découle de la faillite d'Ueno, banque numérique saisie le 3 novembre par la banque centrale après la découverte de prêts mal documentés à des sociétés liées à ses propriétaires, qui détenait environ 800 millions de dollars de dépôts publics ; le chef du Parti colorado, Horacio Cartes, avait lâché le président.",
-        "Les parlementaires doivent se prononcer vendredi sur cette démission, qui permettrait au vice-président, Pedro Alliana, de prêter serment sans attendre le procès, tandis que l'opposition réclame une destitution, qui priverait Santiago Peña du siège de sénateur à vie, assorti d'une protection judiciaire, réservé aux anciens présidents."
+        "Vendredi 6 novembre, le Sénat paraguayen a ouvert le procès en destitution du président, Santiago Peña, qui ne s'est pas présenté, et a rejeté par 39 voix contre 3 sa demande d'un délai de soixante-douze heures pour préparer sa défense, confiée aux avocats Ricardo Preda et Adolfo Ferreiro.",
+        "La veille, ses alliés du Parti colorado avaient quitté la séance conjointe du Congrès, faute de voix pour faire accepter une démission qui lui aurait valu un siège de sénateur à vie assorti d'une immunité ; l'accusation vise notamment ses anciennes parts dans la maison mère d'Ueno, banque saisie le 3 novembre.",
+        "Il faut 30 voix sur 45 pour le destituer, ce qui porterait au pouvoir le vice-président, Pedro Alliana, jusqu'en août 2028 ; la défense envisage de saisir la Cour suprême et des instances internationales, tandis que le chef de cabinet, Javier Giménez, et le ministre de l'intérieur, Enrique Riera, ont démissionné."
       ],
       "figure": {
-        "value": "78 à 0",
-        "label": "le vote des députés pour mettre en accusation Santiago Peña",
-        "compare": "il faudrait ensuite 30 voix sur 45 au Sénat pour le destituer"
+        "value": "30 sur 45",
+        "label": "les voix de sénateurs nécessaires pour destituer Santiago Peña",
+        "compare": "les députés l'ont mis en accusation par 78 voix contre 0"
       },
       "modules": {
         "actors": {
           "items": [
             {
               "name": "Santiago Peña",
-              "role": "Président, démissionnaire et mis en accusation ; visé par une enquête pénale."
+              "role": "Président, mis en accusation par les députés ; visé par une enquête pénale."
             },
             {
               "name": "Pedro Alliana",
@@ -297,17 +297,17 @@
             },
             {
               "d": "2026-11-05",
-              "t": "Démission annoncée de Santiago Peña ; les députés votent sa mise en accusation."
+              "t": "La démission échoue, faute de quorum ; les députés votent la mise en accusation."
             },
             {
               "d": "2026-11-06",
-              "t": "Le Congrès doit se prononcer sur la démission."
+              "t": "Ouverture du procès devant le Sénat."
             }
           ],
           "source": {
-            "name": "Associated Press, via PBS",
-            "name_en": "Associated Press, via PBS",
-            "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+            "name": "Associated Press, via KSAT",
+            "name_en": "Associated Press, via KSAT",
+            "url": "https://www.ksat.com/news/2026/11/06/pena-skips-senate-impeachment-trial-as-paraguay-reels-from-ueno-bank-collapse/"
           }
         },
         "inflation": {}
@@ -344,7 +344,11 @@
         },
         {
           "d": "2026-11-05",
-          "t": "Démission de Santiago Peña et vote de sa mise en accusation par 78 voix contre 0."
+          "t": "Démission annoncée, puis bloquée faute de quorum ; mise en accusation par 78 voix contre 0."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "Ouverture du procès devant le Sénat, en l'absence du président."
         },
         {
           "d": "2028-08",
@@ -353,21 +357,21 @@
       ],
       "sources": [
         {
-          "name": "Associated Press, via PBS",
-          "title": "Le parquet enquête sur le président",
-          "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse",
-          "date": "2026-11-05"
-        },
-        {
           "name": "Associated Press, via KSAT",
-          "title": "La démission de Santiago Peña",
-          "url": "https://www.ksat.com/news/world/2026/11/05/paraguay-president-santiago-pena-resigns-following-bank-collapse/",
-          "date": "2026-11-05"
+          "title": "Santiago Peña absent de son procès",
+          "url": "https://www.ksat.com/news/2026/11/06/pena-skips-senate-impeachment-trial-as-paraguay-reels-from-ueno-bank-collapse/",
+          "date": "2026-11-06"
         },
         {
-          "name": "The Rio Times",
-          "title": "Le procès devant le Sénat",
-          "url": "https://www.riotimesonline.com/paraguay-pena-stays-president-senate-trial/",
+          "name": "Associated Press, via ABC News",
+          "title": "Démissions dans l'entourage du président",
+          "url": "https://abcnews.com/International/wireStory/paraguays-pea-loses-top-aides-impeachment-trial-resumes-137913219",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Le Congrès n'accepte pas la démission",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse",
           "date": "2026-11-05"
         },
         {
@@ -963,7 +967,7 @@
   "agenda": [
     {
       "d": "2026-11-06",
-      "t": "Le Congrès paraguayen doit se prononcer sur la démission de Santiago Peña."
+      "t": "Procès de Santiago Peña devant le Sénat paraguayen ; 30 voix sur 45 sont nécessaires pour le destituer."
     },
     {
       "d": "2026-11-08",

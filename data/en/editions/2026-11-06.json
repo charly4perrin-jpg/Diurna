@@ -1,10 +1,10 @@
 {
   "date": "2026-11-06",
   "number": 2,
-  "updated": "2026-11-06T06:55:58+01:00",
+  "updated": "2026-11-06T19:45:06+01:00",
   "lang": "en",
   "headline": "Tankers burn in Hormuz as Iran sets its terms for Washington",
-  "standfirst": "Tehran reports five tankers hit by mines in the strait and sends, via Qatar, a nuclear proposal tied to seven demands. In Paraguay, President Santiago Peña resigns and is promptly impeached after a bank collapse, while in Somalia the Supreme Court rules the extension of the president's term unlawful.",
+  "standfirst": "Tehran reports five tankers hit by mines in the strait and sends, via Qatar, a nuclear proposal tied to seven demands. In Paraguay, the Senate opens the impeachment trial of President Santiago Peña after his attempt to resign over a bank collapse failed, while in Somalia the Supreme Court rules the extension of the president's term unlawful.",
   "essentials": [
     {
       "rank": 1,
@@ -249,24 +249,24 @@
         "economy"
       ],
       "radar": false,
-      "title": "Paraguay's president, Santiago Peña, resigns and is impeached within minutes",
-      "standfirst": "Brought down by the collapse of Ueno, a digital bank that claimed more than 60% of the country's adults as customers, the head of state announced his departure on Thursday. Deputies voted to impeach him straight afterwards.",
+      "title": "Paraguay's Senate opens Santiago Peña's impeachment trial after his bid to resign fails",
+      "standfirst": "Congress was unable to accept the president's resignation on Thursday after his allies walked out, leaving it without a quorum. Senators began his trial on Friday, in his absence, over the collapse of the digital bank Ueno.",
       "body": [
-        "On Thursday 5 November, in a video posted on X, Paraguay's president, Santiago Peña, announced his resignation in the name of \"social peace\" and institutional stability, minutes before the lower house voted by 78 to 0 to impeach him and send him for trial in the Senate.",
-        "His fall stems from the collapse of Ueno, a digital bank seized by the central bank on 3 November after poorly documented loans to firms linked to its owners came to light, and which held some $800m in public deposits; Horacio Cartes, leader of the Colorado Party, had already abandoned him.",
-        "Congress is due to rule on the resignation on Friday, which would allow the vice-president, Pedro Alliana, to be sworn in without awaiting a trial, while the opposition wants him removed from office, which would strip Mr Peña of the life seat in the Senate, with its legal immunity, reserved for former presidents."
+        "On Friday 6 November Paraguay's Senate opened the impeachment trial of the president, Santiago Peña, who failed to appear, and voted by 39 to 3 to reject his request for another 72 hours to prepare a defence entrusted to the lawyers Ricardo Preda and Adolfo Ferreiro.",
+        "The day before, his Colorado Party allies had walked out of a joint session of Congress, lacking the votes to accept a resignation that would have earned him a life seat in the Senate with immunity; the charges include his former stake in the holding company of Ueno, the bank seized on 3 November.",
+        "Removal requires 30 of the 45 senators and would hand power to the vice-president, Pedro Alliana, until August 2028; the defence says it may challenge the process before the Supreme Court and international bodies, while the chief of staff, Javier Giménez, and the interior minister, Enrique Riera, have resigned."
       ],
       "figure": {
-        "value": "78 to 0",
-        "label": "the lower-house vote to impeach Santiago Peña",
-        "compare": "removal would then need 30 of the Senate's 45 votes"
+        "value": "30 of 45",
+        "label": "senators' votes needed to remove Santiago Peña",
+        "compare": "the lower house impeached him by 78 votes to 0"
       },
       "modules": {
         "actors": {
           "items": [
             {
               "name": "Santiago Peña",
-              "role": "President, resigning and impeached; the subject of a criminal investigation."
+              "role": "President, impeached by the lower house; the subject of a criminal investigation."
             },
             {
               "name": "Pedro Alliana",
@@ -299,17 +299,17 @@
             },
             {
               "d": "2026-11-05",
-              "t": "Santiago Peña announces his resignation; deputies vote to impeach him."
+              "t": "The resignation stalls for lack of a quorum; deputies vote to impeach."
             },
             {
               "d": "2026-11-06",
-              "t": "Congress is due to rule on the resignation."
+              "t": "The Senate trial opens."
             }
           ],
           "source": {
-            "name": "Associated Press, via PBS",
-            "name_en": "Associated Press, via PBS",
-            "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+            "name": "Associated Press, via KSAT",
+            "name_en": "Associated Press, via KSAT",
+            "url": "https://www.ksat.com/news/2026/11/06/pena-skips-senate-impeachment-trial-as-paraguay-reels-from-ueno-bank-collapse/"
           }
         },
         "inflation": {}
@@ -346,7 +346,11 @@
         },
         {
           "d": "2026-11-05",
-          "t": "Santiago Peña resigns; deputies vote 78 to 0 to impeach him."
+          "t": "Resignation announced, then blocked for lack of a quorum; impeached by 78 votes to 0."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "The Senate trial opens in the president's absence."
         },
         {
           "d": "2028-08",
@@ -355,21 +359,21 @@
       ],
       "sources": [
         {
-          "name": "Associated Press, via PBS",
-          "title": "Prosecutors investigate the president",
-          "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse",
-          "date": "2026-11-05"
-        },
-        {
           "name": "Associated Press, via KSAT",
-          "title": "Santiago Peña resigns",
-          "url": "https://www.ksat.com/news/world/2026/11/05/paraguay-president-santiago-pena-resigns-following-bank-collapse/",
-          "date": "2026-11-05"
+          "title": "Peña skips his trial",
+          "url": "https://www.ksat.com/news/2026/11/06/pena-skips-senate-impeachment-trial-as-paraguay-reels-from-ueno-bank-collapse/",
+          "date": "2026-11-06"
         },
         {
-          "name": "The Rio Times",
-          "title": "The Senate trial",
-          "url": "https://www.riotimesonline.com/paraguay-pena-stays-president-senate-trial/",
+          "name": "Associated Press, via ABC News",
+          "title": "Top aides resign",
+          "url": "https://abcnews.com/International/wireStory/paraguays-pea-loses-top-aides-impeachment-trial-resumes-137913219",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Congress does not accept the resignation",
+          "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse",
           "date": "2026-11-05"
         },
         {
@@ -965,7 +969,7 @@
   "agenda": [
     {
       "d": "2026-11-06",
-      "t": "Paraguay's Congress is due to rule on Santiago Peña's resignation."
+      "t": "Santiago Peña's trial in Paraguay's Senate; removal needs 30 of 45 votes."
     },
     {
       "d": "2026-11-08",
