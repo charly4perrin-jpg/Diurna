@@ -1,0 +1,996 @@
+{
+  "date": "2026-11-06",
+  "number": 2,
+  "updated": "2026-11-06T06:55:58+01:00",
+  "headline": "À Ormuz, des pétroliers en feu tandis que l'Iran pose ses conditions à Washington",
+  "standfirst": "Téhéran fait état de cinq pétroliers touchés par des mines dans le détroit et transmet par le Qatar une proposition nucléaire assortie de sept exigences. Au Paraguay, le président Santiago Peña démissionne et se voit aussitôt mis en accusation après la faillite d'une banque, tandis qu'en Somalie la Cour suprême juge illégale la prolongation du mandat présidentiel.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Moyen-Orient",
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "radar": false,
+      "title": "À Ormuz, des pétroliers touchés par des mines, et l'Iran pose sept conditions à Washington",
+      "standfirst": "Téhéran affirme qu'au moins cinq pétroliers ont été endommagés jeudi dans le détroit d'Ormuz, alors que le Pentagone se tient prêt à une reprise des combats. Par l'intermédiaire du Qatar, l'Iran a transmis aux États-Unis une proposition sur son programme nucléaire.",
+      "body": [
+        "Jeudi 5 novembre, les forces iraniennes ont fait état d'au moins cinq pétroliers et d'un remorqueur en feu dans le détroit d'Ormuz, la plupart après avoir heurté des mines sur des routes non autorisées par Téhéran ; l'agence britannique UKMTO signale aussi un navire frappé par deux projectiles au nord du Qatar.",
+        "Le même jour, un haut responsable iranien a indiqué à l'agence Reuters que Téhéran avait fait parvenir à Washington, par l'intermédiaire du Qatar, une proposition sur son programme nucléaire, qui ne sera discutée qu'une fois satisfaites sept exigences, dont la levée des sanctions, le dégel des avoirs iraniens et des réparations de guerre.",
+        "Les États-Unis, qui examinent le texte, veulent que le nucléaire figure dès le début des négociations, et des milliers de soldats américains se tiennent prêts à reprendre les combats, selon le New York Times, au moment où plusieurs alliés de Donald Trump prennent leurs distances avec la guerre après la défaite du 3 novembre."
+      ],
+      "figure": {
+        "value": "5",
+        "label": "pétroliers endommagés jeudi dans le détroit d'Ormuz, selon Téhéran",
+        "compare": "ainsi qu'un remorqueur, également en feu"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "IRN"
+          ],
+          "host": "QAT",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Que le programme nucléaire iranien figure dès le début de toute négociation."
+            },
+            {
+              "who": "Téhéran",
+              "wants": "La satisfaction préalable de sept exigences, dont la levée des sanctions, le dégel de ses avoirs et des réparations de guerre, avant toute discussion ou réouverture du détroit d'Ormuz."
+            }
+          ],
+          "source": {
+            "name": "Reuters, via Arab News",
+            "name_en": "Reuters, via Arab News",
+            "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre"
+          }
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 3 400",
+              "label": "morts en Iran",
+              "by": "l'ONU (OCHA)",
+              "date": "2026-06-30"
+            },
+            {
+              "value": "72",
+              "label": "morts en Israël",
+              "date": "2026-08-05"
+            }
+          ],
+          "note": "Bilans non vérifiés de façon indépendante, et non arrêtés.",
+          "source": {
+            "name": "Wikipédia, synthèse des bilans",
+            "name_en": "Wikipedia, summary of tolls",
+            "url": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Détroit d'Ormuz",
+              "coords": [
+                56.4,
+                26.5
+              ],
+              "note": "Au moins cinq pétroliers et un remorqueur en feu le 5 novembre, selon Téhéran."
+            },
+            {
+              "name": "Au nord de Madinat Al-Chamal (Qatar)",
+              "coords": [
+                51.2,
+                26.95
+              ],
+              "note": "Un pétrolier frappé par deux projectiles le 4 novembre au soir, selon l'UKMTO."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "États-Unis et Israël",
+              "ids": [
+                "USA",
+                "ISR"
+              ],
+              "note": "Campagne de frappes lancée le 28 février."
+            },
+            {
+              "name": "Iran",
+              "ids": [
+                "IRN"
+              ],
+              "note": "Ripostes contre Israël et les bases américaines du Golfe."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "QAT"
+            },
+            {
+              "id": "PAK",
+              "note": "a annoncé un arrêt des opérations le 15 juin"
+            }
+          ],
+          "source": {
+            "name": "Associated Press",
+            "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html"
+          }
+        },
+        "impact": {
+          "text": "Le prix du pétrole se répercute à la pompe : en France, le gazole coûtait en moyenne 2,29 euros le litre début novembre, selon l'AFP, malgré la mise sur le marché de 10 millions de barils puisés dans les stocks stratégiques.",
+          "date": "2026-11-02",
+          "source": {
+            "name": "AFP, via Connaissance des énergies",
+            "name_en": "AFP, via Connaissance des énergies",
+            "url": "https://www.connaissancedesenergies.org/afp/prix-du-gazole-macron-se-felicite-de-solutions-concretes-qui-portent-leurs-fruits-261102"
+          }
+        },
+        "inflation": {}
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "de guerre"
+      },
+      "analysis": {
+        "title": "Sept conditions pour rouvrir le détroit",
+        "text": "En visite en Russie, le haut responsable iranien de la sécurité Mohsen Rezaei a résumé jeudi la ligne de Téhéran : tant que ses sept conditions ne seront pas remplies, le détroit d'Ormuz restera fermé et il n'y aura pas de négociation. Le pari iranien repose sur le poids de ce passage, par lequel transite en temps normal environ un cinquième de la consommation mondiale de pétrole, et le Guide suprême, Mojtaba Khamenei, a exclu mercredi la moindre « inclination à la soumission ». À Washington, le contexte politique a changé : le vice-président, JD Vance, attribue ouvertement la défaite électorale à la guerre, le sénateur républicain Ted Cruz juge qu'elle a trop duré, et les démocrates, majoritaires au Congrès à partir de janvier, réclament qu'elle prenne fin."
+      },
+      "keys": [
+        {
+          "title": "Le rôle du Qatar",
+          "text": "L'émirat transmet les messages entre les deux capitales depuis l'échec des discussions directes. Son porte-parole, Majed Al-Ansari, assure que Washington et Téhéran restent attachés au processus de négociation et examinent les propositions des médiateurs."
+        },
+        {
+          "title": "Un détroit miné",
+          "text": "Depuis la fin février, Téhéran restreint fortement la circulation dans le détroit et ne laisse passer que les navires qu'il autorise. L'UKMTO reconnaît peiner à recenser les attaques, la plupart des navires ne les signalant plus."
+        }
+      ],
+      "involved": [
+        "USA",
+        "ISR",
+        "QAT",
+        "RUS",
+        "LBN",
+        "YEM"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Ormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "Frappes américaines et israéliennes ; mort d'Ali Khamenei. L'Iran riposte et bloque le détroit d'Ormuz."
+        },
+        {
+          "d": "2026-06-15",
+          "t": "Le Pakistan annonce un arrêt des opérations militaires, régulièrement violé depuis."
+        },
+        {
+          "d": "2026-10-30",
+          "t": "Médiateurs qataris à Téhéran, puis trois jours de discussions à Doha."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Défaite républicaine aux élections de mi-mandat, attribuée par JD Vance à la guerre."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Cinq pétroliers touchés à Ormuz selon Téhéran ; proposition nucléaire iranienne transmise par le Qatar."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Des pétroliers touchés à Ormuz",
+          "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Reuters, via Arab News",
+          "title": "La proposition nucléaire iranienne transmise par le Qatar",
+          "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Les alliés de Trump prennent leurs distances avec la guerre",
+          "url": "https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "EIA (Agence américaine d'information sur l'énergie)",
+          "title": "Prix du Brent au comptant",
+          "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+          "date": "2026-11-03"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-iran",
+        "title": "La guerre avec l’Iran"
+      },
+      "slug": "ormuz-petroliers-touches-mines-iran-pose-sept-conditions"
+    },
+    {
+      "rank": 2,
+      "id": "PRY",
+      "place": "Paraguay",
+      "section": "Amériques",
+      "types": [
+        "society",
+        "economy"
+      ],
+      "radar": false,
+      "title": "Au Paraguay, le président Santiago Peña démissionne et se retrouve aussitôt mis en accusation",
+      "standfirst": "Emporté par la faillite d'Ueno, une banque numérique qui revendiquait plus de 60 % des adultes du pays parmi ses clients, le chef de l'État a annoncé jeudi son départ. Les députés ont voté sa mise en accusation dans la foulée.",
+      "body": [
+        "Jeudi 5 novembre, dans une vidéo publiée sur X, le président paraguayen, Santiago Peña, a annoncé sa démission au nom de la « paix sociale » et de la stabilité des institutions, quelques minutes avant que les députés ne votent, par 78 voix contre 0, sa mise en accusation devant le Sénat.",
+        "Sa chute découle de la faillite d'Ueno, banque numérique saisie le 3 novembre par la banque centrale après la découverte de prêts mal documentés à des sociétés liées à ses propriétaires, qui détenait environ 800 millions de dollars de dépôts publics ; le chef du Parti colorado, Horacio Cartes, avait lâché le président.",
+        "Les parlementaires doivent se prononcer vendredi sur cette démission, qui permettrait au vice-président, Pedro Alliana, de prêter serment sans attendre le procès, tandis que l'opposition réclame une destitution, qui priverait Santiago Peña du siège de sénateur à vie, assorti d'une protection judiciaire, réservé aux anciens présidents."
+      ],
+      "figure": {
+        "value": "78 à 0",
+        "label": "le vote des députés pour mettre en accusation Santiago Peña",
+        "compare": "il faudrait ensuite 30 voix sur 45 au Sénat pour le destituer"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Santiago Peña",
+              "role": "Président, démissionnaire et mis en accusation ; visé par une enquête pénale."
+            },
+            {
+              "name": "Pedro Alliana",
+              "role": "Vice-président, successeur désigné par la Constitution."
+            },
+            {
+              "name": "Horacio Cartes",
+              "role": "Ancien président et chef du Parti colorado, favorable à la mise en accusation."
+            },
+            {
+              "name": "Emiliano Rolón Fernández",
+              "role": "Procureur général, a ouvert trois enquêtes pénales sur la crise d'Ueno."
+            },
+            {
+              "name": "Pedro Acosta Bernal",
+              "role": "Président par intérim de la banque centrale depuis le 4 novembre."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via PBS",
+            "name_en": "Associated Press, via PBS",
+            "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-03",
+              "t": "La banque centrale prend le contrôle d'Ueno."
+            },
+            {
+              "d": "2026-11-05",
+              "t": "Démission annoncée de Santiago Peña ; les députés votent sa mise en accusation."
+            },
+            {
+              "d": "2026-11-06",
+              "t": "Le Congrès doit se prononcer sur la démission."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via PBS",
+            "name_en": "Associated Press, via PBS",
+            "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+          }
+        },
+        "inflation": {}
+      },
+      "analysis": {
+        "title": "Un scandale bancaire au sommet de l'État",
+        "text": "Issue d'une ancienne société de financement, Ueno s'était imposée comme la banque numérique du pays, avec plus de 70 agences. Sa faillite a privé du jour au lendemain une large part de la population de ses comptes, de ses applications et de ses cartes. Le fonds de garantie doit rembourser jusqu'à environ 36 000 dollars par client, ce qui couvrirait 97 % des déposants, selon l'Associated Press. Huit dirigeants ont été interpellés, dont le fondateur, Miguel Vázquez, et 27 personnes ont été inculpées d'abus de confiance et de tentative de fraude. Le procureur général a ouvert trois enquêtes pénales, qui visent aussi des responsables actuels et passés, dont le président, qui s'est excusé auprès de ses concitoyens et dit vouloir coopérer."
+      },
+      "keys": [
+        {
+          "title": "La succession",
+          "text": "La Constitution confie au vice-président, Pedro Alliana, le soin d'achever le mandat, qui court jusqu'en août 2028. Ancien président de la Chambre des députés et allié d'Horacio Cartes, il avait annoncé en avril son intention de briguer la présidence en 2028."
+        },
+        {
+          "title": "Un allié de Donald Trump",
+          "text": "Santiago Peña était l'un des rares dirigeants étrangers présents à l'investiture du président américain. Le site Responsible Statecraft voit dans sa chute un revers pour l'offensive diplomatique de Washington en Amérique latine."
+        }
+      ],
+      "involved": [
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2023-08-15",
+          "t": "Santiago Peña et Pedro Alliana entrent en fonctions."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Les régulateurs constatent que les fonds propres d'Ueno sont tombés sous la moitié du minimum légal."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "La banque centrale prend le contrôle d'Ueno."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Démission de Santiago Peña et vote de sa mise en accusation par 78 voix contre 0."
+        },
+        {
+          "d": "2028-08",
+          "t": "Fin du mandat présidentiel en cours."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Le parquet enquête sur le président",
+          "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Associated Press, via KSAT",
+          "title": "La démission de Santiago Peña",
+          "url": "https://www.ksat.com/news/world/2026/11/05/paraguay-president-santiago-pena-resigns-following-bank-collapse/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "The Rio Times",
+          "title": "Le procès devant le Sénat",
+          "url": "https://www.riotimesonline.com/paraguay-pena-stays-president-senate-trial/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Latin Times",
+          "title": "Qui est Pedro Alliana",
+          "url": "https://www.latintimes.com/paraguay-pena-resigns-impeachment-ueno-bank-crisis-600956",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Responsible Statecraft",
+          "title": "La chute d'un allié de Trump",
+          "url": "https://responsiblestatecraft.org/paraguay-president-resigns/",
+          "date": "2026-11-05"
+        }
+      ],
+      "dossier": {
+        "id": "crise-paraguay",
+        "title": "La crise politique au Paraguay"
+      },
+      "slug": "paraguay-president-santiago-pena-demissionne-retrouve-aussitot-mis"
+    },
+    {
+      "rank": 3,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "radar": false,
+      "title": "Avant les pourparlers d'Abou Dhabi, Russes et Ukrainiens reçus à la Maison Blanche",
+      "standfirst": "Melania Trump a réuni jeudi à Washington des émissaires des deux pays, sans progrès annoncé. Sur le terrain, Moscou vise le réseau énergétique et logistique ukrainien, tandis que Kiev multiplie les attaques de drones contre les raffineries russes.",
+      "body": [
+        "Jeudi 5 novembre, l'épouse du président américain, Melania Trump, a reçu à la Maison Blanche l'émissaire de Vladimir Poutine, Kirill Dmitriev, et la commissaire russe aux droits humains, ainsi que deux responsables ukrainiens, dont le chef du parti présidentiel, David Arakhamia, en appelant à dépasser un simple « cessez-le-feu temporaire ».",
+        "La Maison Blanche lui attribue la médiation d'une trêve de six jours à Olechky, dans la région occupée de Kherson, qui a permis l'évacuation de près de 800 civils ; la frappe russe du 2 novembre sur une distribution d'aide à Komyshuvakha, 43 morts selon Kiev, est survenue au lendemain de son expiration.",
+        "Les frappes se poursuivent : Moscou affirme avoir touché un centre de la messagerie Nova Poshta près de Kharkiv et un cargo au large d'Odessa, tandis que plus de 200 drones ukrainiens ont visé la région de Riazan, avant les pourparlers à trois prévus les 10 et 11 novembre à Abou Dhabi."
+      ],
+      "figure": {
+        "value": "≈ 800",
+        "label": "civils évacués d'Olechky pendant une trêve de six jours",
+        "compare": "sur quelque 2 000 restés dans la ville"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "43",
+              "label": "morts dans la frappe du 2 novembre sur une école de Komyshuvakha",
+              "by": "Volodymyr Zelensky",
+              "date": "2026-11-05",
+              "source": {
+                "name": "Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+                "name_en": "Ukrinform"
+              }
+            },
+            {
+              "value": "15 172",
+              "label": "civils tués entre février 2022 et février 2026",
+              "by": "la mission de l'ONU pour les droits humains",
+              "date": "2026-02-16",
+              "source": {
+                "name": "ONU, via Ukrinform",
+                "name_en": "UN, via Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4092556-un-confirms-over-15000-civilian-deaths-in-ukraine-since-start-of-fullscale-war.html"
+              }
+            }
+          ]
+        },
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Kiev",
+              "wants": "Aucun accord sans l'Ukraine, et des garanties de sécurité durables."
+            },
+            {
+              "who": "Washington",
+              "wants": "Un accord : les États-Unis, à l'origine de cette ronde, pressent les deux parties de conclure."
+            }
+          ],
+          "next": {
+            "d": "2026-11-10",
+            "t": "Pourparlers à trois à Abou Dhabi, les 10 et 11 novembre."
+          },
+          "source": {
+            "name": "Reuters, via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Olechky",
+              "coords": [
+                32.52,
+                46.62
+              ],
+              "note": "Trêve de six jours, achevée le 1er novembre ; près de 800 civils évacués.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials"
+              }
+            },
+            {
+              "name": "Novyï Korotytch (Kharkiv)",
+              "coords": [
+                36.1,
+                49.95
+              ],
+              "note": "Terminal de la messagerie Nova Poshta frappé, selon Moscou.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan"
+              }
+            },
+            {
+              "name": "Riazan",
+              "coords": [
+                39.72,
+                54.6
+              ],
+              "note": "Plus de 200 drones ukrainiens dans la nuit ; incendie à la raffinerie de Rosneft.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan"
+              }
+            }
+          ]
+        }
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
+      },
+      "analysis": {
+        "title": "Une guerre de l'énergie",
+        "text": "Chaque camp vise désormais l'économie de l'autre. Selon la correspondante d'Al Jazeera à Moscou, l'Ukraine a intensifié ses frappes contre les raffineries russes, celle de Iaroslavl ayant été attaquée deux jours avant celle de Riazan, dont le gouverneur, Pavel Malkov, a recensé plus de 200 drones en une nuit. La Russie, de son côté, cible sous-stations électriques et nœuds logistiques, et Kiev subit des coupures de courant tournantes depuis la mi-octobre, à l'approche de l'hiver. La diplomatie humanitaire de Melania Trump s'ajoute au canal principal des négociations, celui des envoyés américains Steve Witkoff et Jared Kushner, qui se sont entretenus avec Volodymyr Zelensky avant la rencontre d'Abou Dhabi."
+      },
+      "keys": [
+        {
+          "title": "Les pourparlers d'Abou Dhabi",
+          "text": "Des délégations ukrainienne, russe et américaine doivent s'y retrouver les 10 et 11 novembre, à l'initiative de Washington. Trois rondes de discussions avaient échoué en début d'année, à Abou Dhabi puis à Genève."
+        },
+        {
+          "title": "La position de Kiev",
+          "text": "Volodymyr Zelensky répète qu'aucun accord ne peut être conclu sans l'Ukraine et réclame des garanties de sécurité durables. Washington, à l'origine de cette nouvelle ronde, presse les deux parties de conclure."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "ARE"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "La Russie lance son invasion à grande échelle de l'Ukraine."
+        },
+        {
+          "d": "2026-11-01",
+          "t": "Fin d'une trêve de six jours à Olechky : près de 800 civils évacués."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Frappe russe sur une distribution d'aide à Komyshuvakha : au moins 43 morts."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Réunion à la Maison Blanche autour de Melania Trump ; raffinerie de Riazan en feu."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Melania Trump reçoit des responsables russes et ukrainiens",
+          "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Frappes sur Kharkiv et Riazan",
+          "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Ukrinform",
+          "title": "Le bilan de la frappe sur Komyshuvakha",
+          "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Just Security",
+          "title": "Revue du 5 novembre",
+          "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Reuters, via Devdiscourse",
+          "title": "Pourparlers à trois à Abou Dhabi",
+          "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
+          "date": "2026-11-02"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "avant-pourparlers-abou-dhabi-russes-ukrainiens-recus-maison"
+    },
+    {
+      "rank": 4,
+      "id": "ISR",
+      "place": "Israël",
+      "section": "Moyen-Orient",
+      "types": [
+        "election",
+        "conflict"
+      ],
+      "radar": false,
+      "title": "En Israël, Isaac Herzog désignera dimanche le futur chef du gouvernement, Gadi Eisenkot en position de force",
+      "standfirst": "Fort de 67 recommandations sur 120 députés, l'ancien chef d'état-major attend le mandat que le président doit attribuer le 8 novembre. Dans le camp de Benyamin Nétanyahou, réduit à 46 soutiens, certains dénoncent une élection « volée ».",
+      "body": [
+        "À l'issue de deux jours de consultations, le président israélien, Isaac Herzog, a jugé « clair » le résultat, 67 députés sur 120 ayant recommandé Gadi Eisenkot contre 46 pour Benyamin Nétanyahou, mais il a annoncé jeudi 5 novembre qu'il poursuivrait ses entretiens et n'attribuerait que dimanche le mandat de former le gouvernement.",
+        "Ce total repose sur une alliance inédite entre le bloc d'opposition, à majorité juive, et les deux partis arabes : Raam, dont le chef, Mansour Abbas, dit vouloir permettre la formation d'un « gouvernement d'urgence », et la Liste unifiée, qui soutiendrait de l'extérieur un gouvernement minoritaire.",
+        "Dans le camp sortant, les positions se durcissent : un ministre du parti d'extrême droite Otzma Yehoudit a affirmé devant le chef de l'État que l'élection avait été « volée », alors que la commission électorale n'a relevé aucune irrégularité, et la nouvelle Knesset doit prêter serment le 10 novembre."
+      ],
+      "figure": {
+        "value": "67",
+        "label": "députés recommandent Gadi Eisenkot comme Premier ministre",
+        "compare": "contre 46 pour Benyamin Nétanyahou ; il en faut 61 sur 120"
+      },
+      "modules": {
+        "vote": {
+          "title": "Élections législatives",
+          "date": "2026-10-27",
+          "asOf": "2026-10-29",
+          "system": "Scrutin proportionnel de liste à l'échelle nationale pour les 120 sièges de la Knesset.",
+          "note": "Décompte définitif.",
+          "bodies": [
+            {
+              "name": "Knesset",
+              "total": 120,
+              "majority": 61,
+              "parties": [
+                {
+                  "name": "Coalition sortante (Nétanyahou)",
+                  "value": 53,
+                  "color": "blue"
+                },
+                {
+                  "name": "Opposition (Eisenkot)",
+                  "value": 48,
+                  "color": "amber"
+                },
+                {
+                  "name": "Partis arabes",
+                  "value": 19,
+                  "color": "green"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+          }
+        },
+        "scenarios": {
+          "items": [
+            {
+              "if": "Gadi Eisenkot est chargé de former le gouvernement",
+              "then": "il disposera de 28 jours, prolongeables de quatorze, pour réunir une coalition d'au moins 61 députés.",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408"
+              }
+            },
+            {
+              "if": "aucun dirigeant ne réunit 61 députés dans les délais légaux",
+              "then": "les électeurs seront rappelés aux urnes, ce que le président, Isaac Herzog, appelle à tout faire pour éviter.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+              }
+            },
+            {
+              "if": "Benyamin Nétanyahou et Gadi Eisenkot s'entendent",
+              "then": "un gouvernement d'union verrait le jour : c'est la piste que privilégierait la présidence, selon le site israélien Ynet.",
+              "source": {
+                "name": "Ynet",
+                "url": "https://www.ynetnews.com/article/bkotdiqsmg"
+              }
+            }
+          ]
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 1 600",
+              "label": "Palestiniens tués à Gaza depuis le cessez-le-feu d'octobre 2025",
+              "by": "le ministère de la santé de Gaza",
+              "date": "2026-11-03"
+            },
+            {
+              "value": "> 74 600",
+              "label": "morts à Gaza depuis octobre 2023",
+              "by": "le ministère de la santé de Gaza",
+              "date": "2026-11-03"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Gaza",
+              "coords": [
+                34.4,
+                31.45
+              ],
+              "note": "Frappes israéliennes presque quotidiennes malgré la trêve."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Le pari d'une majorité judéo-arabe",
+        "text": "Jamais un candidat au poste de Premier ministre ne s'était appuyé aussi ouvertement sur les partis arabes, qui détiennent ensemble un nombre record de 19 sièges. Sans eux, le bloc de Gadi Eisenkot ne compte que 48 députés, loin des 61 nécessaires. Le Likoud dénonce cette alliance, son ministre Yoav Kisch accusant les partis arabes de dédier leur victoire aux habitants de Gaza, tandis que Mansour Abbas demande qu'on cesse de soumettre sa communauté à des « tests de loyauté ». L'issue dépend aussi des ultraorthodoxes : le Judaïsme unifié de la Torah, qui n'a recommandé personne, exige d'inscrire dans la loi l'exemption de service militaire des étudiants des écoles talmudiques, et Avigdor Liberman, chef d'Israël Beitenou, se dit ouvert à siéger avec lui, selon la chaîne 12."
+      },
+      "keys": [
+        {
+          "title": "Le calendrier",
+          "text": "Le président doit désigner dimanche le dirigeant chargé de former le gouvernement, qui disposera de 28 jours, prolongeables de quatorze. Faute de coalition dans les délais légaux, les électeurs seraient rappelés aux urnes."
+        },
+        {
+          "title": "Gaza, une trêve qui ne protège pas",
+          "text": "Malgré le cessez-le-feu entré en vigueur en octobre 2025, près de 1 600 Palestiniens ont été tués depuis, selon le ministère de la santé de Gaza. Le plan de paix de Donald Trump reste largement à l'arrêt."
+        }
+      ],
+      "involved": [
+        "PSE",
+        "USA",
+        "LBN"
+      ],
+      "context": [
+        {
+          "d": "2023-10-07",
+          "t": "Attaque menée par le Hamas dans le sud d'Israël, suivie de la guerre à Gaza."
+        },
+        {
+          "d": "2025-10-10",
+          "t": "Entrée en vigueur du cessez-le-feu à Gaza."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "Élections législatives : aucun bloc n'obtient la majorité."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Fin des consultations : 67 recommandations pour Gadi Eisenkot, 46 pour Benyamin Nétanyahou."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Isaac Herzog doit désigner le dirigeant chargé de former le gouvernement."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Prestation de serment de la nouvelle Knesset."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "title": "Herzog annoncera sa décision dimanche",
+          "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Israel Hayom",
+          "title": "67 députés soutiennent Eisenkot",
+          "url": "https://www.israelhayom.com/2026/11/05/67-mks-back-eisenkot-for-prime-minister-calls-for-national-emergency-government/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Isaac Herzog ouvre les consultations",
+          "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Frappes à Gaza malgré la trêve",
+          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds",
+          "date": "2026-11-03"
+        }
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israël et Gaza"
+      },
+      "slug": "israel-isaac-herzog-designera-dimanche-futur-chef-gouvernement"
+    },
+    {
+      "rank": 5,
+      "id": "SOM",
+      "place": "Somalie",
+      "section": "Afrique",
+      "types": [
+        "society",
+        "election"
+      ],
+      "radar": true,
+      "title": "En Somalie, la Cour suprême juge illégale la prolongation du mandat présidentiel",
+      "standfirst": "La plus haute juridiction a donné jeudi trente jours aux partis pour s'entendre et quatre-vingt-dix jours pour organiser des élections. La veille, le chef de l'État, Hassan Cheikh Mohamoud, avait limogé le président de la Cour.",
+      "body": [
+        "Jeudi 5 novembre, la chambre constitutionnelle de la Cour suprême somalienne a jugé que les amendements constitutionnels adoptés en mars ne pouvaient prolonger ni le mandat du président, Hassan Cheikh Mohamoud, expiré le 15 mai, ni celui du Parlement, et a cantonné le gouvernement fédéral à l'expédition des affaires courantes.",
+        "La veille, le chef de l'État avait limogé le président de la Cour, Bashe Yusuf Ahmed, saisi d'un recours de l'opposition, au profit d'un proche, Ibrahim Idle Suleiman ; la Cour a déclaré ce limogeage nul, et l'ancien Premier ministre Hassan Ali Khaire accuse le pouvoir d'avoir déployé des soldats dans le tribunal.",
+        "Les juges exigent un accord entre partis politiques sous trente jours et des élections dans les quatre-vingt-dix jours, alors que le président entendait conduire le pays vers ses premières élections au suffrage universel, prévues en avril et mai 2027, une réforme dont l'opposition et plusieurs partis régionaux contestent les modalités."
+      ],
+      "figure": {
+        "value": "90 jours",
+        "label": "le délai fixé par la Cour suprême pour organiser des élections",
+        "compare": "et 30 jours pour un accord entre partis"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Hassan Cheikh Mohamoud",
+              "role": "Président, dont le mandat a expiré le 15 mai selon la Cour suprême."
+            },
+            {
+              "name": "Bashe Yusuf Ahmed",
+              "role": "Président de la Cour suprême, limogé le 4 novembre ; la Cour juge ce limogeage nul."
+            },
+            {
+              "name": "Ibrahim Idle Suleiman",
+              "role": "Ancien président de la Cour, nommé par le chef de l'État pour remplacer Bashe Yusuf Ahmed."
+            },
+            {
+              "name": "Sharif Cheikh Ahmed",
+              "role": "Ancien président, auteur du recours contre les amendements constitutionnels."
+            }
+          ],
+          "source": {
+            "name": "Horn Diplomat, via AllAfrica",
+            "name_en": "Horn Diplomat, via AllAfrica",
+            "url": "https://allafrica.com/stories/202611060101.html"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-05-15",
+              "t": "Expiration du mandat présidentiel, selon la Cour suprême."
+            },
+            {
+              "d": "2026-11-05",
+              "t": "La Cour juge illégale la prolongation des mandats."
+            },
+            {
+              "d": "2027-04",
+              "t": "Premières élections au suffrage universel prévues par le pouvoir, en avril et mai."
+            }
+          ],
+          "source": {
+            "name": "Horn Diplomat, via AllAfrica",
+            "name_en": "Horn Diplomat, via AllAfrica",
+            "url": "https://allafrica.com/stories/202611060101.html"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Une crise politique sur fond d'insurrection",
+        "text": "La crise survient au pire moment pour la sécurité du pays. Les chabab, liés à Al-Qaida, contrôlent de larges pans du territoire, et les bailleurs réduisent leur financement de la mission militaire internationale : l'Ouganda, principal contributeur de la force de l'Union africaine, a annoncé cette semaine le retrait de toutes ses troupes d'ici à la fin de 2027, et Washington a cessé de financer une mission logistique des Nations unies, selon l'AFP. La mission politique de l'ONU en Somalie a, elle, fermé le 31 octobre. Le différend sur la durée du mandat avait déjà provoqué des affrontements entre factions à Mogadiscio en juin. Hassan Cheikh Mohamoud défend une réforme censée remplacer le système électoral fondé sur les clans par le suffrage universel."
+      },
+      "keys": [
+        {
+          "title": "La réforme contestée",
+          "text": "Adoptés en mars par le Parlement, les amendements allongent les mandats et organisent le passage au suffrage universel. L'opposition et des partis régionaux ont boycotté le vote, certains affirmant en avoir été empêchés."
+        },
+        {
+          "title": "Le précédent du Galmudug",
+          "text": "Sous la présidence de Bashe Yusuf Ahmed, la Cour suprême avait déjà annulé les élections du 30 juillet dans l'État fédéré du Galmudug. Un nouveau scrutin s'y est tenu le 30 septembre, et les autorités s'y étaient pliées."
+        }
+      ],
+      "involved": [
+        "UGA"
+      ],
+      "context": [
+        {
+          "d": "2026-03",
+          "t": "Le Parlement adopte les amendements constitutionnels, boycottés par l'opposition."
+        },
+        {
+          "d": "2026-05-15",
+          "t": "Fin du mandat présidentiel de quatre ans."
+        },
+        {
+          "d": "2026-06",
+          "t": "Affrontements entre factions politiques à Mogadiscio."
+        },
+        {
+          "d": "2026-10-11",
+          "t": "Sharif Cheikh Ahmed saisit la Cour suprême."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Le président limoge le chef de la Cour suprême."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "La Cour juge illégale la prolongation des mandats."
+        }
+      ],
+      "sources": [
+        {
+          "name": "AFP, via Arab News",
+          "title": "Chaos en Somalie après l'arrêt de la Cour suprême",
+          "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Horn Diplomat, via AllAfrica",
+          "title": "La Cour suprême juge la prolongation illégale",
+          "url": "https://allafrica.com/stories/202611060101.html",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Daily Trust",
+          "title": "La Cour déclare nul le limogeage de son président",
+          "url": "https://dailytrust.com/somalia-court-says-president-term-extension-unlawful/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Somali Guardian",
+          "title": "Le limogeage du président de la Cour",
+          "url": "https://www.somaliguardian.com/news/somalia-news/somalia-president-dismisses-chief-justice-constitution-ruling/",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "The Rio Times",
+          "title": "Le recours de Sharif Cheikh Ahmed et le Galmudug",
+          "url": "https://www.riotimesonline.com/somalia-fires-chief-justice-2026/",
+          "date": "2026-11-05"
+        }
+      ],
+      "dossier": {
+        "id": "crise-somalie",
+        "title": "La crise politique en Somalie"
+      },
+      "slug": "somalie-cour-supreme-juge-illegale-prolongation-mandat-presidentiel"
+    }
+  ],
+  "brief": [
+    {
+      "id": "USA",
+      "place": "États-Unis",
+      "text": "Wall Street a lourdement reculé jeudi, le Nasdaq perdant 4,8 % en séance et Nvidia 8,2 %, les investisseurs redoutant qu'un Congrès démocrate et les votes locaux contre les centres de données ne freinent l'essor de l'intelligence artificielle.",
+      "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+    },
+    {
+      "id": "SAU",
+      "place": "Arabie saoudite",
+      "text": "Riyad et Damas ont signé un accord de coopération militaire et convenu de prêts de 403 millions de dollars, lors d'une visite du président syrien, Ahmed Al-Charaa.",
+      "url": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans"
+    },
+    {
+      "id": "FRA",
+      "place": "France",
+      "text": "Environ 600 000 personnes ont défilé jeudi, selon le ministère de l'intérieur, lors d'une journée de grève contre l'austérité et la vie chère ; des heurts ont éclaté à Paris et à Lyon.",
+      "url": "https://www.foreignexchanges.news/p/world-roundup-november-5-2026"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-06",
+      "t": "Le Congrès paraguayen doit se prononcer sur la démission de Santiago Peña."
+    },
+    {
+      "d": "2026-11-08",
+      "t": "Isaac Herzog désigne le dirigeant chargé de former le gouvernement israélien."
+    },
+    {
+      "d": "2026-11-09",
+      "t": "Ouverture de la COP31 sur le climat à Antalya, en Turquie."
+    },
+    {
+      "d": "2026-11-10",
+      "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "Sommet de l'APEC à Shenzhen, rencontre entre Donald Trump et Xi Jinping."
+    }
+  ],
+  "consulted": [
+    "Al Jazeera",
+    "Associated Press",
+    "Reuters",
+    "AFP",
+    "The Times of Israel",
+    "Israel Hayom",
+    "Just Security",
+    "Foreign Exchanges",
+    "AllAfrica"
+  ]
+}

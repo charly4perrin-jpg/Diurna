@@ -30,11 +30,10 @@
     "name_en": "Masoud Pezeshkian"
    }
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "source": {
-   "name": "Wikipédia",
-   "url": "https://en.wikipedia.org/wiki/Mojtaba_Khamenei",
-   "name_en": "Wikipedia"
+   "name": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
   },
   "regime_en": "Islamic republic"
  },
@@ -47,10 +46,10 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "source": {
-   "name": "Kyiv Post",
-   "url": "https://www.kyivpost.com/post/89070"
+   "name": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -69,10 +68,10 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-06",
   "source": {
-   "name": "Al-Monitor",
-   "url": "https://www.al-monitor.com/originals/2026/10/netanyahu-set-remain-caretaker-after-inconclusive-israeli-election"
+   "name": "The Times of Israel",
+   "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
   },
   "regime_en": "Parliamentary democracy"
  },
@@ -161,5 +160,45 @@
    "url": "https://www.elysee.fr/agenda-novembre-1371"
   },
   "regime_en": "Semi-presidential republic"
+ },
+ "PRY": {
+  "regime": "République présidentielle",
+  "regime_en": "Presidential republic",
+  "leaders": [
+   {
+    "role": "Président (démissionnaire, mis en accusation)",
+    "role_en": "President (resigning, impeached)",
+    "name": "Santiago Peña"
+   },
+   {
+    "role": "Vice-président",
+    "role_en": "Vice-President",
+    "name": "Pedro Alliana"
+   }
+  ],
+  "checked": "2026-11-06",
+  "source": {
+   "name": "Associated Press, via PBS",
+   "name_en": "Associated Press, via PBS",
+   "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+  }
+ },
+ "SOM": {
+  "regime": "République fédérale, en crise constitutionnelle",
+  "regime_en": "Federal republic, in constitutional crisis",
+  "leaders": [
+   {
+    "role": "Président (mandat jugé expiré par la Cour suprême)",
+    "role_en": "President (term ruled expired by the Supreme Court)",
+    "name": "Hassan Cheikh Mohamoud",
+    "name_en": "Hassan Sheikh Mohamud"
+   }
+  ],
+  "checked": "2026-11-06",
+  "source": {
+   "name": "AFP, via Arab News",
+   "name_en": "AFP, via Arab News",
+   "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974"
+  }
  }
 }
