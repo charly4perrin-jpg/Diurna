@@ -1,0 +1,998 @@
+{
+  "date": "2026-11-06",
+  "number": 2,
+  "updated": "2026-11-06T06:55:58+01:00",
+  "lang": "en",
+  "headline": "Tankers burn in Hormuz as Iran sets its terms for Washington",
+  "standfirst": "Tehran reports five tankers hit by mines in the strait and sends, via Qatar, a nuclear proposal tied to seven demands. In Paraguay, President Santiago Peña resigns and is promptly impeached after a bank collapse, while in Somalia the Supreme Court rules the extension of the president's term unlawful.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "radar": false,
+      "title": "Tankers hit by mines in Hormuz as Iran sets seven conditions for Washington",
+      "standfirst": "Tehran says at least five tankers were damaged in the Strait of Hormuz on Thursday, as the Pentagon stands ready for a resumption of fighting. Through Qatar, Iran has passed a proposal on its nuclear programme to the United States.",
+      "body": [
+        "On Thursday 5 November Iranian forces reported at least five tankers and a tugboat ablaze in the Strait of Hormuz, most of them after striking mines on routes Tehran had not authorised; Britain's UKMTO agency also reported a vessel hit by two projectiles north of Qatar.",
+        "The same day, a senior Iranian official told Reuters that Tehran had sent Washington, through Qatar, a proposal on its nuclear programme, to be discussed only once seven demands are met, among them the lifting of sanctions, the unfreezing of Iranian assets and war reparations.",
+        "The United States, which is studying the text, wants the nuclear issue on the table from the outset, and thousands of American troops stand ready to resume fighting, according to the New York Times, just as several of Donald Trump's allies distance themselves from the war after the defeat of 3 November."
+      ],
+      "figure": {
+        "value": "5",
+        "label": "tankers damaged in the Strait of Hormuz on Thursday, according to Tehran",
+        "compare": "plus a tugboat, also set ablaze"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "IRN"
+          ],
+          "host": "QAT",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Iran's nuclear programme on the agenda from the very start of any negotiation."
+            },
+            {
+              "who": "Tehran",
+              "wants": "Seven demands met first, including the lifting of sanctions, the unfreezing of its assets and war reparations, before any talks or any reopening of the Strait of Hormuz."
+            }
+          ],
+          "source": {
+            "name": "Reuters, via Arab News",
+            "name_en": "Reuters, via Arab News",
+            "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 3,400",
+              "label": "dead in Iran",
+              "by": "the UN (OCHA)",
+              "date": "2026-06-30"
+            },
+            {
+              "value": "72",
+              "label": "dead in Israel",
+              "date": "2026-08-05"
+            }
+          ],
+          "note": "Tolls are provisional and have not been independently verified.",
+          "source": {
+            "name": "Wikipédia, synthèse des bilans",
+            "name_en": "Wikipedia, summary of tolls",
+            "url": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Strait of Hormuz",
+              "coords": [
+                56.4,
+                26.5
+              ],
+              "note": "At least five tankers and a tugboat ablaze on 5 November, according to Tehran."
+            },
+            {
+              "name": "North of Madinat ash Shamal (Qatar)",
+              "coords": [
+                51.2,
+                26.95
+              ],
+              "note": "A tanker hit by two projectiles on the evening of 4 November, according to UKMTO."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "United States and Israel",
+              "ids": [
+                "USA",
+                "ISR"
+              ],
+              "note": "Bombing campaign launched on 28 February."
+            },
+            {
+              "name": "Iran",
+              "ids": [
+                "IRN"
+              ],
+              "note": "Retaliation against Israel and US bases in the Gulf."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "QAT"
+            },
+            {
+              "id": "PAK",
+              "note": "announced a halt to operations on 15 June"
+            }
+          ],
+          "source": {
+            "name": "Associated Press",
+            "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html"
+          }
+        },
+        "impact": {
+          "text": "Oil prices feed through to the pump across Europe. In France, for example, diesel averaged €2.29 a litre in early November, according to AFP, despite the release of 10 million barrels from strategic stocks.",
+          "date": "2026-11-02",
+          "source": {
+            "name": "AFP, via Connaissance des énergies",
+            "name_en": "AFP, via Connaissance des énergies",
+            "url": "https://www.connaissancedesenergies.org/afp/prix-du-gazole-macron-se-felicite-de-solutions-concretes-qui-portent-leurs-fruits-261102"
+          }
+        },
+        "inflation": {}
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "of war"
+      },
+      "analysis": {
+        "title": "Seven conditions to reopen the strait",
+        "text": "On a visit to Russia on Thursday, the senior Iranian security official Mohsen Rezaei summed up Tehran's line: until its seven conditions are met, the Strait of Hormuz will stay shut and there will be no negotiation. Iran is betting on the weight of a passage through which about a fifth of the world's oil normally flows, and the Supreme Leader, Mojtaba Khamenei, ruled out on Wednesday any \"inclination to submit\". In Washington the political mood has shifted: the vice-president, JD Vance, openly blames the electoral defeat on the war, the Republican senator Ted Cruz says it has gone on too long, and the Democrats, who will control Congress from January, want it ended."
+      },
+      "keys": [
+        {
+          "title": "Qatar's role",
+          "text": "The emirate has carried messages between the two capitals since direct talks broke down. Its spokesman, Majed al-Ansari, says Washington and Tehran remain committed to the negotiating process and are studying the mediators' proposals."
+        },
+        {
+          "title": "A mined strait",
+          "text": "Since late February Tehran has sharply restricted traffic through the strait, letting through only the ships it clears. UKMTO admits it is struggling to count the attacks, as most vessels no longer report them."
+        }
+      ],
+      "involved": [
+        "USA",
+        "ISR",
+        "QAT",
+        "RUS",
+        "LBN",
+        "YEM"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "American and Israeli strikes; Ali Khamenei is killed. Iran retaliates and blocks the Strait of Hormuz."
+        },
+        {
+          "d": "2026-06-15",
+          "t": "Pakistan announces a halt to military operations, repeatedly violated since."
+        },
+        {
+          "d": "2026-10-30",
+          "t": "Qatari mediators in Tehran, followed by three days of talks in Doha."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Republican defeat in the midterm elections, which JD Vance blames on the war."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Five tankers hit in Hormuz, according to Tehran; Iranian nuclear proposal passed on via Qatar."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Tankers struck in Hormuz",
+          "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Reuters, via Arab News",
+          "title": "Iran's nuclear proposal sent via Qatar",
+          "url": "https://www.arabnews.com/middle-east/iran-sent-nuclear-proposal-to-the-us-via-qatar-senior-iranian-official-says-3010067",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Trump's allies distance themselves from the war",
+          "url": "https://www.aljazeera.com/news/2026/11/5/congress-defeat-how-trumps-allies-are-distancing-themselves-from-iran-war",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "EIA (Agence américaine d'information sur l'énergie)",
+          "name_en": "EIA (US Energy Information Administration)",
+          "title": "Brent spot price",
+          "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+          "date": "2026-11-03"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "tankers-hit-mines-hormuz-iran-sets-seven-conditions"
+    },
+    {
+      "rank": 2,
+      "id": "PRY",
+      "place": "Paraguay",
+      "section": "Americas",
+      "types": [
+        "society",
+        "economy"
+      ],
+      "radar": false,
+      "title": "Paraguay's president, Santiago Peña, resigns and is impeached within minutes",
+      "standfirst": "Brought down by the collapse of Ueno, a digital bank that claimed more than 60% of the country's adults as customers, the head of state announced his departure on Thursday. Deputies voted to impeach him straight afterwards.",
+      "body": [
+        "On Thursday 5 November, in a video posted on X, Paraguay's president, Santiago Peña, announced his resignation in the name of \"social peace\" and institutional stability, minutes before the lower house voted by 78 to 0 to impeach him and send him for trial in the Senate.",
+        "His fall stems from the collapse of Ueno, a digital bank seized by the central bank on 3 November after poorly documented loans to firms linked to its owners came to light, and which held some $800m in public deposits; Horacio Cartes, leader of the Colorado Party, had already abandoned him.",
+        "Congress is due to rule on the resignation on Friday, which would allow the vice-president, Pedro Alliana, to be sworn in without awaiting a trial, while the opposition wants him removed from office, which would strip Mr Peña of the life seat in the Senate, with its legal immunity, reserved for former presidents."
+      ],
+      "figure": {
+        "value": "78 to 0",
+        "label": "the lower-house vote to impeach Santiago Peña",
+        "compare": "removal would then need 30 of the Senate's 45 votes"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Santiago Peña",
+              "role": "President, resigning and impeached; the subject of a criminal investigation."
+            },
+            {
+              "name": "Pedro Alliana",
+              "role": "Vice-president, the constitutional successor."
+            },
+            {
+              "name": "Horacio Cartes",
+              "role": "Former president and leader of the Colorado Party, in favour of impeachment."
+            },
+            {
+              "name": "Emiliano Rolón Fernández",
+              "role": "Attorney-general, who has opened three criminal investigations into the Ueno affair."
+            },
+            {
+              "name": "Pedro Acosta Bernal",
+              "role": "Acting head of the central bank since 4 November."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via PBS",
+            "name_en": "Associated Press, via PBS",
+            "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-03",
+              "t": "The central bank takes control of Ueno."
+            },
+            {
+              "d": "2026-11-05",
+              "t": "Santiago Peña announces his resignation; deputies vote to impeach him."
+            },
+            {
+              "d": "2026-11-06",
+              "t": "Congress is due to rule on the resignation."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via PBS",
+            "name_en": "Associated Press, via PBS",
+            "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse"
+          }
+        },
+        "inflation": {}
+      },
+      "analysis": {
+        "title": "A banking scandal at the top of the state",
+        "text": "Born out of a former finance company, Ueno had become the country's digital bank of choice, with more than 70 branches. Its collapse cut off a large share of the population from their accounts, apps and cards overnight. The deposit-guarantee fund is due to repay up to about $36,000 per customer, which would cover 97% of depositors, according to the Associated Press. Eight executives have been detained, including the founder, Miguel Vázquez, and 27 people have been charged with breach of trust and attempted fraud. The attorney-general has opened three criminal investigations, which also target current and former officials, among them the president, who has apologised to Paraguayans and says he will co-operate."
+      },
+      "keys": [
+        {
+          "title": "The succession",
+          "text": "The constitution hands the rest of the term, which runs until August 2028, to the vice-president, Pedro Alliana. A former speaker of the lower house and an ally of Horacio Cartes, he announced in April that he intended to run for president in 2028."
+        },
+        {
+          "title": "A Trump ally",
+          "text": "Santiago Peña was one of the few foreign leaders to attend the American president's inauguration. The website Responsible Statecraft sees his fall as a setback for Washington's diplomatic push in Latin America."
+        }
+      ],
+      "involved": [
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2023-08-15",
+          "t": "Santiago Peña and Pedro Alliana take office."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Regulators find that Ueno's capital has fallen below half the legal minimum."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "The central bank takes control of Ueno."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Santiago Peña resigns; deputies vote 78 to 0 to impeach him."
+        },
+        {
+          "d": "2028-08",
+          "t": "The current presidential term ends."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Prosecutors investigate the president",
+          "url": "https://www.pbs.org/newshour/world/paraguay-prosecutor-will-seek-charges-against-embattled-president-after-bank-collapse",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Associated Press, via KSAT",
+          "title": "Santiago Peña resigns",
+          "url": "https://www.ksat.com/news/world/2026/11/05/paraguay-president-santiago-pena-resigns-following-bank-collapse/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "The Rio Times",
+          "title": "The Senate trial",
+          "url": "https://www.riotimesonline.com/paraguay-pena-stays-president-senate-trial/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Latin Times",
+          "title": "Who is Pedro Alliana",
+          "url": "https://www.latintimes.com/paraguay-pena-resigns-impeachment-ueno-bank-crisis-600956",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Responsible Statecraft",
+          "title": "The fall of a Trump ally",
+          "url": "https://responsiblestatecraft.org/paraguay-president-resigns/",
+          "date": "2026-11-05"
+        }
+      ],
+      "dossier": {
+        "id": "paraguay-crisis",
+        "title": "Paraguay's political crisis"
+      },
+      "slug": "paraguay-president-santiago-pena-resigns-impeached-within-minutes"
+    },
+    {
+      "rank": 3,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "radar": false,
+      "title": "Ahead of the Abu Dhabi talks, Russian and Ukrainian envoys meet at the White House",
+      "standfirst": "Melania Trump brought together envoys from both countries in Washington on Thursday, with no progress announced. On the ground, Moscow is targeting Ukraine's energy and logistics networks while Kyiv steps up drone attacks on Russian refineries.",
+      "body": [
+        "On Thursday 5 November the American first lady, Melania Trump, received Vladimir Putin's envoy, Kirill Dmitriev, and Russia's human-rights commissioner at the White House, along with two Ukrainian officials, including the head of the president's party, David Arakhamia, and urged them to look beyond a mere \"temporary ceasefire\".",
+        "The White House credits her with brokering a six-day truce in Oleshky, in the occupied Kherson region, which allowed nearly 800 civilians to be evacuated; the Russian strike of 2 November on an aid distribution in Komyshuvakha, which killed 43 people according to Kyiv, came the day after it expired.",
+        "The strikes go on: Moscow says it hit a depot of the Nova Poshta delivery company near Kharkiv and a cargo ship off Odesa, while more than 200 Ukrainian drones targeted the Ryazan region, ahead of three-way talks due in Abu Dhabi on 10 and 11 November."
+      ],
+      "figure": {
+        "value": "≈ 800",
+        "label": "civilians evacuated from Oleshky during a six-day truce",
+        "compare": "out of some 2,000 still in the town"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "43",
+              "label": "killed in the 2 November strike on a school in Komyshuvakha",
+              "by": "Volodymyr Zelensky",
+              "date": "2026-11-05",
+              "source": {
+                "name": "Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+                "name_en": "Ukrinform"
+              }
+            },
+            {
+              "value": "15,172",
+              "label": "civilians killed between February 2022 and February 2026",
+              "by": "the UN human rights monitoring mission",
+              "date": "2026-02-16",
+              "source": {
+                "name": "ONU, via Ukrinform",
+                "name_en": "UN, via Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4092556-un-confirms-over-15000-civilian-deaths-in-ukraine-since-start-of-fullscale-war.html"
+              }
+            }
+          ]
+        },
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Kyiv",
+              "wants": "No deal without Ukraine, and lasting security guarantees."
+            },
+            {
+              "who": "Washington",
+              "wants": "A deal: the United States, which initiated this round, is pressing both sides to conclude."
+            }
+          ],
+          "next": {
+            "d": "2026-11-10",
+            "t": "Three-way talks in Abu Dhabi on 10 and 11 November."
+          },
+          "source": {
+            "name": "Reuters, via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Oleshky",
+              "coords": [
+                32.52,
+                46.62
+              ],
+              "note": "Six-day truce, which ended on 1 November; nearly 800 civilians evacuated.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials"
+              }
+            },
+            {
+              "name": "Novyi Korotych (Kharkiv)",
+              "coords": [
+                36.1,
+                49.95
+              ],
+              "note": "Nova Poshta delivery terminal hit, according to Moscow.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan"
+              }
+            },
+            {
+              "name": "Ryazan",
+              "coords": [
+                39.72,
+                54.6
+              ],
+              "note": "More than 200 Ukrainian drones overnight; fire at the Rosneft refinery.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan"
+              }
+            }
+          ]
+        }
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "analysis": {
+        "title": "An energy war",
+        "text": "Each side is now going after the other's economy. According to Al Jazeera's Moscow correspondent, Ukraine has stepped up its strikes on Russian refineries, hitting Yaroslavl two days before Ryazan, where the governor, Pavel Malkov, counted more than 200 drones in a single night. Russia, for its part, is targeting electrical substations and logistics hubs, and Kyiv has endured rolling blackouts since mid-October as winter approaches. Melania Trump's humanitarian diplomacy runs alongside the main negotiating channel, that of the American envoys Steve Witkoff and Jared Kushner, who spoke to Volodymyr Zelensky ahead of the Abu Dhabi meeting."
+      },
+      "keys": [
+        {
+          "title": "The Abu Dhabi talks",
+          "text": "Ukrainian, Russian and American delegations are due to meet there on 10 and 11 November, at Washington's initiative. Three earlier rounds of talks, in Abu Dhabi and then Geneva, failed at the start of the year."
+        },
+        {
+          "title": "Kyiv's position",
+          "text": "Volodymyr Zelensky insists that no deal can be struck without Ukraine and is demanding lasting security guarantees. Washington, which initiated this new round, is pressing both sides to conclude."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "ARE"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2026-11-01",
+          "t": "A six-day truce in Oleshky ends: nearly 800 civilians evacuated."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Russian strike on an aid distribution in Komyshuvakha: at least 43 dead."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "White House meeting hosted by Melania Trump; Ryazan refinery ablaze."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Talks between Ukraine, Russia and the United States in Abu Dhabi."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Melania Trump meets Russian and Ukrainian officials",
+          "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Strikes on Kharkiv and Ryazan",
+          "url": "https://www.aljazeera.com/news/2026/11/5/russia-says-it-hit-ukrainian-postal-hub-and-ship-as-ukraine-strikes-ryazan",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Ukrinform",
+          "title": "The death toll in Komyshuvakha",
+          "url": "https://www.ukrinform.net/rubric-ato/4181787-death-toll-from-russian-airstrike-on-komyshuvakha-rises-to-43-zelensky.html",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition, 5 November",
+          "url": "https://www.justsecurity.org/163503/early-edition-november-5-2026/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Reuters, via Devdiscourse",
+          "title": "Three-way talks in Abu Dhabi",
+          "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
+          "date": "2026-11-02"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "ahead-abu-dhabi-talks-russian-ukrainian-envoys-meet"
+    },
+    {
+      "rank": 4,
+      "id": "ISR",
+      "place": "Israel",
+      "section": "Middle East",
+      "types": [
+        "election",
+        "conflict"
+      ],
+      "radar": false,
+      "title": "Herzog to name Israel's next prime minister on Sunday, with Gadi Eisenkot in pole position",
+      "standfirst": "With 67 of the 120 members of the Knesset behind him, the former army chief awaits the mandate the president is due to hand out on 8 November. In Benjamin Netanyahu's camp, down to 46 backers, some cry \"stolen\" election.",
+      "body": [
+        "After two days of consultations, Israel's president, Isaac Herzog, called the outcome \"clear\", with 67 of 120 members recommending Gadi Eisenkot against 46 for Benjamin Netanyahu, but announced on Thursday 5 November that he would keep talking and would not award the mandate to form a government until Sunday.",
+        "That tally rests on an unprecedented alliance between the mainly Jewish opposition bloc and the two Arab parties: Ra'am, whose leader, Mansour Abbas, says he wants to enable an \"emergency government\", and the United List, which would back a minority government from outside.",
+        "In the outgoing camp positions are hardening: a minister from the far-right Otzma Yehudit party told the head of state that the election had been \"stolen\", although the electoral commission found no irregularities, and the new Knesset is due to be sworn in on 10 November."
+      ],
+      "figure": {
+        "value": "67",
+        "label": "members of the Knesset recommend Gadi Eisenkot for prime minister",
+        "compare": "against 46 for Benjamin Netanyahu; 61 of 120 are needed"
+      },
+      "modules": {
+        "vote": {
+          "title": "General election",
+          "date": "2026-10-27",
+          "asOf": "2026-10-29",
+          "system": "Nationwide party-list proportional representation for the 120 seats of the Knesset.",
+          "note": "Final count.",
+          "bodies": [
+            {
+              "name": "Knesset",
+              "total": 120,
+              "majority": 61,
+              "parties": [
+                {
+                  "name": "Outgoing coalition (Netanyahu)",
+                  "value": 53,
+                  "color": "blue"
+                },
+                {
+                  "name": "Opposition (Eisenkot)",
+                  "value": 48,
+                  "color": "amber"
+                },
+                {
+                  "name": "Arab parties",
+                  "value": 19,
+                  "color": "green"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+          }
+        },
+        "scenarios": {
+          "items": [
+            {
+              "if": "Gadi Eisenkot is asked to form a government",
+              "then": "he will have 28 days, extendable by 14, to assemble a coalition of at least 61 members.",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408"
+              }
+            },
+            {
+              "if": "no leader secures 61 members within the legal deadlines",
+              "then": "voters will be sent back to the polls, which the president, Isaac Herzog, has urged everyone to do their utmost to avoid.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+              }
+            },
+            {
+              "if": "Benjamin Netanyahu and Gadi Eisenkot reach an understanding",
+              "then": "a unity government would emerge, the option the president's office reportedly favours, according to the Israeli news site Ynet.",
+              "source": {
+                "name": "Ynet",
+                "url": "https://www.ynetnews.com/article/bkotdiqsmg"
+              }
+            }
+          ]
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 1,600",
+              "label": "Palestinians killed in Gaza since the October 2025 ceasefire",
+              "by": "Gaza's health ministry",
+              "date": "2026-11-03"
+            },
+            {
+              "value": "> 74,600",
+              "label": "dead in Gaza since October 2023",
+              "by": "Gaza's health ministry",
+              "date": "2026-11-03"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Gaza",
+              "coords": [
+                34.4,
+                31.45
+              ],
+              "note": "Almost daily Israeli strikes despite the truce."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Betting on a Jewish-Arab majority",
+        "text": "Never before has a candidate for prime minister leaned so openly on the Arab parties, which together hold a record 19 seats. Without them, Gadi Eisenkot's bloc has only 48 members, well short of the 61 required. Likud has attacked the alliance, with its minister Yoav Kisch accusing the Arab parties of dedicating their victory to the people of Gaza, while Mansour Abbas wants an end to \"loyalty tests\" for his community. The outcome also hinges on the ultra-Orthodox: United Torah Judaism, which recommended no one, wants the exemption of yeshiva students from military service written into law, and Avigdor Lieberman, leader of Yisrael Beiteinu, says he is open to sitting with it, according to Channel 12."
+      },
+      "keys": [
+        {
+          "title": "The timetable",
+          "text": "The president is due on Sunday to name the leader tasked with forming a government, who will have 28 days, extendable by 14. If no coalition emerges within the legal deadlines, voters would be sent back to the polls."
+        },
+        {
+          "title": "Gaza, a truce that does not protect",
+          "text": "Despite the ceasefire that took effect in October 2025, nearly 1,600 Palestinians have been killed since, according to Gaza's health ministry. Donald Trump's peace plan remains largely stalled."
+        }
+      ],
+      "involved": [
+        "PSE",
+        "USA",
+        "LBN"
+      ],
+      "context": [
+        {
+          "d": "2023-10-07",
+          "t": "Hamas-led attack on southern Israel, followed by the war in Gaza."
+        },
+        {
+          "d": "2025-10-10",
+          "t": "The Gaza ceasefire takes effect."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "General election: no bloc wins a majority."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Consultations end: 67 recommendations for Gadi Eisenkot, 46 for Benjamin Netanyahu."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Isaac Herzog is due to name the leader tasked with forming a government."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "The new Knesset is sworn in."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "title": "Herzog to announce his decision on Sunday",
+          "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Israel Hayom",
+          "title": "67 MKs back Eisenkot",
+          "url": "https://www.israelhayom.com/2026/11/05/67-mks-back-eisenkot-for-prime-minister-calls-for-national-emergency-government/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Isaac Herzog opens consultations",
+          "url": "https://www.aljazeera.com/news/2026/11/5/israels-herzog-accepts-vote-results-opens-talks-on-forming-a-government",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Strikes in Gaza despite the truce",
+          "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds",
+          "date": "2026-11-03"
+        }
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israel and Gaza"
+      },
+      "slug": "herzog-name-israel-next-prime-minister-sunday-gadi"
+    },
+    {
+      "rank": 5,
+      "id": "SOM",
+      "place": "Somalia",
+      "section": "Africa",
+      "types": [
+        "society",
+        "election"
+      ],
+      "radar": true,
+      "title": "Somalia's Supreme Court rules the extension of the president's term unlawful",
+      "standfirst": "The country's highest court on Thursday gave the parties thirty days to reach agreement and ninety days to hold elections. The day before, the head of state, Hassan Sheikh Mohamud, had sacked the chief justice.",
+      "body": [
+        "On Thursday 5 November the constitutional chamber of Somalia's Supreme Court ruled that the constitutional amendments adopted in March could extend neither the term of President Hassan Sheikh Mohamud, which expired on 15 May, nor that of parliament, and confined the federal government to a caretaker role.",
+        "The day before, the president had sacked the chief justice, Bashe Yusuf Ahmed, who was hearing an opposition challenge, and replaced him with a close ally, Ibrahim Idle Suleiman; the court declared the dismissal void, and the former prime minister Hassan Ali Khaire accuses the government of sending soldiers into the courthouse.",
+        "The judges demand an agreement between political parties within thirty days and elections within ninety, whereas the president meant to lead the country to its first direct elections, planned for April and May 2027, a reform whose terms the opposition and several regional parties dispute."
+      ],
+      "figure": {
+        "value": "90 days",
+        "label": "the deadline set by the Supreme Court for holding elections",
+        "compare": "and 30 days for an agreement between parties"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Hassan Sheikh Mohamud",
+              "role": "President, whose term expired on 15 May according to the Supreme Court."
+            },
+            {
+              "name": "Bashe Yusuf Ahmed",
+              "role": "Chief justice, sacked on 4 November; the court has declared his dismissal void."
+            },
+            {
+              "name": "Ibrahim Idle Suleiman",
+              "role": "Former chief justice, appointed by the president to replace Bashe Yusuf Ahmed."
+            },
+            {
+              "name": "Sharif Sheikh Ahmed",
+              "role": "Former president, who brought the challenge against the constitutional amendments."
+            }
+          ],
+          "source": {
+            "name": "Horn Diplomat, via AllAfrica",
+            "name_en": "Horn Diplomat, via AllAfrica",
+            "url": "https://allafrica.com/stories/202611060101.html"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-05-15",
+              "t": "The president's term expires, according to the Supreme Court."
+            },
+            {
+              "d": "2026-11-05",
+              "t": "The court rules the extension of mandates unlawful."
+            },
+            {
+              "d": "2027-04",
+              "t": "First direct elections planned by the government, in April and May."
+            }
+          ],
+          "source": {
+            "name": "Horn Diplomat, via AllAfrica",
+            "name_en": "Horn Diplomat, via AllAfrica",
+            "url": "https://allafrica.com/stories/202611060101.html"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A political crisis amid an insurgency",
+        "text": "The crisis could hardly come at a worse time for the country's security. Al-Shabaab, which is linked to al-Qaeda, controls large swathes of territory, and donors are cutting funding for the international military mission: Uganda, the biggest contributor to the African Union force, announced this week that it would withdraw all its troops by the end of 2027, and Washington has stopped funding a UN logistics mission, according to AFP. The UN's political mission in Somalia closed on 31 October. The dispute over the length of the president's term had already led to clashes between factions in Mogadishu in June. Hassan Sheikh Mohamud champions a reform meant to replace the clan-based electoral system with universal suffrage."
+      },
+      "keys": [
+        {
+          "title": "The disputed reform",
+          "text": "Passed by parliament in March, the amendments lengthen terms of office and pave the way for universal suffrage. The opposition and regional parties boycotted the vote, some saying they had been prevented from taking part."
+        },
+        {
+          "title": "The Galmudug precedent",
+          "text": "Under Bashe Yusuf Ahmed, the Supreme Court had already annulled the elections of 30 July in the federal member state of Galmudug. A new vote was held there on 30 September, and the authorities complied."
+        }
+      ],
+      "involved": [
+        "UGA"
+      ],
+      "context": [
+        {
+          "d": "2026-03",
+          "t": "Parliament adopts the constitutional amendments, boycotted by the opposition."
+        },
+        {
+          "d": "2026-05-15",
+          "t": "The president's four-year term ends."
+        },
+        {
+          "d": "2026-06",
+          "t": "Clashes between political factions in Mogadishu."
+        },
+        {
+          "d": "2026-10-11",
+          "t": "Sharif Sheikh Ahmed petitions the Supreme Court."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "The president sacks the chief justice."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "The court rules the extension of mandates unlawful."
+        }
+      ],
+      "sources": [
+        {
+          "name": "AFP, via Arab News",
+          "title": "Chaos in Somalia after the Supreme Court ruling",
+          "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Horn Diplomat, via AllAfrica",
+          "title": "Supreme Court rules the extension unlawful",
+          "url": "https://allafrica.com/stories/202611060101.html",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Daily Trust",
+          "title": "Court declares the chief justice's dismissal void",
+          "url": "https://dailytrust.com/somalia-court-says-president-term-extension-unlawful/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Somali Guardian",
+          "title": "The sacking of the chief justice",
+          "url": "https://www.somaliguardian.com/news/somalia-news/somalia-president-dismisses-chief-justice-constitution-ruling/",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "The Rio Times",
+          "title": "Sharif Sheikh Ahmed's challenge and Galmudug",
+          "url": "https://www.riotimesonline.com/somalia-fires-chief-justice-2026/",
+          "date": "2026-11-05"
+        }
+      ],
+      "dossier": {
+        "id": "somalia-crisis",
+        "title": "Somalia's political crisis"
+      },
+      "slug": "somalia-supreme-court-rules-extension-president-term-unlawful"
+    }
+  ],
+  "brief": [
+    {
+      "id": "USA",
+      "place": "United States",
+      "text": "Wall Street fell sharply on Thursday, with the Nasdaq down 4.8% intraday and Nvidia 8.2%, as investors feared that a Democratic Congress and local votes against data centres could slow the artificial-intelligence boom.",
+      "url": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets"
+    },
+    {
+      "id": "SAU",
+      "place": "Saudi Arabia",
+      "text": "Riyadh and Damascus signed a military co-operation agreement and agreed on $403m in loans during a visit by the Syrian president, Ahmed al-Sharaa.",
+      "url": "https://www.aljazeera.com/news/2026/11/5/syria-saudi-arabia-sign-defence-cooperation-deal-agree-403m-in-loans"
+    },
+    {
+      "id": "FRA",
+      "place": "France",
+      "text": "Some 600,000 people marched on Thursday, according to the interior ministry, in a day of strikes against austerity and the cost of living; clashes broke out in Paris and Lyon.",
+      "url": "https://www.foreignexchanges.news/p/world-roundup-november-5-2026"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-06",
+      "t": "Paraguay's Congress is due to rule on Santiago Peña's resignation."
+    },
+    {
+      "d": "2026-11-08",
+      "t": "Isaac Herzog names the leader tasked with forming Israel's next government."
+    },
+    {
+      "d": "2026-11-09",
+      "t": "The COP31 climate summit opens in Antalya, Turkey."
+    },
+    {
+      "d": "2026-11-10",
+      "t": "Talks between Ukraine, Russia and the United States in Abu Dhabi."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "APEC summit in Shenzhen, with a meeting between Donald Trump and Xi Jinping."
+    }
+  ],
+  "consulted": [
+    "Al Jazeera",
+    "Associated Press",
+    "Reuters",
+    "AFP",
+    "The Times of Israel",
+    "Israel Hayom",
+    "Just Security",
+    "Foreign Exchanges",
+    "AllAfrica"
+  ]
+}
