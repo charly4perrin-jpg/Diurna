@@ -1,0 +1,1032 @@
+{
+  "date": "2026-11-07",
+  "number": 3,
+  "updated": "2026-11-07T07:00:09+01:00",
+  "lang": "en",
+  "headline": "Paraguay's Santiago Peña is ousted and placed under house arrest after a bank collapse",
+  "standfirst": "The Senate unanimously removed Paraguay's president, who was replaced by his deputy, Pedro Alliana, as prosecutors pursue him for breach of trust and influence-peddling. In Hormuz, Iran says it shot down an American drone, and Donald Trump does not rule out resuming the war.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "PRY",
+      "place": "Paraguay",
+      "section": "Americas",
+      "types": [
+        "society",
+        "economy"
+      ],
+      "radar": false,
+      "title": "Paraguay's Santiago Peña is removed and confined to his home as Pedro Alliana takes over",
+      "standfirst": "The Senate on Friday removed the head of state, brought down by the collapse of Ueno bank, and his vice-president was sworn in at once. Prosecutors have ordered the former president to stay at home in an inquiry into suspected breach of trust and influence-peddling.",
+      "body": [
+        "On Friday 6 November Paraguay's Senate removed President Santiago Peña from office, by the unanimous vote of the 44 senators present according to the Associated Press, a day after the lower house impeached him, and Vice-President Pedro Alliana was sworn in in Asunción to serve out a term that runs until August 2028.",
+        "Prosecutors promptly ordered the former head of state to remain at home, suspecting him of breach of trust, attempted fraud and influence-peddling in the affair of Ueno bank, seized on 3 November, where the public pension fund had placed $355m beyond legal limits.",
+        "Mr Peña, whose resignation Congress refused and who thereby forfeits the life seat in the Senate promised to former presidents, was due to be questioned by prosecutors on Saturday; they have also issued an arrest warrant for the former central-bank governor, Carlos Carvallo."
+      ],
+      "figure": {
+        "value": "44",
+        "label": "senators voted to remove Santiago Peña",
+        "compare": "every senator present, according to the Associated Press"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Pedro Alliana",
+              "role": "President since 6 November; formerly vice-president and speaker of the lower house."
+            },
+            {
+              "name": "Santiago Peña",
+              "role": "Ousted president, confined to his home on prosecutors' orders."
+            },
+            {
+              "name": "Horacio Cartes",
+              "role": "Former president and leader of the Colorado Party, who backed the impeachment."
+            },
+            {
+              "name": "Carlos Carvallo",
+              "role": "Former central-bank governor and ex-Ueno executive, subject to an arrest warrant."
+            },
+            {
+              "name": "Miguel Vázquez",
+              "role": "Controlling shareholder of Ueno, among the 27 people charged."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via WHEC",
+            "name_en": "Associated Press, via WHEC",
+            "url": "https://www.whec.com/ap-top-news/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-03",
+              "t": "The central bank takes control of Ueno."
+            },
+            {
+              "d": "2026-11-05",
+              "t": "Santiago Peña announces his resignation; the lower house impeaches him by 78 votes to 0."
+            },
+            {
+              "d": "2026-11-06",
+              "t": "The Senate removes him; Pedro Alliana is sworn in."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera, via Yahoo News",
+            "name_en": "Al Jazeera, via Yahoo News",
+            "url": "https://ca.news.yahoo.com/paraguay-santiago-pena-under-arrest-003141364.html"
+          }
+        },
+        "inflation": {}
+      },
+      "analysis": {
+        "title": "A bank for two-thirds of adults",
+        "text": "The scale of the crisis reflects Ueno's place in Paraguayans' lives. According to the Associated Press, some 3m customers, nearly two-thirds of the country's adults, lost access to their savings and cards when it was seized, and more than 1m people had opened their first account there. The fifth-largest bank by deposits, it held more than $800m of public money. Depositors are starting to be repaid, beginning with balances below 10m guaranís, about $1,600, while the state guarantee covers up to some $37,000. Prosecutors also accuse Mr Peña, a former shareholder in the parent company, of appointing a former Ueno executive to run the central bank."
+      },
+      "keys": [
+        {
+          "title": "A successor under scrutiny too",
+          "text": "Pedro Alliana, 52, a former governor of Ñeembucú, survived an impeachment attempt by the opposition on Thursday. According to the Associated Press, prosecutors are nonetheless investigating him as well, along with officials at the central bank and the pension fund."
+        },
+        {
+          "title": "The weight of Horacio Cartes",
+          "text": "The former president, who leads the ruling Colorado Party, publicly backed the removal of his successor. It was his faction's support that made a near-unanimous vote in both chambers possible."
+        },
+        {
+          "title": "A widening inquiry",
+          "text": "Twenty-seven people have been charged, including Ueno's controlling shareholder, Miguel Vázquez, and six of the bank's executives are in pre-trial detention. Luxury cars, a yacht and light aircraft have been seized."
+        }
+      ],
+      "involved": [
+        "USA",
+        "BRA",
+        "ARG"
+      ],
+      "context": [
+        {
+          "d": "2023-08-15",
+          "t": "Santiago Peña takes office for five years."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "The central bank seizes Ueno bank."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Resignation refused; the lower house impeaches him by 78 votes to 0."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "Removed by the Senate; Pedro Alliana sworn in; confined to his home."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Santiago Peña summoned by prosecutors."
+        },
+        {
+          "d": "2028-08",
+          "t": "The current presidential term ends."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via WHEC",
+          "title": "The former president under house arrest",
+          "url": "https://www.whec.com/ap-top-news/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Reuters, via The Business Standard",
+          "title": "Pedro Alliana is sworn in",
+          "url": "https://www.tbsnews.net/world/paraguay-swears-new-president-pena-placed-under-house-arrest-1595206",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera, via Yahoo News",
+          "title": "The charges against Santiago Peña",
+          "url": "https://ca.news.yahoo.com/paraguay-santiago-pena-under-arrest-003141364.html",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "ANI, via The Tribune",
+          "title": "The Senate vote",
+          "url": "https://www.tribuneindia.com/news/world/paraguay-senate-votes-to-impeach-prez-santiago-pena-over-bank-collapse-vp-sworn-in/",
+          "date": "2026-11-07"
+        }
+      ],
+      "dossier": {
+        "id": "paraguay-crisis",
+        "title": "Paraguay's political crisis"
+      },
+      "slug": "paraguay-santiago-pena-removed-confined-his-home-pedro"
+    },
+    {
+      "rank": 2,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "radar": false,
+      "title": "Iran downs an American drone over the Strait of Hormuz as Donald Trump issues threats",
+      "standfirst": "The Revolutionary Guards say they destroyed an MQ-1 drone and report two more tankers ablaze, while a sailor was killed aboard a Greek-owned ship. Donald Trump says he may be forced to destroy “the rest of Iran”.",
+      "body": [
+        "On Friday 6 November Iran's Revolutionary Guards said they had shot down an American MQ-1 drone over Qeshm island in the Strait of Hormuz and reported two tankers on fire after striking mines, while the Greek owner of the Velos announced the death of a sailor hit the previous day off Qatar.",
+        "Donald Trump, who has promised to decide after the midterm elections whether to resume military operations, said he would rather not destroy the rest of Iran but might be forced to, and spoke to Qatar's emir, Sheikh Tamim bin Hamad Al Thani, who mediates between the two capitals.",
+        "Tehran is hardening its stance: received by Vladimir Putin on Thursday, the secretary of the Supreme National Security Council, Mohsen Rezaei, repeated that the strait would stay closed until Iran's seven conditions were met, and his deputy, Ali Bagheri Kani, demands that they be implemented before any diplomacy."
+      ],
+      "figure": {
+        "value": "> 120",
+        "label": "merchant ships hit since the war began",
+        "compare": "according to IMO and UKMTO data"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "IRN"
+          ],
+          "host": "QAT",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Iran's nuclear programme on the agenda from the outset of any talks; Donald Trump insists Iran can do nothing on that front without American consent."
+            },
+            {
+              "who": "Tehran",
+              "wants": "Concrete implementation of its seven conditions, including the lifting of sanctions and war reparations, before any negotiation or reopening of the strait."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "≈ 3,400",
+              "label": "dead in Iran",
+              "by": "the UN (OCHA)",
+              "date": "2026-06-30",
+              "source": {
+                "name": "Wikipédia, synthèse des bilans",
+                "name_en": "Wikipedia, summary of tolls",
+                "url": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war"
+              }
+            },
+            {
+              "value": "≥ 24",
+              "label": "sailors killed in the Gulf and the Strait of Hormuz",
+              "by": "the International Maritime Organization",
+              "date": "2026-10-27",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+              }
+            },
+            {
+              "value": "1",
+              "label": "sailor killed aboard the tanker Velos",
+              "by": "its owner, Velos Tankers",
+              "date": "2026-11-06",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+              }
+            }
+          ],
+          "note": "Tolls have not been independently verified and are not final."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Qeshm island",
+              "coords": [
+                55.85,
+                26.8
+              ],
+              "note": "American MQ-1 drone shot down on 6 November, according to the Revolutionary Guards."
+            },
+            {
+              "name": "Off Khasab (Oman)",
+              "coords": [
+                56.25,
+                26.18
+              ],
+              "note": "Explosion reported by a tanker on 6 November, according to UKMTO."
+            },
+            {
+              "name": "North of Madinat ash Shamal (Qatar)",
+              "coords": [
+                51.2,
+                26.95
+              ],
+              "note": "The Velos hit by two projectiles on 5 November; one sailor killed."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "United States and Israel",
+              "ids": [
+                "USA",
+                "ISR"
+              ],
+              "note": "Bombing campaign launched on 28 February."
+            },
+            {
+              "name": "Iran",
+              "ids": [
+                "IRN"
+              ],
+              "note": "Retaliation against Israel and American bases in the Gulf."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "QAT"
+            },
+            {
+              "id": "PAK",
+              "note": "announced a halt to operations on 15 June"
+            }
+          ],
+          "source": {
+            "name": "Associated Press",
+            "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html"
+          }
+        },
+        "impact": {
+          "text": "Oil prices feed through to the pump across Europe. In France, for example, diesel averaged €2.29 a litre in early November, according to AFP, despite the release of 10 million barrels from strategic stocks.",
+          "date": "2026-11-02",
+          "source": {
+            "name": "AFP, via Connaissance des énergies",
+            "name_en": "AFP, via Connaissance des énergies",
+            "url": "https://www.connaissancedesenergies.org/afp/prix-du-gazole-macron-se-felicite-de-solutions-concretes-qui-portent-leurs-fruits-261102"
+          }
+        },
+        "inflation": {}
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "of war"
+      },
+      "analysis": {
+        "title": "A selective blockade",
+        "text": "The strait is not closed to everyone. According to Amir Hayat Moqaddam, a deputy chairman of the Iranian parliament's national-security committee, Indian, Chinese, Iraqi and Qatari ships pass freely, with Tehran levying transit fees on the first two, as reported by Al Jazeera. The analytics firm Kpler estimates that about 42% of Gulf crude shipped through Hormuz in October went to China and 13% to India. The arrangement spares Iran's main customers while keeping up the pressure on America's allies; Washington has imposed a naval blockade on Iran's southern ports since July. Moscow, for its part, says it is ready to support an exit from the war, and Mr Rezaei handed Vladimir Putin a letter from the Supreme Leader, Mojtaba Khamenei."
+      },
+      "keys": [
+        {
+          "title": "Donald Trump's decision",
+          "text": "After meeting his national-security advisers, the American president said on Thursday that he would decide whether to resume strikes, according to Axios. Washington is maintaining its naval blockade of Iranian ports."
+        },
+        {
+          "title": "Qatar's role",
+          "text": "The emirate relays messages between Washington and Tehran, including an Iranian nuclear proposal delivered on Thursday. The emir urged Donald Trump to pursue dialogue and a diplomatic solution."
+        },
+        {
+          "title": "A Yemeni front",
+          "text": "In Yemen the Houthis, Tehran's allies, are firing missiles and drones at Saudi Arabia, which since 5 October has backed an offensive by government forces. The Saudi-led coalition said it destroyed two missiles aimed at Najran on Friday."
+        }
+      ],
+      "involved": [
+        "USA",
+        "ISR",
+        "QAT",
+        "RUS",
+        "OMN",
+        "YEM"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "American and Israeli strikes; Ali Khamenei killed. Iran retaliates and blocks the Strait of Hormuz."
+        },
+        {
+          "d": "2026-06-15",
+          "t": "Pakistan announces a halt to military operations, repeatedly violated since."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Republican defeat in the midterm elections, blamed on the war by JD Vance."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Iranian nuclear proposal relayed by Qatar; Mohsen Rezaei received by Vladimir Putin."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "American drone shot down over Qeshm, according to Tehran; a sailor killed aboard the Velos."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Drone downed and tankers hit in Hormuz",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Mohsen Rezaei meets Vladimir Putin",
+          "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Why Iran exempts some countries from Hormuz restrictions",
+          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Khaleej Times",
+          "title": "Donald Trump's remarks",
+          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "EIA (Agence américaine d'information sur l'énergie)",
+          "title": "Brent spot price",
+          "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
+          "date": "2026-11-03",
+          "name_en": "EIA (US Energy Information Administration)"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "iran-downs-american-drone-strait-hormuz-donald-trump"
+    },
+    {
+      "rank": 3,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "radar": false,
+      "title": "Death toll from the Komyshuvakha strike passes 50 in Ukraine ahead of talks in Abu Dhabi",
+      "standfirst": "Ukraine's emergency services on Friday raised to at least 50 the death toll from the bombing of an aid centre in the Zaporizhzhia region. On the front line, Russia is barely advancing, according to the Institute for the Study of War.",
+      "body": [
+        "On Friday 6 November Ukraine's State Emergency Service raised to at least 50 the death toll from the Russian strike of 2 November on an aid-distribution centre in a former school in Komyshuvakha, in the Zaporizhzhia region, where dozens of people were still missing.",
+        "Volodymyr Zelensky describes a double strike with glide bombs, which the UN human-rights monitoring mission says probably violated international law, at the end of a week in which Russia launched 2,346 drones and more than 80 missiles at Ukraine, according to Al Jazeera.",
+        "On the battlefield Russia has taken only 117 square kilometres in ten months, according to the Institute for the Study of War, while Kyiv has targeted eight Russian refineries in seven days, ahead of three-way talks scheduled for 10 and 11 November in Abu Dhabi."
+      ],
+      "figure": {
+        "value": "117 km²",
+        "label": "taken by Russia in ten months, according to the ISW",
+        "compare": "against 5,304 km² in the whole of 2025"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "≥ 50",
+              "label": "killed in the 2 November strike on Komyshuvakha",
+              "by": "Ukraine's State Emergency Service",
+              "date": "2026-11-06",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
+              }
+            },
+            {
+              "value": "53",
+              "label": "killed in Komyshuvakha, according to a higher count",
+              "by": "the acting regional governor",
+              "date": "2026-11-06",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
+              }
+            },
+            {
+              "value": "15,172",
+              "label": "civilians killed between February 2022 and February 2026",
+              "by": "the UN human rights monitoring mission",
+              "date": "2026-02-16",
+              "source": {
+                "name": "ONU, via Ukrinform",
+                "name_en": "UN, via Ukrinform",
+                "url": "https://www.ukrinform.net/rubric-ato/4092556-un-confirms-over-15000-civilian-deaths-in-ukraine-since-start-of-fullscale-war.html"
+              }
+            }
+          ],
+          "note": "Tolls have not been independently verified."
+        },
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Kyiv",
+              "wants": "No deal without Ukraine, and lasting security guarantees."
+            },
+            {
+              "who": "Washington",
+              "wants": "A deal: America, which initiated this round, is pressing both sides to reach one."
+            }
+          ],
+          "next": {
+            "d": "2026-11-10",
+            "t": "Three-way talks in Abu Dhabi on 10 and 11 November."
+          },
+          "source": {
+            "name": "Reuters, via Devdiscourse",
+            "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official"
+          }
+        }
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "analysis": {
+        "title": "A war of attrition that has almost stalled",
+        "text": "According to the Institute for the Study of War, Russia has advanced by an average of 0.38 square kilometres a day in 2026, against 13.25 in 2025, and it even lost ground in September and October. Ukraine's general staff puts the number of Russian soldiers killed or seriously wounded between January and October at 381,300, a figure that cannot be verified. With no breakthroughs, each side is targeting the other's economy: Moscow strikes Ukraine's power grid as winter approaches, Kyiv hits Russian refineries from Yaroslavl to Ryazan. According to the Financial Times, cited by Al Jazeera, four tankers loaded with Russian diesel failed to find buyers in America despite the deal struck on 9 October between Donald Trump and Vladimir Putin; the Kremlin denies this."
+      },
+      "keys": [
+        {
+          "title": "The Abu Dhabi talks",
+          "text": "Ukrainian, Russian and American delegations are due to meet there on 10 and 11 November, at Washington's initiative. Donald Trump says a “big deal” is in the works after his contacts with the Russian envoy Kirill Dmitriev."
+        },
+        {
+          "title": "Kyiv's position",
+          "text": "Volodymyr Zelensky insists that no deal can be struck without Ukraine and demands lasting security guarantees. The Komyshuvakha strike came a day after the end of a local truce in Oleshky."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "ARE"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2026-10-09",
+          "t": "Deal between Donald Trump and Vladimir Putin on sales of Russian diesel."
+        },
+        {
+          "d": "2026-11-01",
+          "t": "End of a six-day truce in Oleshky: nearly 800 civilians evacuated."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Russian strike on an aid centre in Komyshuvakha."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "The Komyshuvakha death toll reaches at least 50."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Talks between Ukraine, Russia and America in Abu Dhabi."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Komyshuvakha death toll rises to 50",
+          "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Russia's territorial gains dwindle",
+          "url": "https://www.aljazeera.com/news/2026/11/6/in-ukraine-russias-territorial-gains-dwindle-as-its-diesel-goes-unsold",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition, 6 November",
+          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Reuters, via Devdiscourse",
+          "title": "Three-way talks in Abu Dhabi",
+          "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
+          "date": "2026-11-02"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "death-toll-komyshuvakha-strike-passes-50-ukraine-ahead"
+    },
+    {
+      "rank": 4,
+      "id": "ISR",
+      "place": "Israel",
+      "section": "Middle East",
+      "types": [
+        "election",
+        "conflict"
+      ],
+      "radar": false,
+      "title": "Avigdor Liberman opens the door to the ultra-Orthodox on the eve of Isaac Herzog's choice",
+      "standfirst": "The leader of Yisrael Beiteinu says he is ready to govern with the ultra-Orthodox parties but rejects any government reliant on the Arab parties. Israel's president names the leader tasked with forming a government on Sunday.",
+      "body": [
+        "On the eve of Sunday's nomination of the leader tasked with forming a government, Avigdor Liberman, who leads Yisrael Beiteinu, said he was open to a coalition with the ultra-Orthodox parties and to compromises on conscription, while vowing to vote against any government dependent on the Arab parties.",
+        "Gadi Eisenkot, recommended by 67 of the 120 members of the Knesset against 46 for Benjamin Netanyahu, owes that lead to the 19 members from Ra'am and the United List, with whom three of the four parties in his bloc refuse to sit, though the bloc has only 48 seats.",
+        "The Democrats' leader, Yair Golan, speaks of “progress”, while the Likud lawmaker Miri Regev calls the rival alliance a “bloc of disaster”; the new Knesset will be sworn in on 10 November and will elect a successor to its speaker, Amir Ohana."
+      ],
+      "figure": {
+        "value": "67",
+        "label": "members of the Knesset recommend Gadi Eisenkot for prime minister",
+        "compare": "against 46 for Benjamin Netanyahu; 61 of 120 are needed"
+      },
+      "modules": {
+        "vote": {
+          "title": "General election",
+          "date": "2026-10-27",
+          "asOf": "2026-10-29",
+          "system": "Nationwide party-list proportional representation for the 120 seats of the Knesset.",
+          "note": "Final count.",
+          "bodies": [
+            {
+              "name": "Knesset",
+              "total": 120,
+              "majority": 61,
+              "parties": [
+                {
+                  "name": "Outgoing coalition (Netanyahu)",
+                  "value": 53,
+                  "color": "blue"
+                },
+                {
+                  "name": "Opposition (Eisenkot)",
+                  "value": 48,
+                  "color": "amber"
+                },
+                {
+                  "name": "Arab parties",
+                  "value": 19,
+                  "color": "green"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+          }
+        },
+        "scenarios": {
+          "items": [
+            {
+              "if": "Gadi Eisenkot is asked to form a government",
+              "then": "he will have 28 days, extendable by 14, to assemble a coalition of at least 61 members.",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408"
+              }
+            },
+            {
+              "if": "no leader secures 61 members within the legal deadlines",
+              "then": "voters will be sent back to the polls, which President Isaac Herzog urges everyone to do their utmost to avoid.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+              }
+            },
+            {
+              "if": "Benjamin Netanyahu and Gadi Eisenkot reach an agreement",
+              "then": "a unity government would be formed: this is the option the presidency favours, according to the Israeli news site Ynet.",
+              "source": {
+                "name": "Ynet",
+                "url": "https://www.ynetnews.com/article/bkotdiqsmg"
+              }
+            }
+          ]
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "1,602",
+              "label": "Palestinians killed in Gaza since the October 2025 ceasefire",
+              "by": "Gaza's health ministry",
+              "date": "2026-11-06",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+              }
+            },
+            {
+              "value": "> 74,600",
+              "label": "dead in Gaza since October 2023",
+              "by": "Gaza's health ministry",
+              "date": "2026-11-03",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Gaza",
+              "coords": [
+                34.4,
+                31.45
+              ],
+              "note": "Almost daily Israeli strikes despite the truce."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+          }
+        }
+      },
+      "analysis": {
+        "title": "No majority without the Arab parties",
+        "text": "The Knesset's arithmetic traps Gadi Eisenkot in a dilemma. Without Ra'am and the United List, his 48-member bloc falls well short of the 61 seats required; with them, he runs into the refusal of most of his allies, including Avigdor Liberman, who demands a 61-member coalition without the Arab parties and rejects any minority government supported from outside. His overture to United Torah Judaism, which recommended no one with its seven seats, does not close the gap. Mr Eisenkot also sets conditions of his own: he wants Hamas recognised as a terrorist organisation, which Ra'am's leader, Mansour Abbas, has not done, though he says he favours its disarmament. Mr Liberman, for his part, denies any rotation agreement with Mr Eisenkot."
+      },
+      "keys": [
+        {
+          "title": "The timetable",
+          "text": "The leader named on Sunday will have 28 days, extendable by 14, to form a coalition. If that fails, a second candidate can be nominated, before a possible return to the polls."
+        },
+        {
+          "title": "Gaza, a truce that does not protect",
+          "text": "Despite the ceasefire that took effect in October 2025, at least 1,602 Palestinians have been killed since, according to Gaza's health ministry. The envoy Tony Blair met Isaac Herzog and Benjamin Netanyahu on Thursday to advance Donald Trump's plan."
+        }
+      ],
+      "involved": [
+        "PSE",
+        "USA",
+        "LBN"
+      ],
+      "context": [
+        {
+          "d": "2023-10-07",
+          "t": "Hamas-led attack in southern Israel, followed by the war in Gaza."
+        },
+        {
+          "d": "2025-10-10",
+          "t": "The Gaza ceasefire takes effect."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "General election: no bloc wins a majority."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "Consultations end: 67 recommendations for Gadi Eisenkot, 46 for Benjamin Netanyahu."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Isaac Herzog is due to name the leader tasked with forming a government."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "The new Knesset is sworn in."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "title": "Avigdor Liberman open to the ultra-Orthodox",
+          "url": "https://www.timesofisrael.com/liveblog-november-06-2026/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "The Algemeiner",
+          "title": "Herzog to task would-be PM with forming government on Sunday",
+          "url": "https://www.algemeiner.com/2026/11/06/herzog-task-would-be-pm-forming-govt-sunday-eisenkot-secures-backing-67-mks/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "67 recommendations for Gadi Eisenkot",
+          "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/",
+          "date": "2026-11-05"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "The Gaza toll since the ceasefire",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+          "date": "2026-11-06"
+        }
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israel and Gaza"
+      },
+      "slug": "avigdor-liberman-opens-door-ultra-orthodox-eve-isaac"
+    },
+    {
+      "rank": 5,
+      "id": "COD",
+      "place": "DR Congo",
+      "section": "Africa",
+      "types": [
+        "disaster",
+        "society"
+      ],
+      "radar": true,
+      "title": "Two new vaccines tested in DR Congo against an Ebola outbreak that has killed over 5,000",
+      "standfirst": "The WHO has added two vaccines designed against the Bundibugyo strain to the trial under way in Ituri. The outbreak, the worst in the country's history, has more than 10,500 confirmed cases.",
+      "body": [
+        "On Wednesday 4 November the World Health Organisation announced that two vaccines designed against the Bundibugyo strain of Ebola, one developed by the University of Oxford and the Serum Institute of India, the other by Moderna, would join the clinical trial under way in eastern Democratic Republic of Congo.",
+        "Declared in mid-May, the outbreak, the worst in the country's history, had more than 10,500 confirmed cases and 5,126 deaths by 1 November, according to WHO figures cited by the UN, and no vaccine or treatment is licensed against this strain, which kills more than half of those infected.",
+        "The Tumaini trial, launched on 23 October in Bunia, capital of Ituri province, vaccinates the contacts of patients using the so-called ring method, but its results are not expected before early 2027, while the virus has already reached Uganda and Kenya."
+      ],
+      "figure": {
+        "value": "5,126",
+        "label": "Ebola deaths in DR Congo by 1 November, according to the WHO",
+        "compare": "out of more than 10,500 confirmed cases"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "5,126",
+              "label": "deaths in DR Congo by 1 November",
+              "by": "the WHO, cited by the UN",
+              "date": "2026-11-01",
+              "source": {
+                "name": "ONU Info",
+                "name_en": "UN News",
+                "url": "https://news.un.org/en/story/2026/11/1168742"
+              }
+            },
+            {
+              "value": "> 10,500",
+              "label": "confirmed cases by 1 November",
+              "by": "the WHO, cited by the UN",
+              "date": "2026-11-01",
+              "source": {
+                "name": "ONU Info",
+                "name_en": "UN News",
+                "url": "https://news.un.org/en/story/2026/11/1168742"
+              }
+            },
+            {
+              "value": "5,376",
+              "label": "deaths in total in DR Congo, Kenya and Uganda",
+              "by": "Africa CDC",
+              "date": "2026-11-02",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Bunia (Ituri)",
+              "coords": [
+                30.25,
+                1.56
+              ],
+              "note": "Epicentre of the outbreak; Tumaini vaccine trial launched on 23 October."
+            }
+          ],
+          "source": {
+            "name": "ONU Info",
+            "name_en": "UN News",
+            "url": "https://news.un.org/en/story/2026/11/1168742"
+          }
+        },
+        "help": {
+          "orgs": [
+            "msf",
+            "unicef",
+            "ifrc"
+          ]
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-05",
+              "t": "The country's 17th Ebola outbreak, its worst, is declared."
+            },
+            {
+              "d": "2026-10-23",
+              "t": "The Tumaini vaccine trial is launched in Bunia."
+            },
+            {
+              "d": "2026-11-04",
+              "t": "The WHO adds two vaccines designed against the Bundibugyo strain."
+            }
+          ],
+          "source": {
+            "name": "ONU Info",
+            "name_en": "UN News",
+            "url": "https://news.un.org/en/story/2026/11/1168742"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A first against the Bundibugyo strain",
+        "text": "This is the first time that vaccines designed specifically against the Bundibugyo virus have been tested during an outbreak, according to the WHO. Until now the trial relied on Ervebo, licensed against a different strain, Zaire. The Oxford and Moderna candidates, recommended by an independent advisory group on the strength of preclinical and early clinical data, will join four vaccination “rings” already in place around confirmed cases, led by Congo's National Institute for Biomedical Research with Médecins Sans Frontières and Africa CDC. Another trial, launched in July, is assessing treatments, including a monoclonal antibody and remdesivir. The WHO's director-general, Tedros Adhanom Ghebreyesus, warns, however, that vaccines alone will not end the outbreak."
+      },
+      "keys": [
+        {
+          "title": "An outbreak spilling over",
+          "text": "Uganda recorded 20 cases before being declared free of the virus in August, and Kenya registered its first cases in October, two of them fatal. An imported case has also been reported in Nigeria."
+        },
+        {
+          "title": "Travel restrictions",
+          "text": "Tedros Adhanom Ghebreyesus has called for travel restrictions on affected countries to be lifted. He argues that they penalise those countries and discourage transparent reporting of cases."
+        }
+      ],
+      "involved": [
+        "UGA",
+        "KEN"
+      ],
+      "context": [
+        {
+          "d": "2026-05",
+          "t": "The outbreak, the country's 17th, is declared."
+        },
+        {
+          "d": "2026-07",
+          "t": "A WHO-backed treatment trial is launched."
+        },
+        {
+          "d": "2026-08",
+          "t": "Uganda declared free of Ebola after 20 cases."
+        },
+        {
+          "d": "2026-10-23",
+          "t": "The Tumaini vaccine trial is launched in Bunia."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Two strain-specific vaccines added to the trial."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ONU Info",
+          "title": "Two new vaccines join the trial",
+          "url": "https://news.un.org/en/story/2026/11/1168742",
+          "date": "2026-11-05",
+          "name_en": "UN News"
+        },
+        {
+          "name": "OMS",
+          "title": "Two new candidate vaccines to join Ebola trial as treatment research advances",
+          "url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
+          "date": "2026-11-04",
+          "name_en": "WHO"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "WHO approves trials for two new Ebola vaccines",
+          "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "More than 5,300 dead, according to Africa CDC",
+          "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo",
+          "date": "2026-11-03"
+        }
+      ],
+      "dossier": {
+        "id": "ebola-drc",
+        "title": "The Ebola outbreak in DR Congo"
+      },
+      "slug": "two-new-vaccines-tested-dr-congo-against-ebola"
+    }
+  ],
+  "brief": [
+    {
+      "id": "YEM",
+      "place": "Yemen",
+      "text": "The Houthis said on Friday that at least 30 people were killed in Al-Wazi'iyah district, west of Taiz, blaming Saudi Arabia, while the government accused the rebels of striking a market.",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+    },
+    {
+      "id": "CHN",
+      "place": "Hong Kong",
+      "text": "The pro-democracy activist Joshua Wong, already in prison, was sentenced on Thursday to a further ten years for collusion with foreign forces under the national-security law.",
+      "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion"
+    },
+    {
+      "id": "TUR",
+      "place": "Turkey",
+      "text": "Turkey's parliament ratified, by 279 votes to 119, the defence pact signed in Mecca with Pakistan and Saudi Arabia.",
+      "url": "https://www.timesofisrael.com/liveblog-november-06-2026/"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-08",
+      "t": "Isaac Herzog names the leader tasked with forming Israel's government."
+    },
+    {
+      "d": "2026-11-09",
+      "t": "The COP31 climate summit opens in Antalya, Turkey."
+    },
+    {
+      "d": "2026-11-10",
+      "t": "Talks between Ukraine, Russia and America in Abu Dhabi; the Knesset is sworn in."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "APEC summit in Shenzhen, with a meeting between Donald Trump and Xi Jinping."
+    }
+  ],
+  "consulted": [
+    "Associated Press",
+    "Reuters",
+    "Al Jazeera",
+    "AFP",
+    "France 24",
+    "The Times of Israel",
+    "The Algemeiner",
+    "Khaleej Times",
+    "Just Security",
+    "UN News",
+    "WHO"
+  ]
+}
