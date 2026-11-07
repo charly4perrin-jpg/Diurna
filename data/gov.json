@@ -30,10 +30,10 @@
     "name_en": "Masoud Pezeshkian"
    }
   ],
-  "checked": "2026-11-06",
+  "checked": "2026-11-07",
   "source": {
    "name": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
+   "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei"
   },
   "regime_en": "Islamic republic"
  },
@@ -46,10 +46,10 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-06",
+  "checked": "2026-11-07",
   "source": {
    "name": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials"
+   "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -68,10 +68,10 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-06",
+  "checked": "2026-11-07",
   "source": {
    "name": "The Times of Israel",
-   "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/"
+   "url": "https://www.timesofisrael.com/liveblog-november-06-2026/"
   },
   "regime_en": "Parliamentary democracy"
  },
@@ -166,21 +166,16 @@
   "regime_en": "Presidential republic",
   "leaders": [
    {
-    "role": "Président (mis en accusation, jugé par le Sénat)",
-    "role_en": "President (impeached, on trial in the Senate)",
-    "name": "Santiago Peña"
-   },
-   {
-    "role": "Vice-président",
-    "role_en": "Vice-President",
+    "role": "Président (depuis le 6 novembre 2026)",
+    "role_en": "President (since 6 November 2026)",
     "name": "Pedro Alliana"
    }
   ],
-  "checked": "2026-11-06",
+  "checked": "2026-11-07",
   "source": {
-   "name": "Associated Press, via KSAT",
-   "name_en": "Associated Press, via KSAT",
-   "url": "https://www.ksat.com/news/2026/11/06/pena-skips-senate-impeachment-trial-as-paraguay-reels-from-ueno-bank-collapse/"
+   "name": "Reuters, via The Business Standard",
+   "name_en": "Reuters, via The Business Standard",
+   "url": "https://www.tbsnews.net/world/paraguay-swears-new-president-pena-placed-under-house-arrest-1595206"
   }
  },
  "SOM": {
@@ -199,6 +194,22 @@
    "name": "AFP, via Arab News",
    "name_en": "AFP, via Arab News",
    "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974"
+  }
+ },
+ "COD": {
+  "regime": "République semi-présidentielle",
+  "regime_en": "Semi-presidential republic",
+  "leaders": [
+   {
+    "role": "Président",
+    "role_en": "President",
+    "name": "Félix Tshisekedi"
+   }
+  ],
+  "checked": "2026-11-07",
+  "source": {
+   "name": "Actualite.cd",
+   "url": "https://actualite.cd/2026/11/05/felix-tshisekedi-brazzaville-pour-participer-au-mini-sommet-consacre-la-preservation-des"
   }
  }
 }
