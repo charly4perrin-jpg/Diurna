@@ -1,10 +1,10 @@
 {
   "date": "2026-11-07",
   "number": 3,
-  "updated": "2026-11-07T07:00:09+01:00",
+  "updated": "2026-11-07T19:55:00+01:00",
   "lang": "en",
   "headline": "Paraguay's Santiago Peña is ousted and placed under house arrest after a bank collapse",
-  "standfirst": "The Senate unanimously removed Paraguay's president, who was replaced by his deputy, Pedro Alliana, as prosecutors pursue him for breach of trust and influence-peddling. In Hormuz, Iran says it shot down an American drone, and Donald Trump does not rule out resuming the war.",
+  "standfirst": "The Senate unanimously removed Paraguay's president, who was replaced by his deputy, Pedro Alliana, as prosecutors pursue him for breach of trust and influence-peddling. In Hormuz, America struck Iranian air defences on Qeshm island, and Tehran promises an immediate response.",
   "essentials": [
     {
       "rank": 1,
@@ -21,7 +21,7 @@
       "body": [
         "On Friday 6 November Paraguay's Senate removed President Santiago Peña from office, by the unanimous vote of the 44 senators present according to the Associated Press, a day after the lower house impeached him, and Vice-President Pedro Alliana was sworn in in Asunción to serve out a term that runs until August 2028.",
         "Prosecutors promptly ordered the former head of state to remain at home, suspecting him of breach of trust, attempted fraud and influence-peddling in the affair of Ueno bank, seized on 3 November, where the public pension fund had placed $355m beyond legal limits.",
-        "Mr Peña, whose resignation Congress refused and who thereby forfeits the life seat in the Senate promised to former presidents, was due to be questioned by prosecutors on Saturday; they have also issued an arrest warrant for the former central-bank governor, Carlos Carvallo."
+        "Mr Peña, whose resignation Congress refused and who thereby forfeits the life seat in the Senate promised to former presidents, appeared before prosecutors on Saturday morning; they have also issued an arrest warrant for the former central-bank governor, Carlos Carvallo."
       ],
       "figure": {
         "value": "44",
@@ -123,7 +123,7 @@
         },
         {
           "d": "2026-11-07",
-          "t": "Santiago Peña summoned by prosecutors."
+          "t": "Santiago Peña questioned by prosecutors."
         },
         {
           "d": "2028-08",
@@ -154,6 +154,12 @@
           "title": "The Senate vote",
           "url": "https://www.tribuneindia.com/news/world/paraguay-senate-votes-to-impeach-prez-santiago-pena-over-bank-collapse-vp-sworn-in/",
           "date": "2026-11-07"
+        },
+        {
+          "name": "NPR, via WFSU",
+          "title": "The ousted president appears before prosecutors",
+          "url": "https://news.wfsu.org/npr-news/2026-11-07/ousted-paraguayan-president-appears-before-prosecutors",
+          "date": "2026-11-07"
         }
       ],
       "dossier": {
@@ -173,12 +179,12 @@
         "economy"
       ],
       "radar": false,
-      "title": "Iran downs an American drone over the Strait of Hormuz as Donald Trump issues threats",
-      "standfirst": "The Revolutionary Guards say they destroyed an MQ-1 drone and report two more tankers ablaze, while a sailor was killed aboard a Greek-owned ship. Donald Trump says he may be forced to destroy “the rest of Iran”.",
+      "title": "America strikes Iranian air defences in the Strait of Hormuz as Tehran vows to respond",
+      "standfirst": "Donald Trump confirmed on Friday evening “minor” strikes on an anti-aircraft system on Qeshm island, where Tehran says it shot down an American drone. Iran's army promises an “immediate” response, while Qatar denies that negotiations have failed.",
       "body": [
-        "On Friday 6 November Iran's Revolutionary Guards said they had shot down an American MQ-1 drone over Qeshm island in the Strait of Hormuz and reported two tankers on fire after striking mines, while the Greek owner of the Velos announced the death of a sailor hit the previous day off Qatar.",
-        "Donald Trump, who has promised to decide after the midterm elections whether to resume military operations, said he would rather not destroy the rest of Iran but might be forced to, and spoke to Qatar's emir, Sheikh Tamim bin Hamad Al Thani, who mediates between the two capitals.",
-        "Tehran is hardening its stance: received by Vladimir Putin on Thursday, the secretary of the Supreme National Security Council, Mohsen Rezaei, repeated that the strait would stay closed until Iran's seven conditions were met, and his deputy, Ali Bagheri Kani, demands that they be implemented before any diplomacy."
+        "On Friday 6 November Donald Trump confirmed that American forces had carried out what he called “minor” strikes on an air-defence system on Qeshm island in the Strait of Hormuz, where Iranian state media reported two explosions and where Tehran says it shot down an American drone.",
+        "The strikes, the first since the Republicans' defeat in the midterm elections, which the president blames on the war, come as he speaks both of “progress” with Tehran and of possibly destroying “the rest of Iran”, while Qatar, the mediator, denies that negotiations have failed.",
+        "On Saturday the Iranian army's spokesman, Mohammad Akraminia, promised an “immediate” response without geographical limits on the supreme leader's orders, while Tehran still insists that its conditions, including an end to the American blockade and to sanctions, be met before any nuclear talks."
       ],
       "figure": {
         "value": "> 120",
@@ -259,7 +265,11 @@
                 55.85,
                 26.8
               ],
-              "note": "American MQ-1 drone shot down on 6 November, according to the Revolutionary Guards."
+              "note": "American strikes on an anti-aircraft system on 6 November, confirmed by Donald Trump; Tehran says it shot down a drone there.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+              }
             },
             {
               "name": "Off Khasab (Oman)",
@@ -337,7 +347,7 @@
       "keys": [
         {
           "title": "Donald Trump's decision",
-          "text": "After meeting his national-security advisers, the American president said on Thursday that he would decide whether to resume strikes, according to Axios. Washington is maintaining its naval blockade of Iranian ports."
+          "text": "The American president said on Thursday that he would decide whether to resume strikes, according to Axios; on Friday he presented those on Qeshm as limited. Washington is maintaining its naval blockade of Iranian ports."
         },
         {
           "title": "Qatar's role",
@@ -385,7 +395,11 @@
         },
         {
           "d": "2026-11-06",
-          "t": "American drone shot down over Qeshm, according to Tehran; a sailor killed aboard the Velos."
+          "t": "American strikes on Qeshm, confirmed by Donald Trump; a sailor killed aboard the Velos."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Iran's army promises an “immediate” response; Qatar denies that talks have failed."
         }
       ],
       "sources": [
@@ -394,6 +408,18 @@
           "title": "Drone downed and tankers hit in Hormuz",
           "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
           "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Donald Trump confirms strikes on Qeshm",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "“Minor” strikes, says Donald Trump",
+          "url": "https://www.timesofisrael.com/trump-us-launched-minor-strikes-on-iran-targeting-a-little-bit-of-an-anti-aircraft-device/",
+          "date": "2026-11-07"
         },
         {
           "name": "Al Jazeera",
@@ -406,19 +432,6 @@
           "title": "Why Iran exempts some countries from Hormuz restrictions",
           "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
           "date": "2026-11-06"
-        },
-        {
-          "name": "Khaleej Times",
-          "title": "Donald Trump's remarks",
-          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "EIA (Agence américaine d'information sur l'énergie)",
-          "title": "Brent spot price",
-          "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
-          "date": "2026-11-03",
-          "name_en": "EIA (US Energy Information Administration)"
         }
       ],
       "dossier": {
@@ -996,6 +1009,12 @@
       "place": "Turkey",
       "text": "Turkey's parliament ratified, by 279 votes to 119, the defence pact signed in Mecca with Pakistan and Saudi Arabia.",
       "url": "https://www.timesofisrael.com/liveblog-november-06-2026/"
+    },
+    {
+      "id": "POL",
+      "place": "Poland",
+      "text": "A 24-year-old gunman with a military-style rifle killed six people and wounded 15 in Krakow's Main Square on Saturday afternoon, according to police, before being shot and wounded by officers.",
+      "url": "https://globalnews.ca/news/12141241/gunman-krakow-poland/"
     }
   ],
   "agenda": [
@@ -1027,6 +1046,8 @@
     "Khaleej Times",
     "Just Security",
     "UN News",
-    "WHO"
+    "WHO",
+    "NPR",
+    "Global News"
   ]
 }

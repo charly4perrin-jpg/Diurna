@@ -1,9 +1,9 @@
 {
   "date": "2026-11-07",
   "number": 3,
-  "updated": "2026-11-07T07:00:09+01:00",
+  "updated": "2026-11-07T19:55:00+01:00",
   "headline": "Au Paraguay, Santiago Peña destitué et assigné à résidence après la faillite d'une banque",
-  "standfirst": "Le Sénat a démis à l'unanimité le président paraguayen, remplacé par son vice-président, Pedro Alliana, tandis que le parquet le soupçonne d'abus de confiance et de trafic d'influence. À Ormuz, l'Iran affirme avoir abattu un drone américain, et Donald Trump n'exclut pas de reprendre la guerre.",
+  "standfirst": "Le Sénat a démis à l'unanimité le président paraguayen, remplacé par son vice-président, Pedro Alliana, tandis que le parquet le soupçonne d'abus de confiance et de trafic d'influence. À Ormuz, Washington a frappé la défense aérienne iranienne sur l'île de Qeshm, et Téhéran promet une riposte immédiate.",
   "essentials": [
     {
       "rank": 1,
@@ -20,7 +20,7 @@
       "body": [
         "Vendredi 6 novembre, le Sénat paraguayen a destitué le président, Santiago Peña, à l'unanimité des 44 sénateurs présents selon l'Associated Press, au lendemain de sa mise en accusation par les députés, et le vice-président, Pedro Alliana, a prêté serment à Asunción pour achever le mandat, qui court jusqu'en août 2028.",
         "Dans la foulée, le parquet a ordonné que l'ancien chef de l'État soit maintenu à son domicile : il le soupçonne notamment d'abus de confiance, de tentative de fraude et de trafic d'influence dans l'affaire de la banque Ueno, saisie le 3 novembre, où la caisse publique de retraite avait placé 355 millions de dollars au-delà des plafonds légaux.",
-        "Santiago Peña, dont le Congrès a refusé la démission et qui perd ainsi le siège de sénateur à vie promis aux anciens présidents, devait être entendu samedi par les procureurs, qui ont aussi lancé un ordre d'arrestation contre l'ancien gouverneur de la banque centrale, Carlos Carvallo."
+        "Santiago Peña, dont le Congrès a refusé la démission et qui perd ainsi le siège de sénateur à vie promis aux anciens présidents, a comparu samedi matin devant les procureurs, qui ont aussi lancé un ordre d'arrestation contre l'ancien gouverneur de la banque centrale, Carlos Carvallo."
       ],
       "figure": {
         "value": "44",
@@ -122,7 +122,7 @@
         },
         {
           "d": "2026-11-07",
-          "t": "Santiago Peña convoqué par le parquet."
+          "t": "Santiago Peña entendu par le parquet."
         },
         {
           "d": "2028-08",
@@ -153,6 +153,12 @@
           "title": "Le vote du Sénat",
           "url": "https://www.tribuneindia.com/news/world/paraguay-senate-votes-to-impeach-prez-santiago-pena-over-bank-collapse-vp-sworn-in/",
           "date": "2026-11-07"
+        },
+        {
+          "name": "NPR, via WFSU",
+          "title": "L'ancien président devant les procureurs",
+          "url": "https://news.wfsu.org/npr-news/2026-11-07/ousted-paraguayan-president-appears-before-prosecutors",
+          "date": "2026-11-07"
         }
       ],
       "dossier": {
@@ -172,12 +178,12 @@
         "economy"
       ],
       "radar": false,
-      "title": "Dans le détroit d'Ormuz, l'Iran abat un drone américain et Donald Trump menace",
-      "standfirst": "Les Gardiens de la révolution affirment avoir détruit un drone MQ-1 et font état de deux nouveaux pétroliers en feu, tandis qu'un marin a été tué à bord d'un navire grec. Donald Trump dit pouvoir être contraint de détruire « le reste de l'Iran ».",
+      "title": "Dans le détroit d'Ormuz, Washington frappe la défense aérienne iranienne et Téhéran promet de riposter",
+      "standfirst": "Donald Trump a confirmé vendredi soir des frappes « mineures » contre un système antiaérien sur l'île de Qeshm, où Téhéran affirme avoir abattu un drone américain. L'armée iranienne promet une riposte « immédiate », tandis que le Qatar dément l'échec des négociations.",
       "body": [
-        "Vendredi 6 novembre, les Gardiens de la révolution ont affirmé avoir abattu un drone américain MQ-1 au-dessus de l'île de Qeshm, dans le détroit d'Ormuz, et fait état de deux pétroliers en feu après avoir heurté des mines, tandis que l'armateur grec du Velos annonçait la mort d'un marin, touché la veille au large du Qatar.",
-        "Donald Trump, qui a promis de décider après les élections de mi-mandat s'il reprend les opérations militaires, a dit préférer ne pas détruire le reste de l'Iran tout en estimant qu'il pourrait y être contraint, et s'est entretenu avec l'émir du Qatar, Tamim Ben Hamad Al-Thani, médiateur entre les deux capitales.",
-        "Téhéran se raidit : reçu jeudi par Vladimir Poutine, le secrétaire du Conseil suprême de sécurité nationale, Mohsen Rezaei, a répété que le détroit resterait fermé tant que les sept conditions iraniennes ne seraient pas remplies, et son adjoint, Ali Bagheri Kani, exige qu'elles soient appliquées avant toute diplomatie."
+        "Vendredi 6 novembre, Donald Trump a confirmé que les forces américaines avaient mené des frappes qu'il qualifie de « mineures » contre un système de défense antiaérienne sur l'île de Qeshm, dans le détroit d'Ormuz, où les médias d'État iraniens ont signalé deux explosions et où Téhéran affirme avoir abattu un drone américain.",
+        "Ces frappes, les premières depuis la défaite républicaine aux élections de mi-mandat, que le président américain impute à la guerre, surviennent alors qu'il évoque à la fois des « progrès » avec Téhéran et la possibilité de détruire « le reste de l'Iran », et que le Qatar, médiateur, dément tout échec des négociations.",
+        "Samedi, le porte-parole de l'armée iranienne, Mohammad Akraminia, a promis une riposte « immédiate » et sans limite géographique sur ordre du Guide suprême, tandis que Téhéran exige toujours le respect de ses conditions, dont la levée du blocus américain et des sanctions, avant toute négociation sur le nucléaire."
       ],
       "figure": {
         "value": "> 120",
@@ -258,7 +264,11 @@
                 55.85,
                 26.8
               ],
-              "note": "Drone américain MQ-1 abattu le 6 novembre, selon les Gardiens de la révolution."
+              "note": "Frappes américaines contre un système antiaérien le 6 novembre, confirmées par Donald Trump ; Téhéran affirme y avoir abattu un drone.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+              }
             },
             {
               "name": "Au large de Khasab (Oman)",
@@ -336,7 +346,7 @@
       "keys": [
         {
           "title": "La décision de Donald Trump",
-          "text": "Après une réunion avec ses conseillers de sécurité nationale, le président américain a indiqué jeudi qu'il trancherait sur une reprise des frappes, selon le site Axios. Washington maintient son blocus naval des ports iraniens."
+          "text": "Le président américain avait dit jeudi qu'il trancherait sur une reprise des frappes, selon le site Axios ; vendredi, il a présenté celles de Qeshm comme limitées. Washington maintient son blocus naval des ports iraniens."
         },
         {
           "title": "Le rôle du Qatar",
@@ -384,7 +394,11 @@
         },
         {
           "d": "2026-11-06",
-          "t": "Drone américain abattu au-dessus de Qeshm, selon Téhéran ; un marin tué à bord du Velos."
+          "t": "Frappes américaines sur Qeshm, confirmées par Donald Trump ; un marin tué à bord du Velos."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "L'armée iranienne promet une riposte « immédiate » ; le Qatar dément l'échec des négociations."
         }
       ],
       "sources": [
@@ -393,6 +407,18 @@
           "title": "Drone abattu et pétroliers touchés à Ormuz",
           "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
           "date": "2026-11-06"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Donald Trump confirme des frappes sur Qeshm",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "Des frappes « mineures », selon Donald Trump",
+          "url": "https://www.timesofisrael.com/trump-us-launched-minor-strikes-on-iran-targeting-a-little-bit-of-an-anti-aircraft-device/",
+          "date": "2026-11-07"
         },
         {
           "name": "Al Jazeera",
@@ -405,18 +431,6 @@
           "title": "Les exemptions accordées par l'Iran à Ormuz",
           "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
           "date": "2026-11-06"
-        },
-        {
-          "name": "Khaleej Times",
-          "title": "Les déclarations de Donald Trump",
-          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-6-2026",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "EIA (Agence américaine d'information sur l'énergie)",
-          "title": "Prix du Brent au comptant",
-          "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm",
-          "date": "2026-11-03"
         }
       ],
       "dossier": {
@@ -992,6 +1006,12 @@
       "place": "Turquie",
       "text": "Le Parlement turc a ratifié par 279 voix contre 119 le pacte de défense conclu à La Mecque avec le Pakistan et l'Arabie saoudite.",
       "url": "https://www.timesofisrael.com/liveblog-november-06-2026/"
+    },
+    {
+      "id": "POL",
+      "place": "Pologne",
+      "text": "Un homme de 24 ans armé d'un fusil de type militaire a tué six personnes et en a blessé quinze, samedi après-midi, sur la place du Marché de Cracovie, selon la police, avant d'être blessé par les forces de l'ordre.",
+      "url": "https://globalnews.ca/news/12141241/gunman-krakow-poland/"
     }
   ],
   "agenda": [
@@ -1023,6 +1043,8 @@
     "Khaleej Times",
     "Just Security",
     "ONU Info",
-    "OMS"
+    "OMS",
+    "NPR",
+    "Global News"
   ]
 }
