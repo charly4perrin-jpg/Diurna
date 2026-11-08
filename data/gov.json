@@ -30,10 +30,10 @@
     "name_en": "Masoud Pezeshkian"
    }
   ],
-  "checked": "2026-11-07",
+  "checked": "2026-11-08",
   "source": {
-   "name": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei"
+   "name": "The Times of Israel",
+   "url": "https://www.timesofisrael.com/irgc-says-its-self-imposed-limit-on-ballistic-missile-range-has-been-lifted/"
   },
   "regime_en": "Islamic republic"
  },
@@ -46,10 +46,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-07",
+  "checked": "2026-11-08",
   "source": {
-   "name": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
+   "name": "Associated Press, via The Manila Times",
+   "name_en": "Associated Press, via The Manila Times",
+   "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -68,10 +69,10 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-07",
+  "checked": "2026-11-08",
   "source": {
-   "name": "The Times of Israel",
-   "url": "https://www.timesofisrael.com/liveblog-november-06-2026/"
+   "name": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
   },
   "regime_en": "Parliamentary democracy"
  },
@@ -171,11 +172,11 @@
     "name": "Pedro Alliana"
    }
   ],
-  "checked": "2026-11-07",
+  "checked": "2026-11-08",
   "source": {
-   "name": "Reuters, via The Business Standard",
-   "name_en": "Reuters, via The Business Standard",
-   "url": "https://www.tbsnews.net/world/paraguay-swears-new-president-pena-placed-under-house-arrest-1595206"
+   "name": "Reuters, via The Times of Israel",
+   "name_en": "Reuters, via The Times of Israel",
+   "url": "https://www.timesofisrael.com/paraguays-pro-israel-ex-president-taken-into-custody-over-alleged-bank-crisis-role/"
   }
  },
  "SOM": {
@@ -210,6 +211,39 @@
   "source": {
    "name": "Actualite.cd",
    "url": "https://actualite.cd/2026/11/05/felix-tshisekedi-brazzaville-pour-participer-au-mini-sommet-consacre-la-preservation-des"
+  }
+ },
+ "HTI": {
+  "regime": "Gouvernement de transition, sans président élu",
+  "regime_en": "Transitional government, with no elected president",
+  "leaders": [
+   {
+    "role": "Premier ministre (chef de l'exécutif)",
+    "role_en": "Prime Minister (head of the executive)",
+    "name": "Alix Didier Fils-Aimé"
+   }
+  ],
+  "checked": "2026-11-08",
+  "source": {
+   "name": "Associated Press, via ABC News",
+   "name_en": "Associated Press, via ABC News",
+   "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356"
+  }
+ },
+ "IRL": {
+  "regime": "Démocratie parlementaire",
+  "regime_en": "Parliamentary democracy",
+  "leaders": [
+   {
+    "role": "Premier ministre (Taoiseach)",
+    "role_en": "Taoiseach (Prime Minister)",
+    "name": "Micheál Martin"
+   }
+  ],
+  "checked": "2026-11-08",
+  "source": {
+   "name": "Shannonside",
+   "url": "https://www.shannonside.ie/news/micheal-martin-to-be-taoiseach-until-november-2027-256699"
   }
  }
 }
