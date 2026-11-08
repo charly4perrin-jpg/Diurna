@@ -1,172 +1,172 @@
 {
-  "date": "2026-11-07",
-  "number": 3,
-  "updated": "2026-11-07T19:55:00+01:00",
+  "date": "2026-11-08",
+  "number": 4,
+  "updated": "2026-11-08T06:59:54+01:00",
   "lang": "en",
-  "headline": "Paraguay's Santiago Peña is ousted and placed under house arrest after a bank collapse",
-  "standfirst": "The Senate unanimously removed Paraguay's president, who was replaced by his deputy, Pedro Alliana, as prosecutors pursue him for breach of trust and influence-peddling. In Hormuz, America struck Iranian air defences on Qeshm island, and Tehran promises an immediate response.",
+  "headline": "Gadi Eisenkot is asked to form Israel's government in place of Benjamin Netanyahu",
+  "standfirst": "On Saturday evening President Isaac Herzog gave the former army chief the task of assembling a majority his own bloc lacks. Iran says it has lifted the range limit on its missiles, and Kyiv was hit by 36 ballistic missiles ahead of talks in Abu Dhabi.",
   "essentials": [
     {
       "rank": 1,
-      "id": "PRY",
-      "place": "Paraguay",
-      "section": "Americas",
+      "id": "ISR",
+      "place": "Israel",
+      "section": "Middle East",
       "types": [
-        "society",
-        "economy"
+        "election",
+        "conflict"
       ],
       "radar": false,
-      "title": "Paraguay's Santiago Peña is removed and confined to his home as Pedro Alliana takes over",
-      "standfirst": "The Senate on Friday removed the head of state, brought down by the collapse of Ueno bank, and his vice-president was sworn in at once. Prosecutors have ordered the former president to stay at home in an inquiry into suspected breach of trust and influence-peddling.",
+      "title": "Isaac Herzog asks Gadi Eisenkot, not Benjamin Netanyahu, to form Israel's next government",
+      "standfirst": "On Saturday evening Israel's president gave the leader of Yashar, backed by 67 members of the Knesset, the job of building a coalition. Benjamin Netanyahu accuses his rival of wanting to govern with “supporters of terrorism”.",
       "body": [
-        "On Friday 6 November Paraguay's Senate removed President Santiago Peña from office, by the unanimous vote of the 44 senators present according to the Associated Press, a day after the lower house impeached him, and Vice-President Pedro Alliana was sworn in in Asunción to serve out a term that runs until August 2028.",
-        "Prosecutors promptly ordered the former head of state to remain at home, suspecting him of breach of trust, attempted fraud and influence-peddling in the affair of Ueno bank, seized on 3 November, where the public pension fund had placed $355m beyond legal limits.",
-        "Mr Peña, whose resignation Congress refused and who thereby forfeits the life seat in the Senate promised to former presidents, appeared before prosecutors on Saturday morning; they have also issued an arrest warrant for the former central-bank governor, Carlos Carvallo."
+        "On the evening of Saturday 7 November Israel's president, Isaac Herzog, announced that he would ask Gadi Eisenkot, a former chief of staff who leads the Yashar party, to form the next government, with the mandate to be handed over formally on Sunday at the presidential residence in Jerusalem.",
+        "The former general was recommended by 67 of the Knesset's 120 members, including the Arab parties, against 46 for Benjamin Netanyahu, but his own bloc holds only 48 seats and several of his allies refuse to depend on Ra'am and the United List.",
+        "Mr Eisenkot has 28 days, extendable by 14, to muster at least 61 members, while the outgoing prime minister is calling for a “national unity government” that would include his far-right allies and the ultra-Orthodox parties."
       ],
       "figure": {
-        "value": "44",
-        "label": "senators voted to remove Santiago Peña",
-        "compare": "every senator present, according to the Associated Press"
+        "value": "28 days",
+        "label": "to form a coalition, extendable by a further 14",
+        "compare": "at least 61 of the 120 seats are needed"
       },
       "modules": {
-        "actors": {
-          "items": [
+        "vote": {
+          "title": "Parliamentary election",
+          "date": "2026-10-27",
+          "asOf": "2026-10-29",
+          "system": "Nationwide party-list proportional representation for the Knesset's 120 seats.",
+          "note": "Final count.",
+          "bodies": [
             {
-              "name": "Pedro Alliana",
-              "role": "President since 6 November; formerly vice-president and speaker of the lower house."
-            },
-            {
-              "name": "Santiago Peña",
-              "role": "Ousted president, confined to his home on prosecutors' orders."
-            },
-            {
-              "name": "Horacio Cartes",
-              "role": "Former president and leader of the Colorado Party, who backed the impeachment."
-            },
-            {
-              "name": "Carlos Carvallo",
-              "role": "Former central-bank governor and ex-Ueno executive, subject to an arrest warrant."
-            },
-            {
-              "name": "Miguel Vázquez",
-              "role": "Controlling shareholder of Ueno, among the 27 people charged."
+              "name": "Knesset",
+              "total": 120,
+              "majority": 61,
+              "parties": [
+                {
+                  "name": "Outgoing coalition (Netanyahu)",
+                  "value": 53,
+                  "color": "blue"
+                },
+                {
+                  "name": "Opposition (Eisenkot)",
+                  "value": 48,
+                  "color": "amber"
+                },
+                {
+                  "name": "Arab parties",
+                  "value": 19,
+                  "color": "green"
+                }
+              ]
             }
           ],
           "source": {
-            "name": "Associated Press, via WHEC",
-            "name_en": "Associated Press, via WHEC",
-            "url": "https://www.whec.com/ap-top-news/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
           }
         },
-        "dates": {
+        "scenarios": {
           "items": [
             {
-              "d": "2026-11-03",
-              "t": "The central bank takes control of Ueno."
+              "if": "Gadi Eisenkot musters 61 members in time",
+              "then": "he becomes prime minister, succeeding Benjamin Netanyahu, who is serving in a caretaker capacity.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+              }
             },
             {
-              "d": "2026-11-05",
-              "t": "Santiago Peña announces his resignation; the lower house impeaches him by 78 votes to 0."
+              "if": "Gadi Eisenkot fails",
+              "then": "Isaac Herzog can name another candidate; should that also fail, a majority of members can put forward a third, who has 14 days.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+              }
             },
             {
-              "d": "2026-11-06",
-              "t": "The Senate removes him; Pedro Alliana is sworn in."
+              "if": "no government is formed",
+              "then": "a fresh election is held within 90 days, with Benjamin Netanyahu remaining interim prime minister.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+              }
             }
-          ],
-          "source": {
-            "name": "Al Jazeera, via Yahoo News",
-            "name_en": "Al Jazeera, via Yahoo News",
-            "url": "https://ca.news.yahoo.com/paraguay-santiago-pena-under-arrest-003141364.html"
-          }
-        },
-        "inflation": {}
+          ]
+        }
       },
       "analysis": {
-        "title": "A bank for two-thirds of adults",
-        "text": "The scale of the crisis reflects Ueno's place in Paraguayans' lives. According to the Associated Press, some 3m customers, nearly two-thirds of the country's adults, lost access to their savings and cards when it was seized, and more than 1m people had opened their first account there. The fifth-largest bank by deposits, it held more than $800m of public money. Depositors are starting to be repaid, beginning with balances below 10m guaranís, about $1,600, while the state guarantee covers up to some $37,000. Prosecutors also accuse Mr Peña, a former shareholder in the parent company, of appointing a former Ueno executive to run the central bank."
+        "title": "A majority still to be found",
+        "text": "Mr Eisenkot's nomination does not solve the Knesset's arithmetic. To reach 61 seats he must either lean on the 19 Arab members, which the more right-wing of his allies reject, or win over the ultra-Orthodox. Avigdor Liberman said on Friday that he was ready for “painful compromises” on the conscription of yeshiva students, and United Torah Judaism, which recommended no one, has floated a partnership with him. According to the Times of Israel, the likeliest outcome remains a minority government supported from outside, which Ahmad Tibi of the United List also says he expects. Mr Eisenkot has set his conditions: recognition of Israel as a Jewish and democratic state, compulsory service for all and the designation of Hamas as a terrorist organisation."
       },
       "keys": [
         {
-          "title": "A successor under scrutiny too",
-          "text": "Pedro Alliana, 52, a former governor of Ñeembucú, survived an impeachment attempt by the opposition on Thursday. According to the Associated Press, prosecutors are nonetheless investigating him as well, along with officials at the central bank and the pension fund."
+          "title": "Benjamin Netanyahu's riposte",
+          "text": "In a video released on Saturday evening the outgoing prime minister claimed that Israel would not “survive” a government dependent on the Arab parties. Yashar called the message “hysterical” and accused him of hypocrisy."
         },
         {
-          "title": "The weight of Horacio Cartes",
-          "text": "The former president, who leads the ruling Colorado Party, publicly backed the removal of his successor. It was his faction's support that made a near-unanimous vote in both chambers possible."
+          "title": "The ultra-Orthodox calculation",
+          "text": "United Torah Judaism, with seven seats, says it is open to talks with Avigdor Liberman. Shas, for its part, denies any defection and insists it belongs to the right-wing bloc."
         },
         {
-          "title": "A widening inquiry",
-          "text": "Twenty-seven people have been charged, including Ueno's controlling shareholder, Miguel Vázquez, and six of the bank's executives are in pre-trial detention. Luxury cars, a yacht and light aircraft have been seized."
+          "title": "Gadi Eisenkot's stance",
+          "text": "The former chief of staff rules out governing with Benjamin Netanyahu and calls for a “national emergency government”. He sat for eight months as an observer in the war cabinet after 7 October 2023."
         }
       ],
       "involved": [
+        "PSE",
         "USA",
-        "BRA",
-        "ARG"
+        "LBN"
       ],
       "context": [
         {
-          "d": "2023-08-15",
-          "t": "Santiago Peña takes office for five years."
+          "d": "2023-10-07",
+          "t": "Hamas attacks southern Israel, setting off the war in Gaza."
         },
         {
-          "d": "2026-11-03",
-          "t": "The central bank seizes Ueno bank."
+          "d": "2025-10-10",
+          "t": "The Gaza ceasefire takes effect."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "Parliamentary election: no bloc wins a majority."
         },
         {
           "d": "2026-11-05",
-          "t": "Resignation refused; the lower house impeaches him by 78 votes to 0."
-        },
-        {
-          "d": "2026-11-06",
-          "t": "Removed by the Senate; Pedro Alliana sworn in; confined to his home."
+          "t": "Consultations end: 67 recommendations for Gadi Eisenkot, 46 for Benjamin Netanyahu."
         },
         {
           "d": "2026-11-07",
-          "t": "Santiago Peña questioned by prosecutors."
+          "t": "Isaac Herzog asks Gadi Eisenkot to form the government."
         },
         {
-          "d": "2028-08",
-          "t": "The current presidential term ends."
+          "d": "2026-11-10",
+          "t": "The new Knesset is sworn in."
         }
       ],
       "sources": [
         {
-          "name": "Associated Press, via WHEC",
-          "title": "The former president under house arrest",
-          "url": "https://www.whec.com/ap-top-news/ousted-paraguayan-president-placed-under-house-arrest-after-bank-collapse/",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "Reuters, via The Business Standard",
-          "title": "Pedro Alliana is sworn in",
-          "url": "https://www.tbsnews.net/world/paraguay-swears-new-president-pena-placed-under-house-arrest-1595206",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "Al Jazeera, via Yahoo News",
-          "title": "The charges against Santiago Peña",
-          "url": "https://ca.news.yahoo.com/paraguay-santiago-pena-under-arrest-003141364.html",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "ANI, via The Tribune",
-          "title": "The Senate vote",
-          "url": "https://www.tribuneindia.com/news/world/paraguay-senate-votes-to-impeach-prez-santiago-pena-over-bank-collapse-vp-sworn-in/",
+          "name": "Al Jazeera",
+          "title": "Israel's president picks Eisenkot over Netanyahu to form next government",
+          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government",
           "date": "2026-11-07"
         },
         {
-          "name": "NPR, via WFSU",
-          "title": "The ousted president appears before prosecutors",
-          "url": "https://news.wfsu.org/npr-news/2026-11-07/ousted-paraguayan-president-appears-before-prosecutors",
+          "name": "The Times of Israel",
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "International Business Times",
+          "title": "Herzog tasks Eisenkot to form Israel government",
+          "url": "https://www.ibtimes.com/herzog-tasks-eisenkot-form-israel-government-3809534",
           "date": "2026-11-07"
         }
       ],
       "dossier": {
-        "id": "paraguay-crisis",
-        "title": "Paraguay's political crisis"
+        "id": "israel-gaza",
+        "title": "Israel and Gaza"
       },
-      "slug": "paraguay-santiago-pena-removed-confined-his-home-pedro"
+      "slug": "isaac-herzog-asks-gadi-eisenkot-not-benjamin-netanyahu"
     },
     {
       "rank": 2,
@@ -175,44 +175,23 @@
       "section": "Middle East",
       "types": [
         "conflict",
-        "diplomacy",
-        "economy"
+        "economy",
+        "diplomacy"
       ],
       "radar": false,
-      "title": "America strikes Iranian air defences in the Strait of Hormuz as Tehran vows to respond",
-      "standfirst": "Donald Trump confirmed on Friday evening “minor” strikes on an anti-aircraft system on Qeshm island, where Tehran says it shot down an American drone. Iran's army promises an “immediate” response, while Qatar denies that negotiations have failed.",
+      "title": "Iran lifts the range limit on its missiles after fresh American strikes in Hormuz",
+      "standfirst": "The Revolutionary Guards say they no longer observe a 2,000km ceiling on their ballistic missiles. Washington has set up a force to hunt down Iranian arms smuggling, as advisers urge Donald Trump to resume the war.",
       "body": [
-        "On Friday 6 November Donald Trump confirmed that American forces had carried out what he called “minor” strikes on an air-defence system on Qeshm island in the Strait of Hormuz, where Iranian state media reported two explosions and where Tehran says it shot down an American drone.",
-        "The strikes, the first since the Republicans' defeat in the midterm elections, which the president blames on the war, come as he speaks both of “progress” with Tehran and of possibly destroying “the rest of Iran”, while Qatar, the mediator, denies that negotiations have failed.",
-        "On Saturday the Iranian army's spokesman, Mohammad Akraminia, promised an “immediate” response without geographical limits on the supreme leader's orders, while Tehran still insists that its conditions, including an end to the American blockade and to sanctions, be met before any nuclear talks."
+        "On Saturday 7 November the spokesman for the Revolutionary Guards, General Hossein Mohebbi, said in Tehran that the 2,000km limit Iran had imposed on the range of its ballistic missiles had been lifted, a day after American strikes on air defences on Qeshm island.",
+        "The announcement, which does not say whether Iran already has longer-range missiles, came alongside a statement attributed to the Supreme Leader, Mojtaba Khamenei, promising a response “without geographical limits” to any American or Israeli threat.",
+        "According to NBC, advisers have urged Donald Trump to resume large-scale operations before the new Congress sits in January, and America's Central Command has announced a force to cut the land and Caspian routes by which Iran obtains weapons."
       ],
       "figure": {
-        "value": "> 120",
-        "label": "merchant ships hit since the war began",
-        "compare": "according to IMO and UKMTO data"
+        "value": "> $25bn",
+        "label": "of Iranian crude kept off export markets by the American blockade",
+        "compare": "according to US Central Command"
       },
       "modules": {
-        "table": {
-          "ids": [
-            "USA",
-            "IRN"
-          ],
-          "host": "QAT",
-          "positions": [
-            {
-              "who": "Washington",
-              "wants": "Iran's nuclear programme on the agenda from the outset of any talks; Donald Trump insists Iran can do nothing on that front without American consent."
-            },
-            {
-              "who": "Tehran",
-              "wants": "Concrete implementation of its seven conditions, including the lifting of sanctions and war reparations, before any negotiation or reopening of the strait."
-            }
-          ],
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
-          }
-        },
         "market": {
           "series": "brent",
           "from": "2026-01-01",
@@ -220,42 +199,6 @@
             "d": "2026-02-28",
             "label": "War begins"
           }
-        },
-        "toll": {
-          "items": [
-            {
-              "value": "≈ 3,400",
-              "label": "dead in Iran",
-              "by": "the UN (OCHA)",
-              "date": "2026-06-30",
-              "source": {
-                "name": "Wikipédia, synthèse des bilans",
-                "name_en": "Wikipedia, summary of tolls",
-                "url": "https://en.wikipedia.org/wiki/Casualties_of_the_2026_Iran_war"
-              }
-            },
-            {
-              "value": "≥ 24",
-              "label": "sailors killed in the Gulf and the Strait of Hormuz",
-              "by": "the International Maritime Organization",
-              "date": "2026-10-27",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
-              }
-            },
-            {
-              "value": "1",
-              "label": "sailor killed aboard the tanker Velos",
-              "by": "its owner, Velos Tankers",
-              "date": "2026-11-06",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
-              }
-            }
-          ],
-          "note": "Tolls have not been independently verified and are not final."
         },
         "places": {
           "items": [
@@ -265,32 +208,12 @@
                 55.85,
                 26.8
               ],
-              "note": "American strikes on an anti-aircraft system on 6 November, confirmed by Donald Trump; Tehran says it shot down a drone there.",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
-              }
-            },
-            {
-              "name": "Off Khasab (Oman)",
-              "coords": [
-                56.25,
-                26.18
-              ],
-              "note": "Explosion reported by a tanker on 6 November, according to UKMTO."
-            },
-            {
-              "name": "North of Madinat ash Shamal (Qatar)",
-              "coords": [
-                51.2,
-                26.95
-              ],
-              "note": "The Velos hit by two projectiles on 5 November; one sailor killed."
+              "note": "American strikes on an anti-aircraft system on 6 November, confirmed by Donald Trump."
             }
           ],
           "source": {
             "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+            "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
           }
         },
         "sides": {
@@ -341,21 +264,21 @@
         "label": "of war"
       },
       "analysis": {
-        "title": "A selective blockade",
-        "text": "The strait is not closed to everyone. According to Amir Hayat Moqaddam, a deputy chairman of the Iranian parliament's national-security committee, Indian, Chinese, Iraqi and Qatari ships pass freely, with Tehran levying transit fees on the first two, as reported by Al Jazeera. The analytics firm Kpler estimates that about 42% of Gulf crude shipped through Hormuz in October went to China and 13% to India. The arrangement spares Iran's main customers while keeping up the pressure on America's allies; Washington has imposed a naval blockade on Iran's southern ports since July. Moscow, for its part, says it is ready to support an exit from the war, and Mr Rezaei handed Vladimir Putin a letter from the Supreme Leader, Mojtaba Khamenei."
+        "title": "Squeezing the back routes",
+        "text": "With the force dubbed Iron Gate, based in Tampa, Florida, Washington is extending its naval blockade to Iran's land borders and the Caspian Sea. Its commander, Admiral Brad Cooper, says it will further curb Iran's ability to finance terrorism. According to a Reuters investigation cited by the Times of Israel, an Iranian network has since January 2025 imported at least $2bn of equipment, explosives and lorries across the Caspian from Russia, by road from Central Asia and by air from China. The Revolutionary Guards are answering with escalation: a range of 2,000km already covers the Arabian peninsula, the Levant, most of Egypt and part of Greece."
       },
       "keys": [
         {
           "title": "Donald Trump's decision",
-          "text": "The American president said on Thursday that he would decide whether to resume strikes, according to Axios; on Friday he presented those on Qeshm as limited. Washington is maintaining its naval blockade of Iranian ports."
+          "text": "The American president has not decided whether to resume fighting, according to NBC, and the Pentagon declines to comment. He described Friday's strikes on an anti-aircraft system as “minor”."
         },
         {
-          "title": "Qatar's role",
-          "text": "The emirate relays messages between Washington and Tehran, including an Iranian nuclear proposal delivered on Thursday. The emir urged Donald Trump to pursue dialogue and a diplomatic solution."
+          "title": "The Chinese channel",
+          "text": "The Treasury secretary, Scott Bessent, reportedly asked Beijing, with Donald Trump's approval, to lean on Tehran, according to a Washington Post columnist. China is then said to have contacted Iran."
         },
         {
-          "title": "A Yemeni front",
-          "text": "In Yemen the Houthis, Tehran's allies, are firing missiles and drones at Saudi Arabia, which since 5 October has backed an offensive by government forces. The Saudi-led coalition said it destroyed two missiles aimed at Najran on Friday."
+          "title": "Russian support",
+          "text": "According to the Telegraph, Iran is negotiating to buy the S-400 air-defence system. The secretary of the Supreme National Security Council, Mohsen Rezaei, this week handed Vladimir Putin a message from the Supreme Leader."
         }
       ],
       "involved": [
@@ -363,8 +286,7 @@
         "ISR",
         "QAT",
         "RUS",
-        "OMN",
-        "YEM"
+        "CHN"
       ],
       "zones": [
         {
@@ -387,58 +309,48 @@
         },
         {
           "d": "2026-11-03",
-          "t": "Republican defeat in the midterm elections, blamed on the war by JD Vance."
-        },
-        {
-          "d": "2026-11-05",
-          "t": "Iranian nuclear proposal relayed by Qatar; Mohsen Rezaei received by Vladimir Putin."
+          "t": "Republican defeat in the midterm elections."
         },
         {
           "d": "2026-11-06",
-          "t": "American strikes on Qeshm, confirmed by Donald Trump; a sailor killed aboard the Velos."
+          "t": "American strikes on Qeshm island, confirmed by Donald Trump."
         },
         {
           "d": "2026-11-07",
-          "t": "Iran's army promises an “immediate” response; Qatar denies that talks have failed."
+          "t": "The Revolutionary Guards lift the range limit on their missiles; the Iron Gate force is created."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "Drone downed and tankers hit in Hormuz",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
-          "date": "2026-11-06"
+          "name": "The Times of Israel",
+          "title": "IRGC says its self-imposed limit on ballistic missile range has been lifted",
+          "url": "https://www.timesofisrael.com/irgc-says-its-self-imposed-limit-on-ballistic-missile-range-has-been-lifted/",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Associated Press, via Local 10",
+          "title": "Iran says it has lifted its self-imposed limit on missile ranges",
+          "url": "https://www.local10.com/news/world/2026/11/07/iran-says-it-has-lifted-its-self-imposed-limit-on-missile-ranges-and-other-mideast-news/",
+          "date": "2026-11-07"
         },
         {
           "name": "Al Jazeera",
-          "title": "Donald Trump confirms strikes on Qeshm",
+          "title": "Trump confirms new US strikes on Iran's Qeshm island",
           "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
           "date": "2026-11-07"
         },
         {
           "name": "The Times of Israel",
-          "title": "“Minor” strikes, says Donald Trump",
-          "url": "https://www.timesofisrael.com/trump-us-launched-minor-strikes-on-iran-targeting-a-little-bit-of-an-anti-aircraft-device/",
+          "title": "Live blog, 7 November",
+          "url": "https://www.timesofisrael.com/liveblog-november-07-2026/",
           "date": "2026-11-07"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Mohsen Rezaei meets Vladimir Putin",
-          "url": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Why Iran exempts some countries from Hormuz restrictions",
-          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions",
-          "date": "2026-11-06"
         }
       ],
       "dossier": {
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "iran-downs-american-drone-strait-hormuz-donald-trump"
+      "slug": "iran-lifts-range-limit-missiles-after-fresh-american"
     },
     {
       "rank": 3,
@@ -450,45 +362,47 @@
         "diplomacy"
       ],
       "radar": false,
-      "title": "Death toll from the Komyshuvakha strike passes 50 in Ukraine ahead of talks in Abu Dhabi",
-      "standfirst": "Ukraine's emergency services on Friday raised to at least 50 the death toll from the bombing of an aid centre in the Zaporizhzhia region. On the front line, Russia is barely advancing, according to the Institute for the Study of War.",
+      "title": "Russia fires 36 ballistic missiles at Kyiv three days before talks in Abu Dhabi",
+      "standfirst": "Overnight on 6-7 November Russia targeted the capital's power grid and damaged the North Bridge over the Dnipro. Volodymyr Zelensky accuses Moscow of preparing for negotiations “by launching ballistic missiles”.",
       "body": [
-        "On Friday 6 November Ukraine's State Emergency Service raised to at least 50 the death toll from the Russian strike of 2 November on an aid-distribution centre in a former school in Komyshuvakha, in the Zaporizhzhia region, where dozens of people were still missing.",
-        "Volodymyr Zelensky describes a double strike with glide bombs, which the UN human-rights monitoring mission says probably violated international law, at the end of a week in which Russia launched 2,346 drones and more than 80 missiles at Ukraine, according to Al Jazeera.",
-        "On the battlefield Russia has taken only 117 square kilometres in ten months, according to the Institute for the Study of War, while Kyiv has targeted eight Russian refineries in seven days, ahead of three-way talks scheduled for 10 and 11 November in Abu Dhabi."
+        "Overnight on Friday 6 and Saturday 7 November Russia fired 36 ballistic missiles at Kyiv and its region, only four of which were shot down for want of Patriot interceptors, according to President Volodymyr Zelensky, along with 172 drones across 13 regions, wounding at least nine people, including a child.",
+        "The strikes hit the substations linking the Rivne and Khmelnytskyi nuclear plants to the capital, leaving parts of the city without electricity, heating and water, and damaged the North Bridge, which Moscow says it was aiming at.",
+        "Ukrainian, Russian and American delegations are due to meet in Abu Dhabi on Tuesday 10 November for a fourth round of talks brokered by Washington, as the death toll from the strike on Komyshuvakha, in the Zaporizhzhia region, reaches 55."
       ],
       "figure": {
-        "value": "117 km²",
-        "label": "taken by Russia in ten months, according to the ISW",
-        "compare": "against 5,304 km² in the whole of 2025"
+        "value": "36",
+        "label": "ballistic missiles fired at Kyiv and its region",
+        "compare": "four of them shot down, according to Volodymyr Zelensky"
       },
       "modules": {
         "toll": {
           "items": [
             {
-              "value": "≥ 50",
-              "label": "killed in the 2 November strike on Komyshuvakha",
-              "by": "Ukraine's State Emergency Service",
-              "date": "2026-11-06",
+              "value": "≥ 9",
+              "label": "wounded in the strikes overnight on 6-7 November, including a child",
+              "by": "Volodymyr Zelensky",
+              "date": "2026-11-07",
               "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
+                "name": "Associated Press, via The Manila Times",
+                "name_en": "Associated Press, via The Manila Times",
+                "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614"
               }
             },
             {
-              "value": "53",
-              "label": "killed in Komyshuvakha, according to a higher count",
-              "by": "the acting regional governor",
-              "date": "2026-11-06",
+              "value": "55",
+              "label": "killed in the strike on Komyshuvakha on 2 November",
+              "by": "Ukraine's State Emergency Service",
+              "date": "2026-11-07",
               "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50"
+                "name": "Associated Press, via The Manila Times",
+                "name_en": "Associated Press, via The Manila Times",
+                "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614"
               }
             },
             {
               "value": "15,172",
               "label": "civilians killed between February 2022 and February 2026",
-              "by": "the UN human rights monitoring mission",
+              "by": "the UN human-rights monitoring mission",
               "date": "2026-02-16",
               "source": {
                 "name": "ONU, via Ukrinform",
@@ -498,6 +412,22 @@
             }
           ],
           "note": "Tolls have not been independently verified."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "North Bridge, Kyiv",
+              "coords": [
+                30.55,
+                50.49
+              ],
+              "note": "Damaged overnight on 6-7 November; traffic halted in both directions."
+            }
+          ],
+          "source": {
+            "name": "LIGA.net",
+            "url": "https://news.liga.net/en/war/news/russia-launched-ballistic-missile-strikes-on-kyiv-and-the-surrounding-region-the-northern-bridge-has-been-shut-down-and-the-power-grid-has-been-damaged-again"
+          }
         },
         "table": {
           "ids": [
@@ -531,23 +461,24 @@
         "label": "since the full-scale invasion"
       },
       "analysis": {
-        "title": "A war of attrition that has almost stalled",
-        "text": "According to the Institute for the Study of War, Russia has advanced by an average of 0.38 square kilometres a day in 2026, against 13.25 in 2025, and it even lost ground in September and October. Ukraine's general staff puts the number of Russian soldiers killed or seriously wounded between January and October at 381,300, a figure that cannot be verified. With no breakthroughs, each side is targeting the other's economy: Moscow strikes Ukraine's power grid as winter approaches, Kyiv hits Russian refineries from Yaroslavl to Ryazan. According to the Financial Times, cited by Al Jazeera, four tankers loaded with Russian diesel failed to find buyers in America despite the deal struck on 9 October between Donald Trump and Vladimir Putin; the Kremlin denies this."
+        "title": "Winter as a weapon",
+        "text": "With no breakthroughs at the front, Moscow is concentrating its fire on energy as winter approaches. According to Ukraine's energy ministry, Saturday's strikes damaged the lines carrying power from the nuclear plants to Kyiv and central Ukraine, causing outages in the Kyiv, Zhytomyr, Kharkiv, Donetsk and Dnipropetrovsk regions on top of scheduled blackouts. Kyiv's mayor, Vitali Klitschko, calls the situation “extremely difficult”. Volodymyr Zelensky says North Korean missiles were used and is pressing Washington for more interceptors. Kyiv is hitting back at Russia's economy: a refinery in Saratov and a factory in Oryol were struck, according to the authorities and Russian media."
       },
       "keys": [
         {
           "title": "The Abu Dhabi talks",
-          "text": "Ukrainian, Russian and American delegations are due to meet there on 10 and 11 November, at Washington's initiative. Donald Trump says a “big deal” is in the works after his contacts with the Russian envoy Kirill Dmitriev."
+          "text": "This will be the fourth round of negotiations convened by the Trump administration, the previous one having been held in Geneva in February. Territorial questions and security guarantees remain unresolved."
         },
         {
-          "title": "Kyiv's position",
-          "text": "Volodymyr Zelensky insists that no deal can be struck without Ukraine and demands lasting security guarantees. The Komyshuvakha strike came a day after the end of a local truce in Oleshky."
+          "title": "The North Bridge",
+          "text": "The 816-metre bridge serves the large residential districts on the Dnipro's left bank. Russia's defence ministry claims it was used to move weapons, and repairs have begun, according to Vitali Klitschko."
         }
       ],
       "involved": [
         "RUS",
         "USA",
-        "ARE"
+        "ARE",
+        "PRK"
       ],
       "context": [
         {
@@ -555,20 +486,12 @@
           "t": "Russia launches its full-scale invasion of Ukraine."
         },
         {
-          "d": "2026-10-09",
-          "t": "Deal between Donald Trump and Vladimir Putin on sales of Russian diesel."
-        },
-        {
-          "d": "2026-11-01",
-          "t": "End of a six-day truce in Oleshky: nearly 800 civilians evacuated."
-        },
-        {
           "d": "2026-11-02",
           "t": "Russian strike on an aid centre in Komyshuvakha."
         },
         {
-          "d": "2026-11-06",
-          "t": "The Komyshuvakha death toll reaches at least 50."
+          "d": "2026-11-07",
+          "t": "36 ballistic missiles and 172 drones against Kyiv and 12 other regions; the North Bridge is closed."
         },
         {
           "d": "2026-11-10",
@@ -577,26 +500,20 @@
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "Komyshuvakha death toll rises to 50",
-          "url": "https://www.aljazeera.com/news/2026/11/6/ukraine-raises-zaporizhia-aid-strike-death-toll-to-at-least-50",
-          "date": "2026-11-06"
+          "name": "Associated Press, via The Manila Times",
+          "title": "Ukraine hit by drone, missile attacks as talks with Russia, US loom",
+          "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614",
+          "date": "2026-11-07"
         },
         {
-          "name": "Al Jazeera",
-          "title": "Russia's territorial gains dwindle",
-          "url": "https://www.aljazeera.com/news/2026/11/6/in-ukraine-russias-territorial-gains-dwindle-as-its-diesel-goes-unsold",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "Just Security",
-          "title": "Early Edition, 6 November",
-          "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/",
-          "date": "2026-11-06"
+          "name": "LIGA.net",
+          "title": "Russia launched ballistic missile strikes on Kyiv; the Northern Bridge has been shut down",
+          "url": "https://news.liga.net/en/war/news/russia-launched-ballistic-missile-strikes-on-kyiv-and-the-surrounding-region-the-northern-bridge-has-been-shut-down-and-the-power-grid-has-been-damaged-again",
+          "date": "2026-11-07"
         },
         {
           "name": "Reuters, via Devdiscourse",
-          "title": "Three-way talks in Abu Dhabi",
+          "title": "US to hold trilateral talks with Ukraine, Russia in Abu Dhabi next week",
           "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
           "date": "2026-11-02"
         }
@@ -605,422 +522,335 @@
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "death-toll-komyshuvakha-strike-passes-50-ukraine-ahead"
+      "slug": "russia-fires-36-ballistic-missiles-kyiv-three-days"
     },
     {
       "rank": 4,
-      "id": "ISR",
-      "place": "Israel",
-      "section": "Middle East",
+      "id": "IRL",
+      "place": "Europe",
+      "section": "Europe",
+      "focus": [
+        10,
+        50
+      ],
       "types": [
-        "election",
-        "conflict"
+        "society",
+        "diplomacy"
       ],
       "radar": false,
-      "title": "Avigdor Liberman opens the door to the ultra-Orthodox on the eve of Isaac Herzog's choice",
-      "standfirst": "The leader of Yisrael Beiteinu says he is ready to govern with the ultra-Orthodox parties but rejects any government reliant on the Arab parties. Israel's president names the leader tasked with forming a government on Sunday.",
+      "title": "Hoax bomb threats spread to European newsrooms after targeting dozens of flights",
+      "standfirst": "Ireland's public broadcaster, RTÉ, evacuated its offices on Friday after a threatening email, as did Bulgaria's Nova TV. Nearly 30 flights have been targeted since Tuesday, and no explosives have been found.",
       "body": [
-        "On the eve of Sunday's nomination of the leader tasked with forming a government, Avigdor Liberman, who leads Yisrael Beiteinu, said he was open to a coalition with the ultra-Orthodox parties and to compromises on conscription, while vowing to vote against any government dependent on the Arab parties.",
-        "Gadi Eisenkot, recommended by 67 of the 120 members of the Knesset against 46 for Benjamin Netanyahu, owes that lead to the 19 members from Ra'am and the United List, with whom three of the four parties in his bloc refuse to sit, though the bloc has only 48 seats.",
-        "The Democrats' leader, Yair Golan, speaks of “progress”, while the Likud lawmaker Miri Regev calls the rival alliance a “bloc of disaster”; the new Knesset will be sworn in on 10 November and will elect a successor to its speaker, Amir Ohana."
+        "On Friday 6 November emails signed by one “Mikhail Andropov” and headed “Message to the West” threatened Ireland's public broadcaster, RTÉ, which evacuated its offices and suspended programming, as well as Bulgaria's Nova TV, while Sky reported a threat in Britain.",
+        "The messages extend a wave of alerts that has disrupted nearly 30 flights in Europe since Tuesday, prompting diversions and fighter-jet escorts, though no explosives have been found, according to Reuters, which could not establish where the emails came from.",
+        "No country has named a culprit, but Spain's foreign minister, José Manuel Albares, has denounced a “hybrid aggression”, and NATO has ordered air patrols near the border between Hungary and Romania."
       ],
       "figure": {
-        "value": "67",
-        "label": "members of the Knesset recommend Gadi Eisenkot for prime minister",
-        "compare": "against 46 for Benjamin Netanyahu; 61 of 120 are needed"
+        "value": "≈ 30",
+        "label": "flights targeted by hoax threats since 3 November",
+        "compare": "no explosives found, according to Reuters"
       },
       "modules": {
-        "vote": {
-          "title": "General election",
-          "date": "2026-10-27",
-          "asOf": "2026-10-29",
-          "system": "Nationwide party-list proportional representation for the 120 seats of the Knesset.",
-          "note": "Final count.",
-          "bodies": [
+        "actors": {
+          "items": [
             {
-              "name": "Knesset",
-              "total": 120,
-              "majority": 61,
-              "parties": [
-                {
-                  "name": "Outgoing coalition (Netanyahu)",
-                  "value": 53,
-                  "color": "blue"
-                },
-                {
-                  "name": "Opposition (Eisenkot)",
-                  "value": 48,
-                  "color": "amber"
-                },
-                {
-                  "name": "Arab parties",
-                  "value": 19,
-                  "color": "green"
-                }
-              ]
+              "name": "José Manuel Albares",
+              "role": "Spain's foreign minister, who speaks of “hybrid aggression” and psychological warfare."
+            },
+            {
+              "name": "Henna Virkkunen",
+              "role": "European commissioner for digital affairs, who notes that Russia is often behind hybrid operations."
+            },
+            {
+              "name": "Romulusz Ruszin-Szendi",
+              "role": "Hungary's defence minister, who has announced escorts for airliners and NATO patrols."
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+            "name": "Reuters, via Khaleej Times",
+            "name_en": "Reuters, via Khaleej Times",
+            "url": "https://www.khaleejtimes.com/world/europe/europe-newsroom-bomb-threats-after-flight-hoaxes"
           }
         },
-        "scenarios": {
+        "dates": {
           "items": [
             {
-              "if": "Gadi Eisenkot is asked to form a government",
-              "then": "he will have 28 days, extendable by 14, to assemble a coalition of at least 61 members.",
-              "source": {
-                "name": "Anadolu",
-                "url": "https://www.aa.com.tr/en/middle-east/netanyahu-ally-united-torah-judaism-declines-to-recommend-him-for-israeli-premiership/4112408"
-              }
+              "d": "2026-11-03",
+              "t": "Around half a dozen flights disrupted by threats."
             },
             {
-              "if": "no leader secures 61 members within the legal deadlines",
-              "then": "voters will be sent back to the polls, which President Isaac Herzog urges everyone to do their utmost to avoid.",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
-              }
+              "d": "2026-11-05",
+              "t": "More than two dozen flights targeted; emails sent to Rome and Milan airports."
             },
             {
-              "if": "Benjamin Netanyahu and Gadi Eisenkot reach an agreement",
-              "then": "a unity government would be formed: this is the option the presidency favours, according to the Israeli news site Ynet.",
-              "source": {
-                "name": "Ynet",
-                "url": "https://www.ynetnews.com/article/bkotdiqsmg"
-              }
-            }
-          ]
-        },
-        "toll": {
-          "items": [
-            {
-              "value": "1,602",
-              "label": "Palestinians killed in Gaza since the October 2025 ceasefire",
-              "by": "Gaza's health ministry",
-              "date": "2026-11-06",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
-              }
-            },
-            {
-              "value": "> 74,600",
-              "label": "dead in Gaza since October 2023",
-              "by": "Gaza's health ministry",
-              "date": "2026-11-03",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
-              }
-            }
-          ]
-        },
-        "places": {
-          "items": [
-            {
-              "name": "Gaza",
-              "coords": [
-                34.4,
-                31.45
-              ],
-              "note": "Almost daily Israeli strikes despite the truce."
+              "d": "2026-11-06",
+              "t": "Threats against RTÉ, Nova TV and Sky; four alerts over France."
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/3/israeli-forces-kill-four-in-gaza-as-fifth-palestinian-dies-of-wounds"
+            "name": "Reuters, via ABC News",
+            "name_en": "Reuters, via ABC News",
+            "url": "https://www.abc.net.au/news/2026-11-07/brk-bomb-threats-planes-europe/107358382"
+          }
+        },
+        "impact": {
+          "text": "Travellers in Europe may find their flight diverted: on Friday four aircraft threatened over France landed safely, among them an Aer Lingus flight from Dublin to Rome that was rerouted to the Évreux air base.",
+          "date": "2026-11-06",
+          "source": {
+            "name": "Reuters, via ABC News",
+            "name_en": "Reuters, via ABC News",
+            "url": "https://www.abc.net.au/news/2026-11-07/brk-bomb-threats-planes-europe/107358382"
           }
         }
       },
       "analysis": {
-        "title": "No majority without the Arab parties",
-        "text": "The Knesset's arithmetic traps Gadi Eisenkot in a dilemma. Without Ra'am and the United List, his 48-member bloc falls well short of the 61 seats required; with them, he runs into the refusal of most of his allies, including Avigdor Liberman, who demands a 61-member coalition without the Arab parties and rejects any minority government supported from outside. His overture to United Torah Judaism, which recommended no one with its seven seats, does not close the gap. Mr Eisenkot also sets conditions of his own: he wants Hamas recognised as a terrorist organisation, which Ra'am's leader, Mansour Abbas, has not done, though he says he favours its disarmament. Mr Liberman, for his part, denies any rotation agreement with Mr Eisenkot."
+        "title": "Suspicions of a hybrid operation",
+        "text": "Security experts quoted by Reuters see the hallmarks of a coordinated “hybrid” attack, while not ruling out copycats or personal grievances. The emails sent on Thursday to Rome and Milan airports claimed to come from “Male State”, a far-right group banned in Russia whose founder, the blogger Vladislav Pozdnyakov, says it no longer exists and denies any involvement. Many European officials link the disruption to Europe's support for Ukraine and accuse Moscow of running a destabilisation campaign, which Russia denies. The wave adds to a string of sabotage attributed to hybrid operations, targeting German substations, Baltic defence sites and Leipzig airport."
       },
       "keys": [
         {
-          "title": "The timetable",
-          "text": "The leader named on Sunday will have 28 days, extendable by 14, to form a coalition. If that fails, a second candidate can be nominated, before a possible return to the polls."
+          "title": "Country after country",
+          "text": "Czech police counted threats against nine flights from Prague, and a Wizz Air flight to Rome was diverted to Venice. Danish police report threats against Copenhagen airport."
         },
         {
-          "title": "Gaza, a truce that does not protect",
-          "text": "Despite the ceasefire that took effect in October 2025, at least 1,602 Palestinians have been killed since, according to Gaza's health ministry. The envoy Tony Blair met Isaac Herzog and Benjamin Netanyahu on Thursday to advance Donald Trump's plan."
+          "title": "Why Ireland matters",
+          "text": "Dublin is due to host a major European meeting on relations between Russia and Ukraine next week. RTÉ was among the first newsrooms to be targeted."
         }
       ],
       "involved": [
-        "PSE",
-        "USA",
-        "LBN"
+        "BGR",
+        "GBR",
+        "HUN",
+        "CZE",
+        "ITA",
+        "FRA",
+        "DNK",
+        "ESP",
+        "RUS"
       ],
       "context": [
         {
-          "d": "2023-10-07",
-          "t": "Hamas-led attack in southern Israel, followed by the war in Gaza."
-        },
-        {
-          "d": "2025-10-10",
-          "t": "The Gaza ceasefire takes effect."
-        },
-        {
-          "d": "2026-10-27",
-          "t": "General election: no bloc wins a majority."
+          "d": "2026-11-03",
+          "t": "First hoax bomb threats against European flights."
         },
         {
           "d": "2026-11-05",
-          "t": "Consultations end: 67 recommendations for Gadi Eisenkot, 46 for Benjamin Netanyahu."
+          "t": "More than two dozen flights disrupted."
         },
         {
-          "d": "2026-11-08",
-          "t": "Isaac Herzog is due to name the leader tasked with forming a government."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "The new Knesset is sworn in."
+          "d": "2026-11-06",
+          "t": "Threats target RTÉ, Nova TV and Sky; NATO orders air patrols."
         }
       ],
       "sources": [
         {
-          "name": "The Times of Israel",
-          "title": "Avigdor Liberman open to the ultra-Orthodox",
-          "url": "https://www.timesofisrael.com/liveblog-november-06-2026/",
+          "name": "Reuters, via ABC News",
+          "title": "Bomb threats spread to European newsrooms",
+          "url": "https://www.abc.net.au/news/2026-11-07/brk-bomb-threats-planes-europe/107358382",
           "date": "2026-11-06"
         },
         {
-          "name": "The Algemeiner",
-          "title": "Herzog to task would-be PM with forming government on Sunday",
-          "url": "https://www.algemeiner.com/2026/11/06/herzog-task-would-be-pm-forming-govt-sunday-eisenkot-secures-backing-67-mks/",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "The Times of Israel",
-          "title": "67 recommendations for Gadi Eisenkot",
-          "url": "https://www.timesofisrael.com/as-eisenkot-wins-67-nods-to-be-pm-herzog-says-hell-announce-mandate-decision-on-sunday/",
-          "date": "2026-11-05"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "The Gaza toll since the ceasefire",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran",
+          "name": "Reuters, via Khaleej Times",
+          "title": "Europe newsroom bomb threats after flight hoaxes",
+          "url": "https://www.khaleejtimes.com/world/europe/europe-newsroom-bomb-threats-after-flight-hoaxes",
           "date": "2026-11-06"
         }
       ],
       "dossier": {
-        "id": "israel-gaza",
-        "title": "Israel and Gaza"
+        "id": "europe-bomb-hoaxes",
+        "title": "Hoax bomb threats in Europe"
       },
-      "slug": "avigdor-liberman-opens-door-ultra-orthodox-eve-isaac"
+      "slug": "hoax-bomb-threats-spread-european-newsrooms-after-targeting"
     },
     {
       "rank": 5,
-      "id": "COD",
-      "place": "DR Congo",
-      "section": "Africa",
+      "id": "HTI",
+      "place": "Haiti",
+      "section": "Americas",
       "types": [
-        "disaster",
+        "conflict",
         "society"
       ],
       "radar": true,
-      "title": "Two new vaccines tested in DR Congo against an Ebola outbreak that has killed over 5,000",
-      "standfirst": "The WHO has added two vaccines designed against the Bundibugyo strain to the trial under way in Ituri. The outbreak, the worst in the country's history, has more than 10,500 confirmed cases.",
+      "title": "Haiti's 400 Mawozo gang reaches out to the state as Salvadoran troops close in",
+      "standfirst": "Wilson Joseph's gang says it has contacted the national disarmament commission and wants UN mediation. The prime minister, Alix Didier Fils-Aimé, has announced the killing of a gang leader in Cité Soleil.",
       "body": [
-        "On Wednesday 4 November the World Health Organisation announced that two vaccines designed against the Bundibugyo strain of Ebola, one developed by the University of Oxford and the Serum Institute of India, the other by Moderna, would join the clinical trial under way in eastern Democratic Republic of Congo.",
-        "Declared in mid-May, the outbreak, the worst in the country's history, had more than 10,500 confirmed cases and 5,126 deaths by 1 November, according to WHO figures cited by the UN, and no vaccine or treatment is licensed against this strain, which kills more than half of those infected.",
-        "The Tumaini trial, launched on 23 October in Bunia, capital of Ituri province, vaccinates the contacts of patients using the so-called ring method, but its results are not expected before early 2027, while the virus has already reached Uganda and Kenya."
+        "On Friday 6 November the 400 Mawozo gang, led by Wilson Joseph, told the Associated Press that it had contacted Haiti's national commission for disarmament, demobilisation and reintegration in the name of “peace” and “national reconciliation”.",
+        "Accused by the UN and human-rights groups of rape, murder and kidnapping, which it denies, the gang fears an offensive by the more than 2,000 Salvadoran soldiers deployed in recent weeks, and El Salvador's president, Nayib Bukele, has promised to destroy its leader's house.",
+        "The same day the prime minister, Alix Didier Fils-Aimé, announced the death of a gang leader in Cité Soleil, identified by police as the head of the Boston gang, while the disarmament commission says it is following the government's road map."
       ],
       "figure": {
-        "value": "5,126",
-        "label": "Ebola deaths in DR Congo by 1 November, according to the WHO",
-        "compare": "out of more than 10,500 confirmed cases"
+        "value": "> 2,000",
+        "label": "Salvadoran soldiers deployed in Haiti",
+        "compare": "most of them outside the UN-backed force"
       },
       "modules": {
-        "toll": {
-          "items": [
-            {
-              "value": "5,126",
-              "label": "deaths in DR Congo by 1 November",
-              "by": "the WHO, cited by the UN",
-              "date": "2026-11-01",
-              "source": {
-                "name": "ONU Info",
-                "name_en": "UN News",
-                "url": "https://news.un.org/en/story/2026/11/1168742"
-              }
-            },
-            {
-              "value": "> 10,500",
-              "label": "confirmed cases by 1 November",
-              "by": "the WHO, cited by the UN",
-              "date": "2026-11-01",
-              "source": {
-                "name": "ONU Info",
-                "name_en": "UN News",
-                "url": "https://news.un.org/en/story/2026/11/1168742"
-              }
-            },
-            {
-              "value": "5,376",
-              "label": "deaths in total in DR Congo, Kenya and Uganda",
-              "by": "Africa CDC",
-              "date": "2026-11-02",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo"
-              }
-            }
-          ]
-        },
         "places": {
           "items": [
             {
-              "name": "Bunia (Ituri)",
+              "name": "Cité Soleil",
               "coords": [
-                30.25,
-                1.56
+                -72.33,
+                18.58
               ],
-              "note": "Epicentre of the outbreak; Tumaini vaccine trial launched on 23 October."
+              "note": "Joint police operation: the Boston gang's leader killed on 6 November."
+            },
+            {
+              "name": "Tabarre, Port-au-Prince",
+              "coords": [
+                -72.27,
+                18.57
+              ],
+              "note": "Base of the Salvadoran soldiers, who arrived in late October."
             }
           ],
           "source": {
-            "name": "ONU Info",
-            "name_en": "UN News",
-            "url": "https://news.un.org/en/story/2026/11/1168742"
+            "name": "Associated Press, via KSAT",
+            "name_en": "Associated Press, via KSAT",
+            "url": "https://www.ksat.com/news/world/2026/11/07/powerful-haitian-gang-reaches-out-to-state-disarmament-group-as-gunfights-persist/"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Haitian state and foreign forces",
+              "lead": "Alix Didier Fils-Aimé",
+              "ids": [
+                "HTI",
+                "SLV"
+              ],
+              "note": "Police, army, the UN-backed Gang Suppression Force and Salvadoran soldiers."
+            },
+            {
+              "name": "Armed gangs",
+              "ids": [
+                "HTI"
+              ],
+              "note": "Including 400 Mawozo, led by Wilson Joseph, and the Boston gang in Cité Soleil."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via ABC News",
+            "name_en": "Associated Press, via ABC News",
+            "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356"
+          }
+        },
+        "actors": {
+          "items": [
+            {
+              "name": "Alix Didier Fils-Aimé",
+              "role": "Haiti's prime minister, who hailed the Cité Soleil operation."
+            },
+            {
+              "name": "Wilson Joseph",
+              "role": "Leader of the 400 Mawozo gang, which wants a UN delegation."
+            },
+            {
+              "name": "Nayib Bukele",
+              "role": "President of El Salvador, who has deployed more than 2,000 soldiers to Haiti."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via ABC News",
+            "name_en": "Associated Press, via ABC News",
+            "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356"
           }
         },
         "help": {
           "orgs": [
             "msf",
             "unicef",
-            "ifrc"
+            "wfp"
           ]
-        },
-        "dates": {
-          "items": [
-            {
-              "d": "2026-05",
-              "t": "The country's 17th Ebola outbreak, its worst, is declared."
-            },
-            {
-              "d": "2026-10-23",
-              "t": "The Tumaini vaccine trial is launched in Bunia."
-            },
-            {
-              "d": "2026-11-04",
-              "t": "The WHO adds two vaccines designed against the Bundibugyo strain."
-            }
-          ],
-          "source": {
-            "name": "ONU Info",
-            "name_en": "UN News",
-            "url": "https://news.un.org/en/story/2026/11/1168742"
-          }
         }
       },
       "analysis": {
-        "title": "A first against the Bundibugyo strain",
-        "text": "This is the first time that vaccines designed specifically against the Bundibugyo virus have been tested during an outbreak, according to the WHO. Until now the trial relied on Ervebo, licensed against a different strain, Zaire. The Oxford and Moderna candidates, recommended by an independent advisory group on the strength of preclinical and early clinical data, will join four vaccination “rings” already in place around confirmed cases, led by Congo's National Institute for Biomedical Research with Médecins Sans Frontières and Africa CDC. Another trial, launched in July, is assessing treatments, including a monoclonal antibody and remdesivir. The WHO's director-general, Tedros Adhanom Ghebreyesus, warns, however, that vaccines alone will not end the outbreak."
+        "title": "El Salvador's gamble",
+        "text": "The arrival of Salvadoran troops has shifted the balance of power in Port-au-Prince. According to the UN, most of them operate outside the UN-backed Gang Suppression Force, which works with the police, the Haitian army and Vectus Global, a private security firm founded by Erik Prince. Their deployment followed the disappearance of four Salvadoran aviation technicians, and they were attacked on 18 October in gang-held territory. The overture by 400 Mawozo, which is asking for operations to be suspended in some areas and invokes the Geneva Conventions, looks like an attempt to protect itself. The gang says disarmament is “a process” and wants an end to “international interference” in return."
       },
       "keys": [
         {
-          "title": "An outbreak spilling over",
-          "text": "Uganda recorded 20 cases before being declared free of the virus in August, and Kenya registered its first cases in October, two of them fatal. An imported case has also been reported in Nigeria."
+          "title": "Nayib Bukele's reply",
+          "text": "Challenged on social media over a photo said to show Wilson Joseph's house, El Salvador's president asked for the exact address so that he could destroy it. His government has not commented on the gang's initiative."
         },
         {
-          "title": "Travel restrictions",
-          "text": "Tedros Adhanom Ghebreyesus has called for travel restrictions on affected countries to be lifted. He argues that they penalise those countries and discourage transparent reporting of cases."
+          "title": "A country with no elected president",
+          "text": "Since the Transitional Presidential Council stood down on 7 February, the prime minister, Alix Didier Fils-Aimé, has led the executive alone. He hailed the Cité Soleil operation on X."
         }
       ],
       "involved": [
-        "UGA",
-        "KEN"
+        "SLV",
+        "USA"
       ],
       "context": [
         {
-          "d": "2026-05",
-          "t": "The outbreak, the country's 17th, is declared."
+          "d": "2026-02-07",
+          "t": "The Transitional Presidential Council's mandate ends; Alix Didier Fils-Aimé alone at the head of the executive."
         },
         {
-          "d": "2026-07",
-          "t": "A WHO-backed treatment trial is launched."
+          "d": "2026-10-18",
+          "t": "Salvadoran soldiers attacked in gang-held territory."
         },
         {
-          "d": "2026-08",
-          "t": "Uganda declared free of Ebola after 20 cases."
+          "d": "2026-11-01",
+          "t": "Wilson Joseph writes to the UN secretary-general asking for mediation."
         },
         {
-          "d": "2026-10-23",
-          "t": "The Tumaini vaccine trial is launched in Bunia."
-        },
-        {
-          "d": "2026-11-04",
-          "t": "Two strain-specific vaccines added to the trial."
+          "d": "2026-11-06",
+          "t": "400 Mawozo contacts the disarmament commission; the Boston gang's leader killed in Cité Soleil."
         }
       ],
       "sources": [
         {
-          "name": "ONU Info",
-          "title": "Two new vaccines join the trial",
-          "url": "https://news.un.org/en/story/2026/11/1168742",
-          "date": "2026-11-05",
-          "name_en": "UN News"
+          "name": "Associated Press, via ABC News",
+          "title": "Powerful Haitian gang reaches out to state disarmament group",
+          "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356",
+          "date": "2026-11-06"
         },
         {
-          "name": "OMS",
-          "title": "Two new candidate vaccines to join Ebola trial as treatment research advances",
-          "url": "https://www.who.int/news/item/04-11-2026-two-new-candidate-vaccines-to-join-ebola-trial-as-treatment-research-advances",
-          "date": "2026-11-04",
-          "name_en": "WHO"
+          "name": "Associated Press, via KSAT",
+          "title": "Powerful Haitian gang reaches out to state disarmament group as gunfights persist",
+          "url": "https://www.ksat.com/news/world/2026/11/07/powerful-haitian-gang-reaches-out-to-state-disarmament-group-as-gunfights-persist/",
+          "date": "2026-11-06"
         },
         {
-          "name": "Al Jazeera",
-          "title": "WHO approves trials for two new Ebola vaccines",
-          "url": "https://www.aljazeera.com/news/2026/11/4/who-approves-trials-for-two-new-ebola-vaccines",
-          "date": "2026-11-04"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "More than 5,300 dead, according to Africa CDC",
-          "url": "https://www.aljazeera.com/news/2026/11/3/ebola-outbreak-kills-more-than-5300-people-in-dr-congo",
-          "date": "2026-11-03"
+          "name": "The Haitian Times",
+          "title": "Fils-Aimé becomes Haiti's sole head of state as the CPT exits",
+          "url": "https://haitiantimes.com/2026/02/07/fils-aime-haiti-sole-head-of-state-cpt-exit/",
+          "date": "2026-02-07"
         }
       ],
       "dossier": {
-        "id": "ebola-drc",
-        "title": "The Ebola outbreak in DR Congo"
+        "id": "haiti-crisis",
+        "title": "The crisis in Haiti"
       },
-      "slug": "two-new-vaccines-tested-dr-congo-against-ebola"
+      "slug": "haiti-400-mawozo-gang-reaches-out-state-salvadoran"
     }
   ],
   "brief": [
     {
-      "id": "YEM",
-      "place": "Yemen",
-      "text": "The Houthis said on Friday that at least 30 people were killed in Al-Wazi'iyah district, west of Taiz, blaming Saudi Arabia, while the government accused the rebels of striking a market.",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+      "id": "PRY",
+      "place": "Paraguay",
+      "text": "The former president, Santiago Peña, removed from office on Friday, was remanded in custody at a military facility on Saturday on the orders of Judge Humberto Otazú, who is pursuing him for breach of trust over the Ueno bank affair.",
+      "url": "https://www.timesofisrael.com/paraguays-pro-israel-ex-president-taken-into-custody-over-alleged-bank-crisis-role/"
     },
     {
-      "id": "CHN",
-      "place": "Hong Kong",
-      "text": "The pro-democracy activist Joshua Wong, already in prison, was sentenced on Thursday to a further ten years for collusion with foreign forces under the national-security law.",
-      "url": "https://www.france24.com/en/asia-pacific/20261105-joshua-wong-hong-kong-10-years-jail-foreign-collusion"
+      "id": "RUS",
+      "place": "Russia",
+      "text": "Iran is negotiating with Moscow to buy the S-400 air-defence system, according to the Telegraph, after a visit to the Kremlin by Mohsen Rezaei, bearing a message from the Supreme Leader.",
+      "url": "https://www.timesofisrael.com/liveblog-november-07-2026/"
     },
     {
-      "id": "TUR",
-      "place": "Turkey",
-      "text": "Turkey's parliament ratified, by 279 votes to 119, the defence pact signed in Mecca with Pakistan and Saudi Arabia.",
-      "url": "https://www.timesofisrael.com/liveblog-november-06-2026/"
-    },
-    {
-      "id": "POL",
-      "place": "Poland",
-      "text": "A 24-year-old gunman with a military-style rifle killed six people and wounded 15 in Krakow's Main Square on Saturday afternoon, according to police, before being shot and wounded by officers.",
-      "url": "https://globalnews.ca/news/12141241/gunman-krakow-poland/"
+      "id": "USA",
+      "place": "United States",
+      "text": "America's Central Command is offering up to $20m, through the State Department's Rewards for Justice programme, for information on Iran's nuclear programme.",
+      "url": "https://www.timesofisrael.com/liveblog-november-07-2026/"
     }
   ],
   "agenda": [
     {
       "d": "2026-11-08",
-      "t": "Isaac Herzog names the leader tasked with forming Israel's government."
+      "t": "Gadi Eisenkot formally receives the mandate to form Israel's government."
     },
     {
       "d": "2026-11-09",
@@ -1036,18 +866,15 @@
     }
   ],
   "consulted": [
-    "Associated Press",
     "Reuters",
+    "Associated Press",
     "Al Jazeera",
-    "AFP",
-    "France 24",
     "The Times of Israel",
-    "The Algemeiner",
+    "NBC",
+    "International Business Times",
+    "LIGA.net",
     "Khaleej Times",
-    "Just Security",
-    "UN News",
-    "WHO",
-    "NPR",
-    "Global News"
+    "ABC News",
+    "The Haitian Times"
   ]
 }
