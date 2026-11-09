@@ -1,5 +1,7 @@
 # Contrôle qualité du site public, après chaque mise en ligne et à la demande :
 # accessibilité (axe-core, WCAG 2.2 AA), validité HTML (validateur Nu du W3C) et détecteur de design Impeccable.
+# Le détecteur lit les fichiers sans les afficher : il ne voit pas le fond nuit, d'où --scope type,layout ;
+# les contrastes réels sont mesurés par axe-core sur les pages affichées.
 # Le résultat s'affiche dans le résumé du workflow. Il ne bloque jamais la publication.
 name: Qualité
 
@@ -40,5 +42,5 @@ jobs:
         continue-on-error: true
         run: |
           echo '## Détecteur Impeccable' >> "$GITHUB_STEP_SUMMARY"
-          npx --yes impeccable@4.8.0 detect --github index.html en/index.html a-propos/index.html carte/index.html assets/css/site.css 2>&1 | tee impeccable.txt || true
+          npx --yes impeccable@4.8.0 detect --github --scope type,layout index.html en/index.html a-propos/index.html carte/index.html assets/css/site.css 2>&1 | tee impeccable.txt || true
           tail -n 1 impeccable.txt >> "$GITHUB_STEP_SUMMARY"
