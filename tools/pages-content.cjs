@@ -4,7 +4,7 @@
 // x = { t, site, todo, r, P, lang } : t() échappe et corrige la typographie, todo() marque un champ à remplir,
 // r est le chemin vers la racine, P les adresses des pages de la langue.
 
-const UPDATED = { fr: '5 novembre 2026', en: '5 November 2026' };
+const UPDATED = { fr: '9 novembre 2026', en: '9 November 2026' };
 const GITHUB = 'GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, États-Unis';
 const GITHUB_EN = 'GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States';
 const link = (href, label) => `<a href="${href}" rel="noopener" target="_blank">${label}</a>`;
@@ -84,6 +84,8 @@ module.exports = {
   ${site.goatcounter ? `<p>${t("Pour savoir combien de personnes lisent Diurna et quelles fonctions servent vraiment, le site utilise ")}${link('https://www.goatcounter.com', 'GoatCounter')}${t(", un outil de statistiques sans cookie. Il ne lit ni n'écrit rien sur ton appareil et n'enregistre pas ton adresse IP : celle-ci est seulement gardée en mémoire, avec le nom de ton navigateur, pendant huit heures au plus, pour ne pas compter deux fois la même visite. Ne sont conservés que des totaux : pages vues, site d'où tu viens, type de navigateur et de système, largeur d'écran, pays et langue.")}</p>
   <p>${t("Le site compte aussi, de façon anonyme, quelques gestes : ouverture d'une fiche, pays touché sur le globe, partage, changement de langue, installation de l'application, inscription à la newsletter et utilisation de chaque module interactif. Aucun de ces comptages n'est rattaché à une personne.")}</p>
   <p>${t("Ces statistiques sont hébergées par GoatCounter dans l'Union européenne (Finlande et Allemagne) et ne sont partagées avec personne. Le bref traitement de ton adresse IP repose sur l'intérêt légitime de l'éditeur à connaître son audience (article 6.1.f du RGPD). ")}${link('https://www.goatcounter.com/privacy', t('Politique de confidentialité de GoatCounter'))}.</p>` : `<p>${t("Aucune mesure d'audience n'est active pour l'instant.")}</p>`}
+  <h2>${t('Heure et météo')}</h2>
+  <p>${t("Quand tu ouvres la fiche d'un pays, ton navigateur demande à ")}${link('https://open-meteo.com', 'Open-Meteo')}${t(" (service météo libre, sans clé ni cookie, exploité en Suisse) la position de sa capitale, puis l'heure et la météo qu'il y fait. Seul le nom de la capitale est envoyé, jamais ta position ; Open-Meteo indique effacer ses journaux de serveur au bout de 90 jours. La position de la capitale est gardée sur ton appareil, la météo pendant trente minutes.")}</p>
   <h2>${t('Hébergement')}</h2>
   <p>${t("Le site est hébergé par GitHub Pages. Comme tout hébergeur, GitHub enregistre l'adresse IP des visiteurs pour des raisons de sécurité. ")}${link('https://docs.github.com/fr/site-policy/privacy-policies/github-general-privacy-statement', t('Déclaration de confidentialité de GitHub'))}.</p>
   ${site.buttondown ? `<h2>${t('Newsletter')}</h2>
@@ -91,7 +93,7 @@ module.exports = {
   ${site.tally ? `<h2>${t('Formulaire « Ton avis ? »')}</h2>
   <p>${t("Les réponses au formulaire de retour sont recueillies par Tally et lues par l'éditeur seul. Ne laisse ton adresse e-mail que si tu souhaites une réponse. ")}${link('https://tally.so/help/privacy-policy', t('Politique de confidentialité de Tally'))}.</p>` : ''}
   <h2>${t('Liens vers d’autres sites')}</h2>
-  <p>${t("Les sources citées sous chaque sujet mènent vers d'autres sites, qui appliquent leurs propres règles. Les polices, la carte et les drapeaux sont servis par Diurna lui-même : aucune autre ressource externe n'est chargée.")}</p>
+  <p>${t("Les sources citées sous chaque sujet mènent vers d'autres sites, qui appliquent leurs propres règles. Les polices, la carte et les drapeaux sont servis par Diurna lui-même : en dehors de la météo (Open-Meteo) et, si elle est active, de la mesure d'audience, aucune ressource externe n'est chargée.")}</p>
   <h2>${t('Tes droits')}</h2>
   <p>${t("Tu peux demander l'accès à tes données, leur rectification ou leur effacement, ou t'opposer à leur traitement, en écrivant à ")}${contact(x, true)}${t(". Tu peux aussi saisir la ")}${link('https://www.cnil.fr/fr/plaintes', 'CNIL')}.</p>
   <p class="updated">${t('Dernière mise à jour : ' + UPDATED.fr)}</p>`; },
@@ -104,6 +106,8 @@ module.exports = {
   ${site.goatcounter ? `<p>${t("To know how many people read Diurna and which features are actually used, the site uses ")}${link('https://www.goatcounter.com', 'GoatCounter')}${t(", a cookie-free analytics tool. It neither reads nor writes anything on your device and does not store your IP address: the address is only held in memory, with your browser name, for up to eight hours so the same visit is not counted twice. Only totals are kept: pages viewed, the site you came from, browser and system type, screen width, country and language.")}</p>
   <p>${t("The site also counts a few actions anonymously: opening a story, tapping a country on the globe, sharing, switching language, installing the app, signing up to the newsletter and using each interactive module. None of these counts is linked to a person.")}</p>
   <p>${t("These statistics are hosted by GoatCounter in the European Union (Finland and Germany) and are shared with no one. The brief processing of your IP address is based on the publisher’s legitimate interest in knowing its audience (article 6(1)(f) GDPR). ")}${link('https://www.goatcounter.com/privacy', t('GoatCounter’s privacy policy'))}.</p>` : `<p>${t("No audience measurement is active at the moment.")}</p>`}
+  <h2>${t('Local time and weather')}</h2>
+  <p>${t("When you open a country profile, your browser asks ")}${link('https://open-meteo.com', 'Open-Meteo')}${t(" (a free weather service with no key and no cookies, run from Switzerland) for the location of its capital, then for the time and weather there. Only the capital’s name is sent, never your own location; Open-Meteo says it deletes its server logs after 90 days. The capital’s location is kept on your device, the weather for thirty minutes.")}</p>
   <h2>${t('Hosting')}</h2>
   <p>${t("The site is hosted on GitHub Pages. Like any host, GitHub logs visitors’ IP addresses for security purposes. ")}${link('https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement', t('GitHub’s privacy statement'))}.</p>
   ${site.buttondown ? `<h2>${t('Newsletter')}</h2>
@@ -111,7 +115,7 @@ module.exports = {
   ${site.tally ? `<h2>${t('“Your thoughts?” form')}</h2>
   <p>${t("Answers to the feedback form are collected by Tally and read by the publisher alone. Only leave your email address if you would like a reply. ")}${link('https://tally.so/help/privacy-policy', t('Tally’s privacy policy'))}.</p>` : ''}
   <h2>${t('Links to other sites')}</h2>
-  <p>${t("The sources cited under each story lead to other sites, which apply their own rules. Fonts, the map and flags are served by Diurna itself: no other external resource is loaded.")}</p>
+  <p>${t("The sources cited under each story lead to other sites, which apply their own rules. Fonts, the map and flags are served by Diurna itself: apart from the weather (Open-Meteo) and, when it is active, audience measurement, no external resource is loaded.")}</p>
   <h2>${t('Your rights')}</h2>
   <p>${t("You can ask to access, correct or delete your data, or object to its processing, by writing to ")}${contact(x, false)}${t(". You can also complain to the French data protection authority, the ")}${link('https://www.cnil.fr/en/home', 'CNIL')}.</p>
   <p class="updated">${t('Last updated: ' + UPDATED.en)}</p>`; }
@@ -144,6 +148,7 @@ module.exports = {
     ${row('Taux de change', `${link('https://data.ecb.europa.eu', t('Banque centrale européenne'))}`, 'réutilisation libre avec mention de la source')}
     ${row('Prix du pétrole (Brent)', `${link('https://www.eia.gov', t('Agence américaine d’information sur l’énergie (EIA)'))} ${t('via')} ${link('https://fred.stlouisfed.org', 'FRED')}`, 'domaine public')}
     ${row('Séismes', `${link('https://earthquake.usgs.gov', 'USGS')}`, 'domaine public')}
+    ${row('Heure et météo des capitales', `${link('https://open-meteo.com', 'Open-Meteo.com')}`, 'CC BY 4.0')}
     ${row('Alertes de catastrophes', `${link('https://www.gdacs.org', 'GDACS')} ${t('(Nations unies et Commission européenne)')}`, 'conditions d’utilisation du GDACS')}
     ${row('Dirigeants et régimes', t('vérifiés à chaque édition dans les sources indiquées sur chaque fiche pays'), 'liens fournis')}
   </dl>
@@ -175,6 +180,7 @@ module.exports = {
     ${row('Exchange rates', `${link('https://data.ecb.europa.eu', 'European Central Bank')}`, 'free reuse with attribution')}
     ${row('Oil price (Brent)', `${link('https://www.eia.gov', 'US Energy Information Administration (EIA)')} via ${link('https://fred.stlouisfed.org', 'FRED')}`, 'public domain')}
     ${row('Earthquakes', `${link('https://earthquake.usgs.gov', 'USGS')}`, 'public domain')}
+    ${row('Time and weather in capitals', `${link('https://open-meteo.com', 'Open-Meteo.com')}`, 'CC BY 4.0')}
     ${row('Disaster alerts', `${link('https://www.gdacs.org', 'GDACS')} (United Nations and European Commission)`, 'GDACS terms of use')}
     ${row('Leaders and governments', t('checked for every edition against the sources shown on each country profile'), 'links provided')}
   </dl>
