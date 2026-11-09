@@ -30,8 +30,8 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/', mylist: 'ma-liste/', data: 'donnees/', widget: 'widget/', feeds: 'flux/', changes: 'nouveautes/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/', mylist: 'en/my-list/', data: 'en/open-data/', widget: 'en/widget/', feeds: 'en/feeds/', changes: 'en/whats-new/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/', mylist: 'ma-liste/', data: 'donnees/', widget: 'widget/', feeds: 'flux/', changes: 'nouveautes/', settings: 'reglages/', passport: 'passeport/', game: 'jeu/', weekQuiz: 'semaine/quiz/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/', mylist: 'en/my-list/', data: 'en/open-data/', widget: 'en/widget/', feeds: 'en/feeds/', changes: 'en/whats-new/', settings: 'en/settings/', passport: 'en/passport/', game: 'en/game/', weekQuiz: 'en/week/quiz/' }
 };
 // Politique de sécurité du contenu : seuls les scripts du site (et leurs empreintes en ligne) s'exécutent,
 // et les seules connexions extérieures sont celles annoncées dans la page Confidentialité.
@@ -53,7 +53,7 @@ function withCsp(html) {
 // Navigation quasi instantanée : le navigateur précharge une page du site quand le pointeur s'y attarde (Chrome, Edge).
 const SPEC = JSON.stringify({ prefetch: [{ source: 'document', where: { and: [{ href_matches: `${abs ? new URL(abs + '/').pathname : '/'}*` }, { not: { href_matches: '*.(xml|json|ics|opml|txt|md)' } }, { not: { selector_matches: '[target=_blank], [download]' } }] }, eagerness: 'moderate' }] });
 // Réglages de lecture appliqués avant l'affichage (thème, taille, police, interligne, animations), sans clignotement.
-const PREPAINT = "(function(){try{var d=document.documentElement,g=function(k){var v=localStorage.getItem('tp.'+k);return v?JSON.parse(v):''},th=g('theme');if(th==='auto')th=matchMedia('(prefers-color-scheme: light)').matches?'day':'';if(th==='day')d.setAttribute('data-theme','day');['size','font','lh','motion'].forEach(function(k){var v=g(k);if(v)d.setAttribute('data-'+k,v)})}catch(e){}})();";
+const PREPAINT = "(function(){try{var d=document.documentElement,g=function(k){var v=localStorage.getItem('tp.'+k);return v?JSON.parse(v):''},th=g('theme');if(th==='auto')th=matchMedia('(prefers-color-scheme: light)').matches?'day':'';if(th==='day')d.setAttribute('data-theme','day');['size','font','lh','motion','focus'].forEach(function(k){var v=g(k);if(v)d.setAttribute('data-'+k,v)})}catch(e){}})();";
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
 const datePath = (lang, d) => `${PRE[lang]}${d.replace(/-/g, '/')}/`;
@@ -68,7 +68,7 @@ const dossierPath = (lang, id) => `${PRE[lang]}dossiers/${id}/`;
 
 /* ---------- empreinte des fichiers statiques (cache) ---------- */
 const assetFiles = [
-  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/notfound.js', 'assets/js/mylist.js', 'assets/js/offline.js',
+  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/notfound.js', 'assets/js/mylist.js', 'assets/js/settings.js', 'assets/js/passport.js', 'assets/js/game.js', 'assets/js/offline.js',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/world.json',
   ...fs.readdirSync(path.join(root, 'assets/fonts')).map((f) => 'assets/fonts/' + f)
 ].filter(exists);
@@ -313,9 +313,9 @@ function footer(C, rootRel) {
   return `<footer class="site-foot">
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
-    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.glossary, C.S.glTitle)}${a(P.search, C.S.navSearch)}${a(P.feeds, C.S.feedsTitle)}</div>
+    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.glossary, C.S.glTitle)}${a(P.weekQuiz, C.S.wqPlay)}${a(P.game, C.S.gmTitle)}${a(P.passport, C.S.ppTitle)}${a(P.search, C.S.navSearch)}${a(P.feeds, C.S.feedsTitle)}</div>
     <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.sources, C.S.srcTitle)}${a(P.coverage, C.S.covPageTitle)}${a(P.data, C.S.odTitle)}${a(P.changes, C.S.chTitle)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
-    <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.access, C.S.navAccess)}${a(P.credits, C.S.navCredits)}</div>
+    <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.access, C.S.navAccess)}${a(P.credits, C.S.navCredits)}${a(P.settings, C.S.setTitle)}</div>
   </nav>
 </footer>`;
 }
@@ -643,6 +643,7 @@ function weekPage(C) {
   <ul class="archive">${eds.map((ed) => `<li><a href="${r}${storyPath(C.lang, ed.date, ed.essentials[0].slug)}"><time datetime="${ed.date}">${C.t(C.dmy(ed.date))}</time><span class="h">${C.t(ed.headline)}</span></a></li>`).join('')}</ul>
   <h2>${C.S.weekFigures}</h2>
   <ul class="figs">${eds.flatMap((ed) => ed.essentials.filter((s) => s.figure).map((s) => `<li><a href="${r}${storyPath(C.lang, ed.date, s.slug)}"><b>${C.t(s.figure.value)}</b><span>${C.t(s.figure.label)}</span><em>${flag(s.id, r)}${C.t(C.cname(s.id, s.place))} · ${C.t(C.dm(ed.date))}</em></a></li>`)).slice(0, 12).join('')}</ul>
+  <p class="quiz-cta"><a class="btn" href="${C.rootRel}${FIXED[C.lang].weekQuiz}">${C.S.wqPlay}${ICON.right}</a></p>
 </main>`, scripts: BASE
   });
 }
@@ -1121,6 +1122,83 @@ function dossierPage(C, id, items) {
   });
 }
 
+/* ---------- Appli : réglages, quiz de la semaine, passeport, jeu ---------- */
+function settingsPage(C) {
+  const p = FIXED[C.lang].settings; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.settings, en: FIXED.en.settings }, title: esc(C.S.setTitle + ' — Diurna'), desc: C.t(C.S.setDesc), noindex: true,
+    body: `<main class="page settings">
+  <h1>${C.S.setTitle}</h1>
+  <p class="chapo">${C.t(C.S.setDesc)}</p>
+  <section aria-labelledby="st-prefs"><h2 id="st-prefs">${C.S.prefs}</h2><div id="setPrefs" class="set-prefs"></div></section>
+  <section aria-labelledby="st-lang"><h2 id="st-lang">${C.S.setLang}</h2><p class="langs set-langs"><a class="lang" href="${r}${FIXED.fr.settings}" hreflang="fr" lang="fr"${C.lang === 'fr' ? ' aria-current="true"' : ''}>Français</a><a class="lang" href="${r}${FIXED.en.settings}" hreflang="en" lang="en"${C.lang === 'en' ? ' aria-current="true"' : ''}>English</a></p></section>
+  <section aria-labelledby="st-read"><h2 id="st-read">${C.S.setRead}</h2><dl class="stats" id="setStats"></dl>
+    <p class="more-links"><a href="${r}${FIXED[C.lang].mylist}">${C.S.myList}</a><a href="${r}${FIXED[C.lang].passport}">${C.S.ppTitle}</a></p></section>
+  <section aria-labelledby="st-follow"><h2 id="st-follow">${C.S.setFollow}</h2><ul class="archive" id="setFollow"></ul></section>
+  <section aria-labelledby="st-alerts" id="setAlertsBox"><h2 id="st-alerts">${C.S.setAlerts}</h2><p>${C.t(C.S.setAlertsText)}</p><p><button class="act" type="button" id="setAlertsBtn">${C.S.setAlertsOn}</button></p><p class="set-msg" id="setAlertsMsg" aria-live="polite"></p></section>
+  <section aria-labelledby="st-install"><h2 id="st-install">${C.S.setInstall}</h2><p><button class="install act" type="button" hidden>${ICON.install}${C.S.install}</button></p><ul><li>${C.t(C.S.setInstallIos)}</li><li>${C.t(C.S.setInstallAndroid)}</li><li>${C.t(C.S.setInstallDesk)}</li></ul></section>
+  <section aria-labelledby="st-data"><h2 id="st-data">${C.S.setData}</h2><p>${C.t(C.S.setDataText)}</p>
+    <p class="set-data"><button class="act" type="button" id="setExport">${C.S.setExport}</button><label class="act" for="setImport">${C.S.setImport}</label><input class="vh" type="file" id="setImport" accept="application/json,.json"><button class="act quiet" type="button" id="setClear">${C.S.setClear}</button><button class="act danger" type="button" id="setClearSure" hidden>${C.S.setClearSure}</button></p>
+    <p class="set-msg" id="setDataMsg" aria-live="polite"></p></section>
+</main>`, scripts: [...BASE, 'assets/js/settings.js']
+  });
+}
+function weekQuizPage(C) {
+  const p = FIXED[C.lang].weekQuiz; C.rootRel = rootRelOf(p);
+  const eds = EDS[C.lang].slice(-7), last = eds[eds.length - 1];
+  const rnd = seeded(`semaine-${last.date}-${C.lang}`);
+  const qs = shuffle(eds.flatMap((ed) => shuffle(quizOf(C, ed), seeded(ed.date)).slice(0, 2)), rnd).slice(0, 10);
+  const data = { date: `semaine-${last.date}`, label: C.L('wqLabel', { d: C.dayLong(eds[0].date) }), qs };
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.weekQuiz, en: FIXED.en.weekQuiz },
+    title: esc(C.S.wqTitle + ' — Diurna'), desc: C.t(C.S.wqDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.nav7, FIXED[C.lang].week], [C.S.wqTitle, p]])],
+    body: `<main class="page quiz-page">
+  <p class="edition-line"><b>${C.S.nav7}</b><span>${C.t(C.dmy(eds[0].date))} – ${C.t(C.dmy(last.date))}</span></p>
+  <h1>${C.S.wqTitle}</h1>
+  <p class="chapo">${C.t(C.S.wqDesc)}</p>
+  <div id="quiz" class="quiz" aria-live="polite"></div>
+  <script type="application/json" id="quizData">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
+  <p class="more-links"><a href="${C.rootRel}${FIXED[C.lang].week}">${C.S.nav7}</a><a href="${C.rootRel}${FIXED[C.lang].game}">${C.S.gmTitle}</a></p>
+</main>`, scripts: [...BASE, 'assets/js/quiz.js']
+  });
+}
+function passportPage(C) {
+  const p = FIXED[C.lang].passport; C.rootRel = rootRelOf(p);
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.passport, en: FIXED.en.passport }, title: esc(C.S.ppTitle + ' — Diurna'), desc: C.t(C.S.ppDesc), noindex: true,
+    body: `<main class="page page-wide passport">
+  <h1>${C.S.ppTitle}</h1>
+  <p class="chapo">${C.t(C.S.ppDesc)}</p>
+  <div class="pp-grid"><div class="pp-globe" id="ppGlobe" aria-hidden="true"></div><div><dl class="stats" id="ppStats"></dl><p class="ml-empty" id="ppEmpty" hidden>${C.t(C.S.ppEmpty)}</p></div></div>
+  <h2>${C.S.ppStamps}</h2>
+  <ul class="stamps" id="ppStamps"></ul>
+  <p class="more-links"><a href="${C.rootRel}${FIXED[C.lang].game}">${C.S.gmTitle}</a><a href="${C.rootRel}${FIXED[C.lang].settings}">${C.S.setTitle}</a></p>
+</main>`, scripts: [...VENDOR, 'assets/js/passport.js']
+  });
+}
+function gamePage(C) {
+  const p = FIXED[C.lang].game; C.rootRel = rootRelOf(p);
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.game, en: FIXED.en.game }, title: esc(C.S.gmTitle + ' — Diurna'), desc: C.t(C.S.gmDesc), footer: false,
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.gmTitle, p]])],
+    body: `<main class="reader map-page game-page">
+  <section class="stage" aria-label="Globe">
+    <div class="stage-globe" id="gmGlobe"></div>
+    <div class="zoom">
+      <button id="zin" type="button" aria-label="${esc(C.S.zoomIn)}">${ICON.plus}</button>
+      <button id="zout" type="button" aria-label="${esc(C.S.zoomOut)}">${ICON.minus}</button>
+    </div>
+  </section>
+  <section class="panel map-panel" aria-labelledby="gmH">
+    <h1 id="gmH">${C.S.gmTitle}</h1>
+    <p class="chapo">${C.t(C.S.gmDesc)}</p>
+    <div class="gm-box" id="gmBox" aria-live="polite"></div>
+    <p class="more-links"><a href="${C.rootRel}${FIXED[C.lang].weekQuiz}">${C.S.wqTitle}</a><a href="${C.rootRel}${FIXED[C.lang].passport}">${C.S.ppTitle}</a><a href="${C.rootRel}${FIXED[C.lang].map}">${C.S.navMap}</a></p>
+  </section>
+</main>`, scripts: [...VENDOR, 'assets/js/game.js']
+  });
+}
 /* ---------- Ouverture : Markdown, llms.txt, données ouvertes, widget, flux, nouveautés, security.txt, humans.txt ---------- */
 // Une édition en Markdown, lisible par tous les outils (et par les assistants d'IA).
 function editionMd(lang, ed) {
@@ -1820,8 +1898,35 @@ self.addEventListener('fetch', (e) => {
   }
   e.respondWith(caches.match(req).then((r) => r || fetch(req).then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res; })));
 });
+// Mise en cache automatique de l'édition du matin (appli installée, navigateurs qui le permettent)
+// et, seulement si le lecteur l'a demandé, une notification quand une nouvelle édition paraît.
+const SETTINGS = 'diurna-settings';
+async function settings() { const r = await (await caches.open(PAGES)).match(SETTINGS); return r ? r.json() : {}; }
+async function saveSettings(v) { await (await caches.open(PAGES)).put(SETTINGS, new Response(JSON.stringify(v), { headers: { 'Content-Type': 'application/json' } })); }
+self.addEventListener('periodicsync', (e) => {
+  if (e.tag !== 'diurna-edition') return;
+  e.waitUntil((async () => {
+    const rt = await (await fetch('data/routes.json', { cache: 'no-store' })).json();
+    const st = await settings(), lang = st.lang === 'en' ? 'en' : 'fr';
+    const days = Object.keys(rt[lang] || {}).sort(), d = days[days.length - 1];
+    if (!d) return;
+    const c = await caches.open(PAGES);
+    for (const u of [...Object.values(rt[lang][d]), lang === 'en' ? 'en/' : './']) { try { const r = await fetch(u); if (r.ok) await c.put(new Request(new URL(u, location.href)), r); } catch (_) {} }
+    if (st.notify && st.last !== d && self.registration.showNotification) {
+      let body = '';
+      try { body = (await (await fetch(lang === 'en' ? 'data/en/latest.json' : 'data/latest.json', { cache: 'no-store' })).json()).headline || ''; } catch (_) {}
+      await self.registration.showNotification('Diurna', { body, icon: 'icons/icon-192.png', badge: 'icons/icon-192.png', tag: 'diurna-' + d, data: { url: lang === 'en' ? 'en/' : './' } });
+    }
+    await saveSettings({ ...st, last: d });
+  })());
+});
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close();
+  e.waitUntil(self.clients.openWindow(new URL((e.notification.data && e.notification.data.url) || './', location.href).href));
+});
 self.addEventListener('message', (e) => {
   const d = e.data || {};
+  if (d.type === 'settings') { e.waitUntil(settings().then((st) => saveSettings({ ...st, notify: !!d.notify, lang: d.lang }))); return; }
   if (d.type !== 'save' || !Array.isArray(d.urls)) return;
   e.waitUntil(caches.open(PAGES).then(async (c) => {
     let n = 0;
@@ -1875,6 +1980,8 @@ for (const lang of LANGS) {
   wr(P.mylist + 'index.html', myListPage(C));
   wr(P.data + 'index.html', openDataPage(C)); wr(P.widget + 'index.html', widgetPage(lang)); wr(P.feeds + 'index.html', feedsPage(C)); wr(P.changes + 'index.html', changesPage(C));
   wr(OPML[lang], opml(lang)); wr(P.corrections + 'feed.xml', correctionsFeed(lang));
+  wr(P.settings + 'index.html', settingsPage(C)); wr(P.weekQuiz + 'index.html', weekQuizPage(C)); wr(P.passport + 'index.html', passportPage(C)); wr(P.game + 'index.html', gamePage(C));
+  for (const k of ['weekQuiz', 'game']) SM.push({ path: P[k], alt: { fr: FIXED.fr[k], en: FIXED.en[k] } });
   for (const ed of EDS[lang]) wr(datePath(lang, ed.date) + 'edition.md', editionMd(lang, ed));
   wr(PRE[lang] + 'latest.md', editionMd(lang, latestOf(lang)));
   for (const k of ['data', 'feeds', 'changes']) SM.push({ path: P[k], alt: { fr: FIXED.fr[k], en: FIXED.en[k] } });

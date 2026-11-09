@@ -83,3 +83,21 @@ Secrets GitHub Actions (jamais dans le site) : `BUTTONDOWN_API_KEY` pour dépose
   lettre du jour (`/lettre/`), page Presse, flux JSON et flux par pays, chiffres clés sur À propos.
 - **Confiance** : mises à jour datées (`updates`), page Corrections, sources de référence (`data/sources.json`),
   historique de publication (`data/history.json`), contrôle mensuel des liens (workflow « Liens des archives »).
+
+## Ajouts du 9 novembre (lots 6 à 10)
+
+- **Finition et accessibilité** : réglages de lecture (bouton Aa : thème, taille, police Atkinson Hyperlegible, interligne,
+  animations, globe masqué), mode contraste élevé, page Accessibilité, page 404 bilingue.
+- **Comprendre** : « Les faits » / « L'analyse », encadré Couverture (`data/outlets.json`), « Avant, dans Diurna »
+  (`data/xtra/`), pages Nos sources (`/sources/`), Baromètre de couverture (`/couverture/`), Glossaire (`/glossaire/`),
+  fiches pays et dossiers enrichies, liens entre pays sur la carte, édition en une minute.
+- **Navigation** : palette « Aller à… » (Ctrl K ou /), recherche filtrée et tolérante aux fautes, calendrier des archives,
+  sujet au hasard, progression de lecture, « Garder » et Ma liste (`/ma-liste/`), préchargement et transitions.
+- **Ouverture et sécurité** : `llms.txt`, `edition.md` par jour et `latest.md`, Données ouvertes (`/donnees/`), widget
+  (`/widget/`), Flux et OPML (`/flux/`), flux des corrections, CSP avec empreintes des scripts, `security.txt`,
+  `humans.txt`, Nouveautés (`/nouveautes/`, contenu dans `data/changelog.json`).
+- **Appli et outils** : Réglages (`/reglages/`, export et effacement des données), avis de nouvelle édition,
+  synchronisation périodique et alerte sur demande, quiz de la semaine (`/semaine/quiz/`), passeport (`/passeport/`),
+  jeu « Où est-ce ? » (`/jeu/`).
+- **Contrôles** : workflow « Qualité » (axe-core, validateur Nu du W3C, détecteur Impeccable, `tools/quality.mjs`),
+  workflow « Tests » (`node --test tests/*.test.mjs`).

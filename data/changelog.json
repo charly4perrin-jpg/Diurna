@@ -1,13 +1,202 @@
 {
  "_doc": "Nouveautés du site (page /nouveautes/ et /en/whats-new/), de la plus récente à la plus ancienne. Une entrée par mise en ligne notable : date, titre et liste de changements, en français et en anglais.",
  "entries": [
-  { "date": "2026-11-09", "fr": { "t": "Ouverture et sécurité", "items": ["Fichier llms.txt et version Markdown de chaque édition", "Page Données ouvertes : toutes les données de Diurna, en JSON, en flux et en calendrier", "Widget à intégrer sur un autre site", "Page Flux avec un fichier OPML pour tout importer d'un coup", "Flux des corrections et des mises à jour", "Politique de sécurité du contenu (CSP), security.txt et humans.txt", "Référencement : grandes images, pays concernés et plan des images"] }, "en": { "t": "Openness and security", "items": ["llms.txt file and a Markdown version of every edition", "Open data page: all of Diurna's data, as JSON, feeds and calendars", "A widget to embed on another site", "Feeds page with an OPML file to import everything at once", "Feed of corrections and updates", "Content security policy (CSP), security.txt and humans.txt", "Search: large images, countries involved and image sitemap"] } },
-  { "date": "2026-11-09", "fr": { "t": "Navigation", "items": ["Palette « Aller à… » (Ctrl K ou /)", "Recherche avec filtres et tolérance aux fautes de frappe", "Calendrier des archives et sujet au hasard", "Barre de progression, « Garder » pour plus tard et page Ma liste", "Préchargement des pages et transitions douces", "Édition précédente et suivante, partage enrichi sur ordinateur"] }, "en": { "t": "Navigation", "items": ["“Go to…” palette (Ctrl K or /)", "Search with filters and typo tolerance", "Archive calendar and a random story", "Reading progress, “Save” for later and a My list page", "Page prefetching and smooth transitions", "Previous and next edition, richer sharing on desktop"] } },
-  { "date": "2026-11-09", "fr": { "t": "Comprendre", "items": ["« Les faits » et « L'analyse » séparés", "Encadré Couverture sous chaque sujet", "Épisodes précédents du même dossier", "Pages Nos sources, Baromètre de couverture et Glossaire", "Fiches pays et dossiers enrichies", "Liens entre pays sur la carte, édition en une minute"] }, "en": { "t": "Understanding", "items": ["“The facts” and “The analysis” set apart", "Coverage box under every story", "Earlier episodes of the same running story", "Our sources, Coverage barometer and Glossary pages", "Richer country and running-story pages", "Links between countries on the map, the edition in one minute"] } },
-  { "date": "2026-11-09", "fr": { "t": "Finition et accessibilité", "items": ["Réglages de lecture : thème, taille, police très lisible, interligne, animations", "Contrôle automatique d'accessibilité et de validité HTML à chaque mise en ligne", "Mode contraste élevé, page Accessibilité, page 404 bilingue"] }, "en": { "t": "Polish and accessibility", "items": ["Reading settings: theme, size, highly legible font, line spacing, animations", "Automatic accessibility and HTML checks on every release", "High contrast mode, Accessibility page, bilingual 404 page"] } },
-  { "date": "2026-11-09", "fr": { "t": "Diffusion et appli", "items": ["Diurna en stories et lecture hors connexion", "Carrousel quotidien et légendes pour les réseaux", "Lettre du jour en ligne, page Presse, flux JSON et par pays"] }, "en": { "t": "Sharing and app", "items": ["Diurna as stories and offline reading", "Daily carousel and captions for social networks", "Today's letter online, Press page, JSON and per-country feeds"] } },
-  { "date": "2026-11-09", "fr": { "t": "Revenir chaque jour", "items": ["Quiz du jour, série de lecture, pays suivis", "Agenda à ajouter à son calendrier", "Pages La semaine et Les chiffres, frise des dossiers"] }, "en": { "t": "Coming back every day", "items": ["Daily quiz, reading streak, followed countries", "Agenda to add to your calendar", "The week and The numbers pages, running-story timelines"] } },
-  { "date": "2026-11-09", "fr": { "t": "Le globe et la lecture", "items": ["Page Carte : chaleur sur 7 ou 30 jours, rejeu, jour et nuit, heure et météo des capitales", "Glossaire au fil du texte, écoute, version imprimable, raccourcis clavier", "Mises à jour datées, page Corrections, sources de référence"] }, "en": { "t": "The globe and reading", "items": ["Map page: 7 or 30-day heat, replay, day and night, local time and weather", "Inline glossary, listening, printable version, keyboard shortcuts", "Dated updates, Corrections page, reference sources"] } },
-  { "date": "2026-11-05", "fr": { "t": "Lancement de Diurna", "items": ["Première édition : cinq sujets en trois phrases, un globe, en français et en anglais", "Une adresse par sujet, pages pays et dossiers, recherche, flux RSS et Atom", "Publication contrôlée, page de statut, mesure de performance"] }, "en": { "t": "Diurna launches", "items": ["First edition: five stories in three sentences, a globe, in French and English", "One address per story, country and running-story pages, search, RSS and Atom feeds", "Checked publishing, status page, performance measurement"] } }
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Appli et outils",
+    "items": [
+     "Page Réglages : réglages de lecture, langue, pays suivis, export, import et effacement de tes données",
+     "Avis « Nouvelle édition » quand une édition paraît pendant ta lecture",
+     "Édition du matin gardée hors connexion et alerte sur demande (appli installée)",
+     "Quiz de la semaine, jeu « Où est-ce ? » et ton passeport des pays lus",
+     "Mode concentré : masquer le globe pour lire",
+     "Tests automatiques du site à chaque envoi"
+    ]
+   },
+   "en": {
+    "t": "App and tools",
+    "items": [
+     "Settings page: reading settings, language, followed countries, export, import and erasing of your data",
+     "“New edition” notice when an edition comes out while you read",
+     "Morning edition kept offline and an optional alert (installed app)",
+     "Quiz of the week, “Where is it?” game and your passport of countries read",
+     "Focus mode: hide the globe to read",
+     "Automatic site tests on every push"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Ouverture et sécurité",
+    "items": [
+     "Fichier llms.txt et version Markdown de chaque édition",
+     "Page Données ouvertes : toutes les données de Diurna, en JSON, en flux et en calendrier",
+     "Widget à intégrer sur un autre site",
+     "Page Flux avec un fichier OPML pour tout importer d'un coup",
+     "Flux des corrections et des mises à jour",
+     "Politique de sécurité du contenu (CSP), security.txt et humans.txt",
+     "Référencement : grandes images, pays concernés et plan des images"
+    ]
+   },
+   "en": {
+    "t": "Openness and security",
+    "items": [
+     "llms.txt file and a Markdown version of every edition",
+     "Open data page: all of Diurna's data, as JSON, feeds and calendars",
+     "A widget to embed on another site",
+     "Feeds page with an OPML file to import everything at once",
+     "Feed of corrections and updates",
+     "Content security policy (CSP), security.txt and humans.txt",
+     "Search: large images, countries involved and image sitemap"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Navigation",
+    "items": [
+     "Palette « Aller à… » (Ctrl K ou /)",
+     "Recherche avec filtres et tolérance aux fautes de frappe",
+     "Calendrier des archives et sujet au hasard",
+     "Barre de progression, « Garder » pour plus tard et page Ma liste",
+     "Préchargement des pages et transitions douces",
+     "Édition précédente et suivante, partage enrichi sur ordinateur"
+    ]
+   },
+   "en": {
+    "t": "Navigation",
+    "items": [
+     "“Go to…” palette (Ctrl K or /)",
+     "Search with filters and typo tolerance",
+     "Archive calendar and a random story",
+     "Reading progress, “Save” for later and a My list page",
+     "Page prefetching and smooth transitions",
+     "Previous and next edition, richer sharing on desktop"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Comprendre",
+    "items": [
+     "« Les faits » et « L'analyse » séparés",
+     "Encadré Couverture sous chaque sujet",
+     "Épisodes précédents du même dossier",
+     "Pages Nos sources, Baromètre de couverture et Glossaire",
+     "Fiches pays et dossiers enrichies",
+     "Liens entre pays sur la carte, édition en une minute"
+    ]
+   },
+   "en": {
+    "t": "Understanding",
+    "items": [
+     "“The facts” and “The analysis” set apart",
+     "Coverage box under every story",
+     "Earlier episodes of the same running story",
+     "Our sources, Coverage barometer and Glossary pages",
+     "Richer country and running-story pages",
+     "Links between countries on the map, the edition in one minute"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Finition et accessibilité",
+    "items": [
+     "Réglages de lecture : thème, taille, police très lisible, interligne, animations",
+     "Contrôle automatique d'accessibilité et de validité HTML à chaque mise en ligne",
+     "Mode contraste élevé, page Accessibilité, page 404 bilingue"
+    ]
+   },
+   "en": {
+    "t": "Polish and accessibility",
+    "items": [
+     "Reading settings: theme, size, highly legible font, line spacing, animations",
+     "Automatic accessibility and HTML checks on every release",
+     "High contrast mode, Accessibility page, bilingual 404 page"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Diffusion et appli",
+    "items": [
+     "Diurna en stories et lecture hors connexion",
+     "Carrousel quotidien et légendes pour les réseaux",
+     "Lettre du jour en ligne, page Presse, flux JSON et par pays"
+    ]
+   },
+   "en": {
+    "t": "Sharing and app",
+    "items": [
+     "Diurna as stories and offline reading",
+     "Daily carousel and captions for social networks",
+     "Today's letter online, Press page, JSON and per-country feeds"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Revenir chaque jour",
+    "items": [
+     "Quiz du jour, série de lecture, pays suivis",
+     "Agenda à ajouter à son calendrier",
+     "Pages La semaine et Les chiffres, frise des dossiers"
+    ]
+   },
+   "en": {
+    "t": "Coming back every day",
+    "items": [
+     "Daily quiz, reading streak, followed countries",
+     "Agenda to add to your calendar",
+     "The week and The numbers pages, running-story timelines"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-09",
+   "fr": {
+    "t": "Le globe et la lecture",
+    "items": [
+     "Page Carte : chaleur sur 7 ou 30 jours, rejeu, jour et nuit, heure et météo des capitales",
+     "Glossaire au fil du texte, écoute, version imprimable, raccourcis clavier",
+     "Mises à jour datées, page Corrections, sources de référence"
+    ]
+   },
+   "en": {
+    "t": "The globe and reading",
+    "items": [
+     "Map page: 7 or 30-day heat, replay, day and night, local time and weather",
+     "Inline glossary, listening, printable version, keyboard shortcuts",
+     "Dated updates, Corrections page, reference sources"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-05",
+   "fr": {
+    "t": "Lancement de Diurna",
+    "items": [
+     "Première édition : cinq sujets en trois phrases, un globe, en français et en anglais",
+     "Une adresse par sujet, pages pays et dossiers, recherche, flux RSS et Atom",
+     "Publication contrôlée, page de statut, mesure de performance"
+    ]
+   },
+   "en": {
+    "t": "Diurna launches",
+    "items": [
+     "First edition: five stories in three sentences, a globe, in French and English",
+     "One address per story, country and running-story pages, search, RSS and Atom feeds",
+     "Checked publishing, status page, performance measurement"
+    ]
+   }
+  }
  ]
 }

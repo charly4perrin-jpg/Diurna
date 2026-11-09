@@ -52,7 +52,7 @@
     if (e.target.closest('[data-again]')) { i = 0; score = 0; question(); return; }
     const sh = e.target.closest('[data-share-score]');
     if (sh) {
-      const r = await share(L('quizShareText', { n: score, t: D.qs.length, d: D.label }), location.href);
+      const r = await share(L('quizShareText', { n: score, t: D.qs.length, d: D.label }), location.href, sh);
       if (r === 'copied') sh.querySelector('span').textContent = L('shareCopied');
     }
   });

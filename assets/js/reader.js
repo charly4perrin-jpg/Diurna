@@ -206,6 +206,8 @@
     const all = store.get('read', {}), list = new Set(all[ed.date] || []);
     if (list.has(rank)) return;
     list.add(rank); all[ed.date] = [...list];
+    const st = ed.essentials.find((x) => x.rank === rank), pp = store.get('passport', {});
+    if (st && !pp[st.id]) { pp[st.id] = ed.date; store.set('passport', pp); }
     Object.keys(all).sort().slice(0, -14).forEach((k) => delete all[k]);
     store.set('read', all);
     if (list.size === ed.essentials.length) TP.track('edition-lue', ed.date);

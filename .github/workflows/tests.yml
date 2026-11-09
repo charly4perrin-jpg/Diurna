@@ -1,0 +1,27 @@
+# Tests du site construit (node --test) : textes FR/EN, pages, liens internes, sécurité, données et flux.
+# Tourne à chaque envoi sur main ; un échec n'empêche jamais la publication, il signale un problème à corriger.
+name: Tests
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: tests
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Tests
+        run: node --test tests/*.test.mjs

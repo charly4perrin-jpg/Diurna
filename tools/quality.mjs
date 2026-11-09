@@ -25,7 +25,7 @@ for (const lang of ['fr', 'en']) {
   const d = Object.keys(r).sort().pop();
   pages.push(r[d][1], r[d][3], r[d].bref, r[d].bref + 'quiz/');
 }
-const extra = ['accessibilite/', 'en/accessibility/', 'sources/', 'couverture/', 'en/coverage/', 'glossaire/', 'pays/israel/', 'dossiers/', 'ma-liste/', 'donnees/', 'flux/', 'nouveautes/', 'presse/'].filter((p) => fs.existsSync(path.join(root, p, 'index.html')));
+const extra = ['accessibilite/', 'en/accessibility/', 'sources/', 'couverture/', 'en/coverage/', 'glossaire/', 'pays/israel/', 'dossiers/', 'ma-liste/', 'donnees/', 'flux/', 'nouveautes/', 'presse/', 'reglages/', 'semaine/quiz/', 'passeport/', 'jeu/', 'en/game/'].filter((p) => fs.existsSync(path.join(root, p, 'index.html')));
 pages.push(...extra);
 
 if (want('--axe')) {

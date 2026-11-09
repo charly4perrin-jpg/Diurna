@@ -229,14 +229,15 @@
     size: [['', 'szN'], ['l', 'szL'], ['xl', 'szXL']],
     font: [['', 'fontPress'], ['legible', 'fontLegible']],
     lh: [['', 'lhN'], ['airy', 'lhAiry']],
-    motion: [['', 'mtAuto'], ['reduce', 'mtReduce']]
+    motion: [['', 'mtAuto'], ['reduce', 'mtReduce']],
+    focus: [['', 'focusOff'], ['on', 'focusOn']]
   };
   const pref = (k) => store.get(k, '') || (k === 'theme' ? 'night' : '');
   const themeMeta = () => { const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = root.dataset.theme === 'day' ? '#F6F2EA' : '#070C1D'; };
   function applyPrefs() {
     const th = pref('theme');
     if (th === 'day' || (th === 'auto' && mqLight.matches)) root.dataset.theme = 'day'; else delete root.dataset.theme;
-    for (const k of ['size', 'font', 'lh', 'motion']) { const v = pref(k); if (v) root.dataset[k] = v; else delete root.dataset[k]; }
+    for (const k of ['size', 'font', 'lh', 'motion', 'focus']) { const v = pref(k); if (v) root.dataset[k] = v; else delete root.dataset[k]; }
     themeMeta();
     document.dispatchEvent(new CustomEvent('tp:theme'));
   }
@@ -249,12 +250,19 @@
   if (mqLight.addEventListener) mqLight.addEventListener('change', () => { if (pref('theme') === 'auto') applyPrefs(); });
   let panel = null, opener = null;
   const syncPanel = () => panel.querySelectorAll('input').forEach((i) => { i.checked = pref(i.name.slice(3)) === i.value; });
+  const prefsFields = () => Object.entries(PREFS).map(([k, opts]) => `<fieldset><legend>${t(L('prefs_' + k))}</legend><div class="pseg">${opts.map(([v, lab]) => `<label><input type="radio" name="pf-${k}" value="${v}"><span>${t(L(lab))}</span></label>`).join('')}</div></fieldset>`).join('');
+  // Réglages affichés dans une page (Réglages) plutôt que dans le panneau.
+  function mountPrefs(host) {
+    host.innerHTML = prefsFields();
+    host.querySelectorAll('input').forEach((i) => { i.checked = pref(i.name.slice(3)) === i.value; });
+    host.addEventListener('change', (e) => { const i = e.target; if (i.name && i.name.indexOf('pf-') === 0) setPref(i.name.slice(3), i.value); });
+  }
   function buildPanel() {
     const el = document.createElement('div');
     el.className = 'prefs'; el.id = 'prefs'; el.hidden = true;
     el.setAttribute('role', 'dialog'); el.setAttribute('aria-labelledby', 'prefs-h');
     el.innerHTML = `<h2 id="prefs-h">${t(L('prefs'))}</h2><button class="p-close" type="button" aria-label="${esc(L('close'))}">${icon('close')}</button>` +
-      Object.entries(PREFS).map(([k, opts]) => `<fieldset><legend>${t(L('prefs_' + k))}</legend><div class="pseg">${opts.map(([v, lab]) => `<label><input type="radio" name="pf-${k}" value="${v}"><span>${t(L(lab))}</span></label>`).join('')}</div></fieldset>`).join('') +
+      prefsFields() +
       `<p class="p-note">${t(L('prefsNote'))} <button class="p-reset" type="button">${t(L('prefsReset'))}</button></p>`;
     el.addEventListener('change', (e) => { const i = e.target; if (i.name && i.name.indexOf('pf-') === 0) setPref(i.name.slice(3), i.value); });
     el.querySelector('.p-close').addEventListener('click', closePanel);
@@ -403,6 +411,24 @@
     if (e.target.closest('[data-print]')) window.print();
   });
 
+  // Une nouvelle édition est parue pendant que la page était ouverte (ou depuis son chargement) : on le signale.
+  function checkNewEdition() {
+    const el = document.querySelector('.edition-line[data-date]') || (document.body.dataset.latest === '1' ? document.body : null);
+    const shown = el && el.dataset.date;
+    if (!shown || document.querySelector('.new-ed')) return;
+    fetch(ROOT + DATA + 'latest.json', { cache: 'no-cache' }).then((r) => (r.ok ? r.json() : null)).then((ed) => {
+      if (!ed || !ed.date || ed.date <= shown || document.querySelector('.new-ed')) return;
+      const box = document.createElement('div');
+      box.className = 'new-ed'; box.setAttribute('role', 'status');
+      box.innerHTML = `<span>${t(L('newEd', { d: dayLong(ed.date) }))}</span><a class="btn" href="${ROOT}${LANG === 'en' ? 'en/' : ''}">${t(L('newEdGo'))}${icon('right')}</a><button type="button" class="p-close" aria-label="${esc(L('close'))}">${icon('close')}</button>`;
+      box.querySelector('.p-close').addEventListener('click', () => box.remove());
+      document.body.appendChild(box);
+      track('module/nouvelle-edition', ed.date);
+    }).catch(() => {});
+  }
+  global.addEventListener('load', () => setTimeout(checkNewEdition, 4000));
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') checkNewEdition(); });
+
   // L'édition affichée est-elle en retard ? (après 7 h 45, heure de Paris, celle du jour devrait être là)
   function stale(date) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());
@@ -413,5 +439,5 @@
   const methodHref = () => ROOT + (LANG === 'en' ? 'en/method/' : 'methode/');
   const aiLabel = () => `<span class="ai-label">${t(L('aiLabel'))} · <a href="${methodHref()}">${t(L('aiMore'))}</a></span>`;
 
-  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay, pref, setPref, reducedMotion, paintSaved, savedList, randomStory, openPalette };
+  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay, pref, setPref, reducedMotion, paintSaved, savedList, randomStory, openPalette, mountPrefs, PREFS };
 })(window);
