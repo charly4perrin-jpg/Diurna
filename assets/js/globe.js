@@ -3,7 +3,7 @@
 (function (global) {
   'use strict';
   const NS = 'http://www.w3.org/2000/svg';
-  const reduce = global.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reduce = global.matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.dataset.motion === 'reduce';
   const coarse = () => global.matchMedia('(pointer: coarse)').matches;
 
   function make(name, attrs, parent) {
@@ -53,7 +53,7 @@
       const box = this.box = document.createElement('div');
       box.className = 'globe' + (this.o.drag ? ' can-drag' : '');
       host.appendChild(box);
-      const svg = this.svg = make('svg', { role: 'img', 'aria-label': this.o.label || 'Globe' }, box);
+      const svg = this.svg = make('svg', { role: 'group', 'aria-label': this.o.label || 'Globe' }, box);
       const defs = make('defs', {}, svg);
       const og = make('radialGradient', { id: 'oceanGrad', cx: '36%', cy: '30%', r: '78%' }, defs);
       make('stop', { offset: '0', style: 'stop-color: var(--ocean-hi)' }, og);

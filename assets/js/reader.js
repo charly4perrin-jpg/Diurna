@@ -284,7 +284,7 @@
         <div class="story-actions">
           <button class="act" type="button" data-share>${icon('share')}<span>${L('share')}</span></button>
           ${'speechSynthesis' in window ? `<button class="act" type="button" data-listen>${icon('listen')}<span>${L('listen')}</span></button>` : ''}
-          <button class="act act-size" type="button" data-textsize aria-label="${esc(L('textSize'))}"><span aria-hidden="true">A<small>A</small></span></button>
+          <button class="act act-size" type="button" data-prefs aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(L('prefs'))}"><span aria-hidden="true">A<small>a</small></span></button>
           <a class="act quiet" href="${printUrl()}">${L('printable')}</a>
           ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${L('feedback')}</a>` : ''}
           ${issue ? `<a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${L('reportError')}</a>` : ''}

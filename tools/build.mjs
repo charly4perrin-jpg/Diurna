@@ -30,9 +30,11 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/' }
 };
+// Réglages de lecture appliqués avant l'affichage (thème, taille, police, interligne, animations), sans clignotement.
+const PREPAINT = "(function(){try{var d=document.documentElement,g=function(k){var v=localStorage.getItem('tp.'+k);return v?JSON.parse(v):''},th=g('theme');if(th==='auto')th=matchMedia('(prefers-color-scheme: light)').matches?'day':'';if(th==='day')d.setAttribute('data-theme','day');['size','font','lh','motion'].forEach(function(k){var v=g(k);if(v)d.setAttribute('data-'+k,v)})}catch(e){}})();";
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
 const datePath = (lang, d) => `${PRE[lang]}${d.replace(/-/g, '/')}/`;
@@ -47,7 +49,7 @@ const dossierPath = (lang, id) => `${PRE[lang]}dossiers/${id}/`;
 
 /* ---------- empreinte des fichiers statiques (cache) ---------- */
 const assetFiles = [
-  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/offline.js',
+  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/notfound.js', 'assets/js/offline.js',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/world.json',
   ...fs.readdirSync(path.join(root, 'assets/fonts')).map((f) => 'assets/fonts/' + f)
 ].filter(exists);
@@ -204,7 +206,7 @@ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',
 
 /* ---------- Gabarit commun ---------- */
 function page(C, o) {
-  const p = o.path, rootRel = rootRelOf(p), other = OTHER[C.lang];
+  const p = o.path, rootRel = o.rootRel != null ? o.rootRel : rootRelOf(p), other = OTHER[C.lang];
   const alt = o.alt || {};
   const altOther = alt[other] != null ? alt[other] : FIXED[other].home;
   const og = o.og || `${abs}/${C.lang === 'en' ? 'og-en.png' : 'og.png'}`;
@@ -220,13 +222,13 @@ function page(C, o) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${o.title}</title>
-<script>(function(){try{var d=document.documentElement,th=localStorage.getItem('tp.theme'),ts=localStorage.getItem('tp.size');if(th)d.setAttribute('data-theme',JSON.parse(th));if(ts)d.setAttribute('data-size',JSON.parse(ts));}catch(e){}})();</script>
+<script>${PREPAINT}</script>
 <script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='${C.lang}'&&!navigator.webdriver&&!/bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent))location.replace('${rootRel}${altOther}'+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="${o.desc}">
 ${o.noindex ? '<meta name="robots" content="noindex, follow">' : ''}
 ${site.googleVerification ? `<meta name="google-site-verification" content="${esc(site.googleVerification)}">` : ''}
 <meta name="theme-color" content="#070C1D">
-${abs ? `<link rel="canonical" href="${abs}/${o.canonical != null ? o.canonical : p}">` : ''}
+${abs && !o.noCanonical ? `<link rel="canonical" href="${abs}/${o.canonical != null ? o.canonical : p}">` : ''}
 ${hreflang}
 <link rel="manifest" href="${rootRel}${manifest}">
 <link rel="icon" href="${rootRel}icons/favicon.svg" type="image/svg+xml">
@@ -260,16 +262,16 @@ ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src
 <body data-root="${rootRel}" data-repo="${esc(REPO)}"${FB ? ` data-fb="${esc(FB)}"` : ''}${o.data ? ' ' + o.data : ''}>
 <a class="skip" href="#main">${C.S.skip}</a>
 <header class="site-head">
-  <a class="mark" href="${rootRel}${P.home}" aria-label="${esc(C.S.home)}"><span class="mark-name" aria-hidden="true">DIURNA<span class="mark-dot">.</span></span><span class="mark-sub">${C.t(C.S.sub)}</span></a>
-  <nav class="nav" aria-label="${esc(C.S.navMain)}">
+  <a class="mark" href="${rootRel}${P.home}"><span class="mark-name" aria-hidden="true">DIURNA<span class="mark-dot">.</span></span><span class="vh">Diurna — </span><span class="mark-sub">${C.t(C.S.sub)}</span></a>
+${o.bare ? '' : `  <nav class="nav" aria-label="${esc(C.S.navMain)}">
     ${nav(editionHome(C.lang), C.S.navEdition, 'edition')}
     ${nav(P.map, C.S.navMap, 'map')}
     ${nav(P.archives, C.S.navArchives, 'archives', true)}
     ${nav(P.method, C.S.navMethod, 'method', true)}
     <span class="langs"><span class="lang-self" aria-current="true">${C.S.langSelf}</span><a class="lang" href="${rootRel}${altOther}" hreflang="${other}" lang="${other}" aria-label="${esc(C.S.langSwitch)}">${C.S.langOther}</a></span>
-    <button class="theme-toggle" type="button" data-theme-toggle aria-label="${esc(C.S.themeDay)}" data-day="${esc(C.S.themeDay)}" data-night="${esc(C.S.themeNight)}">${ICON.sun}${ICON.moon}</button>
+    <button class="prefs-btn" type="button" data-prefs aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(C.S.prefs)}" title="${esc(C.S.prefs)}"><span aria-hidden="true">A<small>a</small></span></button>
     <button class="install" type="button" hidden>${ICON.install}${C.S.install}</button>
-  </nav>
+  </nav>`}
 </header>
 ${o.body.replace(/<main(?![^>]*\bid=)/, '<main id="main"')}
 ${o.footer === false ? '' : footer(C, rootRel)}
@@ -287,7 +289,7 @@ function footer(C, rootRel) {
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
     <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
     <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
-    <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.credits, C.S.navCredits)}</div>
+    <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.access, C.S.navAccess)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
 </footer>`;
 }
@@ -405,7 +407,7 @@ function actionsSSR(C, ed, s) {
   return `<div class="story-actions">
           <button class="act" type="button" data-share>${ICON.share}<span>${C.S.share}</span></button>
           <button class="act" type="button" data-listen hidden>${ICON.listen}<span>${C.S.listen}</span></button>
-          <button class="act act-size" type="button" data-textsize aria-label="${esc(C.S.textSize)}"><span aria-hidden="true">A<small>A</small></span></button>
+          <button class="act act-size" type="button" data-prefs aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(C.S.prefs)}"><span aria-hidden="true">A<small>a</small></span></button>
           <a class="act quiet" href="${C.rootRel}${printPath(C.lang, ed.date)}">${C.S.printable}</a>
           ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${C.S.feedback}</a>` : ''}
           <a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${C.S.reportError}</a>
@@ -1070,7 +1072,7 @@ function searchPage(C) {
     path: p, alt: { fr: FIXED.fr.search, en: FIXED.en.search }, title: esc(C.S.searchTitle + ' — Diurna'), desc: C.t(C.S.searchDesc), noindex: true,
     body: `<main class="page">
   <h1>${C.S.searchTitle}</h1>
-  <form class="search" role="search" action="" method="get">
+  <form class="search" role="search" action="./" method="get">
     <label class="sr" for="q">${C.S.searchTitle}</label>
     <input id="q" name="q" type="search" autocomplete="off" placeholder="${esc(C.S.searchPh)}">
   </form>
@@ -1089,13 +1091,36 @@ function method(C) {
     body: `<main class="page">${METHOD[C.lang](C.t)}</main>`, scripts: BASE
   });
 }
+/* ---------- Page 404 (une seule pour tout le site : GitHub Pages ne sert que /404.html) ---------- */
+// Les liens sont absolus (chemin du site), car la page s'affiche à n'importe quelle profondeur.
+// Les deux langues sont dans la page ; assets/js/notfound.js garde la bonne et propose l'édition du jour demandé.
+function notFoundPage() {
+  const C = makeCtx('fr'), BP = abs ? new URL(abs + '/').pathname : '/';
+  C.rootRel = BP;
+  const block = (lang) => {
+    const S = I18N[lang], P = FIXED[lang], L = makeCtx(lang);
+    return `<section class="nf" lang="${lang}" data-nf="${lang}">
+    <p class="rubric">404</p>
+    <h1>${L.t(S.nfTitle)}</h1>
+    <p class="chapo">${L.t(S.nfLead)}</p>
+    <p class="nf-date" hidden></p>
+    <form class="nf-search" action="${BP}${P.search}" method="get" role="search"><label class="vh" for="nf-q-${lang}">${L.t(S.nfSearch)}</label><input id="nf-q-${lang}" name="q" type="search" placeholder="${esc(L.typo(S.nfSearch))}" autocomplete="off"><button class="btn" type="submit">${L.t(S.nfGo)}</button></form>
+    <ul class="nf-links"><li><a href="${BP}${P.home}">${L.t(S.nfToday)}</a></li><li><a href="${BP}${P.map}">${S.navMap}</a></li><li><a href="${BP}${P.archives}">${S.navArchives}</a></li><li><a href="${BP}${countriesIndex(lang)}">${S.navCountries}</a></li><li><a href="${BP}${dossiersIndex(lang)}">${S.navDossiers}</a></li></ul>
+  </section>`;
+  };
+  return page(C, {
+    path: '404.html', rootRel: BP, noCanonical: true, noindex: true, bare: true, footer: false,
+    title: `${esc(I18N.fr.nfTitle)} · ${esc(I18N.en.nfTitle)} — Diurna`, desc: C.t(I18N.fr.nfLead),
+    body: `<main class="page nf-page">${block('fr')}${block('en')}</main>`, scripts: [...BASE, 'assets/js/notfound.js']
+  });
+}
 const PAGES = require('./pages-content.cjs');
 const TODO = { fr: 'À REMPLIR', en: 'TO FILL IN' };
 function infoPage(C, key) {
   const p = FIXED[C.lang][key]; C.rootRel = rootRelOf(p);
   const x = { t: C.t, site: { ...site, repo: REPO }, r: C.rootRel, P: { ...FIXED[C.lang], credits: FIXED[C.lang].credits }, lang: C.lang,
     todo: (label) => `<mark class="todo">${C.t(`[${TODO[C.lang]}${C.lang === 'fr' ? ' : ' : ': '}${label}]`)}</mark>` };
-  const T = { about: ['aboutTitle', 'aboutDesc'], legal: ['legalTitle', 'legalDesc'], privacy: ['privacyTitle', 'privacyDesc'], credits: ['creditsTitle', 'creditsDesc'] }[key];
+  const T = { about: ['aboutTitle', 'aboutDesc'], legal: ['legalTitle', 'legalDesc'], privacy: ['privacyTitle', 'privacyDesc'], credits: ['creditsTitle', 'creditsDesc'], access: ['accessTitle', 'accessDesc'] }[key];
   return page(C, {
     path: p, alt: { fr: FIXED.fr[key], en: FIXED.en[key] }, title: esc(C.S[T[0]] + ' — Diurna'), desc: C.t(C.S[T[1]]),
     jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S[T[0]], p]])],
@@ -1390,7 +1415,7 @@ for (const lang of LANGS) {
   wr(P.map + 'index.html', mapPage(C)); wr(dataOf(lang, 'map.json'), JSON.stringify(mapData(lang)));
   SM.push({ path: P.map, alt: { fr: FIXED.fr.map, en: FIXED.en.map } });
   wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });
-  for (const key of ['about', 'legal', 'privacy', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
+  for (const key of ['about', 'legal', 'privacy', 'access', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
   wr(dataOf(lang, 'search.json'), JSON.stringify(searchIndex(lang)));
   SM.push({ path: P.home, lastmod: latestOf(lang).updated.slice(0, 10), alt: { fr: FIXED.fr.home, en: FIXED.en.home } });
   SM.push({ path: P.archives, alt: { fr: FIXED.fr.archives, en: FIXED.en.archives } }, { path: P.method, alt: { fr: FIXED.fr.method, en: FIXED.en.method } });
@@ -1400,6 +1425,7 @@ for (const lang of LANGS) {
   for (const [id, items] of COL[lang].byDossier) { const p = dossierPath(lang, id); wr(p + 'index.html', dossierPage(C, id, items)); SM.push({ path: p, alt: dossierAlt(lang, id) ? { [lang]: p, [OTHER[lang]]: dossierAlt(lang, id) } : null }); count++; }
 }
 wr('data/routes.json', JSON.stringify(routes));
+wr('404.html', notFoundPage());
 const FEEDS = writeFeeds();
 const { sitemap, news, robots } = sitemaps(SM);
 wr('sitemap.xml', sitemap); wr('news-sitemap.xml', news); wr('robots.txt', robots);

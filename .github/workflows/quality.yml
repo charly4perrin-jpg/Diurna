@@ -1,0 +1,44 @@
+# Contrôle qualité du site public, après chaque mise en ligne et à la demande :
+# accessibilité (axe-core, WCAG 2.2 AA), validité HTML (validateur Nu du W3C) et détecteur de design Impeccable.
+# Le résultat s'affiche dans le résumé du workflow. Il ne bloque jamais la publication.
+name: Qualité
+
+on:
+  workflow_run:
+    workflows: ["Publier"]
+    types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - 'tools/quality.mjs'
+      - '.github/workflows/quality.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: quality
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Outils de contrôle
+        run: npm install --no-save --no-audit --no-fund playwright@1.49.1 axe-core@4.14.0 vnu-jar@26.10.12 && npx playwright install --with-deps chromium
+      - name: Attendre la mise en ligne
+        run: sleep 60
+      - name: Accessibilité et validité HTML
+        run: node tools/quality.mjs "$(node -p "require('./site.json').url")/"
+      - name: Détecteur de design (Impeccable)
+        continue-on-error: true
+        run: |
+          echo '## Détecteur Impeccable' >> "$GITHUB_STEP_SUMMARY"
+          npx --yes impeccable@4.8.0 detect --github index.html en/index.html a-propos/index.html carte/index.html assets/css/site.css 2>&1 | tee impeccable.txt || true
+          tail -n 1 impeccable.txt >> "$GITHUB_STEP_SUMMARY"

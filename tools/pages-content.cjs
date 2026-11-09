@@ -121,6 +121,56 @@ module.exports = {
   <p class="updated">${t('Last updated: ' + UPDATED.en)}</p>`; }
   },
 
+  access: {
+    fr: (x) => { const { t } = x; return `
+  <h1>Accessibilité</h1>
+  <p class="chapo">${t("Diurna veut pouvoir être lu par tout le monde : au clavier, avec un lecteur d'écran, en gros caractères, en contraste élevé ou sans animation. Voici ce qui est fait, ce qui ne l'est pas encore, et comment nous signaler un problème.")}</p>
+  <h2>${t('Notre objectif')}</h2>
+  <p>${t("Diurna vise le niveau AA des règles internationales d'accessibilité du web (WCAG 2.2). Le site n'a pas fait l'objet d'un audit de conformité par un organisme indépendant : nous ne déclarons donc pas de taux de conformité. En revanche, chaque mise en ligne est contrôlée automatiquement par axe-core (accessibilité) et par le validateur HTML du W3C, et le résultat est public dans l'onglet Actions du dépôt.")}</p>
+  <h2>${t('Ce qui est fait')}</h2>
+  <ul>
+    <li>${t("Tout se fait au clavier : lien « Aller au contenu », ordre de tabulation logique, contour de focus visible, raccourcis (touche ? sur une édition pour les afficher).")}</li>
+    <li>${t("Le bouton « Aa » ouvre les réglages de lecture : thème nuit, jour ou celui de l'appareil, trois tailles de texte, une police très lisible (Atkinson Hyperlegible, conçue pour les personnes malvoyantes), un interligne aéré et la réduction des animations.")}</li>
+    <li>${t("Le réglage « réduire les animations » de l'appareil est respecté : le globe ne tourne plus seul et les stories n'avancent plus seules.")}</li>
+    <li>${t("Le mode contraste élevé de Windows est pris en charge : boutons, contours et globe restent visibles.")}</li>
+    <li>${t("Chaque sujet peut être écouté (bouton Écouter, voix de l'appareil) et existe en version imprimable.")}</li>
+    <li>${t("Le globe a toujours un équivalent en texte : le sommaire de l'édition, les fiches pays et la recherche donnent accès aux mêmes informations. Les graphiques des modules portent une description de leurs valeurs pour les lecteurs d'écran.")}</li>
+    <li>${t("Les couleurs du texte respectent les contrastes minimaux, dans le thème nuit comme dans le thème jour. Une couleur n'est jamais la seule façon de transmettre une information : le rang de chaque sujet est aussi écrit en chiffre.")}</li>
+  </ul>
+  <h2>${t('Limites connues')}</h2>
+  <ul>
+    <li>${t("Faire tourner le globe demande une souris, un pavé tactile ou le doigt ; les boutons de zoom et les pastilles des sujets restent accessibles au clavier.")}</li>
+    <li>${t("Les sources citées mènent vers des sites extérieurs dont l'accessibilité ne dépend pas de Diurna.")}</li>
+    <li>${t("La lecture à voix haute dépend des voix installées sur l'appareil.")}</li>
+  </ul>
+  <h2>${t('Signaler un problème')}</h2>
+  <p>${t('Si un contenu ou une fonction te reste inaccessible, dis-le-nous : ')}<a href="${`https://github.com/${x.site.repo}/issues/new?template=erreur.yml`}" rel="noopener" target="_blank">${t('formulaire de signalement')}</a>${t(' ou ')}${x.site.contact ? `<a href="mailto:${x.site.contact}">${x.site.contact}</a>` : x.todo('adresse e-mail de contact')}${t('. Nous te proposerons une solution ou le contenu sous une autre forme.')}</p>
+  <p class="updated">${t('Dernière mise à jour : ' + UPDATED.fr)}</p>`; },
+    en: (x) => { const { t } = x; return `
+  <h1>Accessibility</h1>
+  <p class="chapo">${t("Diurna aims to be readable by everyone: with a keyboard, with a screen reader, in large print, in high contrast or without animation. Here is what is done, what is not yet, and how to report a problem.")}</p>
+  <h2>${t('Our goal')}</h2>
+  <p>${t("Diurna aims for level AA of the international web accessibility guidelines (WCAG 2.2). The site has not been audited for conformance by an independent body, so we do not claim a conformance rate. Every release is, however, checked automatically with axe-core (accessibility) and the W3C HTML validator, and the result is public in the repository's Actions tab.")}</p>
+  <h2>${t('What is done')}</h2>
+  <ul>
+    <li>${t("Everything works with a keyboard: a “Skip to content” link, a logical tab order, a visible focus outline and shortcuts (press ? on an edition to see them).")}</li>
+    <li>${t("The “Aa” button opens the reading settings: night, day or device theme, three text sizes, a highly legible font (Atkinson Hyperlegible, designed for low-vision readers), relaxed line spacing and reduced animations.")}</li>
+    <li>${t("Your device's “reduce motion” setting is respected: the globe no longer spins on its own and stories no longer advance on their own.")}</li>
+    <li>${t("Windows high contrast mode is supported: buttons, outlines and the globe stay visible.")}</li>
+    <li>${t("Every story can be listened to (Listen button, using your device's voice) and has a printable version.")}</li>
+    <li>${t("The globe always has a text equivalent: the edition summary, the country pages and search give access to the same information. Module charts carry a description of their values for screen readers.")}</li>
+    <li>${t("Text colours meet minimum contrast in both night and day themes. Colour is never the only way information is conveyed: each story's rank is also written as a number.")}</li>
+  </ul>
+  <h2>${t('Known limits')}</h2>
+  <ul>
+    <li>${t("Spinning the globe needs a mouse, a trackpad or a finger; the zoom buttons and the story markers remain keyboard-accessible.")}</li>
+    <li>${t("Cited sources lead to external sites whose accessibility does not depend on Diurna.")}</li>
+    <li>${t("Reading aloud depends on the voices installed on your device.")}</li>
+  </ul>
+  <h2>${t('Report a problem')}</h2>
+  <p>${t('If any content or feature is inaccessible to you, let us know: ')}<a href="${`https://github.com/${x.site.repo}/issues/new?template=erreur.yml`}" rel="noopener" target="_blank">${t('report form')}</a>${t(' or ')}${x.site.contact ? `<a href="mailto:${x.site.contact}">${x.site.contact}</a>` : x.todo('contact email address')}${t('. We will offer a fix or the content in another form.')}</p>
+  <p class="updated">${t('Last updated: ' + UPDATED.en)}</p>`; }
+  },
   credits: {
     fr: (x) => { const { t } = x; const row = (what, who, lic) => `<div><dt>${t(what)}</dt><dd>${who} · <span class="lic">${t(lic)}</span></dd></div>`; return `
   <h1>Crédits et licences</h1>
@@ -129,6 +179,7 @@ module.exports = {
   <dl class="credits">
     ${row('Newsreader (titres et textes)', `${link('https://github.com/productiontype/Newsreader', 'Production Type')}`, 'SIL Open Font License 1.1')}
     ${row('Archivo (interface)', `${link('https://github.com/Omnibus-Type/Archivo', 'Omnibus-Type')}`, 'SIL Open Font License 1.1')}
+    ${row('Atkinson Hyperlegible Next (réglage « Très lisible »)', `${link('https://github.com/googlefonts/atkinson-hyperlegible-next', 'Braille Institute')} ${t('via')} ${link('https://fontsource.org', 'Fontsource')}`, 'SIL Open Font License 1.1')}
   </dl>
   <h2>${t('Carte et drapeaux')}</h2>
   <dl class="credits">
@@ -161,6 +212,7 @@ module.exports = {
   <dl class="credits">
     ${row('Newsreader (headlines and text)', `${link('https://github.com/productiontype/Newsreader', 'Production Type')}`, 'SIL Open Font License 1.1')}
     ${row('Archivo (interface)', `${link('https://github.com/Omnibus-Type/Archivo', 'Omnibus-Type')}`, 'SIL Open Font License 1.1')}
+    ${row('Atkinson Hyperlegible Next (“Highly legible” setting)', `${link('https://github.com/googlefonts/atkinson-hyperlegible-next', 'Braille Institute')} ${t('via')} ${link('https://fontsource.org', 'Fontsource')}`, 'SIL Open Font License 1.1')}
   </dl>
   <h2>${t('Map and flags')}</h2>
   <dl class="credits">

@@ -20,7 +20,7 @@ const pick = (html, re, n = 4) => [...html.matchAll(re)].slice(0, n).map((m) => 
 
 line(`== Site : ${base}`);
 const pages = ['/', '/en/', '/globe/', '/en/edition/', '/archives/', '/pays/', '/dossiers/', '/recherche/', '/en/country/', '/en/dossiers/', '/methode/', '/status/',
-  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/', '/corrections/', '/en/corrections/',
+  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/', '/corrections/', '/en/corrections/', '/accessibilite/', '/en/accessibility/',
   '/carte/', '/en/map/', '/semaine/', '/en/week/', '/chiffres/', '/en/figures/', '/lettre/', '/en/newsletter/', '/presse/', '/en/press/', '/hors-ligne/', '/quiz/',
   '/feed.json', '/en/feed.json', '/agenda.ics', '/en/agenda.ics', '/manifest.webmanifest', '/data/glossary.json', '/data/map.json', '/icons/screens/mobile-home.webp',
   '/status.json', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', '/feed.xml', '/atom.xml', '/en/feed.xml', '/all.xml', ...(site.checkPaths || [])];
@@ -89,6 +89,13 @@ for (const p of [...pages, ...stories]) {
     line(`      validateur W3C : ${valid === 'true' ? 'VALIDE' : valid === 'false' ? 'INVALIDE' : `pas de réponse (HTTP ${v.status || v.error})`}${errs !== undefined ? `, ${errs} erreur(s), ${warns} avertissement(s)` : ''}`);
     for (const m of v.text.matchAll(/<(?:m:)?text>([^<]*)<\/(?:m:)?text>/g)) line(`        · ${m[1]}`);
   }
+}
+
+line('== Page introuvable (404)');
+for (const p of ['/2026/11/09/une-page-qui-n-existe-pas/', '/en/nothing-here/']) {
+  const r = await get(base + p, { follow: false });
+  const nf = (r.text.match(/data-nf="(fr|en)"/g) || []).length;
+  line(`${r.status || r.error}  ${p}  ${nf === 2 ? 'page 404 de Diurna (français et anglais)' : 'page 404 générique'}${/notfound\.js/.test(r.text) ? ', script de suggestion présent' : ''}`);
 }
 
 for (const old of legacy) {

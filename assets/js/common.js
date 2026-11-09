@@ -196,27 +196,65 @@
     } catch (_) { label.textContent = L('offlineSave'); b.disabled = false; }
   });
 
-  // Mode jour / nuit (la nuit reste le défaut) et taille du texte : réglages gardés sur l'appareil.
+  // Réglages de lecture : thème, taille du texte, police, interligne, animations. Gardés sur l'appareil seulement.
+  // Le script en tête de page applique déjà ces réglages avant l'affichage ; ici, on les change.
   const root = document.documentElement;
+  const mqLight = global.matchMedia('(prefers-color-scheme: light)');
+  const PREFS = {
+    theme: [['night', 'thNight'], ['day', 'thDay'], ['auto', 'thAuto']],
+    size: [['', 'szN'], ['l', 'szL'], ['xl', 'szXL']],
+    font: [['', 'fontPress'], ['legible', 'fontLegible']],
+    lh: [['', 'lhN'], ['airy', 'lhAiry']],
+    motion: [['', 'mtAuto'], ['reduce', 'mtReduce']]
+  };
+  const pref = (k) => store.get(k, '') || (k === 'theme' ? 'night' : '');
   const themeMeta = () => { const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = root.dataset.theme === 'day' ? '#F6F2EA' : '#070C1D'; };
-  const themeLabel = () => document.querySelectorAll('[data-theme-toggle]').forEach((b) => b.setAttribute('aria-label', root.dataset.theme === 'day' ? b.dataset.night : b.dataset.day));
-  themeMeta(); themeLabel();
-  const SIZES = ['', 'l', 'xl'];
+  function applyPrefs() {
+    const th = pref('theme');
+    if (th === 'day' || (th === 'auto' && mqLight.matches)) root.dataset.theme = 'day'; else delete root.dataset.theme;
+    for (const k of ['size', 'font', 'lh', 'motion']) { const v = pref(k); if (v) root.dataset[k] = v; else delete root.dataset[k]; }
+    themeMeta();
+    document.dispatchEvent(new CustomEvent('tp:theme'));
+  }
+  const reducedMotion = () => root.dataset.motion === 'reduce' || global.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function setPref(k, v) {
+    if (!v || (k === 'theme' && v === 'night')) { try { localStorage.removeItem('tp.' + k); } catch (_) {} } else store.set(k, v);
+    applyPrefs(); track('module/reglages', k + ':' + (v || 'defaut'));
+  }
+  themeMeta();
+  if (mqLight.addEventListener) mqLight.addEventListener('change', () => { if (pref('theme') === 'auto') applyPrefs(); });
+  let panel = null, opener = null;
+  const syncPanel = () => panel.querySelectorAll('input').forEach((i) => { i.checked = pref(i.name.slice(3)) === i.value; });
+  function buildPanel() {
+    const el = document.createElement('div');
+    el.className = 'prefs'; el.id = 'prefs'; el.hidden = true;
+    el.setAttribute('role', 'dialog'); el.setAttribute('aria-labelledby', 'prefs-h');
+    el.innerHTML = `<h2 id="prefs-h">${t(L('prefs'))}</h2><button class="p-close" type="button" aria-label="${esc(L('close'))}">${icon('close')}</button>` +
+      Object.entries(PREFS).map(([k, opts]) => `<fieldset><legend>${t(L('prefs_' + k))}</legend><div class="pseg">${opts.map(([v, lab]) => `<label><input type="radio" name="pf-${k}" value="${v}"><span>${t(L(lab))}</span></label>`).join('')}</div></fieldset>`).join('') +
+      `<p class="p-note">${t(L('prefsNote'))} <button class="p-reset" type="button">${t(L('prefsReset'))}</button></p>`;
+    el.addEventListener('change', (e) => { const i = e.target; if (i.name && i.name.indexOf('pf-') === 0) setPref(i.name.slice(3), i.value); });
+    el.querySelector('.p-close').addEventListener('click', closePanel);
+    el.querySelector('.p-reset').addEventListener('click', () => { Object.keys(PREFS).forEach((k) => { try { localStorage.removeItem('tp.' + k); } catch (_) {} }); applyPrefs(); syncPanel(); });
+    document.body.appendChild(el);
+    return el;
+  }
+  function openPanel(btn) {
+    panel = panel || buildPanel(); syncPanel(); opener = btn; panel.hidden = false;
+    document.querySelectorAll('[data-prefs]').forEach((b) => b.setAttribute('aria-expanded', 'true'));
+    (panel.querySelector('input:checked') || panel.querySelector('input')).focus();
+  }
+  function closePanel() {
+    if (!panel || panel.hidden) return;
+    panel.hidden = true;
+    document.querySelectorAll('[data-prefs]').forEach((b) => b.setAttribute('aria-expanded', 'false'));
+    if (opener && document.contains(opener)) opener.focus();
+  }
   document.addEventListener('click', (e) => {
-    if (e.target.closest('[data-theme-toggle]')) {
-      const day = root.dataset.theme !== 'day';
-      if (day) root.dataset.theme = 'day'; else delete root.dataset.theme;
-      store.set('theme', day ? 'day' : null); if (!day) try { localStorage.removeItem('tp.theme'); } catch (_) {}
-      themeMeta(); themeLabel(); track('module/theme', day ? 'jour' : 'nuit');
-      document.dispatchEvent(new CustomEvent('tp:theme'));
-    }
-    if (e.target.closest('[data-textsize]')) {
-      const next = SIZES[(SIZES.indexOf(root.dataset.size || '') + 1) % SIZES.length];
-      if (next) root.dataset.size = next; else delete root.dataset.size;
-      if (next) store.set('size', next); else try { localStorage.removeItem('tp.size'); } catch (_) {}
-      track('module/taille-texte', next || 'normal');
-    }
+    const b = e.target.closest('[data-prefs]');
+    if (b) { e.preventDefault(); if (panel && !panel.hidden) closePanel(); else openPanel(b); return; }
+    if (panel && !panel.hidden && !e.target.closest('.prefs')) closePanel();
   });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && panel && !panel.hidden) { e.stopImmediatePropagation(); closePanel(); } }, true);
   document.addEventListener('submit', (e) => { if (e.target.matches && e.target.matches('[data-newsletter]')) track('inscription-newsletter', LANG); });
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     global.addEventListener('load', () => navigator.serviceWorker.register(ROOT + 'sw.js').catch(() => {}));
@@ -232,5 +270,5 @@
   const methodHref = () => ROOT + (LANG === 'en' ? 'en/method/' : 'methode/');
   const aiLabel = () => `<span class="ai-label">${t(L('aiLabel'))} · <a href="${methodHref()}">${t(L('aiMore'))}</a></span>`;
 
-  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay };
+  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay, pref, setPref, reducedMotion };
 })(window);

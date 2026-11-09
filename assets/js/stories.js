@@ -6,7 +6,7 @@
   const host = document.getElementById('stories'), raw = document.getElementById('storiesData');
   if (!host || !raw) return;
   const D = JSON.parse(raw.textContent), N = D.slides.length, DUR = 9000;
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches || document.documentElement.dataset.motion === 'reduce';
   let i = 0, t0 = 0, paused = false, elapsed = 0, raf = 0;
   const flagImg = (f) => (f ? `<img class="flag" src="${D.root}assets/flags/${f}" alt="" width="28" height="21">` : '');
 
