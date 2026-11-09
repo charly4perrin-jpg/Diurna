@@ -174,6 +174,28 @@
   });
   document.addEventListener('DOMContentLoaded', paintFollow);
 
+  // Garder les 7 dernières éditions hors connexion (à la demande du lecteur seulement).
+  document.addEventListener('click', async (e) => {
+    const b = e.target.closest('[data-offline-save]');
+    if (!b || !('serviceWorker' in navigator)) return;
+    const reg = await navigator.serviceWorker.ready.catch(() => null);
+    if (!reg || !reg.active) return;
+    const label = b.querySelector('span');
+    label.textContent = L('offlineSaving'); b.disabled = true;
+    try {
+      const rt = await json('data/routes.json');
+      const days = Object.keys(rt[LANG] || {}).sort().slice(-7);
+      const urls = days.flatMap((d) => Object.values(rt[LANG][d])).map((p) => ROOT + p);
+      urls.push(ROOT + (LANG === 'en' ? 'en/' : ''));
+      navigator.serviceWorker.addEventListener('message', function on(ev) {
+        if (!ev.data || ev.data.type !== 'saved') return;
+        navigator.serviceWorker.removeEventListener('message', on);
+        label.textContent = L('offlineSaved', { n: ev.data.n }); track('module/hors-ligne', String(ev.data.n));
+      });
+      reg.active.postMessage({ type: 'save', urls });
+    } catch (_) { label.textContent = L('offlineSave'); b.disabled = false; }
+  });
+
   // Mode jour / nuit (la nuit reste le défaut) et taille du texte : réglages gardés sur l'appareil.
   const root = document.documentElement;
   const themeMeta = () => { const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = root.dataset.theme === 'day' ? '#F6F2EA' : '#070C1D'; };

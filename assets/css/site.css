@@ -903,3 +903,46 @@ a.step, a.nr { text-decoration: none; }
 /* ---------- Partager un passage ---------- */
 .quote-btn { position: absolute; z-index: 80; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px; border-radius: 999px; border: 0; background: var(--ink); color: var(--night); font: 650 .84rem/1 var(--sans); box-shadow: 0 10px 28px rgba(0, 0, 0, .4); cursor: pointer; }
 .quote-btn .ico { width: 16px; height: 16px; }
+
+/* ---------- Diurna en stories ---------- */
+.stories-page body, html.stories-page body { overflow: hidden; }
+.stories-page .site-head, .stories-page .skip { display: none; }
+.stories { position: fixed; inset: 0; z-index: 50; background: var(--night); display: flex; flex-direction: column; padding: calc(12px + env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) calc(16px + env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+.st-bars { display: flex; gap: 4px; }
+.st-bars span { flex: 1; height: 3px; border-radius: 3px; background: var(--line-2); overflow: hidden; }
+.st-bars i { display: block; height: 100%; width: 0; background: var(--ink); }
+.st-close { position: absolute; right: max(16px, env(safe-area-inset-right, 0px)); top: calc(26px + env(safe-area-inset-top, 0px)); width: 44px; height: 44px; display: grid; place-items: center; border-radius: 50%; color: var(--ink); font: 400 1.8rem/1 var(--sans); text-decoration: none; background: var(--night-1); z-index: 2; }
+.st-stage { flex: 1; display: flex; align-items: center; justify-content: center; user-select: none; -webkit-user-select: none; cursor: pointer; }
+.st-body { width: 100%; max-width: 560px; display: flex; flex-direction: column; gap: 16px; padding: 24px 4px; }
+.st-in { animation: st-in .45s var(--ease) both; }
+@keyframes st-in { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.st-body h1 { margin: 0; font: 700 clamp(1.9rem, 1.3rem + 3vw, 2.8rem)/1.08 var(--serif); letter-spacing: -.01em; text-wrap: balance; }
+.st-text { margin: 0; font: 400 1.12rem/1.55 var(--serif); color: var(--ink-2); }
+.st-mark { margin: 0; font: 600 1rem/1 var(--serif); letter-spacing: .22em; }
+.st-mark span { color: var(--c1); letter-spacing: 0; }
+.st-chips { list-style: none; margin: 8px 0 0; padding: 0; display: grid; gap: 10px; }
+.st-chips li { display: flex; align-items: center; gap: 10px; font: 650 .9rem/1 var(--sans); letter-spacing: .08em; text-transform: uppercase; color: var(--sc); }
+.st-chips .flag, .st-body .rubric .flag { width: 24px; border-radius: 3px; }
+.st-fig { margin: 6px 0 0; padding-top: 14px; border-top: 2px solid var(--ink); display: grid; gap: 6px; }
+.st-fig b { font: 700 2.6rem/1 var(--serif); color: var(--sc, var(--c2)); }
+.st-fig span { font: 500 .95rem/1.4 var(--sans); color: var(--ink-2); }
+.st-more { margin: 6px 0 0; }
+.st-ai { margin: 0; font: 500 .74rem/1.4 var(--sans); color: var(--ink-3); }
+.st-end { align-items: flex-start; }
+
+/* ---------- Chiffres clés, presse, lettre, hors connexion ---------- */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); gap: 12px; margin: 8px 0 6px; }
+.stats > div { padding: 16px; border-radius: 14px; background: var(--night-1); border: 1px solid var(--line); display: flex; flex-direction: column-reverse; gap: 6px; }
+.stats dt { font: 500 .82rem/1.35 var(--sans); color: var(--ink-3); }
+.stats dd { margin: 0; font: 700 2rem/1 var(--serif); color: var(--ink); }
+.stats-since { font: 500 .82rem/1.4 var(--sans); color: var(--ink-3); }
+.press-dl { padding-left: 1.2em; }
+.press-dl li { margin: 6px 0; }
+.page code { font: 500 .88rem/1.5 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--ink-2); word-break: break-word; }
+.letter-story { padding: 18px 0; border-top: 1px solid var(--line); }
+.letter-story h2 { margin: 6px 0; font: 700 1.3rem/1.25 var(--serif); }
+.letter-story h2 a { color: var(--ink); text-decoration: none; }
+.letter-story h2 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.letter-story p { margin: 6px 0; }
+.letter-fig b { color: var(--sc, var(--c2)); font: 700 1.2rem/1 var(--serif); margin-right: 6px; }
+.offline-save { margin: 14px 0 0; }

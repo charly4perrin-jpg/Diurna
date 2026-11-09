@@ -30,14 +30,15 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/' }
 };
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
 const datePath = (lang, d) => `${PRE[lang]}${d.replace(/-/g, '/')}/`;
 const storyPath = (lang, d, slug) => `${datePath(lang, d)}${slug}/`;
 const quizPath = (lang, d) => `${datePath(lang, d)}quiz/`;
+const storiesPath = (lang, d) => `${datePath(lang, d)}stories/`;
 const printPath = (lang, d) => `${datePath(lang, d)}${lang === 'en' ? 'print' : 'imprimer'}/`;
 const countriesIndex = (lang) => (lang === 'en' ? 'en/country/' : 'pays/');
 const dossiersIndex = (lang) => `${PRE[lang]}dossiers/`;
@@ -46,7 +47,7 @@ const dossierPath = (lang, id) => `${PRE[lang]}dossiers/${id}/`;
 
 /* ---------- empreinte des fichiers statiques (cache) ---------- */
 const assetFiles = [
-  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js',
+  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/offline.js',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/world.json',
   ...fs.readdirSync(path.join(root, 'assets/fonts')).map((f) => 'assets/fonts/' + f)
 ].filter(exists);
@@ -72,6 +73,12 @@ const ICON = {
   cal: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v5M9.5 15.5h5"/></svg>',
   star: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/></svg>'
 };
+// Captures d'écran (manifeste et page Presse), générées par tools/screens.mjs.
+const SCREENS = [
+  { src: 'icons/screens/mobile-home.webp', sizes: '780x1688', form: 'narrow', label: { fr: 'L’accueil sur téléphone', en: 'The home page on a phone' } },
+  { src: 'icons/screens/mobile-story.webp', sizes: '780x1688', form: 'narrow', label: { fr: 'Un sujet sur téléphone', en: 'A story on a phone' } },
+  { src: 'icons/screens/desktop-edition.webp', sizes: '1440x900', form: 'wide', label: { fr: 'L’édition sur ordinateur', en: 'The edition on a computer' } }
+].filter((x) => fs.existsSync(path.join(root, x.src)));
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const utc = (d) => { const p = String(d).split('-').map(Number); return Date.UTC(p[0], (p[1] || 1) - 1, p[2] || 1); };
 const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
@@ -225,6 +232,7 @@ ${hreflang}
 <link rel="icon" href="${rootRel}icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${rootRel}icons/apple-touch-icon.png">
 <link rel="alternate" type="application/rss+xml" title="Diurna" href="${rootRel}${PRE[C.lang]}feed.xml">
+<link rel="alternate" type="application/feed+json" title="Diurna" href="${rootRel}${PRE[C.lang]}feed.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Diurna">
@@ -278,7 +286,7 @@ function footer(C, rootRel) {
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
     <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
-    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
+    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
     <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
 </footer>`;
@@ -414,7 +422,8 @@ function briefSSR(C, ed) {
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${C.S.comingUp}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${C.t(C.S.endNote)}</p>
-        <p class="quiz-cta"><a class="btn" href="${r}${quizPath(C.lang, ed.date)}">${C.S.quizStart}${ICON.right}</a></p>
+        <p class="quiz-cta"><a class="btn" href="${r}${quizPath(C.lang, ed.date)}">${C.S.quizStart}${ICON.right}</a> <a class="link-quiet" href="${r}${storiesPath(C.lang, ed.date)}">${C.S.stories}</a></p>
+        <p class="offline-save"><button class="act" type="button" data-offline-save>${ICON.install}<span>${C.S.offlineSave}</span></button></p>
         <p class="print-link"><a class="link-quiet" href="${r}${printPath(C.lang, ed.date)}">${ICON.print}${C.S.printable}</a> · <a class="link-quiet" href="${r}${PRE[C.lang]}agenda.ics">${ICON.cal}${C.S.calAll}</a></p>
         ${yesterdayBlock(C, ed)}
         ${newsletterForm(C, 'bref')}
@@ -437,7 +446,7 @@ function readerPage(C, ed, rank) {
   const desc = C.t(s ? s.standfirst : ed.standfirst);
   const edLabel = C.typo(C.L('editionOf', { d: C.dayLong(ed.date) }));
   const jsonld = [crumbs([['Diurna', FIXED[C.lang].home], [edLabel, datePath(C.lang, ed.date)], ...(s ? [[C.cname(s.id, s.place), p]] : [])])];
-  const og = s ? ogFor(C.lang, ed.date, rank) : null;
+  const og = ogFor(C.lang, ed.date, s ? rank : 0);
   if (s) {
     jsonld.unshift({
       '@context': 'https://schema.org', '@type': 'NewsArticle', '@id': `${abs}/${p}#article`,
@@ -611,6 +620,118 @@ function figuresPage(C) {
   });
 }
 
+/* ---------- Chiffres clés, calculés à chaque construction ---------- */
+function stats(lang) {
+  const eds = EDS.fr, host = (u) => { try { return new URL(u).hostname.replace(/^www\./, '').replace(/^(en|fr|edition|news|amp)\./, ''); } catch (_) { return ''; } };
+  const ids = new Set(), outlets = new Set();
+  let stories = 0;
+  for (const ed of eds) for (const s of ed.essentials) { stories++; ids.add(s.id); (s.sources || []).forEach((x) => outlets.add(host(x.url))); (ed.brief || []).forEach((b) => b.id && ids.add(b.id)); }
+  outlets.delete('');
+  return { editions: eds.length, stories, countries: ids.size, outlets: outlets.size, since: eds[0] ? eds[0].date : null };
+}
+function statsBlock(C) {
+  const st = stats(C.lang);
+  return `<dl class="stats">
+    <div><dt>${C.t(C.S.statEd)}</dt><dd>${C.int(st.editions)}</dd></div>
+    <div><dt>${C.t(C.S.statStories)}</dt><dd>${C.int(st.stories)}</dd></div>
+    <div><dt>${C.t(C.S.statCountries)}</dt><dd>${C.int(st.countries)}</dd></div>
+    <div><dt>${C.t(C.S.statOutlets)}</dt><dd>${C.int(st.outlets)}</dd></div>
+  </dl>${st.since ? `<p class="stats-since">${C.t(C.L('statSince', { d: C.dayLong(st.since) }))}</p>` : ''}`;
+}
+
+/* ---------- Diurna en stories (plein écran, mobile d'abord) ---------- */
+function storiesPage(C, ed) {
+  const p = storiesPath(C.lang, ed.date); C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const slides = [
+    { k: 'cover', head: C.typo(ed.headline), text: C.typo(ed.standfirst), chips: ed.essentials.map((s) => ({ rank: s.rank, flag: countries[s.id] && countries[s.id].flag, name: C.typo(C.cname(s.id, s.place)) })) },
+    ...ed.essentials.map((s) => ({ k: 'story', rank: s.rank, flag: countries[s.id] && countries[s.id].flag, name: C.typo(C.cname(s.id, s.place)), head: C.typo(s.title), text: C.typo(s.standfirst), fv: s.figure ? C.typo(s.figure.value) : '', fl: s.figure ? C.typo(s.figure.label) : '', url: storyPath(C.lang, ed.date, s.slug) })),
+    { k: 'end', head: C.S.storiesEnd, quiz: quizPath(C.lang, ed.date), ed: storyPath(C.lang, ed.date, ed.essentials[0].slug) }
+  ];
+  return page(C, {
+    path: p, alt: { fr: storiesPath('fr', ed.date), en: BYDATE.en.has(ed.date) ? storiesPath('en', ed.date) : null }, canonical: storyPath(C.lang, ed.date, ed.essentials[0].slug),
+    title: esc(C.typo(C.L('storiesTitle', { d: C.dayLong(ed.date) })) + ' — Diurna'), desc: C.t(ed.standfirst), noindex: true, cls: 'stories-page', footer: false,
+    og: ogFor(C.lang, ed.date, 0) || undefined,
+    body: `<main class="stories" id="stories" data-close="${r}${storyPath(C.lang, ed.date, ed.essentials[0].slug)}" aria-roledescription="carrousel" aria-label="${esc(C.typo(C.L('storiesTitle', { d: C.dayLong(ed.date) })))}"></main>
+<script type="application/json" id="storiesData">${JSON.stringify({ slides, root: r, ai: C.typo(C.S.aiLabel), read: C.S.storiesRead, quiz: C.S.quizStart, close: C.S.storiesClose, ed: C.S.readEdition }).replace(/</g, '\\u003c')}</script>`,
+    scripts: [...BASE, 'assets/js/stories.js']
+  });
+}
+
+/* ---------- Hors connexion ---------- */
+function offlinePage(C) {
+  const p = FIXED[C.lang].offline; C.rootRel = rootRelOf(p);
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.offline, en: FIXED.en.offline }, title: esc(C.S.offlineTitle + ' — Diurna'), desc: C.t(C.S.offlineDesc), noindex: true,
+    body: `<main class="page">
+  <h1>${C.S.offlineTitle}</h1>
+  <p class="chapo">${C.t(C.S.offlineDesc)}</p>
+  <h2>${C.S.offlineList}</h2>
+  <ul class="archive" id="offList"><li class="mine-none">${C.t(C.S.offlineNone)}</li></ul>
+</main>`, scripts: [...BASE, 'assets/js/offline.js']
+  });
+}
+
+/* ---------- La lettre du jour, à lire en ligne ---------- */
+function letterPage(C) {
+  const ed = latestOf(C.lang), own = BYDATE[C.lang].has(ed.date), lg = own ? C.lang : 'fr';
+  const p = FIXED[C.lang].letter; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.letter, en: FIXED.en.letter }, title: esc(C.S.letterTitle + ' — Diurna'), desc: C.t(C.S.letterDesc),
+    body: `<main class="page letter"${own ? '' : ' lang="fr"'}>
+  <p class="rubric">${C.S.letterTitle}</p>
+  <p class="edition-line"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span></p>
+  <h1>${C.t(ed.headline)}</h1>
+  <p class="chapo">${C.t(ed.standfirst)}</p>
+  ${ed.essentials.map((s) => `
+  <section class="letter-story c${s.rank}">
+    <p class="rubric"><span class="rank">${s.rank}</span>${flag(s.id, r)}${C.t(C.cname(s.id, s.place))}</p>
+    <h2><a href="${r}${storyPath(lg, ed.date, s.slug)}">${C.t(s.title)}</a></h2>
+    <p>${C.t(s.standfirst)}</p>
+    ${s.figure ? `<p class="letter-fig"><b>${C.t(s.figure.value)}</b> ${C.t(s.figure.label)}</p>` : ''}
+  </section>`).join('')}
+  ${(ed.brief || []).length ? `<h2>${C.S.inBrief}</h2><ul class="brief">${ed.brief.map((b) => `<li><b>${flag(b.id, r)}${C.t(b.place)}</b>${C.t(b.text)}</li>`).join('')}</ul>` : ''}
+  <p class="ai-label">${C.t(C.S.aiLabel)} · <a href="${r}${FIXED[C.lang].method}">${C.t(C.S.aiMore)}</a></p>
+  ${newsletterForm(C, 'letter')}
+</main>`, scripts: BASE
+  });
+}
+
+/* ---------- Presse ---------- */
+function pressPage(C) {
+  const p = FIXED[C.lang].press; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const fr = C.lang === 'fr';
+  const short = fr ? 'Diurna est un quotidien international bref et gratuit : chaque matin, cinq sujets expliqués en trois phrases, et un globe pour les situer.'
+    : 'Diurna is a short, free daily briefing on world affairs: five stories every morning, each explained in three sentences, with a globe to place them on.';
+  const long = fr ? 'Diurna sélectionne chaque matin les cinq sujets internationaux du jour en croisant les unes des grandes rédactions, et les explique en trois phrases, avec le contexte, les chiffres et les sources. Il s’adresse aux lecteurs qui veulent comprendre le monde sans y passer une heure. Les textes sont rédigés par une intelligence artificielle (Claude, d’Anthropic) qui suit une charte éditoriale publique et cite ses sources ; le site est gratuit, sans publicité et sans cookie, en français et en anglais.'
+    : 'Every morning, Diurna picks the day’s five international stories by cross-checking the front pages of the major newsrooms, and explains them in three sentences, with context, figures and sources. It is for readers who want to understand the world without spending an hour on it. The texts are written by an artificial intelligence (Claude, by Anthropic) that follows a public editorial charter and cites its sources; the site is free, ad-free and cookie-free, in French and English.';
+  const cite = fr ? `Diurna, « titre du sujet », édition du JJ mois AAAA, ${abs}/…` : `Diurna, “story title”, edition of DD Month YYYY, ${abs}/…`;
+  const dl = [['icons/favicon.svg', fr ? 'Logo « D. » (SVG)' : '“D.” logo (SVG)'], ['icons/icon-512.png', fr ? 'Icône 512 × 512 (PNG)' : 'Icon 512 × 512 (PNG)'], [C.lang === 'en' ? 'og-en.png' : 'og.png', fr ? 'Image de présentation 1200 × 630 (PNG)' : 'Share image 1200 × 630 (PNG)'], ...SCREENS.map((sc) => [sc.src, (fr ? 'Capture : ' : 'Screenshot: ') + sc.label[C.lang]])];
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.press, en: FIXED.en.press }, title: esc(C.S.pressTitle + ' — Diurna'), desc: C.t(C.S.pressDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.pressTitle, p]])],
+    body: `<main class="page page-info">
+  <h1>${C.S.pressTitle}</h1>
+  <p class="chapo">${C.t(C.S.pressDesc)}</p>
+  <h2>${C.S.pressShort}</h2><p>${C.t(short)}</p>
+  <h2>${C.S.pressLong}</h2><p>${C.t(long)}</p>
+  <h2>${C.S.pressFacts}</h2>${statsBlock(C)}
+  <h2>${C.S.pressAssets}</h2>
+  <ul class="press-dl">${dl.map(([f, l]) => `<li><a href="${r}${f}" download>${C.t(l)}</a></li>`).join('')}</ul>
+  <h2>${C.S.pressCite}</h2><p><code>${esc(C.typo(cite))}</code></p>
+  <h2>${C.S.pressContact}</h2><p>${site.contact ? `<a href="mailto:${esc(site.contact)}">${esc(site.contact)}</a>` : `<mark class="todo">${C.t(C.lang === 'fr' ? '[À REMPLIR : adresse e-mail de contact]' : '[TO FILL IN: contact email address]')}</mark>`}</p>
+</main>`, scripts: BASE
+  });
+}
+
+/* ---------- Adresse stable du quiz du jour ---------- */
+function quizRedirect(C) {
+  const p = FIXED[C.lang].quiz, r = rootRelOf(p), ed = latestOf(C.lang), lg = BYDATE[C.lang].has(ed.date) ? C.lang : 'fr', to = quizPath(lg, ed.date);
+  return `<!doctype html><html lang="${C.lang}"><head><meta charset="utf-8"><title>Diurna</title><meta name="robots" content="noindex, follow">
+${abs ? `<link rel="canonical" href="${abs}/${to}">` : ''}<meta http-equiv="refresh" content="0; url=${r}${to}">
+<script>location.replace('${r}${to}');</script></head><body><p><a href="${r}${to}">Diurna →</a></p></body></html>
+`;
+}
+
 /* ---------- Version imprimable d'une édition ---------- */
 function printPage(C, ed) {
   const p = printPath(C.lang, ed.date); C.rootRel = rootRelOf(p); const r = C.rootRel;
@@ -668,6 +789,7 @@ function home(C) {
       ${sponsorLine(C)}
       <div class="actions rise rise-4">
         <a class="btn" href="${url(ed.essentials[0])}">${C.S.readEdition}${ICON.right}</a>
+        <a class="link-quiet" href="${r}${storiesPath(lg, ed.date)}">${C.S.stories}</a>
         <a class="link-quiet" href="${r}${quizPath(lg, ed.date)}">${C.S.quiz}</a>
         <a class="link-quiet" href="#sommaire">${C.S.contents}</a>
       </div>
@@ -697,7 +819,7 @@ function home(C) {
   </section>
 </main>`;
   return page(C, {
-    path: p, alt: { fr: FIXED.fr.home, en: FIXED.en.home }, title: esc(`Diurna — ${C.typo(ed.headline)}`), desc: C.t(ed.standfirst), nav: 'home',
+    path: p, alt: { fr: FIXED.fr.home, en: FIXED.en.home }, title: esc(`Diurna — ${C.typo(ed.headline)}`), desc: C.t(ed.standfirst), nav: 'home', og: ogFor(lg, ed.date, 0) || undefined,
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'WebSite', '@id': `${abs}/#website`, name: 'Diurna', url: `${abs}/${p}`, inLanguage: C.lang, description: C.S.sub, publisher: { '@id': `${abs}/#organization` },
         potentialAction: { '@type': 'SearchAction', target: { '@type': 'EntryPoint', urlTemplate: searchTarget }, 'query-input': 'required name=search_term_string' } },
@@ -811,6 +933,7 @@ function countryPage(C, id, items) {
   </div>
   ${idBand(C, { id, place: name }).replace('<details class="idband">', '<details class="idband" open>')}
   ${listItems(C, items)}
+  <p class="more-links"><a href="feed.xml" type="application/rss+xml">${C.S.navFeed}</a><a href="${C.rootRel}${FIXED[C.lang].map}?${C.lang === 'en' ? 'country' : 'pays'}=${id}">${C.S.navMap}</a></p>
 </main>`, scripts: [...VENDOR, 'assets/js/live.js', 'assets/js/locator.js']
   });
 }
@@ -976,7 +1099,7 @@ function infoPage(C, key) {
   return page(C, {
     path: p, alt: { fr: FIXED.fr[key], en: FIXED.en[key] }, title: esc(C.S[T[0]] + ' — Diurna'), desc: C.t(C.S[T[1]]),
     jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S[T[0]], p]])],
-    body: `<main class="page page-info">${PAGES[key][C.lang](x)}</main>`, scripts: BASE
+    body: `<main class="page page-info">${PAGES[key][C.lang](x)}${key === 'about' ? `<h2>${C.S.pressFacts}</h2>${statsBlock(C)}<p class="more-links"><a href="${C.rootRel}${FIXED[C.lang].press}">${C.S.navPress}</a></p>` : ''}</main>`, scripts: BASE
   });
 }
 /* ---------- Corrections et mises à jour ---------- */
@@ -1133,6 +1256,18 @@ function writeFeeds() {
       both(dossierPath(lang, id), { title: `Diurna — ${makeCtx(lang).typo(t)}`, desc: makeCtx(lang).L('dossierDesc', { x: t }), home: `${abs}/${dossierPath(lang, id)}`, lang, items: feedItems(lang, (s) => s.dossier && s.dossier.id === id).slice(0, FEED_MAX) });
     }
   }
+  // Flux JSON (jsonfeed.org) par langue, et un flux RSS par pays.
+  for (const lang of LANGS) {
+    const S = I18N[lang], items = feedItems(lang).slice(0, FEED_MAX);
+    wr(`${PRE[lang]}feed.json`, JSON.stringify({ version: 'https://jsonfeed.org/version/1.1', title: 'Diurna', home_page_url: `${abs}/${FIXED[lang].home}`, feed_url: `${abs}/${PRE[lang]}feed.json`, description: S.sub, language: lang, icon: `${abs}/icons/icon-512.png`, favicon: `${abs}/icons/icon-192.png`, authors: [{ name: 'Diurna', url: `${abs}/` }],
+      items: items.map((i) => ({ id: i.url, url: i.url, title: i.title, content_html: i.html, date_published: new Date(i.date).toISOString(), date_modified: new Date(i.updated).toISOString(), tags: [i.section, i.dossier].filter(Boolean), ...(i.img ? { image: i.img } : {}) })) }, null, 1) + '\n');
+    list.push(`${PRE[lang]}feed.json`);
+    for (const id of COL[lang].byCountry.keys()) {
+      const base = countryPath(lang, cslug(lang, id)), nm = makeCtx(lang).cname(id, id);
+      wr(base + 'feed.xml', rss({ title: `Diurna — ${nm}`, desc: makeCtx(lang).L('countryDesc', { x: nm }), home: `${abs}/${base}`, self: `${abs}/${base}feed.xml`, lang, items: feedItems(lang, (s) => s.id === id).slice(0, FEED_MAX) }));
+      list.push(base + 'feed.xml');
+    }
+  }
   const all = [...feedItems('fr'), ...feedItems('en')].sort((a, b) => b.date.localeCompare(a.date) || a.lang.localeCompare(b.lang)).slice(0, FEED_MAX * 2);
   wr('all.xml', rss({ title: 'Diurna (FR + EN)', desc: `${I18N.fr.sub} / ${I18N.en.sub}`, home: `${abs}/`, self: `${abs}/all.xml`, lang: 'fr', items: all }));
   wr('all.atom.xml', atom({ title: 'Diurna (FR + EN)', desc: `${I18N.fr.sub} / ${I18N.en.sub}`, home: `${abs}/`, self: `${abs}/all.atom.xml`, lang: 'fr', items: all }));
@@ -1156,27 +1291,62 @@ function sitemaps(all) {
 }
 
 /* ---------- Manifeste anglais et service worker ---------- */
-function manifestEn() {
-  const fr = JSON.parse(rd('manifest.webmanifest'));
-  return JSON.stringify({ ...fr, description: I18N.en.sub, lang: 'en', start_url: './', scope: './', icons: fr.icons.map((i) => ({ ...i, src: '../' + i.src })), shortcuts: [{ name: 'Today’s edition', url: 'edition/' }, { name: 'Archive', url: 'archives/' }] }, null, 2) + '\n';
+// Manifestes de l'application (FR à la racine, EN sous /en/) : raccourcis, captures, catégories.
+function manifest(lang) {
+  const S = I18N[lang], up = lang === 'en' ? '../' : '';
+  const P = FIXED[lang], pre = (x) => x.replace(/^en\//, '');
+  return JSON.stringify({
+    id: lang === 'en' ? './en/' : './', name: 'Diurna', short_name: 'Diurna', description: S.sub, lang, dir: 'ltr',
+    start_url: './', scope: './', display: 'standalone', display_override: ['standalone', 'minimal-ui'], orientation: 'any',
+    background_color: '#070C1D', theme_color: '#070C1D', categories: ['news', 'education'],
+    icons: [
+      { src: `${up}icons/icon-192.png`, sizes: '192x192', type: 'image/png' },
+      { src: `${up}icons/icon-512.png`, sizes: '512x512', type: 'image/png' },
+      { src: `${up}icons/icon-maskable-512.png`, sizes: '512x512', type: 'image/png', purpose: 'maskable' }
+    ],
+    screenshots: SCREENS.map((x) => ({ src: up + x.src, sizes: x.sizes, type: 'image/webp', form_factor: x.form, label: x.label[lang] })),
+    shortcuts: [
+      { name: S.navEdition, url: pre(P.globe), icons: [{ src: `${up}icons/icon-192.png`, sizes: '192x192' }] },
+      { name: S.quiz, url: pre(P.quiz) },
+      { name: S.navMap, url: pre(P.map) },
+      { name: S.nav7, url: pre(P.week) }
+    ]
+  }, null, 2) + '\n';
 }
+// Service worker : l'application (versionnée) d'un côté, les pages lues de l'autre, gardées d'une version à
+// l'autre pour la lecture hors connexion. Le lecteur peut demander à garder les 7 dernières éditions.
 function sw(pages) {
-  const shell = [...pages.map((p) => p || './'), 'manifest.webmanifest', 'en/manifest.webmanifest', 'icons/favicon.svg', ...assetFiles.map((f) => f.startsWith('assets/fonts/') || f === 'assets/world.json' ? f : `${f}?v=${V}`)];
+  const shell = [...pages.map((p) => p || './'), FIXED.fr.offline, FIXED.en.offline, 'manifest.webmanifest', 'en/manifest.webmanifest', 'icons/favicon.svg', ...assetFiles.map((f) => f.startsWith('assets/fonts/') || f === 'assets/world.json' ? f : `${f}?v=${V}`)];
   return `// Généré par tools/build.mjs — ne pas modifier à la main.
-const CACHE = 'diurna-${V}';
+const CACHE = 'diurna-${V}', PAGES = 'diurna-pages', MAX = 160;
 const SHELL = ${JSON.stringify(shell)};
 self.addEventListener('install', (e) => { e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting())); });
-self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
+self.addEventListener('activate', (e) => { e.waitUntil(caches.keys().then((ks) => Promise.all(ks.filter((k) => k !== CACHE && k !== PAGES).map((k) => caches.delete(k)))).then(() => self.clients.claim())); });
+async function keep(req, res) {
+  const c = await caches.open(PAGES);
+  await c.put(req, res);
+  const keys = await c.keys();
+  for (const k of keys.slice(0, Math.max(0, keys.length - MAX))) await c.delete(k);
+}
 self.addEventListener('fetch', (e) => {
   const req = e.request;
   if (req.method !== 'GET' || new URL(req.url).origin !== location.origin) return;
   const url = new URL(req.url);
   if (req.mode === 'navigate' || url.pathname.includes('/data/')) {
-    e.respondWith(fetch(req).then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res; })
-      .catch(() => caches.match(req).then((r) => r || caches.match('./'))));
+    e.respondWith(fetch(req).then((res) => { if (res.ok) { const copy = res.clone(); keep(req, copy); } return res; })
+      .catch(() => caches.match(req, { ignoreSearch: req.mode !== 'navigate' }).then((r) => r || (req.mode === 'navigate' ? caches.match(url.pathname.includes('/en/') ? '${FIXED.en.offline}' : '${FIXED.fr.offline}') : undefined))));
     return;
   }
   e.respondWith(caches.match(req).then((r) => r || fetch(req).then((res) => { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)); return res; })));
+});
+self.addEventListener('message', (e) => {
+  const d = e.data || {};
+  if (d.type !== 'save' || !Array.isArray(d.urls)) return;
+  e.waitUntil(caches.open(PAGES).then(async (c) => {
+    let n = 0;
+    for (const u of d.urls.slice(0, 120)) { try { const res = await fetch(u); if (res.ok) { await c.put(u, res); n++; } } catch (_) {} }
+    if (e.source) e.source.postMessage({ type: 'saved', n });
+  }));
 });
 `;
 }
@@ -1193,6 +1363,7 @@ for (const lang of LANGS) {
     routes[lang][ed.date] = { bref: datePath(lang, ed.date) };
     wr(printPath(lang, ed.date) + 'index.html', printPage(C, ed));
     wr(quizPath(lang, ed.date) + 'index.html', quizPage(C, ed));
+    wr(storiesPath(lang, ed.date) + 'index.html', storiesPage(C, ed));
     SM.push({ path: quizPath(lang, ed.date) });
     for (const rank of [...ed.essentials.map((s) => s.rank), 'bref']) {
       const { path: p, html } = readerPage(C, ed, rank);
@@ -1212,6 +1383,8 @@ for (const lang of LANGS) {
   wr(P.method + 'index.html', method(C));
   wr(P.status + 'index.html', status(C, ST));
   wr(P.search + 'index.html', searchPage(C));
+  wr(P.offline + 'index.html', offlinePage(C)); wr(P.letter + 'index.html', letterPage(C)); wr(P.press + 'index.html', pressPage(C)); wr(P.quiz + 'index.html', quizRedirect(C));
+  SM.push({ path: P.letter, alt: { fr: FIXED.fr.letter, en: FIXED.en.letter } }, { path: P.press, alt: { fr: FIXED.fr.press, en: FIXED.en.press } });
   wr(P.week + 'index.html', weekPage(C)); wr(P.figures + 'index.html', figuresPage(C)); writeAgenda(lang);
   SM.push({ path: P.week, alt: { fr: FIXED.fr.week, en: FIXED.en.week } }, { path: P.figures, alt: { fr: FIXED.fr.figures, en: FIXED.en.figures } });
   wr(P.map + 'index.html', mapPage(C)); wr(dataOf(lang, 'map.json'), JSON.stringify(mapData(lang)));
@@ -1230,7 +1403,7 @@ wr('data/routes.json', JSON.stringify(routes));
 const FEEDS = writeFeeds();
 const { sitemap, news, robots } = sitemaps(SM);
 wr('sitemap.xml', sitemap); wr('news-sitemap.xml', news); wr('robots.txt', robots);
-wr('en/manifest.webmanifest', manifestEn());
+wr('manifest.webmanifest', manifest('fr')); wr('en/manifest.webmanifest', manifest('en'));
 const shellPages = [FIXED.fr.home, FIXED.en.home, editionHome('fr'), editionHome('en'), FIXED.fr.archives, FIXED.en.archives, FIXED.fr.method, FIXED.en.method];
 wr('sw.js', sw([...new Set(shellPages)]));
 console.log(`Pages générées (assets ${V}) — ${count} pages d'édition, pays et dossiers ; FR : ${LATEST.fr.date}${LATEST.en ? `, EN : ${LATEST.en.date}` : ''} ; sitemap : ${SM.length} adresses ; ${FEEDS.length} flux.`);

@@ -1,0 +1,343 @@
+{
+ "version": "https://jsonfeed.org/version/1.1",
+ "title": "Diurna",
+ "home_page_url": "https://charly4perrin-jpg.github.io/Diurna/en/",
+ "feed_url": "https://charly4perrin-jpg.github.io/Diurna/en/feed.json",
+ "description": "The world, every day, in three sentences.",
+ "language": "en",
+ "icon": "https://charly4perrin-jpg.github.io/Diurna/icons/icon-512.png",
+ "favicon": "https://charly4perrin-jpg.github.io/Diurna/icons/icon-192.png",
+ "authors": [
+  {
+   "name": "Diurna",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/"
+  }
+ ],
+ "items": [
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/gadi-eisenkot-accepts-mandate-israel-calls-national-emergency/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/gadi-eisenkot-accepts-mandate-israel-calls-national-emergency/",
+   "title": "Gadi Eisenkot accepts the mandate in Israel and calls for a national emergency government",
+   "content_html": "<p><strong>The former army chief was formally asked on Sunday to form a government, with 67 recommendations but a bloc of only 48 members. He has invited Likud to join him and set four conditions for any partner.</strong></p><p>On Sunday 8 November, at the presidential residence in Jerusalem, Israel’s president, Isaac Herzog, formally handed Gadi Eisenkot, the leader of the Yashar party, the mandate to form the next government, a day after announcing his choice. Recommended by 67 of the Knesset’s 120 members, against 46 for Benjamin Netanyahu, the former chief of staff commands a bloc of only 48 and has promised creative, unconventional political moves to build a national emergency government. He has until 6 December, extendable to 20 December, to assemble a majority, while the new members are due to be sworn in on Tuesday and Mr Netanyahu stays on as caretaker prime minister.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-09T06:00:00.000Z",
+   "date_modified": "2026-11-09T06:00:51.000Z",
+   "tags": [
+    "Middle East",
+    "Israel and Gaza"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-09-1.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/houthi-attack-damages-aramco-tower-heart-riyadh-financial/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/houthi-attack-damages-aramco-tower-heart-riyadh-financial/",
+   "title": "Houthi attack damages an Aramco tower in the heart of Riyadh’s financial district",
+   "content_html": "<p><strong>Missiles fired from Yemen were intercepted over the Saudi capital on Sunday, but debris struck a building belonging to the oil giant. The Houthi authorities accuse Saudi aircraft of killing dozens of people near Sanaa.</strong></p><p>Overnight on Saturday 7 and Sunday 8 November Saudi air defences intercepted Houthi missiles fired at Riyadh, but debris blew out the windows of several floors of an Aramco building in the King Abdullah Financial District, causing no casualties, according to the energy ministry. The Iran-aligned Yemeni rebels have stepped up their fire on the kingdom’s ports and airports since September, and their spokesman, Yahya Saree, claims they also targeted Riyadh’s international airport, which the Saudi authorities have not confirmed. The Saudi-led coalition says it destroyed missile launchers in Saada and Sanaa, while the Houthi-run health ministry reports at least 33 people killed on Saturday and 40 on Sunday in Saudi strikes near the Yemeni capital.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-09T06:00:00.000Z",
+   "date_modified": "2026-11-09T06:00:51.000Z",
+   "tags": [
+    "Middle East",
+    "The war in Yemen"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-09-2.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/ukraine-850-000-people-lose-power-ahead-talks/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/ukraine-850-000-people-lose-power-ahead-talks/",
+   "title": "In Ukraine 850,000 people lose power ahead of the talks in Abu Dhabi",
+   "content_html": "<p><strong>Fresh Russian strikes hit the power grid on Sunday, notably in the Dnipropetrovsk region, and the Zaporizhzhia nuclear plant lost its external power supply. Paris says Europeans will take part in the talks on 10 and 11 November.</strong></p><p>Overnight Russian strikes on Sunday 8 November left more than 850,000 people in Ukraine without electricity, over 600,000 of them in the Dnipropetrovsk region, according to the energy company DTEK, while one person was killed and three wounded in Dnipro. The Russian-occupied Zaporizhzhia nuclear plant lost its external power and is running on diesel generators, and a drone hit the site in Komyshuvakha where an earlier strike killed at least 55 people, targeting rescuers, according to Kyiv. France’s foreign minister, Jean-Noël Barrot, announced that France and other Europeans would join the talks in Abu Dhabi on 10 and 11 November, which had until now been conceived as a meeting between Washington, Moscow and Kyiv.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-09T06:00:00.000Z",
+   "date_modified": "2026-11-09T06:00:51.000Z",
+   "tags": [
+    "Europe",
+    "The war in Ukraine"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-09-3.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/cop31-opens-antalya-world-looks-set-overshoot-1/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/cop31-opens-antalya-world-looks-set-overshoot-1/",
+   "title": "COP31 opens in Antalya as the world looks set to overshoot 1.5°C",
+   "content_html": "<p><strong>Nearly 200 countries meet in Turkey until 20 November for the UN climate conference, presided over by Ankara with Australia leading the negotiations. Current policies point to 2.8°C of warming, according to the UN’s latest projection.</strong></p><p>The 31st UN climate conference opens on Monday 9 November in Antalya, Turkey, bringing together delegations from nearly 200 countries until 20 November under the presidency of Turkey’s environment minister, Murat Kurum. Scientists consider it almost certain that warming will exceed 1.5°C in 2026, and current policies point to a rise of 2.8°C by the end of the century, according to the UN’s latest projection, cited by the German news agency DPA. Australia’s climate minister, Chris Bowen, will chair the negotiations, an unprecedented division of roles, ahead of a leaders’ summit on 11 and 12 November at which markedly fewer heads of state are expected than at recent COPs.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-09T06:00:00.000Z",
+   "date_modified": "2026-11-09T06:00:51.000Z",
+   "tags": [
+    "International",
+    "COP31 in Antalya"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-09-4.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/myanmar-army-kills-eleven-people-air-strike-school/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/myanmar-army-kills-eleven-people-air-strike-school/",
+   "title": "Myanmar’s army kills eleven people in an air strike on a school in Sagaing",
+   "content_html": "<p><strong>Teachers and children were among the victims of a bombing on Saturday in Kani township, according to independent Burmese media. The National Unity Government counted 641 army air strikes in October.</strong></p><p>At around 11.30am on Saturday 7 November an air strike by Myanmar’s army hit a school and the village of Nyaung Pin Le, in Kani township in the Sagaing region, killing eleven people, most of them teachers and children, according to independent media. The bombing is part of an air campaign that killed 212 civilians in October, 23 of them children, according to the exiled National Unity Government, nearly six years after the coup and seven months after Min Aung Hlaing was elected president. Fighting continues in Mon State, where more than 15,000 residents have fled Kyaikto township, and in Rakhine, while from 9 November the army is closing checkpoints at night in three Sagaing townships.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-09T06:00:00.000Z",
+   "date_modified": "2026-11-09T06:00:51.000Z",
+   "tags": [
+    "Asia-Pacific",
+    "Myanmar's civil war"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-09-5.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/isaac-herzog-asks-gadi-eisenkot-not-benjamin-netanyahu/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/isaac-herzog-asks-gadi-eisenkot-not-benjamin-netanyahu/",
+   "title": "Isaac Herzog asks Gadi Eisenkot, not Benjamin Netanyahu, to form Israel’s next government",
+   "content_html": "<p><strong>On Saturday evening Israel’s president gave the leader of Yashar, backed by 67 members of the Knesset, the job of building a coalition. Benjamin Netanyahu accuses his rival of wanting to govern with “supporters of terrorism”.</strong></p><p>On the evening of Saturday 7 November Israel’s president, Isaac Herzog, announced that he would ask Gadi Eisenkot, a former chief of staff who leads the Yashar party, to form the next government, with the mandate to be handed over formally on Sunday at the presidential residence in Jerusalem. The former general was recommended by 67 of the Knesset’s 120 members, including the Arab parties, against 46 for Benjamin Netanyahu, but his own bloc holds only 48 seats and several of his allies refuse to depend on Ra’am and the United List. Mr Eisenkot has 28 days, extendable by 14, to muster at least 61 members, while the outgoing prime minister is calling for a “national unity government” that would include his far-right allies and the ultra-Orthodox parties.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-08T06:00:00.000Z",
+   "date_modified": "2026-11-08T05:59:54.000Z",
+   "tags": [
+    "Middle East",
+    "Israel and Gaza"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-08-1.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/iran-lifts-range-limit-missiles-after-fresh-american/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/iran-lifts-range-limit-missiles-after-fresh-american/",
+   "title": "Iran lifts the range limit on its missiles after fresh American strikes in Hormuz",
+   "content_html": "<p><strong>The Revolutionary Guards say they no longer observe a 2,000km ceiling on their ballistic missiles. Washington has set up a force to hunt down Iranian arms smuggling, as advisers urge Donald Trump to resume the war.</strong></p><p>On Saturday 7 November the spokesman for the Revolutionary Guards, General Hossein Mohebbi, said in Tehran that the 2,000km limit Iran had imposed on the range of its ballistic missiles had been lifted, a day after American strikes on air defences on Qeshm island. The announcement, which does not say whether Iran already has longer-range missiles, came alongside a statement attributed to the Supreme Leader, Mojtaba Khamenei, promising a response “without geographical limits” to any American or Israeli threat. According to NBC, advisers have urged Donald Trump to resume large-scale operations before the new Congress sits in January, and America’s Central Command has announced a force to cut the land and Caspian routes by which Iran obtains weapons.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-08T06:00:00.000Z",
+   "date_modified": "2026-11-08T05:59:54.000Z",
+   "tags": [
+    "Middle East",
+    "The Iran war"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-08-2.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/russia-fires-36-ballistic-missiles-kyiv-three-days/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/russia-fires-36-ballistic-missiles-kyiv-three-days/",
+   "title": "Russia fires 36 ballistic missiles at Kyiv three days before talks in Abu Dhabi",
+   "content_html": "<p><strong>Overnight on 6-7 November Russia targeted the capital’s power grid and damaged the North Bridge over the Dnipro. Volodymyr Zelensky accuses Moscow of preparing for negotiations “by launching ballistic missiles”.</strong></p><p>Overnight on Friday 6 and Saturday 7 November Russia fired 36 ballistic missiles at Kyiv and its region, only four of which were shot down for want of Patriot interceptors, according to President Volodymyr Zelensky, along with 172 drones across 13 regions, wounding at least nine people, including a child. The strikes hit the substations linking the Rivne and Khmelnytskyi nuclear plants to the capital, leaving parts of the city without electricity, heating and water, and damaged the North Bridge, which Moscow says it was aiming at. Ukrainian, Russian and American delegations are due to meet in Abu Dhabi on Tuesday 10 November for a fourth round of talks brokered by Washington, as the death toll from the strike on Komyshuvakha, in the Zaporizhzhia region, reaches 55.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-08T06:00:00.000Z",
+   "date_modified": "2026-11-08T05:59:54.000Z",
+   "tags": [
+    "Europe",
+    "The war in Ukraine"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-08-3.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/hoax-bomb-threats-spread-european-newsrooms-after-targeting/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/hoax-bomb-threats-spread-european-newsrooms-after-targeting/",
+   "title": "Hoax bomb threats spread to European newsrooms after targeting dozens of flights",
+   "content_html": "<p><strong>Ireland’s public broadcaster, RTÉ, evacuated its offices on Friday after a threatening email, as did Bulgaria’s Nova TV. Nearly 30 flights have been targeted since Tuesday, and no explosives have been found.</strong></p><p>On Friday 6 November emails signed by one “Mikhail Andropov” and headed “Message to the West” threatened Ireland’s public broadcaster, RTÉ, which evacuated its offices and suspended programming, as well as Bulgaria’s Nova TV, while Sky reported a threat in Britain. The messages extend a wave of alerts that has disrupted nearly 30 flights in Europe since Tuesday, prompting diversions and fighter-jet escorts, though no explosives have been found, according to Reuters, which could not establish where the emails came from. No country has named a culprit, but Spain’s foreign minister, José Manuel Albares, has denounced a “hybrid aggression”, and NATO has ordered air patrols near the border between Hungary and Romania.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-08T06:00:00.000Z",
+   "date_modified": "2026-11-08T05:59:54.000Z",
+   "tags": [
+    "Europe",
+    "Hoax bomb threats in Europe"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-08-4.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/haiti-400-mawozo-gang-reaches-out-state-salvadoran/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/haiti-400-mawozo-gang-reaches-out-state-salvadoran/",
+   "title": "Haiti’s 400 Mawozo gang reaches out to the state as Salvadoran troops close in",
+   "content_html": "<p><strong>Wilson Joseph’s gang says it has contacted the national disarmament commission and wants UN mediation. The prime minister, Alix Didier Fils-Aimé, has announced the killing of a gang leader in Cité Soleil.</strong></p><p>On Friday 6 November the 400 Mawozo gang, led by Wilson Joseph, told the Associated Press that it had contacted Haiti’s national commission for disarmament, demobilisation and reintegration in the name of “peace” and “national reconciliation”. Accused by the UN and human-rights groups of rape, murder and kidnapping, which it denies, the gang fears an offensive by the more than 2,000 Salvadoran soldiers deployed in recent weeks, and El Salvador’s president, Nayib Bukele, has promised to destroy its leader’s house. The same day the prime minister, Alix Didier Fils-Aimé, announced the death of a gang leader in Cité Soleil, identified by police as the head of the Boston gang, while the disarmament commission says it is following the government’s road map.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-08T06:00:00.000Z",
+   "date_modified": "2026-11-08T05:59:54.000Z",
+   "tags": [
+    "Americas",
+    "The crisis in Haiti"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-08-5.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/paraguay-santiago-pena-removed-confined-his-home-pedro/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/paraguay-santiago-pena-removed-confined-his-home-pedro/",
+   "title": "Paraguay’s Santiago Peña is removed and confined to his home as Pedro Alliana takes over",
+   "content_html": "<p><strong>The Senate on Friday removed the head of state, brought down by the collapse of Ueno bank, and his vice-president was sworn in at once. Prosecutors have ordered the former president to stay at home in an inquiry into suspected breach of trust and influence-peddling.</strong></p><p>On Friday 6 November Paraguay’s Senate removed President Santiago Peña from office, by the unanimous vote of the 44 senators present according to the Associated Press, a day after the lower house impeached him, and Vice-President Pedro Alliana was sworn in in Asunción to serve out a term that runs until August 2028. Prosecutors promptly ordered the former head of state to remain at home, suspecting him of breach of trust, attempted fraud and influence-peddling in the affair of Ueno bank, seized on 3 November, where the public pension fund had placed $355m beyond legal limits. Mr Peña, whose resignation Congress refused and who thereby forfeits the life seat in the Senate promised to former presidents, appeared before prosecutors on Saturday morning; they have also issued an arrest warrant for the former central-bank governor, Carlos Carvallo.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-07T06:00:00.000Z",
+   "date_modified": "2026-11-07T18:55:00.000Z",
+   "tags": [
+    "Americas",
+    "Paraguay's political crisis"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-07-1.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/iran-downs-american-drone-strait-hormuz-donald-trump/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/iran-downs-american-drone-strait-hormuz-donald-trump/",
+   "title": "America strikes Iranian air defences in the Strait of Hormuz as Tehran vows to respond",
+   "content_html": "<p><strong>Donald Trump confirmed on Friday evening “minor” strikes on an anti-aircraft system on Qeshm island, where Tehran says it shot down an American drone. Iran’s army promises an “immediate” response, while Qatar denies that negotiations have failed.</strong></p><p>On Friday 6 November Donald Trump confirmed that American forces had carried out what he called “minor” strikes on an air-defence system on Qeshm island in the Strait of Hormuz, where Iranian state media reported two explosions and where Tehran says it shot down an American drone. The strikes, the first since the Republicans’ defeat in the midterm elections, which the president blames on the war, come as he speaks both of “progress” with Tehran and of possibly destroying “the rest of Iran”, while Qatar, the mediator, denies that negotiations have failed. On Saturday the Iranian army’s spokesman, Mohammad Akraminia, promised an “immediate” response without geographical limits on the supreme leader’s orders, while Tehran still insists that its conditions, including an end to the American blockade and to sanctions, be met before any nuclear talks.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-07T06:00:00.000Z",
+   "date_modified": "2026-11-07T18:55:00.000Z",
+   "tags": [
+    "Middle East",
+    "The Iran war"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-07-2.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/death-toll-komyshuvakha-strike-passes-50-ukraine-ahead/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/death-toll-komyshuvakha-strike-passes-50-ukraine-ahead/",
+   "title": "Death toll from the Komyshuvakha strike passes 50 in Ukraine ahead of talks in Abu Dhabi",
+   "content_html": "<p><strong>Ukraine’s emergency services on Friday raised to at least 50 the death toll from the bombing of an aid centre in the Zaporizhzhia region. On the front line, Russia is barely advancing, according to the Institute for the Study of War.</strong></p><p>On Friday 6 November Ukraine’s State Emergency Service raised to at least 50 the death toll from the Russian strike of 2 November on an aid-distribution centre in a former school in Komyshuvakha, in the Zaporizhzhia region, where dozens of people were still missing. Volodymyr Zelensky describes a double strike with glide bombs, which the UN human-rights monitoring mission says probably violated international law, at the end of a week in which Russia launched 2,346 drones and more than 80 missiles at Ukraine, according to Al Jazeera. On the battlefield Russia has taken only 117 square kilometres in ten months, according to the Institute for the Study of War, while Kyiv has targeted eight Russian refineries in seven days, ahead of three-way talks scheduled for 10 and 11 November in Abu Dhabi.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-07T06:00:00.000Z",
+   "date_modified": "2026-11-07T18:55:00.000Z",
+   "tags": [
+    "Europe",
+    "The war in Ukraine"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-07-3.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/avigdor-liberman-opens-door-ultra-orthodox-eve-isaac/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/avigdor-liberman-opens-door-ultra-orthodox-eve-isaac/",
+   "title": "Avigdor Liberman opens the door to the ultra-Orthodox on the eve of Isaac Herzog’s choice",
+   "content_html": "<p><strong>The leader of Yisrael Beiteinu says he is ready to govern with the ultra-Orthodox parties but rejects any government reliant on the Arab parties. Israel’s president names the leader tasked with forming a government on Sunday.</strong></p><p>On the eve of Sunday’s nomination of the leader tasked with forming a government, Avigdor Liberman, who leads Yisrael Beiteinu, said he was open to a coalition with the ultra-Orthodox parties and to compromises on conscription, while vowing to vote against any government dependent on the Arab parties. Gadi Eisenkot, recommended by 67 of the 120 members of the Knesset against 46 for Benjamin Netanyahu, owes that lead to the 19 members from Ra’am and the United List, with whom three of the four parties in his bloc refuse to sit, though the bloc has only 48 seats. The Democrats’ leader, Yair Golan, speaks of “progress”, while the Likud lawmaker Miri Regev calls the rival alliance a “bloc of disaster”; the new Knesset will be sworn in on 10 November and will elect a successor to its speaker, Amir Ohana.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-07T06:00:00.000Z",
+   "date_modified": "2026-11-07T18:55:00.000Z",
+   "tags": [
+    "Middle East",
+    "Israel and Gaza"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-07-4.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/two-new-vaccines-tested-dr-congo-against-ebola/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/two-new-vaccines-tested-dr-congo-against-ebola/",
+   "title": "Two new vaccines tested in DR Congo against an Ebola outbreak that has killed over 5,000",
+   "content_html": "<p><strong>The WHO has added two vaccines designed against the Bundibugyo strain to the trial under way in Ituri. The outbreak, the worst in the country’s history, has more than 10,500 confirmed cases.</strong></p><p>On Wednesday 4 November the World Health Organisation announced that two vaccines designed against the Bundibugyo strain of Ebola, one developed by the University of Oxford and the Serum Institute of India, the other by Moderna, would join the clinical trial under way in eastern Democratic Republic of Congo. Declared in mid-May, the outbreak, the worst in the country’s history, had more than 10,500 confirmed cases and 5,126 deaths by 1 November, according to WHO figures cited by the UN, and no vaccine or treatment is licensed against this strain, which kills more than half of those infected. The Tumaini trial, launched on 23 October in Bunia, capital of Ituri province, vaccinates the contacts of patients using the so-called ring method, but its results are not expected before early 2027, while the virus has already reached Uganda and Kenya.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-07T06:00:00.000Z",
+   "date_modified": "2026-11-07T18:55:00.000Z",
+   "tags": [
+    "Africa",
+    "The Ebola outbreak in DR Congo"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-07-5.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/tankers-hit-mines-hormuz-iran-sets-seven-conditions/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/tankers-hit-mines-hormuz-iran-sets-seven-conditions/",
+   "title": "Tankers hit by mines in Hormuz as Iran sets seven conditions for Washington",
+   "content_html": "<p><strong>Tehran says at least five tankers were damaged in the Strait of Hormuz on Thursday, as the Pentagon stands ready for a resumption of fighting. Through Qatar, Iran has passed a proposal on its nuclear programme to the United States.</strong></p><p>On Thursday 5 November Iranian forces reported at least five tankers and a tugboat ablaze in the Strait of Hormuz, most of them after striking mines on routes Tehran had not authorised; Britain’s UKMTO agency also reported a vessel hit by two projectiles north of Qatar. The same day, a senior Iranian official told Reuters that Tehran had sent Washington, through Qatar, a proposal on its nuclear programme, to be discussed only once seven demands are met, among them the lifting of sanctions, the unfreezing of Iranian assets and war reparations. The United States, which is studying the text, wants the nuclear issue on the table from the outset, and thousands of American troops stand ready to resume fighting, according to the New York Times, just as several of Donald Trump’s allies distance themselves from the war after the defeat of 3 November.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-06T06:00:00.000Z",
+   "date_modified": "2026-11-06T18:45:06.000Z",
+   "tags": [
+    "Middle East",
+    "The Iran war"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-06-1.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/paraguay-president-santiago-pena-resigns-impeached-within-minutes/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/paraguay-president-santiago-pena-resigns-impeached-within-minutes/",
+   "title": "Paraguay’s Senate opens Santiago Peña’s impeachment trial after his bid to resign fails",
+   "content_html": "<p><strong>Congress was unable to accept the president’s resignation on Thursday after his allies walked out, leaving it without a quorum. Senators began his trial on Friday, in his absence, over the collapse of the digital bank Ueno.</strong></p><p>On Friday 6 November Paraguay’s Senate opened the impeachment trial of the president, Santiago Peña, who failed to appear, and voted by 39 to 3 to reject his request for another 72 hours to prepare a defence entrusted to the lawyers Ricardo Preda and Adolfo Ferreiro. The day before, his Colorado Party allies had walked out of a joint session of Congress, lacking the votes to accept a resignation that would have earned him a life seat in the Senate with immunity; the charges include his former stake in the holding company of Ueno, the bank seized on 3 November. Removal requires 30 of the 45 senators and would hand power to the vice-president, Pedro Alliana, until August 2028; the defence says it may challenge the process before the Supreme Court and international bodies, while the chief of staff, Javier Giménez, and the interior minister, Enrique Riera, have resigned.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-06T06:00:00.000Z",
+   "date_modified": "2026-11-06T18:45:06.000Z",
+   "tags": [
+    "Americas",
+    "Paraguay's political crisis"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-06-2.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/ahead-abu-dhabi-talks-russian-ukrainian-envoys-meet/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/ahead-abu-dhabi-talks-russian-ukrainian-envoys-meet/",
+   "title": "Ahead of the Abu Dhabi talks, Russian and Ukrainian envoys meet at the White House",
+   "content_html": "<p><strong>Melania Trump brought together envoys from both countries in Washington on Thursday, with no progress announced. On the ground, Moscow is targeting Ukraine’s energy and logistics networks while Kyiv steps up drone attacks on Russian refineries.</strong></p><p>On Thursday 5 November the American first lady, Melania Trump, received Vladimir Putin’s envoy, Kirill Dmitriev, and Russia’s human-rights commissioner at the White House, along with two Ukrainian officials, including the head of the president’s party, David Arakhamia, and urged them to look beyond a mere &quot;temporary ceasefire&quot;. The White House credits her with brokering a six-day truce in Oleshky, in the occupied Kherson region, which allowed nearly 800 civilians to be evacuated; the Russian strike of 2 November on an aid distribution in Komyshuvakha, which killed 43 people according to Kyiv, came the day after it expired. The strikes go on: Moscow says it hit a depot of the Nova Poshta delivery company near Kharkiv and a cargo ship off Odesa, while more than 200 Ukrainian drones targeted the Ryazan region, ahead of three-way talks due in Abu Dhabi on 10 and 11 November.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-06T06:00:00.000Z",
+   "date_modified": "2026-11-06T18:45:06.000Z",
+   "tags": [
+    "Europe",
+    "The war in Ukraine"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-06-3.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/herzog-name-israel-next-prime-minister-sunday-gadi/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/herzog-name-israel-next-prime-minister-sunday-gadi/",
+   "title": "Herzog to name Israel’s next prime minister on Sunday, with Gadi Eisenkot in pole position",
+   "content_html": "<p><strong>With 67 of the 120 members of the Knesset behind him, the former army chief awaits the mandate the president is due to hand out on 8 November. In Benjamin Netanyahu’s camp, down to 46 backers, some cry &quot;stolen&quot; election.</strong></p><p>After two days of consultations, Israel’s president, Isaac Herzog, called the outcome &quot;clear&quot;, with 67 of 120 members recommending Gadi Eisenkot against 46 for Benjamin Netanyahu, but announced on Thursday 5 November that he would keep talking and would not award the mandate to form a government until Sunday. That tally rests on an unprecedented alliance between the mainly Jewish opposition bloc and the two Arab parties: Ra’am, whose leader, Mansour Abbas, says he wants to enable an &quot;emergency government&quot;, and the United List, which would back a minority government from outside. In the outgoing camp positions are hardening: a minister from the far-right Otzma Yehudit party told the head of state that the election had been &quot;stolen&quot;, although the electoral commission found no irregularities, and the new Knesset is due to be sworn in on 10 November.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-06T06:00:00.000Z",
+   "date_modified": "2026-11-06T18:45:06.000Z",
+   "tags": [
+    "Middle East",
+    "Israel and Gaza"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-06-4.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/somalia-supreme-court-rules-extension-president-term-unlawful/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/somalia-supreme-court-rules-extension-president-term-unlawful/",
+   "title": "Somalia’s Supreme Court rules the extension of the president’s term unlawful",
+   "content_html": "<p><strong>The country’s highest court on Thursday gave the parties thirty days to reach agreement and ninety days to hold elections. The day before, the head of state, Hassan Sheikh Mohamud, had sacked the chief justice.</strong></p><p>On Thursday 5 November the constitutional chamber of Somalia’s Supreme Court ruled that the constitutional amendments adopted in March could extend neither the term of President Hassan Sheikh Mohamud, which expired on 15 May, nor that of parliament, and confined the federal government to a caretaker role. The day before, the president had sacked the chief justice, Bashe Yusuf Ahmed, who was hearing an opposition challenge, and replaced him with a close ally, Ibrahim Idle Suleiman; the court declared the dismissal void, and the former prime minister Hassan Ali Khaire accuses the government of sending soldiers into the courthouse. The judges demand an agreement between political parties within thirty days and elections within ninety, whereas the president meant to lead the country to its first direct elections, planned for April and May 2027, a reform whose terms the opposition and several regional parties dispute.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-06T06:00:00.000Z",
+   "date_modified": "2026-11-06T18:45:06.000Z",
+   "tags": [
+    "Africa",
+    "Somalia's political crisis"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-06-5.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/midterms-democrats-retake-congress-trump-pays-price-iran/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/midterms-democrats-retake-congress-trump-pays-price-iran/",
+   "title": "Midterms: Democrats retake Congress as Trump pays the price for the Iran war",
+   "content_html": "<p><strong>After a historic election night, the opposition has seized both the House of Representatives and the Senate. The president admits that the conflict with Tehran weighed heavily on the vote.</strong></p><p>On Tuesday 3 November American voters handed the Republicans one of the clearest midterm defeats in recent history: the Democrats won the House of Representatives and took seven Senate seats from them, reaching as far as Texas, which had not elected a Democratic senator since 1988. Donald Trump himself concedes that the war against Iran, launched in February and increasingly unpopular, was a major factor in the defeat, a view shared by his vice-president, JD Vance. Without a majority on Capitol Hill for the last two years of his term, the president will have to deal with an opposition that controls the budget and the power to investigate, while his defence secretary, Pete Hegseth, already faces an impeachment resolution filed by a Republican lawmaker.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-05T06:00:00.000Z",
+   "date_modified": "2026-11-05T19:15:00.000Z",
+   "tags": [
+    "Americas",
+    "The US midterms"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-05-1.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/washington-tehran-fears-return-war-after-us-vote/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/washington-tehran-fears-return-war-after-us-vote/",
+   "title": "Washington and Tehran: fears of a return to war after the US vote",
+   "content_html": "<p><strong>Qatar is trying to secure an interim deal before the United States resumes its strikes. Eight months into the conflict, the Strait of Hormuz remains almost closed and oil is above $100 a barrel.</strong></p><p>After three days of talks in Doha, the Iranian delegation returned to Tehran without a deal, and messages between the two capitals now pass only through the Qatari mediator. The two sides remain far apart: Washington wants commitments on Iran’s nuclear programme before making any concession, while Tehran makes reopening the Strait of Hormuz conditional on lifting oil sanctions, unfreezing its assets abroad and ending the fighting in Lebanon. American strikes have never fully stopped: the island of Qeshm was hit again on 2 November, and Donald Trump, who had promised not to launch a new offensive before the elections, has not ruled out further operations.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-05T06:00:00.000Z",
+   "date_modified": "2026-11-05T19:15:00.000Z",
+   "tags": [
+    "Middle East",
+    "The Iran war"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-05-2.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/russia-targets-ukraine-power-grid-ahead-new-talks/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/russia-targets-ukraine-power-grid-ahead-new-talks/",
+   "title": "Russia strikes civilians and the power grid in Ukraine ahead of new talks",
+   "content_html": "<p><strong>A Russian strike on a school where humanitarian aid was being handed out has killed at least 43 people in the Zaporizhzhia region, as Moscow keeps pounding the power grid. Ukrainian, Russian and American delegations are due to meet in Abu Dhabi on 10 and 11 November.</strong></p><p>On Monday 2 November, nine Russian aerial bombs hit an underground school in Komyshuvakha, in the Zaporizhzhia region, while humanitarian aid was being distributed; by Thursday the death toll had reached 43, according to President Volodymyr Zelensky, and dozens more people may still be trapped under the rubble. Meanwhile, drones and missiles are hitting power stations and substations in nine regions, a campaign which, according to the Institute for the Study of War, an American think-tank, aims to make each winter more painful for civilians in order to force Ukraine to give ground. It is against this backdrop that the three delegations will meet in Abu Dhabi to discuss post-war security guarantees, de-escalation and humanitarian measures, after three fruitless rounds of talks earlier this year.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-05T06:00:00.000Z",
+   "date_modified": "2026-11-05T19:15:00.000Z",
+   "tags": [
+    "Europe",
+    "The war in Ukraine"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-05-3.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/israel-left-without-majority-after-election-strikes-go/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/israel-left-without-majority-after-election-strikes-go/",
+   "title": "In Israel, Gadi Eisenkot wins the backing of most MPs against Benjamin Netanyahu",
+   "content_html": "<p><strong>Abandoned by the ultra-Orthodox United Torah Judaism party, Benjamin Netanyahu gathers only 46 recommendations, against 67 for his rival, who is backed by the Arab parties. In Gaza, a year after the ceasefire, Israeli strikes still claim lives almost every day.</strong></p><p>At the end of consultations held by the president, Isaac Herzog, on 4 and 5 November, 67 of the Knesset’s 120 members recommended Gadi Eisenkot to form a government: the opposition’s 48, joined by the two Arab parties, Raam and the Joint List, with 19 seats between them. Benjamin Netanyahu, whose camp won 53 seats on 27 October, now musters only 46, after the ultra-Orthodox United Torah Judaism declined to recommend anyone without guarantees on military-service exemptions for yeshiva students. The head of state is expected within days to ask Mr Eisenkot, who says he wants to form a “Zionist government”, to build a coalition within 28 days, extendable by 14, with the Joint List pledging to back him from outside government.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-05T06:00:00.000Z",
+   "date_modified": "2026-11-05T19:15:00.000Z",
+   "tags": [
+    "Middle East",
+    "Israel and Gaza"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-05-4.jpg"
+  },
+  {
+   "id": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/sudan-drone-war-strangling-civilians/",
+   "url": "https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/sudan-drone-war-strangling-civilians/",
+   "title": "In Sudan, a drone war is strangling civilians",
+   "content_html": "<p><strong>More than three years into the conflict, the paramilitary Rapid Support Forces are stepping up strikes on infrastructure. The crisis is now spilling over into neighbouring Ethiopia.</strong></p><p>The Rapid Support Forces (RSF), at war with the regular army since April 2023, seized the Sali military base in Blue Nile state on 3 November and are using drones against power stations and depots, leaving hundreds of aid lorries stranded for lack of fuel. A year after the fall of El Fasher, the capital of North Darfur, Amnesty International is still documenting executions, detentions and torture there, and describes a city emptied of the vast majority of its inhabitants. The Sudanese authorities accuse Ethiopia of hosting RSF drone launch sites; Addis Ababa hit back on 4 November by expelling six Sudanese diplomats, raising fears that the conflict could spread across the Horn of Africa.</p><p><em>Written by an AI from the sources cited.</em></p>",
+   "date_published": "2026-11-05T06:00:00.000Z",
+   "date_modified": "2026-11-05T19:15:00.000Z",
+   "tags": [
+    "Africa",
+    "The war in Sudan"
+   ],
+   "image": "https://charly4perrin-jpg.github.io/Diurna/og/en/2026-11-05-5.jpg"
+  }
+ ]
+}

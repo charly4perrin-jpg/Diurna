@@ -21,6 +21,8 @@ const pick = (html, re, n = 4) => [...html.matchAll(re)].slice(0, n).map((m) => 
 line(`== Site : ${base}`);
 const pages = ['/', '/en/', '/globe/', '/en/edition/', '/archives/', '/pays/', '/dossiers/', '/recherche/', '/en/country/', '/en/dossiers/', '/methode/', '/status/',
   '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/', '/corrections/', '/en/corrections/',
+  '/carte/', '/en/map/', '/semaine/', '/en/week/', '/chiffres/', '/en/figures/', '/lettre/', '/en/newsletter/', '/presse/', '/en/press/', '/hors-ligne/', '/quiz/',
+  '/feed.json', '/en/feed.json', '/agenda.ics', '/en/agenda.ics', '/manifest.webmanifest', '/data/glossary.json', '/data/map.json', '/icons/screens/mobile-home.webp',
   '/status.json', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', '/feed.xml', '/atom.xml', '/en/feed.xml', '/all.xml', ...(site.checkPaths || [])];
 // Les pages des sujets du jour, d'après le plan des adresses publié par le site.
 const routes = await get(base + '/data/routes.json');
@@ -30,7 +32,7 @@ try {
   for (const lang of ['fr', 'en']) {
     const days = Object.keys(rt[lang] || {}).sort();
     const d = days[days.length - 1];
-    if (d) { stories.push('/' + rt[lang][d][1], '/' + rt[lang][d].bref); }
+    if (d) { stories.push('/' + rt[lang][d][1], '/' + rt[lang][d].bref, '/' + rt[lang][d].bref + (lang === 'en' ? 'print/' : 'imprimer/'), '/' + rt[lang][d].bref + 'quiz/', '/' + rt[lang][d].bref + 'stories/'); }
   }
   const withUpd = rt.fr['2026-11-07'] && rt.fr['2026-11-07'][2];
   if (withUpd) stories.push('/' + withUpd);
@@ -72,6 +74,9 @@ for (const p of [...pages, ...stories]) {
     const todo = (r.text.match(/class="todo"/g) || []).length;
     if (todo) line(`      ${todo} champ(s) [À REMPLIR] sur la page`);
   }
+  if (/feed\.json$/.test(p)) { try { const j = JSON.parse(r.text); line(`      JSON Feed ${j.version.split('/').pop()} valide, ${j.items.length} articles`); } catch (e) { line('      JSON Feed INVALIDE'); } }
+  if (/\.ics$/.test(p)) line(`      ${(r.text.match(/BEGIN:VEVENT/g) || []).length} rendez-vous, ${/^BEGIN:VCALENDAR/.test(r.text) && /END:VCALENDAR\s*$/.test(r.text) ? 'calendrier complet' : 'CALENDRIER INVALIDE'}`);
+  if (/manifest/.test(p)) { try { const m = JSON.parse(r.text); line(`      manifeste : ${m.screenshots.length} captures, ${m.shortcuts.length} raccourcis`); } catch (_) {} }
   if (/sitemap\.xml$/.test(p)) line(`      ${(r.text.match(/<url>/g) || []).length} adresses${/<\/urlset>\s*$/.test(r.text) ? ', XML complet' : ', XML TRONQUÉ'}`);
   if (/robots\.txt$/.test(p)) r.text.trim().split('\n').forEach((x) => line(`      ${x}`));
   if (/(feed|atom|all)\.xml$/.test(p)) {

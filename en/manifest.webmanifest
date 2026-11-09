@@ -1,13 +1,24 @@
 {
+  "id": "./en/",
   "name": "Diurna",
   "short_name": "Diurna",
   "description": "The world, every day, in three sentences.",
   "lang": "en",
+  "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
   "background_color": "#070C1D",
   "theme_color": "#070C1D",
+  "categories": [
+    "news",
+    "education"
+  ],
   "icons": [
     {
       "src": "../icons/icon-192.png",
@@ -26,14 +37,51 @@
       "purpose": "maskable"
     }
   ],
-  "shortcuts": [
+  "screenshots": [
     {
-      "name": "Today’s edition",
-      "url": "edition/"
+      "src": "../icons/screens/mobile-home.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "The home page on a phone"
     },
     {
-      "name": "Archive",
-      "url": "archives/"
+      "src": "../icons/screens/mobile-story.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "A story on a phone"
+    },
+    {
+      "src": "../icons/screens/desktop-edition.webp",
+      "sizes": "1440x900",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "The edition on a computer"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Today",
+      "url": "edition/",
+      "icons": [
+        {
+          "src": "../icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Daily quiz",
+      "url": "quiz/"
+    },
+    {
+      "name": "Map",
+      "url": "map/"
+    },
+    {
+      "name": "The week",
+      "url": "week/"
     }
   ]
 }

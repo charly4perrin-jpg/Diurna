@@ -72,6 +72,32 @@ h1{margin:24px 0 0;font:700 ${long ? 52 : 60}px/1.08 N;letter-spacing:-.015em;fo
 </body></html>`;
 }
 
+// Image de la une (rang 0) : titre de l'édition et les cinq pays du jour.
+function cover(lang, ed) {
+  const S = I18N[lang];
+  const date = new Intl.DateTimeFormat(S.locale, { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(Date.parse(ed.date + 'T12:00:00Z'));
+  const cn = (s) => (lang === 'en' && countries[s.id] && countries[s.id].en ? countries[s.id].en.name : countries[s.id] && countries[s.id].name) || s.place;
+  const head = typo(lang, ed.headline);
+  return `<!doctype html><html lang="${lang}"><head><meta charset="utf-8"><style>${FONTS}
+*{box-sizing:border-box}
+body{margin:0;width:1200px;height:630px;background:#070C1D;color:#F2EEE6;font-family:N,Georgia,serif;position:relative;overflow:hidden}
+.g{position:absolute;right:-260px;top:-160px;width:720px;height:720px;border-radius:50%;background:radial-gradient(circle at 34% 30%,#16264F,#050A1C 76%);box-shadow:inset 0 0 0 1px #2D4280}
+.w{position:absolute;inset:58px 72px 50px 72px;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:baseline}
+.m{font:600 34px/1 N;letter-spacing:.2em}.m i{font-style:normal;color:#FF6A4D;letter-spacing:0;margin-left:-.14em}
+.no{font:500 21px/1 A;color:#8C97B9}
+h1{margin:54px 0 0;font:700 ${head.length > 80 ? 54 : 62}px/1.06 N;letter-spacing:-.015em;max-width:980px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-wrap:balance}
+.row{margin-top:auto;display:flex;gap:14px;flex-wrap:wrap}
+.c{display:inline-flex;align-items:center;gap:10px;padding:10px 16px 10px 10px;border-radius:999px;background:#0C1531;border:1px solid #233160;font:650 19px/1 A;letter-spacing:.06em;text-transform:uppercase}
+.k{width:30px;height:30px;border-radius:50%;display:inline-grid;place-items:center;color:#070C1D;font:700 17px/1 A;letter-spacing:0}
+.fl{width:30px;height:22px;object-fit:cover;border-radius:3px}
+</style></head><body><div class="g"></div><div class="w">
+<div class="top"><div class="m">DIURNA<i>.</i></div><div class="no">${esc(S.no.replace('{n}', ed.number))} · ${esc(date)}</div></div>
+<h1>${esc(head)}</h1>
+<div class="row">${ed.essentials.map((s) => { const fl = flagURI(s.id); return `<span class="c"><span class="k" style="background:${RANK[s.rank]}">${s.rank}</span>${fl ? `<img class="fl" src="${fl}" alt="">` : ''}<span style="color:${RANK[s.rank]}">${esc(typo(lang, cn(s)))}</span></span>`; }).join('')}</div>
+</div></body></html>`;
+}
+
 const today = Date.now();
 const age = (d) => (today - Date.parse(d + 'T00:00:00Z')) / 864e5;
 const manifestPath = path.join(root, 'og/manifest.json');
@@ -83,8 +109,8 @@ for (const lang of ['fr', 'en']) {
   for (const f of fs.readdirSync(path.join(root, dir)).filter((x) => /^\d{4}-\d{2}-\d{2}\.json$/.test(x))) {
     const ed = readJ(`${dir}/${f}`, null);
     if (!ed || age(ed.date) > RECENT_DAYS) continue;
-    for (const s of ed.essentials) {
-      const html = card(lang, ed, s);
+    for (const s of [{ rank: 0 }, ...ed.essentials]) {
+      const html = s.rank === 0 ? cover(lang, ed) : card(lang, ed, s);
       const key = `${lang}/${ed.date}-${s.rank}`;
       const h = crypto.createHash('sha1').update(html).digest('hex').slice(0, 12);
       const out = path.join(root, `og/${key}.jpg`);

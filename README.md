@@ -69,3 +69,17 @@ Secrets GitHub Actions (jamais dans le site) : `BUTTONDOWN_API_KEY` pour dépose
 - Le CSS est écrit dans chaque page par `tools/build.mjs` (pas de requête bloquante) ; le globe, d3 et les modules
   se chargent une fois le texte affiché, et le globe de l'accueil ne commence à tourner qu'après quelques secondes.
 - Le workflow **Performance** mesure le site public avec Lighthouse (mobile) après chaque mise en ligne.
+
+## Pages et fonctions ajoutées (novembre 2026)
+
+- **Lecture** : temps de lecture, glossaire (`data/glossary.json`), écoute, taille du texte, mode jour, sujets lus,
+  balayage, raccourcis clavier (`?`), version imprimable (`/AAAA/MM/JJ/imprimer/`).
+- **Globe** : page Carte (`/carte/`, chaleur 7/30 jours, rejeu, recherche, jour/nuit, météo des capitales par Open-Meteo),
+  légende, plein écran, carte de situation des pages pays.
+- **Revenir** : quiz du jour (`/quiz/` mène au dernier), série, pays suivis, agenda `.ics`, `/semaine/`, `/chiffres/`,
+  frise des dossiers, « Hier dans Diurna », partage d'un passage.
+- **Diffusion** : image de la une, stories (`/AAAA/MM/JJ/stories/`), lecture hors connexion (bouton dans « En bref »),
+  manifeste enrichi (`tools/screens.mjs` pour les captures), carrousel 1080 × 1920, légendes LinkedIn et X,
+  lettre du jour (`/lettre/`), page Presse, flux JSON et flux par pays, chiffres clés sur À propos.
+- **Confiance** : mises à jour datées (`updates`), page Corrections, sources de référence (`data/sources.json`),
+  historique de publication (`data/history.json`), contrôle mensuel des liens (workflow « Liens des archives »).

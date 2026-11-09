@@ -99,6 +99,25 @@ ${s.figure ? `<div class="fig"><div class="v">${esc(typo(lang, s.figure.value))}
 </div></body></html>`;
 }
 
+// Format story (1080 × 1920) : la même mise en page, plus haute, avec de l'air autour du texte.
+const STORY_CSS = `<style>body{width:1080px!important;height:1920px!important}.w{inset:150px 84px 150px 84px!important}h1{font-size:84px!important}.st{-webkit-line-clamp:9!important;font-size:38px!important}.g{top:-120px!important}</style>`;
+
+// Légendes pour LinkedIn (plus longue, posée) et X (courte, avec le lien).
+function captionLinkedIn(lang, ed) {
+  const home = `${base}/${lang === 'en' ? 'en/' : ''}`;
+  const intro = lang === 'en' ? 'The world this morning, in five stories:' : 'Le monde ce matin, en cinq sujets :';
+  const outro = lang === 'en'
+    ? 'Diurna explains the day’s international news in three sentences per story, with a globe to place them on. Written by an AI from the sources cited, every morning.'
+    : 'Diurna explique l’actualité internationale du jour en trois phrases par sujet, avec un globe pour la situer. Rédigé chaque matin par une IA à partir des sources citées.';
+  return [typo(lang, ed.headline), '', intro, '', ...ed.essentials.map((s) => `${s.rank}. ${typo(lang, cname(lang, s))} — ${typo(lang, s.title)}`), '', outro, '', home, '', lang === 'en' ? '#WorldNews #Geopolitics #News' : '#Actualité #Géopolitique #International', ''].join('\n');
+}
+function captionX(lang, ed) {
+  const home = `${base}/${lang === 'en' ? 'en/' : ''}`;
+  let txt = `${typo(lang, ed.headline)}\n\n${ed.essentials.map((s) => `${s.rank}. ${typo(lang, cname(lang, s))}`).join(' · ')}\n\n${home}`;
+  if (txt.length > 280) txt = `${typo(lang, ed.headline).slice(0, 280 - home.length - 6)}…\n\n${home}`;
+  return txt + '\n';
+}
+
 function caption(lang, ed) {
   const S = I18N[lang];
   const home = `${base}/${lang === 'en' ? 'en/' : ''}`;
@@ -127,6 +146,18 @@ try {
       await page.screenshot({ path: path.join(dir, `${String(i + 1).padStart(2, '0')}.png`), type: 'png' });
     }
     fs.writeFileSync(path.join(dir, 'legende.txt'), caption(lang, ed));
+    fs.writeFileSync(path.join(dir, 'legende-linkedin.txt'), captionLinkedIn(lang, ed));
+    fs.writeFileSync(path.join(dir, 'legende-x.txt'), captionX(lang, ed));
+    // Format story 1080 × 1920
+    const sdir = path.join(OUT, `${ed.date}-${lang}-story`);
+    fs.mkdirSync(sdir, { recursive: true });
+    await page.setViewportSize({ width: 1080, height: 1920 });
+    for (let i = 0; i < htmls.length; i++) {
+      await page.setContent(htmls[i].replace('</head>', STORY_CSS + '</head>'), { waitUntil: 'load' });
+      await page.evaluate(() => document.fonts.ready);
+      await page.screenshot({ path: path.join(sdir, `${String(i + 1).padStart(2, '0')}.png`), type: 'png' });
+    }
+    await page.setViewportSize({ width: 1080, height: 1350 });
     console.log(`Carrousel ${lang} : ${htmls.length} images et une légende dans ${path.relative(root, dir)}/`);
   }
 } finally {

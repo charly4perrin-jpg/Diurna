@@ -1,20 +1,87 @@
 {
+  "id": "./",
   "name": "Diurna",
   "short_name": "Diurna",
   "description": "Le monde, chaque jour, en trois phrases.",
   "lang": "fr",
+  "dir": "ltr",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
   "background_color": "#070C1D",
   "theme_color": "#070C1D",
+  "categories": [
+    "news",
+    "education"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/screens/mobile-home.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "L’accueil sur téléphone"
+    },
+    {
+      "src": "icons/screens/mobile-story.webp",
+      "sizes": "780x1688",
+      "type": "image/webp",
+      "form_factor": "narrow",
+      "label": "Un sujet sur téléphone"
+    },
+    {
+      "src": "icons/screens/desktop-edition.webp",
+      "sizes": "1440x900",
+      "type": "image/webp",
+      "form_factor": "wide",
+      "label": "L’édition sur ordinateur"
+    }
   ],
   "shortcuts": [
-    { "name": "L'édition du jour", "url": "globe/" },
-    { "name": "Archives", "url": "archives/" }
+    {
+      "name": "L’édition",
+      "url": "globe/",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Quiz du jour",
+      "url": "quiz/"
+    },
+    {
+      "name": "Carte",
+      "url": "carte/"
+    },
+    {
+      "name": "La semaine",
+      "url": "semaine/"
+    }
   ]
 }
