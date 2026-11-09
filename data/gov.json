@@ -46,11 +46,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "source": {
-   "name": "Associated Press, via The Manila Times",
-   "name_en": "Associated Press, via The Manila Times",
-   "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614"
+   "name": "Euronews",
+   "name_en": "Euronews",
+   "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -69,10 +69,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "source": {
-   "name": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+   "name": "Associated Press, via PBS",
+   "name_en": "Associated Press, via PBS",
+   "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government"
   },
   "regime_en": "Parliamentary democracy"
  },
@@ -244,6 +245,58 @@
   "source": {
    "name": "Shannonside",
    "url": "https://www.shannonside.ie/news/micheal-martin-to-be-taoiseach-until-november-2027-256699"
+  }
+ },
+ "SAU": {
+  "regime": "Monarchie absolue",
+  "regime_en": "Absolute monarchy",
+  "leaders": [
+   {
+    "role": "Prince héritier et Premier ministre",
+    "role_en": "Crown Prince and Prime Minister",
+    "name": "Mohammed ben Salmane",
+    "name_en": "Mohammed bin Salman"
+   }
+  ],
+  "checked": "2026-11-09",
+  "source": {
+   "name": "Gulf News",
+   "name_en": "Gulf News",
+   "url": "https://gulfnews.com/world/gulf/saudi/houthi-missiles-intercepted-over-dhahran-and-haradh-debris-falls-in-residential-area-1.500709539"
+  }
+ },
+ "TUR": {
+  "regime": "République présidentielle",
+  "regime_en": "Presidential republic",
+  "leaders": [
+   {
+    "role": "Président",
+    "role_en": "President",
+    "name": "Recep Tayyip Erdoğan"
+   }
+  ],
+  "checked": "2026-11-09",
+  "source": {
+   "name": "Wikipedia",
+   "name_en": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+  }
+ },
+ "MMR": {
+  "regime": "Pouvoir dominé par l'armée, issu d'élections organisées par la junte",
+  "regime_en": "Military-dominated government, after junta-run elections",
+  "leaders": [
+   {
+    "role": "Président",
+    "role_en": "President",
+    "name": "Min Aung Hlaing"
+   }
+  ],
+  "checked": "2026-11-09",
+  "source": {
+   "name": "Wikipedia",
+   "name_en": "Wikipedia",
+   "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
   }
  }
 }

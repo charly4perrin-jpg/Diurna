@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-08",
-  "number": 4,
-  "updated": "2026-11-08T06:59:54+01:00",
-  "headline": "En Israël, Gadi Eisenkot chargé de former un gouvernement à la place de Benyamin Nétanyahou",
-  "standfirst": "Le président Isaac Herzog a confié samedi soir à l'ancien chef d'état-major la mission de réunir une majorité, que son bloc n'a pas. L'Iran annonce lever la limite de portée de ses missiles, et Kiev subit une salve de 36 missiles balistiques avant les pourparlers d'Abou Dhabi.",
+  "date": "2026-11-09",
+  "number": 5,
+  "updated": "2026-11-09T07:00:51+01:00",
+  "headline": "En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d'urgence nationale »",
+  "standfirst": "L'ancien chef d'état-major tend la main au Likoud, mais ne compte que 48 députés dans son bloc. Une attaque houthiste endommage une tour d'Aramco à Riyad, l'Ukraine subit de nouvelles coupures avant Abou Dhabi et la COP31 s'ouvre à Antalya.",
   "essentials": [
     {
       "rank": 1,
@@ -15,17 +15,17 @@
         "conflict"
       ],
       "radar": false,
-      "title": "En Israël, Isaac Herzog charge Gadi Eisenkot de former un gouvernement face à Benyamin Nétanyahou",
-      "standfirst": "Le président israélien a confié samedi soir au chef de Yashar, soutenu par 67 députés, la mission de bâtir une coalition. Benyamin Nétanyahou accuse son rival de vouloir gouverner avec des « soutiens du terrorisme ».",
+      "title": "En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d'urgence nationale »",
+      "standfirst": "L'ancien chef d'état-major a officiellement reçu dimanche la mission de former le gouvernement, avec 67 recommandations mais un bloc de 48 députés. Il appelle le Likoud à le rejoindre et pose quatre conditions à tout partenaire.",
       "body": [
-        "Samedi 7 novembre au soir, le président israélien, Isaac Herzog, a annoncé qu'il chargeait le chef du parti Yashar et ancien chef d'état-major, Gadi Eisenkot, de former le prochain gouvernement, une mission qui doit lui être remise officiellement dimanche à la résidence présidentielle de Jérusalem.",
-        "L'ancien général a été recommandé par 67 députés sur 120, dont ceux des partis arabes, contre 46 pour Benyamin Nétanyahou, mais son propre bloc ne compte que 48 élus et plusieurs de ses alliés refusent de dépendre de Raam et de la Liste unifiée.",
-        "Gadi Eisenkot dispose de 28 jours, prolongeables de quatorze, pour réunir au moins 61 députés, tandis que le Premier ministre sortant réclame un « gouvernement d'union nationale » incluant ses alliés d'extrême droite et les partis ultraorthodoxes."
+        "Dimanche 8 novembre, à la résidence présidentielle de Jérusalem, le président israélien, Isaac Herzog, a remis officiellement au chef du parti Yashar, Gadi Eisenkot, le mandat de former le prochain gouvernement, au lendemain de l'annonce de son choix.",
+        "Recommandé par 67 députés sur 120, contre 46 pour Benyamin Nétanyahou, l'ancien chef d'état-major ne dispose que d'un bloc de 48 élus et a promis des initiatives politiques « créatives et non conventionnelles » pour bâtir un « gouvernement d'urgence nationale ».",
+        "Il a jusqu'au 6 décembre, délai prolongeable jusqu'au 20 décembre, pour réunir une majorité, alors que les nouveaux députés doivent prêter serment mardi et que Benyamin Nétanyahou reste en fonctions pour expédier les affaires courantes."
       ],
       "figure": {
-        "value": "28 jours",
-        "label": "pour former une coalition, prolongeables de quatorze jours",
-        "compare": "il faut au moins 61 députés sur 120"
+        "value": "6 décembre",
+        "label": "fin du délai initial pour former une coalition",
+        "compare": "prolongeable jusqu'au 20 décembre, selon Israel Hayom"
       },
       "modules": {
         "vote": {
@@ -93,27 +93,28 @@
         }
       },
       "analysis": {
-        "title": "Une majorité à inventer",
-        "text": "La désignation de Gadi Eisenkot ne règle pas l'équation de la Knesset. Pour atteindre 61 sièges, il doit soit s'appuyer sur les 19 députés arabes, ce que refusent les plus droitiers de ses alliés, soit attirer les ultraorthodoxes. Avigdor Liberman s'est dit prêt vendredi à des « compromis douloureux » sur la conscription des étudiants des yeshivas, et le Judaïsme unifié de la Torah, qui n'a recommandé personne, a évoqué un partenariat avec lui. Selon le Times of Israel, la voie la plus probable reste un gouvernement minoritaire soutenu de l'extérieur, ce qu'Ahmad Tibi, de la Liste unifiée, dit également anticiper. Gadi Eisenkot pose ses conditions : reconnaissance d'Israël comme État juif et démocratique, service obligatoire pour tous et qualification du Hamas comme organisation terroriste."
+        "title": "La main tendue au Likoud",
+        "text": "Dans son discours, Gadi Eisenkot n'a pas prononcé le nom de Benyamin Nétanyahou mais a invité le Likoud et le Parti sioniste religieux à rejoindre sa coalition, assurant que sa « porte est ouverte ». Il fixe quatre conditions à tout partenaire : reconnaître Israël comme État juif et démocratique, respecter les valeurs de la déclaration d'indépendance, accepter un service militaire ou civil obligatoire et s'engager à détruire le Hamas, qualifié d'organisation terroriste. Il n'a pas évoqué Otzma Yehudit, avec lequel son numéro deux, Yoram Cohen, exclut de gouverner. Selon le Times of Israel, l'hypothèse arithmétique la plus citée reste une majorité de 61 voix reposant sur son bloc, les sept députés du Judaïsme unifié de la Torah et l'abstention bienveillante du Shas."
       },
       "keys": [
         {
-          "title": "La riposte de Benyamin Nétanyahou",
-          "text": "Dans une vidéo diffusée samedi soir, le Premier ministre sortant a affirmé qu'Israël ne « survivrait » pas à un gouvernement dépendant des partis arabes. Yashar a qualifié ce message d'« hystérique » et l'a accusé d'hypocrisie."
+          "title": "Le message d'Isaac Herzog",
+          "text": "Le chef de l'État a réclamé un gouvernement « stable », capable de faire face dans la durée aux menaces venues d'Iran, de Gaza et du Liban. Il a demandé à Gadi Eisenkot de tout faire pour aboutir."
         },
         {
-          "title": "Le calcul des ultraorthodoxes",
-          "text": "Le Judaïsme unifié de la Torah, fort de sept sièges, se dit ouvert à des discussions avec Avigdor Liberman. Le Shas, de son côté, dément toute défection et se dit membre du bloc de droite."
+          "title": "Le camp Nétanyahou",
+          "text": "Le Premier ministre sortant, qui reste en fonctions pour expédier les affaires courantes, réclame un gouvernement d'union nationale avec la droite et les ultraorthodoxes. Il a qualifié samedi les partis arabes de « soutiens du terrorisme », un message jugé « hystérique » par Yashar."
         },
         {
-          "title": "La position de Gadi Eisenkot",
-          "text": "L'ancien chef d'état-major exclut de gouverner avec Benyamin Nétanyahou et appelle à un « gouvernement d'urgence nationale ». Il a siégé huit mois comme observateur au cabinet de guerre après le 7 octobre 2023."
+          "title": "Le calendrier",
+          "text": "Une fois sa coalition formée, Gadi Eisenkot disposera de sept jours pour la présenter à la Knesset. Son bloc veut d'abord remplacer le président de l'assemblée, Amir Ohana, ce qui n'est pas attendu avant la semaine prochaine, selon Israel Hayom."
         }
       ],
       "involved": [
         "PSE",
         "USA",
-        "LBN"
+        "LBN",
+        "IRN"
       ],
       "context": [
         {
@@ -121,235 +122,242 @@
           "t": "Attaque menée par le Hamas dans le sud d'Israël, suivie de la guerre à Gaza."
         },
         {
-          "d": "2025-10-10",
-          "t": "Entrée en vigueur du cessez-le-feu à Gaza."
-        },
-        {
           "d": "2026-10-27",
           "t": "Élections législatives : aucun bloc n'obtient la majorité."
         },
         {
-          "d": "2026-11-05",
-          "t": "Fin des consultations : 67 recommandations pour Gadi Eisenkot, 46 pour Benyamin Nétanyahou."
+          "d": "2026-11-07",
+          "t": "Isaac Herzog annonce qu'il charge Gadi Eisenkot de former le gouvernement."
         },
         {
-          "d": "2026-11-07",
-          "t": "Isaac Herzog charge Gadi Eisenkot de former le gouvernement."
+          "d": "2026-11-08",
+          "t": "Remise officielle du mandat à Jérusalem ; Gadi Eisenkot tend la main au Likoud."
         },
         {
           "d": "2026-11-10",
           "t": "Prestation de serment de la nouvelle Knesset."
+        },
+        {
+          "d": "2026-12-06",
+          "t": "Fin du délai initial de 28 jours pour former le gouvernement."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "Isaac Herzog choisit Gadi Eisenkot",
-          "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government",
-          "date": "2026-11-07"
+          "name": "The Times of Israel",
+          "title": "Gadi Eisenkot promet des actes « non conventionnels »",
+          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Le président donne la première chance à Gadi Eisenkot",
+          "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Israel Hayom",
+          "title": "Gadi Eisenkot appelle à l'unité",
+          "url": "https://www.israelhayom.com/2026/11/08/eisenkot-tasked-with-forming-government-calls-for-unity/",
+          "date": "2026-11-08"
         },
         {
           "name": "The Times of Israel",
           "title": "Une coalition encore introuvable",
           "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
           "date": "2026-11-08"
-        },
-        {
-          "name": "International Business Times",
-          "title": "Le communiqué de la présidence",
-          "url": "https://www.ibtimes.com/herzog-tasks-eisenkot-form-israel-government-3809534",
-          "date": "2026-11-07"
         }
       ],
       "dossier": {
         "id": "israel-gaza",
         "title": "Israël et Gaza"
       },
-      "slug": "israel-isaac-herzog-charge-gadi-eisenkot-former-gouvernement"
+      "slug": "israel-gadi-eisenkot-recoit-mandat-promet-gouvernement-urgence"
     },
     {
       "rank": 2,
-      "id": "IRN",
-      "place": "Iran",
+      "id": "SAU",
+      "place": "Arabie saoudite",
       "section": "Moyen-Orient",
       "types": [
         "conflict",
-        "economy",
-        "diplomacy"
+        "economy"
       ],
       "radar": false,
-      "title": "L'Iran lève la limite de portée de ses missiles après de nouvelles frappes américaines à Ormuz",
-      "standfirst": "Les gardiens de la révolution affirment ne plus s'imposer de plafond de 2 000 kilomètres pour leurs missiles balistiques. Washington crée une force chargée de traquer la contrebande d'armes iranienne, tandis que des conseillers pressent Donald Trump de reprendre la guerre.",
+      "title": "À Riyad, une attaque houthiste endommage la tour d'Aramco au cœur du quartier financier",
+      "standfirst": "Des missiles tirés depuis le Yémen ont été interceptés dimanche au-dessus de la capitale saoudienne, mais des débris ont touché un immeuble du géant pétrolier. Les autorités houthistes accusent l'aviation saoudienne d'avoir tué des dizaines de personnes près de Sanaa.",
       "body": [
-        "Samedi 7 novembre, le porte-parole des gardiens de la révolution, le général Hossein Mohebbi, a déclaré à Téhéran que la limite de 2 000 kilomètres que l'Iran imposait à la portée de ses missiles balistiques avait été levée, au lendemain de frappes américaines contre la défense antiaérienne de l'île de Qeshm.",
-        "Cette annonce, qui ne précise pas si l'Iran dispose déjà de missiles plus puissants, accompagne une déclaration attribuée au Guide suprême, Mojtaba Khamenei, promettant une réponse « sans limites géographiques » à toute menace américaine ou israélienne.",
-        "Selon NBC, des conseillers ont recommandé à Donald Trump de reprendre les opérations de grande ampleur avant l'installation du nouveau Congrès en janvier, et le commandement central américain a annoncé la création d'une force chargée de couper les routes terrestres et caspiennes de l'armement iranien."
+        "Dans la nuit du samedi 7 au dimanche 8 novembre, des missiles houthistes tirés vers Riyad ont été interceptés par la défense aérienne saoudienne, mais des débris ont soufflé les vitres de plusieurs étages d'un immeuble d'Aramco dans le quartier financier du roi Abdallah, sans faire de victimes, selon le ministère de l'énergie.",
+        "Les rebelles yéménites, alignés sur l'Iran, ont intensifié depuis septembre leurs tirs contre les ports et les aéroports du royaume, et leur porte-parole, Yahya Saree, affirme avoir aussi visé l'aéroport international de Riyad, ce que les autorités saoudiennes n'ont pas confirmé.",
+        "La coalition dirigée par Riyad dit avoir détruit des lanceurs de missiles à Saada et à Sanaa, tandis que le ministère de la santé houthiste fait état d'au moins 33 morts samedi et 40 dimanche dans des frappes saoudiennes près de la capitale yéménite."
       ],
       "figure": {
-        "value": "> 25 milliards $",
-        "label": "de brut iranien privé d'exportation par le blocus américain",
-        "compare": "selon le commandement central américain"
+        "value": "107 $",
+        "label": "le baril de Brent au 3 novembre",
+        "compare": "contre environ 71 $ fin février, avant la guerre avec l'Iran"
       },
       "modules": {
-        "market": {
-          "series": "brent",
-          "from": "2026-01-01",
-          "mark": {
-            "d": "2026-02-28",
-            "label": "Début de la guerre"
-          }
+        "toll": {
+          "items": [
+            {
+              "value": "≥ 40",
+              "label": "morts dans des frappes saoudiennes près de Sanaa le 8 novembre",
+              "by": "le ministère de la santé houthiste",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Reuters, via AsiaOne",
+                "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+              }
+            },
+            {
+              "value": "≥ 33",
+              "label": "morts dans des frappes saoudiennes près de Sanaa le 7 novembre",
+              "by": "le ministère de la santé houthiste",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Reuters, via AsiaOne",
+                "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+              }
+            },
+            {
+              "value": "13",
+              "label": "morts dans l'attaque houthiste contre l'aéroport de Riyad le 10 octobre",
+              "by": "CBS News",
+              "date": "2026-10-13",
+              "source": {
+                "name": "CBS News",
+                "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+              }
+            }
+          ],
+          "note": "Bilans non vérifiés de façon indépendante ; Riyad dit enquêter sur les frappes près de Sanaa."
         },
         "places": {
           "items": [
             {
-              "name": "Île de Qeshm",
+              "name": "Quartier financier du roi Abdallah, Riyad",
               "coords": [
-                55.85,
-                26.8
+                46.64,
+                24.76
               ],
-              "note": "Frappes américaines contre un système antiaérien le 6 novembre, confirmées par Donald Trump."
+              "note": "Immeuble d'Aramco endommagé par des débris le 8 novembre, sans victimes."
+            },
+            {
+              "name": "Sanaa",
+              "coords": [
+                44.21,
+                15.35
+              ],
+              "note": "Frappes saoudiennes les 7 et 8 novembre, selon les autorités houthistes."
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+            "name": "Reuters, via AsiaOne",
+            "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
           }
         },
         "sides": {
           "groups": [
             {
-              "name": "États-Unis et Israël",
+              "name": "Arabie saoudite et coalition",
               "ids": [
-                "USA",
-                "ISR"
+                "SAU"
               ],
-              "note": "Campagne de frappes lancée le 28 février."
+              "note": "Soutient le gouvernement yéménite reconnu et frappe les positions houthistes."
             },
             {
-              "name": "Iran",
+              "name": "Houthis",
               "ids": [
-                "IRN"
+                "YEM"
               ],
-              "note": "Ripostes contre Israël et les bases américaines du Golfe."
-            }
-          ],
-          "mediators": [
-            {
-              "id": "QAT"
-            },
-            {
-              "id": "PAK",
-              "note": "a annoncé un arrêt des opérations le 15 juin"
+              "note": "Tiennent Sanaa depuis plus de dix ans ; alignés sur l'Iran.",
+              "backers": [
+                {
+                  "id": "IRN",
+                  "note": "soutien attribué par Riyad et Washington"
+                }
+              ]
             }
           ],
           "source": {
-            "name": "Associated Press",
-            "url": "https://www.inquirer.com/news/nation-world/iran-negotiations-war-hormuz-strait-20261102.html"
+            "name": "Reuters, via AsiaOne",
+            "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
           }
         },
-        "impact": {
-          "text": "Le prix du pétrole se répercute à la pompe : en France, le gazole coûtait en moyenne 2,29 euros le litre début novembre, selon l'AFP, malgré la mise sur le marché de 10 millions de barils puisés dans les stocks stratégiques.",
-          "date": "2026-11-02",
-          "source": {
-            "name": "AFP, via Connaissance des énergies",
-            "name_en": "AFP, via Connaissance des énergies",
-            "url": "https://www.connaissancedesenergies.org/afp/prix-du-gazole-macron-se-felicite-de-solutions-concretes-qui-portent-leurs-fruits-261102"
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre avec l'Iran"
           }
         },
         "inflation": {}
       },
-      "since": {
-        "date": "2026-02-28",
-        "label": "de guerre"
-      },
       "analysis": {
-        "title": "La pression sur les routes de contournement",
-        "text": "Avec la force baptisée Iron Gate, installée à Tampa, en Floride, Washington étend le blocus naval aux frontières terrestres et à la mer Caspienne. Son commandant, l'amiral Brad Cooper, assure qu'elle réduira encore la capacité de l'Iran à financer le terrorisme. Selon une enquête de Reuters citée par le Times of Israel, un réseau iranien a importé depuis janvier 2025 au moins 2 milliards de dollars de matériel, d'explosifs et de camions par la Caspienne depuis la Russie, par la route depuis l'Asie centrale et par avion depuis la Chine. Les gardiens de la révolution répondent par la surenchère : une portée de 2 000 kilomètres couvre déjà la péninsule Arabique, le Levant, l'essentiel de l'Égypte et une partie de la Grèce."
+        "title": "Un front de plus dans la guerre régionale",
+        "text": "Selon Reuters, l'offensive houthiste contre le royaume constitue un nouveau front de la guerre menée par les États-Unis et Israël contre l'Iran depuis février. Après une avancée en septembre vers le détroit de Bab el-Mandeb, les rebelles ont multiplié les tirs de missiles et de drones contre les infrastructures saoudiennes ; le 10 octobre, une attaque contre l'aéroport de Riyad avait fait 13 morts, selon CBS News. Les Houthis revendiquent aussi des frappes contre des réservoirs d'Aramco à Riyad et à Abqaïq, que l'Institute for the Study of War n'a pas pu vérifier. Dans le même temps, les gardiens de la révolution ont visé des navires dans le détroit d'Ormuz, entretenant la pression sur l'approvisionnement mondial en pétrole."
       },
       "keys": [
         {
-          "title": "La décision de Donald Trump",
-          "text": "Le président américain n'a pas tranché sur une reprise des combats, selon NBC, et le Pentagone se refuse à tout commentaire. Il a qualifié de « mineures » les frappes de vendredi contre un système antiaérien."
+          "title": "La province orientale",
+          "text": "Aucune perturbation des opérations d'Aramco n'a été signalée, selon Investing.com. L'alerte a été levée dimanche à Dhahran, Dammam, Abqaïq et Al-Ahsa, peu avant l'annonce de l'interception d'un missile visant la région."
         },
         {
-          "title": "Le canal chinois",
-          "text": "Le secrétaire au Trésor, Scott Bessent, aurait sollicité Pékin, avec l'accord de Donald Trump, pour peser sur Téhéran, selon un éditorialiste du Washington Post. La Chine aurait ensuite pris contact avec l'Iran."
-        },
-        {
-          "title": "Le soutien russe",
-          "text": "Selon le Telegraph, l'Iran négocie l'achat du système de défense aérienne S-400. Le secrétaire du Conseil suprême de sécurité nationale, Mohsen Rezaei, a remis cette semaine à Vladimir Poutine un message du Guide suprême."
+          "title": "La diplomatie régionale",
+          "text": "Selon Reuters, des responsables saoudiens, turcs et pakistanais, liés par un pacte de défense, ont rencontré le mois dernier des dirigeants iraniens à Téhéran. Le Royaume-Uni a annoncé en octobre des missions défensives de ses avions de chasse."
         }
       ],
       "involved": [
-        "USA",
-        "ISR",
-        "QAT",
-        "RUS",
-        "CHN"
-      ],
-      "zones": [
-        {
-          "id": "HORMUZ",
-          "name": "Ormuz",
-          "coords": [
-            56.4,
-            26.5
-          ]
-        }
+        "YEM",
+        "IRN",
+        "USA"
       ],
       "context": [
         {
           "d": "2026-02-28",
-          "t": "Frappes américaines et israéliennes ; mort d'Ali Khamenei. L'Iran riposte et bloque le détroit d'Ormuz."
+          "t": "Frappes américaines et israéliennes contre l'Iran ; début de la guerre régionale."
         },
         {
-          "d": "2026-06-15",
-          "t": "Le Pakistan annonce un arrêt des opérations militaires, régulièrement violé depuis."
+          "d": "2026-10-10",
+          "t": "Attaque contre l'aéroport international de Riyad : 13 morts."
         },
         {
-          "d": "2026-11-03",
-          "t": "Défaite républicaine aux élections de mi-mandat."
-        },
-        {
-          "d": "2026-11-06",
-          "t": "Frappes américaines sur l'île de Qeshm, confirmées par Donald Trump."
-        },
-        {
-          "d": "2026-11-07",
-          "t": "Les gardiens de la révolution lèvent la limite de portée de leurs missiles ; création de la force Iron Gate."
+          "d": "2026-11-08",
+          "t": "Une tour d'Aramco touchée par des débris dans le quartier financier de Riyad."
         }
       ],
       "sources": [
         {
-          "name": "The Times of Israel",
-          "title": "Les gardiens de la révolution lèvent la limite de portée",
-          "url": "https://www.timesofisrael.com/irgc-says-its-self-imposed-limit-on-ballistic-missile-range-has-been-lifted/",
-          "date": "2026-11-07"
+          "name": "Reuters, via AsiaOne",
+          "title": "Une attaque houthiste endommage un immeuble d'Aramco",
+          "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district",
+          "date": "2026-11-09"
         },
         {
-          "name": "Associated Press, via Local 10",
-          "title": "L'Iran lève sa limite de portée des missiles",
-          "url": "https://www.local10.com/news/world/2026/11/07/iran-says-it-has-lifted-its-self-imposed-limit-on-missile-ranges-and-other-mideast-news/",
-          "date": "2026-11-07"
+          "name": "The Week",
+          "title": "Missiles interceptés au-dessus de Riyad",
+          "url": "https://www.theweek.in/news/middle-east/2026/11/08/saudi-aramco-building-damaged-in-riyadh-after-houthi-attack-from-yemen-intercepted.html",
+          "date": "2026-11-08"
         },
         {
-          "name": "Al Jazeera",
-          "title": "Donald Trump confirme des frappes sur Qeshm",
-          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
-          "date": "2026-11-07"
+          "name": "Critical Threats",
+          "title": "Point sur l'Iran du 8 novembre",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-november-8-2026",
+          "date": "2026-11-08"
         },
         {
-          "name": "The Times of Israel",
-          "title": "Fil d'actualité du 7 novembre",
-          "url": "https://www.timesofisrael.com/liveblog-november-07-2026/",
-          "date": "2026-11-07"
+          "name": "Investing.com",
+          "title": "Levée des alertes dans la province orientale",
+          "url": "https://www.investing.com/news/economy-news/saudi-arabia-lifts-oil-region-alerts-after-houthi-missile-intercepted-5010126",
+          "date": "2026-11-08"
         }
       ],
       "dossier": {
-        "id": "guerre-iran",
-        "title": "La guerre avec l’Iran"
+        "id": "guerre-yemen",
+        "title": "La guerre au Yémen"
       },
-      "slug": "iran-leve-limite-portee-missiles-apres-nouvelles-frappes"
+      "slug": "riyad-attaque-houthiste-endommage-tour-aramco-ur-quartier"
     },
     {
       "rank": 3,
@@ -361,52 +369,49 @@
         "diplomacy"
       ],
       "radar": false,
-      "title": "En Ukraine, 36 missiles balistiques sur Kiev à trois jours des pourparlers d'Abou Dhabi",
-      "standfirst": "Dans la nuit du 6 au 7 novembre, la Russie a visé le réseau électrique de la capitale et endommagé le pont Nord sur le Dniepr. Volodymyr Zelensky accuse Moscou de préparer la négociation « en lançant des missiles balistiques ».",
+      "title": "En Ukraine, 850 000 personnes privées de courant avant les pourparlers d'Abou Dhabi",
+      "standfirst": "De nouvelles frappes russes ont visé dimanche le réseau électrique, notamment dans la région de Dnipropetrovsk, et la centrale de Zaporijia a perdu son alimentation extérieure. Paris annonce que les Européens participeront aux discussions des 10 et 11 novembre.",
       "body": [
-        "Dans la nuit du vendredi 6 au samedi 7 novembre, la Russie a tiré 36 missiles balistiques sur Kiev et sa région, dont quatre seulement ont été abattus faute d'intercepteurs Patriot, selon le président ukrainien, Volodymyr Zelensky, ainsi que 172 drones sur treize régions, blessant au moins neuf personnes, dont un enfant.",
-        "Les frappes ont visé les postes électriques qui relient les centrales nucléaires de Rivne et de Khmelnytskyï à la capitale, privant d'électricité, de chauffage et d'eau une partie de la ville, et ont endommagé le pont Nord, que Moscou dit avoir pris pour cible.",
-        "Des délégations ukrainienne, russe et américaine doivent se retrouver mardi 10 novembre à Abou Dhabi pour le quatrième cycle de pourparlers organisé par Washington, alors que le bilan de la frappe de Komyshuvakha, dans la région de Zaporijia, atteint 55 morts."
+        "Dimanche 8 novembre, des frappes russes nocturnes ont privé d'électricité plus de 850 000 personnes en Ukraine, dont plus de 600 000 dans la région de Dnipropetrovsk, selon l'énergéticien DTEK, tandis qu'une personne a été tuée et trois blessées à Dnipro.",
+        "La centrale nucléaire de Zaporijia, occupée par la Russie, a perdu son alimentation extérieure et fonctionne sur générateurs diesel, et un drone a frappé à Komyshuvakha le site où une attaque avait tué au moins 55 personnes, visant selon Kiev les secouristes.",
+        "Le ministre français des affaires étrangères, Jean-Noël Barrot, a annoncé que la France et d'autres Européens prendraient part aux pourparlers des 10 et 11 novembre à Abou Dhabi, conçus jusqu'ici comme une rencontre entre Washington, Moscou et Kiev."
       ],
       "figure": {
-        "value": "36",
-        "label": "missiles balistiques tirés sur Kiev et sa région",
-        "compare": "dont quatre abattus, selon Volodymyr Zelensky"
+        "value": "> 850 000",
+        "label": "personnes privées d'électricité après les frappes de la nuit",
+        "compare": "dont plus de 600 000 dans la région de Dnipropetrovsk, selon DTEK"
       },
       "modules": {
         "toll": {
           "items": [
             {
-              "value": "≥ 9",
-              "label": "blessés dans les frappes de la nuit du 6 au 7 novembre, dont un enfant",
-              "by": "Volodymyr Zelensky",
-              "date": "2026-11-07",
+              "value": "1",
+              "label": "mort et trois blessés dans une frappe sur un quartier résidentiel de Dnipro le 8 novembre",
+              "by": "Oleksandr Hanja, chef de l'administration militaire régionale",
+              "date": "2026-11-08",
               "source": {
-                "name": "Associated Press, via The Manila Times",
-                "name_en": "Associated Press, via The Manila Times",
-                "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614"
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on"
               }
             },
             {
-              "value": "55",
-              "label": "morts dans la frappe du 2 novembre à Komyshuvakha",
-              "by": "le service ukrainien des situations d'urgence",
-              "date": "2026-11-07",
+              "value": "≥ 55",
+              "label": "morts dans l'attaque contre une ancienne école de Komyshuvakha",
+              "by": "les autorités ukrainiennes",
+              "date": "2026-11-08",
               "source": {
-                "name": "Associated Press, via The Manila Times",
-                "name_en": "Associated Press, via The Manila Times",
-                "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614"
+                "name": "Associated Press, via ABC News",
+                "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
               }
             },
             {
-              "value": "15 172",
-              "label": "civils tués entre février 2022 et février 2026",
-              "by": "la mission de l'ONU pour les droits humains",
-              "date": "2026-02-16",
+              "value": "45",
+              "label": "personnes toujours portées disparues à Komyshuvakha",
+              "by": "Mykhaïlo Semikine, chef par intérim de l'administration régionale",
+              "date": "2026-11-08",
               "source": {
-                "name": "ONU, via Ukrinform",
-                "name_en": "UN, via Ukrinform",
-                "url": "https://www.ukrinform.net/rubric-ato/4092556-un-confirms-over-15000-civilian-deaths-in-ukraine-since-start-of-fullscale-war.html"
+                "name": "Associated Press, via ABC News",
+                "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
               }
             }
           ],
@@ -415,43 +420,52 @@
         "places": {
           "items": [
             {
-              "name": "Pont Nord, Kiev",
+              "name": "Centrale nucléaire de Zaporijia",
               "coords": [
-                30.55,
-                50.49
+                34.59,
+                47.51
               ],
-              "note": "Endommagé dans la nuit du 6 au 7 novembre ; circulation interrompue dans les deux sens."
+              "note": "Privée d'alimentation extérieure le 8 novembre, sur générateurs diesel."
+            },
+            {
+              "name": "Dnipro",
+              "coords": [
+                35.05,
+                48.46
+              ],
+              "note": "Un mort et trois blessés dans une frappe le 8 novembre ; coupures massives dans la région."
             }
           ],
           "source": {
-            "name": "LIGA.net",
-            "url": "https://news.liga.net/en/war/news/russia-launched-ballistic-missile-strikes-on-kyiv-and-the-surrounding-region-the-northern-bridge-has-been-shut-down-and-the-power-grid-has-been-damaged-again"
+            "name": "Associated Press, via ABC News",
+            "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
           }
         },
         "table": {
           "ids": [
             "UKR",
             "RUS",
-            "USA"
+            "USA",
+            "FRA"
           ],
           "host": "ARE",
           "positions": [
             {
-              "who": "Kiev",
-              "wants": "Aucun accord sans l'Ukraine, et des garanties de sécurité durables."
+              "who": "Paris",
+              "wants": "Être présent pour que « la voix de l'Europe » soit entendue, selon Jean-Noël Barrot."
             },
             {
               "who": "Washington",
-              "wants": "Un accord : les États-Unis, à l'origine de cette ronde, pressent les deux parties de conclure."
+              "wants": "Un accord : Donald Trump prédit une entente « très importante » avec la Russie, étendue à toute l'Europe."
             }
           ],
           "next": {
             "d": "2026-11-10",
-            "t": "Pourparlers à trois à Abou Dhabi, les 10 et 11 novembre."
+            "t": "Pourparlers à Abou Dhabi, les 10 et 11 novembre."
           },
           "source": {
-            "name": "Reuters, via Devdiscourse",
-            "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official"
+            "name": "Associated Press, via ABC News",
+            "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
           }
         }
       },
@@ -460,24 +474,24 @@
         "label": "depuis l'invasion à grande échelle"
       },
       "analysis": {
-        "title": "L'hiver comme arme",
-        "text": "Faute de percées sur le front, Moscou concentre ses coups sur l'énergie à l'approche de l'hiver. Selon le ministère ukrainien de l'énergie, les frappes de samedi ont endommagé les lignes qui acheminent vers Kiev et le centre du pays le courant des centrales nucléaires, avec des coupures dans les régions de Kiev, de Jytomyr, de Kharkiv, de Donetsk et de Dnipropetrovsk, en plus des délestages programmés. Le maire de Kiev, Vitali Klitschko, juge la situation « extrêmement difficile ». Volodymyr Zelensky affirme que des missiles nord-coréens ont été employés et réclame davantage d'intercepteurs à Washington. Kiev riposte contre l'économie russe : une raffinerie de Saratov et une usine d'Orel ont été touchées, selon les autorités et les médias russes."
+        "title": "La pression par l'hiver",
+        "text": "Moscou poursuit sa campagne contre le réseau énergétique ukrainien à l'approche de l'hiver. Volodymyr Zelensky affirme que la Russie a tiré en une semaine 115 missiles, près de 1 900 bombes guidées et plus de 3 000 drones d'attaque. Le ministère russe de la défense dit avoir visé une sous-station alimentant des entreprises du complexe militaro-industriel. Dans la région de Jytomyr, 140 immeubles étaient privés de chauffage, et la région de Kharkiv a compté jusqu'à 250 000 abonnés sans courant, rétabli depuis. La perte de l'alimentation extérieure de la centrale de Zaporijia, après la déconnexion de la ligne Ferosplavna, ravive les inquiétudes sur la sûreté du plus grand site nucléaire d'Europe, qui dépend désormais de ses générateurs de secours."
       },
       "keys": [
         {
-          "title": "Les pourparlers d'Abou Dhabi",
-          "text": "Ce sera le quatrième cycle de négociations organisé par l'administration Trump, le précédent s'étant tenu à Genève en février. Les questions territoriales et les garanties de sécurité restent sans réponse."
+          "title": "Komyshuvakha",
+          "text": "Le drone russe a touché l'ancienne école et un abri voisin déjà frappés lundi, sans faire de blessés, selon les services de secours. Volodymyr Zelensky a dénoncé un « cynisme absolu »."
         },
         {
-          "title": "Le pont Nord",
-          "text": "Long de 816 mètres, il dessert les grands quartiers résidentiels de la rive gauche du Dniepr. Le ministère russe de la défense affirme qu'il servait au transport d'armes, et sa réparation a commencé, selon Vitali Klitschko."
+          "title": "Le format d'Abou Dhabi",
+          "text": "Les pourparlers étaient présentés comme une rencontre à trois organisée par Washington. Jean-Noël Barrot n'a pas précisé qui représenterait la France."
         }
       ],
       "involved": [
         "RUS",
         "USA",
         "ARE",
-        "PRK"
+        "FRA"
       ],
       "context": [
         {
@@ -486,394 +500,453 @@
         },
         {
           "d": "2026-11-02",
-          "t": "Frappe russe sur un centre d'aide à Komyshuvakha."
+          "t": "Frappe russe sur une ancienne école à Komyshuvakha : au moins 55 morts."
         },
         {
           "d": "2026-11-07",
-          "t": "36 missiles balistiques et 172 drones contre Kiev et douze autres régions ; le pont Nord fermé."
+          "t": "36 missiles balistiques contre Kiev et sa région ; le pont Nord fermé."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Plus de 850 000 personnes privées de courant ; la centrale de Zaporijia sur générateurs."
         },
         {
           "d": "2026-11-10",
-          "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi."
+          "t": "Pourparlers à Abou Dhabi, avec des représentants européens."
         }
       ],
       "sources": [
         {
-          "name": "Associated Press, via The Manila Times",
-          "title": "Frappes de drones et de missiles avant les pourparlers",
-          "url": "https://www.manilatimes.net/2026/11/08/world/ukraine-hit-by-drone-missile-attacks-as-talks-with-russia-us-loom/2464614",
-          "date": "2026-11-07"
+          "name": "Euronews",
+          "title": "850 000 personnes privées d'électricité",
+          "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on",
+          "date": "2026-11-08"
         },
         {
-          "name": "LIGA.net",
-          "title": "36 missiles sur Kiev, le pont Nord fermé",
-          "url": "https://news.liga.net/en/war/news/russia-launched-ballistic-missile-strikes-on-kyiv-and-the-surrounding-region-the-northern-bridge-has-been-shut-down-and-the-power-grid-has-been-damaged-again",
-          "date": "2026-11-07"
-        },
-        {
-          "name": "Reuters, via Devdiscourse",
-          "title": "Pourparlers à trois à Abou Dhabi",
-          "url": "https://www.devdiscourse.com/article/international/4000937-us-to-hold-trilateral-talks-with-ukraine-russia-in-abu-dhabi-next-week-us-official",
-          "date": "2026-11-02"
+          "name": "Associated Press, via ABC News",
+          "title": "La Russie vise les secouristes à Komyshuvakha",
+          "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536",
+          "date": "2026-11-08"
         }
       ],
       "dossier": {
         "id": "guerre-ukraine",
         "title": "La guerre en Ukraine"
       },
-      "slug": "ukraine-36-missiles-balistiques-kiev-trois-jours-pourparlers"
+      "slug": "ukraine-850-000-personnes-privees-courant-avant-pourparlers"
     },
     {
       "rank": 4,
-      "id": "IRL",
-      "place": "Europe",
-      "section": "Europe",
-      "focus": [
-        10,
-        50
-      ],
+      "id": "TUR",
+      "place": "Turquie",
+      "section": "International",
       "types": [
-        "society",
-        "diplomacy"
-      ],
-      "radar": false,
-      "title": "En Europe, les fausses alertes à la bombe gagnent les rédactions après avoir visé des dizaines de vols",
-      "standfirst": "La télévision publique irlandaise RTÉ a évacué ses locaux vendredi après un courriel menaçant, comme la bulgare Nova TV. Depuis mardi, près de trente vols ont été visés, sans qu'aucun explosif soit découvert.",
-      "body": [
-        "Vendredi 6 novembre, des courriels signés d'un certain « Mikhaïl Andropov » et intitulés « Message à l'Occident » ont menacé la télévision publique irlandaise RTÉ, qui a évacué ses locaux et suspendu ses programmes, ainsi que la chaîne bulgare Nova TV, tandis que Sky a fait état d'une menace au Royaume-Uni.",
-        "Ces messages prolongent une vague d'alertes qui a perturbé près de trente vols en Europe depuis mardi, provoquant déroutements et escortes par des avions de chasse, sans qu'aucun explosif soit découvert, selon Reuters, qui n'a pu établir l'origine des envois.",
-        "Aucun pays n'a désigné de coupable, mais le ministre espagnol des affaires étrangères, José Manuel Albares, dénonce une « agression hybride », et l'OTAN a ordonné des patrouilles aériennes près de la frontière entre la Hongrie et la Roumanie."
-      ],
-      "figure": {
-        "value": "≈ 30",
-        "label": "vols visés par de fausses alertes depuis le 3 novembre",
-        "compare": "aucun explosif découvert, selon Reuters"
-      },
-      "modules": {
-        "actors": {
-          "items": [
-            {
-              "name": "José Manuel Albares",
-              "role": "Ministre espagnol des affaires étrangères, il parle d'« agression hybride » et de guerre psychologique."
-            },
-            {
-              "name": "Henna Virkkunen",
-              "role": "Commissaire européenne chargée du numérique, elle rappelle que la Russie est souvent derrière les opérations hybrides."
-            },
-            {
-              "name": "Romulusz Ruszin-Szendi",
-              "role": "Ministre hongrois de la défense, il annonce des escortes d'avions de ligne et des patrouilles de l'OTAN."
-            }
-          ],
-          "source": {
-            "name": "Reuters, via Khaleej Times",
-            "name_en": "Reuters, via Khaleej Times",
-            "url": "https://www.khaleejtimes.com/world/europe/europe-newsroom-bomb-threats-after-flight-hoaxes"
-          }
-        },
-        "dates": {
-          "items": [
-            {
-              "d": "2026-11-03",
-              "t": "Une demi-douzaine de vols perturbés par des menaces."
-            },
-            {
-              "d": "2026-11-05",
-              "t": "Plus de deux douzaines de vols visés ; courriels aux aéroports de Rome et de Milan."
-            },
-            {
-              "d": "2026-11-06",
-              "t": "Menaces contre RTÉ, Nova TV et Sky ; quatre alertes au-dessus de la France."
-            }
-          ],
-          "source": {
-            "name": "Reuters, via ABC News",
-            "name_en": "Reuters, via ABC News",
-            "url": "https://www.abc.net.au/news/2026-11-07/brk-bomb-threats-planes-europe/107358382"
-          }
-        },
-        "impact": {
-          "text": "Un voyageur en Europe peut voir son vol dérouté : vendredi, quatre appareils menacés au-dessus de la France se sont posés sans encombre, dont un Dublin-Rome d'Aer Lingus détourné vers la base aérienne d'Évreux.",
-          "date": "2026-11-06",
-          "source": {
-            "name": "Reuters, via ABC News",
-            "name_en": "Reuters, via ABC News",
-            "url": "https://www.abc.net.au/news/2026-11-07/brk-bomb-threats-planes-europe/107358382"
-          }
-        }
-      },
-      "analysis": {
-        "title": "Le soupçon d'une opération hybride",
-        "text": "Les experts en sécurité cités par Reuters voient dans ces alertes la marque d'une attaque « hybride » coordonnée, sans exclure des imitateurs ou des griefs personnels. Les courriels envoyés jeudi aux aéroports de Rome et de Milan se réclamaient de « Male State », un groupe d'extrême droite interdit en Russie, dont le fondateur, le blogueur Vladislav Pozdnyakov, assure qu'il n'existe plus et dément toute implication. De nombreux responsables européens relient ces perturbations au soutien de l'Europe à l'Ukraine et accusent Moscou de mener une campagne de déstabilisation, ce que la Russie dément. La vague s'ajoute à une série de sabotages imputés à des opérations hybrides, visant des postes électriques allemands, des sites de défense baltes et l'aéroport de Leipzig."
-      },
-      "keys": [
-        {
-          "title": "Des pays touchés en série",
-          "text": "La police tchèque a recensé des menaces contre neuf vols de Prague, et un vol de Wizz Air vers Rome a été dérouté vers Venise. La police danoise signale des menaces visant l'aéroport de Copenhague."
-        },
-        {
-          "title": "Le rôle de l'Irlande",
-          "text": "Dublin doit accueillir la semaine prochaine une importante réunion européenne consacrée aux relations entre la Russie et l'Ukraine. RTÉ a été l'une des premières rédactions visées."
-        }
-      ],
-      "involved": [
-        "BGR",
-        "GBR",
-        "HUN",
-        "CZE",
-        "ITA",
-        "FRA",
-        "DNK",
-        "ESP",
-        "RUS"
-      ],
-      "context": [
-        {
-          "d": "2026-11-03",
-          "t": "Premières fausses alertes à la bombe visant des vols européens."
-        },
-        {
-          "d": "2026-11-05",
-          "t": "Plus de deux douzaines de vols perturbés."
-        },
-        {
-          "d": "2026-11-06",
-          "t": "Les menaces visent RTÉ, Nova TV et Sky ; l'OTAN ordonne des patrouilles aériennes."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Reuters, via ABC News",
-          "title": "Les menaces gagnent les rédactions européennes",
-          "url": "https://www.abc.net.au/news/2026-11-07/brk-bomb-threats-planes-europe/107358382",
-          "date": "2026-11-06"
-        },
-        {
-          "name": "Reuters, via Khaleej Times",
-          "title": "Des menaces contre les rédactions après les vols",
-          "url": "https://www.khaleejtimes.com/world/europe/europe-newsroom-bomb-threats-after-flight-hoaxes",
-          "date": "2026-11-06"
-        }
-      ],
-      "dossier": {
-        "id": "fausses-alertes-europe",
-        "title": "Les fausses alertes à la bombe en Europe"
-      },
-      "slug": "europe-fausses-alertes-bombe-gagnent-redactions-apres-avoir"
-    },
-    {
-      "rank": 5,
-      "id": "HTI",
-      "place": "Haïti",
-      "section": "Amériques",
-      "types": [
-        "conflict",
+        "diplomacy",
         "society"
       ],
-      "radar": true,
-      "title": "En Haïti, le gang 400 Mawozo tend la main à l'État face aux soldats salvadoriens",
-      "standfirst": "Le gang de Wilson Joseph dit avoir contacté la commission nationale de désarmement et réclame une médiation de l'ONU. Le Premier ministre, Alix Didier Fils-Aimé, annonce la mort d'un chef de gang à Cité Soleil.",
+      "radar": false,
+      "title": "À Antalya, la COP31 s'ouvre sous la menace d'un dépassement de 1,5 °C",
+      "standfirst": "Près de 200 pays se retrouvent jusqu'au 20 novembre en Turquie pour la conférence de l'ONU sur le climat, présidée par Ankara et négociée par l'Australie. Les engagements actuels mènent à un réchauffement de 2,8 °C, selon la dernière projection des Nations unies.",
       "body": [
-        "Vendredi 6 novembre, le gang 400 Mawozo, dirigé par Wilson Joseph, a déclaré à l'Associated Press avoir pris contact avec la commission nationale haïtienne chargée du désarmement, de la démobilisation et de la réinsertion, au nom de la « paix » et de la « réconciliation nationale ».",
-        "Accusé par l'ONU et des organisations de défense des droits humains de viols, de meurtres et d'enlèvements, ce qu'il nie, le gang redoute l'offensive des plus de 2 000 soldats salvadoriens déployés ces dernières semaines, et le président salvadorien, Nayib Bukele, a promis de détruire la maison de son chef.",
-        "Le même jour, le Premier ministre, Alix Didier Fils-Aimé, a annoncé la mort d'un chef de gang, identifié par la police comme le chef du gang Boston, à Cité Soleil, tandis que la commission de désarmement assure suivre la feuille de route du gouvernement."
+        "Lundi 9 novembre s'ouvre à Antalya, en Turquie, la 31e conférence des Nations unies sur le climat, qui réunit jusqu'au 20 novembre des délégations de près de 200 pays sous la présidence du ministre turc de l'environnement, Murat Kurum.",
+        "Les chercheurs jugent presque certain que le réchauffement dépassera 1,5 °C en 2026, et les politiques actuelles mènent à une hausse de 2,8 °C d'ici à la fin du siècle, selon la dernière projection de l'ONU citée par l'agence DPA.",
+        "Le ministre australien du climat, Chris Bowen, présidera les négociations, un partage des rôles inédit, avant le sommet des dirigeants des 11 et 12 novembre, où le nombre de chefs d'État annoncés est nettement inférieur à celui des dernières COP."
       ],
       "figure": {
-        "value": "> 2 000",
-        "label": "soldats salvadoriens déployés en Haïti",
-        "compare": "pour la plupart hors de la force soutenue par l'ONU"
+        "value": "2,8 °C",
+        "label": "de réchauffement attendu d'ici à 2100 avec les politiques actuelles",
+        "compare": "contre l'objectif de 1,5 °C de l'accord de Paris"
       },
       "modules": {
         "places": {
           "items": [
             {
-              "name": "Cité Soleil",
+              "name": "Antalya",
               "coords": [
-                -72.33,
-                18.58
+                30.71,
+                36.9
               ],
-              "note": "Opération conjointe de la police : le chef du gang Boston tué le 6 novembre."
-            },
-            {
-              "name": "Tabarre, Port-au-Prince",
-              "coords": [
-                -72.27,
-                18.57
-              ],
-              "note": "Base des soldats salvadoriens, arrivés fin octobre."
+              "note": "Conférence au centre des expositions Antalya Expo, du 9 au 20 novembre."
             }
           ],
           "source": {
-            "name": "Associated Press, via KSAT",
-            "name_en": "Associated Press, via KSAT",
-            "url": "https://www.ksat.com/news/world/2026/11/07/powerful-haitian-gang-reaches-out-to-state-disarmament-group-as-gunfights-persist/"
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
           }
         },
-        "sides": {
-          "groups": [
+        "table": {
+          "ids": [
+            "TUR",
+            "AUS"
+          ],
+          "host": "TUR",
+          "positions": [
             {
-              "name": "État haïtien et forces étrangères",
-              "lead": "Alix Didier Fils-Aimé",
-              "ids": [
-                "HTI",
-                "SLV"
-              ],
-              "note": "Police, armée, force de répression des gangs soutenue par l'ONU et soldats salvadoriens."
+              "who": "Présidence turque et australienne",
+              "wants": "Mettre en œuvre et accélérer les engagements existants, selon leur lettre commune aux délégations."
             },
             {
-              "name": "Gangs armés",
-              "ids": [
-                "HTI"
-              ],
-              "note": "Dont 400 Mawozo, dirigé par Wilson Joseph, et le gang Boston, à Cité Soleil."
+              "who": "ONU Climat",
+              "wants": "Des efforts supplémentaires : les progrès collectifs restent « nettement insuffisants », selon son secrétaire exécutif, Simon Stiell."
             }
           ],
+          "next": {
+            "d": "2026-11-11",
+            "t": "Sommet des dirigeants, les 11 et 12 novembre."
+          },
           "source": {
-            "name": "Associated Press, via ABC News",
-            "name_en": "Associated Press, via ABC News",
-            "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356"
+            "name": "The High Street Journal",
+            "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/"
           }
         },
         "actors": {
           "items": [
             {
-              "name": "Alix Didier Fils-Aimé",
-              "role": "Premier ministre haïtien, il a salué l'opération de Cité Soleil."
+              "name": "Murat Kurum",
+              "role": "Ministre turc de l'environnement, président de la COP31."
             },
             {
-              "name": "Wilson Joseph",
-              "role": "Chef du gang 400 Mawozo, qui réclame une délégation de l'ONU."
+              "name": "Chris Bowen",
+              "role": "Ministre australien du climat, président des négociations."
             },
             {
-              "name": "Nayib Bukele",
-              "role": "Président du Salvador, qui a déployé plus de 2 000 soldats en Haïti."
+              "name": "Simon Stiell",
+              "role": "Secrétaire exécutif de l'ONU Climat."
             }
           ],
           "source": {
-            "name": "Associated Press, via ABC News",
-            "name_en": "Associated Press, via ABC News",
-            "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356"
+            "name": "The High Street Journal",
+            "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/"
           }
         },
-        "help": {
-          "orgs": [
-            "msf",
-            "unicef",
-            "wfp"
-          ]
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-09",
+              "t": "Ouverture de la conférence à Antalya."
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Sommet des dirigeants, jusqu'au 12 novembre."
+            },
+            {
+              "d": "2026-11-20",
+              "t": "Clôture prévue des négociations."
+            }
+          ],
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+          }
         }
       },
       "analysis": {
-        "title": "Le pari de la force salvadorienne",
-        "text": "L'arrivée des soldats salvadoriens change le rapport de force à Port-au-Prince. Selon l'ONU, la plupart opèrent en dehors de la force de répression des gangs soutenue par les Nations unies, qui travaille avec la police, l'armée haïtienne et la société de sécurité privée Vectus Global, fondée par Erik Prince. Leur déploiement a suivi la disparition de quatre techniciens aéronautiques salvadoriens, et ils ont été attaqués le 18 octobre en territoire contrôlé par les gangs. L'ouverture de 400 Mawozo, qui demande la suspension des opérations dans certaines zones en invoquant les conventions de Genève, apparaît comme une tentative de se protéger. Le gang assure que le désarmement est « un processus » et réclame en échange la fin de l'« ingérence internationale »."
+        "title": "Une présidence à deux têtes",
+        "text": "La Turquie et l'Australie s'étaient toutes deux portées candidates pour accueillir la conférence ; le compromis trouvé en novembre 2025 confie l'organisation et l'agenda de l'action à Ankara, et la conduite des négociations à Canberra. L'agence DPA relève que ce partage, nouveau, fait craindre des frictions, les propositions des deux pays ayant manqué de coordination pendant la préparation. Le thème retenu, « mise en œuvre et accélération », traduit des ambitions plus modestes : selon la synthèse de l'ONU portant sur 154 pays, les plans nationaux ne réduiraient les émissions que d'environ 6 % sous leur niveau de 2019 d'ici à 2035. Le financement de l'adaptation, que la COP30 de Belém a promis de tripler, s'annonce comme l'un des points de friction."
       },
       "keys": [
         {
-          "title": "La réponse de Nayib Bukele",
-          "text": "Interpellé sur un réseau social à propos d'une photo présentée comme la maison de Wilson Joseph, le président salvadorien a demandé l'adresse exacte pour la détruire. Son gouvernement n'a pas commenté l'initiative du gang."
+          "title": "Moins de dirigeants",
+          "text": "Une liste provisoire de l'ONU compte 77 chefs d'État ou de gouvernement inscrits pour parler, contre 116 à Dubaï en 2023, selon Climate & Capital Media. La Turquie dit attendre 91 dirigeants."
         },
         {
-          "title": "Un pouvoir sans président élu",
-          "text": "Depuis le départ du Conseil présidentiel de transition, le 7 février, le Premier ministre, Alix Didier Fils-Aimé, dirige seul l'exécutif. Il a salué sur X l'opération de Cité Soleil."
+          "title": "Les hôtes et le charbon",
+          "text": "Greenpeace reproche à la Turquie ses subventions au charbon et un projet d'extension de centrale. Les deux pays hôtes continuent de développer cette énergie, selon l'ONG Urgewald."
         }
       ],
       "involved": [
-        "SLV",
-        "USA"
+        "AUS",
+        "BRA",
+        "CHN"
       ],
       "context": [
         {
-          "d": "2026-02-07",
-          "t": "Fin du mandat du Conseil présidentiel de transition ; Alix Didier Fils-Aimé seul à la tête de l'exécutif."
+          "d": "2015-12-12",
+          "t": "Adoption de l'accord de Paris, qui vise à limiter le réchauffement à 1,5 °C."
         },
         {
-          "d": "2026-10-18",
-          "t": "Des soldats salvadoriens attaqués en territoire contrôlé par les gangs."
+          "d": "2025-11-10",
+          "t": "Ouverture de la COP30 à Belém, au Brésil."
         },
         {
-          "d": "2026-11-01",
-          "t": "Wilson Joseph écrit au secrétaire général de l'ONU pour demander une médiation."
+          "d": "2026-10-27",
+          "t": "L'ONU publie la synthèse des plans climat nationaux."
         },
         {
-          "d": "2026-11-06",
-          "t": "400 Mawozo contacte la commission de désarmement ; le chef du gang Boston tué à Cité Soleil."
+          "d": "2026-11-09",
+          "t": "Ouverture de la COP31 à Antalya."
+        },
+        {
+          "d": "2026-11-20",
+          "t": "Clôture prévue de la conférence."
         }
       ],
       "sources": [
         {
-          "name": "Associated Press, via ABC News",
-          "title": "Le gang 400 Mawozo se tourne vers l'État",
-          "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356",
-          "date": "2026-11-06"
+          "name": "DPA, via Yahoo News",
+          "title": "Le sommet s'ouvre sur fond de dépassement de 1,5 °C",
+          "url": "https://www.yahoo.com/news/science/articles/climate-summit-open-turkey-amid-040329357.html",
+          "date": "2026-11-09"
         },
         {
-          "name": "Associated Press, via KSAT",
-          "title": "Les combats se poursuivent en Haïti",
-          "url": "https://www.ksat.com/news/world/2026/11/07/powerful-haitian-gang-reaches-out-to-state-disarmament-group-as-gunfights-persist/",
-          "date": "2026-11-06"
+          "name": "The High Street Journal",
+          "title": "La COP31 s'ouvre à Antalya",
+          "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/",
+          "date": "2026-11-09"
         },
         {
-          "name": "The Haitian Times",
-          "title": "Alix Didier Fils-Aimé seul à la tête de l'État",
-          "url": "https://haitiantimes.com/2026/02/07/fils-aime-haiti-sole-head-of-state-cpt-exit/",
-          "date": "2026-02-07"
+          "name": "Climate & Capital Media",
+          "title": "Les enjeux de la COP31",
+          "url": "https://www.climateandcapitalmedia.com/cop31-antalya-preview/",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Wikipedia",
+          "title": "Conférence de 2026 sur le climat",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+          "date": "2026-11-09"
         }
       ],
       "dossier": {
-        "id": "crise-haiti",
-        "title": "La crise en Haïti"
+        "id": "cop31",
+        "title": "La COP31 à Antalya"
       },
-      "slug": "haiti-gang-400-mawozo-tend-main-etat-face"
+      "slug": "antalya-cop31-ouvre-sous-menace-depassement-1-5"
+    },
+    {
+      "rank": 5,
+      "id": "MMR",
+      "place": "Birmanie",
+      "section": "Asie-Pacifique",
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "radar": true,
+      "title": "En Birmanie, une frappe aérienne de l'armée tue onze personnes dans une école du Sagaing",
+      "standfirst": "Des enseignants et des enfants figurent parmi les victimes d'un bombardement samedi dans le canton de Kani, selon des médias birmans indépendants. Le gouvernement d'unité nationale recense 641 frappes aériennes de l'armée en octobre.",
+      "body": [
+        "Samedi 7 novembre, vers 11 h 30, une frappe aérienne de l'armée birmane a visé une école et le village de Nyaung Pin Le, dans le canton de Kani, région de Sagaing, tuant onze personnes, pour la plupart des enseignants et des enfants, selon des médias indépendants.",
+        "Ce bombardement s'inscrit dans une campagne aérienne qui a fait, selon le gouvernement d'unité nationale en exil, 212 morts civils en octobre, dont 23 enfants, près de six ans après le coup d'État et sept mois après l'élection de Min Aung Hlaing à la présidence.",
+        "Les combats se poursuivent dans l'État Mon, où plus de 15 000 habitants ont fui le canton de Kyaikto, et dans l'Arakan, alors que l'armée ferme la nuit, à partir du 9 novembre, les points de contrôle de trois cantons du Sagaing."
+      ],
+      "figure": {
+        "value": "641",
+        "label": "frappes aériennes de l'armée en octobre",
+        "compare": "212 civils tués, selon le gouvernement d'unité nationale"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "11",
+              "label": "morts dans la frappe sur l'école de Nyaung Pin Le, le 7 novembre",
+              "by": "des médias birmans indépendants",
+              "date": "2026-11-08",
+              "source": {
+                "name": "MoeMaKa",
+                "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
+              }
+            },
+            {
+              "value": "212",
+              "label": "civils tués par des frappes aériennes en octobre, dont 23 enfants",
+              "by": "le gouvernement d'unité nationale",
+              "date": "2026-11-07",
+              "source": {
+                "name": "MoeMaKa",
+                "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
+              }
+            },
+            {
+              "value": "≥ 12",
+              "label": "morts dans la frappe sur un hôpital du canton de Kawlin, le 4 novembre",
+              "by": "Karenni People's Voice",
+              "date": "2026-11-07",
+              "source": {
+                "name": "Burma Coup Resistance Notes",
+                "url": "https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5"
+              }
+            }
+          ],
+          "note": "Bilans non vérifiés de façon indépendante."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Kani, région de Sagaing",
+              "coords": [
+                94.88,
+                22.43
+              ],
+              "note": "Frappe sur une école de Nyaung Pin Le, dans le canton, le 7 novembre."
+            }
+          ],
+          "source": {
+            "name": "MoeMaKa",
+            "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Armée et pouvoir de Naypyidaw",
+              "lead": "Min Aung Hlaing",
+              "ids": [
+                "MMR"
+              ],
+              "note": "Président élu par le Parlement en avril 2026 ; Ye Win Oo commande les forces armées."
+            },
+            {
+              "name": "Résistance armée",
+              "ids": [
+                "MMR"
+              ],
+              "note": "Forces de défense populaire liées au gouvernement d'unité nationale, et groupes ethniques comme l'Armée d'Arakan."
+            }
+          ],
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "unicef",
+            "unhcr"
+          ]
+        }
+      },
+      "since": {
+        "date": "2021-02-01",
+        "label": "depuis le coup d'État"
+      },
+      "analysis": {
+        "title": "La guerre par les airs",
+        "text": "Incapable de reprendre le contrôle de vastes régions rurales, l'armée s'appuie sur son aviation, que la résistance ne peut contrer. Le Sagaing, cœur de l'opposition armée au coup d'État de 2021, est la région la plus touchée : outre l'école de Kani, un hôpital du canton de Kawlin a été bombardé le 4 novembre, tuant au moins douze personnes dont un médecin, et un abri de déplacés a été visé à Wetlet. L'élection de Min Aung Hlaing à la présidence en avril, à l'issue d'un scrutin organisé par l'armée, n'a pas mis fin aux combats. Des obus tirés dans l'État Karen sont aussi tombés dans la province thaïlandaise de Tak, endommageant des habitations."
+      },
+      "keys": [
+        {
+          "title": "Le canal américain",
+          "text": "Les États-Unis ont engagé en octobre des négociations directes avec le pouvoir militaire, tout en maintenant leurs sanctions contre Min Aung Hlaing. Le gouvernement d'unité nationale a répondu le 3 novembre à un document de stratégie américain."
+        },
+        {
+          "title": "Les poursuites",
+          "text": "Une cour d'appel philippine a enregistré une requête de l'organisation Chin Human Rights Organization visant Min Aung Hlaing et neuf autres officiers, selon cette ONG."
+        }
+      ],
+      "involved": [
+        "THA",
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2021-02-01",
+          "t": "Coup d'État militaire contre le gouvernement d'Aung San Suu Kyi."
+        },
+        {
+          "d": "2026-04-03",
+          "t": "Min Aung Hlaing élu président par le Parlement."
+        },
+        {
+          "d": "2026-10-08",
+          "t": "Les États-Unis engagent des négociations directes avec le pouvoir militaire."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Frappe sur un hôpital du canton de Kawlin."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Frappe sur une école du canton de Kani : onze morts."
+        }
+      ],
+      "sources": [
+        {
+          "name": "MoeMaKa",
+          "title": "Nouvelles du 8 novembre",
+          "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Burma Coup Resistance Notes",
+          "title": "Chronique de la résistance du 7 novembre",
+          "url": "https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Wikipedia",
+          "title": "L'année 2026 en Birmanie",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar",
+          "date": "2026-11-09"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-birmanie",
+        "title": "La guerre civile en Birmanie"
+      },
+      "slug": "birmanie-frappe-aerienne-armee-tue-onze-personnes-ecole"
     }
   ],
   "brief": [
     {
-      "id": "PRY",
-      "place": "Paraguay",
-      "text": "L'ancien président Santiago Peña, destitué vendredi, a été placé samedi en détention provisoire dans une installation militaire sur ordre du juge Humberto Otazú, qui le poursuit pour abus de confiance dans l'affaire de la banque Ueno.",
-      "url": "https://www.timesofisrael.com/paraguays-pro-israel-ex-president-taken-into-custody-over-alleged-bank-crisis-role/"
+      "id": "JPN",
+      "place": "Japon",
+      "text": "Un séisme de magnitude 5,7 selon l'agence météorologique japonaise, centré dans la préfecture de Shizuoka, a blessé au moins 22 personnes dans le centre du pays, selon les médias locaux cités par l'AP.",
+      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
     },
     {
-      "id": "RUS",
-      "place": "Russie",
-      "text": "L'Iran négocie avec Moscou l'achat du système de défense aérienne S-400, selon le Telegraph, après la visite au Kremlin de Mohsen Rezaei, porteur d'un message du Guide suprême.",
-      "url": "https://www.timesofisrael.com/liveblog-november-07-2026/"
+      "id": "URY",
+      "place": "Uruguay",
+      "text": "Le pape Léon XIV a prêché devant environ 40 000 fidèles à Paysandú, à la frontière argentine, lors d'une tournée de douze jours en Amérique du Sud qui s'achève le 17 novembre.",
+      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
     },
     {
-      "id": "USA",
-      "place": "États-Unis",
-      "text": "Le commandement central américain offre jusqu'à 20 millions de dollars, par le programme Rewards for Justice du département d'État, pour toute information sur le programme nucléaire iranien.",
-      "url": "https://www.timesofisrael.com/liveblog-november-07-2026/"
+      "id": "IRN",
+      "place": "Iran",
+      "text": "Donald Trump juge une nouvelle offensive contre l'Iran « très improbable », tout en la liant aux progrès des discussions, et affirme que la force Iron Gate, chargée de couper les routes terrestres de l'armement iranien, est opérationnelle.",
+      "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-new-task-force-to-disrupt-land-routes-into-iran-is-in-full-force/"
+    },
+    {
+      "id": "ARE",
+      "place": "Émirats arabes unis",
+      "text": "La garde nationale émiratie a secouru 22 personnes après l'incendie d'un cargo en mer d'Oman, alors que les attaques contre la navigation se multiplient autour du détroit d'Ormuz.",
+      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
     }
   ],
   "agenda": [
-    {
-      "d": "2026-11-08",
-      "t": "Remise officielle à Gadi Eisenkot du mandat de former le gouvernement israélien."
-    },
     {
       "d": "2026-11-09",
       "t": "Ouverture de la COP31 sur le climat à Antalya, en Turquie."
     },
     {
       "d": "2026-11-10",
-      "t": "Pourparlers entre l'Ukraine, la Russie et les États-Unis à Abou Dhabi ; prestation de serment de la Knesset."
+      "t": "Pourparlers sur l'Ukraine à Abou Dhabi, avec des Européens ; prestation de serment de la Knesset."
+    },
+    {
+      "d": "2026-11-11",
+      "t": "Sommet des dirigeants de la COP31, jusqu'au 12 novembre."
     },
     {
       "d": "2026-11-18",
       "t": "Sommet de l'APEC à Shenzhen, rencontre entre Donald Trump et Xi Jinping."
+    },
+    {
+      "d": "2026-12-06",
+      "t": "Fin du délai initial de Gadi Eisenkot pour former un gouvernement en Israël."
     }
   ],
   "consulted": [
     "Reuters",
     "Associated Press",
-    "Al Jazeera",
     "The Times of Israel",
-    "NBC",
-    "International Business Times",
-    "LIGA.net",
-    "Khaleej Times",
-    "ABC News",
-    "The Haitian Times"
+    "Israel Hayom",
+    "PBS",
+    "Euronews",
+    "DPA",
+    "The Week",
+    "Critical Threats",
+    "MoeMaKa"
   ]
 }
