@@ -108,7 +108,7 @@ for (const old of legacy) {
     const r = await get(old + p, { follow: false });
     const meta = (r.text.match(/http-equiv="refresh" content="[^"]*"/) || [])[0];
     const js = (r.text.match(/var NEW = '[^']*'/) || [])[0];
-    line(`${r.status || r.error}  ${old}${p}${r.location ? `  → ${r.location}` : ''}${meta ? `  (${meta})` : ''}${js ? `  (${js})` : ''}`);
+    line(`${r.status || r.error}  ${old}${p}${r.location ? `  → ${r.location}` : ''}${meta ? `  (${meta})` : ''}${js ? `  (${js})` : ''}${/data-nf=/.test(r.text) ? '  (page 404 de Diurna, qui corrige la casse)' : /There isn.t a GitHub Pages site here|Site not found/i.test(r.text) ? '  (page 404 générique de GitHub)' : ''}`);
   }
 }
 

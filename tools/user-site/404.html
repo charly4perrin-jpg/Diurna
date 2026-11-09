@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diurna a déménagé</title>
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://charly4perrin-jpg.github.io/Diurna/">
+<script>
+// Anciennes adresses de Diurna : /trois-phrases/… (premier nom du site) et /diurna/… (minuscule).
+// On renvoie vers la même page à l'adresse actuelle, en gardant le chemin, les paramètres et l'ancre,
+// pour que les liens partagés et les applis installées avant le changement d'adresse marchent encore.
+(function () {
+  var NEW = 'https://charly4perrin-jpg.github.io/Diurna';
+  var m = location.pathname.match(/^\/(trois-phrases|diurna)(\/.*)?$/i);
+  location.replace(NEW + (m ? (m[2] || '/') : '/') + location.search + location.hash);
+})();
+</script>
+<style>
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #070C1D; color: #F2EEE6; font: 18px/1.5 Georgia, "Times New Roman", serif; padding: 24px; }
+  main { max-width: 34rem; } b { letter-spacing: .2em; font-weight: 600; } b i { font-style: normal; color: #FF6A4D; letter-spacing: 0; } a { color: #F2EEE6; } p { color: #C3C9DA; }
+</style>
+</head>
+<body>
+<main>
+  <p><b>DIURNA<i>.</i></b></p>
+  <p>Diurna a changé d’adresse. Si la page ne s’ouvre pas toute seule : <a href="https://charly4perrin-jpg.github.io/Diurna/">charly4perrin-jpg.github.io/Diurna</a></p>
+  <p lang="en">Diurna has moved: <a href="https://charly4perrin-jpg.github.io/Diurna/">charly4perrin-jpg.github.io/Diurna</a></p>
+</main>
+</body>
+</html>

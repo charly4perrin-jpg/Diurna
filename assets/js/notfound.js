@@ -2,6 +2,12 @@
 (function () {
   'use strict';
   const base = document.body.dataset.root || '/';
+  // Même adresse avec une autre casse (/diurna/ au lieu de /Diurna/, par exemple une ancienne appli installée) : on corrige.
+  const lp = location.pathname;
+  if (base.length > 1 && lp.toLowerCase().indexOf(base.toLowerCase()) === 0 && lp.indexOf(base) !== 0) {
+    location.replace(base + lp.slice(base.length) + location.search + location.hash);
+    return;
+  }
   const rel = location.pathname.indexOf(base) === 0 ? location.pathname.slice(base.length) : location.pathname.replace(/^\//, '');
   const saved = TP.store.get('lang', '');
   const lang = /^en(\/|$)/.test(rel) ? 'en' : (/^(\d{4}|pays|carte|archives|dossiers|semaine|chiffres|recherche|lettre|presse)\//.test(rel) ? 'fr' : (saved === 'en' ? 'en' : 'fr'));
