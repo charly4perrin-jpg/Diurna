@@ -158,7 +158,7 @@ try {
       await page.screenshot({ path: path.join(sdir, `${String(i + 1).padStart(2, '0')}.png`), type: 'png' });
     }
     await page.setViewportSize({ width: 1080, height: 1350 });
-    console.log(`Carrousel ${lang} : ${htmls.length} images et une légende dans ${path.relative(root, dir)}/`);
+    console.log(`Carrousel ${lang} : ${htmls.length} images 1080 × 1350, ${htmls.length} images story 1080 × 1920 et trois légendes (Instagram, LinkedIn, X) dans ${path.relative(root, dir)}/`);
   }
 } finally {
   await browser.close();
