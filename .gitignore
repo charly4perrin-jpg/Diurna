@@ -2,3 +2,5 @@ node_modules
 check.log
 watchdog.log
 out/
+watchdog.date
+links-report.md

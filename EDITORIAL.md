@@ -124,6 +124,30 @@ le champ `slug`** : `tools/build.mjs` le crée à partir du titre la première f
 `data/slugs.json` et ne le change plus, même si le titre est corrigé le soir, pour que les liens
 partagés restent valables.
 
+## 3 quinquies. Sources de référence et mises à jour
+
+**Sources.** Chaque sujet cite au moins une rédaction ou institution de référence listée dans
+`data/sources.json` (agences, grands quotidiens, radios et télévisions publiques, presse régionale
+reconnue, Nations unies, ONG et instituts reconnus). Le validateur bloque un sujet qui n'en a aucune
+(éditions à partir du 10 novembre 2026). Les sources « faibles » (Wikipédia, blogs, agrégateurs,
+reprises Yahoo ou MSN, réseaux sociaux) déclenchent un avertissement : remonter à l'article d'origine.
+Si une rédaction sérieuse manque dans la liste, l'ajouter à `ref` dans `data/sources.json`.
+
+**Mises à jour.** Quand la révision du soir (ou une correction) modifie un sujet, ajouter à ce sujet,
+dans les deux langues :
+
+```json
+"updates": [ { "time": "2026-11-07T19:45:00+01:00", "text": "Washington a frappé un système antiaérien iranien ; titre et texte réécrits." } ]
+```
+
+`time` = heure de Paris avec décalage ; `text` = 5 à 45 mots, factuel : ce qui a changé et pourquoi.
+On ajoute une entrée, on n'efface jamais les précédentes. La fiche affiche « Mis à jour à … » et la
+page Corrections recense toutes les modifications.
+
+**Chiffres.** Les nombres des modules et le chiffre du jour doivent être identiques en français et
+en anglais (seule l'écriture change : 15 172 / 15,172). Le validateur le vérifie, ainsi que les
+coordonnées des lieux, qui doivent tomber dans le pays du sujet ou un pays impliqué ([longitude, latitude]).
+
 ## 4. Fichiers
 
 ```
@@ -136,6 +160,8 @@ data/gov.json                    dirigeants et régime des pays cités, vérifi�
 data/countries.json              fiche fixe de chaque pays (capitale, population…) : ne pas modifier
                                  à la main, regénérée par tools/countries.mjs
 data/slugs.json                  adresses des sujets, tenues par tools/build.mjs : ne pas modifier
+data/history.json                heures de publication, tenues par tools/build.mjs : ne pas modifier
+data/sources.json                rédactions et institutions de référence (voir 3 quinquies)
 data/routes.json, data/search.json  générés par tools/build.mjs : ne pas modifier
 ```
 

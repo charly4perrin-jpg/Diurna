@@ -602,7 +602,13 @@
         "id": "guerre-ukraine",
         "title": "La guerre en Ukraine"
       },
-      "slug": "ukraine-russie-prend-reseau-electrique-avant-nouveaux-pourparlers"
+      "slug": "ukraine-russie-prend-reseau-electrique-avant-nouveaux-pourparlers",
+      "updates": [
+        {
+          "time": "2026-11-05T20:15:00+01:00",
+          "text": "Ajout de la frappe russe contre une école de la région de Zaporijia, qui a fait au moins 43 morts ; titre, chiffre du jour et bilan mis à jour."
+        }
+      ]
     },
     {
       "rank": 4,
@@ -804,7 +810,13 @@
         "id": "israel-gaza",
         "title": "Israël et Gaza"
       },
-      "slug": "israel-sans-majorite-apres-legislatives-gaza-sous-feu"
+      "slug": "israel-sans-majorite-apres-legislatives-gaza-sous-feu",
+      "updates": [
+        {
+          "time": "2026-11-05T20:15:00+01:00",
+          "text": "Gadi Eisenkot recueille 67 recommandations de députés contre 46 pour Benyamin Nétanyahou : titre, texte et chiffre du jour réécrits."
+        }
+      ]
     },
     {
       "rank": 5,

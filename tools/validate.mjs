@@ -2,12 +2,14 @@
 // Sort avec le code 1 et la liste des problèmes si quelque chose ne va pas.
 import fs from 'node:fs';
 import path from 'node:path';
+import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = (p) => JSON.parse(fs.readFileSync(path.join(root, p), 'utf8'));
-const problems = [];
+const problems = [], warnings = [];
 const fail = (where, msg) => problems.push(`${where} : ${msg}`);
+const warn = (where, msg) => warnings.push(`${where} : ${msg}`);
 
 const world = read('assets/world.json');
 const codes = new Set(world.objects.countries.geometries.map((g) => g.properties.a3));
@@ -23,6 +25,49 @@ const NGOS = new Set(['icrc', 'ifrc', 'msf', 'unicef', 'wfp', 'unhcr', 'crf']);
 const DATA_MODULES = new Set(['market', 'rate', 'inflation', 'help']); // alimentés par des données publiques ou une liste fermée
 const isLL = (c) => Array.isArray(c) && c.length === 2 && c.every((n) => typeof n === 'number') && Math.abs(c[0]) <= 180 && Math.abs(c[1]) <= 90;
 const hasSrc = (x) => !!(x && x.source && x.source.name && isUrl(x.source.url));
+
+// Emprise (lon/lat min-max) de chaque pays, pour vérifier que les lieux cités tombent au bon endroit.
+const topojson = createRequire(import.meta.url)('../assets/vendor/topojson-client.min.js');
+const BBOX = {};
+for (const f of topojson.feature(world, world.objects.countries).features) {
+  const b = [180, 90, -180, -90];
+  const walk = (c) => { if (typeof c[0] === 'number') { b[0] = Math.min(b[0], c[0]); b[1] = Math.min(b[1], c[1]); b[2] = Math.max(b[2], c[0]); b[3] = Math.max(b[3], c[1]); } else c.forEach(walk); };
+  if (f.geometry) walk(f.geometry.coordinates);
+  BBOX[f.properties.a3] = b;
+}
+const inBox = (ll, id, pad = 1.5) => { const b = BBOX[id]; return !!b && ll[0] >= b[0] - pad && ll[0] <= b[2] + pad && ll[1] >= b[1] - pad && ll[1] <= b[3] + pad; };
+function checkPlaces(e, w) {
+  const ids = new Set([e.id, ...(e.involved || [])]);
+  const m = e.modules || {};
+  (m.sides && m.sides.groups || []).forEach((g) => (g.ids || []).forEach((x) => ids.add(x)));
+  (m.table && m.table.ids || []).concat(m.table && m.table.host ? [m.table.host] : []).forEach((x) => ids.add(x));
+  const pts = [...(m.places && m.places.items || []).map((i) => [i.name, i.coords]), ...(e.zones || []).filter((z) => isLL(z.coords)).map((z) => [z.name, z.coords])];
+  for (const [name, ll] of pts) {
+    if (!isLL(ll) || [...ids].some((id) => inBox(ll, id))) continue;
+    if ([...ids].some((id) => inBox([ll[1], ll[0]], id))) fail(w, `lieu « ${name} » : coordonnées inversées ? Il faut [longitude, latitude]`);
+    else warn(w, `lieu « ${name} » [${ll}] hors des pays du sujet (${[...ids].join(', ')}) : vérifier les coordonnées`);
+  }
+}
+
+// Qualité des sources (data/sources.json) : au moins une rédaction ou institution de référence par sujet
+// (règle appliquée aux éditions à partir du 10 novembre 2026), et un avertissement pour les sources faibles.
+const SRC = (() => { try { return read('data/sources.json'); } catch (_) { return { ref: [], weak: [] }; } })();
+const SOURCES_RULE_SINCE = '2026-11-10';
+const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (_) { return ''; } };
+const inList = (h, list) => list.some((d) => h === d || h.endsWith('.' + d));
+function checkSourceQuality(e, w, date) {
+  const hosts = (e.sources || []).map((x) => hostOf(x.url));
+  const weak = hosts.filter((h) => inList(h, SRC.weak));
+  if (weak.length) warn(w, `source(s) faible(s) : ${weak.join(', ')} — préférer une rédaction de référence (data/sources.json)`);
+  if (!hosts.some((h) => inList(h, SRC.ref))) {
+    const msg = `aucune source de référence parmi ${hosts.join(', ')} : ajouter au moins une rédaction ou institution listée dans data/sources.json`;
+    if (date >= SOURCES_RULE_SINCE) fail(w, msg); else warn(w, msg);
+  }
+}
+
+// Mêmes chiffres en français et en anglais : nombres des modules, et chiffres du « chiffre du jour ».
+const nums = (x, out = []) => { if (typeof x === 'number') out.push(x); else if (Array.isArray(x)) x.forEach((v) => nums(v, out)); else if (x && typeof x === 'object') Object.entries(x).forEach(([k, v]) => { if (k !== 'source') nums(v, out); }); return out; };
+const digits = (s) => String(s || '').replace(/[^0-9]/g, '');
 
 function checkModules(e, w) {
   if (!Array.isArray(e.types) || !e.types.length || e.types.length > 3) fail(w, 'types : 1 à 3 types');
@@ -92,6 +137,16 @@ function checkEdition(ed, where, lang = 'fr') {
     if (!gv) fail(w, `dirigeant et régime à vérifier puis ajouter dans data/gov.json : ${e.id}`);
     else if (days(gv.checked, ed.date) > 30) fail(w, `data/gov.json : ${e.id} vérifié il y a plus de 30 jours (${gv.checked}), revérifier`);
     checkModules(e, w);
+    checkPlaces(e, w);
+    // Mises à jour du soir : [{ time, text }], affichées sur la fiche et dans la page Corrections.
+    if (e.updates !== undefined) {
+      if (!Array.isArray(e.updates)) fail(w, 'updates : liste de { time, text }');
+      else e.updates.forEach((u, j) => {
+        if (!u || Number.isNaN(Date.parse(u.time))) fail(w, `updates[${j}].time : date ISO avec décalage (ex. 2026-11-07T19:45:00+01:00)`);
+        else if (u.time.slice(0, 10) < ed.date) fail(w, `updates[${j}].time antérieure à l'édition`);
+        range(w, `updates[${j}].text`, u && u.text, 5, 45);
+      });
+    }
     if (!e.analysis || !e.analysis.title) fail(w, 'analysis manquant');
     else { range(w, 'analysis.title', e.analysis.title, 2, 10); range(w, 'analysis.text', e.analysis.text, 50, 170); }
     if (!Array.isArray(e.keys) || e.keys.length < 2 || e.keys.length > 3) fail(w, 'keys : 2 ou 3 clés');
@@ -105,6 +160,7 @@ function checkEdition(ed, where, lang = 'fr') {
     const src = e.sources || [];
     if (src.length < 2 || src.length > 5) fail(w, 'sources : 2 à 5');
     src.forEach((s) => { if (!s.name || !s.title || !isUrl(s.url)) fail(w, 'source invalide'); });
+    if (lang === 'fr') checkSourceQuality(e, w, ed.date);
     // Adresse et dossier : le slug est donné par tools/build.mjs (ne pas l'écrire, ne jamais le modifier).
     if (e.slug !== undefined && !/^[a-z0-9]+(-[a-z0-9]+)*$/.test(e.slug)) fail(w, 'slug invalide (minuscules, chiffres et tirets)');
     if (e.dossier !== undefined) {
@@ -160,6 +216,16 @@ const enEditions = enFiles.map((f) => {
     if (en.number !== frEd.number) fail(w, 'number différent de l’édition française');
     const a = (en.essentials || []).map((e) => `${e.rank}:${e.id}`).join(','), b = frEd.essentials.map((e) => `${e.rank}:${e.id}`).join(',');
     if (a !== b) fail(w, `les cinq sujets doivent être les mêmes qu'en français (${b})`);
+    else (en.essentials || []).forEach((e, i) => {
+      const f = frEd.essentials[i], ww = `${w} › essentiel ${e.rank} (${e.id})`;
+      const km = Object.keys(e.modules || {}).sort().join(','), kf = Object.keys(f.modules || {}).sort().join(',');
+      if (km !== kf) fail(ww, `mêmes modules qu'en français attendus (${kf || 'aucun'})`);
+      else for (const k of Object.keys(f.modules || {})) {
+        const x = nums(e.modules[k]).join('|'), y = nums(f.modules[k]).join('|');
+        if (x !== y) fail(ww, `module ${k} : chiffres différents du français (${y} en français, ${x} en anglais)`);
+      }
+      if (e.figure && f.figure && digits(e.figure.value) !== digits(f.figure.value)) fail(ww, `chiffre du jour différent du français (« ${f.figure.value} » / « ${e.figure.value} »)`);
+    });
   }
   return en;
 });
@@ -170,5 +236,6 @@ if (enEditions.length) {
   if (JSON.stringify(enIndex.map((i) => i.date)) !== JSON.stringify(enEditions.slice().reverse().map((e) => e.date))) fail('data/en/index.json', 'doit lister toutes les éditions anglaises, la plus récente en premier');
 }
 
+if (warnings.length) console.log(warnings.map((p) => '⚠ ' + p).join('\n'));
 if (problems.length) { console.error(problems.map((p) => '✗ ' + p).join('\n')); process.exit(1); }
 console.log(`OK — ${editions.length} édition(s), dernière : ${newest.date} (n° ${newest.number}) ; anglais : ${enEditions.length ? enEditions[enEditions.length - 1].date : 'aucune'}`);

@@ -1,5 +1,7 @@
-# Chaque matin, après les éditions française (6 h 47) et anglaise (7 h 22) :
+# Chaque matin, dès que l'édition anglaise est publiée (vers 7 h 30) :
 # le carrousel de 6 images pour les réseaux, sa légende, et l'e-mail du jour.
+# Les tâches planifiées de GitHub partent parfois avec plusieurs heures de retard : le
+# déclenchement par la publication est le principal, l'horaire ne sert que de filet de sécurité.
 # Tout se télécharge en bas de la page du workflow (« Artifacts »). Si le secret
 # BUTTONDOWN_API_KEY existe, l'e-mail est aussi déposé dans Buttondown (brouillon par défaut).
 name: Diffusion
@@ -11,6 +13,7 @@ on:
   push:
     branches: [main]
     paths:
+      - 'data/en/latest.json'
       - 'tools/carousel.mjs'
       - 'tools/newsletter.mjs'
       - '.github/workflows/diffusion.yml'
@@ -21,6 +24,8 @@ permissions:
 
 jobs:
   diffusion:
+    # Pas de seconde diffusion pour la révision du soir.
+    if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'Mise à jour du soir')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:

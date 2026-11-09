@@ -393,7 +393,13 @@
         "id": "paraguay-crisis",
         "title": "Paraguay's political crisis"
       },
-      "slug": "paraguay-president-santiago-pena-resigns-impeached-within-minutes"
+      "slug": "paraguay-president-santiago-pena-resigns-impeached-within-minutes",
+      "updates": [
+        {
+          "time": "2026-11-06T19:45:06+01:00",
+          "text": "Santiago Peña's resignation failed for lack of a quorum and the Senate opened his trial: headline, text and number of the day updated."
+        }
+      ]
     },
     {
       "rank": 3,

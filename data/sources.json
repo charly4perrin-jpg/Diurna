@@ -1,0 +1,17 @@
+{
+  "_doc": "Rédactions et institutions de référence (« ref ») et sources à éviter ou à doubler (« weak »). Chaque sujet doit citer au moins une source de référence ; une source « weak » déclenche un avertissement. Domaines sans « www. ».",
+  "ref": [
+    "reuters.com", "apnews.com", "afp.com", "bloomberg.com", "dpa-international.com",
+    "lemonde.fr", "lefigaro.fr", "liberation.fr", "lesechos.fr", "la-croix.com", "ouest-france.fr", "franceinfo.fr", "francetvinfo.fr", "rfi.fr", "france24.com", "tv5monde.com", "courrierinternational.com", "mediapart.fr", "lepoint.fr", "lexpress.fr", "connaissancedesenergies.org",
+    "nytimes.com", "washingtonpost.com", "wsj.com", "ft.com", "economist.com", "theguardian.com", "bbc.com", "bbc.co.uk", "npr.org", "pbs.org", "cbsnews.com", "abcnews.com", "abcnews.go.com", "nbcnews.com", "cnn.com", "cnbc.com", "politico.com", "politico.eu", "axios.com", "theatlantic.com", "latimes.com", "apnews.org",
+    "aljazeera.com", "euronews.com", "dw.com", "spiegel.de", "elpais.com", "corriere.it", "lesoir.be", "rtbf.be", "swissinfo.ch", "letemps.ch", "abc.net.au", "cbc.ca", "theglobeandmail.com", "globalnews.ca",
+    "timesofisrael.com", "haaretz.com", "ynetnews.com", "jpost.com", "israelhayom.com", "arabnews.com", "thenationalnews.com", "khaleejtimes.com", "aa.com.tr", "dailysabah.com", "middleeasteye.net", "al-monitor.com",
+    "kyivindependent.com", "kyivpost.com", "ukrinform.net", "pravda.com.ua", "news.liga.net", "meduza.io", "themoscowtimes.com", "novayagazeta.eu",
+    "scmp.com", "japantimes.co.jp", "nikkei.com", "asia.nikkei.com", "thehindu.com", "hindustantimes.com", "indianexpress.com", "tribuneindia.com", "dawn.com", "straitstimes.com", "channelnewsasia.com", "abs-cbn.com", "inquirer.net", "manilatimes.net", "irrawaddy.com", "frontiermyanmar.net", "rfa.org", "voanews.com",
+    "allafrica.com", "dailytrust.com", "premiumtimesng.com", "nation.africa", "theeastafrican.co.ke", "news24.com", "jeuneafrique.com", "haitiantimes.com", "buenosairesherald.com", "batimes.com.ar", "folha.uol.com.br", "infobae.com", "abc.com.py", "ultimahora.com", "lanacion.com.py", "elpais.com.uy",
+    "un.org", "news.un.org", "reliefweb.int", "unocha.org", "unhcr.org", "iom.int", "who.int", "unicef.org", "wfp.org", "icrc.org", "ifrc.org", "msf.org", "worldbank.org", "imf.org", "ecb.europa.eu", "europa.eu", "consilium.europa.eu", "nato.int", "iaea.org", "unfccc.int", "ipcc.ch",
+    "eia.gov", "usgs.gov", "gdacs.org", "state.gov", "whitehouse.gov", "defense.gov", "gouvernement.fr", "elysee.fr", "diplomatie.gouv.fr", "gov.uk",
+    "crisisgroup.org", "hrw.org", "amnesty.org", "acleddata.com", "understandingwar.org", "criticalthreats.org", "justsecurity.org", "csis.org", "chathamhouse.org", "carnegieendowment.org", "brookings.edu", "cfr.org", "sipri.org", "iiss.org"
+  ],
+  "weak": ["wikipedia.org", "substack.com", "medium.com", "devdiscourse.com", "yahoo.com", "msn.com", "investing.com", "ibtimes.com", "latintimes.com", "thehighstreetjournal.com", "political.org", "blogspot.com", "wordpress.com", "x.com", "twitter.com", "facebook.com", "t.me", "youtube.com", "reddit.com"]
+}

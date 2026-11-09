@@ -30,8 +30,8 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/' }
 };
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
@@ -152,7 +152,13 @@ function makeCtx(lang) {
 
 const flag = (id, rootRel, cls) => { const c = countries[id]; return c && c.flag ? `<img class="flag${cls ? ' ' + cls : ''}" src="${rootRel}assets/flags/${c.flag}" alt="" width="20" height="15" loading="lazy" decoding="async">` : ''; };
 const ldScript = (o) => `<script type="application/ld+json">${JSON.stringify(o).replace(/</g, '\\u003c')}</script>`;
-const ORG = () => ({ '@type': 'Organization', '@id': `${abs}/#organization`, name: 'Diurna', url: `${abs}/`, logo: { '@type': 'ImageObject', url: `${abs}/icons/icon-512.png`, width: 512, height: 512 } });
+// Média d'information : charte (méthode), politique de corrections, contact pour signaler une erreur.
+const ORG = () => ({
+  '@type': 'NewsMediaOrganization', '@id': `${abs}/#organization`, name: 'Diurna', url: `${abs}/`,
+  logo: { '@type': 'ImageObject', url: `${abs}/icons/icon-512.png`, width: 512, height: 512 },
+  publishingPrinciples: `${abs}/methode/`, correctionsPolicy: `${abs}/corrections/`, ethicsPolicy: `${abs}/methode/`,
+  actionableFeedbackPolicy: `${abs}/a-propos/`, masthead: `${abs}/a-propos/`, diversityPolicy: `${abs}/methode/`
+});
 const crumbs = (items) => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, p], i) => ({ '@type': 'ListItem', position: i + 1, name, item: `${abs}/${p}` })) });
 
 /* ---------- Feuille de style en ligne (aucune requête bloquante) et scripts chargés après l'affichage ---------- */
@@ -257,7 +263,7 @@ function footer(C, rootRel) {
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
     <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
-    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.method, C.S.navMethod)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
+    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
     <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
 </footer>`;
@@ -326,7 +332,10 @@ function storySSR(C, ed, s) {
     meta.push(`<b>${C.t(C.L(n > 1 ? 'days' : 'day1', { n: C.int(n), label: s.since.label }))}</b>`);
   }
   meta.push(`<span>${C.t(C.L('editionOf', { d: C.day(ed.date) }))}</span>`);
+  if (s.updates && s.updates.length) meta.push(`<a class="upd" href="#maj">${C.t(C.L('updatedAt', { h: C.hour(s.updates[s.updates.length - 1].time) }))}</a>`);
   if (s.dossier) meta.push(`<a class="dossier" href="${r}${dossierPath(C.lang, s.dossier.id)}">${C.t(C.S.dossier)} · ${C.t(s.dossier.title)}</a>`);
+  const sl = srcLine(C, s);
+  if (sl) meta.push(`<span class="src-line">${C.t(sl)}</span>`);
   meta.push(`<span class="ai-label">${C.t(C.S.aiLabel)} · <a href="${r}${FIXED[C.lang].method}">${C.t(C.S.aiMore)}</a></span>`);
   const fold = (label, body, key) => `<details class="fold" data-fold="${key}"><summary>${label}${ICON.plus}</summary><div class="fold-body">${body}</div></details>`;
   const keys = (s.keys || []).map((k) => `<div><dt>${C.t(k.title)}</dt><dd>${C.t(k.text)}</dd></div>`).join('');
@@ -345,9 +354,21 @@ function storySSR(C, ed, s) {
         ${fig}
         ${s.analysis ? `<h3>${C.t(s.analysis.title)}</h3><p class="analysis">${C.t(s.analysis.text)}</p>` : ''}
         <div class="folds">${keys ? fold(C.S.keys, `<dl class="keys">${keys}</dl>`, 'cles') : ''}${ctx ? fold(C.S.timeline, `<ol class="timeline">${ctx}</ol>`, 'reperes') : ''}${src ? fold(C.S.sources, `<ul class="sources">${src}</ul>`, 'sources') : ''}</div>
+        ${updatesSSR(C, s)}
         ${actionsSSR(C, ed, s)}
         <section class="nextreads" aria-labelledby="nr-h"><h3 id="nr-h">${C.S.readNext}</h3><ul>${next}</ul></section>
       </div>`;
+}
+function srcLine(C, s) {
+  const names = [...new Set((s.sources || []).map((x) => (C.lang === 'en' && x.name_en) || x.name))];
+  if (!names.length) return '';
+  const and = C.lang === 'en' ? ' and ' : ' et ';
+  const list = names.length <= 3 ? names.slice(0, -1).join(', ') + (names.length > 1 ? and : '') + names[names.length - 1] : C.L('andMore', { a: names.slice(0, 2).join(', '), n: names.length - 2 });
+  return C.L('sourcesBy', { x: list });
+}
+function updatesSSR(C, s) {
+  if (!s.updates || !s.updates.length) return '';
+  return `<aside class="updates" id="maj" aria-labelledby="maj-h"><h3 id="maj-h">${C.t(C.S.updatesTitle)}</h3><ul>${s.updates.map((u) => `<li><time datetime="${esc(u.time)}">${C.t(C.hour(u.time))}</time><span>${C.t(u.text)}</span></li>`).join('')}</ul></aside>`;
 }
 function actionsSSR(C, ed, s) {
   const url = `${abs}/${storyPath(C.lang, ed.date, s.slug)}`;
@@ -700,6 +721,49 @@ function infoPage(C, key) {
     body: `<main class="page page-info">${PAGES[key][C.lang](x)}</main>`, scripts: BASE
   });
 }
+/* ---------- Corrections et mises à jour ---------- */
+function correctionsPage(C) {
+  const p = FIXED[C.lang].corrections; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const rows = [];
+  for (const ed of EDS[C.lang].slice().reverse()) for (const s of ed.essentials) for (const u of s.updates || []) rows.push({ ed, s, u });
+  rows.sort((a, b) => b.u.time.localeCompare(a.u.time));
+  const list = rows.map(({ ed, s, u }) => `
+    <li><a href="${r}${storyPath(C.lang, ed.date, s.slug)}#maj">
+      <time datetime="${esc(u.time)}">${C.t(C.dmy(u.time.slice(0, 10)))} · ${C.t(C.hour(u.time))}</time>
+      <span class="h">${flag(s.id, r)}${C.t(s.title)}</span>
+      <span class="p">${C.t(u.text)}</span>
+    </a></li>`).join('');
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections }, title: esc(C.S.correctionsTitle + ' — Diurna'), desc: C.t(C.S.correctionsDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.correctionsTitle, p]])],
+    body: `<main class="page">
+  <h1>${C.S.correctionsTitle}</h1>
+  <p class="chapo">${C.t(C.S.correctionsChapo)}</p>
+  ${list ? `<ul class="archive">${list}
+  </ul>` : `<p>${C.t(C.S.correctionsNone)}</p>`}
+  <p class="more-links"><a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a><a href="${r}${FIXED[C.lang].method}">${C.S.navMethod}</a></p>
+</main>`, scripts: BASE
+  });
+}
+
+// Heures de publication (première construction où l'édition apparaît), tenues dans data/history.json.
+const HISTORY = readJ('data/history.json', {});
+function trackHistory() {
+  const now = new Date().toISOString();
+  const fr = LATEST.fr, en = LATEST.en;
+  if (fr) { const h = (HISTORY[fr.date] = HISTORY[fr.date] || {}); if (!h.fr) h.fr = now; }
+  if (en) { const h = (HISTORY[en.date] = HISTORY[en.date] || {}); if (!h.en) h.en = now; }
+  // Révision du soir : la dernière mise à jour datée des sujets du jour.
+  if (fr) {
+    const last = fr.essentials.flatMap((s) => s.updates || []).map((u) => u.time).sort().pop();
+    const h = HISTORY[fr.date];
+    if (last && (!h.evening || last > h.evening)) h.evening = last;
+  }
+  const keep = Object.keys(HISTORY).sort().slice(-60);
+  const out = Object.fromEntries(keep.map((k) => [k, HISTORY[k]]));
+  wr('data/history.json', JSON.stringify(out, null, 1) + '\n');
+  return out;
+}
 function statusData() {
   const fr = LATEST.fr, en = LATEST.en;
   const mk = readJ('data/markets.json', {}), ind = readJ('data/indicators.json', {}), al = readJ('data/alerts.json', null);
@@ -708,7 +772,8 @@ function statusData() {
     built: new Date().toISOString(), sha: (process.env.BUILD_SHA || '').slice(0, 7) || null,
     edition: { fr: e(fr), en: e(en) },
     data: { markets: mk.updated || null, indicators: ind.updated || null },
-    alert: al && al.errors && al.errors.length ? { date: al.date, run: al.run, count: al.errors.length } : null
+    alert: al && al.errors && al.errors.length ? { date: al.date, run: al.run, count: al.errors.length } : null,
+    history: trackHistory()
   };
 }
 function status(C, st) {
@@ -718,15 +783,19 @@ function status(C, st) {
   const ed = (x) => (x ? `${C.t(C.L('no', { n: x.number }))} · ${C.t(C.longDate(x.date))} · ${C.t(C.L('updated', { h: C.hour(x.updated) }))}` : C.S.stNone);
   const rows = [[C.S.stFr, ed(st.edition.fr)], [C.S.stEn, ed(st.edition.en)], [C.S.stData, st.data.markets ? C.t(C.dmy(st.data.markets)) : C.S.stNone], [C.S.stBuild, `${when(st.built)}${st.sha ? ` · <code>${st.sha}</code>` : ''}`]];
   if (st.alert) rows.push([C.S.stAlert, `${when(st.alert.date)} · <a href="${esc(st.alert.run)}" rel="noopener">GitHub</a>`]);
+  const hm = (iso) => (iso ? C.t(C.hour(iso)) : '—');
+  const hist = Object.keys(st.history || {}).sort().reverse().slice(0, 7).map((d) => { const h = st.history[d]; return `<tr><th scope="row">${C.t(C.dm(d))}</th><td>${hm(h.fr)}</td><td>${hm(h.en)}</td><td>${h.evening ? hm(h.evening) : C.t(C.S.stNoEvening)}</td></tr>`; }).join('');
   return page(C, {
     path: p, alt: { fr: FIXED.fr.status, en: FIXED.en.status }, title: esc(C.S.statusTitle + ' — Diurna'), desc: C.t(C.S.statusDesc), noindex: true,
     body: `<main class="page">
   <h1>${C.S.statusTitle}</h1>
   <p class="chapo" id="stLine" data-fr="${st.edition.fr ? st.edition.fr.date : ''}">${C.t(C.S.statusDesc)}</p>
   <dl class="status">${rows.map(([k, v]) => `<div><dt>${C.t(k)}</dt><dd>${v}</dd></div>`).join('')}</dl>
+  ${hist ? `<h2>${C.S.stHistory}</h2>
+  <div class="table-wrap"><table class="hist"><thead><tr><th scope="col">${C.S.stDay}</th><th scope="col">${C.S.stMorning}</th><th scope="col">${C.S.stEnglish}</th><th scope="col">${C.S.stEvening}</th></tr></thead><tbody>${hist}</tbody></table></div>` : ''}
   <p>${C.t(C.S.stWatch)}</p>
 </main>`, scripts: BASE,
-    after: `<script>(function(){var d=document.getElementById('stLine').dataset.fr,t=new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris'}).format(new Date());document.getElementById('stLine').textContent=d===t?${JSON.stringify(C.S.stOk)}:${JSON.stringify(C.S.stLate)};})();</script>`
+    after: `<script>(function(){var d=document.getElementById('stLine').dataset.fr,n=new Date(),f=function(x){return new Intl.DateTimeFormat('en-CA',{timeZone:'Europe/Paris'}).format(x)},h=+new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',hour:'2-digit',hourCycle:'h23'}).format(n),t=h<8?f(new Date(n-864e5)):f(n);document.getElementById('stLine').textContent=d>=t?${JSON.stringify(C.S.stOk)}:${JSON.stringify(C.S.stLate)};})();</script>`
   });
 }
 
@@ -882,6 +951,7 @@ for (const lang of LANGS) {
   wr(P.method + 'index.html', method(C));
   wr(P.status + 'index.html', status(C, ST));
   wr(P.search + 'index.html', searchPage(C));
+  wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });
   for (const key of ['about', 'legal', 'privacy', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
   wr(dataOf(lang, 'search.json'), JSON.stringify(searchIndex(lang)));
   SM.push({ path: P.home, lastmod: latestOf(lang).updated.slice(0, 10), alt: { fr: FIXED.fr.home, en: FIXED.en.home } });

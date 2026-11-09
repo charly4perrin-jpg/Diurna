@@ -1,0 +1,36 @@
+# Une fois par mois : vérifie les liens de toutes les sources archivées.
+# Les sites retirent ou déplacent des articles ; un lien mort ouvre une issue « alerte »
+# avec la liste, à corriger lors d'une prochaine révision (sans bloquer la publication).
+name: Liens des archives
+
+on:
+  schedule:
+    - cron: '17 9 3 * *'   # le 3 de chaque mois
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/archive-links.yml'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Vérifier tous les liens
+        run: node tools/check-links.mjs --all
+      - name: Alerte
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ -s links-report.md ]; then
+            tools/alert.sh "Liens morts dans les archives ($(date +%Y-%m))" "$(cat links-report.md)"
+          fi

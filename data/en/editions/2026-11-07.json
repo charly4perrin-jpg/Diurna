@@ -166,7 +166,13 @@
         "id": "paraguay-crisis",
         "title": "Paraguay's political crisis"
       },
-      "slug": "paraguay-santiago-pena-removed-confined-his-home-pedro"
+      "slug": "paraguay-santiago-pena-removed-confined-his-home-pedro",
+      "updates": [
+        {
+          "time": "2026-11-07T19:55:00+01:00",
+          "text": "Santiago Peña appeared before prosecutors on Saturday morning; text and sources updated."
+        }
+      ]
     },
     {
       "rank": 2,
@@ -438,7 +444,13 @@
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "iran-downs-american-drone-strait-hormuz-donald-trump"
+      "slug": "iran-downs-american-drone-strait-hormuz-donald-trump",
+      "updates": [
+        {
+          "time": "2026-11-07T19:55:00+01:00",
+          "text": "Washington struck an Iranian air-defence system on Qeshm island and Tehran vows to respond: headline and text rewritten."
+        }
+      ]
     },
     {
       "rank": 3,

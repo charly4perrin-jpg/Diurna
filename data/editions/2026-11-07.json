@@ -165,7 +165,13 @@
         "id": "crise-paraguay",
         "title": "La crise politique au Paraguay"
       },
-      "slug": "paraguay-santiago-pena-destitue-assigne-residence-pedro-alliana"
+      "slug": "paraguay-santiago-pena-destitue-assigne-residence-pedro-alliana",
+      "updates": [
+        {
+          "time": "2026-11-07T19:55:00+01:00",
+          "text": "Santiago Peña a comparu samedi matin devant les procureurs ; texte et sources mis à jour."
+        }
+      ]
     },
     {
       "rank": 2,
@@ -437,7 +443,13 @@
         "id": "guerre-iran",
         "title": "La guerre avec l’Iran"
       },
-      "slug": "detroit-ormuz-iran-abat-drone-americain-donald-trump"
+      "slug": "detroit-ormuz-iran-abat-drone-americain-donald-trump",
+      "updates": [
+        {
+          "time": "2026-11-07T19:55:00+01:00",
+          "text": "Washington a frappé un système antiaérien iranien sur l'île de Qeshm et Téhéran promet de riposter : titre et texte réécrits."
+        }
+      ]
     },
     {
       "rank": 3,

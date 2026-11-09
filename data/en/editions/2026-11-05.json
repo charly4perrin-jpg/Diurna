@@ -603,7 +603,13 @@
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "russia-targets-ukraine-power-grid-ahead-new-talks"
+      "slug": "russia-targets-ukraine-power-grid-ahead-new-talks",
+      "updates": [
+        {
+          "time": "2026-11-05T20:15:00+01:00",
+          "text": "Added the Russian strike on a school in the Zaporizhzhia region that killed at least 43 people; headline, number of the day and toll updated."
+        }
+      ]
     },
     {
       "rank": 4,
@@ -805,7 +811,13 @@
         "id": "israel-gaza",
         "title": "Israel and Gaza"
       },
-      "slug": "israel-left-without-majority-after-election-strikes-go"
+      "slug": "israel-left-without-majority-after-election-strikes-go",
+      "updates": [
+        {
+          "time": "2026-11-05T20:15:00+01:00",
+          "text": "Gadi Eisenkot wins the recommendations of 67 MPs against 46 for Benjamin Netanyahu: headline, text and number of the day rewritten."
+        }
+      ]
     },
     {
       "rank": 5,

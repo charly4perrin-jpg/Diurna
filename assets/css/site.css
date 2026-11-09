@@ -668,3 +668,20 @@ a.step, a.nr { text-decoration: none; }
 .sponsor-note { flex-basis: 100%; font-size: .76rem; }
 .ed-sponsor { padding: 10px var(--gutter-r) 0 36px; }
 @media (max-width: 900px) { .ed-sponsor { padding-left: var(--gutter); } }
+
+/* Mises à jour, sources, historique */
+.byline .upd { color: var(--c2); font-weight: 650; text-decoration: none; }
+.byline .upd::before { content: ""; display: inline-block; width: 6px; height: 6px; border-radius: 50%; background: var(--c2); margin-right: 6px; vertical-align: 2px; }
+.byline .upd:hover { text-decoration: underline; text-underline-offset: 3px; }
+.byline .src-line { color: var(--ink-3); }
+.updates { margin: 26px 0 0; padding: 16px 18px; border-left: 3px solid var(--c2); background: var(--night-1); border-radius: 0 10px 10px 0; }
+.updates h3 { margin: 0 0 8px; font: 650 .72rem/1.3 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--c2); }
+.updates ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.updates li { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 12px; font: 400 .98rem/1.5 var(--serif); color: var(--ink-2); }
+.updates time { font: 600 .8rem/1.9 var(--sans); color: var(--ink); font-variant-numeric: tabular-nums; }
+.table-wrap { overflow-x: auto; margin: 0 0 24px; }
+.hist { width: 100%; border-collapse: collapse; font: 500 .9rem/1.4 var(--sans); }
+.hist th, .hist td { text-align: left; padding: 10px 14px 10px 0; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.hist thead th { font: 650 .72rem/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); border-bottom: 2px solid var(--ink); }
+.hist tbody th { color: var(--ink); font-weight: 600; }
+.hist td { color: var(--ink-2); font-variant-numeric: tabular-nums; }

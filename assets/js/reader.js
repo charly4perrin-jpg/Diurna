@@ -123,7 +123,10 @@
       meta.push(`<b>${t(L(n > 1 ? 'days' : 'day1', { n: int(n), label: s.since.label }))}</b>`);
     }
     meta.push(`<span>${t(L('editionOf', { d: day(ed.date) }))}</span>`);
+    if (s.updates && s.updates.length) meta.push(`<a class="upd" href="#maj">${t(L('updatedAt', { h: TP.hour(s.updates[s.updates.length - 1].time) }))}</a>`);
     if (s.dossier) meta.push(`<a class="dossier" href="${TP.ROOT}${LANG === 'en' ? 'en/' : ''}dossiers/${esc(s.dossier.id)}/">${t(L('dossier'))} · ${t(s.dossier.title)}</a>`);
+    const sl = srcLine(s);
+    if (sl) meta.push(`<span class="src-line">${t(sl)}</span>`);
     meta.push(TP.aiLabel());
 
     const keys = (s.keys || []).map((k) => `<div><dt>${t(k.title)}</dt><dd>${t(k.text)}</dd></div>`).join('');
@@ -149,9 +152,24 @@
           ${ctx ? fold(L('timeline'), `<ol class="timeline">${ctx}</ol>`, 'reperes') : ''}
           ${src ? fold(L('sources'), `<ul class="sources">${src}</ul>`, 'sources') : ''}
         </div>
+        ${updatesHtml(s)}
         ${actions(s)}
         ${nextReads(s)}
       </div>`;
+  }
+
+  // « Sources : Reuters, AP et 2 autres » : les rédactions citées, sans doublon.
+  function srcLine(s) {
+    const names = [...new Set((s.sources || []).map((x) => (LANG === 'en' && x.name_en) || x.name))];
+    if (!names.length) return '';
+    const and = LANG === 'en' ? ' and ' : ' et ';
+    const list = names.length <= 3 ? names.slice(0, -1).join(', ') + (names.length > 1 ? and : '') + names[names.length - 1] : L('andMore', { a: names.slice(0, 2).join(', '), n: names.length - 2 });
+    return L('sourcesBy', { x: list });
+  }
+  // Mises à jour datées (révision du soir, corrections).
+  function updatesHtml(s) {
+    if (!s.updates || !s.updates.length) return '';
+    return `<aside class="updates" id="maj" aria-labelledby="maj-h"><h3 id="maj-h">${t(L('updatesTitle'))}</h3><ul>${s.updates.map((u) => `<li><time datetime="${esc(u.time)}">${t(TP.hour(u.time))}</time><span>${t(u.text)}</span></li>`).join('')}</ul></aside>`;
   }
 
   // Partager, donner son avis, signaler une erreur. Les deux derniers n'apparaissent que si le site les a configurés.

@@ -1,4 +1,5 @@
 // Vérifie les liens des sources de la dernière édition (français et anglais) : node tools/check-links.mjs
+// Avec --all : toutes les éditions archivées (contrôle mensuel) ; écrit links-report.md et ne bloque rien.
 // Bloque seulement les vrais liens morts (404, 410, domaine inexistant). Beaucoup de journaux
 // refusent les robots (403, 429) ou répondent lentement : ce sont de simples avertissements.
 // Ne tourne que sur GitHub (CI=true) : ailleurs, le réseau peut être filtré et fausserait le résultat.
@@ -13,11 +14,16 @@ if (process.env.CI !== 'true' && !process.argv.includes('--force')) {
   process.exit(0);
 }
 
+const ALL = process.argv.includes('--all');
 const urls = new Map(); // url → où elle apparaît
 const add = (u, where) => { if (u && /^https:\/\//.test(u)) urls.set(u, (urls.get(u) || []).concat(where)); };
-for (const [lang, p] of [['fr', 'data/latest.json'], ['en', 'data/en/latest.json']]) {
+const targets = ALL
+  ? [['fr', 'data/editions'], ['en', 'data/en/editions']].flatMap(([lang, dir]) => (fs.existsSync(path.join(root, dir)) ? fs.readdirSync(path.join(root, dir)).filter((f) => f.endsWith('.json')).map((f) => [lang, `${dir}/${f}`]) : []))
+  : [['fr', 'data/latest.json'], ['en', 'data/en/latest.json']];
+for (let [lang, p] of targets) {
   const ed = read(p);
   if (!ed) continue;
+  if (ALL) lang = `${lang} ${ed.date}`;
   (ed.essentials || []).forEach((e) => {
     const w = `${lang} ${e.rank}. ${e.place}`;
     (e.sources || []).forEach((s) => add(s.url, w));
@@ -59,5 +65,12 @@ for (let i = 0; i < list.length; i += 6) {
   }));
 }
 warn.forEach((w) => console.log(w));
+if (ALL) {
+  fs.writeFileSync(path.join(root, 'links-report.md'), dead.length
+    ? `${dead.length} lien(s) mort(s) dans les archives (sur ${list.length} vérifiés). Remplacer chaque source par une autre qui établit le même fait :\n\n${dead.map((d) => '- ' + d.replace(/^✗ /, '')).join('\n')}\n`
+    : '');
+  console.log(`Archives : ${list.length} liens vérifiés, ${dead.length} mort(s), ${warn.length} avertissement(s).`);
+  process.exit(0);
+}
 if (dead.length) { console.error(dead.join('\n')); process.exit(1); }
 console.log(`Liens : ${list.length} vérifiés, aucun lien mort${warn.length ? `, ${warn.length} avertissement(s)` : ''}.`);

@@ -29,4 +29,12 @@ jobs:
           GH_TOKEN: ${{ github.token }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
-          tools/alert.sh "Édition du $(TZ=Europe/Paris date +%F) non publiée" "$(cat watchdog.log; printf '\n\nDétails : %s' "$RUN_URL")"
+          tools/alert.sh "Édition du $(cat watchdog.date) non publiée" "$(cat watchdog.log; printf '\n\nDétails : %s' "$RUN_URL")"
+      - name: Fermer les alertes résolues
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for n in $(gh issue list --label alerte --state open --search "non publiée in:title" --json number --jq '.[].number'); do
+            gh issue close "$n" --comment "Résolu : $(cat watchdog.log)" || true
+          done

@@ -391,7 +391,13 @@
         "id": "crise-paraguay",
         "title": "La crise politique au Paraguay"
       },
-      "slug": "paraguay-president-santiago-pena-demissionne-retrouve-aussitot-mis"
+      "slug": "paraguay-president-santiago-pena-demissionne-retrouve-aussitot-mis",
+      "updates": [
+        {
+          "time": "2026-11-06T19:45:06+01:00",
+          "text": "La démission de Santiago Peña a échoué faute de quorum et le Sénat a ouvert son procès : titre, texte et chiffre du jour mis à jour."
+        }
+      ]
     },
     {
       "rank": 3,
