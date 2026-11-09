@@ -20,7 +20,7 @@ const pick = (html, re, n = 4) => [...html.matchAll(re)].slice(0, n).map((m) => 
 
 line(`== Site : ${base}`);
 const pages = ['/', '/en/', '/globe/', '/en/edition/', '/archives/', '/pays/', '/dossiers/', '/recherche/', '/en/country/', '/en/dossiers/', '/methode/', '/status/',
-  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/',
+  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/', '/corrections/', '/en/corrections/',
   '/status.json', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', '/feed.xml', '/atom.xml', '/en/feed.xml', '/all.xml', ...(site.checkPaths || [])];
 // Les pages des sujets du jour, d'après le plan des adresses publié par le site.
 const routes = await get(base + '/data/routes.json');
@@ -32,6 +32,8 @@ try {
     const d = days[days.length - 1];
     if (d) { stories.push('/' + rt[lang][d][1], '/' + rt[lang][d].bref); }
   }
+  const withUpd = rt.fr['2026-11-07'] && rt.fr['2026-11-07'][2];
+  if (withUpd) stories.push('/' + withUpd);
   const last = Object.keys(rt.fr).sort().pop();
   stories.push(`/og/fr/${last}-1.jpg`, `/og/en/${last}-1.jpg`);
 } catch (_) { line(`data/routes.json illisible (HTTP ${routes.status || routes.error})`); }
@@ -59,6 +61,14 @@ for (const p of [...pages, ...stories]) {
     else if (p === '/' || p === '/en/') line('      lien de soutien : absent (option désactivée ou pas de compte Ko-fi)');
     if (/class="sponsor"/.test(r.text)) line('      emplacement partenaire affiché');
     if (/data-newsletter/.test(r.text)) line('      formulaire newsletter présent : ' + ((r.text.match(/action="https:\/\/buttondown[^"]*"/) || [])[0] || ''));
+    const upd = (r.text.match(/<a class="upd"[^>]*>([^<]+)</) || [])[1];
+    if (upd) line(`      mention : ${upd}`);
+    const srcl = (r.text.match(/<span class="src-line">([^<]+)</) || [])[1];
+    if (srcl) line(`      ${srcl}`);
+    const nCorr = /corrections\/$/.test(p) ? (r.text.match(/#maj"/g) || []).length : 0;
+    if (nCorr) line(`      ${nCorr} modification(s) recensée(s)`);
+    const hist = (r.text.match(/<tbody>([\s\S]*?)<\/tbody>/) || [])[1];
+    if (hist && /status/.test(p)) line('      historique : ' + [...hist.matchAll(/<tr><th scope="row">([^<]+)<\/th><td>([^<]+)<\/td><td>([^<]+)<\/td><td>([^<]+)<\/td>/g)].map((m) => `${m[1]} FR ${m[2]} EN ${m[3]} soir ${m[4]}`).join(' | '));
     const todo = (r.text.match(/class="todo"/g) || []).length;
     if (todo) line(`      ${todo} champ(s) [À REMPLIR] sur la page`);
   }
