@@ -30,8 +30,8 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/' }
 };
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
@@ -45,7 +45,7 @@ const dossierPath = (lang, id) => `${PRE[lang]}dossiers/${id}/`;
 
 /* ---------- empreinte des fichiers statiques (cache) ---------- */
 const assetFiles = [
-  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js',
+  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/world.json',
   ...fs.readdirSync(path.join(root, 'assets/fonts')).map((f) => 'assets/fonts/' + f)
 ].filter(exists);
@@ -64,7 +64,10 @@ const ICON = {
   sun: '<svg class="ico i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
   moon: '<svg class="ico i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>',
   listen: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>',
-  print: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/></svg>'
+  print: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/></svg>',
+  expand: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
+  play: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5l12 7-12 7z"/></svg>',
+  info: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>'
 };
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const utc = (d) => { const p = String(d).split('-').map(Number); return Date.UTC(p[0], (p[1] || 1) - 1, p[2] || 1); };
@@ -249,8 +252,9 @@ ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src
   <a class="mark" href="${rootRel}${P.home}" aria-label="${esc(C.S.home)}"><span class="mark-name" aria-hidden="true">DIURNA<span class="mark-dot">.</span></span><span class="mark-sub">${C.t(C.S.sub)}</span></a>
   <nav class="nav" aria-label="${esc(C.S.navMain)}">
     ${nav(editionHome(C.lang), C.S.navEdition, 'edition')}
+    ${nav(P.map, C.S.navMap, 'map')}
     ${nav(P.archives, C.S.navArchives, 'archives', true)}
-    ${nav(P.method, C.S.navMethod, 'method')}
+    ${nav(P.method, C.S.navMethod, 'method', true)}
     <span class="langs"><span class="lang-self" aria-current="true">${C.S.langSelf}</span><a class="lang" href="${rootRel}${altOther}" hreflang="${other}" lang="${other}" aria-label="${esc(C.S.langSwitch)}">${C.S.langOther}</a></span>
     <button class="theme-toggle" type="button" data-theme-toggle aria-label="${esc(C.S.themeDay)}" data-day="${esc(C.S.themeDay)}" data-night="${esc(C.S.themeNight)}">${ICON.sun}${ICON.moon}</button>
     <button class="install" type="button" hidden>${ICON.install}${C.S.install}</button>
@@ -270,7 +274,7 @@ function footer(C, rootRel) {
   return `<footer class="site-foot">
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
-    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
+    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
     <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
     <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
@@ -318,7 +322,7 @@ function idBand(C, s) {
   if (langs.length) cells.push([langs.length > 1 ? C.S.languages : C.S.language, langs.join(', ')]);
   if (curs.length) cells.push([C.S.currency, curs.join(', ')]);
   if (g) { cells.push([C.S.regime, C.lang === 'en' && g.regime_en ? g.regime_en : g.regime]); g.leaders.forEach((l) => cells.push([C.lang === 'en' && l.role_en ? l.role_en : l.role, C.lang === 'en' && l.name_en ? l.name_en : l.name])); }
-  return `<details class="idband"><summary>${flag(s.id, C.rootRel, 'lg')}<span class="id-name">${C.t(C.cname(s.id, s.place))}</span><span class="id-line">${C.t(line)}</span><span class="id-more"><span>${C.S.profile}</span>${ICON.plus}</span></summary><dl class="id-grid">${cells.map(([k, v]) => `<div><dt>${C.t(k)}</dt><dd>${C.t(v)}</dd></div>`).join('')}</dl></details>`;
+  return `<details class="idband"><summary>${flag(s.id, C.rootRel, 'lg')}<span class="id-name">${C.t(C.cname(s.id, s.place))}</span><span class="id-line">${C.t(line)}</span><span class="id-more"><span>${C.S.profile}</span>${ICON.plus}</span></summary><dl class="id-grid">${cells.map(([k, v]) => `<div><dt>${C.t(k)}</dt><dd>${C.t(v)}</dd></div>`).join('')}</dl><p class="id-live" data-live="${s.id}" data-cap="${esc(capital ? capital.replace(/ \(.*\)$/, '') : '')}" hidden></p></details>`;
 }
 function related(ed, s) {
   const score = (o) => {
@@ -452,7 +456,14 @@ function readerPage(C, ed, rank) {
       <button id="zin" type="button" aria-label="${esc(C.S.zoomIn)}">${ICON.plus}</button>
       <button id="zout" type="button" aria-label="${esc(C.S.zoomOut)}">${ICON.minus}</button>
       <button id="zre" type="button" aria-label="${esc(C.S.recentre)}">${ICON.recenter}</button>
+      <button id="zfs" type="button" aria-label="${esc(C.S.fullscreen)}" hidden>${ICON.expand}</button>
+      <button id="zleg" type="button" aria-label="${esc(C.S.legend)}" aria-expanded="false" aria-controls="legPop">${ICON.info}</button>
     </div>
+    <div class="leg-pop" id="legPop" hidden><ul class="legend">
+      <li><span class="lg lg-pin">1</span>${C.t(C.S.legStory)}</li>
+      <li><span class="lg lg-inv"></span>${C.t(C.S.legInv)}</li>
+      <li><span class="lg lg-arc"></span>${C.t(C.S.legArc)}</li>
+    </ul></div>
   </section>
   <section class="panel${s ? ' c' + s.rank : ''}" id="panel" aria-label="${esc(C.S.panelLabel)}">
     <p class="edition-line ed-line" id="edLine"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span>${latestLine}</p>
@@ -470,7 +481,7 @@ function readerPage(C, ed, rank) {
       path: p, alt, title: esc(title), desc, cls: 'reader-page', nav: 'edition', ogType: s ? 'article' : 'website', og: og || undefined,
       ogAlt: s ? esc(C.typo(s.title)) : undefined, jsonld, footer: false,
       data: `data-date="${ed.date}" data-rank="${rank}" data-latest="${isLatest ? 1 : 0}" data-today="${editionHome(C.lang)}"`,
-      body, scripts: [...VENDOR, 'assets/js/modules.js', 'assets/js/reader.js']
+      body, scripts: [...VENDOR, 'assets/js/modules.js', 'assets/js/live.js', 'assets/js/reader.js']
     })
   };
 }
@@ -661,11 +672,16 @@ function countryPage(C, id, items) {
     jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.countries, countriesIndex(C.lang)], [name, p]])],
     body: `<main class="page"${countries[id] && countries[id].accent ? ` style="--acc:${countries[id].accent}"` : ''}>
   <p class="rubric"><a href="${C.rootRel}${countriesIndex(C.lang)}">${C.S.countries}</a></p>
-  <h1 class="with-flag">${flag(id, C.rootRel, 'lg')}${C.t(name)}</h1>
-  <p class="chapo">${C.t(C.L('countryDesc', { x: name }))}</p>
+  <div class="country-head">
+    <div>
+      <h1 class="with-flag">${flag(id, C.rootRel, 'lg')}${C.t(name)}</h1>
+      <p class="chapo">${C.t(C.L('countryDesc', { x: name }))}</p>
+    </div>
+    <div class="locator" id="locator" data-id="${id}" aria-hidden="true"></div>
+  </div>
   ${idBand(C, { id, place: name }).replace('<details class="idband">', '<details class="idband" open>')}
   ${listItems(C, items)}
-</main>`, scripts: BASE
+</main>`, scripts: [...VENDOR, 'assets/js/live.js', 'assets/js/locator.js']
   });
 }
 function dossierPage(C, id, items) {
@@ -717,6 +733,61 @@ function dossiersPage(C) {
     <li><a href="${r}${dossierPath(C.lang, d.id)}">${flag(d.c, r)}<span class="h">${C.t(d.title)}</span><span class="p">${C.t(C.L(d.n > 1 ? 'nStories' : 'nStory', { n: d.n }))} · ${C.t(C.dmy(d.last))}</span></a></li>`).join('')}
   </ul>
 </main>`, scripts: BASE
+  });
+}
+
+/* ---------- Carte de l'actualité ---------- */
+function mapData(lang) {
+  const eds = EDS[lang].slice(-30);
+  const days = {};
+  for (const ed of eds) days[ed.date] = { s: ed.essentials.map((x) => [x.rank, x.id, x.title, storyPath(lang, ed.date, x.slug)]), b: (ed.brief || []).map((b) => b.id).filter(Boolean) };
+  const cpages = {};
+  for (const id of COL[lang].byCountry.keys()) cpages[id] = countryPath(lang, cslug(lang, id));
+  return { dates: eds.map((e) => e.date), days, pages: cpages };
+}
+function mapPage(C) {
+  const p = FIXED[C.lang].map; C.rootRel = rootRelOf(p);
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.map, en: FIXED.en.map }, title: esc(C.S.mapTitle + ' — Diurna'), desc: C.t(C.S.mapDesc), nav: 'map', footer: false,
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.mapTitle, p]])],
+    body: `<main class="reader map-page">
+  <section class="stage" aria-label="Globe">
+    <div class="stage-globe" id="mapGlobe"></div>
+    <div class="zoom">
+      <button id="zin" type="button" aria-label="${esc(C.S.zoomIn)}">${ICON.plus}</button>
+      <button id="zout" type="button" aria-label="${esc(C.S.zoomOut)}">${ICON.minus}</button>
+      <button id="zfs" type="button" aria-label="${esc(C.S.fullscreen)}" hidden>${ICON.expand}</button>
+    </div>
+  </section>
+  <section class="panel map-panel" aria-labelledby="mapH">
+    <h1 id="mapH">${C.S.mapTitle}</h1>
+    <p class="chapo">${C.t(C.S.mapDesc)}</p>
+    <div class="seg" role="radiogroup" aria-label="${esc(C.S.mapTitle)}">
+      <button type="button" role="radio" data-mode="day" aria-checked="false">${C.S.mapToday}</button>
+      <button type="button" role="radio" data-mode="7" aria-checked="true">${C.S.mapWeek}</button>
+      <button type="button" role="radio" data-mode="30" aria-checked="false">${C.S.mapMonth}</button>
+    </div>
+    <div class="replay">
+      <button class="act" type="button" id="mapPlay">${ICON.play}<span>${C.S.mapPlay}</span></button>
+      <label class="sr" for="mapDay">${C.S.mapDay}</label>
+      <input id="mapDay" type="range" min="0" max="0" value="0" step="1">
+      <output id="mapDayOut" for="mapDay"></output>
+    </div>
+    <form class="search map-search" role="search" id="mapSearchF">
+      <label class="sr" for="mapSearch">${C.S.mapSearch}</label>
+      <input id="mapSearch" type="search" list="mapCountries" autocomplete="off" placeholder="${esc(C.S.mapSearch)}">
+      <datalist id="mapCountries"></datalist>
+    </form>
+    <div class="map-card" id="mapCard" aria-live="polite"><p class="map-hint">${C.t(C.S.mapPick)}</p></div>
+    <label class="check"><input type="checkbox" id="mapNight" checked> ${C.S.mapNight}</label>
+    <details class="fold legend-fold"><summary>${C.S.legend}${ICON.plus}</summary><div class="fold-body"><ul class="legend">
+      <li><span class="lg lg-heat"></span>${C.t(C.S.legHeat)}</li>
+      <li><span class="lg lg-pin">1</span>${C.t(C.S.legStory)}</li>
+      <li><span class="lg lg-night"></span>${C.t(C.S.legNight)}</li>
+    </ul></div></details>
+    <section class="map-top" aria-labelledby="mapTopH"><h2 id="mapTopH">${C.S.mapTop}</h2><ol id="mapTop"></ol></section>
+  </section>
+</main>`, scripts: [...VENDOR, 'assets/js/live.js', 'assets/js/map.js']
   });
 }
 
@@ -997,6 +1068,8 @@ for (const lang of LANGS) {
   wr(P.method + 'index.html', method(C));
   wr(P.status + 'index.html', status(C, ST));
   wr(P.search + 'index.html', searchPage(C));
+  wr(P.map + 'index.html', mapPage(C)); wr(dataOf(lang, 'map.json'), JSON.stringify(mapData(lang)));
+  SM.push({ path: P.map, alt: { fr: FIXED.fr.map, en: FIXED.en.map } });
   wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });
   for (const key of ['about', 'legal', 'privacy', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
   wr(dataOf(lang, 'search.json'), JSON.stringify(searchIndex(lang)));

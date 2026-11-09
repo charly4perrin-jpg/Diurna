@@ -65,6 +65,7 @@
       this.gOcean = make('path', { class: 'g-ocean' }, svg);
       this.gGrat = make('path', { class: 'g-grat' }, svg);
       this.gLand = make('g', {}, svg);
+      this.gNight = make('path', { class: 'g-night' }, svg);
       this.gShade = make('path', { class: 'g-shade' }, svg);
       this.gArcs = make('g', {}, svg);
       this.gPins = make('g', {}, svg);
@@ -118,6 +119,29 @@
     }
 
     setMeta(meta) { this.o.meta = meta; }
+    // Niveaux de chaleur : Map(id → 1..5), ou null pour revenir aux couleurs des sujets.
+    setHeat(levels) { this.heat = levels || null; this.paint(); }
+    select(id, fly) {
+      this.sel = id || null; this.paint();
+      if (id && fly !== false) { const c = this.centroid.get(id); if (c) this.flyTo(c, Math.max(this.k, this.zoomFor({ id }))); }
+    }
+    // Ligne jour/nuit : l'hémisphère opposé au soleil, recalculé chaque minute.
+    setNight(on) {
+      this.night = !!on;
+      clearInterval(this.nightT);
+      if (on) this.nightT = setInterval(() => this.draw(), 60000);
+      this.draw();
+    }
+    static antiSun(date) {
+      const d = date || new Date();
+      const start = Date.UTC(d.getUTCFullYear(), 0, 1);
+      const n = Math.floor((d - start) / 864e5) + 1, hrs = d.getUTCHours() + d.getUTCMinutes() / 60;
+      const g = 2 * Math.PI / 365 * (n - 1 + (hrs - 12) / 24);
+      const eq = 229.18 * (0.000075 + 0.001868 * Math.cos(g) - 0.032077 * Math.sin(g) - 0.014615 * Math.cos(2 * g) - 0.040849 * Math.sin(2 * g));
+      const decl = 0.006918 - 0.399912 * Math.cos(g) + 0.070257 * Math.sin(g) - 0.006758 * Math.cos(2 * g) + 0.000907 * Math.sin(2 * g) - 0.002697 * Math.cos(3 * g) + 0.00148 * Math.sin(3 * g);
+      const sunLon = -15 * (hrs - 12 + eq / 60), sunLat = decl * 180 / Math.PI;
+      return [((sunLon + 360) % 360) - 180, -sunLat];
+    }
     name(id) { const m = this.o.meta && this.o.meta[id]; if (m) return TP.cfield(m, 'name'); const f = this.byId.get(id); return f ? f.properties.fr : id; }
     where(story) { return story.focus || this.centroid.get(story.id) || null; }
     // Zoom qui donne au pays une taille lisible : grand pays, peu de zoom ; petit pays, davantage.
@@ -154,6 +178,18 @@
         const id = f.properties.a3;
         const s = main.get(id);
         let cls = 'g-land';
+        if (this.heat) {
+          // Carte de chaleur : cinq niveaux selon le nombre d'apparitions du pays.
+          const h = this.heat.get(id);
+          if (h) cls += ' heat h' + h;
+          if (this.o.onCountry) cls += ' hot';
+          if (this.sel === id) cls += ' sel';
+          if (this.hover === id) cls += ' hover';
+          if (s) cls += ` story c${s.rank}`;
+          f._el.setAttribute('class', cls);
+          continue;
+        }
+        if (this.sel === id) cls += ' sel';
         if (hl) {
           if (hl.has(id)) cls += ' hl ' + hl.get(id);
           if (this.hover === id) cls += ' hover';
@@ -337,6 +373,7 @@
       this.gRim.setAttribute('d', sphere);
       this.gGrat.setAttribute('d', this.path(this.grat) || '');
       for (const f of this.features) f._el.setAttribute('d', this.path(f) || '');
+      this.gNight.setAttribute('d', this.night ? (this.path(d3.geoCircle().center(Globe.antiSun()).radius(90)()) || '') : '');
       (this.arcs || []).forEach((a) => a.el.setAttribute('d', this.path(a.geo) || ''));
       const c = [-this.rot[0], -this.rot[1]];
       (this.pins || []).forEach((p) => {
@@ -435,7 +472,9 @@
         if (!d.moved && e.type === 'pointerup') {
           if (d.target.closest && d.target.closest('.g-pin')) return; // géré par le clic de l'épingle
           const s = this._storyAt(d.target);
-          if (s && this.o.onPick) { this.hideCard(); this.o.onPick(s.rank); }
+          const f = d.target.__f;
+          if (this.o.onCountry && f) { this.hideCard(); this.o.onCountry(f.properties.a3); }
+          else if (s && this.o.onPick) { this.hideCard(); this.o.onPick(s.rank); }
           else if (this.card && d.type !== 'mouse') this.hideCard();
         }
       };
@@ -457,7 +496,7 @@
     _setHover(id) { if (id !== this.hover) { this.hover = id; this.paint(); } }
 
     _hover(e) {
-      const s = this._storyAt(e.target);
+      const s = this.o.onCountry ? null : this._storyAt(e.target);
       const f = e.target.__f;
       const id = s ? s.id : f ? f.properties.a3 : null;
       this._setHover(id);

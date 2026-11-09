@@ -19,6 +19,13 @@
     label: L('globeLabel'),
     onPick: (rank) => { const s = ed && ed.essentials.find((x) => x.rank === rank); if (s) TP.track('pays-clique', s.id); go(rank); }
   });
+  const leg = $('zleg'), legPop = $('legPop');
+  if (leg && legPop) leg.addEventListener('click', () => { legPop.hidden = !legPop.hidden; leg.setAttribute('aria-expanded', String(!legPop.hidden)); if (!legPop.hidden) TP.trackOnce('module/legende', 'globe'); });
+  const fsb = $('zfs'), stage = $('globe').closest('.stage');
+  if (fsb && stage && document.fullscreenEnabled) {
+    fsb.hidden = false;
+    fsb.addEventListener('click', () => { if (document.fullscreenElement) document.exitFullscreen(); else stage.requestFullscreen().catch(() => {}); TP.trackOnce('module/plein-ecran', 'edition'); });
+  }
   $('zin').addEventListener('click', () => globe.zoomBy(1.3));
   $('zout').addEventListener('click', () => globe.zoomBy(1 / 1.3));
   $('zre').addEventListener('click', () => {
@@ -84,6 +91,7 @@
           <span class="id-more"><span>${L('profile')}</span>${icon('plus')}</span>
         </summary>
         <dl class="id-grid">${cells.map(([k, v]) => `<div><dt>${t(k)}</dt><dd>${t(v)}</dd></div>`).join('')}</dl>
+        <p class="id-live" data-live="${s.id}" data-cap="${esc(capital ? capital.replace(/ \(.*\)$/, '') : '')}" hidden></p>
         ${notes.length ? `<p class="id-note">${TP.cap(notes.join(' · '))}.</p>` : ''}
       </details>`;
   }
@@ -304,7 +312,7 @@
     const s = ed.essentials.find((x) => x.rank === step);
     panel.className = 'panel' + (s ? ' c' + s.rank : '');
     read.innerHTML = s ? storyHtml(s) : briefHtml();
-    stopSpeech(); closeGloss();
+    stopSpeech(); closeGloss(); setTimeout(fillLive, 0);
     if (s) { Modules.mount(read, s); glossify(read.querySelector('.article')); markRead(s.rank); TP.track('fiche-ouverte', `${s.rank} · ${s.id}`); }
     read.scrollTop = 0;
     globe.hideCard();
@@ -378,7 +386,18 @@
       if (p) { globe.showPlace(p.coords, typo(p.name), Number(pl.dataset.place) + 1); toGlobe(); }
     }
   });
-  read.addEventListener('toggle', (e) => { if (e.target.classList && e.target.classList.contains('idband')) store.set('idband', e.target.open); }, true);
+  read.addEventListener('toggle', (e) => { if (e.target.classList && e.target.classList.contains('idband')) { store.set('idband', e.target.open); if (e.target.open) fillLive(); } }, true);
+  // Heure locale et météo de la capitale, seulement quand la fiche pays est ouverte.
+  function fillLive() {
+    const el = read.querySelector('.idband[open] [data-live]');
+    if (!el || !TP.live || el.dataset.done) return;
+    el.dataset.done = '1';
+    TP.live(el.dataset.live, C(el.dataset.live)).then((w) => {
+      if (!w || !el.isConnected) return;
+      el.innerHTML = `${t(L('liveAt', { c: el.dataset.cap }))} : ${t(w.text)} <small>${t(L('liveSrc'))}</small>`;
+      el.hidden = false;
+    });
+  }
   prevBtn.addEventListener('click', () => go(step - 1));
   nextBtn.addEventListener('click', () => go(step + 1));
   // Raccourcis clavier : ← →, 1 à 5, B (En bref), G (globe), ? (aide), Échap.
