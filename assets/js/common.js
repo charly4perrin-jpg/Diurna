@@ -60,6 +60,9 @@
     out: '<path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/>',
     close: '<path d="M6 6l12 12M18 6L6 18"/>',
     share: '<path d="M12 15V3M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/>',
+    listen: '<path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/>',
+    print: '<path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/>',
+    check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>'
   };
   const icon = (n) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n] || ''}</svg>`;
@@ -135,6 +138,28 @@
     document.querySelectorAll('.install').forEach((x) => { x.hidden = true; });
   });
   global.addEventListener('appinstalled', () => track('installation-appli'));
+
+  // Mode jour / nuit (la nuit reste le défaut) et taille du texte : réglages gardés sur l'appareil.
+  const root = document.documentElement;
+  const themeMeta = () => { const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = root.dataset.theme === 'day' ? '#F6F2EA' : '#070C1D'; };
+  const themeLabel = () => document.querySelectorAll('[data-theme-toggle]').forEach((b) => b.setAttribute('aria-label', root.dataset.theme === 'day' ? b.dataset.night : b.dataset.day));
+  themeMeta(); themeLabel();
+  const SIZES = ['', 'l', 'xl'];
+  document.addEventListener('click', (e) => {
+    if (e.target.closest('[data-theme-toggle]')) {
+      const day = root.dataset.theme !== 'day';
+      if (day) root.dataset.theme = 'day'; else delete root.dataset.theme;
+      store.set('theme', day ? 'day' : null); if (!day) try { localStorage.removeItem('tp.theme'); } catch (_) {}
+      themeMeta(); themeLabel(); track('module/theme', day ? 'jour' : 'nuit');
+      document.dispatchEvent(new CustomEvent('tp:theme'));
+    }
+    if (e.target.closest('[data-textsize]')) {
+      const next = SIZES[(SIZES.indexOf(root.dataset.size || '') + 1) % SIZES.length];
+      if (next) root.dataset.size = next; else delete root.dataset.size;
+      if (next) store.set('size', next); else try { localStorage.removeItem('tp.size'); } catch (_) {}
+      track('module/taille-texte', next || 'normal');
+    }
+  });
   document.addEventListener('submit', (e) => { if (e.target.matches && e.target.matches('[data-newsletter]')) track('inscription-newsletter', LANG); });
   if ('serviceWorker' in navigator && location.protocol === 'https:') {
     global.addEventListener('load', () => navigator.serviceWorker.register(ROOT + 'sw.js').catch(() => {}));

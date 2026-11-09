@@ -685,3 +685,89 @@ a.step, a.nr { text-decoration: none; }
 .hist thead th { font: 650 .72rem/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); border-bottom: 2px solid var(--ink); }
 .hist tbody th { color: var(--ink); font-weight: 600; }
 .hist td { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+/* ---------- Mode jour : papier clair, encre bleu nuit (la nuit reste le défaut) ---------- */
+:root[data-theme="day"] {
+  color-scheme: light;
+  --night: #F6F2EA;
+  --night-1: #EEE8DC;
+  --night-2: #E4DCCC;
+  --line: #D9CFBD;
+  --line-2: #BDB09A;
+  --ink: #141A2E;
+  --ink-2: #3B4259;
+  --ink-3: #5C6580;
+  --ocean-hi: #EAF0F7;
+  --ocean-lo: #CCD8E7;
+  --land: #FBF8F2;
+  --land-edge: #95A2BB;
+  --c1: #C9402A;
+  --c2: #A86A00;
+  --c3: #0B76A8;
+  --c4: #6E46C9;
+  --c5: #0F7F55;
+}
+:root[data-theme="day"] .btn:hover { background: #2A3150; }
+:root[data-theme="day"] .mod-h, :root[data-theme="day"] .article h3.mod-h, :root[data-theme="day"] .mod-figure .fig-v, :root[data-theme="day"] .count-v,
+:root[data-theme="day"] .next-d time, :root[data-theme="day"] .mod-globe .ico { color: color-mix(in srgb, var(--acc, var(--ink)) 58%, #000); }
+:root[data-theme="day"] .chart .line { stroke: color-mix(in srgb, var(--acc, var(--ink)) 70%, #000); }
+:root[data-theme="day"] .g-land.hl-a, :root[data-theme="day"] .g-land.hl-k { fill: #F2A08E; }
+:root[data-theme="day"] .g-land.hl-b { fill: #9CC7F2; }
+.theme-toggle { display: inline-grid; place-items: center; width: 38px; height: 38px; border-radius: 50%; border: 1px solid var(--line-2); background: transparent; color: var(--ink-2); cursor: pointer; }
+.theme-toggle:hover { color: var(--ink); border-color: var(--ink-3); }
+.theme-toggle .ico { width: 18px; height: 18px; }
+.theme-toggle .i-moon, :root[data-theme="day"] .theme-toggle .i-sun { display: none; }
+:root[data-theme="day"] .theme-toggle .i-moon { display: block; }
+
+/* ---------- Accessibilité ---------- */
+.skip { position: absolute; left: 12px; top: -60px; z-index: 100; padding: 10px 16px; border-radius: 8px; background: var(--ink); color: var(--night); font: 650 .9rem/1 var(--sans); text-decoration: none; transition: top .15s; }
+.skip:focus { top: calc(12px + env(safe-area-inset-top, 0px)); }
+
+/* ---------- Taille du texte ---------- */
+:root[data-size="l"] .article > .chapo, :root[data-size="l"] .article > .body, :root[data-size="l"] .article > .analysis, :root[data-size="l"] .keys, :root[data-size="l"] .brief, :root[data-size="l"] .updates { zoom: 1.12; }
+:root[data-size="xl"] .article > .chapo, :root[data-size="xl"] .article > .body, :root[data-size="xl"] .article > .analysis, :root[data-size="xl"] .keys, :root[data-size="xl"] .brief, :root[data-size="xl"] .updates { zoom: 1.25; }
+.act-size span { font: 700 1rem/1 var(--serif); }
+.act-size small { font-size: .72em; margin-left: 1px; }
+:root[data-size="l"] .act-size, :root[data-size="xl"] .act-size { border-color: var(--ink-3); }
+
+/* ---------- Glossaire ---------- */
+.gl { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: help; text-decoration: underline dotted; text-decoration-color: var(--ink-3); text-underline-offset: 4px; text-decoration-thickness: 1.5px; }
+.gl:hover, .gl[aria-expanded="true"] { text-decoration-color: var(--ink); text-decoration-style: solid; }
+.gl-pop { position: absolute; z-index: 5; left: 0; right: 0; display: block; padding: 12px 14px; border-radius: 10px; background: var(--night-2); border: 1px solid var(--line-2); box-shadow: 0 14px 34px rgba(0, 0, 0, .35); font: 400 .95rem/1.5 var(--serif); color: var(--ink-2); }
+.gl-pop b { display: block; margin-bottom: 2px; font: 650 .74rem/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+
+/* ---------- Sujets lus ---------- */
+.step.done { position: relative; }
+.step.done::after { content: ""; position: absolute; right: -2px; top: -2px; width: 12px; height: 12px; border-radius: 50%; background: var(--c5); box-shadow: 0 0 0 2px var(--night); }
+.read-badge { display: inline-flex; align-items: center; gap: 4px; margin-left: auto; font: 650 .7rem/1 var(--sans); letter-spacing: .08em; color: var(--c5); }
+.read-badge .ico { width: 14px; height: 14px; }
+.summary > li.done .title { color: var(--ink-2); }
+.all-read { display: flex; align-items: center; gap: 8px; margin: 18px 0 0; font: 650 .9rem/1.3 var(--sans); color: var(--c5); }
+.all-read .ico { width: 18px; height: 18px; }
+.rt { color: var(--ink-3); }
+.print-link .ico { width: 16px; height: 16px; vertical-align: -3px; margin-right: 6px; }
+
+/* ---------- Aide des raccourcis ---------- */
+.kbd-help { position: fixed; z-index: 90; left: 50%; top: 50%; transform: translate(-50%, -50%); width: min(92vw, 440px); padding: 22px; border-radius: 14px; background: var(--night-1); border: 1px solid var(--line-2); box-shadow: 0 24px 60px rgba(0, 0, 0, .5); }
+.kbd-help p { margin: 0 0 12px; font: 650 .8rem/1.3 var(--sans); letter-spacing: .1em; text-transform: uppercase; color: var(--ink); }
+.kbd-help ul { list-style: none; margin: 0 0 16px; padding: 0; display: grid; gap: 8px; }
+.kbd-help li { display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); gap: 12px; font: 400 .95rem/1.4 var(--sans); color: var(--ink-2); }
+.kbd-help kbd { font: 650 .8rem/1.6 var(--sans); color: var(--ink); }
+
+/* ---------- Version imprimable ---------- */
+.print h1 { font: 700 2rem/1.15 var(--serif); margin: 12px 0; }
+.print-story { padding: 22px 0; border-top: 1px solid var(--line); break-inside: avoid; }
+.print-story h2 { font: 700 1.35rem/1.25 var(--serif); margin: 8px 0; }
+.print-story .rubric { margin: 0; }
+.print-fig b { font-weight: 700; }
+.print-src { font: 500 .78rem/1.4 var(--sans); color: var(--ink-3); word-break: break-word; }
+.print-bar { margin: 0 0 18px; }
+@media print {
+  :root, :root[data-theme="day"] { --night: #fff; --night-1: #fff; --night-2: #fff; --line: #ccc; --line-2: #999; --ink: #000; --ink-2: #222; --ink-3: #555; color-scheme: light; }
+  body { background: #fff !important; color: #000; }
+  .site-head, .site-foot, .skip, .print-bar, .stage, .steps, .pager, .story-actions, .nextreads, .newsletter, .install, .theme-toggle, .zoom, .preparing { display: none !important; }
+  .reader, .panel, .read { display: block !important; height: auto !important; overflow: visible !important; position: static !important; }
+  details.fold > .fold-body { display: block !important; }
+  a { color: #000; text-decoration: none; }
+  .print-story, .mod { break-inside: avoid; }
+}

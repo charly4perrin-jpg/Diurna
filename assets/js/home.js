@@ -3,6 +3,16 @@
   'use strict';
   const line = document.querySelector('.cover .edition-line');
   if (line && TP.stale(line.dataset.date)) line.insertAdjacentHTML('beforeend', `<span class="preparing">${TP.t(TP.L('preparing'))}</span>`);
+  // Sujets déjà lus aujourd'hui (sur cet appareil) : cochés dans le sommaire.
+  if (line) {
+    const done = new Set((TP.store.get('read', {})[line.dataset.date]) || []);
+    document.querySelectorAll('.summary > li').forEach((li, i) => {
+      if (!done.has(i + 1)) return;
+      li.classList.add('done');
+      const r = li.querySelector('.rubric');
+      if (r) r.insertAdjacentHTML('beforeend', `<span class="read-badge">${TP.icon('check')}${TP.t(TP.L('readMark'))}</span>`);
+    });
+  }
   const host = document.getElementById('coverGlobe');
   if (!host) return;
   // Chaque sujet a sa page : l'adresse est fournie par la page elle-même.

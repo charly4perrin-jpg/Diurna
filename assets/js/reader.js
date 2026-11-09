@@ -45,7 +45,7 @@
 
   function renderSteps() {
     steps.innerHTML = ed.essentials.map((s) =>
-      `<a class="step c${s.rank}" href="${urlOf(s.rank)}" data-step="${s.rank}" aria-label="${t(s.rank + '. ' + cname(s.id, s.place))}"${step === s.rank ? ' aria-current="step"' : ''}>${s.rank}</a>`
+      `<a class="step c${s.rank}${readSet().has(s.rank) && step !== s.rank ? ' done' : ''}" href="${urlOf(s.rank)}" data-step="${s.rank}" aria-label="${t(s.rank + '. ' + cname(s.id, s.place) + (readSet().has(s.rank) ? ' — ' + L('readMark') : ''))}"${step === s.rank ? ' aria-current="step"' : ''}>${s.rank}</a>`
     ).join('') + `<a class="step brief-step" href="${datePath()}" data-step="6"${step === 6 ? ' aria-current="step"' : ''}>${L('inBrief')}</a>`;
   }
 
@@ -123,6 +123,7 @@
       meta.push(`<b>${t(L(n > 1 ? 'days' : 'day1', { n: int(n), label: s.since.label }))}</b>`);
     }
     meta.push(`<span>${t(L('editionOf', { d: day(ed.date) }))}</span>`);
+    meta.push(`<span class="rt">${t(L('readTime', { n: readMin(s) }))}</span>`);
     if (s.updates && s.updates.length) meta.push(`<a class="upd" href="#maj">${t(L('updatedAt', { h: TP.hour(s.updates[s.updates.length - 1].time) }))}</a>`);
     if (s.dossier) meta.push(`<a class="dossier" href="${TP.ROOT}${LANG === 'en' ? 'en/' : ''}dossiers/${esc(s.dossier.id)}/">${t(L('dossier'))} · ${t(s.dossier.title)}</a>`);
     const sl = srcLine(s);
@@ -166,6 +167,95 @@
     const list = names.length <= 3 ? names.slice(0, -1).join(', ') + (names.length > 1 ? and : '') + names[names.length - 1] : L('andMore', { a: names.slice(0, 2).join(', '), n: names.length - 2 });
     return L('sourcesBy', { x: list });
   }
+  const readMin = (s) => Math.max(1, Math.round([s.standfirst, ...(s.body || []), s.analysis && s.analysis.text, ...(s.keys || []).map((k) => k.text)].join(' ').split(/\s+/).filter(Boolean).length / 220));
+  const printUrl = () => datePath() + (LANG === 'en' ? 'print/' : 'imprimer/');
+
+  // Sujets lus : gardés sur l'appareil (14 derniers jours), cochés dans la barre des sujets.
+  const readSet = () => new Set((store.get('read', {})[ed.date]) || []);
+  const allRead = () => readSet().size >= ed.essentials.length;
+  function markRead(rank) {
+    const all = store.get('read', {}), list = new Set(all[ed.date] || []);
+    if (list.has(rank)) return;
+    list.add(rank); all[ed.date] = [...list];
+    Object.keys(all).sort().slice(0, -14).forEach((k) => delete all[k]);
+    store.set('read', all);
+    if (list.size === ed.essentials.length) TP.track('edition-lue', ed.date);
+  }
+
+  // Glossaire : la première occurrence de chaque terme devient un bouton qui affiche sa définition.
+  let GLOSS = null;
+  function glossify(root) {
+    if (!GLOSS || !root) return;
+    const done = new Set();
+    const targets = root.querySelectorAll('.chapo, .body, .analysis');
+    for (const el of targets) {
+      const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+      const nodes = [];
+      while (walker.nextNode()) nodes.push(walker.currentNode);
+      for (const node of nodes) {
+        for (const g of GLOSS) {
+          if (done.has(g.k)) continue;
+          const m = g.re.exec(node.nodeValue);
+          if (!m) continue;
+          done.add(g.k);
+          const after = node.splitText(m.index), rest = after.splitText(m[0].length);
+          const b = document.createElement('button');
+          b.type = 'button'; b.className = 'gl'; b.dataset.gl = g.k; b.textContent = m[0];
+          b.setAttribute('aria-expanded', 'false'); b.title = L('glossaryHint');
+          after.parentNode.replaceChild(b, after);
+          // le reste du nœud est examiné aux tours suivants
+          nodes.push(rest);
+          break;
+        }
+      }
+    }
+  }
+  let pop = null;
+  function closeGloss() { if (pop) { pop.btn.setAttribute('aria-expanded', 'false'); pop.el.remove(); pop = null; } }
+  function openGloss(btn) {
+    const g = GLOSS && GLOSS.find((x) => x.k === btn.dataset.gl);
+    if (!g) return;
+    const same = pop && pop.btn === btn;
+    closeGloss();
+    if (same) return;
+    const el = document.createElement('span');
+    el.className = 'gl-pop'; el.setAttribute('role', 'note'); el.id = 'gl-' + g.k;
+    el.innerHTML = `<b>${t(g.t)}</b>${t(g.d)}`;
+    // La définition flotte sous le mot, par-dessus le texte, sans le couper en deux.
+    const host = btn.closest('.chapo, .body, .analysis') || btn.parentNode;
+    host.style.position = 'relative';
+    host.appendChild(el);
+    const hb = host.getBoundingClientRect(), bb = btn.getBoundingClientRect();
+    el.style.top = `${bb.bottom - hb.top + 6}px`;
+    btn.setAttribute('aria-expanded', 'true'); btn.setAttribute('aria-describedby', el.id);
+    pop = { btn, el };
+    TP.trackOnce('module/glossaire', g.k);
+  }
+  json('data/glossary.json').then((all) => {
+    GLOSS = (all[LANG] || []).map((g) => ({ ...g, re: new RegExp(`(?<![\\p{L}\\p{N}])(?:${g.m})(?![\\p{L}\\p{N}])`, g.cs ? 'u' : 'iu') }));
+    glossify(read.querySelector('.article'));
+  }).catch(() => {});
+
+  // Écouter : la synthèse vocale du navigateur lit le titre, le chapô, les trois phrases et l'analyse.
+  let speaking = false;
+  function stopSpeech() {
+    if (!('speechSynthesis' in window)) return;
+    speechSynthesis.cancel(); speaking = false;
+    read.querySelectorAll('[data-listen] span').forEach((x) => { x.textContent = L('listen'); });
+  }
+  function speak(s) {
+    if (speaking) { stopSpeech(); return; }
+    const text = [s.title, s.standfirst, ...(s.body || []), s.analysis ? s.analysis.title + '. ' + s.analysis.text : ''].join('. ').replace(/\.\s*\./g, '.');
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = LANG === 'en' ? 'en-GB' : 'fr-FR'; u.rate = 1;
+    const v = speechSynthesis.getVoices().find((x) => x.lang && x.lang.toLowerCase().startsWith(LANG));
+    if (v) u.voice = v;
+    u.onend = u.onerror = () => stopSpeech();
+    speechSynthesis.cancel(); speechSynthesis.speak(u); speaking = true;
+    read.querySelectorAll('[data-listen] span').forEach((x) => { x.textContent = L('stopListen'); });
+    TP.trackOnce('module/ecouter', s.id);
+  }
+
   // Mises à jour datées (révision du soir, corrections).
   function updatesHtml(s) {
     if (!s.updates || !s.updates.length) return '';
@@ -182,6 +272,9 @@
     return `
         <div class="story-actions">
           <button class="act" type="button" data-share>${icon('share')}<span>${L('share')}</span></button>
+          ${'speechSynthesis' in window ? `<button class="act" type="button" data-listen>${icon('listen')}<span>${L('listen')}</span></button>` : ''}
+          <button class="act act-size" type="button" data-textsize aria-label="${esc(L('textSize'))}"><span aria-hidden="true">A<small>A</small></span></button>
+          <a class="act quiet" href="${printUrl()}">${L('printable')}</a>
           ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${L('feedback')}</a>` : ''}
           ${issue ? `<a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${L('reportError')}</a>` : ''}
         </div>`;
@@ -199,6 +292,8 @@
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${L('comingUp')}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${t(L('endNote'))}</p>
+        <p class="print-link"><a class="link-quiet" href="${printUrl()}">${icon('print')}${t(L('printable'))}</a></p>
+        ${allRead() ? `<p class="all-read">${icon('check')}${t(L('allRead'))}</p>` : ''}
         ${nlHtml}
         <p><a class="link-quiet" href="${archives}">${t(L('allEditions'))} →</a></p>
       </div>`;
@@ -209,7 +304,8 @@
     const s = ed.essentials.find((x) => x.rank === step);
     panel.className = 'panel' + (s ? ' c' + s.rank : '');
     read.innerHTML = s ? storyHtml(s) : briefHtml();
-    if (s) { Modules.mount(read, s); TP.track('fiche-ouverte', `${s.rank} · ${s.id}`); }
+    stopSpeech(); closeGloss();
+    if (s) { Modules.mount(read, s); glossify(read.querySelector('.article')); markRead(s.rank); TP.track('fiche-ouverte', `${s.rank} · ${s.id}`); }
     read.scrollTop = 0;
     globe.hideCard();
     globe.clearOverlays();
@@ -267,6 +363,10 @@
       return;
     }
     if (e.target.closest('[data-feedback]')) TP.track('avis', current());
+    if (e.target.closest('[data-listen]')) { const s = ed.essentials.find((x) => x.rank === step); if (s) speak(s); return; }
+    const gl = e.target.closest('.gl');
+    if (gl) { openGloss(gl); return; }
+    if (pop && !e.target.closest('.gl-pop')) closeGloss();
     const b = e.target.closest('[data-go]');
     if (b && plain(e)) { e.preventDefault(); go(Number(b.dataset.go)); return; }
     const gb = e.target.closest('[data-globe]');
@@ -281,11 +381,41 @@
   read.addEventListener('toggle', (e) => { if (e.target.classList && e.target.classList.contains('idband')) store.set('idband', e.target.open); }, true);
   prevBtn.addEventListener('click', () => go(step - 1));
   nextBtn.addEventListener('click', () => go(step + 1));
+  // Raccourcis clavier : ← →, 1 à 5, B (En bref), G (globe), ? (aide), Échap.
+  let help = null;
+  function toggleHelp() {
+    if (help) { help.remove(); help = null; return; }
+    help = document.createElement('div');
+    help.className = 'kbd-help'; help.setAttribute('role', 'dialog'); help.setAttribute('aria-label', L('shortcuts'));
+    help.innerHTML = `<p><b>${t(L('shortcuts'))}</b></p><ul>${L('shortcutsList').split(' · ').map((x) => { const [k, v] = x.split(' : '); return `<li><kbd>${t(k)}</kbd><span>${t(v)}</span></li>`; }).join('')}</ul><button type="button" class="act" data-close-help>${t(L('close'))}</button>`;
+    document.body.appendChild(help);
+    help.querySelector('button').focus();
+    TP.trackOnce('module/raccourcis', 'aide');
+  }
+  document.addEventListener('click', (e) => { if (e.target.closest('[data-close-help]')) toggleHelp(); });
   document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') { if (help) toggleHelp(); closeGloss(); return; }
     if (e.target.closest('input, textarea, select, summary, .g-pin, .chart') || e.metaKey || e.ctrlKey || e.altKey) return;
     if (e.key === 'ArrowRight') go(step + 1);
-    if (e.key === 'ArrowLeft') go(step - 1);
+    else if (e.key === 'ArrowLeft') go(step - 1);
+    else if (/^[1-5]$/.test(e.key)) go(Number(e.key));
+    else if (e.key === 'b' || e.key === 'B') go(6);
+    else if (e.key === 'g' || e.key === 'G') { const g = $('globe'); g.scrollIntoView({ behavior: 'smooth', block: 'center' }); const svg = g.querySelector('svg'); if (svg) svg.focus(); }
+    else if (e.key === '?') toggleHelp();
   });
+
+  // Balayage gauche/droite sur l'article (mobile) pour changer de sujet.
+  let sw = null;
+  read.addEventListener('pointerdown', (e) => {
+    if (e.pointerType !== 'touch' || e.target.closest('.chart, .minimap, .mod-globe, input, .gl-pop, .story-actions')) { sw = null; return; }
+    sw = { x: e.clientX, y: e.clientY, t: Date.now() };
+  }, { passive: true });
+  read.addEventListener('pointerup', (e) => {
+    if (!sw || e.pointerType !== 'touch') return;
+    const dx = e.clientX - sw.x, dy = e.clientY - sw.y, dt = Date.now() - sw.t;
+    sw = null;
+    if (Math.abs(dx) > 70 && Math.abs(dy) < 45 && dt < 700) { go(step + (dx < 0 ? 1 : -1)); TP.trackOnce('module/balayage', 'mobile'); }
+  }, { passive: true });
   window.addEventListener('popstate', () => { if (!ed) return; const n = stepFromPath(); if (n !== step) { step = n; render(true); } });
   window.addEventListener('hashchange', () => { const n = stepFromHash(); if (n) go(n); });
 

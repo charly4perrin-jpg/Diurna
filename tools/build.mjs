@@ -37,6 +37,7 @@ const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
 const datePath = (lang, d) => `${PRE[lang]}${d.replace(/-/g, '/')}/`;
 const storyPath = (lang, d, slug) => `${datePath(lang, d)}${slug}/`;
+const printPath = (lang, d) => `${datePath(lang, d)}${lang === 'en' ? 'print' : 'imprimer'}/`;
 const countriesIndex = (lang) => (lang === 'en' ? 'en/country/' : 'pays/');
 const dossiersIndex = (lang) => `${PRE[lang]}dossiers/`;
 const countryPath = (lang, slug) => (lang === 'en' ? `en/country/${slug}/` : `pays/${slug}/`);
@@ -59,7 +60,11 @@ const ICON = {
   minus: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/></svg>',
   recenter: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12a9 9 0 1 0 3-6.7"/><path d="M3 4v5h5"/></svg>',
   install: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>',
-  share: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/></svg>'
+  share: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-6"/></svg>',
+  sun: '<svg class="ico i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>',
+  moon: '<svg class="ico i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>',
+  listen: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/></svg>',
+  print: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/></svg>'
 };
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const utc = (d) => { const p = String(d).split('-').map(Number); return Date.UTC(p[0], (p[1] || 1) - 1, p[2] || 1); };
@@ -202,6 +207,7 @@ function page(C, o) {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${o.title}</title>
+<script>(function(){try{var d=document.documentElement,th=localStorage.getItem('tp.theme'),ts=localStorage.getItem('tp.size');if(th)d.setAttribute('data-theme',JSON.parse(th));if(ts)d.setAttribute('data-size',JSON.parse(ts));}catch(e){}})();</script>
 <script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='${C.lang}'&&!navigator.webdriver&&!/bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent))location.replace('${rootRel}${altOther}'+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="${o.desc}">
 ${o.noindex ? '<meta name="robots" content="noindex, follow">' : ''}
@@ -238,6 +244,7 @@ ${(o.jsonld || []).map(ldScript).join('\n')}
 ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>` : ''}
 </head>
 <body data-root="${rootRel}" data-repo="${esc(REPO)}"${FB ? ` data-fb="${esc(FB)}"` : ''}${o.data ? ' ' + o.data : ''}>
+<a class="skip" href="#main">${C.S.skip}</a>
 <header class="site-head">
   <a class="mark" href="${rootRel}${P.home}" aria-label="${esc(C.S.home)}"><span class="mark-name" aria-hidden="true">DIURNA<span class="mark-dot">.</span></span><span class="mark-sub">${C.t(C.S.sub)}</span></a>
   <nav class="nav" aria-label="${esc(C.S.navMain)}">
@@ -245,10 +252,11 @@ ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src
     ${nav(P.archives, C.S.navArchives, 'archives', true)}
     ${nav(P.method, C.S.navMethod, 'method')}
     <span class="langs"><span class="lang-self" aria-current="true">${C.S.langSelf}</span><a class="lang" href="${rootRel}${altOther}" hreflang="${other}" lang="${other}" aria-label="${esc(C.S.langSwitch)}">${C.S.langOther}</a></span>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="${esc(C.S.themeDay)}" data-day="${esc(C.S.themeDay)}" data-night="${esc(C.S.themeNight)}">${ICON.sun}${ICON.moon}</button>
     <button class="install" type="button" hidden>${ICON.install}${C.S.install}</button>
   </nav>
 </header>
-${o.body}
+${o.body.replace(/<main(?![^>]*\bid=)/, '<main id="main"')}
 ${o.footer === false ? '' : footer(C, rootRel)}
 ${scriptTags(rootRel, o.scripts || [])}
 ${o.after || ''}
@@ -332,6 +340,7 @@ function storySSR(C, ed, s) {
     meta.push(`<b>${C.t(C.L(n > 1 ? 'days' : 'day1', { n: C.int(n), label: s.since.label }))}</b>`);
   }
   meta.push(`<span>${C.t(C.L('editionOf', { d: C.day(ed.date) }))}</span>`);
+  meta.push(`<span class="rt">${C.t(C.L('readTime', { n: readMin(s) }))}</span>`);
   if (s.updates && s.updates.length) meta.push(`<a class="upd" href="#maj">${C.t(C.L('updatedAt', { h: C.hour(s.updates[s.updates.length - 1].time) }))}</a>`);
   if (s.dossier) meta.push(`<a class="dossier" href="${r}${dossierPath(C.lang, s.dossier.id)}">${C.t(C.S.dossier)} · ${C.t(s.dossier.title)}</a>`);
   const sl = srcLine(C, s);
@@ -359,6 +368,9 @@ function storySSR(C, ed, s) {
         <section class="nextreads" aria-labelledby="nr-h"><h3 id="nr-h">${C.S.readNext}</h3><ul>${next}</ul></section>
       </div>`;
 }
+// Temps de lecture : chapô, trois phrases, analyse et clés, à 220 mots par minute.
+const wordsOf = (s) => [s.standfirst, ...(s.body || []), s.analysis && s.analysis.text, ...(s.keys || []).map((k) => k.text)].join(' ').split(/\s+/).filter(Boolean).length;
+const readMin = (s) => Math.max(1, Math.round(wordsOf(s) / 220));
 function srcLine(C, s) {
   const names = [...new Set((s.sources || []).map((x) => (C.lang === 'en' && x.name_en) || x.name))];
   if (!names.length) return '';
@@ -377,6 +389,9 @@ function actionsSSR(C, ed, s) {
   const issue = `https://github.com/${REPO}/issues/new?template=erreur.yml&page=${encodeURIComponent(url)}&title=${encodeURIComponent((C.lang === 'en' ? 'Error: ' : 'Erreur : ') + C.typo(s.title))}`;
   return `<div class="story-actions">
           <button class="act" type="button" data-share>${ICON.share}<span>${C.S.share}</span></button>
+          <button class="act" type="button" data-listen hidden>${ICON.listen}<span>${C.S.listen}</span></button>
+          <button class="act act-size" type="button" data-textsize aria-label="${esc(C.S.textSize)}"><span aria-hidden="true">A<small>A</small></span></button>
+          <a class="act quiet" href="${C.rootRel}${printPath(C.lang, ed.date)}">${C.S.printable}</a>
           ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${C.S.feedback}</a>` : ''}
           <a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${C.S.reportError}</a>
         </div>`;
@@ -392,6 +407,7 @@ function briefSSR(C, ed) {
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${C.S.comingUp}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${C.t(C.S.endNote)}</p>
+        <p class="print-link"><a class="link-quiet" href="${r}${printPath(C.lang, ed.date)}">${ICON.print}${C.S.printable}</a></p>
         ${newsletterForm(C, 'bref')}
       </div>`;
 }
@@ -459,6 +475,35 @@ function readerPage(C, ed, rank) {
   };
 }
 
+/* ---------- Version imprimable d'une édition ---------- */
+function printPage(C, ed) {
+  const p = printPath(C.lang, ed.date); C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const stories = ed.essentials.map((s) => `
+  <article class="print-story">
+    <p class="rubric"><span class="rank">${s.rank}</span>${C.t(C.cname(s.id, s.place))} · ${C.t(s.section)}</p>
+    <h2>${C.t(s.title)}</h2>
+    <p class="chapo">${C.t(s.standfirst)}</p>
+    <p class="body">${(s.body || []).map(C.t).join(' ')}</p>
+    ${s.figure ? `<p class="print-fig"><b>${C.t(s.figure.value)}</b> ${C.t(s.figure.label)}</p>` : ''}
+    ${s.analysis ? `<h3>${C.t(s.analysis.title)}</h3><p>${C.t(s.analysis.text)}</p>` : ''}
+    <p class="print-src">${C.t(srcLine(C, s))} — ${esc(`${abs}/${storyPath(C.lang, ed.date, s.slug)}`)}</p>
+  </article>`).join('');
+  const brief = (ed.brief || []).map((b) => `<li><b>${C.t(b.place)}</b> ${C.t(b.text)}</li>`).join('');
+  return page(C, {
+    path: p, alt: { fr: printPath('fr', ed.date), en: BYDATE.en.has(ed.date) ? printPath('en', ed.date) : null }, canonical: datePath(C.lang, ed.date),
+    title: esc(C.typo(C.L('printTitle', { d: C.dayLong(ed.date) }))), desc: C.t(ed.standfirst), noindex: true, cls: 'print-page',
+    body: `<main class="page print">
+  <p class="print-bar"><button class="btn" type="button" onclick="window.print()">${ICON.print}${C.S.printNow}</button></p>
+  <p class="edition-line"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span></p>
+  <h1>${C.t(ed.headline)}</h1>
+  <p class="chapo">${C.t(ed.standfirst)}</p>
+  ${stories}
+  ${brief ? `<section class="print-brief"><h2>${C.S.inBrief}</h2><ul>${brief}</ul></section>` : ''}
+  <p class="print-src">${C.t(C.S.aiLabel)}. ${esc(abs + '/')}</p>
+</main>`, scripts: BASE
+  });
+}
+
 /* ---------- Accueil ---------- */
 function home(C) {
   const ed = latestOf(C.lang), own = BYDATE[C.lang].has(ed.date), lg = own ? C.lang : 'fr';
@@ -480,7 +525,7 @@ function home(C) {
   ${own ? '' : `<p class="notice">${C.t(C.S.notTranslated)}</p>`}
   <section class="cover">
     <div class="cover-text">
-      <p class="edition-line rise" data-date="${ed.date}"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span><span>${C.t(C.L('updated', { h: C.hour(ed.updated) }))}</span></p>
+      <p class="edition-line rise" data-date="${ed.date}"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span><span>${C.t(C.L('updated', { h: C.hour(ed.updated) }))}</span><span>${C.t(C.L('readTimeEd', { n: ed.essentials.reduce((a, x) => a + readMin(x), 0) }))}</span></p>
       <h1 class="rise rise-2">${C.t(ed.headline)}</h1>
       <p class="chapo rise rise-3">${C.t(ed.standfirst)}</p>
       <p class="ai-label rise rise-3">${C.t(C.S.aiLabel)} · <a href="${r}${FIXED[C.lang].method}">${C.t(C.S.aiMore)}</a></p>
@@ -933,6 +978,7 @@ for (const lang of LANGS) {
   const C = makeCtx(lang);
   for (const ed of EDS[lang]) {
     routes[lang][ed.date] = { bref: datePath(lang, ed.date) };
+    wr(printPath(lang, ed.date) + 'index.html', printPage(C, ed));
     for (const rank of [...ed.essentials.map((s) => s.rank), 'bref']) {
       const { path: p, html } = readerPage(C, ed, rank);
       wr(p + 'index.html', html); count++;
