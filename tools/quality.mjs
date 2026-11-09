@@ -25,7 +25,7 @@ for (const lang of ['fr', 'en']) {
   const d = Object.keys(r).sort().pop();
   pages.push(r[d][1], r[d][3], r[d].bref, r[d].bref + 'quiz/');
 }
-const extra = ['accessibilite/', 'en/accessibility/', 'sources/', 'couverture/', 'en/coverage/', 'glossaire/', 'pays/israel/', 'dossiers/', 'ma-liste/'].filter((p) => fs.existsSync(path.join(root, p, 'index.html')));
+const extra = ['accessibilite/', 'en/accessibility/', 'sources/', 'couverture/', 'en/coverage/', 'glossaire/', 'pays/israel/', 'dossiers/', 'ma-liste/', 'donnees/', 'flux/', 'nouveautes/', 'presse/'].filter((p) => fs.existsSync(path.join(root, p, 'index.html')));
 pages.push(...extra);
 
 if (want('--axe')) {
@@ -36,7 +36,7 @@ if (want('--axe')) {
     const browser = await chromium.launch();
     const found = new Map(); // id → {impact, help, pages:Set, nodes, sample}
     for (const [vp, list] of [[{ width: 390, height: 844 }, pages], [{ width: 1280, height: 800 }, pages.slice(0, 6)]]) {
-      const ctx = await browser.newContext({ viewport: vp, reducedMotion: 'reduce' });
+      const ctx = await browser.newContext({ viewport: vp, reducedMotion: 'reduce', bypassCSP: true });
       for (const p of list) {
         const page = await ctx.newPage();
         try {

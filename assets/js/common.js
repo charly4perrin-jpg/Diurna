@@ -392,6 +392,17 @@
   }, true);
   document.addEventListener('click', (e) => { const b = e.target.closest('[data-palette]'); if (b) { e.preventDefault(); openPalette(); } });
 
+  // Copier une adresse ou un code (pages Flux, Presse) ; imprimer sans script en ligne.
+  document.addEventListener('click', async (e) => {
+    const b = e.target.closest('[data-copy], [data-copy-from]');
+    if (b) {
+      const v = b.dataset.copy || (document.getElementById(b.dataset.copyFrom) || {}).textContent || '';
+      try { await navigator.clipboard.writeText(v); const old = b.textContent; b.textContent = L('copied'); setTimeout(() => { b.textContent = old; }, 1800); } catch (_) {}
+      return;
+    }
+    if (e.target.closest('[data-print]')) window.print();
+  });
+
   // L'édition affichée est-elle en retard ? (après 7 h 45, heure de Paris, celle du jour devrait être là)
   function stale(date) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());

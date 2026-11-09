@@ -1,0 +1,39 @@
+# Diurna
+
+> Diurna explique l'actualité internationale du jour : cinq sujets chaque matin, chacun en trois phrases, situés sur un globe, en français et en anglais. Les textes sont rédigés par une IA (Claude, d'Anthropic) à partir des sources citées sous chaque sujet, puis vérifiés automatiquement avant publication.
+> Diurna explains the day's international news: five stories every morning, three sentences each, placed on a globe, in French and English. Texts are written by an AI (Anthropic's Claude) from the sources cited under each story, then checked automatically before publication.
+
+Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et publiques. Merci de citer Diurna et de renvoyer vers la page du sujet.
+
+## Édition du jour / Today's edition
+
+- [Édition du 2026-11-09 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d’urgence nationale »
+- [Edition of 2026-11-09 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Gadi Eisenkot accepts Israel’s mandate and calls for a national emergency government
+- [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
+
+## Comprendre Diurna / About
+
+- [Méthode](https://charly4perrin-jpg.github.io/Diurna/methode/): comment les sujets sont choisis, écrits et vérifiés
+- [Nos sources](https://charly4perrin-jpg.github.io/Diurna/sources/): rédactions citées, avec leur pays
+- [Corrections](https://charly4perrin-jpg.github.io/Diurna/corrections/): toutes les modifications datées
+- [Données ouvertes](https://charly4perrin-jpg.github.io/Diurna/donnees/): JSON, flux, calendriers
+- [Method (English)](https://charly4perrin-jpg.github.io/Diurna/en/method/) · [Open data (English)](https://charly4perrin-jpg.github.io/Diurna/en/open-data/)
+
+## Données / Data
+
+- [Dernière édition (JSON)](https://charly4perrin-jpg.github.io/Diurna/data/latest.json) · [Latest edition (JSON, English)](https://charly4perrin-jpg.github.io/Diurna/data/en/latest.json)
+- [Flux JSON](https://charly4perrin-jpg.github.io/Diurna/feed.json) · [JSON feed (English)](https://charly4perrin-jpg.github.io/Diurna/en/feed.json)
+- [Adresses de toutes les éditions](https://charly4perrin-jpg.github.io/Diurna/data/routes.json)
+
+## Optional
+
+- [2026-11-09](https://charly4perrin-jpg.github.io/Diurna/2026/11/09/edition.md): En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d’urgence nationale »
+- [2026-11-08](https://charly4perrin-jpg.github.io/Diurna/2026/11/08/edition.md): En Israël, Gadi Eisenkot chargé de former un gouvernement à la place de Benyamin Nétanyahou
+- [2026-11-07](https://charly4perrin-jpg.github.io/Diurna/2026/11/07/edition.md): Au Paraguay, Santiago Peña destitué et assigné à résidence après la faillite d’une banque
+- [2026-11-06](https://charly4perrin-jpg.github.io/Diurna/2026/11/06/edition.md): À Ormuz, des pétroliers en feu tandis que l’Iran pose ses conditions à Washington
+- [2026-11-05](https://charly4perrin-jpg.github.io/Diurna/2026/11/05/edition.md): Au lendemain des midterms, l’Amérique sanctionne la guerre en Iran
+- [2026-11-09](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/edition.md): Gadi Eisenkot accepts Israel’s mandate and calls for a national emergency government
+- [2026-11-08](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/edition.md): Gadi Eisenkot is asked to form Israel’s government in place of Benjamin Netanyahu
+- [2026-11-07](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/edition.md): Paraguay’s Santiago Peña is ousted and placed under house arrest after a bank collapse
+- [2026-11-06](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/edition.md): Tankers burn in Hormuz as Iran sets its terms for Washington
+- [2026-11-05](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/edition.md): After the midterms, America delivers its verdict on the Iran war

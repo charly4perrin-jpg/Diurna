@@ -1,0 +1,5 @@
+Contact: https://github.com/charly4perrin-jpg/Diurna/issues/new?template=erreur.yml
+Expires: 2027-12-31T23:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: https://charly4perrin-jpg.github.io/Diurna/.well-known/security.txt
+Policy: https://charly4perrin-jpg.github.io/Diurna/a-propos/

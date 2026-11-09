@@ -30,9 +30,26 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/', mylist: 'ma-liste/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/', mylist: 'en/my-list/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/', mylist: 'ma-liste/', data: 'donnees/', widget: 'widget/', feeds: 'flux/', changes: 'nouveautes/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/', mylist: 'en/my-list/', data: 'en/open-data/', widget: 'en/widget/', feeds: 'en/feeds/', changes: 'en/whats-new/' }
 };
+// Politique de sécurité du contenu : seuls les scripts du site (et leurs empreintes en ligne) s'exécutent,
+// et les seules connexions extérieures sont celles annoncées dans la page Confidentialité.
+function withCsp(html) {
+  const h = [];
+  for (const m of html.matchAll(/<script(?![^>]*\bsrc=)([^>]*)>([\s\S]*?)<\/script>/g)) {
+    if (/type="application\/(ld\+)?json"/.test(m[1])) continue;
+    h.push(`'sha256-${crypto.createHash('sha256').update(m[2]).digest('base64')}'`);
+  }
+  const gc = GC ? ` https://${GC}.goatcounter.com` : '';
+  const csp = [
+    "default-src 'self'", `script-src 'self' ${[...new Set(h)].join(' ')}${GC ? ' https://gc.zgo.at' : ''}`, "style-src 'self' 'unsafe-inline'",
+    `img-src 'self' data:${gc}`, "font-src 'self'", `connect-src 'self' https://api.open-meteo.com https://geocoding-api.open-meteo.com${gc}`,
+    "media-src 'self'", "frame-src 'none'", "object-src 'none'", "base-uri 'self'", `form-action 'self'${BD ? ' https://buttondown.com' : ''}`,
+    "worker-src 'self'", "manifest-src 'self'", 'upgrade-insecure-requests'
+  ].join('; ');
+  return html.replace('<meta charset="utf-8">', `<meta charset="utf-8">\n<meta http-equiv="Content-Security-Policy" content="${csp}">\n<meta name="referrer" content="strict-origin-when-cross-origin">`);
+}
 // Navigation quasi instantanée : le navigateur précharge une page du site quand le pointeur s'y attarde (Chrome, Edge).
 const SPEC = JSON.stringify({ prefetch: [{ source: 'document', where: { and: [{ href_matches: `${abs ? new URL(abs + '/').pathname : '/'}*` }, { not: { href_matches: '*.(xml|json|ics|opml|txt|md)' } }, { not: { selector_matches: '[target=_blank], [download]' } }] }, eagerness: 'moderate' }] });
 // Réglages de lecture appliqués avant l'affichage (thème, taille, police, interligne, animations), sans clignotement.
@@ -221,7 +238,7 @@ function page(C, o) {
     : '';
   const P = FIXED[C.lang];
   const nav = (href, label, key, opt) => `<a href="${rootRel}${href}"${opt ? ' class="opt"' : ''}${o.nav === key ? ' aria-current="page"' : ''}>${label}</a>`;
-  return `<!doctype html>
+  return withCsp(`<!doctype html>
 <html lang="${C.lang}"${o.cls ? ` class="${o.cls}"` : ''}>
 <head>
 <meta charset="utf-8">
@@ -230,7 +247,8 @@ function page(C, o) {
 <script>${PREPAINT}</script>
 <script>(function(){try{var s=localStorage.getItem('tp.lang');if(s===null){var w=(navigator.language||'fr').slice(0,2).toLowerCase()==='fr'?'fr':'en';localStorage.setItem('tp.lang',JSON.stringify(w));if(w!=='${C.lang}'&&!navigator.webdriver&&!/bot|crawl|spider|slurp|preview|lighthouse/i.test(navigator.userAgent))location.replace('${rootRel}${altOther}'+location.search+location.hash);}}catch(e){}})();</script>
 <meta name="description" content="${o.desc}">
-${o.noindex ? '<meta name="robots" content="noindex, follow">' : ''}
+${o.noindex ? '<meta name="robots" content="noindex, follow">' : '<meta name="robots" content="max-image-preview:large, max-snippet:-1">'}
+${o.head || ''}
 ${site.googleVerification ? `<meta name="google-site-verification" content="${esc(site.googleVerification)}">` : ''}
 <meta name="theme-color" content="#070C1D">
 ${abs && !o.noCanonical ? `<link rel="canonical" href="${abs}/${o.canonical != null ? o.canonical : p}">` : ''}
@@ -238,6 +256,7 @@ ${hreflang}
 <link rel="manifest" href="${rootRel}${manifest}">
 <link rel="icon" href="${rootRel}icons/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="${rootRel}icons/apple-touch-icon.png">
+<link rel="author" href="${rootRel}humans.txt">
 <link rel="alternate" type="application/rss+xml" title="Diurna" href="${rootRel}${PRE[C.lang]}feed.xml">
 <link rel="alternate" type="application/feed+json" title="Diurna" href="${rootRel}${PRE[C.lang]}feed.json">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -286,7 +305,7 @@ ${scriptTags(rootRel, o.scripts || [])}
 ${o.after || ''}
 </body>
 </html>
-`;
+`);
 }
 function footer(C, rootRel) {
   const P = FIXED[C.lang], r = rootRel, a = (href, label, extra = '') => `<a href="${r}${href}"${extra}>${label}</a>`;
@@ -294,8 +313,8 @@ function footer(C, rootRel) {
   return `<footer class="site-foot">
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
-    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.glossary, C.S.glTitle)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
-    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.sources, C.S.srcTitle)}${a(P.coverage, C.S.covPageTitle)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
+    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.glossary, C.S.glTitle)}${a(P.search, C.S.navSearch)}${a(P.feeds, C.S.feedsTitle)}</div>
+    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.sources, C.S.srcTitle)}${a(P.coverage, C.S.covPageTitle)}${a(P.data, C.S.odTitle)}${a(P.changes, C.S.chTitle)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
     <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.access, C.S.navAccess)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
 </footer>`;
@@ -472,8 +491,10 @@ function readerPage(C, ed, rank) {
     jsonld.unshift({
       '@context': 'https://schema.org', '@type': 'NewsArticle', '@id': `${abs}/${p}#article`,
       headline: C.typo(s.title).slice(0, 110), description: C.typo(s.standfirst), inLanguage: C.lang,
-      datePublished: `${ed.date}T07:00:00+01:00`, dateModified: ed.updated,
+      datePublished: `${ed.date}T07:00:00+01:00`, dateModified: s.updates && s.updates.length ? s.updates[s.updates.length - 1].time : ed.updated,
       url: `${abs}/${p}`, mainEntityOfPage: `${abs}/${p}`, articleSection: s.section,
+      about: [s.id, ...(s.involved || [])].filter((x, i, a) => a.indexOf(x) === i && countries[x]).map((x) => ({ '@type': 'Country', name: C.cname(x, x) })),
+      speakable: { '@type': 'SpeakableSpecification', cssSelector: ['.article h2', '.article .chapo', '.article .body'] },
       image: [og || `${abs}/${C.lang === 'en' ? 'og-en.png' : 'og.png'}`],
       author: ORG(), publisher: ORG(), isAccessibleForFree: true,
       contentLocation: { '@type': 'Country', name: C.cname(s.id, s.place) },
@@ -514,6 +535,7 @@ function readerPage(C, ed, rank) {
     path: p,
     html: page(C, {
       path: p, alt, title: esc(title), desc, cls: 'reader-page', nav: 'edition', ogType: s ? 'article' : 'website', og: og || undefined,
+      head: (s ? `<meta property="article:published_time" content="${ed.date}T07:00:00+01:00">\n<meta property="article:modified_time" content="${esc(s.updates && s.updates.length ? s.updates[s.updates.length - 1].time : ed.updated)}">\n<meta property="article:section" content="${esc(C.typo(s.section))}">\n${[s.id, ...(s.involved || [])].filter((x, i, a) => a.indexOf(x) === i && countries[x]).map((x) => `<meta property="article:tag" content="${esc(C.cname(x, x))}">`).join('\n')}\n` : '') + `<link rel="alternate" type="text/markdown" href="${abs}/${datePath(C.lang, ed.date)}edition.md">`,
       ogAlt: s ? esc(C.typo(s.title)) : undefined, jsonld, footer: false,
       data: `data-date="${ed.date}" data-rank="${rank}" data-latest="${isLatest ? 1 : 0}" data-today="${editionHome(C.lang)}"`,
       body, scripts: [...VENDOR, 'assets/js/modules.js', 'assets/js/live.js', 'assets/js/reader.js']
@@ -738,6 +760,9 @@ function pressPage(C) {
   <h2>${C.S.pressFacts}</h2>${statsBlock(C)}
   <h2>${C.S.pressAssets}</h2>
   <ul class="press-dl">${dl.map(([f, l]) => `<li><a href="${r}${f}" download>${C.t(l)}</a></li>`).join('')}</ul>
+  <h2>${C.S.embedTitle}</h2><p>${C.t(C.S.embedText)}</p>
+  <pre class="code"><code id="embedCode">${esc(`<iframe src="${abs}/${FIXED[C.lang].widget}" title="Diurna — ${C.typo(C.S.widgetTitle)}" width="360" height="520" style="border:0;border-radius:12px;max-width:100%" loading="lazy"></iframe>`)}</code></pre>
+  <p><button class="act" type="button" data-copy-from="embedCode">${C.S.copy}</button> <a class="link-quiet" href="${C.rootRel}${FIXED[C.lang].widget}">${C.S.widgetTitle} →</a></p>
   <h2>${C.S.pressCite}</h2><p><code>${esc(C.typo(cite))}</code></p>
   <h2>${C.S.pressContact}</h2><p>${site.contact ? `<a href="mailto:${esc(site.contact)}">${esc(site.contact)}</a>` : `<mark class="todo">${C.t(C.lang === 'fr' ? '[À REMPLIR : adresse e-mail de contact]' : '[TO FILL IN: contact email address]')}</mark>`}</p>
 </main>`, scripts: BASE
@@ -771,7 +796,7 @@ function printPage(C, ed) {
     path: p, alt: { fr: printPath('fr', ed.date), en: BYDATE.en.has(ed.date) ? printPath('en', ed.date) : null }, canonical: datePath(C.lang, ed.date),
     title: esc(C.typo(C.L('printTitle', { d: C.dayLong(ed.date) }))), desc: C.t(ed.standfirst), noindex: true, cls: 'print-page',
     body: `<main class="page print">
-  <p class="print-bar"><button class="btn" type="button" onclick="window.print()">${ICON.print}${C.S.printNow}</button></p>
+  <p class="print-bar"><button class="btn" type="button" data-print>${ICON.print}${C.S.printNow}</button></p>
   <p class="edition-line"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span></p>
   <h1>${C.t(ed.headline)}</h1>
   <p class="chapo">${C.t(ed.standfirst)}</p>
@@ -1096,6 +1121,201 @@ function dossierPage(C, id, items) {
   });
 }
 
+/* ---------- Ouverture : Markdown, llms.txt, données ouvertes, widget, flux, nouveautés, security.txt, humans.txt ---------- */
+// Une édition en Markdown, lisible par tous les outils (et par les assistants d'IA).
+function editionMd(lang, ed) {
+  const C = makeCtx(lang), S = C.S, ty = C.typo;
+  const out = [`# Diurna — ${ty(C.L('no', { n: ed.number }))} — ${ty(C.longDate(ed.date))}`, '', `> ${ty(ed.headline)}`, '', ty(ed.standfirst), '', `_${ty(S.aiLabel)}. ${ty(S.navMethod)} : ${abs}/${FIXED[lang].method}_`, ''];
+  for (const st of ed.essentials) {
+    out.push(`## ${st.rank}. ${ty(C.cname(st.id, st.place))} — ${ty(st.title)}`, '', `**${ty(st.standfirst)}**`, '', (st.body || []).map(ty).join(' '), '');
+    if (st.figure) out.push(`**${ty(S.figure)} :** ${ty(st.figure.value)} — ${ty(st.figure.label)}`, '');
+    if (st.analysis) out.push(`### ${ty(st.analysis.title)}`, '', ty(st.analysis.text), '');
+    for (const u of st.updates || []) out.push(`- _${ty(S.updatesTitle)} ${ty(C.hour(u.time))}_ : ${ty(u.text)}`);
+    if ((st.updates || []).length) out.push('');
+    out.push(`${ty(S.sources)} :`, ...(st.sources || []).map((x) => `- [${ty(x.name)} — ${ty(x.title)}](${x.url})`), '', `${abs}/${storyPath(lang, ed.date, st.slug)}`, '');
+  }
+  if ((ed.brief || []).length) out.push(`## ${ty(S.inBrief)}`, '', ...ed.brief.map((b) => `- **${ty(b.place)}** : ${ty(b.text)}${b.url ? ` ([${ty(S.source)}](${b.url}))` : ''}`), '');
+  if ((ed.agenda || []).length) out.push(`## ${ty(S.comingUp)}`, '', ...ed.agenda.map((a) => `- ${ty(C.day(a.d, ed.date))} : ${ty(a.t)}`), '');
+  return out.join('\n');
+}
+function llmsTxt() {
+  const fr = latestOf('fr'), en = latestOf('en');
+  const last = (lang) => EDS[lang].slice(-7).reverse().map((e) => `- [${e.date}](${abs}/${datePath(lang, e.date)}edition.md): ${makeCtx(lang).typo(e.headline)}`).join('\n');
+  return `# Diurna
+
+> Diurna explique l'actualité internationale du jour : cinq sujets chaque matin, chacun en trois phrases, situés sur un globe, en français et en anglais. Les textes sont rédigés par une IA (Claude, d'Anthropic) à partir des sources citées sous chaque sujet, puis vérifiés automatiquement avant publication.
+> Diurna explains the day's international news: five stories every morning, three sentences each, placed on a globe, in French and English. Texts are written by an AI (Anthropic's Claude) from the sources cited under each story, then checked automatically before publication.
+
+Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et publiques. Merci de citer Diurna et de renvoyer vers la page du sujet.
+
+## Édition du jour / Today's edition
+
+- [Édition du ${fr.date} en Markdown](${abs}/latest.md): ${makeCtx('fr').typo(fr.headline)}
+- [Edition of ${en.date} in Markdown](${abs}/en/latest.md): ${makeCtx('en').typo(en.headline)}
+- [Accueil](${abs}/) · [Home (English)](${abs}/en/)
+
+## Comprendre Diurna / About
+
+- [Méthode](${abs}/${FIXED.fr.method}): comment les sujets sont choisis, écrits et vérifiés
+- [Nos sources](${abs}/${FIXED.fr.sources}): rédactions citées, avec leur pays
+- [Corrections](${abs}/${FIXED.fr.corrections}): toutes les modifications datées
+- [Données ouvertes](${abs}/${FIXED.fr.data}): JSON, flux, calendriers
+- [Method (English)](${abs}/${FIXED.en.method}) · [Open data (English)](${abs}/${FIXED.en.data})
+
+## Données / Data
+
+- [Dernière édition (JSON)](${abs}/data/latest.json) · [Latest edition (JSON, English)](${abs}/data/en/latest.json)
+- [Flux JSON](${abs}/feed.json) · [JSON feed (English)](${abs}/en/feed.json)
+- [Adresses de toutes les éditions](${abs}/data/routes.json)
+
+## Optional
+
+${last('fr')}
+${last('en')}
+`;
+}
+function openDataPage(C) {
+  const p = FIXED[C.lang].data; C.rootRel = rootRelOf(p); const r = C.rootRel, d = DATA_PRE(C.lang);
+  const rows = [
+    [C.S.odLatest, `${d}latest.json`, 'JSON'], [C.S.odEdition, `${d}editions/${latestOf(C.lang).date}.json`, 'JSON'], [C.S.odEditionMd, `${datePath(C.lang, latestOf(C.lang).date)}edition.md`, 'Markdown'],
+    [C.S.odRoutes, 'data/routes.json', 'JSON'], [C.S.odMap, `${d}map.json`, 'JSON'], [C.S.odSearch, `${d}search.json`, 'JSON'], [C.S.odCountries, 'data/countries.json', 'JSON'],
+    [C.S.odGloss, 'data/glossary.json', 'JSON'], [C.S.odSources, 'data/outlets.json', 'JSON'], [C.S.odStatus, 'status.json', 'JSON'],
+    [C.S.odFeeds, `${PRE[C.lang]}feed.xml`, 'RSS, Atom, JSON Feed'], [C.S.odAgenda, `${PRE[C.lang]}agenda.ics`, 'iCalendar'], [C.S.odLlms, 'llms.txt', 'Markdown']
+  ].map(([what, path, fmt]) => `<tr><th scope="row">${C.t(what)}</th><td><a href="${r}${path}"><code>${esc(path)}</code></a></td><td>${esc(fmt)}</td></tr>`).join('');
+  const lic = site.license ? C.t(C.lang === 'en' ? site.license_en || site.license : site.license) : `<mark class="todo">${C.t(`[${TODO[C.lang]}${C.lang === 'fr' ? ' : ' : ': '}${C.lang === 'fr' ? 'licence des textes' : 'licence for the texts'}]`)}</mark>`;
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.data, en: FIXED.en.data }, title: esc(C.S.odTitle + ' — Diurna'), desc: C.t(C.S.odDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.odTitle, p]]), { '@context': 'https://schema.org', '@type': 'Dataset', name: `Diurna — ${C.S.odTitle}`, description: C.typo(C.S.odDesc), url: `${abs}/${p}`, inLanguage: C.lang, isAccessibleForFree: true, creator: ORG(), distribution: [{ '@type': 'DataDownload', encodingFormat: 'application/json', contentUrl: `${abs}/${d}latest.json` }] }],
+    body: `<main class="page page-wide">
+  <h1>${C.S.odTitle}</h1>
+  <p class="chapo">${C.t(C.S.odDesc)}</p>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="${esc(C.S.odTitle)}"><table class="src-table"><thead><tr><th scope="col">${C.S.odColWhat}</th><th scope="col">${C.S.odColUrl}</th><th scope="col">${C.S.odColFmt}</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <h2>${C.S.odExample}</h2>
+  <pre class="code"><code>curl -s ${esc(abs)}/${esc(d)}latest.json | jq -r '.essentials[] | "\\(.rank). \\(.title)"'</code></pre>
+  <h2>${C.S.odFields}</h2>
+  <p>${C.t(C.S.odFieldsText)}</p>
+  <h2>${C.S.odLicence}</h2>
+  <p>${C.t(C.S.odLicText)} ${lic}.</p>
+  <p class="more-links"><a href="${r}${FIXED[C.lang].feeds}">${C.S.feedsTitle}</a><a href="${r}${FIXED[C.lang].credits}">${C.S.navCredits}</a><a href="https://github.com/${esc(REPO)}" rel="noopener" target="_blank">GitHub</a></p>
+</main>`, scripts: BASE
+  });
+}
+const DATA_PRE = (lang) => (lang === 'en' ? 'data/en/' : 'data/');
+// Widget à intégrer (iframe) : les cinq sujets du jour, sans script, au thème clair ou sombre de l'appareil.
+function widgetPage(lang) {
+  const C = makeCtx(lang), ed = latestOf(lang), p = FIXED[lang].widget, r = rootRelOf(p);
+  const css = `@font-face{font-family:N;src:url("${r}assets/fonts/newsreader-text.woff2") format("woff2");font-weight:400 700;font-display:swap}@font-face{font-family:A;src:url("${r}assets/fonts/archivo.woff2") format("woff2");font-weight:400 700;font-display:swap}
+:root{--bg:#070C1D;--bg1:#0C1531;--ink:#F2EEE6;--ink2:#C3C9DA;--ink3:#8C97B9;--line:#233160;--c1:#FF6A4D;--c2:#FFB940;--c3:#45C4F5;--c4:#BA8EFF;--c5:#47DFA0;color-scheme:dark}
+@media (prefers-color-scheme:light){:root{--bg:#F6F2EA;--bg1:#EEE8DC;--ink:#141A2E;--ink2:#3B4259;--ink3:#5C6580;--line:#D9CFBD;--c1:#C9402A;--c2:#A86A00;--c3:#0B76A8;--c4:#6E46C9;--c5:#0F7F55;color-scheme:light}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:400 15px/1.4 N,Georgia,serif;padding:16px}
+a{color:inherit;text-decoration:none}.top{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin-bottom:10px}
+.m{font:600 15px/1 N,Georgia,serif;letter-spacing:.18em}.m i{font-style:normal;color:var(--c1);letter-spacing:0}.d{font:500 12px/1.2 A,Arial,sans-serif;color:var(--ink3)}
+ol{list-style:none;margin:0;padding:0}li{border-top:1px solid var(--line)}li a{display:grid;grid-template-columns:24px 1fr;gap:2px 10px;padding:10px 0}
+.k{grid-row:span 2;width:22px;height:22px;border-radius:50%;display:grid;place-items:center;color:var(--bg);font:700 12px/1 A,Arial,sans-serif}
+.c{font:650 11px/1.2 A,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}.t{font:600 15px/1.3 N,Georgia,serif}li a:hover .t{text-decoration:underline}
+.f{margin-top:10px;font:500 11px/1.4 A,Arial,sans-serif;color:var(--ink3)}`;
+  return withCsp(`<!doctype html>
+<html lang="${lang}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Diurna — ${esc(C.typo(C.S.widgetTitle))}</title>
+<meta name="robots" content="noindex">
+${abs ? `<link rel="canonical" href="${abs}/${FIXED[lang].home}">` : ''}
+<style>${css.replace(/\n/g, '')}</style>
+</head>
+<body>
+<div class="top"><a class="m" href="${abs || r}/${FIXED[lang].home}" target="_blank" rel="noopener">DIURNA<i>.</i></a><span class="d">${C.t(C.longDate(ed.date))}</span></div>
+<ol>${ed.essentials.map((s) => `<li><a href="${abs}/${storyPath(lang, ed.date, s.slug)}" target="_blank" rel="noopener"><span class="k" style="background:var(--c${s.rank})">${s.rank}</span><span class="c" style="color:var(--c${s.rank})">${C.t(C.cname(s.id, s.place))}</span><span class="t">${C.t(s.title)}</span></a></li>`).join('')}</ol>
+<p class="f">${C.t(C.S.aiLabel)}</p>
+</body>
+</html>
+`);
+}
+function feedsPage(C) {
+  const p = FIXED[C.lang].feeds; C.rootRel = rootRelOf(p); const r = C.rootRel, pre = PRE[C.lang];
+  const row = (label, path) => `<li><span class="fl-n">${C.t(label)}</span><a href="${r}${path}"><code>${esc(abs)}/${esc(path)}</code></a><button class="act quiet" type="button" data-copy="${esc(abs)}/${esc(path)}">${C.S.copy}</button></li>`;
+  const main = [[C.S.feedRss, `${pre}feed.xml`], [C.S.feedAtom, `${pre}atom.xml`], [C.S.feedJson, `${pre}feed.json`], [C.S.feedAll, 'all.xml'], [C.S.feedCorr, `${FIXED[C.lang].corrections}feed.xml`], [C.S.feedIcs, `${pre}agenda.ics`], [C.S.feedOpml, OPML[C.lang]]];
+  const doss = [...COL[C.lang].byDossier].map(([id, its]) => [its[its.length - 1].dossier.title, `${dossierPath(C.lang, id)}feed.xml`]);
+  const coll = new Intl.Collator(C.S.locale);
+  const ctry = [...COL[C.lang].byCountry.keys()].map((id) => [C.cname(id, id), `${countryPath(C.lang, cslug(C.lang, id))}feed.xml`]).sort((a, b) => coll.compare(a[0], b[0]));
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.feeds, en: FIXED.en.feeds }, title: esc(C.S.feedsTitle + ' — Diurna'), desc: C.t(C.S.feedsDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.feedsTitle, p]])],
+    head: `<link rel="alternate" type="text/x-opml" title="Diurna" href="${abs}/${OPML[C.lang]}">`,
+    body: `<main class="page page-wide">
+  <h1>${C.S.feedsTitle}</h1>
+  <p class="chapo">${C.t(C.S.feedsDesc)}</p>
+  <h2>${C.S.feedsMain}</h2><ul class="feeds">${main.map(([a, b]) => row(a, b)).join('')}</ul>
+  <h2>${C.S.navDossiers}</h2><ul class="feeds">${doss.map(([a, b]) => row(a, b)).join('')}</ul>
+  <h2>${C.S.navCountries}</h2><ul class="feeds">${ctry.map(([a, b]) => row(a, b)).join('')}</ul>
+</main>`, scripts: BASE
+  });
+}
+const OPML = { fr: 'flux.opml', en: 'en/feeds.opml' };
+function opml(lang) {
+  const C = makeCtx(lang), x = (v) => String(v).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const o = (title, path) => `<outline type="rss" text="${x(title)}" title="${x(title)}" xmlUrl="${abs}/${path}" htmlUrl="${abs}/${path.replace(/feed\.xml$/, '')}"/>`;
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0"><head><title>Diurna — ${x(C.S.feedsTitle)}</title><dateCreated>${new Date(NOW).toUTCString()}</dateCreated></head><body>
+<outline text="Diurna">${o('Diurna', `${PRE[lang]}feed.xml`)}${o(`Diurna — ${C.S.correctionsTitle}`, `${FIXED[lang].corrections}feed.xml`)}</outline>
+<outline text="${x(C.S.navDossiers)}">${[...COL[lang].byDossier].map(([id, its]) => o(`Diurna — ${C.typo(its[its.length - 1].dossier.title)}`, `${dossierPath(lang, id)}feed.xml`)).join('')}</outline>
+<outline text="${x(C.S.navCountries)}">${[...COL[lang].byCountry.keys()].map((id) => o(`Diurna — ${C.cname(id, id)}`, `${countryPath(lang, cslug(lang, id))}feed.xml`)).join('')}</outline>
+</body></opml>
+`;
+}
+// Flux des corrections et des mises à jour datées.
+function correctionsFeed(lang) {
+  const C = makeCtx(lang), items = [];
+  for (const ed of EDS[lang]) for (const st of ed.essentials) (st.updates || []).forEach((u, i) => {
+    const url = `${abs}/${storyPath(lang, ed.date, st.slug)}`;
+    items.push({ lang, url: `${url}#maj-${i + 1}`, title: `${C.S.updatesTitle} — ${C.typo(st.title)}`, html: `<p>${esc(C.typo(u.text))}</p><p><a href="${url}">${esc(C.typo(st.title))}</a></p>`, section: C.S.correctionsTitle, date: u.time, updated: u.time });
+  });
+  items.sort((a, b) => b.date.localeCompare(a.date));
+  const p = FIXED[lang].corrections;
+  return rss({ title: `Diurna — ${C.S.correctionsTitle}`, desc: C.S.correctionsDesc, home: `${abs}/${p}`, self: `${abs}/${p}feed.xml`, lang, items: items.slice(0, 60) });
+}
+const CHANGES = readJ('data/changelog.json', { entries: [] });
+function changesPage(C) {
+  const p = FIXED[C.lang].changes; C.rootRel = rootRelOf(p);
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.changes, en: FIXED.en.changes }, title: esc(C.S.chTitle + ' — Diurna'), desc: C.t(C.S.chDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.chTitle, p]])],
+    body: `<main class="page">
+  <h1>${C.S.chTitle}</h1>
+  <p class="chapo">${C.t(C.S.chDesc)}</p>
+  <ol class="changes">${CHANGES.entries.map((e) => `<li><time datetime="${e.date}">${C.t(C.dmy(e.date))}</time><h2>${C.t(e[C.lang].t)}</h2><ul>${e[C.lang].items.map((i) => `<li>${C.t(i)}</li>`).join('')}</ul></li>`).join('')}</ol>
+  <p class="more-links"><a href="https://github.com/${esc(REPO)}/commits/main" rel="noopener" target="_blank">${C.S.chAll}</a></p>
+</main>`, scripts: BASE
+  });
+}
+function securityTxt() {
+  const y = new Date(NOW).getUTCFullYear() + 1;
+  return `Contact: https://github.com/${REPO}/issues/new?template=erreur.yml
+Expires: ${y}-12-31T23:00:00.000Z
+Preferred-Languages: fr, en
+Canonical: ${abs}/.well-known/security.txt
+Policy: ${abs}/${FIXED.fr.about}
+`;
+}
+function humansTxt() {
+  return `/* ÉQUIPE / TEAM */
+Éditeur / Publisher: une personne physique, à titre non professionnel (LCEN, art. 1-1 II) / a private individual
+Rédaction / Writing: Claude (Anthropic), à partir des sources citées / from the cited sources
+Contact: ${abs}/${FIXED.fr.about}
+
+/* REMERCIEMENTS / THANKS */
+Natural Earth, world-atlas, flag-icons, mledoze/countries, Banque mondiale, BCE, EIA, USGS, GDACS, Open-Meteo
+Newsreader (Production Type), Archivo (Omnibus-Type), Atkinson Hyperlegible Next (Braille Institute)
+
+/* SITE */
+Dernière édition / Last edition: ${latestOf('fr').date}
+Langues / Languages: français, English
+Normes / Standards: HTML, CSS, JavaScript, WCAG 2.2, RSS, Atom, JSON Feed, iCalendar, OPML
+Composants / Components: d3-geo, d3-array, topojson-client
+Outils / Tools: Node.js, GitHub Pages, GitHub Actions, Playwright, Lighthouse CI, axe-core, Nu HTML Checker, Impeccable
+`;
+}
 /* ---------- Ma liste (sujets gardés pour plus tard, sur l'appareil) ---------- */
 function myListPage(C) {
   const p = FIXED[C.lang].mylist; C.rootRel = rootRelOf(p);
@@ -1376,6 +1596,7 @@ function correctionsPage(C) {
     </a></li>`).join('');
   return page(C, {
     path: p, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections }, title: esc(C.S.correctionsTitle + ' — Diurna'), desc: C.t(C.S.correctionsDesc),
+    head: `<link rel="alternate" type="application/rss+xml" title="Diurna — ${esc(C.S.correctionsTitle)}" href="${abs}/${p}feed.xml">`,
     jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.correctionsTitle, p]])],
     body: `<main class="page">
   <h1>${C.S.correctionsTitle}</h1>
@@ -1541,9 +1762,9 @@ function sitemaps(all) {
     const alts = u.alt && u.alt.fr != null && u.alt.en != null
       ? ['fr', 'en'].map((l) => `<xhtml:link rel="alternate" hreflang="${l}" href="${abs}/${u.alt[l]}"/>`).join('') + `<xhtml:link rel="alternate" hreflang="x-default" href="${abs}/${u.alt.fr}"/>`
       : '';
-    return `<url><loc>${abs}/${u.path}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}${alts}</url>`;
+    return `<url><loc>${abs}/${u.path}</loc>${u.lastmod ? `<lastmod>${u.lastmod}</lastmod>` : ''}${alts}${u.img ? `<image:image><image:loc>${u.img}</image:loc></image:image>` : ''}</url>`;
   };
-  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${all.map(urlTag).join('\n')}\n</urlset>\n`;
+  const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${all.map(urlTag).join('\n')}\n</urlset>\n`;
   const recent = all.filter((u) => u.news && NOW - Date.parse(u.news.date) <= 48 * 3600e3);
   const news = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${recent.map((u) => `<url><loc>${abs}/${u.path}</loc><news:news><news:publication><news:name>Diurna</news:name><news:language>${u.news.lang}</news:language></news:publication><news:publication_date>${u.news.date}</news:publication_date><news:title>${esc(u.news.title)}</news:title></news:news></url>`).join('\n')}\n</urlset>\n`;
   const robots = `# Diurna\nUser-agent: *\nAllow: /\n\nSitemap: ${abs}/sitemap.xml\nSitemap: ${abs}/news-sitemap.xml\n`;
@@ -1633,7 +1854,7 @@ for (const lang of LANGS) {
       if (s) routes[lang][ed.date][rank] = p;
       const otherEd = BYDATE[OTHER[lang]].get(ed.date);
       const os = otherEd && s ? otherEd.essentials.find((x) => x.rank === rank) : null;
-      SM.push({ path: p, lastmod: ed.updated.slice(0, 10), alt: otherEd ? { [lang]: p, [OTHER[lang]]: s ? (os ? storyPath(OTHER[lang], ed.date, os.slug) : null) : datePath(OTHER[lang], ed.date) } : null, news: s ? { lang, date: ed.updated, title: C.typo(s.title) } : null });
+      SM.push({ path: p, img: s ? ogFor(lang, ed.date, s.rank) : ogFor(lang, ed.date, 0), lastmod: ed.updated.slice(0, 10), alt: otherEd ? { [lang]: p, [OTHER[lang]]: s ? (os ? storyPath(OTHER[lang], ed.date, os.slug) : null) : datePath(OTHER[lang], ed.date) } : null, news: s ? { lang, date: ed.updated, title: C.typo(s.title) } : null });
     }
   }
   const P = FIXED[lang];
@@ -1652,6 +1873,11 @@ for (const lang of LANGS) {
   SM.push({ path: P.map, alt: { fr: FIXED.fr.map, en: FIXED.en.map } });
   wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });
   wr(P.mylist + 'index.html', myListPage(C));
+  wr(P.data + 'index.html', openDataPage(C)); wr(P.widget + 'index.html', widgetPage(lang)); wr(P.feeds + 'index.html', feedsPage(C)); wr(P.changes + 'index.html', changesPage(C));
+  wr(OPML[lang], opml(lang)); wr(P.corrections + 'feed.xml', correctionsFeed(lang));
+  for (const ed of EDS[lang]) wr(datePath(lang, ed.date) + 'edition.md', editionMd(lang, ed));
+  wr(PRE[lang] + 'latest.md', editionMd(lang, latestOf(lang)));
+  for (const k of ['data', 'feeds', 'changes']) SM.push({ path: P[k], alt: { fr: FIXED.fr[k], en: FIXED.en[k] } });
   wr(P.sources + 'index.html', sourcesPage(C)); wr(P.coverage + 'index.html', coveragePage(C)); wr(P.glossary + 'index.html', glossaryPage(C));
   for (const k of ['sources', 'coverage', 'glossary']) SM.push({ path: P[k], alt: { fr: FIXED.fr[k], en: FIXED.en[k] } });
   for (const key of ['about', 'legal', 'privacy', 'access', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
@@ -1665,6 +1891,7 @@ for (const lang of LANGS) {
 }
 wr('data/routes.json', JSON.stringify(routes));
 wr('404.html', notFoundPage());
+wr('llms.txt', llmsTxt()); wr('.well-known/security.txt', securityTxt()); wr('humans.txt', humansTxt());
 const FEEDS = writeFeeds();
 const { sitemap, news, robots } = sitemaps(SM);
 wr('sitemap.xml', sitemap); wr('news-sitemap.xml', news); wr('robots.txt', robots);

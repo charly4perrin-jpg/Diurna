@@ -1,0 +1,15 @@
+/* ÉQUIPE / TEAM */
+Éditeur / Publisher: une personne physique, à titre non professionnel (LCEN, art. 1-1 II) / a private individual
+Rédaction / Writing: Claude (Anthropic), à partir des sources citées / from the cited sources
+Contact: https://charly4perrin-jpg.github.io/Diurna/a-propos/
+
+/* REMERCIEMENTS / THANKS */
+Natural Earth, world-atlas, flag-icons, mledoze/countries, Banque mondiale, BCE, EIA, USGS, GDACS, Open-Meteo
+Newsreader (Production Type), Archivo (Omnibus-Type), Atkinson Hyperlegible Next (Braille Institute)
+
+/* SITE */
+Dernière édition / Last edition: 2026-11-09
+Langues / Languages: français, English
+Normes / Standards: HTML, CSS, JavaScript, WCAG 2.2, RSS, Atom, JSON Feed, iCalendar, OPML
+Composants / Components: d3-geo, d3-array, topojson-client
+Outils / Tools: Node.js, GitHub Pages, GitHub Actions, Playwright, Lighthouse CI, axe-core, Nu HTML Checker, Impeccable
