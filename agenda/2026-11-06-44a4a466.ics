@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-06-44a4a466@diurna
+DTSTAMP:20261109T140820Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Procès de Santiago Peña devant le Sénat paraguayen \; 30 voi
+ x sur 45 sont nécessaires pour le destituer.
+DESCRIPTION:Diurna — Édition du 6 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/06/
+END:VEVENT
+END:VCALENDAR

@@ -63,6 +63,8 @@
     listen: '<path d="M4 9v6h4l5 4V5L8 9H4z"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12"/>',
     print: '<path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/>',
     check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
+    star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/>',
+    cal: '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v5M9.5 15.5h5"/>',
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>'
   };
   const icon = (n) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n] || ''}</svg>`;
@@ -139,6 +141,39 @@
   });
   global.addEventListener('appinstalled', () => track('installation-appli'));
 
+  // Jours de lecture (série) et pays suivis : gardés sur l'appareil seulement.
+  const parisDay = (d) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris' }).format(d || new Date());
+  function visit() {
+    const days = new Set(store.get('days', [])), today = parisDay();
+    if (!days.has(today)) { days.add(today); store.set('days', [...days].sort().slice(-60)); }
+  }
+  function streak() {
+    const days = new Set(store.get('days', []));
+    let n = 0, d = new Date();
+    if (!days.has(parisDay(d))) d = new Date(d - 864e5);
+    while (days.has(parisDay(d))) { n++; d = new Date(d - 864e5); }
+    return n;
+  }
+  const follows = () => store.get('follow', []);
+  function paintFollow() {
+    const f = new Set(follows());
+    document.querySelectorAll('[data-follow]').forEach((b) => {
+      const on = f.has(b.dataset.follow);
+      b.setAttribute('aria-pressed', String(on));
+      b.classList.toggle('on', on);
+      const sp = b.querySelector('span'); if (sp) sp.textContent = L(on ? 'following' : 'follow');
+    });
+  }
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-follow]');
+    if (!b) return;
+    const f = new Set(follows()), id = b.dataset.follow;
+    if (f.has(id)) f.delete(id); else { f.add(id); track('module/suivre-pays', id); }
+    store.set('follow', [...f]);
+    paintFollow();
+  });
+  document.addEventListener('DOMContentLoaded', paintFollow);
+
   // Mode jour / nuit (la nuit reste le défaut) et taille du texte : réglages gardés sur l'appareil.
   const root = document.documentElement;
   const themeMeta = () => { const m = document.querySelector('meta[name="theme-color"]'); if (m) m.content = root.dataset.theme === 'day' ? '#F6F2EA' : '#070C1D'; };
@@ -175,5 +210,5 @@
   const methodHref = () => ROOT + (LANG === 'en' ? 'en/method/' : 'methode/');
   const aiLabel = () => `<span class="ai-label">${t(L('aiLabel'))} · <a href="${methodHref()}">${t(L('aiMore'))}</a></span>`;
 
-  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share };
+  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay };
 })(window);

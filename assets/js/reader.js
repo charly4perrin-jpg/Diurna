@@ -59,6 +59,7 @@
   let first = true;
   // Le formulaire de newsletter (s'il est configuré) est rendu par le serveur : on le garde pour « En bref ».
   const nlHtml = (() => { const n = read.querySelector('.newsletter'); return n ? n.outerHTML : ''; })();
+  const ydHtml = (() => { const n = read.querySelector('.yesterday'); return n ? n.outerHTML : ''; })();
   const fold = (label, body, key) => `<details class="fold"${key ? ` data-fold="${key}"` : ''}><summary>${label}${icon('plus')}</summary><div class="fold-body">${body}</div></details>`;
 
   // Bandeau d'identité : une ligne repliée, la fiche complète au toucher.
@@ -91,6 +92,7 @@
           <span class="id-more"><span>${L('profile')}</span>${icon('plus')}</span>
         </summary>
         <dl class="id-grid">${cells.map(([k, v]) => `<div><dt>${t(k)}</dt><dd>${t(v)}</dd></div>`).join('')}</dl>
+        <p class="id-follow"><button class="act" type="button" data-follow="${s.id}" aria-pressed="false">${icon('star')}<span>${t(L('follow'))}</span></button></p>
         <p class="id-live" data-live="${s.id}" data-cap="${esc(capital ? capital.replace(/ \(.*\)$/, '') : '')}" hidden></p>
         ${notes.length ? `<p class="id-note">${TP.cap(notes.join(' · '))}.</p>` : ''}
       </details>`;
@@ -182,6 +184,7 @@
   const readSet = () => new Set((store.get('read', {})[ed.date]) || []);
   const allRead = () => readSet().size >= ed.essentials.length;
   function markRead(rank) {
+    if (TP.visit) TP.visit();
     const all = store.get('read', {}), list = new Set(all[ed.date] || []);
     if (list.has(rank)) return;
     list.add(rank); all[ed.date] = [...list];
@@ -300,8 +303,10 @@
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${L('comingUp')}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${t(L('endNote'))}</p>
-        <p class="print-link"><a class="link-quiet" href="${printUrl()}">${icon('print')}${t(L('printable'))}</a></p>
-        ${allRead() ? `<p class="all-read">${icon('check')}${t(L('allRead'))}</p>` : ''}
+        <p class="print-link"><a class="link-quiet" href="${printUrl()}">${icon('print')}${t(L('printable'))}</a> · <a class="link-quiet" href="${TP.ROOT}${LANG === 'en' ? 'en/' : ''}agenda.ics">${icon('cal')}${t(L('calAll'))}</a></p>
+        ${ydHtml}
+        ${allRead() ? `<p class="all-read">${icon('check')}${t(L('allRead'))}${TP.streak && TP.streak() > 1 ? ` · ${t(L('streak', { n: TP.streak() }))}` : ''}</p>` : ''}
+        <p class="quiz-cta"><a class="btn" href="${datePath()}quiz/">${t(L('quizStart'))}${icon('right')}</a></p>
         ${nlHtml}
         <p><a class="link-quiet" href="${archives}">${t(L('allEditions'))} →</a></p>
       </div>`;
@@ -312,7 +317,7 @@
     const s = ed.essentials.find((x) => x.rank === step);
     panel.className = 'panel' + (s ? ' c' + s.rank : '');
     read.innerHTML = s ? storyHtml(s) : briefHtml();
-    stopSpeech(); closeGloss(); setTimeout(fillLive, 0);
+    stopSpeech(); closeGloss(); setTimeout(fillLive, 0); setTimeout(() => TP.paintFollow && TP.paintFollow(), 0);
     if (s) { Modules.mount(read, s); glossify(read.querySelector('.article')); markRead(s.rank); TP.track('fiche-ouverte', `${s.rank} · ${s.id}`); }
     read.scrollTop = 0;
     globe.hideCard();
@@ -400,6 +405,32 @@
   }
   prevBtn.addEventListener('click', () => go(step - 1));
   nextBtn.addEventListener('click', () => go(step + 1));
+  // Partager un passage : sélectionner une phrase fait apparaître un bouton qui partage le lien vers ce passage.
+  const qbtn = document.createElement('button');
+  qbtn.type = 'button'; qbtn.className = 'quote-btn'; qbtn.hidden = true;
+  qbtn.innerHTML = `${icon('share')}<span>${t(L('shareQuote'))}</span>`;
+  document.body.appendChild(qbtn);
+  let quote = '';
+  const placeQuote = () => {
+    const sel = document.getSelection();
+    const txt = sel && !sel.isCollapsed ? sel.toString().trim().replace(/\s+/g, ' ') : '';
+    const inArticle = sel && sel.rangeCount && read.contains(sel.getRangeAt(0).commonAncestorContainer);
+    if (!txt || txt.length < 12 || !inArticle) { qbtn.hidden = true; return; }
+    quote = txt.length > 160 ? txt.slice(0, 160).replace(/\s+\S*$/, '') : txt;
+    const r = sel.getRangeAt(0).getBoundingClientRect();
+    qbtn.style.top = `${Math.max(8, r.top + window.scrollY - 48)}px`;
+    qbtn.style.left = `${Math.min(window.innerWidth - 220, Math.max(8, r.left + window.scrollX))}px`;
+    qbtn.hidden = false;
+  };
+  document.addEventListener('selectionchange', () => { clearTimeout(placeQuote.t); placeQuote.t = setTimeout(placeQuote, 250); });
+  qbtn.addEventListener('pointerdown', (e) => e.preventDefault());
+  qbtn.addEventListener('click', async () => {
+    const url = `${location.origin}${location.pathname}#:~:text=${encodeURIComponent(quote)}`;
+    const r = await TP.share(`« ${quote} »`, url);
+    if (r === 'copied') { qbtn.querySelector('span').textContent = L('quoteCopied'); setTimeout(() => { qbtn.querySelector('span').textContent = L('shareQuote'); qbtn.hidden = true; }, 1600); }
+    TP.trackOnce('module/partage-passage', current());
+  });
+
   // Raccourcis clavier : ← →, 1 à 5, B (En bref), G (globe), ? (aide), Échap.
   let help = null;
   function toggleHelp() {

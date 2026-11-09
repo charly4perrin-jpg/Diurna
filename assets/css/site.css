@@ -835,3 +835,71 @@ a.step, a.nr { text-decoration: none; }
 .stage:fullscreen { background: var(--night); }
 
 .locator .g-land.sel { fill: var(--acc, var(--c1)); stroke: var(--ink); }
+
+/* ---------- Quiz ---------- */
+.quiz { margin: 28px 0; padding: 24px; border-radius: 16px; background: var(--night-1); border: 1px solid var(--line); max-width: 680px; }
+.quiz-n { margin: 0 0 6px; font: 650 .74rem/1.3 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.quiz-q { margin: 0 0 18px; font: 700 1.35rem/1.3 var(--serif); }
+.quiz-o { display: grid; gap: 10px; }
+.quiz-b { text-align: left; min-height: 52px; padding: 12px 18px; border-radius: 12px; border: 1px solid var(--line-2); background: var(--night); color: var(--ink); font: 500 1rem/1.35 var(--sans); cursor: pointer; transition: border-color .2s var(--ease), background .2s var(--ease); }
+.quiz-b:hover:not(:disabled) { border-color: var(--ink-3); background: var(--night-2); }
+.quiz-b.right { border-color: var(--c5); background: color-mix(in srgb, var(--c5) 16%, var(--night)); }
+.quiz-b.wrong { border-color: var(--c1); background: color-mix(in srgb, var(--c1) 14%, var(--night)); }
+.quiz-b:disabled { cursor: default; }
+.quiz-fb { margin-top: 16px; display: grid; gap: 10px; justify-items: start; }
+.quiz-fb p { margin: 0; font: 500 .95rem/1.45 var(--sans); color: var(--ink-2); }
+.quiz-fb .ok { color: var(--c5); font-weight: 650; }
+.quiz-fb .ko { color: var(--c1); font-weight: 650; }
+.quiz-fb a { color: var(--ink); }
+.quiz-score { margin: 4px 0 14px; font: 700 clamp(2.4rem, 2rem + 2vw, 3.4rem)/1 var(--serif); color: var(--c2); }
+.quiz-cta { margin: 20px 0 0; }
+
+/* ---------- Série, depuis ta visite, mes pays, hier ---------- */
+.since { margin: 14px 0 0; font: 600 .86rem/1.4 var(--sans); color: var(--c5); }
+.mine { margin: 28px 0 8px; }
+.mine-none { padding: 12px 0; font: 500 .9rem/1.4 var(--sans); color: var(--ink-3); }
+.act[data-follow].on { border-color: var(--c2); color: var(--c2); }
+.act[data-follow].on .ico { fill: currentColor; }
+.id-follow { margin: 12px 0 0; }
+.id-follow .act { min-height: 38px; padding: 0 14px; font-size: .82rem; }
+.yesterday { margin: 26px 0 0; padding-top: 18px; border-top: 1px solid var(--line); }
+.yesterday h3 { margin: 0 0 8px; font: 650 .72rem/1.3 var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--ink-3); }
+.yesterday a { display: grid; gap: 4px; text-decoration: none; }
+.yesterday time { font: 600 .8rem/1.4 var(--sans); color: var(--ink-3); }
+.yesterday span { font: 600 1.05rem/1.35 var(--serif); color: var(--ink); }
+.yesterday a:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.home-more { margin-top: 32px; }
+.agenda .cal { display: inline-grid; place-items: center; width: 28px; height: 28px; margin-left: 6px; border-radius: 50%; color: var(--ink-3); vertical-align: middle; }
+.agenda .cal:hover { color: var(--ink); background: var(--night-2); }
+.agenda .cal .ico { width: 16px; height: 16px; }
+.print-link .ico { width: 16px; height: 16px; vertical-align: -3px; margin-right: 6px; }
+
+/* ---------- Frise des dossiers ---------- */
+.dtl { list-style: none; margin: 8px 0 0; padding: 0 0 0 22px; position: relative; }
+.dtl::before { content: ""; position: absolute; left: 6px; top: 8px; bottom: 8px; width: 2px; background: var(--line-2); }
+.dtl li { position: relative; }
+.dtl li::before { content: ""; position: absolute; left: -21px; top: 22px; width: 12px; height: 12px; border-radius: 50%; background: var(--night); border: 2px solid var(--ink-3); }
+.dtl li.last::before { background: var(--c1); border-color: var(--c1); box-shadow: 0 0 0 4px color-mix(in srgb, var(--c1) 25%, transparent); }
+.dtl a { display: grid; gap: 4px; padding: 16px 0 16px 12px; border-bottom: 1px solid var(--line); text-decoration: none; }
+.dtl-d { display: flex; gap: 10px; align-items: baseline; font: 600 .8rem/1.4 var(--sans); color: var(--ink-3); }
+.dtl-d em { font-style: normal; color: var(--ink-2); }
+.dtl li.last .dtl-d em { color: var(--c1); }
+.dtl .h { font: 700 1.12rem/1.3 var(--serif); color: var(--ink); }
+.dtl .h .flag { width: 20px; margin-right: 8px; vertical-align: 1px; }
+.dtl .p { font: 400 .98rem/1.5 var(--serif); color: var(--ink-2); }
+.dtl a:hover .h { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ---------- Les chiffres ---------- */
+.figs { list-style: none; margin: 8px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr)); gap: 12px; }
+.figs a { display: grid; gap: 6px; height: 100%; padding: 16px 18px; border-radius: 14px; background: var(--night-1); border: 1px solid var(--line); text-decoration: none; }
+.figs a:hover { border-color: var(--line-2); }
+.figs b { font: 700 1.8rem/1.05 var(--serif); color: var(--c2); }
+.figs span { font: 400 .98rem/1.45 var(--serif); color: var(--ink); }
+.figs small { display: block; color: var(--ink-3); font: 500 .8rem/1.4 var(--sans); margin-top: 4px; }
+.figs em { font: 500 .78rem/1.4 var(--sans); font-style: normal; color: var(--ink-3); }
+.figs em .flag { width: 16px; margin-right: 6px; vertical-align: -2px; }
+.select { min-height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid var(--line-2); background: var(--night-1); color: var(--ink); font: 500 .95rem/1 var(--sans); }
+
+/* ---------- Partager un passage ---------- */
+.quote-btn { position: absolute; z-index: 80; display: inline-flex; align-items: center; gap: 8px; min-height: 40px; padding: 0 14px; border-radius: 999px; border: 0; background: var(--ink); color: var(--night); font: 650 .84rem/1 var(--sans); box-shadow: 0 10px 28px rgba(0, 0, 0, .4); cursor: pointer; }
+.quote-btn .ico { width: 16px; height: 16px; }

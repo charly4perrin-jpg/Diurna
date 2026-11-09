@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-06-3ba66ce6@diurna
+DTSTAMP:20261109T140820Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Santiago Peña’s trial in Paraguay’s Senate\; removal needs 3
+ 0 of 45 votes.
+DESCRIPTION:Diurna — Edition of 6 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/
+END:VEVENT
+END:VCALENDAR

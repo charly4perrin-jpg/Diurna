@@ -30,13 +30,14 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/' }
 };
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
 const dataOf = (lang, p) => (lang === 'en' ? `data/en/${p}` : `data/${p}`);
 const datePath = (lang, d) => `${PRE[lang]}${d.replace(/-/g, '/')}/`;
 const storyPath = (lang, d, slug) => `${datePath(lang, d)}${slug}/`;
+const quizPath = (lang, d) => `${datePath(lang, d)}quiz/`;
 const printPath = (lang, d) => `${datePath(lang, d)}${lang === 'en' ? 'print' : 'imprimer'}/`;
 const countriesIndex = (lang) => (lang === 'en' ? 'en/country/' : 'pays/');
 const dossiersIndex = (lang) => `${PRE[lang]}dossiers/`;
@@ -45,7 +46,7 @@ const dossierPath = (lang, id) => `${PRE[lang]}dossiers/${id}/`;
 
 /* ---------- empreinte des fichiers statiques (cache) ---------- */
 const assetFiles = [
-  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js',
+  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/world.json',
   ...fs.readdirSync(path.join(root, 'assets/fonts')).map((f) => 'assets/fonts/' + f)
 ].filter(exists);
@@ -67,7 +68,9 @@ const ICON = {
   print: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 9V3h10v6M7 17H4v-7h16v7h-3M7 14h10v7H7z"/></svg>',
   expand: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',
   play: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5l12 7-12 7z"/></svg>',
-  info: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>'
+  info: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></svg>',
+  cal: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v5M9.5 15.5h5"/></svg>',
+  star: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/></svg>'
 };
 const esc = (s) => String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const utc = (d) => { const p = String(d).split('-').map(Number); return Date.UTC(p[0], (p[1] || 1) - 1, p[2] || 1); };
@@ -274,7 +277,7 @@ function footer(C, rootRel) {
   return `<footer class="site-foot">
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
-    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
+    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
     <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
     <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
@@ -403,7 +406,7 @@ function actionsSSR(C, ed, s) {
 function briefSSR(C, ed) {
   const r = C.rootRel;
   const brief = (ed.brief || []).map((b) => `<li><b>${flag(b.id, r)}${C.t(b.place)}</b>${C.t(b.text)}${b.url ? ` <a href="${esc(b.url)}" target="_blank" rel="noopener">${C.S.source}</a>` : ''}</li>`).join('');
-  const agenda = (ed.agenda || []).map((a) => `<li><time datetime="${esc(a.d)}">${esc(C.day(a.d, ed.date))}</time><span>${C.t(a.t)}</span></li>`).join('');
+  const agenda = (ed.agenda || []).map((a) => `<li><time datetime="${esc(a.d)}">${esc(C.day(a.d, ed.date))}</time><span>${C.t(a.t)}${calLink(C, a)}</span></li>`).join('');
   return `<div class="article">
         <p class="rubric">${C.t(C.S.elsewhere)}</p>
         <h2>${C.S.inBrief}</h2>
@@ -411,7 +414,9 @@ function briefSSR(C, ed) {
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${C.S.comingUp}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${C.t(C.S.endNote)}</p>
-        <p class="print-link"><a class="link-quiet" href="${r}${printPath(C.lang, ed.date)}">${ICON.print}${C.S.printable}</a></p>
+        <p class="quiz-cta"><a class="btn" href="${r}${quizPath(C.lang, ed.date)}">${C.S.quizStart}${ICON.right}</a></p>
+        <p class="print-link"><a class="link-quiet" href="${r}${printPath(C.lang, ed.date)}">${ICON.print}${C.S.printable}</a> · <a class="link-quiet" href="${r}${PRE[C.lang]}agenda.ics">${ICON.cal}${C.S.calAll}</a></p>
+        ${yesterdayBlock(C, ed)}
         ${newsletterForm(C, 'bref')}
       </div>`;
 }
@@ -486,6 +491,126 @@ function readerPage(C, ed, rank) {
   };
 }
 
+/* ---------- Quiz du jour : cinq questions tirées de l'édition, sans rien inventer ---------- */
+function seeded(seed) { let h = 2166136261; for (const ch of seed) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619); } return () => { h ^= h << 13; h ^= h >>> 17; h ^= h << 5; return (h >>> 0) / 4294967296; }; }
+function shuffle(a, rnd) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+function quizOf(C, ed) {
+  const rnd = seeded(ed.date + C.lang), es = ed.essentials, qs = [];
+  const pool = [...new Set([...es.map((x) => x.id), ...es.flatMap((x) => x.involved || [])])].filter((id) => countries[id]);
+  es.forEach((s, i) => {
+    const url = storyPath(C.lang, ed.date, s.slug);
+    const figs = [...new Set(es.filter((o) => o !== s && o.figure && o.figure.value !== s.figure.value).map((o) => o.figure.value))];
+    if (i % 2 === 0 && s.figure && figs.length >= 2) {
+      const opts = shuffle([s.figure.value, ...shuffle(figs, rnd).slice(0, 3)], rnd);
+      qs.push({ q: C.typo(C.L('quizFig', { x: s.figure.label })), o: opts.map(C.typo), a: opts.indexOf(s.figure.value), u: url, t: C.typo(s.title) });
+    } else {
+      const clue = i % 4 === 1 && s.analysis ? s.analysis.title : (s.keys && s.keys[0] ? s.keys[0].title : s.analysis && s.analysis.title);
+      // Pas de piège : les pays impliqués dans ce sujet ne servent jamais de mauvaise réponse.
+      const near = new Set([s.id, ...(s.involved || [])]);
+      const ids = shuffle([s.id, ...shuffle(pool.filter((id) => !near.has(id)), rnd).slice(0, 3)], rnd);
+      qs.push({ q: C.typo(C.L('quizWhere', { x: clue })), o: ids.map((id) => C.typo(C.cname(id, id))), a: ids.indexOf(s.id), u: url, t: C.typo(s.title) });
+    }
+  });
+  return qs;
+}
+function quizPage(C, ed) {
+  const p = quizPath(C.lang, ed.date); C.rootRel = rootRelOf(p);
+  const data = { date: ed.date, label: C.dayLong(ed.date), qs: quizOf(C, ed) };
+  return page(C, {
+    path: p, alt: { fr: quizPath('fr', ed.date), en: BYDATE.en.has(ed.date) ? quizPath('en', ed.date) : null },
+    title: esc(C.typo(C.L('quizTitle', { d: C.dayLong(ed.date) })) + ' — Diurna'), desc: C.t(C.S.quizDesc),
+    body: `<main class="page quiz-page">
+  <p class="edition-line"><b>${C.L('no', { n: ed.number })}</b><span>${C.t(C.longDate(ed.date))}</span></p>
+  <h1>${C.t(C.L('quizTitle', { d: C.dayLong(ed.date) }))}</h1>
+  <p class="chapo">${C.t(C.S.quizDesc)}</p>
+  <div id="quiz" class="quiz" aria-live="polite"></div>
+  <script type="application/json" id="quizData">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
+  <p class="more-links"><a href="${C.rootRel}${datePath(C.lang, ed.date)}">${C.S.inBrief}</a><a href="${C.rootRel}${editionHome(C.lang)}">${C.S.navEdition}</a></p>
+</main>`, scripts: [...BASE, 'assets/js/quiz.js']
+  });
+}
+
+/* ---------- Agenda : fichiers .ics (un par rendez-vous, et un agenda à suivre) ---------- */
+const icsEsc = (x) => String(x).replace(/\\/g, '\\\\').replace(/[,;]/g, (c) => '\\' + c).replace(/\n/g, '\\n');
+const icsFold = (line) => { const out = []; let cur = ''; for (const ch of line) { if (Buffer.byteLength(cur + ch) > 73) { out.push(cur); cur = ' ' + ch; } else cur += ch; } out.push(cur); return out.join('\r\n'); };
+const agendaUid = (a) => `${a.d}-${crypto.createHash('sha1').update(a.t).digest('hex').slice(0, 8)}`;
+function agendaItems(lang) {
+  const seen = new Map();
+  for (const ed of EDS[lang].slice(-14)) for (const a of ed.agenda || []) if (/^\d{4}-\d{2}-\d{2}$/.test(a.d)) seen.set(agendaUid(a), { ...a, ed: ed.date });
+  return [...seen.values()].sort((x, y) => x.d.localeCompare(y.d));
+}
+function ics(lang, items, name) {
+  const C = makeCtx(lang), stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d+/, '');
+  const ev = items.map((a) => {
+    const end = new Date(Date.parse(a.d + 'T12:00:00Z') + 864e5).toISOString().slice(0, 10).replace(/-/g, '');
+    return ['BEGIN:VEVENT', `UID:${agendaUid(a)}@diurna`, `DTSTAMP:${stamp}`, `DTSTART;VALUE=DATE:${a.d.replace(/-/g, '')}`, `DTEND;VALUE=DATE:${end}`,
+      `SUMMARY:${icsEsc(C.typo(a.t))}`, `DESCRIPTION:${icsEsc(`Diurna — ${C.L('editionOf', { d: C.dayLong(a.ed) })}`)}`, `URL:${abs}/${datePath(lang, a.ed)}`, 'END:VEVENT'].map(icsFold).join('\r\n');
+  });
+  return ['BEGIN:VCALENDAR', 'VERSION:2.0', `PRODID:-//Diurna//Agenda//${lang.toUpperCase()}`, 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', icsFold(`X-WR-CALNAME:${icsEsc(name)}`), ...ev, 'END:VCALENDAR', ''].join('\r\n');
+}
+function writeAgenda(lang) {
+  const dir = `${PRE[lang]}agenda/`;
+  if (exists(dir)) for (const f of fs.readdirSync(path.join(root, dir))) if (f.endsWith('.ics')) fs.unlinkSync(path.join(root, dir, f));
+  const items = agendaItems(lang), name = lang === 'en' ? 'Diurna — calendar' : 'Diurna — agenda';
+  wr(`${PRE[lang]}agenda.ics`, ics(lang, items, name));
+  for (const a of items) wr(`${dir}${agendaUid(a)}.ics`, ics(lang, [a], name));
+}
+const calLink = (C, a) => (/^\d{4}-\d{2}-\d{2}$/.test(a.d) ? ` <a class="cal" href="${C.rootRel}${PRE[C.lang]}agenda/${agendaUid(a)}.ics" title="${esc(C.S.addCal)}" aria-label="${esc(C.S.addCal + ' : ' + C.typo(a.t))}">${ICON.cal}</a>` : '');
+
+/* ---------- Hier dans Diurna ---------- */
+function yesterdayBlock(C, ed) {
+  const i = EDS[C.lang].findIndex((x) => x.date === ed.date), prev = i > 0 ? EDS[C.lang][i - 1] : null;
+  if (!prev) return '';
+  return `<section class="yesterday" aria-labelledby="yd-h"><h3 id="yd-h">${C.S.yesterday}</h3>
+    <a href="${C.rootRel}${storyPath(C.lang, prev.date, prev.essentials[0].slug)}"><time datetime="${prev.date}">${C.t(C.dmy(prev.date))}</time><span>${C.t(prev.headline)}</span></a></section>`;
+}
+
+/* ---------- La semaine et les chiffres ---------- */
+function weekPage(C) {
+  const p = FIXED[C.lang].week; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const eds = EDS[C.lang].slice(-7).reverse();
+  const dos = new Map(), cty = new Map();
+  for (const ed of eds) for (const s of ed.essentials) {
+    if (s.dossier) { const d = dos.get(s.dossier.id) || { title: s.dossier.title, n: 0, last: ed.date, id: s.id }; d.n++; dos.set(s.dossier.id, d); }
+    cty.set(s.id, (cty.get(s.id) || 0) + 1);
+  }
+  const topD = [...dos].sort((a, b) => b[1].n - a[1].n || b[1].last.localeCompare(a[1].last)).slice(0, 6);
+  const topC = [...cty].sort((a, b) => b[1] - a[1]).slice(0, 8);
+  const plural = (n) => C.L(n > 1 ? 'nStories' : 'nStory', { n });
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.week, en: FIXED.en.week }, title: esc(C.S.weekTitle + ' — Diurna'), desc: C.t(C.S.weekDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.weekTitle, p]])],
+    body: `<main class="page">
+  <h1>${C.S.weekTitle}</h1>
+  <p class="chapo">${C.t(C.S.weekDesc)}</p>
+  <h2>${C.S.weekTop}</h2>
+  <ul class="index-grid">${topD.map(([id, d]) => `<li><a href="${r}${dossierPath(C.lang, id)}">${flag(d.id, r)}<span class="h">${C.t(d.title)}</span><span class="p">${C.t(plural(d.n))}</span></a></li>`).join('')}</ul>
+  <h2>${C.S.weekCountries}</h2>
+  <ul class="index-grid">${topC.map(([id, n]) => `<li><a href="${r}${countryPath(C.lang, cslug(C.lang, id))}">${flag(id, r)}<span class="h">${C.t(C.cname(id, id))}</span><span class="p">${C.t(plural(n))}</span></a></li>`).join('')}</ul>
+  <h2>${C.S.weekHeadlines}</h2>
+  <ul class="archive">${eds.map((ed) => `<li><a href="${r}${storyPath(C.lang, ed.date, ed.essentials[0].slug)}"><time datetime="${ed.date}">${C.t(C.dmy(ed.date))}</time><span class="h">${C.t(ed.headline)}</span></a></li>`).join('')}</ul>
+  <h2>${C.S.weekFigures}</h2>
+  <ul class="figs">${eds.flatMap((ed) => ed.essentials.filter((s) => s.figure).map((s) => `<li><a href="${r}${storyPath(C.lang, ed.date, s.slug)}"><b>${C.t(s.figure.value)}</b><span>${C.t(s.figure.label)}</span><em>${flag(s.id, r)}${C.t(C.cname(s.id, s.place))} · ${C.t(C.dm(ed.date))}</em></a></li>`)).slice(0, 12).join('')}</ul>
+</main>`, scripts: BASE
+  });
+}
+function figuresPage(C) {
+  const p = FIXED[C.lang].figures; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const rows = EDS[C.lang].slice().reverse().flatMap((ed) => ed.essentials.filter((s) => s.figure).map((s) => ({ ed, s })));
+  const ids = [...new Set(rows.map((x) => x.s.id))].sort((a, b) => C.cname(a, a).localeCompare(C.cname(b, b), C.S.locale));
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.figures, en: FIXED.en.figures }, title: esc(C.S.figuresTitle + ' — Diurna'), desc: C.t(C.S.figuresDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.figuresTitle, p]])],
+    body: `<main class="page">
+  <h1>${C.S.figuresTitle}</h1>
+  <p class="chapo">${C.t(C.S.figuresDesc)}</p>
+  <p><label class="sr" for="figC">${C.S.countries}</label><select id="figC" class="select"><option value="">${C.S.figuresAll}</option>${ids.map((id) => `<option value="${id}">${C.t(C.cname(id, id))}</option>`).join('')}</select></p>
+  <ul class="figs" id="figs">${rows.map(({ ed, s }) => `<li data-c="${s.id}"><a href="${r}${storyPath(C.lang, ed.date, s.slug)}"><b>${C.t(s.figure.value)}</b><span>${C.t(s.figure.label)}${s.figure.compare ? ` <small>${C.t(s.figure.compare)}</small>` : ''}</span><em>${flag(s.id, r)}${C.t(C.cname(s.id, s.place))} · ${C.t(C.dm(ed.date))}</em></a></li>`).join('')}</ul>
+</main>`, scripts: BASE,
+    after: `<script>(function(){var s=document.getElementById('figC');s.addEventListener('change',function(){document.querySelectorAll('#figs li').forEach(function(li){li.hidden=!!s.value&&li.dataset.c!==s.value;});});})();</script>`
+  });
+}
+
 /* ---------- Version imprimable d'une édition ---------- */
 function printPage(C, ed) {
   const p = printPath(C.lang, ed.date); C.rootRel = rootRelOf(p); const r = C.rootRel;
@@ -530,7 +655,7 @@ function home(C) {
   const brief = (ed.brief || []).map((b) => `
         <li><b>${flag(b.id, r)}${C.t(b.place)}</b>${C.t(b.text)}${b.url ? ` <a href="${esc(b.url)}" target="_blank" rel="noopener">${C.S.source}</a>` : ''}</li>`).join('');
   const agenda = (ed.agenda || []).map((a) => `
-        <li><time datetime="${esc(a.d)}">${esc(C.dm(a.d))}</time><span>${C.t(a.t)}</span></li>`).join('');
+        <li><time datetime="${esc(a.d)}">${esc(C.dm(a.d))}</time><span>${C.t(a.t)}${own ? calLink(C, a) : ''}</span></li>`).join('');
   const searchTarget = `${abs}/${FIXED[C.lang].search}?q={search_term_string}`;
   const body = `<main${own ? '' : ' lang="fr"'}>
   ${own ? '' : `<p class="notice">${C.t(C.S.notTranslated)}</p>`}
@@ -543,8 +668,10 @@ function home(C) {
       ${sponsorLine(C)}
       <div class="actions rise rise-4">
         <a class="btn" href="${url(ed.essentials[0])}">${C.S.readEdition}${ICON.right}</a>
+        <a class="link-quiet" href="${r}${quizPath(lg, ed.date)}">${C.S.quiz}</a>
         <a class="link-quiet" href="#sommaire">${C.S.contents}</a>
       </div>
+      <p class="since rise rise-4" id="since" hidden></p>
     </div>
     <div class="cover-globe" id="coverGlobe" data-routes='${esc(JSON.stringify(routes))}' data-date="${ed.date}" data-lang="${lg}"></div>
   </section>
@@ -552,6 +679,7 @@ function home(C) {
     <h2 class="band-h" id="h-sommaire">${C.S.fiveStories}</h2>
     <ol class="summary">${summary}
     </ol>
+    <section class="mine" id="mine" aria-labelledby="h-mine" hidden><h2 class="band-h" id="h-mine">${C.S.myCountries}</h2><ul class="archive" id="mineList"></ul></section>
     <div class="duo">
       <section aria-labelledby="h-bref">
         <h2 class="band-h" id="h-bref"><a href="${r}${datePath(lg, ed.date)}">${C.S.inBrief}</a></h2>
@@ -564,6 +692,7 @@ function home(C) {
         </ul>
       </section>
     </div>
+    <p class="more-links home-more"><a href="${r}${FIXED[C.lang].week}">${C.S.nav7}</a><a href="${r}${FIXED[C.lang].figures}">${C.S.navFigures}</a><a href="${r}${FIXED[C.lang].map}">${C.S.navMap}</a><a href="${r}${PRE[C.lang]}agenda.ics">${C.S.calAll}</a></p>
     ${newsletterForm(C, 'home')}
   </section>
 </main>`;
@@ -676,6 +805,7 @@ function countryPage(C, id, items) {
     <div>
       <h1 class="with-flag">${flag(id, C.rootRel, 'lg')}${C.t(name)}</h1>
       <p class="chapo">${C.t(C.L('countryDesc', { x: name }))}</p>
+      <p><button class="act" type="button" data-follow="${id}" aria-pressed="false">${ICON.star}<span>${C.S.follow}</span></button></p>
     </div>
     <div class="locator" id="locator" data-id="${id}" aria-hidden="true"></div>
   </div>
@@ -683,6 +813,18 @@ function countryPage(C, id, items) {
   ${listItems(C, items)}
 </main>`, scripts: [...VENDOR, 'assets/js/live.js', 'assets/js/locator.js']
   });
+}
+// Frise d'un dossier : du premier épisode au dernier, avec le jour de suivi.
+function timelineItems(C, items) {
+  const r = C.rootRel, list = items.slice().sort((a, b) => a.date.localeCompare(b.date) || a.rank - b.rank);
+  const first = list[0].date;
+  return `<ol class="dtl">${list.map((i, k) => `
+    <li${k === list.length - 1 ? ' class="last"' : ''}><a href="${r}${i.path}">
+      <span class="dtl-d"><time datetime="${i.date}">${C.t(C.dmy(i.date))}</time><em>${k === list.length - 1 ? C.t(C.S.latest) : C.t(C.L('dayN', { n: Math.round((utc(i.date) - utc(first)) / 864e5) + 1 }))}</em></span>
+      <span class="h">${flag(i.id, r)}${C.t(i.title)}</span>
+      ${i.text ? `<span class="p">${C.t(i.text)}</span>` : ''}
+    </a></li>`).join('')}
+  </ol>`;
 }
 function dossierPage(C, id, items) {
   const p = dossierPath(C.lang, id); C.rootRel = rootRelOf(p);
@@ -696,7 +838,7 @@ function dossierPage(C, id, items) {
   <p class="rubric"><a href="${C.rootRel}${dossiersIndex(C.lang)}">${C.S.dossiers}</a></p>
   <h1>${C.t(title)}</h1>
   <p class="chapo">${C.t(C.L('dossierDesc', { x: title }))}</p>
-  ${listItems(C, items)}
+  ${timelineItems(C, items)}
   <p class="more-links"><a href="feed.xml" type="application/rss+xml">${C.S.navFeed}</a><a href="atom.xml" type="application/atom+xml">Atom</a></p>
 </main>`, scripts: BASE
   });
@@ -1050,6 +1192,8 @@ for (const lang of LANGS) {
   for (const ed of EDS[lang]) {
     routes[lang][ed.date] = { bref: datePath(lang, ed.date) };
     wr(printPath(lang, ed.date) + 'index.html', printPage(C, ed));
+    wr(quizPath(lang, ed.date) + 'index.html', quizPage(C, ed));
+    SM.push({ path: quizPath(lang, ed.date) });
     for (const rank of [...ed.essentials.map((s) => s.rank), 'bref']) {
       const { path: p, html } = readerPage(C, ed, rank);
       wr(p + 'index.html', html); count++;
@@ -1068,6 +1212,8 @@ for (const lang of LANGS) {
   wr(P.method + 'index.html', method(C));
   wr(P.status + 'index.html', status(C, ST));
   wr(P.search + 'index.html', searchPage(C));
+  wr(P.week + 'index.html', weekPage(C)); wr(P.figures + 'index.html', figuresPage(C)); writeAgenda(lang);
+  SM.push({ path: P.week, alt: { fr: FIXED.fr.week, en: FIXED.en.week } }, { path: P.figures, alt: { fr: FIXED.fr.figures, en: FIXED.en.figures } });
   wr(P.map + 'index.html', mapPage(C)); wr(dataOf(lang, 'map.json'), JSON.stringify(mapData(lang)));
   SM.push({ path: P.map, alt: { fr: FIXED.fr.map, en: FIXED.en.map } });
   wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });

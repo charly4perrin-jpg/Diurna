@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-08-68bae989@diurna
+DTSTAMP:20261109T140820Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Remise officielle à Gadi Eisenkot du mandat de former le gouvern
+ ement israélien.
+DESCRIPTION:Diurna — Édition du 8 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/08/
+END:VEVENT
+END:VCALENDAR

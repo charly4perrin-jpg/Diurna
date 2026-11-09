@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-08-2adbe7f8@diurna
+DTSTAMP:20261109T140820Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:Gadi Eisenkot formally receives the mandate to form Israel’s go
+ vernment.
+DESCRIPTION:Diurna — Edition of 8 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/
+END:VEVENT
+END:VCALENDAR
