@@ -30,9 +30,11 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/', mylist: 'ma-liste/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/', mylist: 'en/my-list/' }
 };
+// Navigation quasi instantanée : le navigateur précharge une page du site quand le pointeur s'y attarde (Chrome, Edge).
+const SPEC = JSON.stringify({ prefetch: [{ source: 'document', where: { and: [{ href_matches: `${abs ? new URL(abs + '/').pathname : '/'}*` }, { not: { href_matches: '*.(xml|json|ics|opml|txt|md)' } }, { not: { selector_matches: '[target=_blank], [download]' } }] }, eagerness: 'moderate' }] });
 // Réglages de lecture appliqués avant l'affichage (thème, taille, police, interligne, animations), sans clignotement.
 const PREPAINT = "(function(){try{var d=document.documentElement,g=function(k){var v=localStorage.getItem('tp.'+k);return v?JSON.parse(v):''},th=g('theme');if(th==='auto')th=matchMedia('(prefers-color-scheme: light)').matches?'day':'';if(th==='day')d.setAttribute('data-theme','day');['size','font','lh','motion'].forEach(function(k){var v=g(k);if(v)d.setAttribute('data-'+k,v)})}catch(e){}})();";
 const rootRelOf = (p) => '../'.repeat(p.split('/').filter(Boolean).length);
@@ -49,7 +51,7 @@ const dossierPath = (lang, id) => `${PRE[lang]}dossiers/${id}/`;
 
 /* ---------- empreinte des fichiers statiques (cache) ---------- */
 const assetFiles = [
-  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/notfound.js', 'assets/js/offline.js',
+  'assets/css/site.css', 'assets/js/i18n.js', 'assets/js/common.js', 'assets/js/globe.js', 'assets/js/home.js', 'assets/js/reader.js', 'assets/js/modules.js', 'assets/js/search.js', 'assets/js/live.js', 'assets/js/map.js', 'assets/js/locator.js', 'assets/js/quiz.js', 'assets/js/stories.js', 'assets/js/notfound.js', 'assets/js/mylist.js', 'assets/js/offline.js',
   'assets/vendor/d3-array.min.js', 'assets/vendor/d3-geo.min.js', 'assets/vendor/topojson-client.min.js', 'assets/world.json',
   ...fs.readdirSync(path.join(root, 'assets/fonts')).map((f) => 'assets/fonts/' + f)
 ].filter(exists);
@@ -58,6 +60,9 @@ assetFiles.forEach((f) => hash.update(fs.readFileSync(path.join(root, f))));
 const V = hash.digest('hex').slice(0, 10);
 
 const ICON = {
+  search: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>',
+  bookmark: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1z"/></svg>',
+  shuffle: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h3c4 0 6 10 10 10h3M4 17h3c1.6 0 2.8-1.6 3.9-3.6M14 9.6C15 8 16 7 17 7h3M17 4l3 3-3 3M17 14l3 3-3 3"/></svg>',
   right: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>',
   left: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>',
   plus: '<svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>',
@@ -257,6 +262,7 @@ ${abs ? `<meta property="og:url" content="${abs}/${p}">
 ${(o.jsonld || []).map(ldScript).join('\n')}
 <link rel="preload" href="${rootRel}assets/fonts/newsreader-text.woff2" as="font" type="font/woff2" crossorigin>
 <style>${CSS.replace(/url\("\.\.\/fonts\//g, `url("${rootRel}assets/fonts/`)}</style>
+<script type="speculationrules">${SPEC}</script>
 ${GC ? `<script data-goatcounter="https://${GC}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>` : ''}
 </head>
 <body data-root="${rootRel}" data-repo="${esc(REPO)}"${FB ? ` data-fb="${esc(FB)}"` : ''}${o.data ? ' ' + o.data : ''}>
@@ -269,6 +275,7 @@ ${o.bare ? '' : `  <nav class="nav" aria-label="${esc(C.S.navMain)}">
     ${nav(P.archives, C.S.navArchives, 'archives', true)}
     ${nav(P.method, C.S.navMethod, 'method', true)}
     <span class="langs"><span class="lang-self" aria-current="true">${C.S.langSelf}</span><a class="lang" href="${rootRel}${altOther}" hreflang="${other}" lang="${other}" aria-label="${esc(C.S.langSwitch)}">${C.S.langOther}</a></span>
+    <a class="pal-btn" href="${rootRel}${P.search}" data-palette aria-label="${esc(C.S.palOpen)}" title="${esc(C.S.palOpen)}">${ICON.search}</a>
     <button class="prefs-btn" type="button" data-prefs aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(C.S.prefs)}" title="${esc(C.S.prefs)}"><span aria-hidden="true">A<small>a</small></span></button>
     <button class="install" type="button" hidden>${ICON.install}${C.S.install}</button>
   </nav>`}
@@ -409,12 +416,20 @@ function actionsSSR(C, ed, s) {
   const issue = `https://github.com/${REPO}/issues/new?template=erreur.yml&page=${encodeURIComponent(url)}&title=${encodeURIComponent((C.lang === 'en' ? 'Error: ' : 'Erreur : ') + C.typo(s.title))}`;
   return `<div class="story-actions">
           <button class="act" type="button" data-share>${ICON.share}<span>${C.S.share}</span></button>
+          <button class="act" type="button" data-save="${esc(JSON.stringify({ p: storyPath(C.lang, ed.date, s.slug), t: s.title, d: ed.date, c: s.id, n: s.place }))}" aria-pressed="false" title="${esc(C.S.saveLong)}">${ICON.bookmark}<span>${C.S.save}</span></button>
           <button class="act" type="button" data-listen hidden>${ICON.listen}<span>${C.S.listen}</span></button>
           <button class="act act-size" type="button" data-prefs aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(C.S.prefs)}"><span aria-hidden="true">A<small>a</small></span></button>
           <a class="act quiet" href="${C.rootRel}${printPath(C.lang, ed.date)}">${C.S.printable}</a>
           ${avis ? `<a class="act" href="${esc(avis)}" target="_blank" rel="noopener" data-feedback>${C.S.feedback}</a>` : ''}
           <a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${C.S.reportError}</a>
         </div>`;
+}
+// Édition précédente et suivante, dans la langue de la page.
+function edPager(C, ed) {
+  const list = EDS[C.lang], i = list.findIndex((e) => e.date === ed.date), r = C.rootRel;
+  const prev = list[i - 1], next = list[i + 1];
+  if (!prev && !next) return '';
+  return `<nav class="ed-pager" aria-label="${esc(C.S.archivesTitle)}">${prev ? `<a href="${r}${datePath(C.lang, prev.date)}" rel="prev">${ICON.left}<span><small>${C.S.prevEd}</small>${C.t(C.dm(prev.date))}</span></a>` : '<span></span>'}${next ? `<a href="${r}${datePath(C.lang, next.date)}" rel="next"><span><small>${C.S.nextEd}</small>${C.t(C.dm(next.date))}</span>${ICON.right}</a>` : ''}</nav>`;
 }
 function briefSSR(C, ed) {
   const r = C.rootRel;
@@ -427,6 +442,7 @@ function briefSSR(C, ed) {
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${C.S.comingUp}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${C.t(C.S.endNote)}</p>
+        ${edPager(C, ed)}
         <p class="quiz-cta"><a class="btn" href="${r}${quizPath(C.lang, ed.date)}">${C.S.quizStart}${ICON.right}</a> <a class="link-quiet" href="${r}${storiesPath(C.lang, ed.date)}">${C.S.stories}</a></p>
         <p class="offline-save"><button class="act" type="button" data-offline-save>${ICON.install}<span>${C.S.offlineSave}</span></button></p>
         <p class="print-link"><a class="link-quiet" href="${r}${printPath(C.lang, ed.date)}">${ICON.print}${C.S.printable}</a> · <a class="link-quiet" href="${r}${PRE[C.lang]}agenda.ics">${ICON.cal}${C.S.calAll}</a></p>
@@ -860,6 +876,20 @@ else go(R[h]||R[1]);})();</script>
 }
 
 /* ---------- Archives ---------- */
+// Calendrier des éditions : un mois par bloc, lundi en premier ; chaque jour publié mène à son édition.
+function archiveCalendar(C) {
+  const r = C.rootRel, have = new Map(EDS.fr.map((e) => [e.date, BYDATE[C.lang].has(e.date) ? C.lang : 'fr']));
+  const months = [...new Set([...have.keys()].map((d) => d.slice(0, 7)))].sort().reverse();
+  const wd = [...Array(7)].map((_, i) => new Intl.DateTimeFormat(C.S.locale, { weekday: 'narrow', timeZone: 'UTC' }).format(Date.UTC(2024, 0, 1 + i)));
+  return `<section class="cal" aria-labelledby="cal-h"><h2 class="band-h" id="cal-h">${C.S.calTitle}</h2><div class="cal-months">${months.map((m) => {
+    const [y, mo] = m.split('-').map(Number), first = new Date(Date.UTC(y, mo - 1, 1)), n = new Date(Date.UTC(y, mo, 0)).getUTCDate(), lead = (first.getUTCDay() + 6) % 7;
+    const cells = [...Array(lead)].map(() => '<span></span>').concat([...Array(n)].map((_, i) => {
+      const d = `${m}-${String(i + 1).padStart(2, '0')}`, lg = have.get(d);
+      return lg ? `<a href="${r}${datePath(lg, d)}" aria-label="${esc(C.L('calEdition', { d: C.dayLong(d) }))}">${i + 1}</a>` : `<span>${i + 1}</span>`;
+    }));
+    return `<div class="cal-m"><h3>${C.t(C.day(m))}</h3><div class="cal-g" role="group" aria-label="${esc(C.day(m))}">${wd.map((w) => `<b aria-hidden="true">${esc(w)}</b>`).join('')}${cells.join('')}</div></div>`;
+  }).join('')}</div></section>`;
+}
 function archives(C) {
   const p = FIXED[C.lang].archives; C.rootRel = rootRelOf(p); const r = C.rootRel;
   const rows = EDS.fr.slice().reverse().map((frEd) => {
@@ -877,6 +907,8 @@ function archives(C) {
     body: `<main class="page">
   <h1>${C.S.archivesTitle}</h1>
   <p class="chapo">${C.t(C.S.archivesChapo)}</p>
+  <p><button class="act" type="button" data-random>${ICON.shuffle}<span>${C.S.random}</span></button></p>
+  ${archiveCalendar(C)}
   <ul class="archive">${rows}
   </ul>
   <p class="more-links"><a href="${r}${countriesIndex(C.lang)}">${C.S.byCountry}</a><a href="${r}${dossiersIndex(C.lang)}">${C.S.byDossier}</a><a href="${r}${FIXED[C.lang].search}">${C.S.navSearch}</a></p>
@@ -1064,6 +1096,21 @@ function dossierPage(C, id, items) {
   });
 }
 
+/* ---------- Ma liste (sujets gardés pour plus tard, sur l'appareil) ---------- */
+function myListPage(C) {
+  const p = FIXED[C.lang].mylist; C.rootRel = rootRelOf(p);
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.mylist, en: FIXED.en.mylist }, title: esc(C.S.myList + ' — Diurna'), desc: C.t(C.S.myListDesc), noindex: true,
+    body: `<main class="page">
+  <h1>${C.S.myList}</h1>
+  <p class="chapo">${C.t(C.S.myListDesc)}</p>
+  <p class="ml-empty" id="mlEmpty" hidden>${C.t(C.S.myListEmpty)}</p>
+  <ul class="archive ml" id="mlList"></ul>
+  <p class="ml-tools" id="mlTools" hidden><button class="act quiet" type="button" id="mlClear">${C.S.clearList}</button></p>
+  <noscript><p>${C.t(C.S.myListEmpty)}</p></noscript>
+</main>`, scripts: [...BASE, 'assets/js/mylist.js']
+  });
+}
 /* ---------- Nos sources, baromètre de couverture et glossaire ---------- */
 function sourcesPage(C) {
   const p = FIXED[C.lang].sources; C.rootRel = rootRelOf(p); const r = C.rootRel;
@@ -1091,7 +1138,7 @@ function sourcesPage(C) {
   <p class="chapo">${C.t(C.S.srcDesc)}</p>
   <dl class="stats"><div><dt>${C.S.srcNewsrooms}</dt><dd>${C.int(list.length)}</dd></div><div><dt>${C.S.srcCitations}</dt><dd>${C.int(total)}</dd></div><div><dt>${C.S.srcCountries}</dt><dd>${C.int(nCountries)}</dd></div><div><dt>${C.S.srcRefShare}</dt><dd>${Math.round((100 * list.filter((x) => x.ref).reduce((a, x) => a + x.n, 0)) / Math.max(1, total))} %</dd></div></dl>
   <p>${C.t(C.S.srcHow)}</p>
-  <div class="table-wrap"><table class="src-table"><thead><tr><th scope="col">${C.S.srcColName}</th><th scope="col">${C.S.srcColCountry}</th><th scope="col">${C.S.srcColType}</th><th scope="col" class="num">${C.S.srcColN}</th><th scope="col">${C.S.srcColLast}</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="${esc(C.S.srcTitle)}"><table class="src-table"><thead><tr><th scope="col">${C.S.srcColName}</th><th scope="col">${C.S.srcColCountry}</th><th scope="col">${C.S.srcColType}</th><th scope="col" class="num">${C.S.srcColN}</th><th scope="col">${C.S.srcColLast}</th></tr></thead><tbody>${rows}</tbody></table></div>
   <p class="more-links"><a href="${r}${FIXED[C.lang].coverage}">${C.S.covPageTitle}</a><a href="${r}${FIXED[C.lang].method}">${C.S.navMethod}</a></p>
 </main>`, scripts: BASE
   });
@@ -1121,7 +1168,7 @@ function coveragePage(C) {
   <p class="chapo">${C.t(C.S.covPageDesc)}</p>
   <dl class="stats"><div><dt>${C.S.covStories}</dt><dd>${C.int(nAll)}</dd></div><div><dt>${C.S.covCountries}</dt><dd>${C.int(byC.size)}</dd></div><div><dt>${C.S.covNever}</dt><dd>${C.int(known - byC.size)}</dd></div><div><dt>${C.S.covEditions}</dt><dd>${C.int(eds.length)}</dd></div></dl>
   <h2>${C.S.covByCont}</h2>
-  <div class="table-wrap"><table class="cov-table"><thead><tr><th scope="col">${C.S.covColCont}</th><th scope="col" class="num">${C.S.covColAll}</th><th scope="col"><span class="vh">${C.S.covColShare}</span></th><th scope="col" class="num">${C.S.covCol7}</th></tr></thead><tbody>${rowsC}</tbody></table></div>
+  <div class="table-wrap" tabindex="0" role="region" aria-label="${esc(C.S.covByCont)}"><table class="cov-table"><thead><tr><th scope="col">${C.S.covColCont}</th><th scope="col" class="num">${C.S.covColAll}</th><th scope="col"><span class="vh">${C.S.covColShare}</span></th><th scope="col" class="num">${C.S.covCol7}</th></tr></thead><tbody>${rowsC}</tbody></table></div>
   ${silent.length ? `<p class="blind">${C.t(C.L('covBlind', { x: silent.join(', ') }))}</p>` : ''}
   <h2>${C.S.covTop}</h2>
   <ol class="cov-top">${top.map(([id, n]) => `<li>${clink(id)}<span>${C.t(C.L(n > 1 ? 'covTimes' : 'covTimes1', { n: C.int(n) }))}</span></li>`).join('')}</ol>
@@ -1245,6 +1292,9 @@ function searchIndex(lang) {
   for (const ed of EDS[lang].slice().reverse()) ed.essentials.forEach((s) => out.push({ k: 's', t: s.title, x: s.standfirst, d: ed.date, p: storyPath(lang, ed.date, s.slug), c: s.id, n: s.place, o: s.dossier ? s.dossier.title : '' }));
   for (const [id, items] of COL[lang].byCountry) out.push({ k: 'c', t: makeCtx(lang).cname(id, items[0].place), p: countryPath(lang, cslug(lang, id)), c: id });
   for (const [id, items] of COL[lang].byDossier) out.push({ k: 'd', t: items[items.length - 1].dossier.title, p: dossierPath(lang, id) });
+  for (const g of GLOSS[lang] || []) out.push({ k: 'g', t: g.t, x: g.d, p: `${FIXED[lang].glossary}#${g.k}` });
+  const S = I18N[lang], P = FIXED[lang];
+  for (const [label, path] of [[S.navEdition, editionHome(lang)], [S.navMap, P.map], [S.nav7, P.week], [S.navFigures, P.figures], [S.navArchives, P.archives], [S.navCountries, countriesIndex(lang)], [S.navDossiers, dossiersIndex(lang)], [S.glTitle, P.glossary], [S.srcTitle, P.sources], [S.covPageTitle, P.coverage], [S.navAbout, P.about], [S.navMethod, P.method], [S.navCorrections, P.corrections], [S.navLetter, P.letter], [S.navPress, P.press], [S.navAccess, P.access], [S.myList, P.mylist], [S.navStatus, P.status]]) out.push({ k: 'f', t: label, p: path });
   return out;
 }
 function searchPage(C) {
@@ -1257,6 +1307,10 @@ function searchPage(C) {
     <label class="sr" for="q">${C.S.searchTitle}</label>
     <input id="q" name="q" type="search" autocomplete="off" placeholder="${esc(C.S.searchPh)}">
   </form>
+  <div class="filters" role="group" aria-label="${esc(C.S.searchFilters)}">
+    <div class="chips" data-filter="k">${[['', C.S.fAll], ['s', C.S.fStories], ['c', C.S.fCountries], ['d', C.S.fDossiers], ['g', C.S.fGloss]].map(([v, l], i) => `<button type="button" class="chip" data-v="${v}" aria-pressed="${i === 0}">${l}</button>`).join('')}</div>
+    <div class="chips" data-filter="t">${[['', C.S.fAny], ['7', C.S.f7], ['30', C.S.f30]].map(([v, l], i) => `<button type="button" class="chip" data-v="${v}" aria-pressed="${i === 0}">${l}</button>`).join('')}</div>
+  </div>
   <p class="search-n" id="searchN" aria-live="polite"></p>
   <ul class="archive" id="results"></ul>
 </main>`, scripts: [...BASE, 'assets/js/search.js']
@@ -1597,6 +1651,7 @@ for (const lang of LANGS) {
   wr(P.map + 'index.html', mapPage(C)); wr(dataOf(lang, 'map.json'), JSON.stringify(mapData(lang)));
   SM.push({ path: P.map, alt: { fr: FIXED.fr.map, en: FIXED.en.map } });
   wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });
+  wr(P.mylist + 'index.html', myListPage(C));
   wr(P.sources + 'index.html', sourcesPage(C)); wr(P.coverage + 'index.html', coveragePage(C)); wr(P.glossary + 'index.html', glossaryPage(C));
   for (const k of ['sources', 'coverage', 'glossary']) SM.push({ path: P[k], alt: { fr: FIXED.fr[k], en: FIXED.en[k] } });
   for (const key of ['about', 'legal', 'privacy', 'access', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }

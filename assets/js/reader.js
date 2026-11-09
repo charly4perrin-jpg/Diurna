@@ -301,6 +301,7 @@
     return `
         <div class="story-actions">
           <button class="act" type="button" data-share>${icon('share')}<span>${L('share')}</span></button>
+          <button class="act" type="button" data-save="${esc(JSON.stringify({ p: urlOf(s.rank).slice(TP.ROOT.length), t: s.title, d: ed.date, c: s.id, n: s.place }))}" aria-pressed="false" title="${esc(L('saveLong'))}">${icon('bookmark')}<span>${L('save')}</span></button>
           ${'speechSynthesis' in window ? `<button class="act" type="button" data-listen>${icon('listen')}<span>${L('listen')}</span></button>` : ''}
           <button class="act act-size" type="button" data-prefs aria-haspopup="dialog" aria-expanded="false" aria-label="${esc(L('prefs'))}"><span aria-hidden="true">A<small>a</small></span></button>
           <a class="act quiet" href="${printUrl()}">${L('printable')}</a>
@@ -308,6 +309,29 @@
           ${issue ? `<a class="act quiet" href="${esc(issue)}" target="_blank" rel="noopener">${L('reportError')}</a>` : ''}
         </div>`;
   }
+
+  // Édition précédente et suivante (d'après data/routes.json).
+  function edPagerHtml() {
+    const days = Object.keys((routes && routes[LANG]) || {}).sort(), i = days.indexOf(ed.date);
+    if (i < 0) return '';
+    const prev = days[i - 1], next = days[i + 1];
+    if (!prev && !next) return '';
+    const href = (d) => TP.ROOT + routes[LANG][d].bref;
+    return `<nav class="ed-pager" aria-label="${esc(L('allEditions'))}">${prev ? `<a href="${href(prev)}" rel="prev">${icon('left')}<span><small>${t(L('prevEd'))}</small>${t(TP.day(prev, ed.date))}</span></a>` : '<span></span>'}${next ? `<a href="${href(next)}" rel="next"><span><small>${t(L('nextEd'))}</small>${t(TP.day(next, ed.date))}</span>${icon('right')}</a>` : ''}</nav>`;
+  }
+
+  // Barre de progression de la lecture, en haut du panneau (ou de la page sur mobile).
+  const prog = document.createElement('div');
+  prog.className = 'rprog'; prog.setAttribute('aria-hidden', 'true'); prog.innerHTML = '<span></span>';
+  panel.prepend(prog);
+  function onScroll() {
+    const inner = read.scrollHeight > read.clientHeight + 4 && getComputedStyle(read).overflowY !== 'visible';
+    const top = inner ? read.scrollTop : window.scrollY - (read.getBoundingClientRect().top + window.scrollY);
+    const h = inner ? read.scrollHeight - read.clientHeight : read.offsetHeight - window.innerHeight;
+    prog.firstChild.style.transform = `scaleX(${h > 0 ? Math.min(1, Math.max(0, top / h)) : 0})`;
+  }
+  read.addEventListener('scroll', onScroll, { passive: true });
+  window.addEventListener('scroll', onScroll, { passive: true });
 
   function briefHtml() {
     const brief = (ed.brief || []).map((b) => `<li><b>${flag(C(b.id))}${t(b.place)}</b>${t(b.text)}${b.url ? ` <a href="${esc(b.url)}" target="_blank" rel="noopener">${L('source')}</a>` : ''}</li>`).join('');
@@ -321,6 +345,7 @@
         ${brief ? `<ul class="brief">${brief}</ul>` : ''}
         ${agenda ? `<h3>${L('comingUp')}</h3><ul class="agenda">${agenda}</ul>` : ''}
         <p class="end-note">${t(L('endNote'))}</p>
+        ${edPagerHtml()}
         <p class="print-link"><a class="link-quiet" href="${printUrl()}">${icon('print')}${t(L('printable'))}</a> · <a class="link-quiet" href="${TP.ROOT}${LANG === 'en' ? 'en/' : ''}agenda.ics">${icon('cal')}${t(L('calAll'))}</a></p>
         ${ydHtml}
         ${allRead() ? `<p class="all-read">${icon('check')}${t(L('allRead'))}${TP.streak && TP.streak() > 1 ? ` · ${t(L('streak', { n: TP.streak() }))}` : ''}</p>` : ''}
@@ -335,9 +360,9 @@
     const s = ed.essentials.find((x) => x.rank === step);
     panel.className = 'panel' + (s ? ' c' + s.rank : '');
     read.innerHTML = s ? storyHtml(s) : briefHtml();
-    stopSpeech(); closeGloss(); setTimeout(fillLive, 0); setTimeout(() => TP.paintFollow && TP.paintFollow(), 0);
+    stopSpeech(); closeGloss(); setTimeout(fillLive, 0); setTimeout(() => { if (TP.paintFollow) TP.paintFollow(); if (TP.paintSaved) TP.paintSaved(); }, 0);
     if (s) { Modules.mount(read, s); glossify(read.querySelector('.article')); markRead(s.rank); TP.track('fiche-ouverte', `${s.rank} · ${s.id}`); }
-    read.scrollTop = 0;
+    read.scrollTop = 0; setTimeout(onScroll, 0);
     globe.hideCard();
     globe.clearOverlays();
     if (s) globe.setCurrent(s.rank, fly);
@@ -389,7 +414,7 @@
     const sh = e.target.closest('[data-share]');
     if (sh) {
       const s = ed.essentials.find((x) => x.rank === step);
-      const r = await TP.share(typo(s ? s.title : ed.headline), location.origin + urlOf(step));
+      const r = await TP.share(typo(s ? s.title : ed.headline), location.origin + urlOf(step), sh);
       if (r === 'copied') { const label = sh.querySelector('span'); label.textContent = L('shareCopied'); setTimeout(() => { label.textContent = L('share'); }, 2200); }
       return;
     }

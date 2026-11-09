@@ -25,7 +25,7 @@ for (const lang of ['fr', 'en']) {
   const d = Object.keys(r).sort().pop();
   pages.push(r[d][1], r[d][3], r[d].bref, r[d].bref + 'quiz/');
 }
-const extra = ['accessibilite/', 'en/accessibility/', 'sources/', 'couverture/', 'en/coverage/', 'glossaire/', 'pays/israel/', 'dossiers/'].filter((p) => fs.existsSync(path.join(root, p, 'index.html')));
+const extra = ['accessibilite/', 'en/accessibility/', 'sources/', 'couverture/', 'en/coverage/', 'glossaire/', 'pays/israel/', 'dossiers/', 'ma-liste/'].filter((p) => fs.existsSync(path.join(root, p, 'index.html')));
 pages.push(...extra);
 
 if (want('--axe')) {
@@ -71,7 +71,7 @@ if (want('--html')) {
   if (jar) {
     const files = [...new Set([...pages.map((p) => path.join(root, p, 'index.html')), path.join(root, '404.html')])].filter((f) => fs.existsSync(f));
     // Propriétés CSS valides que le validateur ne connaît pas encore (paint-order est dans SVG 2 et CSS Fill and Stroke).
-    const KNOWN = '.*paint-order.*';
+    const KNOWN = '.*(paint-order|view-transition).*';
     // Le validateur écrit son rapport JSON sur la sortie d'erreur.
     const run = spawnSync('java', ['-jar', jar, '--format', 'json', '--errors-only', '--filterpattern', KNOWN, ...files], { encoding: 'utf8', maxBuffer: 64 << 20 });
     const json = (run.stderr || '').slice((run.stderr || '').indexOf('{')) || run.stdout;

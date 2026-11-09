@@ -65,6 +65,9 @@
     check: '<path d="M5 12.5l4.5 4.5L19 7.5"/>',
     star: '<path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.8-5.2 2.8 1-5.8-4.3-4.1 5.9-.9z"/>',
     cal: '<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M12 13v5M9.5 15.5h5"/>',
+    search: '<circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/>',
+    bookmark: '<path d="M7 4h10a1 1 0 0 1 1 1v15l-6-4-6 4V5a1 1 0 0 1 1-1z"/>',
+    shuffle: '<path d="M4 7h3c4 0 6 10 10 10h3M4 17h3c1.6 0 2.8-1.6 3.9-3.6M14 9.6C15 8 16 7 17 7h3M17 4l3 3-3 3M17 14l3 3-3 3"/>',
     globe: '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>'
   };
   const icon = (n) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${ICONS[n] || ''}</svg>`;
@@ -109,12 +112,33 @@
   const trackOnce = (name, label) => { if (seen.has(name + label)) return; seen.add(name + label); track(name, label); };
 
   // Partager : la feuille de partage du téléphone, sinon le lien est copié.
-  async function share(title, url) {
-    if (navigator.share) {
+  // Sans feuille de partage (ordinateur), un petit menu propose de copier le lien ou de l'envoyer.
+  async function share(title, url, anchor) {
+    if (navigator.share && matchMedia('(pointer: coarse)').matches) {
       try { await navigator.share({ title, url }); track('partage', 'natif'); return 'shared'; } catch (e) { if (e && e.name === 'AbortError') return 'cancel'; }
     }
+    if (anchor) { sharePop(anchor, title, url); return 'menu'; }
     try { await navigator.clipboard.writeText(url); track('partage', 'lien copié'); return 'copied'; } catch (_) { return 'failed'; }
   }
+  let spop = null;
+  function closeSharePop() { if (spop) { spop.remove(); spop = null; } }
+  function sharePop(anchor, title, url) {
+    closeSharePop();
+    const u = encodeURIComponent(url), tt = encodeURIComponent(title);
+    const links = [['X', `https://x.com/intent/post?text=${tt}&url=${u}`], ['LinkedIn', `https://www.linkedin.com/sharing/share-offsite/?url=${u}`], ['Bluesky', `https://bsky.app/intent/compose?text=${encodeURIComponent(title + ' ' + url)}`], ['WhatsApp', `https://wa.me/?text=${encodeURIComponent(title + ' ' + url)}`], [L('shareMail'), `mailto:?subject=${tt}&body=${u}`]];
+    spop = document.createElement('div');
+    spop.className = 'share-pop'; spop.setAttribute('role', 'dialog'); spop.setAttribute('aria-label', L('shareMenu'));
+    spop.innerHTML = `<button type="button" class="sp-copy">${icon('share')}<span>${t(L('shareCopy'))}</span></button>${links.map(([n, h]) => `<a href="${esc(h)}" target="_blank" rel="noopener" data-net="${esc(n)}">${t(n)}</a>`).join('')}`;
+    anchor.insertAdjacentElement('afterend', spop);
+    spop.querySelector('.sp-copy').addEventListener('click', async (e) => {
+      const sp = e.currentTarget.querySelector('span');
+      try { await navigator.clipboard.writeText(url); sp.textContent = L('shareCopied'); track('partage', 'lien copié'); } catch (_) { sp.textContent = url; }
+    });
+    spop.addEventListener('click', (e) => { const a = e.target.closest('a[data-net]'); if (a) { track('partage', a.dataset.net); setTimeout(closeSharePop, 100); } });
+    spop.querySelector('.sp-copy').focus();
+  }
+  document.addEventListener('click', (e) => { if (spop && !e.target.closest('.share-pop') && !e.target.closest('[data-share]')) closeSharePop(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && spop) closeSharePop(); });
 
   // Changement de langue : on mémorise le choix et on garde le sujet ouvert (#3) et l'archive (?d=).
   document.addEventListener('click', (e) => {
@@ -260,6 +284,114 @@
     global.addEventListener('load', () => navigator.serviceWorker.register(ROOT + 'sw.js').catch(() => {}));
   }
 
+  // Un sujet au hasard, parmi toutes les éditions de la langue de la page.
+  async function randomStory() {
+    try {
+      const rt = await json('data/routes.json'), days = Object.keys(rt[LANG] || {});
+      const d = days[Math.floor(Math.random() * days.length)], ranks = Object.keys(rt[LANG][d]).filter((k) => k !== 'bref');
+      track('module/hasard', LANG);
+      location.href = ROOT + rt[LANG][d][ranks[Math.floor(Math.random() * ranks.length)]];
+    } catch (_) {}
+  }
+  document.addEventListener('click', (e) => { if (e.target.closest('[data-random]')) { e.preventDefault(); randomStory(); } });
+
+  // « Garder pour plus tard » : la liste reste sur l'appareil, et le sujet est gardé hors connexion.
+  const savedList = () => store.get('saved', []);
+  function paintSaved() {
+    const have = new Set(savedList().map((x) => x.p));
+    document.querySelectorAll('[data-save]').forEach((b) => {
+      let it = null; try { it = JSON.parse(b.dataset.save); } catch (_) {}
+      const on = !!it && have.has(it.p);
+      b.setAttribute('aria-pressed', String(on)); b.classList.toggle('on', on);
+      const sp = b.querySelector('span'); if (sp) sp.textContent = L(on ? 'saved' : 'save');
+    });
+  }
+  document.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-save]');
+    if (!b) return;
+    let it; try { it = JSON.parse(b.dataset.save); } catch (_) { return; }
+    const list = savedList(), i = list.findIndex((x) => x.p === it.p);
+    if (i >= 0) list.splice(i, 1); else { list.unshift({ ...it, at: Date.now() }); track('module/garder', it.c || ''); }
+    store.set('saved', list.slice(0, 200));
+    paintSaved();
+    if (i < 0 && navigator.serviceWorker && navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage({ type: 'save', urls: [ROOT + it.p] });
+  });
+  document.addEventListener('DOMContentLoaded', paintSaved);
+
+  // Palette « Aller à… » (Ctrl K, ⌘ K ou /) : sujets, pays, dossiers, glossaire et pages, sans quitter le clavier.
+  let pal = null, palIx = null, palSel = 0, palItems = [];
+  const norm = (x) => String(x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  const KINDS = { s: 'kindStory', c: 'kindCountry', d: 'kindDossier', g: 'kindGloss', f: 'kindPage', a: 'kindAction' };
+  function palActions() {
+    const P = LANG === 'en' ? 'en/' : '';
+    return [
+      { k: 'a', t: L('random'), run: randomStory },
+      { k: 'a', t: L('prefs'), run: () => { closePalette(); const b = document.querySelector('[data-prefs]'); if (b) b.click(); } },
+      { k: 'f', t: L('myList'), p: LANG === 'en' ? 'en/my-list/' : 'ma-liste/' },
+      { k: 'f', t: L('navMap'), p: LANG === 'en' ? 'en/map/' : 'carte/' },
+      { k: 'f', t: L('navArchives'), p: P + 'archives/' }
+    ];
+  }
+  function palRender() {
+    const q = pal.querySelector('input').value.trim(), w = norm(q).split(/\s+/).filter(Boolean);
+    let list = [];
+    if (!w.length) list = palActions();
+    else if (palIx) {
+      list = palActions().concat(palIx).map((it) => {
+        const hay = norm(`${it.t} ${it.n || ''} ${it.o || ''}`);
+        if (!w.every((x) => hay.includes(x))) return null;
+        return [(norm(it.t).startsWith(w[0]) ? 4 : 0) + ({ f: 3, a: 3, c: 2, d: 2, g: 1, s: 0 }[it.k] || 0), it];
+      }).filter(Boolean).sort((a, b) => b[0] - a[0] || String(b[1].d || '').localeCompare(String(a[1].d || ''))).slice(0, 8).map((x) => x[1]);
+      list.push({ k: 'a', t: L('palSearchAll', { q }), p: (LANG === 'en' ? 'en/search/' : 'recherche/') + '?q=' + encodeURIComponent(q) });
+    }
+    palItems = list; palSel = 0;
+    pal.querySelector('ul').innerHTML = list.map((it, i) => `<li role="option" id="pal-${i}" aria-selected="${i === 0}" data-i="${i}"><span class="pk">${t(L(KINDS[it.k]))}</span><span class="pt">${t(it.t)}</span>${it.d ? `<time>${t(day(it.d))}</time>` : ''}</li>`).join('');
+    pal.querySelector('input').setAttribute('aria-activedescendant', list.length ? 'pal-0' : '');
+  }
+  function palMove(d) {
+    if (!palItems.length) return;
+    palSel = (palSel + d + palItems.length) % palItems.length;
+    pal.querySelectorAll('[role="option"]').forEach((li, i) => li.setAttribute('aria-selected', String(i === palSel)));
+    const cur = pal.querySelector(`#pal-${palSel}`); cur.scrollIntoView({ block: 'nearest' });
+    pal.querySelector('input').setAttribute('aria-activedescendant', 'pal-' + palSel);
+  }
+  function palGo(i) {
+    const it = palItems[i]; if (!it) return;
+    track('module/palette', it.k);
+    if (it.run) { it.run(); return; }
+    location.href = ROOT + it.p;
+  }
+  let palOpener = null;
+  function openPalette() {
+    palOpener = document.activeElement;
+    if (!pal) {
+      pal = document.createElement('div');
+      pal.className = 'pal'; pal.hidden = true;
+      pal.innerHTML = `<div class="pal-box" role="dialog" aria-modal="true" aria-label="${esc(L('palTitle'))}"><div class="pal-in">${icon('search')}<input type="text" role="combobox" aria-expanded="true" aria-controls="pal-list" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="${esc(typo(L('palPh')))}" aria-label="${esc(L('palTitle'))}"></div><ul id="pal-list" role="listbox"></ul><p class="pal-hint">${t(L('palHint'))}</p></div>`;
+      document.body.appendChild(pal);
+      const inp = pal.querySelector('input');
+      inp.addEventListener('input', palRender);
+      inp.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') { e.preventDefault(); palMove(1); } else if (e.key === 'ArrowUp') { e.preventDefault(); palMove(-1); } else if (e.key === 'Enter') { e.preventDefault(); palGo(palSel); }
+      });
+      pal.addEventListener('click', (e) => { const li = e.target.closest('[data-i]'); if (li) palGo(Number(li.dataset.i)); else if (!e.target.closest('.pal-box')) closePalette(); });
+    }
+    pal.hidden = false; document.documentElement.classList.add('pal-on');
+    const inp = pal.querySelector('input'); inp.value = ''; palRender(); inp.focus();
+    if (!palIx) json(DATA + 'search.json').then((ix) => { palIx = ix; palRender(); }).catch(() => {});
+  }
+  function closePalette() {
+    if (!pal || pal.hidden) return;
+    pal.hidden = true; document.documentElement.classList.remove('pal-on');
+    if (palOpener && palOpener.focus) palOpener.focus();
+  }
+  document.addEventListener('keydown', (e) => {
+    if ((e.key === 'k' || e.key === 'K') && (e.metaKey || e.ctrlKey)) { e.preventDefault(); if (pal && !pal.hidden) closePalette(); else openPalette(); return; }
+    if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey && !e.target.closest('input, textarea, select, [contenteditable]')) { e.preventDefault(); openPalette(); return; }
+    if (e.key === 'Escape' && pal && !pal.hidden) { e.stopImmediatePropagation(); closePalette(); }
+  }, true);
+  document.addEventListener('click', (e) => { const b = e.target.closest('[data-palette]'); if (b) { e.preventDefault(); openPalette(); } });
+
   // L'édition affichée est-elle en retard ? (après 7 h 45, heure de Paris, celle du jour devrait être là)
   function stale(date) {
     const parts = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Paris', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(new Date());
@@ -270,5 +402,5 @@
   const methodHref = () => ROOT + (LANG === 'en' ? 'en/method/' : 'methode/');
   const aiLabel = () => `<span class="ai-label">${t(L('aiLabel'))} · <a href="${methodHref()}">${t(L('aiMore'))}</a></span>`;
 
-  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay, pref, setPref, reducedMotion };
+  global.TP = { ROOT, LANG, LOC, DATA, L, fr: typo, typo, esc, t, day, dayLong, longDate, hour, dayCount, nf, dec1, dec2, int, json, icon, utc, flag, cfield, population, store, cap, stale, aiLabel, track, trackOnce, share, visit, streak, follows, paintFollow, parisDay, pref, setPref, reducedMotion, paintSaved, savedList, randomStory, openPalette };
 })(window);
