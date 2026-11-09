@@ -30,8 +30,8 @@ const LANGS = ['fr', 'en'];
 const OTHER = { fr: 'en', en: 'fr' };
 const PRE = { fr: '', en: 'en/' };
 const FIXED = {
-  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/' },
-  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/' }
+  fr: { home: '', globe: 'globe/', archives: 'archives/', method: 'methode/', status: 'status/', search: 'recherche/', about: 'a-propos/', legal: 'mentions-legales/', privacy: 'confidentialite/', credits: 'credits/', corrections: 'corrections/', map: 'carte/', week: 'semaine/', figures: 'chiffres/', offline: 'hors-ligne/', press: 'presse/', letter: 'lettre/', quiz: 'quiz/', access: 'accessibilite/', sources: 'sources/', coverage: 'couverture/', glossary: 'glossaire/' },
+  en: { home: 'en/', globe: 'en/edition/', archives: 'en/archives/', method: 'en/method/', status: 'en/status/', search: 'en/search/', about: 'en/about/', legal: 'en/legal/', privacy: 'en/privacy/', credits: 'en/credits/', corrections: 'en/corrections/', map: 'en/map/', week: 'en/week/', figures: 'en/figures/', offline: 'en/offline/', press: 'en/press/', letter: 'en/newsletter/', quiz: 'en/quiz/', access: 'en/accessibility/', sources: 'en/sources/', coverage: 'en/coverage/', glossary: 'en/glossary/' }
 };
 // Réglages de lecture appliqués avant l'affichage (thème, taille, police, interligne, animations), sans clignotement.
 const PREPAINT = "(function(){try{var d=document.documentElement,g=function(k){var v=localStorage.getItem('tp.'+k);return v?JSON.parse(v):''},th=g('theme');if(th==='auto')th=matchMedia('(prefers-color-scheme: light)').matches?'day':'';if(th==='day')d.setAttribute('data-theme','day');['size','font','lh','motion'].forEach(function(k){var v=g(k);if(v)d.setAttribute('data-'+k,v)})}catch(e){}})();";
@@ -287,8 +287,8 @@ function footer(C, rootRel) {
   return `<footer class="site-foot">
   <div class="foot-brand"><p><span class="foot-name">DIURNA<span class="mark-dot">.</span></span></p><p class="foot-sub">${C.t(C.S.sub)}</p>${kofi}</div>
   <nav class="foot-cols" aria-label="${esc(C.S.navFoot)}">
-    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
-    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
+    <div><h2>${C.S.footRead}</h2>${a(editionHome(C.lang), C.S.navEdition)}${a(P.map, C.S.navMap)}${a(P.week, C.S.nav7)}${a(P.figures, C.S.navFigures)}${a(P.archives, C.S.navArchives)}${a(countriesIndex(C.lang), C.S.navCountries)}${a(dossiersIndex(C.lang), C.S.navDossiers)}${a(P.glossary, C.S.glTitle)}${a(P.search, C.S.navSearch)}${a(PRE[C.lang] + 'feed.xml', C.S.navFeed, ' type="application/rss+xml"')}</div>
+    <div><h2>${C.S.footProject}</h2>${a(P.about, C.S.navAbout)}${a(P.letter, C.S.navLetter)}${a(P.press, C.S.navPress)}${a(P.method, C.S.navMethod)}${a(P.sources, C.S.srcTitle)}${a(P.coverage, C.S.covPageTitle)}${a(P.corrections, C.S.navCorrections)}${a(P.status, C.S.navStatus)}<a href="https://github.com/${REPO}/issues/new?template=erreur.yml" rel="noopener" target="_blank">${C.S.reportError}</a></div>
     <div><h2>${C.S.footInfo}</h2>${a(P.legal, C.S.navLegal)}${a(P.privacy, C.S.navPrivacy)}${a(P.access, C.S.navAccess)}${a(P.credits, C.S.navCredits)}</div>
   </nav>
 </footer>`;
@@ -376,13 +376,16 @@ function storySSR(C, ed, s) {
         <h2>${C.t(s.title)}</h2>
         <p class="chapo">${C.t(s.standfirst)}</p>
         <p class="byline">${meta.join('')}</p>
+        <p class="lbl">${C.S.lblFacts}</p>
         <p class="body">${(s.body || []).map(C.t).join(' ')}</p>
         ${fig}
-        ${s.analysis ? `<h3>${C.t(s.analysis.title)}</h3><p class="analysis">${C.t(s.analysis.text)}</p>` : ''}
+        ${s.analysis ? `<p class="lbl">${C.S.lblAnalysis}</p><h3>${C.t(s.analysis.title)}</h3><p class="analysis">${C.t(s.analysis.text)}</p>` : ''}
+        ${coverageSSR(C, s)}
         <div class="folds">${keys ? fold(C.S.keys, `<dl class="keys">${keys}</dl>`, 'cles') : ''}${ctx ? fold(C.S.timeline, `<ol class="timeline">${ctx}</ol>`, 'reperes') : ''}${src ? fold(C.S.sources, `<ul class="sources">${src}</ul>`, 'sources') : ''}</div>
         ${updatesSSR(C, s)}
         ${actionsSSR(C, ed, s)}
         <section class="nextreads" aria-labelledby="nr-h"><h3 id="nr-h">${C.S.readNext}</h3><ul>${next}</ul></section>
+        ${pastSSR(C, pastOf(C.lang, ed, s))}
       </div>`;
 }
 // Temps de lecture : chapô, trois phrases, analyse et clés, à 220 mots par minute.
@@ -803,6 +806,7 @@ function home(C) {
     <h2 class="band-h" id="h-sommaire">${C.S.fiveStories}</h2>
     <ol class="summary">${summary}
     </ol>
+    <details class="oneminute"><summary>${C.S.oneMin}${ICON.plus}</summary><ol>${ed.essentials.map((s) => `<li class="c${s.rank}"><a href="${url(s)}"><span class="rank">${s.rank}</span><b>${C.t(s.title)}</b> ${C.t((s.body || [])[0] || '')}</a></li>`).join('')}</ol></details>
     <section class="mine" id="mine" aria-labelledby="h-mine" hidden><h2 class="band-h" id="h-mine">${C.S.myCountries}</h2><ul class="archive" id="mineList"></ul></section>
     <div class="duo">
       <section aria-labelledby="h-bref">
@@ -904,6 +908,61 @@ function dossierAlt(lang, id) {
   }
   return null;
 }
+/* ---------- Comprendre : couverture des sujets, rédactions citées, sujets passés ---------- */
+const OUTLETS = readJ('data/outlets.json', { outlets: {}, agencies: {}, types: {} });
+const SRCQ = readJ('data/sources.json', { ref: [], weak: [] });
+const GLOSS = readJ('data/glossary.json', { fr: [], en: [] });
+const hostOf = (u) => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (_) { return ''; } };
+const inList = (h, list) => list.some((d) => h === d || h.endsWith('.' + d));
+const outletKey = (h) => Object.keys(OUTLETS.outlets).find((d) => h === d || h.endsWith('.' + d));
+const reEsc = (x) => x.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const AGENCIES = Object.entries(OUTLETS.agencies).map(([a, c]) => ({ name: a, country: c, re: new RegExp(`(^|[^\\p{L}])${reEsc(a)}([^\\p{L}]|$)`, 'u') }));
+// « Associated Press, via PBS » : la rédaction qui a produit l'information est avant « via ».
+const producer = (x, lang) => String((lang === 'en' && x.name_en) || x.name || '').split(/,\s*(?:via|par)\s+/i)[0].trim();
+const agencyOf = (name) => AGENCIES.find((a) => a.re.test(name)) || null;
+// Pays de la rédaction : celui de l'agence si elle est nommée, sinon celui du média lui-même (jamais d'un simple relais).
+function producerInfo(x) {
+  const a = agencyOf(producer(x));
+  if (a) return { country: a.country, type: 'agence' };
+  const k = outletKey(hostOf(x.url));
+  if (/,\s*(via|par)\s/i.test(x.name || '')) return { country: null, type: null };
+  return k ? { country: OUTLETS.outlets[k][0], type: OUTLETS.outlets[k][1] } : { country: null, type: null };
+}
+function coverageOf(s, lang) {
+  const src = s.sources || [];
+  const prods = [...new Set(src.map((x) => producer(x, lang)).filter(Boolean))];
+  const ref = src.filter((x) => inList(hostOf(x.url), SRCQ.ref)).length;
+  const ag = [...new Set(src.map((x) => agencyOf(producer(x))).filter(Boolean).map((a) => a.name))];
+  const local = [...new Set(src.filter((x) => producerInfo(x).country === s.id).map((x) => producer(x, lang)))];
+  return { n: src.length, p: prods.length, ref, ag, local };
+}
+// Sujets des éditions précédentes sur le même dossier ou le même pays (les plus récents d'abord).
+function pastOf(lang, ed, s) {
+  const out = [];
+  for (const e of EDS[lang]) {
+    if (e.date >= ed.date) continue;
+    for (const o of e.essentials) {
+      let sc = 0;
+      if (s.dossier && o.dossier && o.dossier.id === s.dossier.id) sc += 5;
+      if (o.id === s.id) sc += 4;
+      if ((s.involved || []).includes(o.id) && (o.involved || []).includes(s.id)) sc += 2;
+      if (sc >= 4) out.push({ sc, date: e.date, id: o.id, place: o.place, title: o.title, path: storyPath(lang, e.date, o.slug) });
+    }
+  }
+  return out.sort((a, b) => b.date.localeCompare(a.date) || b.sc - a.sc).slice(0, 3).map(({ sc, ...x }) => x);
+}
+function coverageSSR(C, s) {
+  const c = coverageOf(s, C.lang);
+  if (!c.n) return '';
+  const it = [`<li><b>${C.int(c.n)}</b> ${C.S[c.n > 1 ? 'covSrc' : 'covSrc1']}</li>`, `<li><b>${C.int(c.p)}</b> ${C.S[c.p > 1 ? 'covProd' : 'covProd1']}</li>`, `<li><b>${C.int(c.ref)}</b> ${C.t(C.S.covRef)}</li>`];
+  if (c.ag.length) it.push(`<li>${C.t(`${C.S[c.ag.length > 1 ? 'covAgs' : 'covAg']} : ${c.ag.join(', ')}`)}</li>`);
+  if (c.local.length) it.push(`<li>${C.t(`${C.S.covLocal} : ${c.local.join(', ')}`)}</li>`);
+  return `<section class="coverage" aria-labelledby="cov-h"><h3 class="lbl" id="cov-h">${C.S.covTitle}</h3><ul>${it.join('')}</ul><a class="link-quiet" href="${C.rootRel}${FIXED[C.lang].sources}">${C.S.covMore}</a></section>`;
+}
+function pastSSR(C, list) {
+  if (!list.length) return '';
+  return `<section class="pastreads" aria-labelledby="past-h"><h3 id="past-h">${C.S.pastTitle}</h3><ul>${list.map((x) => `<li><a href="${C.rootRel}${x.path}"><time datetime="${x.date}">${C.t(C.dm(x.date))}</time><span class="rubric">${flag(x.id, C.rootRel)}${C.t(C.cname(x.id, x.place))}</span><span class="nr-t">${C.t(x.title)}</span></a></li>`).join('')}</ul></section>`;
+}
 const cslug = (lang, id) => slugify(lang === 'en' && countries[id] && countries[id].en ? countries[id].en.name : (countries[id] ? countries[id].name : id), lang, 6);
 function listItems(C, items) {
   const r = C.rootRel;
@@ -934,10 +993,35 @@ function countryPage(C, id, items) {
     <div class="locator" id="locator" data-id="${id}" aria-hidden="true"></div>
   </div>
   ${idBand(C, { id, place: name }).replace('<details class="idband">', '<details class="idband" open>')}
+  ${countryStats(C, id, items)}
   ${listItems(C, items)}
   <p class="more-links"><a href="feed.xml" type="application/rss+xml">${C.S.navFeed}</a><a href="${C.rootRel}${FIXED[C.lang].map}?${C.lang === 'en' ? 'country' : 'pays'}=${id}">${C.S.navMap}</a></p>
 </main>`, scripts: [...VENDOR, 'assets/js/live.js', 'assets/js/locator.js']
   });
+}
+// Le pays dans Diurna : apparitions, première et dernière fois, 30 derniers jours, pays souvent cités avec lui.
+function countryStats(C, id, items) {
+  const main = items.filter((i) => !i.brief), briefs = items.length - main.length;
+  const dates = items.map((i) => i.date).sort();
+  const days = EDS[C.lang].slice(-30).map((e) => e.date);
+  const score = new Map(); for (const i of items) score.set(i.date, Math.max(score.get(i.date) || 0, i.brief ? 1 : 2));
+  const H = 36, bw = 14, W = Math.max(days.length, 1) * bw;
+  const bars = days.map((d, k) => { const v = score.get(d) || 0; const h = v ? (v === 2 ? H : H * 0.45) : 2; return `<rect x="${(k * bw + 1).toFixed(1)}" y="${(H - h).toFixed(1)}" width="${Math.max(bw - 2, 1).toFixed(1)}" height="${h.toFixed(1)}" class="${v === 2 ? 'v2' : v === 1 ? 'v1' : 'v0'}"/>`; }).join('');
+  const co = new Map();
+  for (const ed of EDS[C.lang]) for (const st of ed.essentials) {
+    if (st.id === id) (st.involved || []).forEach((x) => { if (x !== id) co.set(x, (co.get(x) || 0) + 1); });
+    else if ((st.involved || []).includes(id)) co.set(st.id, (co.get(st.id) || 0) + 1);
+  }
+  const with_ = [...co].sort((a, b) => b[1] - a[1]).slice(0, 6);
+  const r = C.rootRel;
+  const link = (x) => (COL[C.lang].byCountry.has(x) ? `<a href="${r}${countryPath(C.lang, cslug(C.lang, x))}">${flag(x, r)}${C.t(C.cname(x, x))}</a>` : `<span>${flag(x, r)}${C.t(C.cname(x, x))}</span>`);
+  const nActive = days.filter((d) => score.has(d)).length;
+  return `<section class="cstats" aria-labelledby="cs-h">
+    <h2 class="band-h" id="cs-h">${C.S.csTitle}</h2>
+    <dl class="stats"><div><dt>${C.S.csMain}</dt><dd>${C.int(main.length)}</dd></div><div><dt>${C.S.csBrief}</dt><dd>${C.int(briefs)}</dd></div><div><dt>${C.S.csFirst}</dt><dd>${C.t(C.dm(dates[0]))}</dd></div><div><dt>${C.S.csLast}</dt><dd>${C.t(C.dm(dates[dates.length - 1]))}</dd></div></dl>
+    <figure class="spark"><svg viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="${esc(C.L('csSpark', { n: nActive, d: days.length }))}">${bars}</svg><figcaption>${C.t(C.L('csSpark', { n: nActive, d: days.length }))}</figcaption></figure>
+    ${with_.length ? `<p class="cs-with"><b>${C.S.csWith}</b> ${with_.map(([x]) => link(x)).join('')}</p>` : ''}
+  </section>`;
 }
 // Frise d'un dossier : du premier épisode au dernier, avec le jour de suivi.
 function timelineItems(C, items) {
@@ -951,6 +1035,16 @@ function timelineItems(C, items) {
     </a></li>`).join('')}
   </ol>`;
 }
+// Chiffres d'un dossier : jours de suivi, épisodes, pays concernés, rédactions citées.
+function dossierStats(C, id, items) {
+  const sts = []; for (const ed of EDS[C.lang]) for (const st of ed.essentials) if (st.dossier && st.dossier.id === id) sts.push([ed.date, st]);
+  if (!sts.length) return '';
+  const d0 = sts[0][0], d1 = sts[sts.length - 1][0];
+  const nDays = Math.round((utc(d1) - utc(d0)) / 864e5) + 1;
+  const cs = new Set(); sts.forEach(([, st]) => { cs.add(st.id); (st.involved || []).forEach((x) => cs.add(x)); });
+  const prods = new Set(); sts.forEach(([, st]) => (st.sources || []).forEach((x) => prods.add(producer(x, C.lang))));
+  return `<dl class="stats"><div><dt>${C.S.dsDays}</dt><dd>${C.int(nDays)}</dd></div><div><dt>${C.S.dsEpisodes}</dt><dd>${C.int(sts.length)}</dd></div><div><dt>${C.S.dsCountries}</dt><dd>${C.int(cs.size)}</dd></div><div><dt>${C.S.dsNewsrooms}</dt><dd>${C.int(prods.size)}</dd></div></dl>`;
+}
 function dossierPage(C, id, items) {
   const p = dossierPath(C.lang, id); C.rootRel = rootRelOf(p);
   const other = OTHER[C.lang];
@@ -963,12 +1057,97 @@ function dossierPage(C, id, items) {
   <p class="rubric"><a href="${C.rootRel}${dossiersIndex(C.lang)}">${C.S.dossiers}</a></p>
   <h1>${C.t(title)}</h1>
   <p class="chapo">${C.t(C.L('dossierDesc', { x: title }))}</p>
+  ${dossierStats(C, id, items)}
   ${timelineItems(C, items)}
   <p class="more-links"><a href="feed.xml" type="application/rss+xml">${C.S.navFeed}</a><a href="atom.xml" type="application/atom+xml">Atom</a></p>
 </main>`, scripts: BASE
   });
 }
 
+/* ---------- Nos sources, baromètre de couverture et glossaire ---------- */
+function sourcesPage(C) {
+  const p = FIXED[C.lang].sources; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const by = new Map();
+  for (const ed of EDS[C.lang]) for (const st of ed.essentials) for (const x of st.sources || []) {
+    const name = producer(x, C.lang); if (!name) continue;
+    const info = producerInfo(x);
+    const o = by.get(name) || { name, n: 0, ref: false, country: info.country, type: info.type, last: null };
+    o.n++; o.ref = o.ref || inList(hostOf(x.url), SRCQ.ref);
+    if (!o.country && info.country) { o.country = info.country; o.type = info.type; }
+    if (!o.last || ed.date >= o.last.date) o.last = { date: ed.date, title: st.title, path: storyPath(C.lang, ed.date, st.slug) };
+    by.set(name, o);
+  }
+  const list = [...by.values()].sort((a, b) => b.n - a.n || a.name.localeCompare(b.name));
+  const total = list.reduce((a, x) => a + x.n, 0);
+  const nCountries = new Set(list.map((x) => x.country).filter((c) => c && c !== 'INT')).size;
+  const typeName = (ty) => (ty && OUTLETS.types[ty] ? OUTLETS.types[ty][C.lang === 'en' ? 1 : 0] : '');
+  const cn = (c) => (c === 'INT' ? C.S.srcIntl : c ? C.cname(c, c) : '');
+  const rows = list.map((x) => `<tr><th scope="row">${C.t(x.name)}${x.ref ? ` <span class="tag">${C.S.srcRefTag}</span>` : ''}</th><td>${x.country && x.country !== 'INT' ? flag(x.country, r) : ''}${C.t(cn(x.country)) || '—'}</td><td>${C.t(typeName(x.type)) || '—'}</td><td class="num">${C.int(x.n)}</td><td><a href="${r}${x.last.path}"><time datetime="${x.last.date}">${C.t(C.dm(x.last.date))}</time> · ${C.t(x.last.title)}</a></td></tr>`).join('');
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.sources, en: FIXED.en.sources }, title: esc(C.S.srcTitle + ' — Diurna'), desc: C.t(C.S.srcDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.srcTitle, p]])],
+    body: `<main class="page page-wide">
+  <h1>${C.S.srcTitle}</h1>
+  <p class="chapo">${C.t(C.S.srcDesc)}</p>
+  <dl class="stats"><div><dt>${C.S.srcNewsrooms}</dt><dd>${C.int(list.length)}</dd></div><div><dt>${C.S.srcCitations}</dt><dd>${C.int(total)}</dd></div><div><dt>${C.S.srcCountries}</dt><dd>${C.int(nCountries)}</dd></div><div><dt>${C.S.srcRefShare}</dt><dd>${Math.round((100 * list.filter((x) => x.ref).reduce((a, x) => a + x.n, 0)) / Math.max(1, total))} %</dd></div></dl>
+  <p>${C.t(C.S.srcHow)}</p>
+  <div class="table-wrap"><table class="src-table"><thead><tr><th scope="col">${C.S.srcColName}</th><th scope="col">${C.S.srcColCountry}</th><th scope="col">${C.S.srcColType}</th><th scope="col" class="num">${C.S.srcColN}</th><th scope="col">${C.S.srcColLast}</th></tr></thead><tbody>${rows}</tbody></table></div>
+  <p class="more-links"><a href="${r}${FIXED[C.lang].coverage}">${C.S.covPageTitle}</a><a href="${r}${FIXED[C.lang].method}">${C.S.navMethod}</a></p>
+</main>`, scripts: BASE
+  });
+}
+function coveragePage(C) {
+  const p = FIXED[C.lang].coverage; C.rootRel = rootRelOf(p); const r = C.rootRel;
+  const eds = EDS[C.lang], last7 = eds.slice(-7);
+  const cont = (id) => C.cf(id, 'continent') || C.S.covUnknown;
+  const tally = (list) => { const m = new Map(); for (const ed of list) for (const st of ed.essentials) m.set(cont(st.id), (m.get(cont(st.id)) || 0) + 1); return m; };
+  const all = tally(eds), week = tally(last7);
+  const conts = [...new Set([...all.keys()].concat(Object.values(countries).map((c) => (C.lang === 'en' && c.en ? c.en.continent : c.continent)).filter((x) => x && !/Antar/.test(x))))];
+  const nAll = eds.reduce((a, e) => a + e.essentials.length, 0), nWeek = last7.reduce((a, e) => a + e.essentials.length, 0);
+  const bar = (v, n) => `<span class="bar"><span style="width:${n ? Math.round((100 * v) / n) : 0}%"></span></span>`;
+  const rowsC = conts.sort((a, b) => (all.get(b) || 0) - (all.get(a) || 0)).map((k) => `<tr><th scope="row">${C.t(k)}</th><td class="num">${C.int(all.get(k) || 0)}</td><td>${bar(all.get(k) || 0, nAll)}</td><td class="num">${C.int(week.get(k) || 0)}</td></tr>`).join('');
+  const byC = new Map(); for (const ed of eds) for (const st of ed.essentials) byC.set(st.id, (byC.get(st.id) || 0) + 1);
+  const top = [...byC].sort((a, b) => b[1] - a[1]).slice(0, 10);
+  const once = [...byC].filter(([, n]) => n === 1).map(([id]) => id);
+  const known = Object.keys(countries).filter((id) => !/Antar/.test(countries[id].continent || '')).length;
+  const silent = conts.filter((k) => !(week.get(k)));
+  const cpath = (id) => (COL[C.lang].byCountry.has(id) ? `${r}${countryPath(C.lang, cslug(C.lang, id))}` : null);
+  const clink = (id) => { const h = cpath(id); const nm = `${flag(id, r)}${C.t(C.cname(id, id))}`; return h ? `<a href="${h}">${nm}</a>` : nm; };
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.coverage, en: FIXED.en.coverage }, title: esc(C.S.covPageTitle + ' — Diurna'), desc: C.t(C.S.covPageDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.covPageTitle, p]])],
+    body: `<main class="page page-wide">
+  <h1>${C.S.covPageTitle}</h1>
+  <p class="chapo">${C.t(C.S.covPageDesc)}</p>
+  <dl class="stats"><div><dt>${C.S.covStories}</dt><dd>${C.int(nAll)}</dd></div><div><dt>${C.S.covCountries}</dt><dd>${C.int(byC.size)}</dd></div><div><dt>${C.S.covNever}</dt><dd>${C.int(known - byC.size)}</dd></div><div><dt>${C.S.covEditions}</dt><dd>${C.int(eds.length)}</dd></div></dl>
+  <h2>${C.S.covByCont}</h2>
+  <div class="table-wrap"><table class="cov-table"><thead><tr><th scope="col">${C.S.covColCont}</th><th scope="col" class="num">${C.S.covColAll}</th><th scope="col"><span class="vh">${C.S.covColShare}</span></th><th scope="col" class="num">${C.S.covCol7}</th></tr></thead><tbody>${rowsC}</tbody></table></div>
+  ${silent.length ? `<p class="blind">${C.t(C.L('covBlind', { x: silent.join(', ') }))}</p>` : ''}
+  <h2>${C.S.covTop}</h2>
+  <ol class="cov-top">${top.map(([id, n]) => `<li>${clink(id)}<span>${C.t(C.L(n > 1 ? 'covTimes' : 'covTimes1', { n: C.int(n) }))}</span></li>`).join('')}</ol>
+  ${once.length ? `<h2>${C.S.covOnce}</h2><p class="cov-once">${once.map(clink).join(' ')}</p>` : ''}
+  <h2>${C.S.covWhy}</h2>
+  <p>${C.t(C.S.covWhyText)}</p>
+  <p class="more-links"><a href="${r}${FIXED[C.lang].sources}">${C.S.srcTitle}</a><a href="${r}${FIXED[C.lang].map}">${C.S.navMap}</a><a href="${r}${FIXED[C.lang].method}">${C.S.navMethod}</a></p>
+</main>`, scripts: BASE
+  });
+}
+function glossaryPage(C) {
+  const p = FIXED[C.lang].glossary; C.rootRel = rootRelOf(p);
+  const coll = new Intl.Collator(C.S.locale);
+  const list = (GLOSS[C.lang] || []).slice().sort((a, b) => coll.compare(a.t, b.t));
+  const letters = [...new Set(list.map((g) => g.t[0].toUpperCase()))];
+  return page(C, {
+    path: p, alt: { fr: FIXED.fr.glossary, en: FIXED.en.glossary }, title: esc(C.S.glTitle + ' — Diurna'), desc: C.t(C.S.glDesc),
+    jsonld: [crumbs([['Diurna', FIXED[C.lang].home], [C.S.glTitle, p]]), { '@context': 'https://schema.org', '@type': 'DefinedTermSet', name: `Diurna — ${C.S.glTitle}`, inLanguage: C.lang, hasDefinedTerm: list.map((g) => ({ '@type': 'DefinedTerm', name: g.t, description: g.d, url: `${abs}/${p}#${g.k}` })) }],
+    body: `<main class="page">
+  <h1>${C.S.glTitle}</h1>
+  <p class="chapo">${C.t(C.S.glDesc)}</p>
+  <nav class="gl-letters" aria-label="${esc(C.S.glTitle)}">${letters.map((l) => `<a href="#l-${esc(l)}">${esc(l)}</a>`).join('')}</nav>
+  ${letters.map((l) => `<section class="gl-sec" aria-labelledby="l-${esc(l)}"><h2 class="gl-l" id="l-${esc(l)}">${esc(l)}</h2><dl class="glossary">${list.filter((g) => g.t[0].toUpperCase() === l).map((g) => `<div id="${esc(g.k)}"><dt>${C.t(g.t)}</dt><dd>${C.t(g.d)}</dd></div>`).join('')}</dl></section>`).join('')}
+</main>`, scripts: BASE
+  });
+}
 function countriesPage(C) {
   const p = countriesIndex(C.lang); C.rootRel = rootRelOf(p); const r = C.rootRel;
   const coll = new Intl.Collator(C.S.locale);
@@ -1007,7 +1186,7 @@ function dossiersPage(C) {
 function mapData(lang) {
   const eds = EDS[lang].slice(-30);
   const days = {};
-  for (const ed of eds) days[ed.date] = { s: ed.essentials.map((x) => [x.rank, x.id, x.title, storyPath(lang, ed.date, x.slug)]), b: (ed.brief || []).map((b) => b.id).filter(Boolean) };
+  for (const ed of eds) days[ed.date] = { s: ed.essentials.map((x) => [x.rank, x.id, x.title, storyPath(lang, ed.date, x.slug), (x.involved || []).filter((y) => y !== x.id)]), b: (ed.brief || []).map((b) => b.id).filter(Boolean) };
   const cpages = {};
   for (const id of COL[lang].byCountry.keys()) cpages[id] = countryPath(lang, cslug(lang, id));
   return { dates: eds.map((e) => e.date), days, pages: cpages };
@@ -1047,10 +1226,12 @@ function mapPage(C) {
     </form>
     <div class="map-card" id="mapCard" aria-live="polite"><p class="map-hint">${C.t(C.S.mapPick)}</p></div>
     <label class="check"><input type="checkbox" id="mapNight" checked> ${C.S.mapNight}</label>
+    <label class="check"><input type="checkbox" id="mapLinks"> ${C.S.mapLinks}</label>
     <details class="fold legend-fold"><summary>${C.S.legend}${ICON.plus}</summary><div class="fold-body"><ul class="legend">
       <li><span class="lg lg-heat"></span>${C.t(C.S.legHeat)}</li>
       <li><span class="lg lg-pin">1</span>${C.t(C.S.legStory)}</li>
       <li><span class="lg lg-night"></span>${C.t(C.S.legNight)}</li>
+      <li><span class="lg lg-link"></span>${C.t(C.S.legLinks)}</li>
     </ul></div></details>
     <section class="map-top" aria-labelledby="mapTopH"><h2 id="mapTopH">${C.S.mapTop}</h2><ol id="mapTop"></ol></section>
   </section>
@@ -1390,6 +1571,7 @@ for (const lang of LANGS) {
     wr(quizPath(lang, ed.date) + 'index.html', quizPage(C, ed));
     wr(storiesPath(lang, ed.date) + 'index.html', storiesPage(C, ed));
     SM.push({ path: quizPath(lang, ed.date) });
+    wr(dataOf(lang, `xtra/${ed.date}.json`), JSON.stringify(Object.fromEntries(ed.essentials.map((s) => [s.rank, { cov: coverageOf(s, lang), past: pastOf(lang, ed, s) }]))));
     for (const rank of [...ed.essentials.map((s) => s.rank), 'bref']) {
       const { path: p, html } = readerPage(C, ed, rank);
       wr(p + 'index.html', html); count++;
@@ -1415,6 +1597,8 @@ for (const lang of LANGS) {
   wr(P.map + 'index.html', mapPage(C)); wr(dataOf(lang, 'map.json'), JSON.stringify(mapData(lang)));
   SM.push({ path: P.map, alt: { fr: FIXED.fr.map, en: FIXED.en.map } });
   wr(P.corrections + 'index.html', correctionsPage(C)); SM.push({ path: P.corrections, alt: { fr: FIXED.fr.corrections, en: FIXED.en.corrections } });
+  wr(P.sources + 'index.html', sourcesPage(C)); wr(P.coverage + 'index.html', coveragePage(C)); wr(P.glossary + 'index.html', glossaryPage(C));
+  for (const k of ['sources', 'coverage', 'glossary']) SM.push({ path: P[k], alt: { fr: FIXED.fr[k], en: FIXED.en[k] } });
   for (const key of ['about', 'legal', 'privacy', 'access', 'credits']) { wr(P[key] + 'index.html', infoPage(C, key)); SM.push({ path: P[key], alt: { fr: FIXED.fr[key], en: FIXED.en[key] } }); }
   wr(dataOf(lang, 'search.json'), JSON.stringify(searchIndex(lang)));
   SM.push({ path: P.home, lastmod: latestOf(lang).updated.slice(0, 10), alt: { fr: FIXED.fr.home, en: FIXED.en.home } });

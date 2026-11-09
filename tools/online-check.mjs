@@ -20,7 +20,7 @@ const pick = (html, re, n = 4) => [...html.matchAll(re)].slice(0, n).map((m) => 
 
 line(`== Site : ${base}`);
 const pages = ['/', '/en/', '/globe/', '/en/edition/', '/archives/', '/pays/', '/dossiers/', '/recherche/', '/en/country/', '/en/dossiers/', '/methode/', '/status/',
-  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/', '/corrections/', '/en/corrections/', '/accessibilite/', '/en/accessibility/',
+  '/a-propos/', '/mentions-legales/', '/confidentialite/', '/credits/', '/en/about/', '/en/legal/', '/en/privacy/', '/en/credits/', '/corrections/', '/en/corrections/', '/accessibilite/', '/en/accessibility/', '/sources/', '/en/sources/', '/couverture/', '/en/coverage/', '/glossaire/', '/en/glossary/',
   '/carte/', '/en/map/', '/semaine/', '/en/week/', '/chiffres/', '/en/figures/', '/lettre/', '/en/newsletter/', '/presse/', '/en/press/', '/hors-ligne/', '/quiz/',
   '/feed.json', '/en/feed.json', '/agenda.ics', '/en/agenda.ics', '/manifest.webmanifest', '/data/glossary.json', '/data/map.json', '/icons/screens/mobile-home.webp',
   '/status.json', '/sitemap.xml', '/news-sitemap.xml', '/robots.txt', '/feed.xml', '/atom.xml', '/en/feed.xml', '/all.xml', ...(site.checkPaths || [])];

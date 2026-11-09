@@ -37,7 +37,18 @@
       globe.setHeat(new Map([...m].map(([id, v]) => [id, level(v, max)])));
     }
     renderTop();
+    renderLinks();
     if (current) openCountry(current, false);
+  }
+
+  // Liens entre le pays de chaque sujet et les pays concernés, sur la période affichée.
+  function renderLinks() {
+    if (!$('mapLinks').checked) { globe.setLinks([]); return; }
+    const n = mode === 'day' ? 1 : Number(mode), m = new Map();
+    for (let i = Math.max(0, dayIx - n + 1); i <= dayIx; i++) {
+      data.days[data.dates[i]].s.forEach((x) => (x[4] || []).forEach((y) => { const k = [x[1], y].sort().join('|'); m.set(k, (m.get(k) || 0) + 1); }));
+    }
+    globe.setLinks([...m].map(([k, w]) => k.split('|').concat(w)));
   }
 
   function renderTop() {
@@ -111,6 +122,7 @@
   $('mapSearch').addEventListener('change', () => { const id = findId($('mapSearch').value); if (id) openCountry(id, true); });
   $('mapTop').addEventListener('click', (e) => { const b = e.target.closest('[data-country]'); if (b) openCountry(b.dataset.country, true); });
   $('mapNight').addEventListener('change', (e) => { globe.setNight(e.target.checked); store.set('mapNight', e.target.checked); });
+  $('mapLinks').addEventListener('change', (e) => { store.set('mapLinks', e.target.checked); renderLinks(); if (e.target.checked) TP.trackOnce('module/carte-liens', 'on'); });
   $('zin').addEventListener('click', () => globe.zoomBy(1.3));
   $('zout').addEventListener('click', () => globe.zoomBy(1 / 1.3));
   const fs = $('zfs'), stage = host.closest('.stage');
@@ -125,6 +137,7 @@
     globe.load(world);
     const night = store.get('mapNight', true);
     $('mapNight').checked = night; globe.setNight(night);
+    $('mapLinks').checked = store.get('mapLinks', false);
     dayIx = data.dates.length - 1;
     const r = $('mapDay'); r.max = String(dayIx); r.value = String(dayIx);
     $('mapCountries').innerHTML = Object.values(cs).map((m) => `<option value="${esc(cfield(m, 'name'))}">`).join('');

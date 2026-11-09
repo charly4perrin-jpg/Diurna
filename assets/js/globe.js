@@ -68,6 +68,7 @@
       this.gNight = make('path', { class: 'g-night' }, svg);
       this.gShade = make('path', { class: 'g-shade' }, svg);
       this.gArcs = make('g', {}, svg);
+      this.gLinks = make('g', { class: 'g-links' }, svg);
       this.gPins = make('g', {}, svg);
       this.gRim = make('path', { class: 'g-rim' }, svg);
       this.grat = d3.geoGraticule10();
@@ -206,6 +207,19 @@
         g.classList.toggle('on', r === this.current || r === preview);
         g.classList.toggle('off', !!this.current && r !== this.current && r !== preview);
       });
+    }
+
+    // Liens entre pays (carte) : [[a, b, poids]] ; un trait par paire, plus épais si la paire revient souvent.
+    setLinks(pairs) {
+      this.gLinks.textContent = '';
+      const max = Math.max(1, ...(pairs || []).map((x) => x[2]));
+      this.links = (pairs || []).map(([a, b, w]) => {
+        const A = this.centroid.get(a), B = this.centroid.get(b);
+        if (!A || !B) return null;
+        const el = make('path', { class: 'g-link', 'stroke-width': (0.8 + 2.2 * (w / max)).toFixed(2) }, this.gLinks);
+        return { el, geo: { type: 'LineString', coordinates: [A, B] } };
+      }).filter(Boolean);
+      this.draw();
     }
 
     // Surligne des groupes de pays (camps, soutiens, médiateurs) et cadre le globe dessus.
@@ -375,6 +389,7 @@
       for (const f of this.features) f._el.setAttribute('d', this.path(f) || '');
       this.gNight.setAttribute('d', this.night ? (this.path(d3.geoCircle().center(Globe.antiSun()).radius(90)()) || '') : '');
       (this.arcs || []).forEach((a) => a.el.setAttribute('d', this.path(a.geo) || ''));
+      (this.links || []).forEach((a) => a.el.setAttribute('d', this.path(a.geo) || ''));
       const c = [-this.rot[0], -this.rot[1]];
       (this.pins || []).forEach((p) => {
         const vis = d3.geoDistance(p.ll, c) < Math.PI / 2 - 0.06;

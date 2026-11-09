@@ -9,7 +9,7 @@
   const prevBtn = $('prev'), nextBtn = $('next');
   const B = document.body.dataset;
   const isLatest = B.latest === '1';
-  let ed = null, step = B.rank === 'bref' ? 6 : Number(B.rank) || 1, countries = {}, gov = {}, world = null, routes = null;
+  let ed = null, step = B.rank === 'bref' ? 6 : Number(B.rank) || 1, countries = {}, gov = {}, world = null, routes = null, xtra = {};
   const other = LANG === 'en' ? 'fr' : 'en';
   const datePath = () => TP.ROOT + (LANG === 'en' ? 'en/' : '') + ed.date.replace(/-/g, '/') + '/';
   const urlOf = (n) => { const s = ed.essentials.find((x) => x.rank === n); return s ? datePath() + s.slug + '/' : datePath(); };
@@ -155,9 +155,11 @@
         <h2>${t(s.title)}</h2>
         <p class="chapo">${t(s.standfirst)}</p>
         <p class="byline">${meta.join('')}</p>
+        <p class="lbl">${t(L('lblFacts'))}</p>
         <p class="body">${(s.body || []).map(t).join(' ')}</p>
         ${Modules.html(s)}
-        ${s.analysis ? `<h3>${t(s.analysis.title)}</h3><p class="analysis">${t(s.analysis.text)}</p>` : ''}
+        ${s.analysis ? `<p class="lbl">${t(L('lblAnalysis'))}</p><h3>${t(s.analysis.title)}</h3><p class="analysis">${t(s.analysis.text)}</p>` : ''}
+        ${coverageHtml(s)}
         <div class="folds">
           ${keys ? fold(L('keys'), `<dl class="keys">${keys}</dl>`, 'cles') : ''}
           ${ctx ? fold(L('timeline'), `<ol class="timeline">${ctx}</ol>`, 'reperes') : ''}
@@ -166,7 +168,23 @@
         ${updatesHtml(s)}
         ${actions(s)}
         ${nextReads(s)}
+        ${pastHtml(s)}
       </div>`;
+  }
+
+  // Couverture du sujet et sujets des éditions précédentes : calculés à la construction (data/xtra/<date>.json).
+  function coverageHtml(s) {
+    const c = xtra[s.rank] && xtra[s.rank].cov;
+    if (!c || !c.n) return '';
+    const it = [`<li><b>${int(c.n)}</b> ${t(L(c.n > 1 ? 'covSrc' : 'covSrc1'))}</li>`, `<li><b>${int(c.p)}</b> ${t(L(c.p > 1 ? 'covProd' : 'covProd1'))}</li>`, `<li><b>${int(c.ref)}</b> ${t(L('covRef'))}</li>`];
+    if (c.ag.length) it.push(`<li>${t(`${L(c.ag.length > 1 ? 'covAgs' : 'covAg')} : ${c.ag.join(', ')}`)}</li>`);
+    if (c.local.length) it.push(`<li>${t(`${L('covLocal')} : ${c.local.join(', ')}`)}</li>`);
+    return `<section class="coverage" aria-labelledby="cov-h"><h3 class="lbl" id="cov-h">${t(L('covTitle'))}</h3><ul>${it.join('')}</ul><a class="link-quiet" href="${TP.ROOT}${LANG === 'en' ? 'en/sources/' : 'sources/'}">${t(L('covMore'))}</a></section>`;
+  }
+  function pastHtml(s) {
+    const list = xtra[s.rank] && xtra[s.rank].past;
+    if (!list || !list.length) return '';
+    return `<section class="pastreads" aria-labelledby="past-h"><h3 id="past-h">${t(L('pastTitle'))}</h3><ul>${list.map((x) => `<li><a href="${TP.ROOT}${x.path}"><time datetime="${x.date}">${t(TP.day(x.date, ed.date))}</time><span class="rubric">${flag(C(x.id))}${t(cname(x.id, x.place))}</span><span class="nr-t">${t(x.title)}</span></a></li>`).join('')}</ul></section>`;
   }
 
   // « Sources : Reuters, AP et 2 autres » : les rédactions citées, sans doublon.
@@ -231,7 +249,7 @@
     if (same) return;
     const el = document.createElement('span');
     el.className = 'gl-pop'; el.setAttribute('role', 'note'); el.id = 'gl-' + g.k;
-    el.innerHTML = `<b>${t(g.t)}</b>${t(g.d)}`;
+    el.innerHTML = `<b>${t(g.t)}</b>${t(g.d)} <a class="gl-more" href="${TP.ROOT}${LANG === 'en' ? 'en/glossary/' : 'glossaire/'}#${esc(g.k)}">${t(L('glTitle'))} →</a>`;
     // La définition flotte sous le mot, par-dessus le texte, sans le couper en deux.
     const host = btn.closest('.chapo, .body, .analysis') || btn.parentNode;
     host.style.position = 'relative';
@@ -471,8 +489,8 @@
 
   const src = `${DATA}editions/${B.date}.json`;
   const soft = (p) => json(p).catch(() => ({}));
-  Promise.all([json('assets/world.json'), json(src), soft('data/countries.json'), soft('data/gov.json'), soft('data/markets.json'), soft('data/indicators.json'), soft('data/routes.json')]).then(([w, edition, cs, gv, mk, ind, rt]) => {
-    ed = edition; countries = cs; gov = gv; world = w; routes = rt;
+  Promise.all([json('assets/world.json'), json(src), soft('data/countries.json'), soft('data/gov.json'), soft('data/markets.json'), soft('data/indicators.json'), soft('data/routes.json'), soft(`${DATA}xtra/${B.date}.json`)]).then(([w, edition, cs, gv, mk, ind, rt, xt]) => {
+    ed = edition; countries = cs; gov = gv; world = w; routes = rt; xtra = xt || {};
     globe.setMeta(countries);
     globe.load(world);
     globe.setStories(ed.essentials, 0);
