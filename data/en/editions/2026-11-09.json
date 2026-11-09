@@ -1,0 +1,952 @@
+{
+  "date": "2026-11-09",
+  "number": 5,
+  "updated": "2026-11-09T07:00:51+01:00",
+  "headline": "Gadi Eisenkot accepts Israel's mandate and calls for a national emergency government",
+  "standfirst": "The former army chief has reached out to Likud, but his own bloc counts only 48 members. A Houthi attack damages an Aramco tower in Riyadh, Ukraine suffers fresh blackouts before the Abu Dhabi talks and COP31 opens in Antalya.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "ISR",
+      "place": "Israel",
+      "section": "Middle East",
+      "types": [
+        "election",
+        "conflict"
+      ],
+      "radar": false,
+      "title": "Gadi Eisenkot accepts the mandate in Israel and calls for a national emergency government",
+      "standfirst": "The former army chief was formally asked on Sunday to form a government, with 67 recommendations but a bloc of only 48 members. He has invited Likud to join him and set four conditions for any partner.",
+      "body": [
+        "On Sunday 8 November, at the presidential residence in Jerusalem, Israel's president, Isaac Herzog, formally handed Gadi Eisenkot, the leader of the Yashar party, the mandate to form the next government, a day after announcing his choice.",
+        "Recommended by 67 of the Knesset's 120 members, against 46 for Benjamin Netanyahu, the former chief of staff commands a bloc of only 48 and has promised creative, unconventional political moves to build a national emergency government.",
+        "He has until 6 December, extendable to 20 December, to assemble a majority, while the new members are due to be sworn in on Tuesday and Mr Netanyahu stays on as caretaker prime minister."
+      ],
+      "figure": {
+        "value": "6 December",
+        "label": "end of the initial deadline to form a coalition",
+        "compare": "extendable to 20 December, according to Israel Hayom"
+      },
+      "modules": {
+        "vote": {
+          "title": "Parliamentary election",
+          "date": "2026-10-27",
+          "asOf": "2026-10-29",
+          "system": "Nationwide party-list proportional representation for the Knesset's 120 seats.",
+          "note": "Final count.",
+          "bodies": [
+            {
+              "name": "Knesset",
+              "total": 120,
+              "majority": 61,
+              "parties": [
+                {
+                  "name": "Outgoing coalition (Netanyahu)",
+                  "value": 53,
+                  "color": "blue"
+                },
+                {
+                  "name": "Opposition (Eisenkot)",
+                  "value": 48,
+                  "color": "amber"
+                },
+                {
+                  "name": "Arab parties",
+                  "value": 19,
+                  "color": "green"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+          }
+        },
+        "scenarios": {
+          "items": [
+            {
+              "if": "Gadi Eisenkot musters 61 members in time",
+              "then": "he becomes prime minister, succeeding Benjamin Netanyahu, who is serving in a caretaker capacity.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+              }
+            },
+            {
+              "if": "Gadi Eisenkot fails",
+              "then": "Isaac Herzog can name another candidate; should that also fail, a majority of members can put forward a third, who has 14 days.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+              }
+            },
+            {
+              "if": "no government is formed",
+              "then": "a fresh election is held within 90 days, with Benjamin Netanyahu remaining interim prime minister.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+              }
+            }
+          ]
+        }
+      },
+      "analysis": {
+        "title": "An open door for Likud",
+        "text": "In his speech Mr Eisenkot did not mention Benjamin Netanyahu by name, but invited Likud and the Religious Zionist Party to join his coalition, saying his door was open. He set four conditions for any partner: recognising Israel as a Jewish and democratic state, respecting the values of its declaration of independence, accepting compulsory military or civilian service and committing to destroy Hamas, which he called a terrorist organisation. He made no mention of Otzma Yehudit, with which his deputy, Yoram Cohen, has ruled out governing. According to the Times of Israel, the most commonly cited arithmetic remains a 61-vote majority resting on his bloc, the seven members of United Torah Judaism and benign abstention by Shas."
+      },
+      "keys": [
+        {
+          "title": "Isaac Herzog's message",
+          "text": "The head of state called for a stable government, able to withstand the threats from Iran, Gaza and Lebanon over the long term. He urged Mr Eisenkot to do everything he could to succeed."
+        },
+        {
+          "title": "The Netanyahu camp",
+          "text": "The outgoing prime minister, who remains in office in a caretaker capacity, wants a national unity government with the right and the ultra-Orthodox parties. On Saturday he described the Arab parties as supporters of terrorism, a message Yashar called hysterical."
+        },
+        {
+          "title": "The timetable",
+          "text": "Once his coalition is formed, Mr Eisenkot will have seven days to present it to the Knesset. His bloc first wants to replace the Speaker, Amir Ohana, which is not expected before next week, according to Israel Hayom."
+        }
+      ],
+      "involved": [
+        "PSE",
+        "USA",
+        "LBN",
+        "IRN"
+      ],
+      "context": [
+        {
+          "d": "2023-10-07",
+          "t": "Hamas attacks southern Israel, setting off the war in Gaza."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "Parliamentary election: no bloc wins a majority."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Isaac Herzog says he will ask Gadi Eisenkot to form the government."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "The mandate is formally handed over in Jerusalem; Mr Eisenkot reaches out to Likud."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "The new Knesset is sworn in."
+        },
+        {
+          "d": "2026-12-06",
+          "t": "End of the initial 28-day deadline to form a government."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Times of Israel",
+          "title": "Eisenkot gets nod to form government, vows 'unconventional acts' in time of emergency",
+          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Israel's president formally gives Eisenkot the first chance to form the next government",
+          "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Israel Hayom",
+          "title": "Eisenkot tasked with forming government, calls for unity",
+          "url": "https://www.israelhayom.com/2026/11/08/eisenkot-tasked-with-forming-government-calls-for-unity/",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "President Herzog taps Eisenkot to form coalition, but path remains fraught",
+          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
+          "date": "2026-11-08"
+        }
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israel and Gaza"
+      },
+      "slug": "gadi-eisenkot-accepts-mandate-israel-calls-national-emergency"
+    },
+    {
+      "rank": 2,
+      "id": "SAU",
+      "place": "Saudi Arabia",
+      "section": "Middle East",
+      "types": [
+        "conflict",
+        "economy"
+      ],
+      "radar": false,
+      "title": "Houthi attack damages an Aramco tower in the heart of Riyadh's financial district",
+      "standfirst": "Missiles fired from Yemen were intercepted over the Saudi capital on Sunday, but debris struck a building belonging to the oil giant. The Houthi authorities accuse Saudi aircraft of killing dozens of people near Sanaa.",
+      "body": [
+        "Overnight on Saturday 7 and Sunday 8 November Saudi air defences intercepted Houthi missiles fired at Riyadh, but debris blew out the windows of several floors of an Aramco building in the King Abdullah Financial District, causing no casualties, according to the energy ministry.",
+        "The Iran-aligned Yemeni rebels have stepped up their fire on the kingdom's ports and airports since September, and their spokesman, Yahya Saree, claims they also targeted Riyadh's international airport, which the Saudi authorities have not confirmed.",
+        "The Saudi-led coalition says it destroyed missile launchers in Saada and Sanaa, while the Houthi-run health ministry reports at least 33 people killed on Saturday and 40 on Sunday in Saudi strikes near the Yemeni capital."
+      ],
+      "figure": {
+        "value": "$107",
+        "label": "a barrel of Brent crude on 3 November",
+        "compare": "against about $71 in late February, before the Iran war"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "≥ 40",
+              "label": "killed in Saudi strikes near Sanaa on 8 November",
+              "by": "the Houthi-run health ministry",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Reuters, via AsiaOne",
+                "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+              }
+            },
+            {
+              "value": "≥ 33",
+              "label": "killed in Saudi strikes near Sanaa on 7 November",
+              "by": "the Houthi-run health ministry",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Reuters, via AsiaOne",
+                "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+              }
+            },
+            {
+              "value": "13",
+              "label": "killed in the Houthi attack on Riyadh airport on 10 October",
+              "by": "CBS News",
+              "date": "2026-10-13",
+              "source": {
+                "name": "CBS News",
+                "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+              }
+            }
+          ],
+          "note": "Tolls have not been independently verified; Riyadh says it is investigating the strikes near Sanaa."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "King Abdullah Financial District, Riyadh",
+              "coords": [
+                46.64,
+                24.76
+              ],
+              "note": "Aramco building damaged by debris on 8 November, with no casualties."
+            },
+            {
+              "name": "Sanaa",
+              "coords": [
+                44.21,
+                15.35
+              ],
+              "note": "Saudi strikes on 7 and 8 November, according to the Houthi authorities."
+            }
+          ],
+          "source": {
+            "name": "Reuters, via AsiaOne",
+            "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Saudi Arabia and the coalition",
+              "ids": [
+                "SAU"
+              ],
+              "note": "Backs Yemen's internationally recognised government and strikes Houthi positions."
+            },
+            {
+              "name": "Houthis",
+              "ids": [
+                "YEM"
+              ],
+              "note": "Have held Sanaa for more than a decade; aligned with Iran.",
+              "backers": [
+                {
+                  "id": "IRN",
+                  "note": "support alleged by Riyadh and Washington"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Reuters, via AsiaOne",
+            "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Iran war begins"
+          }
+        },
+        "inflation": {}
+      },
+      "analysis": {
+        "title": "Another front in a regional war",
+        "text": "According to Reuters, the Houthi offensive against the kingdom amounts to a new front in the war that America and Israel have waged on Iran since February. After advancing towards the Bab al-Mandab strait in September, the rebels have fired a growing number of missiles and drones at Saudi infrastructure; on 10 October an attack on Riyadh's airport killed 13 people, according to CBS News. The Houthis also claim strikes on Aramco storage tanks in Riyadh and Abqaiq, which the Institute for the Study of War has been unable to verify. Meanwhile Iran's Revolutionary Guards have targeted ships in the Strait of Hormuz, keeping up the pressure on the world's oil supply."
+      },
+      "keys": [
+        {
+          "title": "The Eastern Province",
+          "text": "No disruption to Aramco's operations has been reported, according to Investing.com. Alerts were lifted on Sunday in Dhahran, Dammam, Abqaiq and Al-Ahsa, shortly before the interception of a missile aimed at the region was announced."
+        },
+        {
+          "title": "Regional diplomacy",
+          "text": "According to Reuters, Saudi, Turkish and Pakistani officials, whose countries are bound by a defence pact, met Iranian leaders in Tehran last month. In October Britain announced defensive missions by its fighter jets."
+        }
+      ],
+      "involved": [
+        "YEM",
+        "IRN",
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "American and Israeli strikes on Iran start a regional war."
+        },
+        {
+          "d": "2026-10-10",
+          "t": "Attack on Riyadh's international airport: 13 killed."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Debris hits an Aramco tower in Riyadh's financial district."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters, via AsiaOne",
+          "title": "Houthi attack damages Aramco building in Riyadh financial district",
+          "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "The Week",
+          "title": "Saudi Aramco building damaged in Riyadh after Houthi attack from Yemen intercepted",
+          "url": "https://www.theweek.in/news/middle-east/2026/11/08/saudi-aramco-building-damaged-in-riyadh-after-houthi-attack-from-yemen-intercepted.html",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Critical Threats",
+          "title": "Iran Update, November 8, 2026",
+          "url": "https://www.criticalthreats.org/analysis/iran-update-november-8-2026",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Investing.com",
+          "title": "Saudi Arabia lifts oil region alerts after Houthi missile intercepted",
+          "url": "https://www.investing.com/news/economy-news/saudi-arabia-lifts-oil-region-alerts-after-houthi-missile-intercepted-5010126",
+          "date": "2026-11-08"
+        }
+      ],
+      "dossier": {
+        "id": "yemen-war",
+        "title": "The war in Yemen"
+      },
+      "slug": "houthi-attack-damages-aramco-tower-heart-riyadh-financial"
+    },
+    {
+      "rank": 3,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "radar": false,
+      "title": "In Ukraine 850,000 people lose power ahead of the talks in Abu Dhabi",
+      "standfirst": "Fresh Russian strikes hit the power grid on Sunday, notably in the Dnipropetrovsk region, and the Zaporizhzhia nuclear plant lost its external power supply. Paris says Europeans will take part in the talks on 10 and 11 November.",
+      "body": [
+        "Overnight Russian strikes on Sunday 8 November left more than 850,000 people in Ukraine without electricity, over 600,000 of them in the Dnipropetrovsk region, according to the energy company DTEK, while one person was killed and three wounded in Dnipro.",
+        "The Russian-occupied Zaporizhzhia nuclear plant lost its external power and is running on diesel generators, and a drone hit the site in Komyshuvakha where an earlier strike killed at least 55 people, targeting rescuers, according to Kyiv.",
+        "France's foreign minister, Jean-Noël Barrot, announced that France and other Europeans would join the talks in Abu Dhabi on 10 and 11 November, which had until now been conceived as a meeting between Washington, Moscow and Kyiv."
+      ],
+      "figure": {
+        "value": "> 850,000",
+        "label": "people left without electricity after the overnight strikes",
+        "compare": "over 600,000 in the Dnipropetrovsk region, according to DTEK"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "1",
+              "label": "killed and three wounded in a strike on a residential area of Dnipro on 8 November",
+              "by": "Oleksandr Hanzha, head of the regional military administration",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Euronews",
+                "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on"
+              }
+            },
+            {
+              "value": "≥ 55",
+              "label": "killed in the attack on a former school in Komyshuvakha",
+              "by": "the Ukrainian authorities",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Associated Press, via ABC News",
+                "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
+              }
+            },
+            {
+              "value": "45",
+              "label": "people still missing in Komyshuvakha",
+              "by": "the acting head of the regional administration",
+              "date": "2026-11-08",
+              "source": {
+                "name": "Associated Press, via ABC News",
+                "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
+              }
+            }
+          ],
+          "note": "Tolls have not been independently verified."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Zaporizhzhia nuclear plant",
+              "coords": [
+                34.59,
+                47.51
+              ],
+              "note": "Cut off from external power on 8 November and running on diesel generators."
+            },
+            {
+              "name": "Dnipro",
+              "coords": [
+                35.05,
+                48.46
+              ],
+              "note": "One killed and three wounded in a strike on 8 November; widespread outages in the region."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via ABC News",
+            "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
+          }
+        },
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA",
+            "FRA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Paris",
+              "wants": "To be present so that Europe's voice is heard, according to Jean-Noël Barrot."
+            },
+            {
+              "who": "Washington",
+              "wants": "A deal: Donald Trump predicts a very important agreement with Russia, extending to the whole of Europe."
+            }
+          ],
+          "next": {
+            "d": "2026-11-10",
+            "t": "Talks in Abu Dhabi on 10 and 11 November."
+          },
+          "source": {
+            "name": "Associated Press, via ABC News",
+            "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
+          }
+        }
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "analysis": {
+        "title": "Winter as a weapon",
+        "text": "Moscow is pressing on with its campaign against Ukraine's energy grid as winter approaches. Volodymyr Zelensky says Russia fired 115 missiles, nearly 1,900 guided bombs and more than 3,000 attack drones in a single week. Russia's defence ministry says it hit a substation supplying firms in the military-industrial complex. In the Zhytomyr region 140 apartment blocks were left without heating, and in the Kharkiv region up to 250,000 customers lost power, since restored. The loss of external power at the Zaporizhzhia plant, after the Ferosplavna line was disconnected, revives fears over the safety of Europe's largest nuclear site, which now depends on its back-up generators."
+      },
+      "keys": [
+        {
+          "title": "Komyshuvakha",
+          "text": "The Russian drone hit the former school and a nearby shelter that had already been struck on Monday, injuring no one, according to the emergency services. Volodymyr Zelensky denounced what he called absolute cynicism."
+        },
+        {
+          "title": "The Abu Dhabi format",
+          "text": "The talks had been presented as a three-way meeting organised by Washington. Jean-Noël Barrot did not say who would represent France."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "ARE",
+        "FRA"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2026-11-02",
+          "t": "Russian strike on a former school in Komyshuvakha: at least 55 killed."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "36 ballistic missiles fired at Kyiv and its region; the North Bridge is closed."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "More than 850,000 people lose power; the Zaporizhzhia plant runs on generators."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Talks in Abu Dhabi, with European representatives."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Euronews",
+          "title": "Russian strikes on Ukraine leave 850,000 without power as Zelenskyy reports drone attack",
+          "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Associated Press, via ABC News",
+          "title": "Russia targets emergency crews at site of deadly strike in southern Ukraine",
+          "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536",
+          "date": "2026-11-08"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "ukraine-850-000-people-lose-power-ahead-talks"
+    },
+    {
+      "rank": 4,
+      "id": "TUR",
+      "place": "Turkey",
+      "section": "International",
+      "types": [
+        "diplomacy",
+        "society"
+      ],
+      "radar": false,
+      "title": "COP31 opens in Antalya as the world looks set to overshoot 1.5°C",
+      "standfirst": "Nearly 200 countries meet in Turkey until 20 November for the UN climate conference, presided over by Ankara with Australia leading the negotiations. Current policies point to 2.8°C of warming, according to the UN's latest projection.",
+      "body": [
+        "The 31st UN climate conference opens on Monday 9 November in Antalya, Turkey, bringing together delegations from nearly 200 countries until 20 November under the presidency of Turkey's environment minister, Murat Kurum.",
+        "Scientists consider it almost certain that warming will exceed 1.5°C in 2026, and current policies point to a rise of 2.8°C by the end of the century, according to the UN's latest projection, cited by the German news agency DPA.",
+        "Australia's climate minister, Chris Bowen, will chair the negotiations, an unprecedented division of roles, ahead of a leaders' summit on 11 and 12 November at which markedly fewer heads of state are expected than at recent COPs."
+      ],
+      "figure": {
+        "value": "2.8°C",
+        "label": "of warming expected by 2100 under current policies",
+        "compare": "against the Paris agreement's goal of 1.5°C"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Antalya",
+              "coords": [
+                30.71,
+                36.9
+              ],
+              "note": "The conference is held at the Antalya Expo centre, from 9 to 20 November."
+            }
+          ],
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+          }
+        },
+        "table": {
+          "ids": [
+            "TUR",
+            "AUS"
+          ],
+          "host": "TUR",
+          "positions": [
+            {
+              "who": "Turkish and Australian presidency",
+              "wants": "To implement and accelerate existing commitments, according to their joint letter to delegations."
+            },
+            {
+              "who": "UN Climate Change",
+              "wants": "More effort: collective progress remains far from sufficient, according to its executive secretary, Simon Stiell."
+            }
+          ],
+          "next": {
+            "d": "2026-11-11",
+            "t": "Leaders' summit, 11 and 12 November."
+          },
+          "source": {
+            "name": "The High Street Journal",
+            "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/"
+          }
+        },
+        "actors": {
+          "items": [
+            {
+              "name": "Murat Kurum",
+              "role": "Turkey's environment minister, president of COP31."
+            },
+            {
+              "name": "Chris Bowen",
+              "role": "Australia's climate minister, president of the negotiations."
+            },
+            {
+              "name": "Simon Stiell",
+              "role": "Executive secretary of UN Climate Change."
+            }
+          ],
+          "source": {
+            "name": "The High Street Journal",
+            "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-09",
+              "t": "The conference opens in Antalya."
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Leaders' summit, until 12 November."
+            },
+            {
+              "d": "2026-11-20",
+              "t": "Negotiations scheduled to close."
+            }
+          ],
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A two-headed presidency",
+        "text": "Turkey and Australia both bid to host the conference; the compromise reached in November 2025 gave Ankara the organisation and the action agenda, and Canberra the conduct of the negotiations. DPA notes that this novel arrangement has raised fears of friction, as the two countries' proposals were poorly co-ordinated during the preparations. The chosen theme, implementation and acceleration, signals more modest ambitions: according to the UN's synthesis of plans from 154 countries, national pledges would cut emissions only about 6% below 2019 levels by 2035. Adaptation finance, which COP30 in Belém promised to triple, looks set to be one of the main sticking points."
+      },
+      "keys": [
+        {
+          "title": "Fewer leaders",
+          "text": "A provisional UN list has 77 heads of state or government registered to speak, against 116 in Dubai in 2023, according to Climate & Capital Media. Turkey says it expects 91 leaders."
+        },
+        {
+          "title": "The hosts and coal",
+          "text": "Greenpeace criticises Turkey for its coal subsidies and a plan to expand a power station. Both host countries are still developing coal, according to the NGO Urgewald."
+        }
+      ],
+      "involved": [
+        "AUS",
+        "BRA",
+        "CHN"
+      ],
+      "context": [
+        {
+          "d": "2015-12-12",
+          "t": "The Paris agreement is adopted, aiming to limit warming to 1.5°C."
+        },
+        {
+          "d": "2025-11-10",
+          "t": "COP30 opens in Belém, Brazil."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "The UN publishes its synthesis of national climate plans."
+        },
+        {
+          "d": "2026-11-09",
+          "t": "COP31 opens in Antalya."
+        },
+        {
+          "d": "2026-11-20",
+          "t": "The conference is scheduled to close."
+        }
+      ],
+      "sources": [
+        {
+          "name": "DPA, via Yahoo News",
+          "title": "Climate summit to open in Turkey",
+          "url": "https://www.yahoo.com/news/science/articles/climate-summit-open-turkey-amid-040329357.html",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "The High Street Journal",
+          "title": "COP31 opens in Antalya with pressure to turn climate pledges into action",
+          "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Climate & Capital Media",
+          "title": "COP31 Antalya preview",
+          "url": "https://www.climateandcapitalmedia.com/cop31-antalya-preview/",
+          "date": "2026-11-03"
+        },
+        {
+          "name": "Wikipedia",
+          "title": "2026 United Nations Climate Change Conference",
+          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
+          "date": "2026-11-09"
+        }
+      ],
+      "dossier": {
+        "id": "cop31",
+        "title": "COP31 in Antalya"
+      },
+      "slug": "cop31-opens-antalya-world-looks-set-overshoot-1"
+    },
+    {
+      "rank": 5,
+      "id": "MMR",
+      "place": "Myanmar",
+      "section": "Asia-Pacific",
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "radar": true,
+      "title": "Myanmar's army kills eleven people in an air strike on a school in Sagaing",
+      "standfirst": "Teachers and children were among the victims of a bombing on Saturday in Kani township, according to independent Burmese media. The National Unity Government counted 641 army air strikes in October.",
+      "body": [
+        "At around 11.30am on Saturday 7 November an air strike by Myanmar's army hit a school and the village of Nyaung Pin Le, in Kani township in the Sagaing region, killing eleven people, most of them teachers and children, according to independent media.",
+        "The bombing is part of an air campaign that killed 212 civilians in October, 23 of them children, according to the exiled National Unity Government, nearly six years after the coup and seven months after Min Aung Hlaing was elected president.",
+        "Fighting continues in Mon State, where more than 15,000 residents have fled Kyaikto township, and in Rakhine, while from 9 November the army is closing checkpoints at night in three Sagaing townships."
+      ],
+      "figure": {
+        "value": "641",
+        "label": "army air strikes in October",
+        "compare": "212 civilians killed, according to the National Unity Government"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "11",
+              "label": "killed in the air strike on the school in Nyaung Pin Le on 7 November",
+              "by": "independent Burmese media",
+              "date": "2026-11-08",
+              "source": {
+                "name": "MoeMaKa",
+                "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
+              }
+            },
+            {
+              "value": "212",
+              "label": "civilians killed by air strikes in October, 23 of them children",
+              "by": "the National Unity Government",
+              "date": "2026-11-07",
+              "source": {
+                "name": "MoeMaKa",
+                "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
+              }
+            },
+            {
+              "value": "≥ 12",
+              "label": "killed in the air strike on a hospital in Kawlin township on 4 November",
+              "by": "Karenni People's Voice",
+              "date": "2026-11-07",
+              "source": {
+                "name": "Burma Coup Resistance Notes",
+                "url": "https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5"
+              }
+            }
+          ],
+          "note": "Tolls have not been independently verified."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Kani, Sagaing region",
+              "coords": [
+                94.88,
+                22.43
+              ],
+              "note": "Air strike on a school in Nyaung Pin Le, in the township, on 7 November."
+            }
+          ],
+          "source": {
+            "name": "MoeMaKa",
+            "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "The army and the Naypyidaw government",
+              "lead": "Min Aung Hlaing",
+              "ids": [
+                "MMR"
+              ],
+              "note": "Elected president by parliament in April 2026; Ye Win Oo commands the armed forces."
+            },
+            {
+              "name": "Armed resistance",
+              "ids": [
+                "MMR"
+              ],
+              "note": "People's Defence Forces linked to the National Unity Government, and ethnic armed groups such as the Arakan Army."
+            }
+          ],
+          "source": {
+            "name": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "unicef",
+            "unhcr"
+          ]
+        }
+      },
+      "since": {
+        "date": "2021-02-01",
+        "label": "since the coup"
+      },
+      "analysis": {
+        "title": "War from the air",
+        "text": "Unable to retake large swathes of the countryside, the army relies on its air force, which the resistance has no means to counter. Sagaing, the heartland of armed opposition to the 2021 coup, is the worst-hit region: besides the school in Kani, a hospital in Kawlin township was bombed on 4 November, killing at least 12 people including a doctor, and a shelter for displaced people was hit in Wetlet. Min Aung Hlaing's election as president in April, after a vote organised by the army, has not ended the fighting. Shells fired in Karen State have also landed in Thailand's Tak province, damaging homes."
+      },
+      "keys": [
+        {
+          "title": "The American channel",
+          "text": "America opened direct negotiations with the military government in October, while keeping its sanctions on Min Aung Hlaing. On 3 November the National Unity Government responded to an American strategy document."
+        },
+        {
+          "title": "Prosecutions",
+          "text": "A Philippine appeals court has registered a petition from the Chin Human Rights Organization targeting Min Aung Hlaing and nine other officers, according to the NGO."
+        }
+      ],
+      "involved": [
+        "THA",
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2021-02-01",
+          "t": "The army overthrows Aung San Suu Kyi's government in a coup."
+        },
+        {
+          "d": "2026-04-03",
+          "t": "Min Aung Hlaing is elected president by parliament."
+        },
+        {
+          "d": "2026-10-08",
+          "t": "America opens direct negotiations with the military government."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Air strike on a hospital in Kawlin township."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Air strike on a school in Kani township: eleven killed."
+        }
+      ],
+      "sources": [
+        {
+          "name": "MoeMaKa",
+          "title": "November 8, 2026: M-CDM domestic news",
+          "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Burma Coup Resistance Notes",
+          "title": "Burma Coup Resistance Notes, November 7",
+          "url": "https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Wikipedia",
+          "title": "2026 in Myanmar",
+          "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar",
+          "date": "2026-11-09"
+        }
+      ],
+      "dossier": {
+        "id": "myanmar-civil-war",
+        "title": "Myanmar's civil war"
+      },
+      "slug": "myanmar-army-kills-eleven-people-air-strike-school"
+    }
+  ],
+  "brief": [
+    {
+      "id": "JPN",
+      "place": "Japan",
+      "text": "An earthquake of magnitude 5.7, according to the Japan Meteorological Agency, centred in Shizuoka prefecture, injured at least 22 people in central Japan, according to local media cited by the AP.",
+      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
+    },
+    {
+      "id": "URY",
+      "place": "Uruguay",
+      "text": "Pope Leo XIV preached to some 40,000 worshippers in Paysandú, on the Argentine border, during a 12-day tour of South America that ends on 17 November.",
+      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
+    },
+    {
+      "id": "IRN",
+      "place": "Iran",
+      "text": "Donald Trump called a new offensive against Iran very unlikely, while linking it to progress in talks, and said the Iron Gate task force, meant to cut Iran's overland arms routes, was fully operational.",
+      "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-new-task-force-to-disrupt-land-routes-into-iran-is-in-full-force/"
+    },
+    {
+      "id": "ARE",
+      "place": "United Arab Emirates",
+      "text": "The UAE's National Guard rescued 22 people after a cargo ship caught fire in the Gulf of Oman, as attacks on shipping around the Strait of Hormuz multiply.",
+      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-09",
+      "t": "The COP31 climate conference opens in Antalya, Turkey."
+    },
+    {
+      "d": "2026-11-10",
+      "t": "Talks on Ukraine in Abu Dhabi, with Europeans at the table; the Knesset is sworn in."
+    },
+    {
+      "d": "2026-11-11",
+      "t": "COP31 leaders' summit, until 12 November."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "APEC summit in Shenzhen, with a meeting between Donald Trump and Xi Jinping."
+    },
+    {
+      "d": "2026-12-06",
+      "t": "End of Gadi Eisenkot's initial deadline to form a government in Israel."
+    }
+  ],
+  "consulted": [
+    "Reuters",
+    "Associated Press",
+    "The Times of Israel",
+    "Israel Hayom",
+    "PBS",
+    "Euronews",
+    "DPA",
+    "The Week",
+    "Critical Threats",
+    "MoeMaKa"
+  ]
+}
