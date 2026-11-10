@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="fr">
+<title>Diurna — Nvidia et les soupçons d’espionnage chinois</title>
+<subtitle>Le suivi de Diurna, jour après jour : Nvidia et les soupçons d&apos;espionnage chinois.</subtitle>
+<id>https://charly4perrin-jpg.github.io/Diurna/dossiers/nvidia-chine/atom.xml</id>
+<link rel="self" type="application/atom+xml" href="https://charly4perrin-jpg.github.io/Diurna/dossiers/nvidia-chine/atom.xml"/>
+<link rel="alternate" type="text/html" href="https://charly4perrin-jpg.github.io/Diurna/dossiers/nvidia-chine/"/>
+<updated>2026-11-10T06:05:31.000Z</updated>
+<author><name>Diurna</name><uri>https://charly4perrin-jpg.github.io/Diurna/</uri></author>
+<icon>https://charly4perrin-jpg.github.io/Diurna/icons/icon-192.png</icon>
+<entry xml:lang="fr">
+<title>Nvidia enquête sur son patron, Jensen Huang, lié à une femme soupçonnée d’espionner pour Pékin</title>
+<link rel="alternate" type="text/html" href="https://charly4perrin-jpg.github.io/Diurna/2026/11/10/nvidia-enquete-patron-jensen-huang-lie-femme-soupconnee/"/>
+<id>https://charly4perrin-jpg.github.io/Diurna/2026/11/10/nvidia-enquete-patron-jensen-huang-lie-femme-soupconnee/</id>
+<published>2026-11-10T06:00:00.000Z</published>
+<updated>2026-11-10T06:05:31.000Z</updated>
+<category term="Amériques"/>
+<content type="html">&lt;p&gt;&lt;strong&gt;Le conseil d’administration du géant des puces pour l’intelligence artificielle a confié une enquête à des administrateurs indépendants après les aveux de son PDG. Trois présidents de commission de la Chambre des représentants veulent l’entendre à huis clos.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Dimanche 8 novembre, le conseil d’administration de Nvidia a annoncé une enquête confiée à un comité d’administrateurs indépendants, assisté d’avocats extérieurs, après que son PDG, Jensen Huang, a reconnu une relation intime avec Alice Huang, ancienne dirigeante de Megaspeed, une société de centres de données basée à Singapour. Selon le New York Times, le renseignement américain a conclu que cette femme transmettait des informations à Pékin, ce que la Chine qualifie de spéculation sans fondement, et une société malaisienne liée à Megaspeed a acheté au moins 4,8 milliards de dollars d’équipements intégrant la technologie Nvidia. Le conseil dit n’avoir aucune raison de croire que la sécurité nationale ou des informations confidentielles ont été compromises et maintient sa confiance au PDG, que trois présidents de commission de la Chambre des représentants souhaitent entendre à huis clos le 18 novembre.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Rédigé par une IA à partir des sources citées.&lt;/em&gt;&lt;/p&gt;</content>
+</entry>
+</feed>

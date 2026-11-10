@@ -1,119 +1,123 @@
-# Diurna — N° 5 — Lundi 9 novembre 2026
+# Diurna — N° 6 — Mardi 10 novembre 2026
 
-> En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d’urgence nationale »
+> À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers sous le regard des Européens
 
-L’ancien chef d’état-major tend la main au Likoud, mais ne compte que 48 députés dans son bloc. Une attaque houthiste endommage une tour d’Aramco à Riyad, l’Ukraine subit de nouvelles coupures avant Abou Dhabi et la COP31 s’ouvre à Antalya.
+Les trois délégations se retrouvent pour la première fois ensemble depuis février, sans grand espoir d’accord. La Pologne pleure les victimes de Cracovie, Nvidia enquête sur son patron, l’ANC essuie son pire revers et le Yémen compte ses morts à Taëz.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Israël — En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d’urgence nationale »
+## 1. Ukraine — À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers, les Européens en coulisses
 
-**L’ancien chef d’état-major a officiellement reçu dimanche la mission de former le gouvernement, avec 67 recommandations mais un bloc de 48 députés. Il appelle le Likoud à le rejoindre et pose quatre conditions à tout partenaire.**
+**Les délégations des trois pays se retrouvent mardi et mercredi aux Émirats arabes unis, pour la première fois ensemble depuis février. Les Européens seront sur place, mais Moscou refuse de les associer aux discussions, centrées sur la sécurité.**
 
-Dimanche 8 novembre, à la résidence présidentielle de Jérusalem, le président israélien, Isaac Herzog, a remis officiellement au chef du parti Yashar, Gadi Eisenkot, le mandat de former le prochain gouvernement, au lendemain de l’annonce de son choix. Recommandé par 67 députés sur 120, contre 46 pour Benyamin Nétanyahou, l’ancien chef d’état-major ne dispose que d’un bloc de 48 élus et a promis des initiatives politiques « créatives et non conventionnelles » pour bâtir un « gouvernement d’urgence nationale ». Il a jusqu’au 6 décembre, délai prolongeable jusqu’au 20 décembre, pour réunir une majorité, alors que les nouveaux députés doivent prêter serment mardi et que Benyamin Nétanyahou reste en fonctions pour expédier les affaires courantes.
+Mardi 10 novembre s’ouvrent à Abou Dhabi deux jours de pourparlers entre la Russie, l’Ukraine et les États-Unis, représentés par les émissaires Steve Witkoff et Jared Kushner, la première rencontre à trois depuis février, quand la guerre contre l’Iran avait détourné l’attention de Washington. Moscou exige toujours le retrait ukrainien des régions de Donetsk, de Louhansk, de Zaporijia et de Kherson ainsi que le renoncement à l’OTAN, tandis que Kiev refuse de céder un territoire non conquis et réclame d’abord un cessez-le-feu, si bien qu’aucun des analystes interrogés par Al Jazeera n’attend d’accord de paix. Une équipe européenne conduite par Björn Seibert, chef de cabinet d’Ursula von der Leyen, ainsi que des conseillers français, allemands et britanniques seront présents, mais le Kremlin assure qu’ils ne participeront pas aux discussions, dont la sécurité doit être le premier thème, selon Sergueï Lavrov.
 
-**Le chiffre du jour :** 6 décembre — fin du délai initial pour former une coalition
+**Le chiffre du jour :** ≈ 20 % — du territoire ukrainien occupé par la Russie
 
-### La main tendue au Likoud
+### Des délégations de haut rang
 
-Dans son discours, Gadi Eisenkot n’a pas prononcé le nom de Benyamin Nétanyahou mais a invité le Likoud et le Parti sioniste religieux à rejoindre sa coalition, assurant que sa « porte est ouverte ». Il fixe quatre conditions à tout partenaire : reconnaître Israël comme État juif et démocratique, respecter les valeurs de la déclaration d’indépendance, accepter un service militaire ou civil obligatoire et s’engager à détruire le Hamas, qualifié d’organisation terroriste. Il n’a pas évoqué Otzma Yehudit, avec lequel son numéro deux, Yoram Cohen, exclut de gouverner. Selon le Times of Israel, l’hypothèse arithmétique la plus citée reste une majorité de 61 voix reposant sur son bloc, les sept députés du Judaïsme unifié de la Torah et l’abstention bienveillante du Shas.
-
-Sources :
-- [The Times of Israel — Gadi Eisenkot promet des actes « non conventionnels »](https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/)
-- [Associated Press, via PBS — Le président donne la première chance à Gadi Eisenkot](https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government)
-- [Israel Hayom — Gadi Eisenkot appelle à l’unité](https://www.israelhayom.com/2026/11/08/eisenkot-tasked-with-forming-government-calls-for-unity/)
-- [The Times of Israel — Une coalition encore introuvable](https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/09/israel-gadi-eisenkot-recoit-mandat-promet-gouvernement-urgence/
-
-## 2. Arabie Saoudite — À Riyad, une attaque houthiste endommage la tour d’Aramco au cœur du quartier financier
-
-**Des missiles tirés depuis le Yémen ont été interceptés dimanche au-dessus de la capitale saoudienne, mais des débris ont touché un immeuble du géant pétrolier. Les autorités houthistes accusent l’aviation saoudienne d’avoir tué des dizaines de personnes près de Sanaa.**
-
-Dans la nuit du samedi 7 au dimanche 8 novembre, des missiles houthistes tirés vers Riyad ont été interceptés par la défense aérienne saoudienne, mais des débris ont soufflé les vitres de plusieurs étages d’un immeuble d’Aramco dans le quartier financier du roi Abdallah, sans faire de victimes, selon le ministère de l’énergie. Les rebelles yéménites, alignés sur l’Iran, ont intensifié depuis septembre leurs tirs contre les ports et les aéroports du royaume, et leur porte-parole, Yahya Saree, affirme avoir aussi visé l’aéroport international de Riyad, ce que les autorités saoudiennes n’ont pas confirmé. La coalition dirigée par Riyad dit avoir détruit des lanceurs de missiles à Saada et à Sanaa, tandis que le ministère de la santé houthiste fait état d’au moins 33 morts samedi et 40 dimanche dans des frappes saoudiennes près de la capitale yéménite.
-
-**Le chiffre du jour :** 107 $ — le baril de Brent au 3 novembre
-
-### Un front de plus dans la guerre régionale
-
-Selon Reuters, l’offensive houthiste contre le royaume constitue un nouveau front de la guerre menée par les États-Unis et Israël contre l’Iran depuis février. Après une avancée en septembre vers le détroit de Bab el-Mandeb, les rebelles ont multiplié les tirs de missiles et de drones contre les infrastructures saoudiennes ; le 10 octobre, une attaque contre l’aéroport de Riyad avait fait 13 morts, selon CBS News. Les Houthis revendiquent aussi des frappes contre des réservoirs d’Aramco à Riyad et à Abqaïq, que l’Institute for the Study of War n’a pas pu vérifier. Dans le même temps, les gardiens de la révolution ont visé des navires dans le détroit d’Ormuz, entretenant la pression sur l’approvisionnement mondial en pétrole.
+Moscou envoie à Abou Dhabi le conseiller présidentiel Vladimir Medinski, les vice-ministres des affaires étrangères Sergueï Riabkov et Mikhaïl Galouzine, ainsi que le chef du renseignement militaire, Igor Kostioukov. Côté ukrainien, Roustem Oumerov, présenté comme le chef du renseignement extérieur, est accompagné du chef de l’administration présidentielle, Kyrylo Boudanov, de Serhiy Kyslytsya et du chef du groupe parlementaire Serviteur du peuple, David Arakhamia. Al Jazeera compte trois cycles de négociations sous médiation américaine depuis le début de l’année, dont deux aux Émirats. Les analystes cités par la chaîne attendent au mieux des avancées techniques, sur les exportations de céréales, une trêve en mer Noire ou sur les infrastructures énergétiques, voire un nouvel échange de prisonniers.
 
 Sources :
-- [Reuters, via AsiaOne — Une attaque houthiste endommage un immeuble d’Aramco](https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district)
-- [The Week — Missiles interceptés au-dessus de Riyad](https://www.theweek.in/news/middle-east/2026/11/08/saudi-aramco-building-damaged-in-riyadh-after-houthi-attack-from-yemen-intercepted.html)
-- [Critical Threats — Point sur l’Iran du 8 novembre](https://www.criticalthreats.org/analysis/iran-update-november-8-2026)
-- [Investing.com — Levée des alertes dans la province orientale](https://www.investing.com/news/economy-news/saudi-arabia-lifts-oil-region-alerts-after-houthi-missile-intercepted-5010126)
+- [Al Jazeera — Ce que l’on peut attendre d’Abou Dhabi](https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi)
+- [Euronews — L’UE envoie une équipe commune à Abou Dhabi](https://www.euronews.com/2026/11/09/eu-to-send-joint-team-to-ukraine-russia-peace-talks-in-abu-dhabi)
+- [Meduza — Première rencontre à trois depuis février](https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda)
+- [Associated Press, via KIRO 7 — Les pourparlers sous médiation américaine s’ouvrent](https://www.kiro7.com/news/world/us-brokered-talks/J36AMF3Q5U2KRCSZDSSHRBPUZI/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/09/riyad-attaque-houthiste-endommage-tour-aramco-ur-quartier/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/10/abou-dhabi-russes-ukrainiens-americains-rouvrent-pourparlers-europeens/
 
-## 3. Ukraine — En Ukraine, 850 000 personnes privées de courant avant les pourparlers d’Abou Dhabi
+## 2. Pologne — À Cracovie, le tireur de la place du Marché meurt et l’enquête antiterroriste cherche d’éventuels soutiens
 
-**De nouvelles frappes russes ont visé dimanche le réseau électrique, notamment dans la région de Dnipropetrovsk, et la centrale de Zaporijia a perdu son alimentation extérieure. Paris annonce que les Européens participeront aux discussions des 10 et 11 novembre.**
+**L’auteur de la fusillade qui a fait six morts samedi dans le cœur historique de la ville est décédé lundi à l’hôpital. Le parquet, qui enquête pour terrorisme, se montre désormais prudent sur ses motivations idéologiques.**
 
-Dimanche 8 novembre, des frappes russes nocturnes ont privé d’électricité plus de 850 000 personnes en Ukraine, dont plus de 600 000 dans la région de Dnipropetrovsk, selon l’énergéticien DTEK, tandis qu’une personne a été tuée et trois blessées à Dnipro. La centrale nucléaire de Zaporijia, occupée par la Russie, a perdu son alimentation extérieure et fonctionne sur générateurs diesel, et un drone a frappé à Komyshuvakha le site où une attaque avait tué au moins 55 personnes, visant selon Kiev les secouristes. Le ministre français des affaires étrangères, Jean-Noël Barrot, a annoncé que la France et d’autres Européens prendraient part aux pourparlers des 10 et 11 novembre à Abou Dhabi, conçus jusqu’ici comme une rencontre entre Washington, Moscou et Kiev.
+Lundi 9 novembre à 4 h 30, le Polonais de 24 ans qui avait ouvert le feu depuis sa voiture sur la place du Marché de Cracovie, samedi vers 15 heures, tuant six personnes et en blessant quinze, est mort à l’hôpital, a annoncé la police. Parmi les victimes figurent quatre Polonais, un Britannique et une Autrichienne, et les corps du père, de la mère et de la sœur du tireur ont été retrouvés au domicile familial d’Ostrowiec Świętokrzyski, à quelque 150 kilomètres au nord-est. Le parquet national, qui a ouvert une enquête pour infraction terroriste, cherche à établir si l’assaillant a été inspiré ou aidé par d’autres, alors que la Pologne, au sortir de deux jours de deuil national, célèbre mercredi sa fête de l’indépendance.
 
-**Le chiffre du jour :** > 850 000 — personnes privées d’électricité après les frappes de la nuit
+**Le chiffre du jour :** 11 — armes à feu saisies par les enquêteurs
 
-### La pression par l’hiver
+### Un mobile encore incertain
 
-Moscou poursuit sa campagne contre le réseau énergétique ukrainien à l’approche de l’hiver. Volodymyr Zelensky affirme que la Russie a tiré en une semaine 115 missiles, près de 1 900 bombes guidées et plus de 3 000 drones d’attaque. Le ministère russe de la défense dit avoir visé une sous-station alimentant des entreprises du complexe militaro-industriel. Dans la région de Jytomyr, 140 immeubles étaient privés de chauffage, et la région de Kharkiv a compté jusqu’à 250 000 abonnés sans courant, rétabli depuis. La perte de l’alimentation extérieure de la centrale de Zaporijia, après la déconnexion de la ligne Ferosplavna, ravive les inquiétudes sur la sûreté du plus grand site nucléaire d’Europe, qui dépend désormais de ses générateurs de secours.
-
-Sources :
-- [Euronews — 850 000 personnes privées d’électricité](https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on)
-- [Associated Press, via ABC News — La Russie vise les secouristes à Komyshuvakha](https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/09/ukraine-850-000-personnes-privees-courant-avant-pourparlers/
-
-## 4. Turquie — À Antalya, la COP31 s’ouvre sous la menace d’un dépassement de 1,5 °C
-
-**Près de 200 pays se retrouvent jusqu’au 20 novembre en Turquie pour la conférence de l’ONU sur le climat, présidée par Ankara et négociée par l’Australie. Les engagements actuels mènent à un réchauffement de 2,8 °C, selon la dernière projection des Nations unies.**
-
-Lundi 9 novembre s’ouvre à Antalya, en Turquie, la 31e conférence des Nations unies sur le climat, qui réunit jusqu’au 20 novembre des délégations de près de 200 pays sous la présidence du ministre turc de l’environnement, Murat Kurum. Les chercheurs jugent presque certain que le réchauffement dépassera 1,5 °C en 2026, et les politiques actuelles mènent à une hausse de 2,8 °C d’ici à la fin du siècle, selon la dernière projection de l’ONU citée par l’agence DPA. Le ministre australien du climat, Chris Bowen, présidera les négociations, un partage des rôles inédit, avant le sommet des dirigeants des 11 et 12 novembre, où le nombre de chefs d’État annoncés est nettement inférieur à celui des dernières COP.
-
-**Le chiffre du jour :** 2,8 °C — de réchauffement attendu d’ici à 2100 avec les politiques actuelles
-
-### Une présidence à deux têtes
-
-La Turquie et l’Australie s’étaient toutes deux portées candidates pour accueillir la conférence ; le compromis trouvé en novembre 2025 confie l’organisation et l’agenda de l’action à Ankara, et la conduite des négociations à Canberra. L’agence DPA relève que ce partage, nouveau, fait craindre des frictions, les propositions des deux pays ayant manqué de coordination pendant la préparation. Le thème retenu, « mise en œuvre et accélération », traduit des ambitions plus modestes : selon la synthèse de l’ONU portant sur 154 pays, les plans nationaux ne réduiraient les émissions que d’environ 6 % sous leur niveau de 2019 d’ici à 2035. Le financement de l’adaptation, que la COP30 de Belém a promis de tripler, s’annonce comme l’un des points de friction.
+Dimanche, le ministre de l’intérieur, Marcin Kierwiński, avait décrit un homme aux opinions « très radicales », fasciné par les idéologies d’extrême droite. Lundi, le parquet national a tempéré : son porte-parole, Przemysław Nowak, affirme ne disposer d’aucun élément permettant d’établir de façon responsable une inspiration idéologique particulière. Les enquêteurs ont saisi les appareils électroniques du tireur. Celui-ci détenait deux armes enregistrées à son nom au titre d’un permis de tir sportif, et son père en possédait légalement plus de dix. Selon Al Jazeera, il s’agit de la fusillade la plus meurtrière en Pologne depuis la chute du communisme, dans un pays où environ 411 000 permis de port d’arme sont en circulation, selon l’AP.
 
 Sources :
-- [DPA, via Yahoo News — Le sommet s’ouvre sur fond de dépassement de 1,5 °C](https://www.yahoo.com/news/science/articles/climate-summit-open-turkey-amid-040329357.html)
-- [The High Street Journal — La COP31 s’ouvre à Antalya](https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/)
-- [Climate & Capital Media — Les enjeux de la COP31](https://www.climateandcapitalmedia.com/cop31-antalya-preview/)
-- [Wikipedia — Conférence de 2026 sur le climat](https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference)
+- [CBS News, avec AP — Le tireur de Cracovie meurt à l’hôpital](https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/)
+- [Al Jazeera — Au moins six morts dans une fusillade à Cracovie](https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow)
+- [ITV, avec AP — Un tireur ouvre le feu depuis une voiture](https://www.itv.com/news/2026-11-07/gunman-opens-fire-from-car-in-krakow-main-square-killing-six)
+- [Associated Press, via WSMV — Des corps retrouvés au domicile du tireur](https://www.wsmv.com/2026/11/07/gunman-opens-fire-polish-city-killing-6-people-injuring-15/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/09/antalya-cop31-ouvre-sous-menace-depassement-1-5/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/10/cracovie-tireur-place-marche-meurt-enquete-antiterroriste-cherche/
 
-## 5. Birmanie — En Birmanie, une frappe aérienne de l’armée tue onze personnes dans une école du Sagaing
+## 3. États-Unis — Nvidia enquête sur son patron, Jensen Huang, lié à une femme soupçonnée d’espionner pour Pékin
 
-**Des enseignants et des enfants figurent parmi les victimes d’un bombardement samedi dans le canton de Kani, selon des médias birmans indépendants. Le gouvernement d’unité nationale recense 641 frappes aériennes de l’armée en octobre.**
+**Le conseil d’administration du géant des puces pour l’intelligence artificielle a confié une enquête à des administrateurs indépendants après les aveux de son PDG. Trois présidents de commission de la Chambre des représentants veulent l’entendre à huis clos.**
 
-Samedi 7 novembre, vers 11 h 30, une frappe aérienne de l’armée birmane a visé une école et le village de Nyaung Pin Le, dans le canton de Kani, région de Sagaing, tuant onze personnes, pour la plupart des enseignants et des enfants, selon des médias indépendants. Ce bombardement s’inscrit dans une campagne aérienne qui a fait, selon le gouvernement d’unité nationale en exil, 212 morts civils en octobre, dont 23 enfants, près de six ans après le coup d’État et sept mois après l’élection de Min Aung Hlaing à la présidence. Les combats se poursuivent dans l’État Mon, où plus de 15 000 habitants ont fui le canton de Kyaikto, et dans l’Arakan, alors que l’armée ferme la nuit, à partir du 9 novembre, les points de contrôle de trois cantons du Sagaing.
+Dimanche 8 novembre, le conseil d’administration de Nvidia a annoncé une enquête confiée à un comité d’administrateurs indépendants, assisté d’avocats extérieurs, après que son PDG, Jensen Huang, a reconnu une relation intime avec Alice Huang, ancienne dirigeante de Megaspeed, une société de centres de données basée à Singapour. Selon le New York Times, le renseignement américain a conclu que cette femme transmettait des informations à Pékin, ce que la Chine qualifie de spéculation sans fondement, et une société malaisienne liée à Megaspeed a acheté au moins 4,8 milliards de dollars d’équipements intégrant la technologie Nvidia. Le conseil dit n’avoir aucune raison de croire que la sécurité nationale ou des informations confidentielles ont été compromises et maintient sa confiance au PDG, que trois présidents de commission de la Chambre des représentants souhaitent entendre à huis clos le 18 novembre.
 
-**Le chiffre du jour :** 641 — frappes aériennes de l’armée en octobre
+**Le chiffre du jour :** 4,8 milliards $ — d’équipements Nvidia achetés par une société liée à Megaspeed
 
-### La guerre par les airs
+### Les puces au cœur du soupçon
 
-Incapable de reprendre le contrôle de vastes régions rurales, l’armée s’appuie sur son aviation, que la résistance ne peut contrer. Le Sagaing, cœur de l’opposition armée au coup d’État de 2021, est la région la plus touchée : outre l’école de Kani, un hôpital du canton de Kawlin a été bombardé le 4 novembre, tuant au moins douze personnes dont un médecin, et un abri de déplacés a été visé à Wetlet. L’élection de Min Aung Hlaing à la présidence en avril, à l’issue d’un scrutin organisé par l’armée, n’a pas mis fin aux combats. Des obus tirés dans l’État Karen sont aussi tombés dans la province thaïlandaise de Tak, endommageant des habitations.
+L’affaire touche au dossier le plus sensible des relations sino-américaines : l’accès de la Chine aux processeurs d’intelligence artificielle. Selon eeNews Europe, l’enquête américaine a débuté fin 2024, quand un responsable du département du commerce a remarqué des puces Nvidia encore dans leurs cartons dans un centre de données de Megaspeed en Malaisie, faisant soupçonner un détournement vers la Chine. Nvidia assure que ces accusations ont été examinées et écartées. Singapour indique que ses enquêtes sur Megaspeed se poursuivent, mais n’avoir pas enquêté sur les liens supposés d’Alice Huang avec le renseignement chinois. Le New York Times affirme que Donald Trump, informé en 2025, n’a pas prévenu le patron de Nvidia, dont le lobbying avait obtenu un assouplissement de certaines restrictions.
 
 Sources :
-- [MoeMaKa — Nouvelles du 8 novembre](https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/)
-- [Burma Coup Resistance Notes — Chronique de la résistance du 7 novembre](https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5)
-- [Wikipedia — L’année 2026 en Birmanie](https://en.wikipedia.org/wiki/2026_in_Myanmar)
+- [CNBC — Nvidia enquête sur la relation de son PDG](https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html)
+- [eeNews Europe — Le conseil de Nvidia ouvre une enquête](https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/)
+- [eeNews Europe — Les soupçons d’espionnage autour de Megaspeed](https://www.eenewseurope.com/en/jensen-huang-spy-plot-nvidia-china/)
+- [AFP, via Citizen Digital — La Chine dément](https://citizen.digital/article/china-denies-spying-onvidias-jensen-huang-n393023)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/09/birmanie-frappe-aerienne-armee-tue-onze-personnes-ecole/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/10/nvidia-enquete-patron-jensen-huang-lie-femme-soupconnee/
+
+## 4. Afrique du Sud — En Afrique du Sud, l’ANC subit son pire revers et les métropoles cherchent des coalitions
+
+**Le parti de Nelson Mandela n’a recueilli qu’environ 31 % des voix aux élections municipales du 4 novembre, devant l’Alliance démocratique. Faute de majorité, plusieurs grandes villes, dont Pretoria et Durban, devront être gouvernées par des coalitions.**
+
+Après le dépouillement de 99 % des bulletins des élections municipales du 4 novembre, le Congrès national africain (ANC) obtenait 30,8 % des voix, contre 45,6 % en 2021, et l’Alliance démocratique (DA) 24 %, selon le président de la commission électorale, Mosotho Moepya. Le secrétaire général de l’ANC, Fikile Mbalula, a jugé le résultat « catastrophique », tandis que le parti uMkhonto we Sizwe de Jacob Zuma, troisième avec près de 10 %, arrive en tête à Durban, et que les Combattants pour la liberté économique reculent à 6,2 %. Le Cap a donné une majorité absolue à la DA, mais Pretoria et Durban restent sans majorité, et les tractations s’ouvrent à un peu plus d’un an du congrès de l’ANC qui doit désigner, en décembre 2027, le successeur de Cyril Ramaphosa à sa tête.
+
+**Le chiffre du jour :** 30,8 % — des voix pour l’ANC, son plus bas niveau
+
+### Le test des métropoles
+
+À 97 % du dépouillement, 122 des 257 conseils municipaux étaient sans majorité, selon le Sowetan cité par BusinessDay. À Johannesburg, où la DA approche 40 % des voix, sa candidate, Helen Zille, privilégie une coalition à deux, avec ActionSA ou l’ANC. À Pretoria, ActionSA fait du maintien de sa maire, Nasiphi Moya, une condition de tout accord. À East London, l’ANC perd pour la première fois depuis 1995 sa majorité, et Mangaung se partage presque à égalité entre l’ANC et la DA. Le parti MK, qui conteste certains résultats, a demandé le gel du décompte dans plusieurs circonscriptions de Durban, tandis que la commission électorale a ordonné des recomptages dans cinq circonscriptions.
+
+Sources :
+- [Al Jazeera — Un scrutin test pour l’ANC](https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc)
+- [BusinessDay — Résultats en direct](https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/)
+- [EWN — La domination de l’ANC contestée](https://www.ewn.co.za/2026/11/06/ancs-dominance-challenged-as-opposition-parties-make-gains-in-local-polls)
+- [Briefly News — Les conseils sans majorité dominent](https://briefly.co.za/south-africa/258085-hung-councils-dominate-sas-2026-elections-anc-suffers-worst-result-1994/)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/10/afrique-sud-anc-subit-pire-revers-metropoles-cherchent/
+
+## 5. Yémen — Au Yémen, au moins trente morts sur un marché de Taëz, chaque camp accusant l’autre
+
+**Les Houthis accusent l’aviation saoudienne d’avoir bombardé vendredi le marché d’Al-Hadara, le gouvernement reconnu dénonce des missiles houthistes. Selon le Yemen Data Project, octobre a été le mois le plus meurtrier pour les civils depuis 2017.**
+
+Vendredi 6 novembre, vers 7 heures, des frappes ont touché le marché d’Al-Hadara, dans le district d’Al-Waziyah, dans la province de Taëz, tuant au moins trente personnes et en blessant huit, selon les autorités houthistes, un bilan que l’Associated Press n’a pas pu vérifier. Le porte-parole militaire des Houthis, Yahya Saree, accuse l’aviation saoudienne, tandis que le porte-parole des forces gouvernementales, le colonel Majed al-Nazili, impute le drame à des missiles balistiques houthistes et dénonce un « crime de guerre ». Cette attaque s’inscrit dans l’escalade ouverte en juillet par l’effondrement de la trêve négociée par l’ONU, alors que les Houthis assiègent depuis un mois la ville de Taëz et que l’offensive gouvernementale « Aube du Yémen », lancée le 5 octobre, se poursuit.
+
+**Le chiffre du jour :** 426 — civils tués en octobre par des frappes de la coalition saoudienne
+
+### Une guerre ravivée par le conflit régional
+
+La trêve conclue sous l’égide de l’ONU a volé en éclats en juillet, après des tirs de la coalition sur la piste de l’aéroport de Sanaa, destinés à empêcher l’atterrissage d’un avion iranien transportant une délégation houthiste. Les rebelles ont alors proclamé un blocus naval de l’Arabie saoudite et multiplié les attaques contre son territoire ; le 10 octobre, une frappe contre l’aéroport de Riyad a fait 13 morts, selon Amnesty International. L’ONG lie cette reprise des hostilités à la guerre régionale qui oppose les États-Unis et Israël à l’Iran. Dans le sud, les Houthis visent aussi les forces gouvernementales et l’aéroport d’Aden, tandis que les civils de Taëz manquent d’eau, de nourriture et de médicaments.
+
+Sources :
+- [Associated Press, via WFTV — Des frappes sur un marché font au moins trente morts](https://www.wftv.com/news/business/airstrikes-market/V7EPGI27LM66FEZBYGD4H7AE7I/)
+- [Amnesty International — Les civils ne doivent pas payer l’escalade](https://www.amnesty.org/en/latest/news/2026/10/saudi-arabia-yemen-civilians-must-not-pay-the-price-of-escalation-in-hostilities/)
+- [Outlook India — Houthis et gouvernement se renvoient la responsabilité](https://www.outlookindia.com/international/yemen-taiz-market-strikes-houthis-government-forces-blame-saudi-arabia)
+- [Democracy Now! — Trente morts au Yémen](https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack)
+- [South24 — Deux semaines meurtrières dans le sud du Yémen](https://south24.net/news/newse.php?nid=5835)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/10/yemen-moins-trente-morts-marche-taez-chaque-camp/
 
 ## En bref
 
-- **Japon** : Un séisme de magnitude 5,7 selon l’agence météorologique japonaise, centré dans la préfecture de Shizuoka, a blessé au moins 22 personnes dans le centre du pays, selon les médias locaux cités par l’AP. ([Source](https://www.timesofisrael.com/liveblog-november-08-2026/))
-- **Uruguay** : Le pape Léon XIV a prêché devant environ 40 000 fidèles à Paysandú, à la frontière argentine, lors d’une tournée de douze jours en Amérique du Sud qui s’achève le 17 novembre. ([Source](https://www.timesofisrael.com/liveblog-november-08-2026/))
-- **Iran** : Donald Trump juge une nouvelle offensive contre l’Iran « très improbable », tout en la liant aux progrès des discussions, et affirme que la force Iron Gate, chargée de couper les routes terrestres de l’armement iranien, est opérationnelle. ([Source](https://www.timesofisrael.com/liveblog_entry/trump-says-new-task-force-to-disrupt-land-routes-into-iran-is-in-full-force/))
-- **Émirats arabes unis** : La garde nationale émiratie a secouru 22 personnes après l’incendie d’un cargo en mer d’Oman, alors que les attaques contre la navigation se multiplient autour du détroit d’Ormuz. ([Source](https://www.timesofisrael.com/liveblog-november-08-2026/))
+- **Gaza** : Une femme et quatre enfants ont été tués dimanche à Deir el-Balah par l’effondrement d’un talus de sable sur leur tente, après une tempête qui a inondé quelque 70 000 tentes de déplacés, selon les autorités de Gaza. ([Source](https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people))
+- **Irak** : La production du champ gazier de Khor Mor, au Kurdistan irakien, a été suspendue dimanche après qu’un drone chargé d’explosifs a incendié un réservoir, privant la région d’environ 2,8 gigawatts de capacité électrique. ([Source](https://www.10things.news/p/10-things-global-news-9th-november))
+- **Iran** : Trois hommes accusés de violences armées lors des manifestations antigouvernementales de janvier ont été exécutés dimanche, après la confirmation de leur condamnation à mort par la Cour suprême, selon les médias d’État. ([Source](https://www.10things.news/p/10-things-global-news-9th-november))
+- **Israël** : Les 120 députés de la nouvelle Knesset prêtent serment mardi, alors que Gadi Eisenkot, chargé de former le gouvernement, dispose de 28 jours, prolongeables de quatorze, pour réunir une majorité. ([Source](https://havanatimes.org/news/international-news-briefs-for-monday-november-9-2026/))
 
 ## À venir
 
-- 9 nov. : Ouverture de la COP31 sur le climat à Antalya, en Turquie.
-- 10 nov. : Pourparlers sur l’Ukraine à Abou Dhabi, avec des Européens ; prestation de serment de la Knesset.
-- 11 nov. : Sommet des dirigeants de la COP31, jusqu’au 12 novembre.
-- 18 nov. : Sommet de l’APEC à Shenzhen, rencontre entre Donald Trump et Xi Jinping.
+- 10 nov. : Pourparlers sur l’Ukraine à Abou Dhabi, jusqu’au 11 ; prestation de serment de la Knesset.
+- 11 nov. : Fête de l’indépendance en Pologne ; sommet des dirigeants de la COP31 à Antalya, jusqu’au 12.
+- 18 nov. : Audition à huis clos demandée à Jensen Huang par la Chambre des représentants ; sommet de l’APEC à Shenzhen.
+- 20 nov. : Clôture prévue de la COP31.
 - 6 déc. : Fin du délai initial de Gadi Eisenkot pour former un gouvernement en Israël.

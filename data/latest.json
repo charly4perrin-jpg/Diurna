@@ -1,276 +1,769 @@
 {
-  "date": "2026-11-09",
-  "number": 5,
-  "updated": "2026-11-09T07:00:51+01:00",
-  "headline": "En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d'urgence nationale »",
-  "standfirst": "L'ancien chef d'état-major tend la main au Likoud, mais ne compte que 48 députés dans son bloc. Une attaque houthiste endommage une tour d'Aramco à Riyad, l'Ukraine subit de nouvelles coupures avant Abou Dhabi et la COP31 s'ouvre à Antalya.",
+  "date": "2026-11-10",
+  "number": 6,
+  "updated": "2026-11-10T07:05:31+01:00",
+  "headline": "À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers sous le regard des Européens",
+  "standfirst": "Les trois délégations se retrouvent pour la première fois ensemble depuis février, sans grand espoir d'accord. La Pologne pleure les victimes de Cracovie, Nvidia enquête sur son patron, l'ANC essuie son pire revers et le Yémen compte ses morts à Taëz.",
   "essentials": [
     {
       "rank": 1,
-      "id": "ISR",
-      "place": "Israël",
-      "section": "Moyen-Orient",
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
       "types": [
-        "election",
+        "diplomacy",
         "conflict"
       ],
-      "radar": false,
-      "title": "En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d'urgence nationale »",
-      "standfirst": "L'ancien chef d'état-major a officiellement reçu dimanche la mission de former le gouvernement, avec 67 recommandations mais un bloc de 48 députés. Il appelle le Likoud à le rejoindre et pose quatre conditions à tout partenaire.",
+      "title": "À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers, les Européens en coulisses",
+      "standfirst": "Les délégations des trois pays se retrouvent mardi et mercredi aux Émirats arabes unis, pour la première fois ensemble depuis février. Les Européens seront sur place, mais Moscou refuse de les associer aux discussions, centrées sur la sécurité.",
       "body": [
-        "Dimanche 8 novembre, à la résidence présidentielle de Jérusalem, le président israélien, Isaac Herzog, a remis officiellement au chef du parti Yashar, Gadi Eisenkot, le mandat de former le prochain gouvernement, au lendemain de l'annonce de son choix.",
-        "Recommandé par 67 députés sur 120, contre 46 pour Benyamin Nétanyahou, l'ancien chef d'état-major ne dispose que d'un bloc de 48 élus et a promis des initiatives politiques « créatives et non conventionnelles » pour bâtir un « gouvernement d'urgence nationale ».",
-        "Il a jusqu'au 6 décembre, délai prolongeable jusqu'au 20 décembre, pour réunir une majorité, alors que les nouveaux députés doivent prêter serment mardi et que Benyamin Nétanyahou reste en fonctions pour expédier les affaires courantes."
+        "Mardi 10 novembre s'ouvrent à Abou Dhabi deux jours de pourparlers entre la Russie, l'Ukraine et les États-Unis, représentés par les émissaires Steve Witkoff et Jared Kushner, la première rencontre à trois depuis février, quand la guerre contre l'Iran avait détourné l'attention de Washington.",
+        "Moscou exige toujours le retrait ukrainien des régions de Donetsk, de Louhansk, de Zaporijia et de Kherson ainsi que le renoncement à l'OTAN, tandis que Kiev refuse de céder un territoire non conquis et réclame d'abord un cessez-le-feu, si bien qu'aucun des analystes interrogés par Al Jazeera n'attend d'accord de paix.",
+        "Une équipe européenne conduite par Björn Seibert, chef de cabinet d'Ursula von der Leyen, ainsi que des conseillers français, allemands et britanniques seront présents, mais le Kremlin assure qu'ils ne participeront pas aux discussions, dont la sécurité doit être le premier thème, selon Sergueï Lavrov."
       ],
       "figure": {
-        "value": "6 décembre",
-        "label": "fin du délai initial pour former une coalition",
-        "compare": "prolongeable jusqu'au 20 décembre, selon Israel Hayom"
+        "value": "≈ 20 %",
+        "label": "du territoire ukrainien occupé par la Russie",
+        "compare": "sur un front d'environ 1 200 kilomètres, selon l'AP"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
       },
       "modules": {
-        "vote": {
-          "title": "Élections législatives",
-          "date": "2026-10-27",
-          "asOf": "2026-10-29",
-          "system": "Scrutin proportionnel de liste à l'échelle nationale pour les 120 sièges de la Knesset.",
-          "note": "Décompte définitif.",
-          "bodies": [
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
             {
-              "name": "Knesset",
-              "total": 120,
-              "majority": 61,
-              "parties": [
-                {
-                  "name": "Coalition sortante (Nétanyahou)",
-                  "value": 53,
-                  "color": "blue"
-                },
-                {
-                  "name": "Opposition (Eisenkot)",
-                  "value": 48,
-                  "color": "amber"
-                },
-                {
-                  "name": "Partis arabes",
-                  "value": 19,
-                  "color": "green"
-                }
-              ]
+              "who": "Moscou",
+              "wants": "Le retrait ukrainien de quatre régions annexées, la neutralité de l'Ukraine et des limites strictes à son armée ; pas de cessez-le-feu général."
+            },
+            {
+              "who": "Kiev",
+              "wants": "Un cessez-le-feu immédiat d'abord, aucune cession de territoire non conquis, et une rencontre entre Vladimir Poutine et Volodymyr Zelensky pour trancher."
+            },
+            {
+              "who": "Washington",
+              "wants": "Un règlement « global et durable », qui exigera selon Jared Kushner un dialogue direct entre la Russie et les Européens."
+            }
+          ],
+          "next": {
+            "d": "2026-11-11",
+            "t": "Seconde journée de pourparlers à Abou Dhabi."
+          },
+          "source": {
+            "name": "Associated Press, via KIRO 7",
+            "url": "https://www.kiro7.com/news/world/us-brokered-talks/J36AMF3Q5U2KRCSZDSSHRBPUZI/"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Russie",
+              "lead": "Vladimir Poutine",
+              "ids": [
+                "RUS"
+              ],
+              "note": "Délégation conduite par le conseiller présidentiel Vladimir Medinski."
+            },
+            {
+              "name": "Ukraine",
+              "lead": "Volodymyr Zelensky",
+              "ids": [
+                "UKR"
+              ],
+              "note": "Délégation conduite par Roustem Oumerov, avec Kyrylo Boudanov."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "USA",
+              "note": "Steve Witkoff et Jared Kushner"
+            },
+            {
+              "id": "ARE",
+              "note": "pays hôte"
             }
           ],
           "source": {
             "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/10/29/israel-election-result-shows-no-overall-majority-as-vote-count-complete"
+            "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi"
           }
+        }
+      },
+      "analysis": {
+        "title": "Des délégations de haut rang",
+        "text": "Moscou envoie à Abou Dhabi le conseiller présidentiel Vladimir Medinski, les vice-ministres des affaires étrangères Sergueï Riabkov et Mikhaïl Galouzine, ainsi que le chef du renseignement militaire, Igor Kostioukov. Côté ukrainien, Roustem Oumerov, présenté comme le chef du renseignement extérieur, est accompagné du chef de l'administration présidentielle, Kyrylo Boudanov, de Serhiy Kyslytsya et du chef du groupe parlementaire Serviteur du peuple, David Arakhamia. Al Jazeera compte trois cycles de négociations sous médiation américaine depuis le début de l'année, dont deux aux Émirats. Les analystes cités par la chaîne attendent au mieux des avancées techniques, sur les exportations de céréales, une trêve en mer Noire ou sur les infrastructures énergétiques, voire un nouvel échange de prisonniers."
+      },
+      "keys": [
+        {
+          "title": "La place des Européens",
+          "text": "Washington doit d'abord recevoir séparément les envoyés de l'Union européenne, de l'OTAN, de l'Allemagne, de la France, du Royaume-Uni et de l'Italie, selon l'AP. Moscou admet seulement que les Européens pourraient rejoindre les discussions plus tard."
         },
-        "scenarios": {
+        {
+          "title": "Les divisions à l'Est",
+          "text": "Le chef de la diplomatie polonaise, Radosław Sikorski, redoute que l'Europe de l'Ouest traite avec la Russie « par-dessus la tête » des Européens de l'Est. La présidente du Conseil italien, Giorgia Meloni, réclame un envoyé spécial européen."
+        },
+        {
+          "title": "La guerre de l'hiver",
+          "text": "La Russie intensifie ses frappes de missiles balistiques et de drones contre le réseau électrique ukrainien, profitant d'une pénurie d'intercepteurs Patriot. Kiev multiplie de son côté les attaques de drones contre les raffineries russes."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "ARE"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "La Russie lance son invasion à grande échelle de l'Ukraine."
+        },
+        {
+          "d": "2026-02-28",
+          "t": "Début de la guerre avec l'Iran ; les pourparlers sur l'Ukraine marquent le pas."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Plus de 850 000 personnes privées de courant après des frappes russes."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Ouverture des pourparlers à trois à Abou Dhabi."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Fin prévue des discussions."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Ce que l'on peut attendre d'Abou Dhabi",
+          "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Euronews",
+          "title": "L'UE envoie une équipe commune à Abou Dhabi",
+          "url": "https://www.euronews.com/2026/11/09/eu-to-send-joint-team-to-ukraine-russia-peace-talks-in-abu-dhabi",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Meduza",
+          "title": "Première rencontre à trois depuis février",
+          "url": "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Associated Press, via KIRO 7",
+          "title": "Les pourparlers sous médiation américaine s'ouvrent",
+          "url": "https://www.kiro7.com/news/world/us-brokered-talks/J36AMF3Q5U2KRCSZDSSHRBPUZI/",
+          "date": "2026-11-10"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "abou-dhabi-russes-ukrainiens-americains-rouvrent-pourparlers-europeens"
+    },
+    {
+      "rank": 2,
+      "id": "POL",
+      "place": "Pologne",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "society"
+      ],
+      "title": "À Cracovie, le tireur de la place du Marché meurt et l'enquête antiterroriste cherche d'éventuels soutiens",
+      "standfirst": "L'auteur de la fusillade qui a fait six morts samedi dans le cœur historique de la ville est décédé lundi à l'hôpital. Le parquet, qui enquête pour terrorisme, se montre désormais prudent sur ses motivations idéologiques.",
+      "body": [
+        "Lundi 9 novembre à 4 h 30, le Polonais de 24 ans qui avait ouvert le feu depuis sa voiture sur la place du Marché de Cracovie, samedi vers 15 heures, tuant six personnes et en blessant quinze, est mort à l'hôpital, a annoncé la police.",
+        "Parmi les victimes figurent quatre Polonais, un Britannique et une Autrichienne, et les corps du père, de la mère et de la sœur du tireur ont été retrouvés au domicile familial d'Ostrowiec Świętokrzyski, à quelque 150 kilomètres au nord-est.",
+        "Le parquet national, qui a ouvert une enquête pour infraction terroriste, cherche à établir si l'assaillant a été inspiré ou aidé par d'autres, alors que la Pologne, au sortir de deux jours de deuil national, célèbre mercredi sa fête de l'indépendance."
+      ],
+      "figure": {
+        "value": "11",
+        "label": "armes à feu saisies par les enquêteurs",
+        "compare": "dont quatre sur le tireur ou dans sa voiture, selon l'AP"
+      },
+      "modules": {
+        "places": {
           "items": [
             {
-              "if": "Gadi Eisenkot réunit 61 députés dans les délais",
-              "then": "il devient Premier ministre et succède à Benyamin Nétanyahou, au pouvoir en affaires courantes.",
+              "name": "Place du Marché, Cracovie",
+              "coords": [
+                19.937,
+                50.062
+              ],
+              "note": "Le tireur a ouvert le feu depuis sa voiture le 7 novembre vers 15 heures."
+            },
+            {
+              "name": "Ostrowiec Świętokrzyski",
+              "coords": [
+                21.389,
+                50.929
+              ],
+              "note": "Trois membres de la famille du tireur retrouvés morts au domicile familial."
+            }
+          ],
+          "source": {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/"
+          }
+        },
+        "actors": {
+          "items": [
+            {
+              "name": "Donald Tusk",
+              "role": "Premier ministre ; a qualifié l'attaque d'acte de terrorisme."
+            },
+            {
+              "name": "Marcin Kierwiński",
+              "role": "Ministre de l'intérieur ; a évoqué un tireur aux convictions « ultranationalistes »."
+            },
+            {
+              "name": "Przemysław Nowak",
+              "role": "Porte-parole du parquet national ; aucune inspiration idéologique établie à ce stade."
+            },
+            {
+              "name": "Łukasz Gibała",
+              "role": "Maire de Cracovie ; promet que la place « appartiendra de nouveau » aux habitants."
+            }
+          ],
+          "source": {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-07",
+              "t": "Fusillade sur la place du Marché : six morts, quinze blessés."
+            },
+            {
+              "d": "2026-11-09",
+              "t": "Mort du tireur à l'hôpital ; fin du deuil national."
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Fête de l'indépendance ; fin du deuil municipal à Cracovie."
+            }
+          ],
+          "source": {
+            "name": "ITV, avec AP",
+            "url": "https://www.itv.com/news/2026-11-07/gunman-opens-fire-from-car-in-krakow-main-square-killing-six"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Un mobile encore incertain",
+        "text": "Dimanche, le ministre de l'intérieur, Marcin Kierwiński, avait décrit un homme aux opinions « très radicales », fasciné par les idéologies d'extrême droite. Lundi, le parquet national a tempéré : son porte-parole, Przemysław Nowak, affirme ne disposer d'aucun élément permettant d'établir de façon responsable une inspiration idéologique particulière. Les enquêteurs ont saisi les appareils électroniques du tireur. Celui-ci détenait deux armes enregistrées à son nom au titre d'un permis de tir sportif, et son père en possédait légalement plus de dix. Selon Al Jazeera, il s'agit de la fusillade la plus meurtrière en Pologne depuis la chute du communisme, dans un pays où environ 411 000 permis de port d'arme sont en circulation, selon l'AP."
+      },
+      "keys": [
+        {
+          "title": "Les blessés",
+          "text": "Cinq étrangers figurent parmi les blessés, venus du Royaume-Uni, du Portugal, de Russie, d'Allemagne et d'Autriche. Deux policiers touchés à la poitrine restaient hospitalisés lundi, selon CBS News."
+        },
+        {
+          "title": "Une ville sous le choc",
+          "text": "Le carillon de la basilique Sainte-Marie, joué chaque heure, a été interrompu dans la nuit de samedi à dimanche, une première depuis la seconde guerre mondiale. Varsovie a renforcé la sécurité de ses rues principales."
+        },
+        {
+          "title": "Les réactions européennes",
+          "text": "Les drapeaux européens ont été mis en berne dimanche à la Commission, à Bruxelles. La cheffe de la diplomatie européenne, Kaja Kallas, a assuré que la Pologne « n'est pas seule »."
+        }
+      ],
+      "involved": [
+        "GBR",
+        "AUT"
+      ],
+      "context": [
+        {
+          "d": "2026-10",
+          "t": "Trois attaques à l'arme blanche dans des écoles de Mazovie en quatre jours."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Fusillade sur la place du Marché de Cracovie."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Enquête pour terrorisme ; premier jour de deuil national."
+        },
+        {
+          "d": "2026-11-09",
+          "t": "Le tireur meurt à l'hôpital."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Fête nationale de l'indépendance."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CBS News, avec AP",
+          "title": "Le tireur de Cracovie meurt à l'hôpital",
+          "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Au moins six morts dans une fusillade à Cracovie",
+          "url": "https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "ITV, avec AP",
+          "title": "Un tireur ouvre le feu depuis une voiture",
+          "url": "https://www.itv.com/news/2026-11-07/gunman-opens-fire-from-car-in-krakow-main-square-killing-six",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Associated Press, via WSMV",
+          "title": "Des corps retrouvés au domicile du tireur",
+          "url": "https://www.wsmv.com/2026/11/07/gunman-opens-fire-polish-city-killing-6-people-injuring-15/",
+          "date": "2026-11-07"
+        }
+      ],
+      "dossier": {
+        "id": "fusillade-cracovie",
+        "title": "La fusillade de Cracovie"
+      },
+      "slug": "cracovie-tireur-place-marche-meurt-enquete-antiterroriste-cherche"
+    },
+    {
+      "rank": 3,
+      "id": "USA",
+      "place": "États-Unis",
+      "section": "Amériques",
+      "radar": false,
+      "types": [
+        "economy",
+        "society"
+      ],
+      "title": "Nvidia enquête sur son patron, Jensen Huang, lié à une femme soupçonnée d'espionner pour Pékin",
+      "standfirst": "Le conseil d'administration du géant des puces pour l'intelligence artificielle a confié une enquête à des administrateurs indépendants après les aveux de son PDG. Trois présidents de commission de la Chambre des représentants veulent l'entendre à huis clos.",
+      "body": [
+        "Dimanche 8 novembre, le conseil d'administration de Nvidia a annoncé une enquête confiée à un comité d'administrateurs indépendants, assisté d'avocats extérieurs, après que son PDG, Jensen Huang, a reconnu une relation intime avec Alice Huang, ancienne dirigeante de Megaspeed, une société de centres de données basée à Singapour.",
+        "Selon le New York Times, le renseignement américain a conclu que cette femme transmettait des informations à Pékin, ce que la Chine qualifie de spéculation sans fondement, et une société malaisienne liée à Megaspeed a acheté au moins 4,8 milliards de dollars d'équipements intégrant la technologie Nvidia.",
+        "Le conseil dit n'avoir aucune raison de croire que la sécurité nationale ou des informations confidentielles ont été compromises et maintient sa confiance au PDG, que trois présidents de commission de la Chambre des représentants souhaitent entendre à huis clos le 18 novembre."
+      ],
+      "figure": {
+        "value": "4,8 milliards $",
+        "label": "d'équipements Nvidia achetés par une société liée à Megaspeed",
+        "compare": "entre juin 2024 et février 2026"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Jensen Huang",
+              "role": "Fondateur et PDG de Nvidia ; s'est excusé auprès de sa famille, de ses collègues et des actionnaires."
+            },
+            {
+              "name": "Alice Huang (Huang Le)",
+              "role": "Ancienne dirigeante de Megaspeed, présentée par le renseignement américain comme travaillant pour Pékin."
+            },
+            {
+              "name": "Guo Jiakun",
+              "role": "Porte-parole de la diplomatie chinoise ; dénonce une tentative de « salir » la Chine."
+            },
+            {
+              "name": "Brian Mast, John Moolenaar, Rick Crawford",
+              "role": "Présidents républicains de commissions de la Chambre, qui demandent une audition."
+            }
+          ],
+          "source": {
+            "name": "eeNews Europe",
+            "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-10-29",
+              "t": "Le New York Times révèle les soupçons du renseignement américain."
+            },
+            {
+              "d": "2026-11-08",
+              "t": "Jensen Huang reconnaît la relation ; le conseil ouvre une enquête."
+            },
+            {
+              "d": "2026-11-18",
+              "t": "Audition à huis clos demandée par trois commissions de la Chambre."
+            }
+          ],
+          "source": {
+            "name": "eeNews Europe",
+            "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Les puces au cœur du soupçon",
+        "text": "L'affaire touche au dossier le plus sensible des relations sino-américaines : l'accès de la Chine aux processeurs d'intelligence artificielle. Selon eeNews Europe, l'enquête américaine a débuté fin 2024, quand un responsable du département du commerce a remarqué des puces Nvidia encore dans leurs cartons dans un centre de données de Megaspeed en Malaisie, faisant soupçonner un détournement vers la Chine. Nvidia assure que ces accusations ont été examinées et écartées. Singapour indique que ses enquêtes sur Megaspeed se poursuivent, mais n'avoir pas enquêté sur les liens supposés d'Alice Huang avec le renseignement chinois. Le New York Times affirme que Donald Trump, informé en 2025, n'a pas prévenu le patron de Nvidia, dont le lobbying avait obtenu un assouplissement de certaines restrictions."
+      },
+      "keys": [
+        {
+          "title": "La défense de Nvidia",
+          "text": "Le porte-parole du groupe, John Rizzo, rappelle que rencontrer des clients fait partie du métier d'un PDG. Jensen Huang dit coopérer pleinement à l'enquête du conseil, dont aucun calendrier n'a été publié."
+        },
+        {
+          "title": "La pression du Congrès",
+          "text": "Les présidents des commissions des affaires étrangères, du renseignement et de la commission spéciale sur la Chine ont demandé une réponse avant le 11 novembre. Ils veulent interroger Jensen Huang sur la protection du groupe contre l'espionnage."
+        }
+      ],
+      "involved": [
+        "CHN",
+        "MYS"
+      ],
+      "context": [
+        {
+          "d": "2026-10-29",
+          "t": "Le New York Times publie les soupçons du renseignement américain."
+        },
+        {
+          "d": "2026-10-30",
+          "t": "Pékin dénonce des « spéculations sans fondement »."
+        },
+        {
+          "d": "2026-10-31",
+          "t": "Singapour précise ne pas avoir enquêté sur Alice Huang."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Le conseil d'administration de Nvidia ouvre une enquête."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Audition à huis clos demandée à la Chambre des représentants."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "title": "Nvidia enquête sur la relation de son PDG",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "eeNews Europe",
+          "title": "Le conseil de Nvidia ouvre une enquête",
+          "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "eeNews Europe",
+          "title": "Les soupçons d'espionnage autour de Megaspeed",
+          "url": "https://www.eenewseurope.com/en/jensen-huang-spy-plot-nvidia-china/",
+          "date": "2026-11-02"
+        },
+        {
+          "name": "AFP, via Citizen Digital",
+          "title": "La Chine dément",
+          "url": "https://citizen.digital/article/china-denies-spying-onvidias-jensen-huang-n393023",
+          "date": "2026-10-30"
+        }
+      ],
+      "dossier": {
+        "id": "nvidia-chine",
+        "title": "Nvidia et les soupçons d'espionnage chinois"
+      },
+      "slug": "nvidia-enquete-patron-jensen-huang-lie-femme-soupconnee"
+    },
+    {
+      "rank": 4,
+      "id": "ZAF",
+      "place": "Afrique du Sud",
+      "section": "Afrique",
+      "radar": false,
+      "types": [
+        "election",
+        "society"
+      ],
+      "title": "En Afrique du Sud, l'ANC subit son pire revers et les métropoles cherchent des coalitions",
+      "standfirst": "Le parti de Nelson Mandela n'a recueilli qu'environ 31 % des voix aux élections municipales du 4 novembre, devant l'Alliance démocratique. Faute de majorité, plusieurs grandes villes, dont Pretoria et Durban, devront être gouvernées par des coalitions.",
+      "body": [
+        "Après le dépouillement de 99 % des bulletins des élections municipales du 4 novembre, le Congrès national africain (ANC) obtenait 30,8 % des voix, contre 45,6 % en 2021, et l'Alliance démocratique (DA) 24 %, selon le président de la commission électorale, Mosotho Moepya.",
+        "Le secrétaire général de l'ANC, Fikile Mbalula, a jugé le résultat « catastrophique », tandis que le parti uMkhonto we Sizwe de Jacob Zuma, troisième avec près de 10 %, arrive en tête à Durban, et que les Combattants pour la liberté économique reculent à 6,2 %.",
+        "Le Cap a donné une majorité absolue à la DA, mais Pretoria et Durban restent sans majorité, et les tractations s'ouvrent à un peu plus d'un an du congrès de l'ANC qui doit désigner, en décembre 2027, le successeur de Cyril Ramaphosa à sa tête."
+      ],
+      "figure": {
+        "value": "30,8 %",
+        "label": "des voix pour l'ANC, son plus bas niveau",
+        "compare": "contre 45,6 % aux municipales de 2021"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Cyril Ramaphosa",
+              "role": "Président de la République et de l'ANC.",
               "source": {
                 "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+                "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
               }
             },
             {
-              "if": "Gadi Eisenkot échoue",
-              "then": "Isaac Herzog peut désigner un autre candidat ; en cas de nouvel échec, une majorité de députés peut en proposer un troisième, qui dispose de quatorze jours.",
+              "name": "Geordin Hill-Lewis",
+              "role": "Chef de l'Alliance démocratique ; appelle les partis à faire passer les habitants d'abord.",
               "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
               }
             },
             {
-              "if": "aucun gouvernement n'est formé",
-              "then": "de nouvelles élections sont organisées dans un délai de 90 jours, Benyamin Nétanyahou restant chef du gouvernement par intérim.",
+              "name": "Helen Zille",
+              "role": "Candidate de la DA à la mairie de Johannesburg, où son parti arrive en tête.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "name": "Fikile Mbalula",
+              "role": "Secrétaire général de l'ANC ; refuse de précipiter les négociations de coalition.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "name": "Jacob Zuma",
+              "role": "Ancien président, chef du parti MK, ouvert à des coalitions.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            }
+          ]
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-04",
+              "t": "Élections municipales dans 257 conseils.",
               "source": {
                 "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/7/israels-president-picks-eisenkot-over-netanyahu-to-form-next-government"
+                "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
+              }
+            },
+            {
+              "d": "2026-11-07",
+              "t": "La commission électorale annonce les résultats à 99 % du dépouillement.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "d": "2027-12",
+              "t": "Congrès de l'ANC chargé d'élire le successeur de Cyril Ramaphosa.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
               }
             }
           ]
         }
       },
       "analysis": {
-        "title": "La main tendue au Likoud",
-        "text": "Dans son discours, Gadi Eisenkot n'a pas prononcé le nom de Benyamin Nétanyahou mais a invité le Likoud et le Parti sioniste religieux à rejoindre sa coalition, assurant que sa « porte est ouverte ». Il fixe quatre conditions à tout partenaire : reconnaître Israël comme État juif et démocratique, respecter les valeurs de la déclaration d'indépendance, accepter un service militaire ou civil obligatoire et s'engager à détruire le Hamas, qualifié d'organisation terroriste. Il n'a pas évoqué Otzma Yehudit, avec lequel son numéro deux, Yoram Cohen, exclut de gouverner. Selon le Times of Israel, l'hypothèse arithmétique la plus citée reste une majorité de 61 voix reposant sur son bloc, les sept députés du Judaïsme unifié de la Torah et l'abstention bienveillante du Shas."
+        "title": "Le test des métropoles",
+        "text": "À 97 % du dépouillement, 122 des 257 conseils municipaux étaient sans majorité, selon le Sowetan cité par BusinessDay. À Johannesburg, où la DA approche 40 % des voix, sa candidate, Helen Zille, privilégie une coalition à deux, avec ActionSA ou l'ANC. À Pretoria, ActionSA fait du maintien de sa maire, Nasiphi Moya, une condition de tout accord. À East London, l'ANC perd pour la première fois depuis 1995 sa majorité, et Mangaung se partage presque à égalité entre l'ANC et la DA. Le parti MK, qui conteste certains résultats, a demandé le gel du décompte dans plusieurs circonscriptions de Durban, tandis que la commission électorale a ordonné des recomptages dans cinq circonscriptions."
       },
       "keys": [
         {
-          "title": "Le message d'Isaac Herzog",
-          "text": "Le chef de l'État a réclamé un gouvernement « stable », capable de faire face dans la durée aux menaces venues d'Iran, de Gaza et du Liban. Il a demandé à Gadi Eisenkot de tout faire pour aboutir."
+          "title": "Le gouvernement d'unité nationale",
+          "text": "Privé de majorité au Parlement depuis 2024, l'ANC gouverne le pays avec la DA. Le scrutin local met face à face les deux partenaires de la coalition nationale."
         },
         {
-          "title": "Le camp Nétanyahou",
-          "text": "Le Premier ministre sortant, qui reste en fonctions pour expédier les affaires courantes, réclame un gouvernement d'union nationale avec la droite et les ultraorthodoxes. Il a qualifié samedi les partis arabes de « soutiens du terrorisme », un message jugé « hystérique » par Yashar."
+          "title": "La participation",
+          "text": "Environ 14,5 millions des 29,2 millions d'électeurs inscrits ont voté, selon BusinessDay. En 2021, la participation n'avait atteint que 46 %, selon Al Jazeera."
         },
         {
-          "title": "Le calendrier",
-          "text": "Une fois sa coalition formée, Gadi Eisenkot disposera de sept jours pour la présenter à la Knesset. Son bloc veut d'abord remplacer le président de l'assemblée, Amir Ohana, ce qui n'est pas attendu avant la semaine prochaine, selon Israel Hayom."
+          "title": "La succession de Ramaphosa",
+          "text": "Selon Al Jazeera, le résultat pèsera sur la course à la tête de l'ANC. Le Sunday Times rapporte que des dirigeants du parti ont évoqué une démission de leurs fonctions internes."
         }
       ],
-      "involved": [
-        "PSE",
-        "USA",
-        "LBN",
-        "IRN"
-      ],
+      "involved": [],
       "context": [
         {
-          "d": "2023-10-07",
-          "t": "Attaque menée par le Hamas dans le sud d'Israël, suivie de la guerre à Gaza."
+          "d": "1994-04-27",
+          "t": "Premières élections démocratiques ; l'ANC accède au pouvoir."
         },
         {
-          "d": "2026-10-27",
-          "t": "Élections législatives : aucun bloc n'obtient la majorité."
+          "d": "2021-11-01",
+          "t": "Municipales : l'ANC passe pour la première fois sous 50 %."
+        },
+        {
+          "d": "2024-05-29",
+          "t": "Législatives : l'ANC perd sa majorité et s'allie à la DA."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Élections municipales."
         },
         {
           "d": "2026-11-07",
-          "t": "Isaac Herzog annonce qu'il charge Gadi Eisenkot de former le gouvernement."
+          "t": "Résultats à 99 % : l'ANC à 30,8 %."
         },
         {
-          "d": "2026-11-08",
-          "t": "Remise officielle du mandat à Jérusalem ; Gadi Eisenkot tend la main au Likoud."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "Prestation de serment de la nouvelle Knesset."
-        },
-        {
-          "d": "2026-12-06",
-          "t": "Fin du délai initial de 28 jours pour former le gouvernement."
+          "d": "2027-12",
+          "t": "Congrès de l'ANC."
         }
       ],
       "sources": [
         {
-          "name": "The Times of Israel",
-          "title": "Gadi Eisenkot promet des actes « non conventionnels »",
-          "url": "https://www.timesofisrael.com/eisenkot-gets-nod-to-form-government-vows-unconventional-acts-in-time-of-emergency/",
-          "date": "2026-11-08"
+          "name": "Al Jazeera",
+          "title": "Un scrutin test pour l'ANC",
+          "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc",
+          "date": "2026-11-04"
         },
         {
-          "name": "Associated Press, via PBS",
-          "title": "Le président donne la première chance à Gadi Eisenkot",
-          "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government",
-          "date": "2026-11-08"
+          "name": "BusinessDay",
+          "title": "Résultats en direct",
+          "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/",
+          "date": "2026-11-07"
         },
         {
-          "name": "Israel Hayom",
-          "title": "Gadi Eisenkot appelle à l'unité",
-          "url": "https://www.israelhayom.com/2026/11/08/eisenkot-tasked-with-forming-government-calls-for-unity/",
-          "date": "2026-11-08"
+          "name": "EWN",
+          "title": "La domination de l'ANC contestée",
+          "url": "https://www.ewn.co.za/2026/11/06/ancs-dominance-challenged-as-opposition-parties-make-gains-in-local-polls",
+          "date": "2026-11-06"
         },
         {
-          "name": "The Times of Israel",
-          "title": "Une coalition encore introuvable",
-          "url": "https://www.timesofisrael.com/president-herzog-taps-eisenkot-to-form-coalition-but-path-remains-fraught/",
-          "date": "2026-11-08"
+          "name": "Briefly News",
+          "title": "Les conseils sans majorité dominent",
+          "url": "https://briefly.co.za/south-africa/258085-hung-councils-dominate-sas-2026-elections-anc-suffers-worst-result-1994/",
+          "date": "2026-11-06"
         }
       ],
       "dossier": {
-        "id": "israel-gaza",
-        "title": "Israël et Gaza"
+        "id": "municipales-afrique-du-sud",
+        "title": "Les municipales sud-africaines"
       },
-      "slug": "israel-gadi-eisenkot-recoit-mandat-promet-gouvernement-urgence"
+      "slug": "afrique-sud-anc-subit-pire-revers-metropoles-cherchent"
     },
     {
-      "rank": 2,
-      "id": "SAU",
-      "place": "Arabie saoudite",
+      "rank": 5,
+      "id": "YEM",
+      "place": "Yémen",
       "section": "Moyen-Orient",
+      "radar": true,
       "types": [
         "conflict",
-        "economy"
+        "society"
       ],
-      "radar": false,
-      "title": "À Riyad, une attaque houthiste endommage la tour d'Aramco au cœur du quartier financier",
-      "standfirst": "Des missiles tirés depuis le Yémen ont été interceptés dimanche au-dessus de la capitale saoudienne, mais des débris ont touché un immeuble du géant pétrolier. Les autorités houthistes accusent l'aviation saoudienne d'avoir tué des dizaines de personnes près de Sanaa.",
+      "title": "Au Yémen, au moins trente morts sur un marché de Taëz, chaque camp accusant l'autre",
+      "standfirst": "Les Houthis accusent l'aviation saoudienne d'avoir bombardé vendredi le marché d'Al-Hadara, le gouvernement reconnu dénonce des missiles houthistes. Selon le Yemen Data Project, octobre a été le mois le plus meurtrier pour les civils depuis 2017.",
       "body": [
-        "Dans la nuit du samedi 7 au dimanche 8 novembre, des missiles houthistes tirés vers Riyad ont été interceptés par la défense aérienne saoudienne, mais des débris ont soufflé les vitres de plusieurs étages d'un immeuble d'Aramco dans le quartier financier du roi Abdallah, sans faire de victimes, selon le ministère de l'énergie.",
-        "Les rebelles yéménites, alignés sur l'Iran, ont intensifié depuis septembre leurs tirs contre les ports et les aéroports du royaume, et leur porte-parole, Yahya Saree, affirme avoir aussi visé l'aéroport international de Riyad, ce que les autorités saoudiennes n'ont pas confirmé.",
-        "La coalition dirigée par Riyad dit avoir détruit des lanceurs de missiles à Saada et à Sanaa, tandis que le ministère de la santé houthiste fait état d'au moins 33 morts samedi et 40 dimanche dans des frappes saoudiennes près de la capitale yéménite."
+        "Vendredi 6 novembre, vers 7 heures, des frappes ont touché le marché d'Al-Hadara, dans le district d'Al-Waziyah, dans la province de Taëz, tuant au moins trente personnes et en blessant huit, selon les autorités houthistes, un bilan que l'Associated Press n'a pas pu vérifier.",
+        "Le porte-parole militaire des Houthis, Yahya Saree, accuse l'aviation saoudienne, tandis que le porte-parole des forces gouvernementales, le colonel Majed al-Nazili, impute le drame à des missiles balistiques houthistes et dénonce un « crime de guerre ».",
+        "Cette attaque s'inscrit dans l'escalade ouverte en juillet par l'effondrement de la trêve négociée par l'ONU, alors que les Houthis assiègent depuis un mois la ville de Taëz et que l'offensive gouvernementale « Aube du Yémen », lancée le 5 octobre, se poursuit."
       ],
       "figure": {
-        "value": "107 $",
-        "label": "le baril de Brent au 3 novembre",
-        "compare": "contre environ 71 $ fin février, avant la guerre avec l'Iran"
+        "value": "426",
+        "label": "civils tués en octobre par des frappes de la coalition saoudienne",
+        "compare": "près d'un quart d'enfants, selon le Yemen Data Project"
       },
       "modules": {
         "toll": {
           "items": [
             {
-              "value": "≥ 40",
-              "label": "morts dans des frappes saoudiennes près de Sanaa le 8 novembre",
-              "by": "le ministère de la santé houthiste",
-              "date": "2026-11-08",
+              "value": "≥ 30",
+              "label": "morts dans les frappes sur le marché d'Al-Hadara, le 6 novembre",
+              "by": "les autorités houthistes",
+              "date": "2026-11-06",
               "source": {
-                "name": "Reuters, via AsiaOne",
-                "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+                "name": "Associated Press, via WFTV",
+                "url": "https://www.wftv.com/news/business/airstrikes-market/V7EPGI27LM66FEZBYGD4H7AE7I/"
               }
             },
             {
-              "value": "≥ 33",
-              "label": "morts dans des frappes saoudiennes près de Sanaa le 7 novembre",
-              "by": "le ministère de la santé houthiste",
-              "date": "2026-11-08",
+              "value": "426",
+              "label": "civils tués en octobre par des frappes de la coalition saoudienne",
+              "by": "le Yemen Data Project",
+              "date": "2026-11-09",
               "source": {
-                "name": "Reuters, via AsiaOne",
-                "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+                "name": "Democracy Now!",
+                "url": "https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack"
               }
             },
             {
-              "value": "13",
-              "label": "morts dans l'attaque houthiste contre l'aéroport de Riyad le 10 octobre",
-              "by": "CBS News",
-              "date": "2026-10-13",
+              "value": "81",
+              "label": "recrues tuées par des missiles houthistes au camp d'Al-Alam, dans le Chabwa, le 19 octobre",
+              "by": "les autorités locales",
+              "date": "2026-10-31",
               "source": {
-                "name": "CBS News",
-                "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-saudi-arabia-houthi/"
+                "name": "South24",
+                "url": "https://south24.net/news/newse.php?nid=5835"
+              }
+            },
+            {
+              "value": "1 677",
+              "label": "morts dans l'escalade militaire entre août et le 25 octobre",
+              "by": "l'OMS",
+              "date": "2026-10-29",
+              "source": {
+                "name": "South24",
+                "url": "https://south24.net/news/newse.php?nid=5835"
               }
             }
           ],
-          "note": "Bilans non vérifiés de façon indépendante ; Riyad dit enquêter sur les frappes près de Sanaa."
+          "note": "Bilans non vérifiés de façon indépendante."
         },
         "places": {
           "items": [
             {
-              "name": "Quartier financier du roi Abdallah, Riyad",
+              "name": "Taëz",
+              "coords": [
+                44.02,
+                13.58
+              ],
+              "note": "Ville assiégée par les Houthis ; un marché de la province frappé le 6 novembre."
+            },
+            {
+              "name": "Riyad",
               "coords": [
                 46.64,
                 24.76
               ],
-              "note": "Immeuble d'Aramco endommagé par des débris le 8 novembre, sans victimes."
-            },
-            {
-              "name": "Sanaa",
-              "coords": [
-                44.21,
-                15.35
-              ],
-              "note": "Frappes saoudiennes les 7 et 8 novembre, selon les autorités houthistes."
+              "note": "Un immeuble d'Aramco touché par un missile houthiste le 8 novembre."
             }
           ],
           "source": {
-            "name": "Reuters, via AsiaOne",
-            "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+            "name": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack"
           }
         },
         "sides": {
           "groups": [
             {
-              "name": "Arabie saoudite et coalition",
+              "name": "Gouvernement reconnu et coalition saoudienne",
+              "lead": "Rachad al-Alimi",
               "ids": [
+                "YEM",
                 "SAU"
               ],
-              "note": "Soutient le gouvernement yéménite reconnu et frappe les positions houthistes."
+              "note": "Mène depuis le 5 octobre l'offensive « Aube du Yémen »."
             },
             {
               "name": "Houthis",
+              "lead": "Abdel Malek al-Houthi",
               "ids": [
                 "YEM"
               ],
-              "note": "Tiennent Sanaa depuis plus de dix ans ; alignés sur l'Iran.",
+              "note": "Contrôlent Sanaa et l'essentiel de la province de Taëz.",
               "backers": [
                 {
                   "id": "IRN",
@@ -280,657 +773,143 @@
             }
           ],
           "source": {
-            "name": "Reuters, via AsiaOne",
-            "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district"
+            "name": "Outlook India",
+            "url": "https://www.outlookindia.com/international/yemen-taiz-market-strikes-houthis-government-forces-blame-saudi-arabia"
           }
         },
-        "market": {
-          "series": "brent",
-          "from": "2026-01-01",
-          "mark": {
-            "d": "2026-02-28",
-            "label": "Début de la guerre avec l'Iran"
-          }
-        },
-        "inflation": {}
+        "help": {
+          "orgs": [
+            "icrc",
+            "wfp",
+            "unicef"
+          ]
+        }
       },
       "analysis": {
-        "title": "Un front de plus dans la guerre régionale",
-        "text": "Selon Reuters, l'offensive houthiste contre le royaume constitue un nouveau front de la guerre menée par les États-Unis et Israël contre l'Iran depuis février. Après une avancée en septembre vers le détroit de Bab el-Mandeb, les rebelles ont multiplié les tirs de missiles et de drones contre les infrastructures saoudiennes ; le 10 octobre, une attaque contre l'aéroport de Riyad avait fait 13 morts, selon CBS News. Les Houthis revendiquent aussi des frappes contre des réservoirs d'Aramco à Riyad et à Abqaïq, que l'Institute for the Study of War n'a pas pu vérifier. Dans le même temps, les gardiens de la révolution ont visé des navires dans le détroit d'Ormuz, entretenant la pression sur l'approvisionnement mondial en pétrole."
+        "title": "Une guerre ravivée par le conflit régional",
+        "text": "La trêve conclue sous l'égide de l'ONU a volé en éclats en juillet, après des tirs de la coalition sur la piste de l'aéroport de Sanaa, destinés à empêcher l'atterrissage d'un avion iranien transportant une délégation houthiste. Les rebelles ont alors proclamé un blocus naval de l'Arabie saoudite et multiplié les attaques contre son territoire ; le 10 octobre, une frappe contre l'aéroport de Riyad a fait 13 morts, selon Amnesty International. L'ONG lie cette reprise des hostilités à la guerre régionale qui oppose les États-Unis et Israël à l'Iran. Dans le sud, les Houthis visent aussi les forces gouvernementales et l'aéroport d'Aden, tandis que les civils de Taëz manquent d'eau, de nourriture et de médicaments."
       },
       "keys": [
         {
-          "title": "La province orientale",
-          "text": "Aucune perturbation des opérations d'Aramco n'a été signalée, selon Investing.com. L'alerte a été levée dimanche à Dhahran, Dammam, Abqaïq et Al-Ahsa, peu avant l'annonce de l'interception d'un missile visant la région."
+          "title": "La faim",
+          "text": "Au moins 18,3 millions de Yéménites souffrent d'insécurité alimentaire aiguë, selon les Nations unies citées par Amnesty International. Plus de 2,2 millions d'enfants de moins de cinq ans sont gravement malnutris."
         },
         {
-          "title": "La diplomatie régionale",
-          "text": "Selon Reuters, des responsables saoudiens, turcs et pakistanais, liés par un pacte de défense, ont rencontré le mois dernier des dirigeants iraniens à Téhéran. Le Royaume-Uni a annoncé en octobre des missions défensives de ses avions de chasse."
+          "title": "Le siège de Taëz",
+          "text": "Les Houthis encerclent la capitale provinciale depuis environ trente jours, privant des centaines de milliers d'habitants d'approvisionnements. L'ONU s'inquiète de stocks de vivres et de médicaments dangereusement bas."
         }
       ],
       "involved": [
-        "YEM",
-        "IRN",
-        "USA"
+        "SAU",
+        "IRN"
       ],
       "context": [
         {
-          "d": "2026-02-28",
-          "t": "Frappes américaines et israéliennes contre l'Iran ; début de la guerre régionale."
+          "d": "2026-07-13",
+          "t": "Tirs de la coalition sur l'aéroport de Sanaa ; la trêve s'effondre."
+        },
+        {
+          "d": "2026-10-05",
+          "t": "Lancement de l'offensive gouvernementale « Aube du Yémen »."
         },
         {
           "d": "2026-10-10",
-          "t": "Attaque contre l'aéroport international de Riyad : 13 morts."
+          "t": "Attaque houthiste contre l'aéroport de Riyad : 13 morts."
+        },
+        {
+          "d": "2026-10-19",
+          "t": "Missiles houthistes sur le camp d'Al-Alam : 81 recrues tuées."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "Frappes sur le marché d'Al-Hadara, dans la province de Taëz."
         },
         {
           "d": "2026-11-08",
-          "t": "Une tour d'Aramco touchée par des débris dans le quartier financier de Riyad."
+          "t": "Un missile houthiste endommage une tour d'Aramco à Riyad."
         }
       ],
       "sources": [
         {
-          "name": "Reuters, via AsiaOne",
-          "title": "Une attaque houthiste endommage un immeuble d'Aramco",
-          "url": "https://www.asiaone.com/asia/houthi-attack-damages-aramco-building-riyadh-financial-district",
+          "name": "Associated Press, via WFTV",
+          "title": "Des frappes sur un marché font au moins trente morts",
+          "url": "https://www.wftv.com/news/business/airstrikes-market/V7EPGI27LM66FEZBYGD4H7AE7I/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Amnesty International",
+          "title": "Les civils ne doivent pas payer l'escalade",
+          "url": "https://www.amnesty.org/en/latest/news/2026/10/saudi-arabia-yemen-civilians-must-not-pay-the-price-of-escalation-in-hostilities/",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Outlook India",
+          "title": "Houthis et gouvernement se renvoient la responsabilité",
+          "url": "https://www.outlookindia.com/international/yemen-taiz-market-strikes-houthis-government-forces-blame-saudi-arabia",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Democracy Now!",
+          "title": "Trente morts au Yémen",
+          "url": "https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack",
           "date": "2026-11-09"
         },
         {
-          "name": "The Week",
-          "title": "Missiles interceptés au-dessus de Riyad",
-          "url": "https://www.theweek.in/news/middle-east/2026/11/08/saudi-aramco-building-damaged-in-riyadh-after-houthi-attack-from-yemen-intercepted.html",
-          "date": "2026-11-08"
-        },
-        {
-          "name": "Critical Threats",
-          "title": "Point sur l'Iran du 8 novembre",
-          "url": "https://www.criticalthreats.org/analysis/iran-update-november-8-2026",
-          "date": "2026-11-08"
-        },
-        {
-          "name": "Investing.com",
-          "title": "Levée des alertes dans la province orientale",
-          "url": "https://www.investing.com/news/economy-news/saudi-arabia-lifts-oil-region-alerts-after-houthi-missile-intercepted-5010126",
-          "date": "2026-11-08"
+          "name": "South24",
+          "title": "Deux semaines meurtrières dans le sud du Yémen",
+          "url": "https://south24.net/news/newse.php?nid=5835",
+          "date": "2026-10-31"
         }
       ],
       "dossier": {
         "id": "guerre-yemen",
         "title": "La guerre au Yémen"
       },
-      "slug": "riyad-attaque-houthiste-endommage-tour-aramco-ur-quartier"
-    },
-    {
-      "rank": 3,
-      "id": "UKR",
-      "place": "Ukraine",
-      "section": "Europe",
-      "types": [
-        "conflict",
-        "diplomacy"
-      ],
-      "radar": false,
-      "title": "En Ukraine, 850 000 personnes privées de courant avant les pourparlers d'Abou Dhabi",
-      "standfirst": "De nouvelles frappes russes ont visé dimanche le réseau électrique, notamment dans la région de Dnipropetrovsk, et la centrale de Zaporijia a perdu son alimentation extérieure. Paris annonce que les Européens participeront aux discussions des 10 et 11 novembre.",
-      "body": [
-        "Dimanche 8 novembre, des frappes russes nocturnes ont privé d'électricité plus de 850 000 personnes en Ukraine, dont plus de 600 000 dans la région de Dnipropetrovsk, selon l'énergéticien DTEK, tandis qu'une personne a été tuée et trois blessées à Dnipro.",
-        "La centrale nucléaire de Zaporijia, occupée par la Russie, a perdu son alimentation extérieure et fonctionne sur générateurs diesel, et un drone a frappé à Komyshuvakha le site où une attaque avait tué au moins 55 personnes, visant selon Kiev les secouristes.",
-        "Le ministre français des affaires étrangères, Jean-Noël Barrot, a annoncé que la France et d'autres Européens prendraient part aux pourparlers des 10 et 11 novembre à Abou Dhabi, conçus jusqu'ici comme une rencontre entre Washington, Moscou et Kiev."
-      ],
-      "figure": {
-        "value": "> 850 000",
-        "label": "personnes privées d'électricité après les frappes de la nuit",
-        "compare": "dont plus de 600 000 dans la région de Dnipropetrovsk, selon DTEK"
-      },
-      "modules": {
-        "toll": {
-          "items": [
-            {
-              "value": "1",
-              "label": "mort et trois blessés dans une frappe sur un quartier résidentiel de Dnipro le 8 novembre",
-              "by": "Oleksandr Hanja, chef de l'administration militaire régionale",
-              "date": "2026-11-08",
-              "source": {
-                "name": "Euronews",
-                "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on"
-              }
-            },
-            {
-              "value": "≥ 55",
-              "label": "morts dans l'attaque contre une ancienne école de Komyshuvakha",
-              "by": "les autorités ukrainiennes",
-              "date": "2026-11-08",
-              "source": {
-                "name": "Associated Press, via ABC News",
-                "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
-              }
-            },
-            {
-              "value": "45",
-              "label": "personnes toujours portées disparues à Komyshuvakha",
-              "by": "Mykhaïlo Semikine, chef par intérim de l'administration régionale",
-              "date": "2026-11-08",
-              "source": {
-                "name": "Associated Press, via ABC News",
-                "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
-              }
-            }
-          ],
-          "note": "Bilans non vérifiés de façon indépendante."
-        },
-        "places": {
-          "items": [
-            {
-              "name": "Centrale nucléaire de Zaporijia",
-              "coords": [
-                34.59,
-                47.51
-              ],
-              "note": "Privée d'alimentation extérieure le 8 novembre, sur générateurs diesel."
-            },
-            {
-              "name": "Dnipro",
-              "coords": [
-                35.05,
-                48.46
-              ],
-              "note": "Un mort et trois blessés dans une frappe le 8 novembre ; coupures massives dans la région."
-            }
-          ],
-          "source": {
-            "name": "Associated Press, via ABC News",
-            "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
-          }
-        },
-        "table": {
-          "ids": [
-            "UKR",
-            "RUS",
-            "USA",
-            "FRA"
-          ],
-          "host": "ARE",
-          "positions": [
-            {
-              "who": "Paris",
-              "wants": "Être présent pour que « la voix de l'Europe » soit entendue, selon Jean-Noël Barrot."
-            },
-            {
-              "who": "Washington",
-              "wants": "Un accord : Donald Trump prédit une entente « très importante » avec la Russie, étendue à toute l'Europe."
-            }
-          ],
-          "next": {
-            "d": "2026-11-10",
-            "t": "Pourparlers à Abou Dhabi, les 10 et 11 novembre."
-          },
-          "source": {
-            "name": "Associated Press, via ABC News",
-            "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536"
-          }
-        }
-      },
-      "since": {
-        "date": "2022-02-24",
-        "label": "depuis l'invasion à grande échelle"
-      },
-      "analysis": {
-        "title": "La pression par l'hiver",
-        "text": "Moscou poursuit sa campagne contre le réseau énergétique ukrainien à l'approche de l'hiver. Volodymyr Zelensky affirme que la Russie a tiré en une semaine 115 missiles, près de 1 900 bombes guidées et plus de 3 000 drones d'attaque. Le ministère russe de la défense dit avoir visé une sous-station alimentant des entreprises du complexe militaro-industriel. Dans la région de Jytomyr, 140 immeubles étaient privés de chauffage, et la région de Kharkiv a compté jusqu'à 250 000 abonnés sans courant, rétabli depuis. La perte de l'alimentation extérieure de la centrale de Zaporijia, après la déconnexion de la ligne Ferosplavna, ravive les inquiétudes sur la sûreté du plus grand site nucléaire d'Europe, qui dépend désormais de ses générateurs de secours."
-      },
-      "keys": [
-        {
-          "title": "Komyshuvakha",
-          "text": "Le drone russe a touché l'ancienne école et un abri voisin déjà frappés lundi, sans faire de blessés, selon les services de secours. Volodymyr Zelensky a dénoncé un « cynisme absolu »."
-        },
-        {
-          "title": "Le format d'Abou Dhabi",
-          "text": "Les pourparlers étaient présentés comme une rencontre à trois organisée par Washington. Jean-Noël Barrot n'a pas précisé qui représenterait la France."
-        }
-      ],
-      "involved": [
-        "RUS",
-        "USA",
-        "ARE",
-        "FRA"
-      ],
-      "context": [
-        {
-          "d": "2022-02-24",
-          "t": "La Russie lance son invasion à grande échelle de l'Ukraine."
-        },
-        {
-          "d": "2026-11-02",
-          "t": "Frappe russe sur une ancienne école à Komyshuvakha : au moins 55 morts."
-        },
-        {
-          "d": "2026-11-07",
-          "t": "36 missiles balistiques contre Kiev et sa région ; le pont Nord fermé."
-        },
-        {
-          "d": "2026-11-08",
-          "t": "Plus de 850 000 personnes privées de courant ; la centrale de Zaporijia sur générateurs."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "Pourparlers à Abou Dhabi, avec des représentants européens."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Euronews",
-          "title": "850 000 personnes privées d'électricité",
-          "url": "https://www.euronews.com/2026/11/08/russian-strikes-on-ukraine-leave-850000-without-power-as-zelenskyy-reports-drone-attack-on",
-          "date": "2026-11-08"
-        },
-        {
-          "name": "Associated Press, via ABC News",
-          "title": "La Russie vise les secouristes à Komyshuvakha",
-          "url": "https://abcnews.com/International/wireStory/russia-targets-emergency-crews-site-deadly-strike-southern-137951536",
-          "date": "2026-11-08"
-        }
-      ],
-      "dossier": {
-        "id": "guerre-ukraine",
-        "title": "La guerre en Ukraine"
-      },
-      "slug": "ukraine-850-000-personnes-privees-courant-avant-pourparlers"
-    },
-    {
-      "rank": 4,
-      "id": "TUR",
-      "place": "Turquie",
-      "section": "International",
-      "types": [
-        "diplomacy",
-        "society"
-      ],
-      "radar": false,
-      "title": "À Antalya, la COP31 s'ouvre sous la menace d'un dépassement de 1,5 °C",
-      "standfirst": "Près de 200 pays se retrouvent jusqu'au 20 novembre en Turquie pour la conférence de l'ONU sur le climat, présidée par Ankara et négociée par l'Australie. Les engagements actuels mènent à un réchauffement de 2,8 °C, selon la dernière projection des Nations unies.",
-      "body": [
-        "Lundi 9 novembre s'ouvre à Antalya, en Turquie, la 31e conférence des Nations unies sur le climat, qui réunit jusqu'au 20 novembre des délégations de près de 200 pays sous la présidence du ministre turc de l'environnement, Murat Kurum.",
-        "Les chercheurs jugent presque certain que le réchauffement dépassera 1,5 °C en 2026, et les politiques actuelles mènent à une hausse de 2,8 °C d'ici à la fin du siècle, selon la dernière projection de l'ONU citée par l'agence DPA.",
-        "Le ministre australien du climat, Chris Bowen, présidera les négociations, un partage des rôles inédit, avant le sommet des dirigeants des 11 et 12 novembre, où le nombre de chefs d'État annoncés est nettement inférieur à celui des dernières COP."
-      ],
-      "figure": {
-        "value": "2,8 °C",
-        "label": "de réchauffement attendu d'ici à 2100 avec les politiques actuelles",
-        "compare": "contre l'objectif de 1,5 °C de l'accord de Paris"
-      },
-      "modules": {
-        "places": {
-          "items": [
-            {
-              "name": "Antalya",
-              "coords": [
-                30.71,
-                36.9
-              ],
-              "note": "Conférence au centre des expositions Antalya Expo, du 9 au 20 novembre."
-            }
-          ],
-          "source": {
-            "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
-          }
-        },
-        "table": {
-          "ids": [
-            "TUR",
-            "AUS"
-          ],
-          "host": "TUR",
-          "positions": [
-            {
-              "who": "Présidence turque et australienne",
-              "wants": "Mettre en œuvre et accélérer les engagements existants, selon leur lettre commune aux délégations."
-            },
-            {
-              "who": "ONU Climat",
-              "wants": "Des efforts supplémentaires : les progrès collectifs restent « nettement insuffisants », selon son secrétaire exécutif, Simon Stiell."
-            }
-          ],
-          "next": {
-            "d": "2026-11-11",
-            "t": "Sommet des dirigeants, les 11 et 12 novembre."
-          },
-          "source": {
-            "name": "The High Street Journal",
-            "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/"
-          }
-        },
-        "actors": {
-          "items": [
-            {
-              "name": "Murat Kurum",
-              "role": "Ministre turc de l'environnement, président de la COP31."
-            },
-            {
-              "name": "Chris Bowen",
-              "role": "Ministre australien du climat, président des négociations."
-            },
-            {
-              "name": "Simon Stiell",
-              "role": "Secrétaire exécutif de l'ONU Climat."
-            }
-          ],
-          "source": {
-            "name": "The High Street Journal",
-            "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/"
-          }
-        },
-        "dates": {
-          "items": [
-            {
-              "d": "2026-11-09",
-              "t": "Ouverture de la conférence à Antalya."
-            },
-            {
-              "d": "2026-11-11",
-              "t": "Sommet des dirigeants, jusqu'au 12 novembre."
-            },
-            {
-              "d": "2026-11-20",
-              "t": "Clôture prévue des négociations."
-            }
-          ],
-          "source": {
-            "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
-          }
-        }
-      },
-      "analysis": {
-        "title": "Une présidence à deux têtes",
-        "text": "La Turquie et l'Australie s'étaient toutes deux portées candidates pour accueillir la conférence ; le compromis trouvé en novembre 2025 confie l'organisation et l'agenda de l'action à Ankara, et la conduite des négociations à Canberra. L'agence DPA relève que ce partage, nouveau, fait craindre des frictions, les propositions des deux pays ayant manqué de coordination pendant la préparation. Le thème retenu, « mise en œuvre et accélération », traduit des ambitions plus modestes : selon la synthèse de l'ONU portant sur 154 pays, les plans nationaux ne réduiraient les émissions que d'environ 6 % sous leur niveau de 2019 d'ici à 2035. Le financement de l'adaptation, que la COP30 de Belém a promis de tripler, s'annonce comme l'un des points de friction."
-      },
-      "keys": [
-        {
-          "title": "Moins de dirigeants",
-          "text": "Une liste provisoire de l'ONU compte 77 chefs d'État ou de gouvernement inscrits pour parler, contre 116 à Dubaï en 2023, selon Climate & Capital Media. La Turquie dit attendre 91 dirigeants."
-        },
-        {
-          "title": "Les hôtes et le charbon",
-          "text": "Greenpeace reproche à la Turquie ses subventions au charbon et un projet d'extension de centrale. Les deux pays hôtes continuent de développer cette énergie, selon l'ONG Urgewald."
-        }
-      ],
-      "involved": [
-        "AUS",
-        "BRA",
-        "CHN"
-      ],
-      "context": [
-        {
-          "d": "2015-12-12",
-          "t": "Adoption de l'accord de Paris, qui vise à limiter le réchauffement à 1,5 °C."
-        },
-        {
-          "d": "2025-11-10",
-          "t": "Ouverture de la COP30 à Belém, au Brésil."
-        },
-        {
-          "d": "2026-10-27",
-          "t": "L'ONU publie la synthèse des plans climat nationaux."
-        },
-        {
-          "d": "2026-11-09",
-          "t": "Ouverture de la COP31 à Antalya."
-        },
-        {
-          "d": "2026-11-20",
-          "t": "Clôture prévue de la conférence."
-        }
-      ],
-      "sources": [
-        {
-          "name": "DPA, via Yahoo News",
-          "title": "Le sommet s'ouvre sur fond de dépassement de 1,5 °C",
-          "url": "https://www.yahoo.com/news/science/articles/climate-summit-open-turkey-amid-040329357.html",
-          "date": "2026-11-09"
-        },
-        {
-          "name": "The High Street Journal",
-          "title": "La COP31 s'ouvre à Antalya",
-          "url": "https://thehighstreetjournal.com/cop31-opens-in-antalya-with-pressure-to-turn-climate-pledges-into-action/",
-          "date": "2026-11-09"
-        },
-        {
-          "name": "Climate & Capital Media",
-          "title": "Les enjeux de la COP31",
-          "url": "https://www.climateandcapitalmedia.com/cop31-antalya-preview/",
-          "date": "2026-11-03"
-        },
-        {
-          "name": "Wikipedia",
-          "title": "Conférence de 2026 sur le climat",
-          "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference",
-          "date": "2026-11-09"
-        }
-      ],
-      "dossier": {
-        "id": "cop31",
-        "title": "La COP31 à Antalya"
-      },
-      "slug": "antalya-cop31-ouvre-sous-menace-depassement-1-5"
-    },
-    {
-      "rank": 5,
-      "id": "MMR",
-      "place": "Birmanie",
-      "section": "Asie-Pacifique",
-      "types": [
-        "conflict",
-        "society"
-      ],
-      "radar": true,
-      "title": "En Birmanie, une frappe aérienne de l'armée tue onze personnes dans une école du Sagaing",
-      "standfirst": "Des enseignants et des enfants figurent parmi les victimes d'un bombardement samedi dans le canton de Kani, selon des médias birmans indépendants. Le gouvernement d'unité nationale recense 641 frappes aériennes de l'armée en octobre.",
-      "body": [
-        "Samedi 7 novembre, vers 11 h 30, une frappe aérienne de l'armée birmane a visé une école et le village de Nyaung Pin Le, dans le canton de Kani, région de Sagaing, tuant onze personnes, pour la plupart des enseignants et des enfants, selon des médias indépendants.",
-        "Ce bombardement s'inscrit dans une campagne aérienne qui a fait, selon le gouvernement d'unité nationale en exil, 212 morts civils en octobre, dont 23 enfants, près de six ans après le coup d'État et sept mois après l'élection de Min Aung Hlaing à la présidence.",
-        "Les combats se poursuivent dans l'État Mon, où plus de 15 000 habitants ont fui le canton de Kyaikto, et dans l'Arakan, alors que l'armée ferme la nuit, à partir du 9 novembre, les points de contrôle de trois cantons du Sagaing."
-      ],
-      "figure": {
-        "value": "641",
-        "label": "frappes aériennes de l'armée en octobre",
-        "compare": "212 civils tués, selon le gouvernement d'unité nationale"
-      },
-      "modules": {
-        "toll": {
-          "items": [
-            {
-              "value": "11",
-              "label": "morts dans la frappe sur l'école de Nyaung Pin Le, le 7 novembre",
-              "by": "des médias birmans indépendants",
-              "date": "2026-11-08",
-              "source": {
-                "name": "MoeMaKa",
-                "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
-              }
-            },
-            {
-              "value": "212",
-              "label": "civils tués par des frappes aériennes en octobre, dont 23 enfants",
-              "by": "le gouvernement d'unité nationale",
-              "date": "2026-11-07",
-              "source": {
-                "name": "MoeMaKa",
-                "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
-              }
-            },
-            {
-              "value": "≥ 12",
-              "label": "morts dans la frappe sur un hôpital du canton de Kawlin, le 4 novembre",
-              "by": "Karenni People's Voice",
-              "date": "2026-11-07",
-              "source": {
-                "name": "Burma Coup Resistance Notes",
-                "url": "https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5"
-              }
-            }
-          ],
-          "note": "Bilans non vérifiés de façon indépendante."
-        },
-        "places": {
-          "items": [
-            {
-              "name": "Kani, région de Sagaing",
-              "coords": [
-                94.88,
-                22.43
-              ],
-              "note": "Frappe sur une école de Nyaung Pin Le, dans le canton, le 7 novembre."
-            }
-          ],
-          "source": {
-            "name": "MoeMaKa",
-            "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/"
-          }
-        },
-        "sides": {
-          "groups": [
-            {
-              "name": "Armée et pouvoir de Naypyidaw",
-              "lead": "Min Aung Hlaing",
-              "ids": [
-                "MMR"
-              ],
-              "note": "Président élu par le Parlement en avril 2026 ; Ye Win Oo commande les forces armées."
-            },
-            {
-              "name": "Résistance armée",
-              "ids": [
-                "MMR"
-              ],
-              "note": "Forces de défense populaire liées au gouvernement d'unité nationale, et groupes ethniques comme l'Armée d'Arakan."
-            }
-          ],
-          "source": {
-            "name": "Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
-          }
-        },
-        "help": {
-          "orgs": [
-            "icrc",
-            "unicef",
-            "unhcr"
-          ]
-        }
-      },
-      "since": {
-        "date": "2021-02-01",
-        "label": "depuis le coup d'État"
-      },
-      "analysis": {
-        "title": "La guerre par les airs",
-        "text": "Incapable de reprendre le contrôle de vastes régions rurales, l'armée s'appuie sur son aviation, que la résistance ne peut contrer. Le Sagaing, cœur de l'opposition armée au coup d'État de 2021, est la région la plus touchée : outre l'école de Kani, un hôpital du canton de Kawlin a été bombardé le 4 novembre, tuant au moins douze personnes dont un médecin, et un abri de déplacés a été visé à Wetlet. L'élection de Min Aung Hlaing à la présidence en avril, à l'issue d'un scrutin organisé par l'armée, n'a pas mis fin aux combats. Des obus tirés dans l'État Karen sont aussi tombés dans la province thaïlandaise de Tak, endommageant des habitations."
-      },
-      "keys": [
-        {
-          "title": "Le canal américain",
-          "text": "Les États-Unis ont engagé en octobre des négociations directes avec le pouvoir militaire, tout en maintenant leurs sanctions contre Min Aung Hlaing. Le gouvernement d'unité nationale a répondu le 3 novembre à un document de stratégie américain."
-        },
-        {
-          "title": "Les poursuites",
-          "text": "Une cour d'appel philippine a enregistré une requête de l'organisation Chin Human Rights Organization visant Min Aung Hlaing et neuf autres officiers, selon cette ONG."
-        }
-      ],
-      "involved": [
-        "THA",
-        "USA"
-      ],
-      "context": [
-        {
-          "d": "2021-02-01",
-          "t": "Coup d'État militaire contre le gouvernement d'Aung San Suu Kyi."
-        },
-        {
-          "d": "2026-04-03",
-          "t": "Min Aung Hlaing élu président par le Parlement."
-        },
-        {
-          "d": "2026-10-08",
-          "t": "Les États-Unis engagent des négociations directes avec le pouvoir militaire."
-        },
-        {
-          "d": "2026-11-04",
-          "t": "Frappe sur un hôpital du canton de Kawlin."
-        },
-        {
-          "d": "2026-11-07",
-          "t": "Frappe sur une école du canton de Kani : onze morts."
-        }
-      ],
-      "sources": [
-        {
-          "name": "MoeMaKa",
-          "title": "Nouvelles du 8 novembre",
-          "url": "https://moemaka.net/eng/2026/11/november-8-2026-m-cdm-domestic-news/",
-          "date": "2026-11-08"
-        },
-        {
-          "name": "Burma Coup Resistance Notes",
-          "title": "Chronique de la résistance du 7 novembre",
-          "url": "https://burmacoupresistancenotes.substack.com/p/burma-coup-resistance-notes-november-0e5",
-          "date": "2026-11-07"
-        },
-        {
-          "name": "Wikipedia",
-          "title": "L'année 2026 en Birmanie",
-          "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar",
-          "date": "2026-11-09"
-        }
-      ],
-      "dossier": {
-        "id": "guerre-birmanie",
-        "title": "La guerre civile en Birmanie"
-      },
-      "slug": "birmanie-frappe-aerienne-armee-tue-onze-personnes-ecole"
+      "slug": "yemen-moins-trente-morts-marche-taez-chaque-camp"
     }
   ],
   "brief": [
     {
-      "id": "JPN",
-      "place": "Japon",
-      "text": "Un séisme de magnitude 5,7 selon l'agence météorologique japonaise, centré dans la préfecture de Shizuoka, a blessé au moins 22 personnes dans le centre du pays, selon les médias locaux cités par l'AP.",
-      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
+      "id": "PSE",
+      "place": "Gaza",
+      "text": "Une femme et quatre enfants ont été tués dimanche à Deir el-Balah par l'effondrement d'un talus de sable sur leur tente, après une tempête qui a inondé quelque 70 000 tentes de déplacés, selon les autorités de Gaza.",
+      "url": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people"
     },
     {
-      "id": "URY",
-      "place": "Uruguay",
-      "text": "Le pape Léon XIV a prêché devant environ 40 000 fidèles à Paysandú, à la frontière argentine, lors d'une tournée de douze jours en Amérique du Sud qui s'achève le 17 novembre.",
-      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
+      "id": "IRQ",
+      "place": "Irak",
+      "text": "La production du champ gazier de Khor Mor, au Kurdistan irakien, a été suspendue dimanche après qu'un drone chargé d'explosifs a incendié un réservoir, privant la région d'environ 2,8 gigawatts de capacité électrique.",
+      "url": "https://www.10things.news/p/10-things-global-news-9th-november"
     },
     {
       "id": "IRN",
       "place": "Iran",
-      "text": "Donald Trump juge une nouvelle offensive contre l'Iran « très improbable », tout en la liant aux progrès des discussions, et affirme que la force Iron Gate, chargée de couper les routes terrestres de l'armement iranien, est opérationnelle.",
-      "url": "https://www.timesofisrael.com/liveblog_entry/trump-says-new-task-force-to-disrupt-land-routes-into-iran-is-in-full-force/"
+      "text": "Trois hommes accusés de violences armées lors des manifestations antigouvernementales de janvier ont été exécutés dimanche, après la confirmation de leur condamnation à mort par la Cour suprême, selon les médias d'État.",
+      "url": "https://www.10things.news/p/10-things-global-news-9th-november"
     },
     {
-      "id": "ARE",
-      "place": "Émirats arabes unis",
-      "text": "La garde nationale émiratie a secouru 22 personnes après l'incendie d'un cargo en mer d'Oman, alors que les attaques contre la navigation se multiplient autour du détroit d'Ormuz.",
-      "url": "https://www.timesofisrael.com/liveblog-november-08-2026/"
+      "id": "ISR",
+      "place": "Israël",
+      "text": "Les 120 députés de la nouvelle Knesset prêtent serment mardi, alors que Gadi Eisenkot, chargé de former le gouvernement, dispose de 28 jours, prolongeables de quatorze, pour réunir une majorité.",
+      "url": "https://havanatimes.org/news/international-news-briefs-for-monday-november-9-2026/"
     }
   ],
   "agenda": [
     {
-      "d": "2026-11-09",
-      "t": "Ouverture de la COP31 sur le climat à Antalya, en Turquie."
-    },
-    {
       "d": "2026-11-10",
-      "t": "Pourparlers sur l'Ukraine à Abou Dhabi, avec des Européens ; prestation de serment de la Knesset."
+      "t": "Pourparlers sur l'Ukraine à Abou Dhabi, jusqu'au 11 ; prestation de serment de la Knesset."
     },
     {
       "d": "2026-11-11",
-      "t": "Sommet des dirigeants de la COP31, jusqu'au 12 novembre."
+      "t": "Fête de l'indépendance en Pologne ; sommet des dirigeants de la COP31 à Antalya, jusqu'au 12."
     },
     {
       "d": "2026-11-18",
-      "t": "Sommet de l'APEC à Shenzhen, rencontre entre Donald Trump et Xi Jinping."
+      "t": "Audition à huis clos demandée à Jensen Huang par la Chambre des représentants ; sommet de l'APEC à Shenzhen."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Clôture prévue de la COP31."
     },
     {
       "d": "2026-12-06",
@@ -938,15 +917,17 @@
     }
   ],
   "consulted": [
-    "Reuters",
     "Associated Press",
-    "The Times of Israel",
-    "Israel Hayom",
-    "PBS",
+    "AFP",
+    "Al Jazeera",
     "Euronews",
-    "DPA",
-    "The Week",
-    "Critical Threats",
-    "MoeMaKa"
+    "Meduza",
+    "CBS News",
+    "CNBC",
+    "Amnesty International",
+    "BusinessDay",
+    "EWN",
+    "10 Things",
+    "Democracy Now!"
   ]
 }

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-10-eec7d2d4@diurna
+DTSTAMP:20261110T060533Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Pourparlers sur l’Ukraine à Abou Dhabi\, jusqu’au 11 \; pr
+ estation de serment de la Knesset.
+DESCRIPTION:Diurna — Édition du 10 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/10/
+END:VEVENT
+END:VCALENDAR

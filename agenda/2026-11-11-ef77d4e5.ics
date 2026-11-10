@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-11-ef77d4e5@diurna
+DTSTAMP:20261110T060533Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Fête de l’indépendance en Pologne \; sommet des dirigeants 
+ de la COP31 à Antalya\, jusqu’au 12.
+DESCRIPTION:Diurna — Édition du 10 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/10/
+END:VEVENT
+END:VCALENDAR
