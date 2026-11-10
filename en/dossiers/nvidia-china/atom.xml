@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title>Diurna — Nvidia and the China spying claims</title>
+<subtitle>Diurna’s day-by-day coverage: Nvidia and the China spying claims.</subtitle>
+<id>https://charly4perrin-jpg.github.io/Diurna/en/dossiers/nvidia-china/atom.xml</id>
+<link rel="self" type="application/atom+xml" href="https://charly4perrin-jpg.github.io/Diurna/en/dossiers/nvidia-china/atom.xml"/>
+<link rel="alternate" type="text/html" href="https://charly4perrin-jpg.github.io/Diurna/en/dossiers/nvidia-china/"/>
+<updated>2026-11-10T06:05:31.000Z</updated>
+<author><name>Diurna</name><uri>https://charly4perrin-jpg.github.io/Diurna/</uri></author>
+<icon>https://charly4perrin-jpg.github.io/Diurna/icons/icon-192.png</icon>
+<entry xml:lang="en">
+<title>Nvidia investigates its boss, Jensen Huang, over ties to a woman suspected of spying for Beijing</title>
+<link rel="alternate" type="text/html" href="https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/nvidia-investigates-boss-jensen-huang-ties-woman-suspected/"/>
+<id>https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/nvidia-investigates-boss-jensen-huang-ties-woman-suspected/</id>
+<published>2026-11-10T06:00:00.000Z</published>
+<updated>2026-11-10T06:05:31.000Z</updated>
+<category term="Americas"/>
+<content type="html">&lt;p&gt;&lt;strong&gt;The board of the AI-chip giant has handed an inquiry to independent directors after its chief executive’s admission. Three House committee chairmen want to question him behind closed doors.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;On Sunday 8 November Nvidia’s board announced an investigation by a committee of independent directors, assisted by outside lawyers, after its chief executive, Jensen Huang, admitted an intimate relationship with Alice Huang, a former executive of Megaspeed, a Singapore-based data-centre company. According to the New York Times, American intelligence concluded that she was passing information to Beijing, which China dismisses as baseless speculation, and a Malaysian company linked to Megaspeed bought at least $4.8bn of equipment built on Nvidia technology. The board says it has no reason to believe that national security or confidential information was compromised and retains confidence in its boss, whom three House committee chairmen want to question in a closed-door session on 18 November.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Written by an AI from the sources cited.&lt;/em&gt;&lt;/p&gt;</content>
+</entry>
+</feed>

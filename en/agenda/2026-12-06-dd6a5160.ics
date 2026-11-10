@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-12-06-dd6a5160@diurna
-DTSTAMP:20261110T060533Z
+DTSTAMP:20261110T063153Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:End of Gadi Eisenkot’s initial deadline to form a government in
   Israel.
-DESCRIPTION:Diurna — Edition of 9 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/
+DESCRIPTION:Diurna — Edition of 10 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/
 END:VEVENT
 END:VCALENDAR

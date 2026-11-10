@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-11-efb6a278@diurna
+DTSTAMP:20261110T063153Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Independence day in Poland\; COP31 leaders’ summit in Antalya\,
+  until the 12th.
+DESCRIPTION:Diurna — Edition of 10 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,936 @@
+{
+  "date": "2026-11-10",
+  "number": 6,
+  "updated": "2026-11-10T07:05:31+01:00",
+  "headline": "In Abu Dhabi, Russia, Ukraine and America reopen talks as Europeans watch from the wings",
+  "standfirst": "The three delegations meet together for the first time since February, with little hope of a deal. Poland mourns the victims of Kraków, Nvidia investigates its boss, the ANC suffers its worst setback and Yemen counts its dead in Taiz.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "conflict"
+      ],
+      "title": "In Abu Dhabi, Russians, Ukrainians and Americans reopen talks, with Europeans kept in the wings",
+      "standfirst": "Delegations from the three countries meet on Tuesday and Wednesday in the United Arab Emirates, together for the first time since February. The Europeans will be on hand, but Moscow refuses to let them join talks focused on security.",
+      "body": [
+        "Two days of talks between Russia, Ukraine and the United States, represented by the envoys Steve Witkoff and Jared Kushner, open in Abu Dhabi on Tuesday 10 November, the first three-way meeting since February, when the war with Iran pulled Washington's attention away.",
+        "Moscow still demands that Ukraine withdraw from the Donetsk, Luhansk, Zaporizhzhia and Kherson regions and give up on NATO, while Kyiv refuses to cede territory Russia has not conquered and wants a ceasefire first, so none of the analysts consulted by Al Jazeera expects a peace deal.",
+        "A European team led by Björn Seibert, Ursula von der Leyen's chief of staff, along with French, German and British advisers, will be present, but the Kremlin insists they will not take part in the talks, which Sergei Lavrov says will open with security."
+      ],
+      "figure": {
+        "value": "≈ 20%",
+        "label": "of Ukraine's territory occupied by Russia",
+        "compare": "along a front of some 1,200 kilometres, according to the AP"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Moscow",
+              "wants": "Ukraine's withdrawal from four annexed regions, Ukrainian neutrality and strict limits on its army; no general ceasefire."
+            },
+            {
+              "who": "Kyiv",
+              "wants": "An immediate ceasefire first, no surrender of unconquered territory, and a meeting between Vladimir Putin and Volodymyr Zelensky to settle matters."
+            },
+            {
+              "who": "Washington",
+              "wants": "A “comprehensive and lasting” settlement which, according to Jared Kushner, will require direct dialogue between Russia and the Europeans."
+            }
+          ],
+          "next": {
+            "d": "2026-11-11",
+            "t": "Second day of talks in Abu Dhabi."
+          },
+          "source": {
+            "name": "Associated Press, via KIRO 7",
+            "url": "https://www.kiro7.com/news/world/us-brokered-talks/J36AMF3Q5U2KRCSZDSSHRBPUZI/"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Russia",
+              "lead": "Vladimir Putin",
+              "ids": [
+                "RUS"
+              ],
+              "note": "Delegation led by the presidential aide Vladimir Medinsky."
+            },
+            {
+              "name": "Ukraine",
+              "lead": "Volodymyr Zelensky",
+              "ids": [
+                "UKR"
+              ],
+              "note": "Delegation led by Rustem Umerov, with Kyrylo Budanov."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "USA",
+              "note": "Steve Witkoff and Jared Kushner"
+            },
+            {
+              "id": "ARE",
+              "note": "host country"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi"
+          }
+        }
+      },
+      "analysis": {
+        "title": "High-ranking delegations",
+        "text": "Moscow is sending the presidential aide Vladimir Medinsky to Abu Dhabi, along with the deputy foreign ministers Sergei Ryabkov and Mikhail Galuzin and the head of military intelligence, Igor Kostyukov. On the Ukrainian side Rustem Umerov, presented as the head of foreign intelligence, is joined by the head of the presidential office, Kyrylo Budanov, by Serhiy Kyslytsya and by David Arakhamia, who leads the Servant of the People group in parliament. Al Jazeera counts three rounds of US-mediated negotiations since the start of the year, two of them in the Emirates. The analysts it quotes expect, at best, technical progress on grain exports, a truce in the Black Sea or on energy infrastructure, or another prisoner exchange."
+      },
+      "keys": [
+        {
+          "title": "Where Europe sits",
+          "text": "Washington is first due to meet envoys from the European Union, NATO, Germany, France, Britain and Italy separately, according to the AP. Moscow concedes only that the Europeans might join the talks later."
+        },
+        {
+          "title": "Divisions in the east",
+          "text": "Poland's foreign minister, Radosław Sikorski, fears that western Europe will deal with Russia over the heads of eastern Europeans. Italy's prime minister, Giorgia Meloni, is calling for a special European envoy."
+        },
+        {
+          "title": "The winter war",
+          "text": "Russia is stepping up its ballistic-missile and drone strikes on Ukraine's power grid, exploiting a shortage of Patriot interceptors. Kyiv, for its part, is mounting more drone attacks on Russian refineries."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "ARE"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2026-02-28",
+          "t": "The war with Iran begins; talks on Ukraine stall."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "More than 850,000 people lose power after Russian strikes."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Three-way talks open in Abu Dhabi."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Talks scheduled to end."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi",
+          "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Euronews",
+          "title": "EU to send joint team to Ukraine-Russia peace talks in Abu Dhabi",
+          "url": "https://www.euronews.com/2026/11/09/eu-to-send-joint-team-to-ukraine-russia-peace-talks-in-abu-dhabi",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Meduza",
+          "title": "Russia, Ukraine and the US to hold peace talks in Abu Dhabi on November 10, their first trilateral meeting since February",
+          "url": "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Associated Press, via KIRO 7",
+          "title": "US-brokered talks open in Abu Dhabi",
+          "url": "https://www.kiro7.com/news/world/us-brokered-talks/J36AMF3Q5U2KRCSZDSSHRBPUZI/",
+          "date": "2026-11-10"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "abu-dhabi-russians-ukrainians-americans-reopen-talks-europeans"
+    },
+    {
+      "rank": 2,
+      "id": "POL",
+      "place": "Poland",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "society"
+      ],
+      "title": "Kraków's Market Square gunman dies as terrorism investigators look for possible accomplices",
+      "standfirst": "The man behind Saturday's shooting, which killed six people in the city's historic heart, died in hospital on Monday. Prosecutors, who are treating it as terrorism, are now cautious about his ideological motives.",
+      "body": [
+        "At 4.30am on Monday 9 November the 24-year-old Pole who had opened fire from his car on Kraków's Market Square at around 3pm on Saturday, killing six people and wounding fifteen, died in hospital, the police announced.",
+        "The dead include four Poles, a Briton and an Austrian woman, and the bodies of the gunman's father, mother and sister were found at the family home in Ostrowiec Świętokrzyski, some 150 kilometres to the north-east.",
+        "The national prosecutor's office, which has opened a terrorism investigation, is trying to establish whether others inspired or helped the attacker, as Poland emerges from two days of national mourning and celebrates its independence day on Wednesday."
+      ],
+      "figure": {
+        "value": "11",
+        "label": "firearms seized by investigators",
+        "compare": "four of them on the gunman or in his car, according to the AP"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Market Square, Kraków",
+              "coords": [
+                19.937,
+                50.062
+              ],
+              "note": "The gunman opened fire from his car at around 3pm on 7 November."
+            },
+            {
+              "name": "Ostrowiec Świętokrzyski",
+              "coords": [
+                21.389,
+                50.929
+              ],
+              "note": "Three members of the gunman's family found dead at the family home."
+            }
+          ],
+          "source": {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/"
+          }
+        },
+        "actors": {
+          "items": [
+            {
+              "name": "Donald Tusk",
+              "role": "Prime minister; called the attack an act of terrorism."
+            },
+            {
+              "name": "Marcin Kierwiński",
+              "role": "Interior minister; described the gunman as holding “ultranationalist” views."
+            },
+            {
+              "name": "Przemysław Nowak",
+              "role": "National prosecutor's spokesman; no ideological inspiration established so far."
+            },
+            {
+              "name": "Łukasz Gibała",
+              "role": "Mayor of Kraków; promises the square will “belong again” to residents."
+            }
+          ],
+          "source": {
+            "name": "CBS News",
+            "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-07",
+              "t": "Shooting on Market Square: six dead, fifteen wounded."
+            },
+            {
+              "d": "2026-11-09",
+              "t": "The gunman dies in hospital; national mourning ends."
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Independence day; municipal mourning in Kraków ends."
+            }
+          ],
+          "source": {
+            "name": "ITV, avec AP",
+            "name_en": "ITV, with AP",
+            "url": "https://www.itv.com/news/2026-11-07/gunman-opens-fire-from-car-in-krakow-main-square-killing-six"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A motive still unclear",
+        "text": "On Sunday the interior minister, Marcin Kierwiński, described a man with “very radical” views who was fascinated by far-right ideologies. On Monday the national prosecutor's office struck a more cautious note: its spokesman, Przemysław Nowak, said there was no evidence that would allow it to establish responsibly any particular ideological inspiration. Investigators have seized the gunman's electronic devices. He owned two guns registered in his name under a sport-shooting licence, and his father legally owned more than ten. According to Al Jazeera it is the deadliest shooting in Poland since the fall of communism, in a country where some 411,000 gun permits are in circulation, according to the AP."
+      },
+      "keys": [
+        {
+          "title": "The wounded",
+          "text": "Five foreigners are among the wounded, from Britain, Portugal, Russia, Germany and Austria. Two police officers shot in the chest were still in hospital on Monday, according to CBS News."
+        },
+        {
+          "title": "A city in shock",
+          "text": "The bugle call from St Mary's Basilica, played every hour, fell silent overnight from Saturday to Sunday, a first since the second world war. Warsaw has stepped up security on its main streets."
+        },
+        {
+          "title": "European reactions",
+          "text": "European flags flew at half-mast at the Commission in Brussels on Sunday. The EU's foreign-policy chief, Kaja Kallas, said Poland “is not alone”."
+        }
+      ],
+      "involved": [
+        "GBR",
+        "AUT"
+      ],
+      "context": [
+        {
+          "d": "2026-10",
+          "t": "Three knife attacks in schools in Masovia in four days."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Shooting on Kraków's Market Square."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Terrorism investigation opened; first day of national mourning."
+        },
+        {
+          "d": "2026-11-09",
+          "t": "The gunman dies in hospital."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "National Independence Day."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CBS News, avec AP",
+          "name_en": "CBS News, with AP",
+          "title": "Poland mourns Krakow mass shooting victims as terrorism probe continues",
+          "url": "https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Casualties reported after shooting in Poland’s Krakow",
+          "url": "https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "ITV, avec AP",
+          "name_en": "ITV, with AP",
+          "title": "Gunman opens fire from car in Krakow main square, killing six",
+          "url": "https://www.itv.com/news/2026-11-07/gunman-opens-fire-from-car-in-krakow-main-square-killing-six",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Associated Press, via WSMV",
+          "title": "Gunman opens fire in Polish city, killing 6 people and injuring 15",
+          "url": "https://www.wsmv.com/2026/11/07/gunman-opens-fire-polish-city-killing-6-people-injuring-15/",
+          "date": "2026-11-07"
+        }
+      ],
+      "dossier": {
+        "id": "krakow-shooting",
+        "title": "The Kraków shooting"
+      },
+      "slug": "krakow-market-square-gunman-dies-terrorism-investigators-look"
+    },
+    {
+      "rank": 3,
+      "id": "USA",
+      "place": "United States",
+      "section": "Americas",
+      "radar": false,
+      "types": [
+        "economy",
+        "society"
+      ],
+      "title": "Nvidia investigates its boss, Jensen Huang, over ties to a woman suspected of spying for Beijing",
+      "standfirst": "The board of the AI-chip giant has handed an inquiry to independent directors after its chief executive's admission. Three House committee chairmen want to question him behind closed doors.",
+      "body": [
+        "On Sunday 8 November Nvidia's board announced an investigation by a committee of independent directors, assisted by outside lawyers, after its chief executive, Jensen Huang, admitted an intimate relationship with Alice Huang, a former executive of Megaspeed, a Singapore-based data-centre company.",
+        "According to the New York Times, American intelligence concluded that she was passing information to Beijing, which China dismisses as baseless speculation, and a Malaysian company linked to Megaspeed bought at least $4.8bn of equipment built on Nvidia technology.",
+        "The board says it has no reason to believe that national security or confidential information was compromised and retains confidence in its boss, whom three House committee chairmen want to question in a closed-door session on 18 November."
+      ],
+      "figure": {
+        "value": "$4.8bn",
+        "label": "of Nvidia equipment bought by a company linked to Megaspeed",
+        "compare": "between June 2024 and February 2026"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Jensen Huang",
+              "role": "Founder and chief executive of Nvidia; has apologised to his family, colleagues and shareholders."
+            },
+            {
+              "name": "Alice Huang (Huang Le)",
+              "role": "Former Megaspeed executive, described by American intelligence as working for Beijing."
+            },
+            {
+              "name": "Guo Jiakun",
+              "role": "Chinese foreign ministry spokesman; denounces an attempt to “smear” China."
+            },
+            {
+              "name": "Brian Mast, John Moolenaar, Rick Crawford",
+              "role": "Republican chairmen of House committees calling for a hearing."
+            }
+          ],
+          "source": {
+            "name": "eeNews Europe",
+            "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-10-29",
+              "t": "The New York Times reveals the suspicions of American intelligence."
+            },
+            {
+              "d": "2026-11-08",
+              "t": "Jensen Huang admits the relationship; the board opens an inquiry."
+            },
+            {
+              "d": "2026-11-18",
+              "t": "Closed-door hearing requested by three House committees."
+            }
+          ],
+          "source": {
+            "name": "eeNews Europe",
+            "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Chips at the heart of the suspicion",
+        "text": "The affair touches the most sensitive issue in Sino-American relations: China's access to artificial-intelligence processors. According to eeNews Europe, the American investigation began in late 2024, when a Commerce Department official noticed Nvidia chips still in their boxes at a Megaspeed data centre in Malaysia, raising suspicions that they were being diverted to China. Nvidia says those allegations were examined and dismissed. Singapore says its investigations into Megaspeed are continuing, but that it has not looked into Alice Huang's alleged links to Chinese intelligence. The New York Times reports that Donald Trump, briefed in 2025, did not warn Nvidia's boss, whose lobbying had won an easing of some restrictions."
+      },
+      "keys": [
+        {
+          "title": "Nvidia's defence",
+          "text": "The company's spokesman, John Rizzo, points out that meeting customers is part of a chief executive's job. Jensen Huang says he is co-operating fully with the board's inquiry, for which no timetable has been published."
+        },
+        {
+          "title": "Pressure from Congress",
+          "text": "The chairmen of the foreign affairs and intelligence committees and of the select committee on China asked for a response by 11 November. They want to question Jensen Huang on how the company guards against espionage."
+        }
+      ],
+      "involved": [
+        "CHN",
+        "MYS"
+      ],
+      "context": [
+        {
+          "d": "2026-10-29",
+          "t": "The New York Times publishes the suspicions of American intelligence."
+        },
+        {
+          "d": "2026-10-30",
+          "t": "Beijing denounces “groundless speculation”."
+        },
+        {
+          "d": "2026-10-31",
+          "t": "Singapore says it has not investigated Alice Huang."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Nvidia's board opens an investigation."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Closed-door hearing requested in the House of Representatives."
+        }
+      ],
+      "sources": [
+        {
+          "name": "CNBC",
+          "title": "Nvidia board investigates Jensen Huang over relationship with alleged China spy",
+          "url": "https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "eeNews Europe",
+          "title": "Nvidia board launches investigation into Jensen Huang spying claims",
+          "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "eeNews Europe",
+          "title": "Jensen Huang spy plot: Nvidia and China",
+          "url": "https://www.eenewseurope.com/en/jensen-huang-spy-plot-nvidia-china/",
+          "date": "2026-11-02"
+        },
+        {
+          "name": "AFP, via Citizen Digital",
+          "title": "China denies spying on Nvidia's Jensen Huang",
+          "url": "https://citizen.digital/article/china-denies-spying-onvidias-jensen-huang-n393023",
+          "date": "2026-10-30"
+        }
+      ],
+      "dossier": {
+        "id": "nvidia-china",
+        "title": "Nvidia and the China spying claims"
+      },
+      "slug": "nvidia-investigates-boss-jensen-huang-ties-woman-suspected"
+    },
+    {
+      "rank": 4,
+      "id": "ZAF",
+      "place": "South Africa",
+      "section": "Africa",
+      "radar": false,
+      "types": [
+        "election",
+        "society"
+      ],
+      "title": "South Africa's ANC suffers its worst setback as the big cities hunt for coalitions",
+      "standfirst": "Nelson Mandela's party won only about 31% of the vote in the local elections of 4 November, ahead of the Democratic Alliance. With no majority, several big cities, including Pretoria and Durban, will have to be run by coalitions.",
+      "body": [
+        "With 99% of ballots counted in the local elections of 4 November, the African National Congress (ANC) had 30.8% of the vote, down from 45.6% in 2021, and the Democratic Alliance (DA) 24%, according to the chairman of the electoral commission, Mosotho Moepya.",
+        "The ANC's secretary-general, Fikile Mbalula, called the result “catastrophic”, while Jacob Zuma's uMkhonto we Sizwe party, third with nearly 10%, came first in Durban, and the Economic Freedom Fighters slipped to 6.2%.",
+        "Cape Town gave the DA an outright majority, but Pretoria and Durban remain hung, and the bargaining begins little more than a year before the ANC conference that is due, in December 2027, to choose Cyril Ramaphosa's successor as party leader."
+      ],
+      "figure": {
+        "value": "30.8%",
+        "label": "of the vote for the ANC, its lowest ever",
+        "compare": "against 45.6% in the 2021 local elections"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Cyril Ramaphosa",
+              "role": "President of the republic and of the ANC.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
+              }
+            },
+            {
+              "name": "Geordin Hill-Lewis",
+              "role": "Leader of the Democratic Alliance; urges parties to put residents first.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "name": "Helen Zille",
+              "role": "DA mayoral candidate in Johannesburg, where her party came first.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "name": "Fikile Mbalula",
+              "role": "ANC secretary-general; refuses to rush coalition talks.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "name": "Jacob Zuma",
+              "role": "Former president, leader of the MK party, open to coalitions.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            }
+          ]
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-04",
+              "t": "Local elections in 257 councils.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
+              }
+            },
+            {
+              "d": "2026-11-07",
+              "t": "The electoral commission announces results with 99% counted.",
+              "source": {
+                "name": "BusinessDay",
+                "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/"
+              }
+            },
+            {
+              "d": "2027-12",
+              "t": "ANC conference to elect Cyril Ramaphosa's successor.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
+              }
+            }
+          ]
+        }
+      },
+      "analysis": {
+        "title": "The test of the metros",
+        "text": "With 97% counted, 122 of the 257 municipal councils had no majority, according to the Sowetan, cited by BusinessDay. In Johannesburg, where the DA is close to 40% of the vote, its candidate, Helen Zille, favours a two-party coalition with either ActionSA or the ANC. In Pretoria, ActionSA makes keeping its mayor, Nasiphi Moya, a condition of any deal. In East London the ANC has lost its majority for the first time since 1995, and Mangaung is split almost evenly between the ANC and the DA. The MK party, which disputes some results, has asked for the count to be frozen in several Durban wards, while the electoral commission has ordered recounts in five."
+      },
+      "keys": [
+        {
+          "title": "The government of national unity",
+          "text": "Without a majority in parliament since 2024, the ANC governs the country with the DA. The local vote pitted the two partners in the national coalition against each other."
+        },
+        {
+          "title": "Turnout",
+          "text": "About 14.5m of the 29.2m registered voters cast a ballot, according to BusinessDay. In 2021 turnout reached only 46%, according to Al Jazeera."
+        },
+        {
+          "title": "The Ramaphosa succession",
+          "text": "According to Al Jazeera, the result will weigh on the race to lead the ANC. The Sunday Times reports that party leaders have discussed resigning from their internal posts."
+        }
+      ],
+      "involved": [],
+      "context": [
+        {
+          "d": "1994-04-27",
+          "t": "First democratic elections; the ANC comes to power."
+        },
+        {
+          "d": "2021-11-01",
+          "t": "Local elections: the ANC falls below 50% for the first time."
+        },
+        {
+          "d": "2024-05-29",
+          "t": "General election: the ANC loses its majority and joins forces with the DA."
+        },
+        {
+          "d": "2026-11-04",
+          "t": "Local elections."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Results with 99% counted: the ANC on 30.8%."
+        },
+        {
+          "d": "2027-12",
+          "t": "ANC conference."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "South Africans vote in local elections seen as test for embattled ANC",
+          "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc",
+          "date": "2026-11-04"
+        },
+        {
+          "name": "BusinessDay",
+          "title": "Live updates: Cape Town becomes first metro with majority control",
+          "url": "https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "EWN",
+          "title": "ANC's dominance challenged as opposition parties make gains in local polls",
+          "url": "https://www.ewn.co.za/2026/11/06/ancs-dominance-challenged-as-opposition-parties-make-gains-in-local-polls",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Briefly News",
+          "title": "Hung councils dominate SA's 2026 elections as ANC suffers worst result since 1994",
+          "url": "https://briefly.co.za/south-africa/258085-hung-councils-dominate-sas-2026-elections-anc-suffers-worst-result-1994/",
+          "date": "2026-11-06"
+        }
+      ],
+      "dossier": {
+        "id": "south-africa-local-elections",
+        "title": "South Africa's local elections"
+      },
+      "slug": "south-africa-anc-suffers-worst-setback-big-cities"
+    },
+    {
+      "rank": 5,
+      "id": "YEM",
+      "place": "Yemen",
+      "section": "Middle East",
+      "radar": true,
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "title": "In Yemen, at least 30 killed at a market near Taiz, with each side blaming the other",
+      "standfirst": "The Houthis accuse Saudi aircraft of bombing the Al-Hadara market on Friday; the recognised government blames Houthi missiles. According to the Yemen Data Project, October was the deadliest month for civilians since 2017.",
+      "body": [
+        "At around 7am on Friday 6 November strikes hit the Al-Hadara market in the Al-Waziyah district of Taiz province, killing at least 30 people and wounding eight, according to the Houthi authorities, a toll the Associated Press could not verify.",
+        "The Houthis' military spokesman, Yahya Saree, blames Saudi aircraft, while the spokesman for government forces, Colonel Majed al-Nazili, attributes the carnage to Houthi ballistic missiles and calls it a “war crime”.",
+        "The attack is part of an escalation that began in July with the collapse of the UN-brokered truce, as the Houthis have besieged the city of Taiz for a month and the government's “Dawn of Yemen” offensive, launched on 5 October, grinds on."
+      ],
+      "figure": {
+        "value": "426",
+        "label": "civilians killed in October by Saudi-led coalition strikes",
+        "compare": "nearly a quarter of them children, according to the Yemen Data Project"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "≥ 30",
+              "label": "killed in the strikes on the Al-Hadara market on 6 November",
+              "by": "the Houthi authorities",
+              "date": "2026-11-06",
+              "source": {
+                "name": "Associated Press, via WFTV",
+                "url": "https://www.wftv.com/news/business/airstrikes-market/V7EPGI27LM66FEZBYGD4H7AE7I/"
+              }
+            },
+            {
+              "value": "426",
+              "label": "civilians killed in October by Saudi-led coalition strikes",
+              "by": "the Yemen Data Project",
+              "date": "2026-11-09",
+              "source": {
+                "name": "Democracy Now!",
+                "url": "https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack"
+              }
+            },
+            {
+              "value": "81",
+              "label": "recruits killed by Houthi missiles at the Al-Alam camp in Shabwa on 19 October",
+              "by": "local authorities",
+              "date": "2026-10-31",
+              "source": {
+                "name": "South24",
+                "url": "https://south24.net/news/newse.php?nid=5835"
+              }
+            },
+            {
+              "value": "1,677",
+              "label": "killed in the military escalation between August and 25 October",
+              "by": "the WHO",
+              "date": "2026-10-29",
+              "source": {
+                "name": "South24",
+                "url": "https://south24.net/news/newse.php?nid=5835"
+              }
+            }
+          ],
+          "note": "Tolls have not been independently verified."
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Taiz",
+              "coords": [
+                44.02,
+                13.58
+              ],
+              "note": "City besieged by the Houthis; a market in the province was hit on 6 November."
+            },
+            {
+              "name": "Riyadh",
+              "coords": [
+                46.64,
+                24.76
+              ],
+              "note": "An Aramco building hit by a Houthi missile on 8 November."
+            }
+          ],
+          "source": {
+            "name": "Democracy Now!",
+            "url": "https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Recognised government and Saudi-led coalition",
+              "lead": "Rashad al-Alimi",
+              "ids": [
+                "YEM",
+                "SAU"
+              ],
+              "note": "Waging the “Dawn of Yemen” offensive since 5 October."
+            },
+            {
+              "name": "Houthis",
+              "lead": "Abdul-Malik al-Houthi",
+              "ids": [
+                "YEM"
+              ],
+              "note": "Control Sanaa and most of Taiz province.",
+              "backers": [
+                {
+                  "id": "IRN",
+                  "note": "support alleged by Riyadh and Washington"
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Outlook India",
+            "url": "https://www.outlookindia.com/international/yemen-taiz-market-strikes-houthis-government-forces-blame-saudi-arabia"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "wfp",
+            "unicef"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A war rekindled by the regional conflict",
+        "text": "The UN-brokered truce collapsed in July, after coalition fire on the runway at Sanaa airport, intended to stop an Iranian aircraft carrying a Houthi delegation from landing. The rebels then declared a naval blockade of Saudi Arabia and stepped up attacks on its territory; on 10 October a strike on Riyadh airport killed 13 people, according to Amnesty International. The human-rights group links this resumption of hostilities to the regional war pitting America and Israel against Iran. In the south the Houthis are also targeting government forces and Aden airport, while civilians in Taiz are short of water, food and medicine."
+      },
+      "keys": [
+        {
+          "title": "Hunger",
+          "text": "At least 18.3m Yemenis face acute food insecurity, according to the United Nations, cited by Amnesty International. More than 2.2m children under five are severely malnourished."
+        },
+        {
+          "title": "The siege of Taiz",
+          "text": "The Houthis have encircled the provincial capital for some 30 days, cutting off supplies to hundreds of thousands of residents. The UN is alarmed by dangerously low stocks of food and medicine."
+        }
+      ],
+      "involved": [
+        "SAU",
+        "IRN"
+      ],
+      "context": [
+        {
+          "d": "2026-07-13",
+          "t": "Coalition fire on Sanaa airport; the truce collapses."
+        },
+        {
+          "d": "2026-10-05",
+          "t": "The government launches its “Dawn of Yemen” offensive."
+        },
+        {
+          "d": "2026-10-10",
+          "t": "Houthi attack on Riyadh airport: 13 dead."
+        },
+        {
+          "d": "2026-10-19",
+          "t": "Houthi missiles hit the Al-Alam camp: 81 recruits killed."
+        },
+        {
+          "d": "2026-11-06",
+          "t": "Strikes on the Al-Hadara market in Taiz province."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "A Houthi missile damages an Aramco tower in Riyadh."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via WFTV",
+          "title": "Airstrikes on a market in Yemen kill at least 30",
+          "url": "https://www.wftv.com/news/business/airstrikes-market/V7EPGI27LM66FEZBYGD4H7AE7I/",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Amnesty International",
+          "title": "Saudi Arabia/Yemen: Civilians must not pay the price of escalation in hostilities",
+          "url": "https://www.amnesty.org/en/latest/news/2026/10/saudi-arabia-yemen-civilians-must-not-pay-the-price-of-escalation-in-hostilities/",
+          "date": "2026-10-14"
+        },
+        {
+          "name": "Outlook India",
+          "title": "Yemen Taiz market strikes: Houthis and government forces trade blame",
+          "url": "https://www.outlookindia.com/international/yemen-taiz-market-strikes-houthis-government-forces-blame-saudi-arabia",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Democracy Now!",
+          "title": "30 People Killed in Yemen in Missile Attack",
+          "url": "https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack",
+          "date": "2026-11-09"
+        },
+        {
+          "name": "South24",
+          "title": "Two deadly weeks in southern Yemen",
+          "url": "https://south24.net/news/newse.php?nid=5835",
+          "date": "2026-10-31"
+        }
+      ],
+      "dossier": {
+        "id": "yemen-war",
+        "title": "The war in Yemen"
+      },
+      "slug": "yemen-least-30-killed-market-near-taiz-each"
+    }
+  ],
+  "brief": [
+    {
+      "id": "PSE",
+      "place": "Gaza",
+      "text": "A woman and four children were killed on Sunday in Deir al-Balah when a sand bank collapsed on their tent, after a storm flooded some 70,000 tents of displaced people, according to the Gaza authorities.",
+      "url": "https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people"
+    },
+    {
+      "id": "IRQ",
+      "place": "Iraq",
+      "text": "Output at the Khor Mor gas field in Iraqi Kurdistan was halted on Sunday after an explosives-laden drone set a tank ablaze, depriving the region of about 2.8 gigawatts of generating capacity.",
+      "url": "https://www.10things.news/p/10-things-global-news-9th-november"
+    },
+    {
+      "id": "IRN",
+      "place": "Iran",
+      "text": "Three men accused of armed violence during January's anti-government protests were executed on Sunday after the Supreme Court upheld their death sentences, according to state media.",
+      "url": "https://www.10things.news/p/10-things-global-news-9th-november"
+    },
+    {
+      "id": "ISR",
+      "place": "Israel",
+      "text": "The 120 members of the new Knesset are sworn in on Tuesday, while Gadi Eisenkot, tasked with forming a government, has 28 days, extendable by 14, to assemble a majority.",
+      "url": "https://havanatimes.org/news/international-news-briefs-for-monday-november-9-2026/"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-10",
+      "t": "Talks on Ukraine in Abu Dhabi, until the 11th; the Knesset is sworn in."
+    },
+    {
+      "d": "2026-11-11",
+      "t": "Independence day in Poland; COP31 leaders' summit in Antalya, until the 12th."
+    },
+    {
+      "d": "2026-11-18",
+      "t": "Closed-door hearing for Jensen Huang requested by the House of Representatives; APEC summit in Shenzhen."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "COP31 scheduled to close."
+    },
+    {
+      "d": "2026-12-06",
+      "t": "End of Gadi Eisenkot's initial deadline to form a government in Israel."
+    }
+  ],
+  "consulted": [
+    "Associated Press",
+    "AFP",
+    "Al Jazeera",
+    "Euronews",
+    "Meduza",
+    "CBS News",
+    "CNBC",
+    "Amnesty International",
+    "BusinessDay",
+    "EWN",
+    "10 Things",
+    "Democracy Now!"
+  ]
+}
