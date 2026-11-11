@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-11-20-171ceecb@diurna
-DTSTAMP:20261111T060248Z
+DTSTAMP:20261111T062714Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:COP31 scheduled to close.
-DESCRIPTION:Diurna — Edition of 10 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/
+DESCRIPTION:Diurna — Edition of 11 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/
 END:VEVENT
 END:VCALENDAR

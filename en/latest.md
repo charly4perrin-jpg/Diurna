@@ -1,123 +1,119 @@
-# Diurna — No. 6 — Tuesday, 10 November 2026
+# Diurna — No. 7 — Wednesday, 11 November 2026
 
-> In Abu Dhabi, Russia, Ukraine and America reopen talks as Europeans watch from the wings
+> Russia and Ukraine press on with talks in Abu Dhabi that Kyiv calls “constructive”
 
-The three delegations meet together for the first time since February, with little hope of a deal. Poland mourns the victims of Kraków, Nvidia investigates its boss, the ANC suffers its worst setback and Yemen counts its dead in Taiz.
+The first day of American-brokered talks dwelt on prisoners and security guarantees. France blames Iran’s Revolutionary Guards for sabotaging 700 shops, Indonesia’s vice-president wobbles, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — In Abu Dhabi, Russians, Ukrainians and Americans reopen talks, with Europeans kept in the wings
+## 1. Ukraine — In Abu Dhabi, a first day of talks that Kyiv and Washington call “constructive”
 
-**Delegations from the three countries meet on Tuesday and Wednesday in the United Arab Emirates, together for the first time since February. The Europeans will be on hand, but Moscow refuses to let them join talks focused on security.**
+**Russian, Ukrainian and American negotiators talked for nearly four hours on Tuesday, mostly about humanitarian matters and security guarantees. The delegations meet again on Wednesday for a second day, with no breakthrough expected.**
 
-Two days of talks between Russia, Ukraine and the United States, represented by the envoys Steve Witkoff and Jared Kushner, open in Abu Dhabi on Tuesday 10 November, the first three-way meeting since February, when the war with Iran pulled Washington’s attention away. Moscow still demands that Ukraine withdraw from the Donetsk, Luhansk, Zaporizhzhia and Kherson regions and give up on NATO, while Kyiv refuses to cede territory Russia has not conquered and wants a ceasefire first, so none of the analysts consulted by Al Jazeera expects a peace deal. A European team led by Björn Seibert, Ursula von der Leyen’s chief of staff, along with French, German and British advisers, will be present, but the Kremlin insists they will not take part in the talks, which Sergei Lavrov says will open with security.
+On Tuesday 10 November the Russian, Ukrainian and American delegations talked for nearly four hours in Abu Dhabi, a session that Ukraine’s president, Volodymyr Zelensky, called “constructive” and “fairly substantive”, a view shared by the American envoy Jared Kushner. According to Kyiv, the discussions dwelt mainly on humanitarian questions, including a large prisoner exchange and the return of civilians and children, and on security guarantees, while Moscow still demands Ukraine’s withdrawal from four regions and Ukraine insists on a ceasefire first. Talks resume on Wednesday, but America’s secretary of state, Marco Rubio, meeting his G7 counterparts in Paris, urged patience, and an American official quoted by Al Jazeera suggests that any territorial deal would come last.
 
-**The number :** ≈ 20% — of Ukraine’s territory occupied by Russia
+**The number :** ≈ 4 hours — of talks on the first day
 
-### High-ranking delegations
+### The outline of a compromise
 
-Moscow is sending the presidential aide Vladimir Medinsky to Abu Dhabi, along with the deputy foreign ministers Sergei Ryabkov and Mikhail Galuzin and the head of military intelligence, Igor Kostyukov. On the Ukrainian side Rustem Umerov, presented as the head of foreign intelligence, is joined by the head of the presidential office, Kyrylo Budanov, by Serhiy Kyslytsya and by David Arakhamia, who leads the Servant of the People group in parliament. Al Jazeera counts three rounds of US-mediated negotiations since the start of the year, two of them in the Emirates. The analysts it quotes expect, at best, technical progress on grain exports, a truce in the Black Sea or on energy infrastructure, or another prisoner exchange.
+An American official quoted by Al Jazeera says both sides have privately shown some flexibility over the occupied territories; Russia controls about 20% of Ukraine and Vladimir Putin wants the whole of the Donbas. The security guarantees under discussion for Kyiv could take the form of a defence commitment modelled on Article 5 of the North Atlantic Treaty. Before the session, the Ukrainian delegation met representatives of Britain, France, Germany, Italy, NATO and the European Commission, whom Moscow refuses to admit to the talks. Germany’s chancellor, Friedrich Merz, says he has no “excessive expectations”, and an analyst at the Center for European Policy Analysis expects no deal at all.
 
 Sources :
-- [Al Jazeera — ‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabi](https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi)
-- [Euronews — EU to send joint team to Ukraine-Russia peace talks in Abu Dhabi](https://www.euronews.com/2026/11/09/eu-to-send-joint-team-to-ukraine-russia-peace-talks-in-abu-dhabi)
+- [Al Jazeera — Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes](https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes)
+- [Associated Press, via PBS — Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi](https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi)
 - [Meduza — Russia, Ukraine and the US to hold peace talks in Abu Dhabi on November 10, their first trilateral meeting since February](https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda)
-- [Associated Press, via KIRO 7 — US-brokered talks open in Abu Dhabi](https://www.kiro7.com/news/world/us-brokered-talks/J36AMF3Q5U2KRCSZDSSHRBPUZI/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/abu-dhabi-russians-ukrainians-americans-reopen-talks-europeans/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/abu-dhabi-first-day-talks-that-kyiv-washington/
 
-## 2. Poland — Kraków’s Market Square gunman dies as terrorism investigators look for possible accomplices
+## 2. France — France accuses Iran’s Revolutionary Guards of sabotaging the fridges of 700 shops
 
-**The man behind Saturday’s shooting, which killed six people in the city’s historic heart, died in hospital on Monday. Prosecutors, who are treating it as terrorism, are now cautious about his ideological motives.**
+**France’s foreign minister blames a cyber unit linked to the Guards for the attack on supermarkets on 12 October. Iran’s ambassador has been summoned and Paris wants European sanctions.**
 
-At 4.30am on Monday 9 November the 24-year-old Pole who had opened fire from his car on Kraków’s Market Square at around 3pm on Saturday, killing six people and wounding fifteen, died in hospital, the police announced. The dead include four Poles, a Briton and an Austrian woman, and the bodies of the gunman’s father, mother and sister were found at the family home in Ostrowiec Świętokrzyski, some 150 kilometres to the north-east. The national prosecutor’s office, which has opened a terrorism investigation, is trying to establish whether others inspired or helped the attacker, as Poland emerges from two days of national mourning and celebrates its independence day on Wednesday.
+On Monday 9 November France’s foreign minister, Jean-Noël Barrot, blamed Iran’s Revolutionary Guards for the cyber-attack which, on the night of 11-12 October, tampered with refrigeration in some 700 French shops, including Carrefour, Monoprix, Intermarché and Coopérative U stores. According to ANSSI, France’s national cyber-security agency, the attack was the work of Shahid Kaveh, a unit linked to the Guards and betrayed by traces of Persian and Iranian IP addresses, and temperatures rose as high as 50°C for about six hours, the AP reports. Paris has summoned Iran’s ambassador and wants European sanctions, which EU foreign ministers could discuss on 16 November, while Tehran dismisses the accusations as “baseless and biased”.
 
-**The number :** 11 — firearms seized by investigators
+**The number :** ≈ 700 — French shops whose fridges were hacked
 
-### A motive still unclear
+### A campaign that goes beyond France
 
-On Sunday the interior minister, Marcin Kierwiński, described a man with “very radical” views who was fascinated by far-right ideologies. On Monday the national prosecutor’s office struck a more cautious note: its spokesman, Przemysław Nowak, said there was no evidence that would allow it to establish responsibly any particular ideological inspiration. Investigators have seized the gunman’s electronic devices. He owned two guns registered in his name under a sport-shooting licence, and his father legally owned more than ten. According to Al Jazeera it is the deadliest shooting in Poland since the fall of communism, in a country where some 411,000 gun permits are in circulation, according to the AP.
-
-Sources :
-- [CBS News, avec AP — Poland mourns Krakow mass shooting victims as terrorism probe continues](https://www.cbsnews.com/news/poland-mourns-krakow-mass-shooting-victims-terrorism-probe/)
-- [Al Jazeera — Casualties reported after shooting in Poland’s Krakow](https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow)
-- [ITV, avec AP — Gunman opens fire from car in Krakow main square, killing six](https://www.itv.com/news/2026-11-07/gunman-opens-fire-from-car-in-krakow-main-square-killing-six)
-- [Associated Press, via WSMV — Gunman opens fire in Polish city, killing 6 people and injuring 15](https://www.wsmv.com/2026/11/07/gunman-opens-fire-polish-city-killing-6-people-injuring-15/)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/krakow-market-square-gunman-dies-terrorism-investigators-look/
-
-## 3. United States — Nvidia investigates its boss, Jensen Huang, over ties to a woman suspected of spying for Beijing
-
-**The board of the AI-chip giant has handed an inquiry to independent directors after its chief executive’s admission. Three House committee chairmen want to question him behind closed doors.**
-
-On Sunday 8 November Nvidia’s board announced an investigation by a committee of independent directors, assisted by outside lawyers, after its chief executive, Jensen Huang, admitted an intimate relationship with Alice Huang, a former executive of Megaspeed, a Singapore-based data-centre company. According to the New York Times, American intelligence concluded that she was passing information to Beijing, which China dismisses as baseless speculation, and a Malaysian company linked to Megaspeed bought at least $4.8bn of equipment built on Nvidia technology. The board says it has no reason to believe that national security or confidential information was compromised and retains confidence in its boss, whom three House committee chairmen want to question in a closed-door session on 18 November.
-
-**The number :** $4.8bn — of Nvidia equipment bought by a company linked to Megaspeed
-
-### Chips at the heart of the suspicion
-
-The affair touches the most sensitive issue in Sino-American relations: China’s access to artificial-intelligence processors. According to eeNews Europe, the American investigation began in late 2024, when a Commerce Department official noticed Nvidia chips still in their boxes at a Megaspeed data centre in Malaysia, raising suspicions that they were being diverted to China. Nvidia says those allegations were examined and dismissed. Singapore says its investigations into Megaspeed are continuing, but that it has not looked into Alice Huang’s alleged links to Chinese intelligence. The New York Times reports that Donald Trump, briefed in 2025, did not warn Nvidia’s boss, whose lobbying had won an easing of some restrictions.
+According to Reuters, the joint report by France’s intelligence and cyber-security services counts at least 15 fires, and butchers, an abattoir and food factories were among the sites targeted. A second wave in November hit more than 100 establishments across Europe and affected refrigerators at blood banks in France. The AP notes similar incidents in Sweden, Belgium, Luxembourg, Ireland and Estonia. In America, half a dozen military commissaries suffered refrigeration failures in August that the Pentagon is treating as a suspected cyber-attack. ANSSI also blames another Iranian group, Shahid Shushtari, for attacks on France since 2020, including those on Charlie Hebdo in 2023 and on the 2024 Olympic Games.
 
 Sources :
-- [CNBC — Nvidia board investigates Jensen Huang over relationship with alleged China spy](https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html)
-- [eeNews Europe — Nvidia board launches investigation into Jensen Huang spying claims](https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/)
-- [eeNews Europe — Jensen Huang spy plot: Nvidia and China](https://www.eenewseurope.com/en/jensen-huang-spy-plot-nvidia-china/)
-- [AFP, via Citizen Digital — China denies spying on Nvidia’s Jensen Huang](https://citizen.digital/article/china-denies-spying-onvidias-jensen-huang-n393023)
+- [Euronews — France says Iran behind cyberattacks on supermarket fridges](https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges)
+- [Associated Press, via WFTV — France blames Iran](https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/)
+- [Reuters, via Khaleej Times — France accuses IRGC of cyberattack on supermarket fridges](https://www.khaleejtimes.com/world/france-accuses-irgc-cyberattack-supermarket-fridges)
+- [Asharq Al-Awsat — Iran rejects French accusations](https://english.aawsat.com/node/5300441)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/nvidia-investigates-boss-jensen-huang-ties-woman-suspected/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/france-accuses-iran-revolutionary-guards-sabotaging-fridges-700/
 
-## 4. South Africa — South Africa’s ANC suffers its worst setback as the big cities hunt for coalitions
+## 3. Indonesia — Indonesia’s vice-president, Gibran Rakabuming Raka, weakened by doubts over his diplomas, offers to go
 
-**Nelson Mandela’s party won only about 31% of the vote in the local elections of 4 November, ahead of the Democratic Alliance. With no majority, several big cities, including Pretoria and Durban, will have to be run by coalitions.**
+**The son of the former president Joko Widodo said on Tuesday that he intended to resign, after court rulings found his school qualifications wanting. Parliament is weighing an inquiry that could pave the way to impeachment.**
 
-With 99% of ballots counted in the local elections of 4 November, the African National Congress (ANC) had 30.8% of the vote, down from 45.6% in 2021, and the Democratic Alliance (DA) 24%, according to the chairman of the electoral commission, Mosotho Moepya. The ANC’s secretary-general, Fikile Mbalula, called the result “catastrophic”, while Jacob Zuma’s uMkhonto we Sizwe party, third with nearly 10%, came first in Durban, and the Economic Freedom Fighters slipped to 6.2%. Cape Town gave the DA an outright majority, but Pretoria and Durban remain hung, and the bargaining begins little more than a year before the ANC conference that is due, in December 2027, to choose Cyril Ramaphosa’s successor as party leader.
+On Tuesday 10 November Indonesia’s vice-president, Gibran Rakabuming Raka, said he intended to resign during a meeting of some two and a half hours with President Prabowo Subianto, according to the state secretary, Prasetyo Hadi, who said the president had not refused the request. The son of the former president Joko Widodo has been under pressure since the Constitutional Court and then the Supreme Court ruled in October that the documents attesting to his studies abroad did not meet the requirements for his candidacy in 2024. That evening, however, Mr Gibran said the president had advised him to “fight” to prove his qualifications valid, while Parliament, dominated by the president’s coalition, is considering an inquiry that some analysts see as a first step towards impeachment.
 
-**The number :** 30.8% — of the vote for the ANC, its lowest ever
+**The number :** 3 — senior police officers arrested over illegal wiretapping
 
-### The test of the metros
+### The rift between Prabowo and Widodo
 
-With 97% counted, 122 of the 257 municipal councils had no majority, according to the Sowetan, cited by BusinessDay. In Johannesburg, where the DA is close to 40% of the vote, its candidate, Helen Zille, favours a two-party coalition with either ActionSA or the ANC. In Pretoria, ActionSA makes keeping its mayor, Nasiphi Moya, a condition of any deal. In East London the ANC has lost its majority for the first time since 1995, and Mangaung is split almost evenly between the ANC and the DA. The MK party, which disputes some results, has asked for the count to be frozen in several Durban wards, while the electoral commission has ordered recounts in five.
-
-Sources :
-- [Al Jazeera — South Africans vote in local elections seen as test for embattled ANC](https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc)
-- [BusinessDay — Live updates: Cape Town becomes first metro with majority control](https://www.businessday.co.za/politics/2026-11-05-live-updates-cape-town-becomes-first-metro-with-majority-control/)
-- [EWN — ANC’s dominance challenged as opposition parties make gains in local polls](https://www.ewn.co.za/2026/11/06/ancs-dominance-challenged-as-opposition-parties-make-gains-in-local-polls)
-- [Briefly News — Hung councils dominate SA’s 2026 elections as ANC suffers worst result since 1994](https://briefly.co.za/south-africa/258085-hung-councils-dominate-sas-2026-elections-anc-suffers-worst-result-1994/)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/south-africa-anc-suffers-worst-setback-big-cities/
-
-## 5. Yemen — In Yemen, at least 30 killed at a market near Taiz, with each side blaming the other
-
-**The Houthis accuse Saudi aircraft of bombing the Al-Hadara market on Friday; the recognised government blames Houthi missiles. According to the Yemen Data Project, October was the deadliest month for civilians since 2017.**
-
-At around 7am on Friday 6 November strikes hit the Al-Hadara market in the Al-Waziyah district of Taiz province, killing at least 30 people and wounding eight, according to the Houthi authorities, a toll the Associated Press could not verify. The Houthis’ military spokesman, Yahya Saree, blames Saudi aircraft, while the spokesman for government forces, Colonel Majed al-Nazili, attributes the carnage to Houthi ballistic missiles and calls it a “war crime”. The attack is part of an escalation that began in July with the collapse of the UN-brokered truce, as the Houthis have besieged the city of Taiz for a month and the government’s “Dawn of Yemen” offensive, launched on 5 October, grinds on.
-
-**The number :** 426 — civilians killed in October by Saudi-led coalition strikes
-
-### A war rekindled by the regional conflict
-
-The UN-brokered truce collapsed in July, after coalition fire on the runway at Sanaa airport, intended to stop an Iranian aircraft carrying a Houthi delegation from landing. The rebels then declared a naval blockade of Saudi Arabia and stepped up attacks on its territory; on 10 October a strike on Riyadh airport killed 13 people, according to Amnesty International. The human-rights group links this resumption of hostilities to the regional war pitting America and Israel against Iran. In the south the Houthis are also targeting government forces and Aden airport, while civilians in Taiz are short of water, food and medicine.
+Beaten by Joko Widodo in 2014 and 2019, Prabowo Subianto enjoyed his tacit backing to succeed him, with his former rival’s son as running-mate. The alliance is cracking. Last week three senior police officers were arrested over illegal wiretapping that targeted, among others, the president; they include the former national police chief Listyo Sigit Prabowo, a Widodo ally moved last month to the ceremonial post of presidential chief of staff, according to the Jakarta Post. Three officials of the PSI, chaired by the former president’s younger son, Kaesang Pangarep, have left the party, pledging loyalty to the head of state. According to Reuters, Mr Widodo is said to be unhappy that Gibran was not defended against the judges.
 
 Sources :
-- [Associated Press, via WFTV — Airstrikes on a market in Yemen kill at least 30](https://www.wftv.com/news/business/airstrikes-market/V7EPGI27LM66FEZBYGD4H7AE7I/)
-- [Amnesty International — Saudi Arabia/Yemen: Civilians must not pay the price of escalation in hostilities](https://www.amnesty.org/en/latest/news/2026/10/saudi-arabia-yemen-civilians-must-not-pay-the-price-of-escalation-in-hostilities/)
-- [Outlook India — Yemen Taiz market strikes: Houthis and government forces trade blame](https://www.outlookindia.com/international/yemen-taiz-market-strikes-houthis-government-forces-blame-saudi-arabia)
-- [Democracy Now! — 30 People Killed in Yemen in Missile Attack](https://www.democracynow.org/2026/11/9/headlines/30_people_killed_in_yemen_in_missile_attack)
-- [South24 — Two deadly weeks in southern Yemen](https://south24.net/news/newse.php?nid=5835)
+- [The Jakarta Post — Breaking: VP Gibran intends to resign, says state secretary](https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary)
+- [Reuters, via ThePrint — Indonesia vice president expresses intention to resign, presidential official says](https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/)
+- [The Jakarta Post — Ministers leave PSI as House sets to decide on Gibran](https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran)
+- [The Jakarta Post — Supreme Court ruling renews calls for Gibran to step down](https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/yemen-least-30-killed-market-near-taiz-each/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts/
+
+## 4. Haiti — In Haiti, Salvadoran troops destroy the house of the 400 Mawozo gang’s leader
+
+**El Salvador’s president, Nayib Bukele, on Tuesday claimed the assault on the gang’s headquarters in Croix-des-Bouquets, where its leader was absent. American diplomats complain that El Salvador is acting without co-ordinating with the UN-backed force.**
+
+At around 2.30am on Sunday 8 November a drone unit of the Haitian police, backed by Salvadoran soldiers and helicopters, destroyed the house of Wilson Joseph, leader of the 400 Mawozo gang, in Croix-des-Bouquets near Port-au-Prince, described as his headquarters. El Salvador’s president, Nayib Bukele, who had vowed to raze the house, claimed the operation on Tuesday; it reportedly left about 20 dead according to the Miami Herald, a toll AFP could not confirm, and Wilson Joseph was absent, according to the Salvadoran press. Haiti’s prime minister, Alix Didier Fils-Aimé, praised El Salvador, but American diplomats complain that the 2,000 or so Salvadoran soldiers, most of them outside the UN-backed Gang Suppression Force, are not co-ordinating with it, according to Axios.
+
+**The number :** ≈ 2,000 — Salvadoran soldiers deployed in Haiti
+
+### An intervention outside the UN framework
+
+El Salvador sent its first special forces on 22 October, after an ambush on 18 October in Croix-des-Bouquets against four Salvadoran aviation technicians serving with the UN-backed force, who have been missing ever since, according to the AP. The contingent now numbers about 2,000 soldiers, whereas the Gang Suppression Force had only just over 2,000 members in October out of a planned 5,500. Presented at first as a recovery mission, the operation now aims, according to Nayib Bukele, to eliminate the gangs. Amnesty International wants the deployment agreement published and any abuses investigated. Before the assault, 400 Mawozo had approached Haiti’s disarmament commission to open negotiations.
+
+Sources :
+- [Al Jazeera — Salvadoran troops target Haitian gang, leaving 20 dead](https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead)
+- [AFP, via Yahoo — Haiti PM hails Bukele and Salvadoran troops](https://www.yahoo.com/news/world/articles/haiti-pm-hails-bukele-salvadoran-235500837.html)
+- [EFE, via El Diario de Hoy — Gobierno de EE. UU. cuestiona la misión de Bukele en Haití, según Axios](https://www.eldiariodehoy.com/noticias/nacionales/gobierno-ee-uu-cuestiona-la-mision-de-bukele-en-haiti-segun-axios/100055/2026/)
+- [Associated Press, via AJC — El Salvador deploys special forces to Haiti to help find 4 missing soldiers who came under attack](https://www.ajc.com/news/2026/10/el-salvador-deploys-special-forces-to-haiti-to-help-find-4-missing-soldiers-who-came-under-attack/)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/haiti-salvadoran-troops-destroy-house-400-mawozo-gang/
+
+## 5. Niger — Niger has taken in nearly 64,000 refugees from Nigeria since January, says the UNHCR
+
+**Jihadist and criminal violence in northern Nigeria is driving tens of thousands of people into a drought-stricken neighbour. For lack of money, only 5% of the new arrivals have been registered.**
+
+On Tuesday 10 November the UN refugee agency (UNHCR) said that nearly 64,000 people had fled northern Nigeria for Niger since the start of the year, and several hundred more for Benin, driven out by Boko Haram, Islamic State West Africa and criminal gangs. Most settle in the border regions of Diffa, which accounts for more than 70% of the security incidents recorded in Niger this year, and Tahoua, where they lack food, water and shelter, while malnutrition and respiratory infections are spreading. The UNHCR is appealing for $11.4m for Niger, Nigeria and Benin, at a time when Niger was already hosting more than 500,000 refugees and asylum-seekers and drought threatens the harvests of some 700 of the region’s 1,000 villages.
+
+**The number :** ≈ 64,000 — refugees arriving in Niger from Nigeria since January
+
+### One crisis on top of others
+
+Niger, already home to more than 500,000 refugees and asylum-seekers, some 327,500 of them Nigerians, is battling drought at the same time: about 70% of its pastureland has been lost, according to UN News. For lack of funds, only 5% of this year’s arrivals have been registered, which makes delivering aid harder. Women walk several kilometres to find water, and children who come from Nigeria’s English-language school system struggle to find a place in class. The UNHCR praises the solidarity of the authorities and host communities, who have provided land among other things. Its spokeswoman, Dominique Hyde, warns that without more money thousands of families risk losing essential help.
+
+Sources :
+- [ONU Info — Nearly 64,000 people flee Nigeria for Niger](https://news.un.org/en/story/2026/11/1168779)
+- [Reuters, via TimesLIVE — Violence in northern Nigeria drives tens of thousands into Niger](https://www.timeslive.co.za/news/africa/2026-11-10-11112026wop5-filler/)
+- [Associated Press, via KSAT — At least 62 people killed in attack on a community in northeastern Nigeria](https://www.ksat.com/news/world/2026/10/27/at-least-62-people-killed-in-attack-on-a-community-in-northeastern-nigeria/)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/niger-has-taken-nearly-64-000-refugees-nigeria/
 
 ## In brief
 
-- **Gaza** : A woman and four children were killed on Sunday in Deir al-Balah when a sand bank collapsed on their tent, after a storm flooded some 70,000 tents of displaced people, according to the Gaza authorities. ([Source](https://www.aljazeera.com/news/2026/11/9/gaza-authorities-slam-global-inaction-after-mudslide-kills-five-people))
-- **Iraq** : Output at the Khor Mor gas field in Iraqi Kurdistan was halted on Sunday after an explosives-laden drone set a tank ablaze, depriving the region of about 2.8 gigawatts of generating capacity. ([Source](https://www.10things.news/p/10-things-global-news-9th-november))
-- **Iran** : Three men accused of armed violence during January’s anti-government protests were executed on Sunday after the Supreme Court upheld their death sentences, according to state media. ([Source](https://www.10things.news/p/10-things-global-news-9th-november))
-- **Israel** : The 120 members of the new Knesset are sworn in on Tuesday, while Gadi Eisenkot, tasked with forming a government, has 28 days, extendable by 14, to assemble a majority. ([Source](https://havanatimes.org/news/international-news-briefs-for-monday-november-9-2026/))
+- **Hungary** : Áron Orbán, brother of the former prime minister Viktor Orbán, was detained on Monday in a people-smuggling investigation, the prime minister, Péter Magyar, announced; Viktor Orbán decries a “dirty game”. ([Source](https://www.euronews.com/2026/11/09/viktor-orbans-brother-reportedly-detained-over-suspected-people-smuggling))
+- **Turkey** : An explosion and fire killed six people and injured 13 on Monday at the Habaş steelworks in Aliağa, in Izmir province, where rescuers were searching for eight missing workers; an investigation has been opened. ([Source](https://morningstaronline.co.uk/article/world-brief-november-10-2026))
+- **Paraguay** : State-school teachers have gone on strike after the collapse of Ueno bank, where some $60m of their pension funds had reportedly been deposited, according to their union leader, Silvio Piris. ([Source](https://www.wftv.com/news/business/teachers-strike/ZNKFQUMYPYZE7A32P5ZAAAQRI4/))
 
 ## Coming up
 
-- 10 Nov : Talks on Ukraine in Abu Dhabi, until the 11th; the Knesset is sworn in.
-- 11 Nov : Independence day in Poland; COP31 leaders’ summit in Antalya, until the 12th.
+- 11 Nov : Second day of the Abu Dhabi talks; COP31 leaders’ summit in Antalya, until the 12th; independence day in Poland.
+- 16 Nov : EU Foreign Affairs Council, which could take up the cyber-attacks blamed on Iran.
 - 18 Nov : Closed-door hearing for Jensen Huang requested by the House of Representatives; APEC summit in Shenzhen.
 - 20 Nov : COP31 scheduled to close.
 - 6 Dec : End of Gadi Eisenkot’s initial deadline to form a government in Israel.

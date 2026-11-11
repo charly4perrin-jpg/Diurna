@@ -1,0 +1,119 @@
+# Diurna — No. 7 — Wednesday, 11 November 2026
+
+> Russia and Ukraine press on with talks in Abu Dhabi that Kyiv calls “constructive”
+
+The first day of American-brokered talks dwelt on prisoners and security guarantees. France blames Iran’s Revolutionary Guards for sabotaging 700 shops, Indonesia’s vice-president wobbles, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.
+
+_Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
+
+## 1. Ukraine — In Abu Dhabi, a first day of talks that Kyiv and Washington call “constructive”
+
+**Russian, Ukrainian and American negotiators talked for nearly four hours on Tuesday, mostly about humanitarian matters and security guarantees. The delegations meet again on Wednesday for a second day, with no breakthrough expected.**
+
+On Tuesday 10 November the Russian, Ukrainian and American delegations talked for nearly four hours in Abu Dhabi, a session that Ukraine’s president, Volodymyr Zelensky, called “constructive” and “fairly substantive”, a view shared by the American envoy Jared Kushner. According to Kyiv, the discussions dwelt mainly on humanitarian questions, including a large prisoner exchange and the return of civilians and children, and on security guarantees, while Moscow still demands Ukraine’s withdrawal from four regions and Ukraine insists on a ceasefire first. Talks resume on Wednesday, but America’s secretary of state, Marco Rubio, meeting his G7 counterparts in Paris, urged patience, and an American official quoted by Al Jazeera suggests that any territorial deal would come last.
+
+**The number :** ≈ 4 hours — of talks on the first day
+
+### The outline of a compromise
+
+An American official quoted by Al Jazeera says both sides have privately shown some flexibility over the occupied territories; Russia controls about 20% of Ukraine and Vladimir Putin wants the whole of the Donbas. The security guarantees under discussion for Kyiv could take the form of a defence commitment modelled on Article 5 of the North Atlantic Treaty. Before the session, the Ukrainian delegation met representatives of Britain, France, Germany, Italy, NATO and the European Commission, whom Moscow refuses to admit to the talks. Germany’s chancellor, Friedrich Merz, says he has no “excessive expectations”, and an analyst at the Center for European Policy Analysis expects no deal at all.
+
+Sources :
+- [Al Jazeera — Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes](https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes)
+- [Associated Press, via PBS — Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi](https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi)
+- [Meduza — Russia, Ukraine and the US to hold peace talks in Abu Dhabi on November 10, their first trilateral meeting since February](https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/abu-dhabi-first-day-talks-that-kyiv-washington/
+
+## 2. France — France accuses Iran’s Revolutionary Guards of sabotaging the fridges of 700 shops
+
+**France’s foreign minister blames a cyber unit linked to the Guards for the attack on supermarkets on 12 October. Iran’s ambassador has been summoned and Paris wants European sanctions.**
+
+On Monday 9 November France’s foreign minister, Jean-Noël Barrot, blamed Iran’s Revolutionary Guards for the cyber-attack which, on the night of 11-12 October, tampered with refrigeration in some 700 French shops, including Carrefour, Monoprix, Intermarché and Coopérative U stores. According to ANSSI, France’s national cyber-security agency, the attack was the work of Shahid Kaveh, a unit linked to the Guards and betrayed by traces of Persian and Iranian IP addresses, and temperatures rose as high as 50°C for about six hours, the AP reports. Paris has summoned Iran’s ambassador and wants European sanctions, which EU foreign ministers could discuss on 16 November, while Tehran dismisses the accusations as “baseless and biased”.
+
+**The number :** ≈ 700 — French shops whose fridges were hacked
+
+### A campaign that goes beyond France
+
+According to Reuters, the joint report by France’s intelligence and cyber-security services counts at least 15 fires, and butchers, an abattoir and food factories were among the sites targeted. A second wave in November hit more than 100 establishments across Europe and affected refrigerators at blood banks in France. The AP notes similar incidents in Sweden, Belgium, Luxembourg, Ireland and Estonia. In America, half a dozen military commissaries suffered refrigeration failures in August that the Pentagon is treating as a suspected cyber-attack. ANSSI also blames another Iranian group, Shahid Shushtari, for attacks on France since 2020, including those on Charlie Hebdo in 2023 and on the 2024 Olympic Games.
+
+Sources :
+- [Euronews — France says Iran behind cyberattacks on supermarket fridges](https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges)
+- [Associated Press, via WFTV — France blames Iran](https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/)
+- [Reuters, via Khaleej Times — France accuses IRGC of cyberattack on supermarket fridges](https://www.khaleejtimes.com/world/france-accuses-irgc-cyberattack-supermarket-fridges)
+- [Asharq Al-Awsat — Iran rejects French accusations](https://english.aawsat.com/node/5300441)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/france-accuses-iran-revolutionary-guards-sabotaging-fridges-700/
+
+## 3. Indonesia — Indonesia’s vice-president, Gibran Rakabuming Raka, weakened by doubts over his diplomas, offers to go
+
+**The son of the former president Joko Widodo said on Tuesday that he intended to resign, after court rulings found his school qualifications wanting. Parliament is weighing an inquiry that could pave the way to impeachment.**
+
+On Tuesday 10 November Indonesia’s vice-president, Gibran Rakabuming Raka, said he intended to resign during a meeting of some two and a half hours with President Prabowo Subianto, according to the state secretary, Prasetyo Hadi, who said the president had not refused the request. The son of the former president Joko Widodo has been under pressure since the Constitutional Court and then the Supreme Court ruled in October that the documents attesting to his studies abroad did not meet the requirements for his candidacy in 2024. That evening, however, Mr Gibran said the president had advised him to “fight” to prove his qualifications valid, while Parliament, dominated by the president’s coalition, is considering an inquiry that some analysts see as a first step towards impeachment.
+
+**The number :** 3 — senior police officers arrested over illegal wiretapping
+
+### The rift between Prabowo and Widodo
+
+Beaten by Joko Widodo in 2014 and 2019, Prabowo Subianto enjoyed his tacit backing to succeed him, with his former rival’s son as running-mate. The alliance is cracking. Last week three senior police officers were arrested over illegal wiretapping that targeted, among others, the president; they include the former national police chief Listyo Sigit Prabowo, a Widodo ally moved last month to the ceremonial post of presidential chief of staff, according to the Jakarta Post. Three officials of the PSI, chaired by the former president’s younger son, Kaesang Pangarep, have left the party, pledging loyalty to the head of state. According to Reuters, Mr Widodo is said to be unhappy that Gibran was not defended against the judges.
+
+Sources :
+- [The Jakarta Post — Breaking: VP Gibran intends to resign, says state secretary](https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary)
+- [Reuters, via ThePrint — Indonesia vice president expresses intention to resign, presidential official says](https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/)
+- [The Jakarta Post — Ministers leave PSI as House sets to decide on Gibran](https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran)
+- [The Jakarta Post — Supreme Court ruling renews calls for Gibran to step down](https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts/
+
+## 4. Haiti — In Haiti, Salvadoran troops destroy the house of the 400 Mawozo gang’s leader
+
+**El Salvador’s president, Nayib Bukele, on Tuesday claimed the assault on the gang’s headquarters in Croix-des-Bouquets, where its leader was absent. American diplomats complain that El Salvador is acting without co-ordinating with the UN-backed force.**
+
+At around 2.30am on Sunday 8 November a drone unit of the Haitian police, backed by Salvadoran soldiers and helicopters, destroyed the house of Wilson Joseph, leader of the 400 Mawozo gang, in Croix-des-Bouquets near Port-au-Prince, described as his headquarters. El Salvador’s president, Nayib Bukele, who had vowed to raze the house, claimed the operation on Tuesday; it reportedly left about 20 dead according to the Miami Herald, a toll AFP could not confirm, and Wilson Joseph was absent, according to the Salvadoran press. Haiti’s prime minister, Alix Didier Fils-Aimé, praised El Salvador, but American diplomats complain that the 2,000 or so Salvadoran soldiers, most of them outside the UN-backed Gang Suppression Force, are not co-ordinating with it, according to Axios.
+
+**The number :** ≈ 2,000 — Salvadoran soldiers deployed in Haiti
+
+### An intervention outside the UN framework
+
+El Salvador sent its first special forces on 22 October, after an ambush on 18 October in Croix-des-Bouquets against four Salvadoran aviation technicians serving with the UN-backed force, who have been missing ever since, according to the AP. The contingent now numbers about 2,000 soldiers, whereas the Gang Suppression Force had only just over 2,000 members in October out of a planned 5,500. Presented at first as a recovery mission, the operation now aims, according to Nayib Bukele, to eliminate the gangs. Amnesty International wants the deployment agreement published and any abuses investigated. Before the assault, 400 Mawozo had approached Haiti’s disarmament commission to open negotiations.
+
+Sources :
+- [Al Jazeera — Salvadoran troops target Haitian gang, leaving 20 dead](https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead)
+- [AFP, via Yahoo — Haiti PM hails Bukele and Salvadoran troops](https://www.yahoo.com/news/world/articles/haiti-pm-hails-bukele-salvadoran-235500837.html)
+- [EFE, via El Diario de Hoy — Gobierno de EE. UU. cuestiona la misión de Bukele en Haití, según Axios](https://www.eldiariodehoy.com/noticias/nacionales/gobierno-ee-uu-cuestiona-la-mision-de-bukele-en-haiti-segun-axios/100055/2026/)
+- [Associated Press, via AJC — El Salvador deploys special forces to Haiti to help find 4 missing soldiers who came under attack](https://www.ajc.com/news/2026/10/el-salvador-deploys-special-forces-to-haiti-to-help-find-4-missing-soldiers-who-came-under-attack/)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/haiti-salvadoran-troops-destroy-house-400-mawozo-gang/
+
+## 5. Niger — Niger has taken in nearly 64,000 refugees from Nigeria since January, says the UNHCR
+
+**Jihadist and criminal violence in northern Nigeria is driving tens of thousands of people into a drought-stricken neighbour. For lack of money, only 5% of the new arrivals have been registered.**
+
+On Tuesday 10 November the UN refugee agency (UNHCR) said that nearly 64,000 people had fled northern Nigeria for Niger since the start of the year, and several hundred more for Benin, driven out by Boko Haram, Islamic State West Africa and criminal gangs. Most settle in the border regions of Diffa, which accounts for more than 70% of the security incidents recorded in Niger this year, and Tahoua, where they lack food, water and shelter, while malnutrition and respiratory infections are spreading. The UNHCR is appealing for $11.4m for Niger, Nigeria and Benin, at a time when Niger was already hosting more than 500,000 refugees and asylum-seekers and drought threatens the harvests of some 700 of the region’s 1,000 villages.
+
+**The number :** ≈ 64,000 — refugees arriving in Niger from Nigeria since January
+
+### One crisis on top of others
+
+Niger, already home to more than 500,000 refugees and asylum-seekers, some 327,500 of them Nigerians, is battling drought at the same time: about 70% of its pastureland has been lost, according to UN News. For lack of funds, only 5% of this year’s arrivals have been registered, which makes delivering aid harder. Women walk several kilometres to find water, and children who come from Nigeria’s English-language school system struggle to find a place in class. The UNHCR praises the solidarity of the authorities and host communities, who have provided land among other things. Its spokeswoman, Dominique Hyde, warns that without more money thousands of families risk losing essential help.
+
+Sources :
+- [ONU Info — Nearly 64,000 people flee Nigeria for Niger](https://news.un.org/en/story/2026/11/1168779)
+- [Reuters, via TimesLIVE — Violence in northern Nigeria drives tens of thousands into Niger](https://www.timeslive.co.za/news/africa/2026-11-10-11112026wop5-filler/)
+- [Associated Press, via KSAT — At least 62 people killed in attack on a community in northeastern Nigeria](https://www.ksat.com/news/world/2026/10/27/at-least-62-people-killed-in-attack-on-a-community-in-northeastern-nigeria/)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/niger-has-taken-nearly-64-000-refugees-nigeria/
+
+## In brief
+
+- **Hungary** : Áron Orbán, brother of the former prime minister Viktor Orbán, was detained on Monday in a people-smuggling investigation, the prime minister, Péter Magyar, announced; Viktor Orbán decries a “dirty game”. ([Source](https://www.euronews.com/2026/11/09/viktor-orbans-brother-reportedly-detained-over-suspected-people-smuggling))
+- **Turkey** : An explosion and fire killed six people and injured 13 on Monday at the Habaş steelworks in Aliağa, in Izmir province, where rescuers were searching for eight missing workers; an investigation has been opened. ([Source](https://morningstaronline.co.uk/article/world-brief-november-10-2026))
+- **Paraguay** : State-school teachers have gone on strike after the collapse of Ueno bank, where some $60m of their pension funds had reportedly been deposited, according to their union leader, Silvio Piris. ([Source](https://www.wftv.com/news/business/teachers-strike/ZNKFQUMYPYZE7A32P5ZAAAQRI4/))
+
+## Coming up
+
+- 11 Nov : Second day of the Abu Dhabi talks; COP31 leaders’ summit in Antalya, until the 12th; independence day in Poland.
+- 16 Nov : EU Foreign Affairs Council, which could take up the cyber-attacks blamed on Iran.
+- 18 Nov : Closed-door hearing for Jensen Huang requested by the House of Representatives; APEC summit in Shenzhen.
+- 20 Nov : COP31 scheduled to close.
+- 6 Dec : End of Gadi Eisenkot’s initial deadline to form a government in Israel.
