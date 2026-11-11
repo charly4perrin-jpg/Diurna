@@ -7,7 +7,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 
 ## Édition du jour / Today's edition
 
-- [Édition du 2026-11-10 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers sous le regard des Européens
+- [Édition du 2026-11-11 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): À Abou Dhabi, Russes et Ukrainiens poursuivent des pourparlers jugés « constructifs » par Kiev
 - [Edition of 2026-11-10 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): In Abu Dhabi, Russia, Ukraine and America reopen talks as Europeans watch from the wings
 - [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
 
@@ -27,6 +27,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 
 ## Optional
 
+- [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/2026/11/11/edition.md): À Abou Dhabi, Russes et Ukrainiens poursuivent des pourparlers jugés « constructifs » par Kiev
 - [2026-11-10](https://charly4perrin-jpg.github.io/Diurna/2026/11/10/edition.md): À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers sous le regard des Européens
 - [2026-11-09](https://charly4perrin-jpg.github.io/Diurna/2026/11/09/edition.md): En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d’urgence nationale »
 - [2026-11-08](https://charly4perrin-jpg.github.io/Diurna/2026/11/08/edition.md): En Israël, Gadi Eisenkot chargé de former un gouvernement à la place de Benyamin Nétanyahou

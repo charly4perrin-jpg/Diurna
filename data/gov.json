@@ -47,11 +47,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-10",
+  "checked": "2026-11-11",
   "source": {
    "name": "Al Jazeera",
    "name_en": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/9/no-concession-what-to-expect-from-russia-us-ukraine-talks-in-abu-dhabi"
+   "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -109,10 +109,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-11",
   "source": {
-   "name": "KSAT (AP)",
-   "url": "https://www.ksat.com/news/world/2026/11/04/indonesia-deploys-thousands-of-troops-after-generals-arrested-over-wiretapping-allegations/"
+   "name": "The Jakarta Post",
+   "name_en": "The Jakarta Post",
+   "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
   },
   "regime_en": "Presidential republic"
  },
@@ -157,10 +158,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-05",
+  "checked": "2026-11-11",
   "source": {
    "name": "Élysée",
-   "url": "https://www.elysee.fr/agenda-novembre-1371"
+   "name_en": "Élysée",
+   "url": "https://www.elysee.fr/en/diary-november-2026"
   },
   "regime_en": "Semi-presidential republic"
  },
@@ -225,11 +227,11 @@
     "name": "Alix Didier Fils-Aimé"
    }
   ],
-  "checked": "2026-11-08",
+  "checked": "2026-11-11",
   "source": {
-   "name": "Associated Press, via ABC News",
-   "name_en": "Associated Press, via ABC News",
-   "url": "https://abcnews.com/International/wireStory/powerful-haitian-gang-reaches-state-disarmament-group-gunfights-137932356"
+   "name": "Al Jazeera",
+   "name_en": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
   }
  },
  "IRL": {
@@ -361,6 +363,24 @@
    "name": "Wikipedia",
    "name_en": "Wikipedia",
    "url": "https://en.wikipedia.org/wiki/Shaya_al-Zindani"
+  }
+ },
+ "NER": {
+  "regime": "Pouvoir militaire de transition",
+  "regime_en": "Military transitional rule",
+  "leaders": [
+   {
+    "role": "Président de la transition (général)",
+    "role_en": "Transitional President (general)",
+    "name": "Abdourahamane Tiani",
+    "name_en": "Abdourahamane Tchiani"
+   }
+  ],
+  "checked": "2026-11-11",
+  "source": {
+   "name": "Human Rights Watch",
+   "name_en": "Human Rights Watch",
+   "url": "https://www.hrw.org/news/2026/07/23/niger-3-years-of-military-rule-deepens-human-rights-crisis"
   }
  }
 }

@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-11-a4dfea77@diurna
+DTSTAMP:20261111T060248Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:Seconde journée des pourparlers d’Abou Dhabi \; sommet des d
+ irigeants de la COP31 à Antalya\, jusqu’au 12 \; fête de l’indé
+ pendance en Pologne.
+DESCRIPTION:Diurna — Édition du 11 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/11/
+END:VEVENT
+END:VCALENDAR
