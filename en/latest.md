@@ -1,27 +1,31 @@
 # Diurna — No. 7 — Wednesday, 11 November 2026
 
-> Russia and Ukraine press on with talks in Abu Dhabi that Kyiv calls “constructive”
+> Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
 
-The first day of American-brokered talks dwelt on prisoners and security guarantees. France blames Iran’s Revolutionary Guards for sabotaging 700 shops, Indonesia’s vice-president wobbles, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.
+The American-brokered talks ended on Wednesday with no progress on territory, and America’s envoys are due in Moscow on Thursday. France blames Iran’s Revolutionary Guards for sabotaging 700 shops, Indonesia’s vice-president resigns, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — In Abu Dhabi, a first day of talks that Kyiv and Washington call “constructive”
+## 1. Ukraine — Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
 
-**Russian, Ukrainian and American negotiators talked for nearly four hours on Tuesday, mostly about humanitarian matters and security guarantees. The delegations meet again on Wednesday for a second day, with no breakthrough expected.**
+**The American-brokered talks ended on Wednesday with an agreement in principle covering more than 1,000 prisoners on each side, according to Moscow. Nothing moved on territory, and America’s envoys are expected at the Kremlin on Thursday.**
 
-On Tuesday 10 November the Russian, Ukrainian and American delegations talked for nearly four hours in Abu Dhabi, a session that Ukraine’s president, Volodymyr Zelensky, called “constructive” and “fairly substantive”, a view shared by the American envoy Jared Kushner. According to Kyiv, the discussions dwelt mainly on humanitarian questions, including a large prisoner exchange and the return of civilians and children, and on security guarantees, while Moscow still demands Ukraine’s withdrawal from four regions and Ukraine insists on a ceasefire first. Talks resume on Wednesday, but America’s secretary of state, Marco Rubio, meeting his G7 counterparts in Paris, urged patience, and an American official quoted by Al Jazeera suggests that any territorial deal would come last.
+On Wednesday 11 November, after a second session of under two hours in Abu Dhabi, Russia and Ukraine announced an agreement in principle on a large prisoner exchange, which the Russian general Alexander Zorin says will be the biggest of the war, with more than 1,000 people on each side, according to TASS. Ukraine’s chief negotiator, Rustem Umerov, called the swap the “main result” of the talks, but nothing moved on territory: Russia’s negotiator, Vladimir Medinsky, repeated that Moscow would recover “every inch” of the land it claims, while Kyiv still insists on a ceasefire first. The American envoys Jared Kushner and Steve Witkoff are due to meet Vladimir Putin in Moscow on Thursday and then Volodymyr Zelensky in Dublin, and the exchange, whose numbers are to be settled on Thursday, could take place within two or three weeks, the Russian side told the AP.
 
-**The number :** ≈ 4 hours — of talks on the first day
+**The number :** > 1,000 — prisoners on each side covered by the announced exchange
 
 ### The outline of a compromise
 
 An American official quoted by Al Jazeera says both sides have privately shown some flexibility over the occupied territories; Russia controls about 20% of Ukraine and Vladimir Putin wants the whole of the Donbas. The security guarantees under discussion for Kyiv could take the form of a defence commitment modelled on Article 5 of the North Atlantic Treaty. Before the session, the Ukrainian delegation met representatives of Britain, France, Germany, Italy, NATO and the European Commission, whom Moscow refuses to admit to the talks. Germany’s chancellor, Friedrich Merz, says he has no “excessive expectations”, and an analyst at the Center for European Policy Analysis expects no deal at all.
 
+- _What changed 19:45_ : The talks ended with a prisoner-exchange deal but no breakthrough; headline, text, figure and timetable rewritten.
+
 Sources :
+- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
+- [Associated Press, via KPBS — Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough](https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough)
+- [The Moscow Times — Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough](https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227)
 - [Al Jazeera — Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes](https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes)
 - [Associated Press, via PBS — Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi](https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi)
-- [Meduza — Russia, Ukraine and the US to hold peace talks in Abu Dhabi on November 10, their first trilateral meeting since February](https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/abu-dhabi-first-day-talks-that-kyiv-washington/
 
@@ -45,23 +49,26 @@ Sources :
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/france-accuses-iran-revolutionary-guards-sabotaging-fridges-700/
 
-## 3. Indonesia — Indonesia’s vice-president, Gibran Rakabuming Raka, weakened by doubts over his diplomas, offers to go
+## 3. Indonesia — Indonesia’s vice-president, Gibran Rakabuming Raka, resigns amid doubts over his diplomas
 
-**The son of the former president Joko Widodo said on Tuesday that he intended to resign, after court rulings found his school qualifications wanting. Parliament is weighing an inquiry that could pave the way to impeachment.**
+**The son of the former president Joko Widodo handed his resignation to President Prabowo Subianto on Wednesday, after court rulings found his school qualifications wanting. Parliament will then have 60 days to elect a successor.**
 
-On Tuesday 10 November Indonesia’s vice-president, Gibran Rakabuming Raka, said he intended to resign during a meeting of some two and a half hours with President Prabowo Subianto, according to the state secretary, Prasetyo Hadi, who said the president had not refused the request. The son of the former president Joko Widodo has been under pressure since the Constitutional Court and then the Supreme Court ruled in October that the documents attesting to his studies abroad did not meet the requirements for his candidacy in 2024. That evening, however, Mr Gibran said the president had advised him to “fight” to prove his qualifications valid, while Parliament, dominated by the president’s coalition, is considering an inquiry that some analysts see as a first step towards impeachment.
+On Wednesday 11 November Indonesia’s vice-president, Gibran Rakabuming Raka, handed his resignation to President Prabowo Subianto at a meeting at Halim Perdanakusuma air base in Jakarta, his ally Budi Arie Setiadi, chairman of the Projo organisation, confirmed to Reuters and the Antara news agency. The son of the former president Joko Widodo had been under pressure since the Constitutional Court and then the Supreme Court ruled that his studies abroad did not meet the requirements for his candidacy in 2024, and 120 legislators had just filed a petition demanding his impeachment. According to the senior law minister, Yusril Ihza Mahendra, Parliament must declare the post vacant and then, within 60 days, elect a successor from two names put forward by the president, an uncertainty that is weighing on investor confidence, Reuters notes.
 
-**The number :** 3 — senior police officers arrested over illegal wiretapping
+**The number :** 60 days — to elect a new vice-president
 
 ### The rift between Prabowo and Widodo
 
 Beaten by Joko Widodo in 2014 and 2019, Prabowo Subianto enjoyed his tacit backing to succeed him, with his former rival’s son as running-mate. The alliance is cracking. Last week three senior police officers were arrested over illegal wiretapping that targeted, among others, the president; they include the former national police chief Listyo Sigit Prabowo, a Widodo ally moved last month to the ceremonial post of presidential chief of staff, according to the Jakarta Post. Three officials of the PSI, chaired by the former president’s younger son, Kaesang Pangarep, have left the party, pledging loyalty to the head of state. According to Reuters, Mr Widodo is said to be unhappy that Gibran was not defended against the judges.
 
+- _What changed 19:45_ : The vice-president handed in his resignation on Wednesday; headline, text, figure of the day and modules rewritten.
+
 Sources :
+- [Reuters, via TimesLIVE — Indonesia’s vice-president has resigned, aide says, stoking political uncertainty](https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/)
+- [Bernama — Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says](https://www.bernama.com/en/world/news.php?id=2633025)
 - [The Jakarta Post — Breaking: VP Gibran intends to resign, says state secretary](https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary)
 - [Reuters, via ThePrint — Indonesia vice president expresses intention to resign, presidential official says](https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/)
 - [The Jakarta Post — Ministers leave PSI as House sets to decide on Gibran](https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran)
-- [The Jakarta Post — Supreme Court ruling renews calls for Gibran to step down](https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts/
 
@@ -113,6 +120,7 @@ https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/niger-has-taken-nearly-
 ## Coming up
 
 - 11 Nov : Second day of the Abu Dhabi talks; COP31 leaders’ summit in Antalya, until the 12th; independence day in Poland.
+- 12 Nov : America’s envoys Jared Kushner and Steve Witkoff received by Vladimir Putin in Moscow.
 - 16 Nov : EU Foreign Affairs Council, which could take up the cyber-attacks blamed on Iran.
 - 18 Nov : Closed-door hearing for Jensen Huang requested by the House of Representatives; APEC summit in Shenzhen.
 - 20 Nov : COP31 scheduled to close.

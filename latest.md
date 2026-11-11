@@ -1,27 +1,31 @@
 # Diurna — N° 7 — Mercredi 11 novembre 2026
 
-> À Abou Dhabi, Russes et Ukrainiens poursuivent des pourparlers jugés « constructifs » par Kiev
+> À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
 
-La première journée de discussions sous médiation américaine a porté sur les prisonniers et les garanties de sécurité. Paris accuse les Gardiens de la révolution iraniens d’avoir saboté 700 commerces, le vice-président indonésien vacille, des soldats salvadoriens frappent un gang haïtien et le Niger accueille les réfugiés du Nigeria.
+Les pourparlers sous médiation américaine se sont achevés mercredi sans avancée sur les territoires, et les émissaires américains sont attendus jeudi à Moscou. Paris accuse les Gardiens de la révolution iraniens d’avoir saboté 700 commerces, le vice-président indonésien démissionne, des soldats salvadoriens frappent un gang haïtien et le Niger accueille les réfugiés du Nigeria.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Ukraine — À Abou Dhabi, une première journée de pourparlers jugée « constructive » par Kiev et Washington
+## 1. Ukraine — À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
 
-**Russes, Ukrainiens et Américains ont discuté près de quatre heures mardi, surtout de questions humanitaires et de garanties de sécurité. Les délégations se retrouvent mercredi pour une seconde journée, sans qu’aucune percée soit attendue.**
+**Les pourparlers sous médiation américaine se sont achevés mercredi sur un accord de principe portant sur plus de 1 000 prisonniers de chaque camp, selon Moscou. Rien n’a bougé sur les territoires, et les émissaires américains sont attendus jeudi au Kremlin.**
 
-Mardi 10 novembre, les délégations russe, ukrainienne et américaine ont discuté près de quatre heures à Abou Dhabi, une séance que le président ukrainien, Volodymyr Zelensky, a jugée « constructive » et « assez substantielle », un avis partagé par l’émissaire américain Jared Kushner. Selon Kiev, les échanges ont surtout porté sur les questions humanitaires, dont un vaste échange de prisonniers et le retour de civils et d’enfants, ainsi que sur les garanties de sécurité, alors que Moscou réclame toujours le retrait ukrainien de quatre régions et que l’Ukraine exige d’abord un cessez-le-feu. Les discussions reprennent mercredi, mais le secrétaire d’État américain, Marco Rubio, réuni à Paris avec ses homologues du G7, a appelé à la patience, et un responsable américain cité par Al Jazeera estime qu’un éventuel accord territorial viendrait en dernier.
+Mercredi 11 novembre, au terme d’une seconde séance de moins de deux heures à Abou Dhabi, Russes et Ukrainiens ont annoncé un accord de principe sur un vaste échange de prisonniers, que le général russe Alexandre Zorine dit le plus important de la guerre, avec plus de 1 000 personnes de chaque côté, selon l’agence TASS. Le chef de la délégation ukrainienne, Roustem Oumerov, en fait le « principal résultat » des discussions, mais rien n’a bougé sur les territoires : le négociateur russe, Vladimir Medinski, a répété que Moscou récupérerait « chaque pouce » des terres qu’elle revendique, tandis que Kiev exige toujours un cessez-le-feu préalable. Les émissaires américains Jared Kushner et Steve Witkoff doivent rencontrer Vladimir Poutine jeudi à Moscou, puis Volodymyr Zelensky à Dublin, et l’échange, dont les chiffres doivent être arrêtés jeudi, pourrait intervenir d’ici deux à trois semaines, selon la partie russe citée par l’AP.
 
-**Le chiffre du jour :** ≈ 4 heures — de discussions lors de la première journée
+**Le chiffre du jour :** > 1 000 — prisonniers de chaque camp concernés par l’échange annoncé
 
 ### Les contours d’un compromis
 
 Un responsable américain cité par Al Jazeera affirme que les deux camps ont, en privé, montré une certaine souplesse sur les territoires occupés, alors que la Russie contrôle environ 20 % de l’Ukraine et que Vladimir Poutine réclame l’ensemble du Donbass. Les garanties de sécurité envisagées pour Kiev pourraient prendre la forme d’un engagement de défense inspiré de l’article 5 du traité de l’Atlantique Nord. Avant la séance, la délégation ukrainienne a rencontré les représentants du Royaume-Uni, de la France, de l’Allemagne, de l’Italie, de l’OTAN et de la Commission européenne, que Moscou refuse d’associer aux discussions. Le chancelier allemand, Friedrich Merz, dit ne pas avoir « d’attentes excessives », et l’analyste Ilya Timtchenko, du Center for European Policy Analysis, n’attend aucun accord.
 
+- _Ce qui a changé 19 h 45_ : Les pourparlers se sont achevés sur un accord d’échange de prisonniers, sans percée ; titre, texte, chiffre et calendrier réécrits.
+
 Sources :
+- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
+- [Associated Press, via KPBS — Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough](https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough)
+- [The Moscow Times — Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough](https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227)
 - [Al Jazeera — Une première journée « constructive », selon Zelensky](https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes)
 - [Associated Press, via PBS — Près de quatre heures de discussions à Abou Dhabi](https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi)
-- [Meduza — Première rencontre à trois depuis février](https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/11/abou-dhabi-premiere-journee-pourparlers-jugee-constructive-kiev/
 
@@ -45,23 +49,26 @@ Sources :
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/11/paris-accuse-gardiens-revolution-iraniens-avoir-sabote-refrigerateurs/
 
-## 3. Indonésie — En Indonésie, le vice-président Gibran Rakabuming Raka, fragilisé par ses diplômes, se dit prêt à partir
+## 3. Indonésie — En Indonésie, le vice-président Gibran Rakabuming Raka démissionne, fragilisé par le doute sur ses diplômes
 
-**Le fils de l’ancien président Joko Widodo a exprimé mardi son intention de démissionner, après des décisions de justice jugeant insuffisants ses titres scolaires. Le Parlement envisage une enquête qui pourrait ouvrir la voie à une destitution.**
+**Le fils de l’ancien président Joko Widodo a remis mercredi sa démission au président Prabowo Subianto, après des décisions de justice jugeant insuffisants ses titres scolaires. Le Parlement disposera ensuite de soixante jours pour élire son successeur.**
 
-Mardi 10 novembre, le vice-président indonésien, Gibran Rakabuming Raka, a fait part de son intention de démissionner lors d’un entretien d’environ deux heures et demie avec le président, Prabowo Subianto, a annoncé le secrétaire d’État, Prasetyo Hadi, assurant que le chef de l’État n’avait pas refusé cette demande. Le fils de l’ancien président Joko Widodo est fragilisé depuis que la Cour constitutionnelle puis la Cour suprême ont jugé, en octobre, que les documents attestant ses études à l’étranger ne remplissaient pas les conditions exigées pour sa candidature de 2024. Le soir même, M. Gibran a pourtant affirmé que le président lui avait conseillé de « se battre » pour prouver la validité de ses titres, tandis que le Parlement, dominé par la coalition présidentielle, envisage une enquête que certains analystes voient comme un premier pas vers une destitution.
+Mercredi 11 novembre, le vice-président indonésien, Gibran Rakabuming Raka, a remis sa démission au président, Prabowo Subianto, lors d’une rencontre sur la base aérienne de Halim Perdanakusuma, à Jakarta, a confirmé son allié Budi Arie Setiadi, président de l’organisation Projo, cité par Reuters et l’agence Antara. Le fils de l’ancien président Joko Widodo était fragilisé depuis que la Cour constitutionnelle puis la Cour suprême avaient jugé que ses études à l’étranger ne remplissaient pas les conditions exigées pour sa candidature de 2024, et 120 parlementaires venaient de déposer une pétition réclamant sa destitution. Selon le ministre coordinateur chargé du droit, Yusril Ihza Mahendra, le Parlement doit constater la vacance du poste, puis élire dans les soixante jours un successeur parmi deux noms proposés par le président, une incertitude qui pèse sur la confiance des investisseurs, souligne Reuters.
 
-**Le chiffre du jour :** 3 — hauts gradés de la police arrêtés pour écoutes illégales
+**Le chiffre du jour :** 60 jours — pour élire un nouveau vice-président
 
 ### La rupture entre Prabowo et Widodo
 
 Battu par Joko Widodo en 2014 et en 2019, Prabowo Subianto avait bénéficié de son soutien tacite pour lui succéder, avec le fils de son ancien rival pour colistier. L’alliance se fissure : la semaine dernière, trois hauts gradés de la police ont été arrêtés pour des écoutes illégales visant notamment le président, dont l’ancien chef de la police nationale Listyo Sigit Prabowo, proche de M. Widodo, muté le mois dernier au poste honorifique de chef de cabinet présidentiel, selon le Jakarta Post. Trois responsables du PSI, présidé par Kaesang Pangarep, le fils cadet de l’ancien président, ont quitté le parti en promettant leur loyauté au chef de l’État. Selon Reuters, M. Widodo serait mécontent que Gibran n’ait pas été soutenu face aux juges.
 
+- _Ce qui a changé 19 h 45_ : Le vice-président a remis sa démission mercredi ; titre, texte, chiffre du jour et modules réécrits.
+
 Sources :
+- [Reuters, via TimesLIVE — Indonesia’s vice-president has resigned, aide says, stoking political uncertainty](https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/)
+- [Bernama — Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says](https://www.bernama.com/en/world/news.php?id=2633025)
 - [The Jakarta Post — Gibran a l’intention de démissionner](https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary)
 - [Reuters, via ThePrint — Le vice-président exprime son intention de démissionner](https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/)
 - [The Jakarta Post — Des ministres quittent le PSI](https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran)
-- [The Jakarta Post — La Cour suprême relance les appels à la démission](https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/11/indonesie-vice-president-gibran-rakabuming-raka-fragilise-diplomes/
 
@@ -113,6 +120,7 @@ https://charly4perrin-jpg.github.io/Diurna/2026/11/11/niger-pres-64-000-refugies
 ## À venir
 
 - 11 nov. : Seconde journée des pourparlers d’Abou Dhabi ; sommet des dirigeants de la COP31 à Antalya, jusqu’au 12 ; fête de l’indépendance en Pologne.
+- 12 nov. : Les émissaires américains Jared Kushner et Steve Witkoff reçus par Vladimir Poutine à Moscou.
 - 16 nov. : Conseil des affaires étrangères de l’UE, qui pourrait examiner les cyberattaques attribuées à l’Iran.
 - 18 nov. : Audition à huis clos demandée à Jensen Huang par la Chambre des représentants ; sommet de l’APEC à Shenzhen.
 - 20 nov. : Clôture prévue de la COP31.

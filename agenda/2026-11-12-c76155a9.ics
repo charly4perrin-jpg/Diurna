@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-12-c76155a9@diurna
+DTSTAMP:20261111T184523Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Les émissaires américains Jared Kushner et Steve Witkoff reçus
+  par Vladimir Poutine à Moscou.
+DESCRIPTION:Diurna — Édition du 11 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/11/
+END:VEVENT
+END:VCALENDAR

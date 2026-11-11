@@ -1,9 +1,9 @@
 {
   "date": "2026-11-11",
   "number": 7,
-  "updated": "2026-11-11T07:02:43+01:00",
-  "headline": "Russia and Ukraine press on with talks in Abu Dhabi that Kyiv calls “constructive”",
-  "standfirst": "The first day of American-brokered talks dwelt on prisoners and security guarantees. France blames Iran's Revolutionary Guards for sabotaging 700 shops, Indonesia's vice-president wobbles, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.",
+  "updated": "2026-11-11T19:45:03+01:00",
+  "headline": "Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough",
+  "standfirst": "The American-brokered talks ended on Wednesday with no progress on territory, and America's envoys are due in Moscow on Thursday. France blames Iran's Revolutionary Guards for sabotaging 700 shops, Indonesia's vice-president resigns, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.",
   "essentials": [
     {
       "rank": 1,
@@ -15,17 +15,17 @@
         "diplomacy",
         "conflict"
       ],
-      "title": "In Abu Dhabi, a first day of talks that Kyiv and Washington call “constructive”",
-      "standfirst": "Russian, Ukrainian and American negotiators talked for nearly four hours on Tuesday, mostly about humanitarian matters and security guarantees. The delegations meet again on Wednesday for a second day, with no breakthrough expected.",
+      "title": "Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough",
+      "standfirst": "The American-brokered talks ended on Wednesday with an agreement in principle covering more than 1,000 prisoners on each side, according to Moscow. Nothing moved on territory, and America's envoys are expected at the Kremlin on Thursday.",
       "body": [
-        "On Tuesday 10 November the Russian, Ukrainian and American delegations talked for nearly four hours in Abu Dhabi, a session that Ukraine's president, Volodymyr Zelensky, called “constructive” and “fairly substantive”, a view shared by the American envoy Jared Kushner.",
-        "According to Kyiv, the discussions dwelt mainly on humanitarian questions, including a large prisoner exchange and the return of civilians and children, and on security guarantees, while Moscow still demands Ukraine's withdrawal from four regions and Ukraine insists on a ceasefire first.",
-        "Talks resume on Wednesday, but America's secretary of state, Marco Rubio, meeting his G7 counterparts in Paris, urged patience, and an American official quoted by Al Jazeera suggests that any territorial deal would come last."
+        "On Wednesday 11 November, after a second session of under two hours in Abu Dhabi, Russia and Ukraine announced an agreement in principle on a large prisoner exchange, which the Russian general Alexander Zorin says will be the biggest of the war, with more than 1,000 people on each side, according to TASS.",
+        "Ukraine's chief negotiator, Rustem Umerov, called the swap the “main result” of the talks, but nothing moved on territory: Russia's negotiator, Vladimir Medinsky, repeated that Moscow would recover “every inch” of the land it claims, while Kyiv still insists on a ceasefire first.",
+        "The American envoys Jared Kushner and Steve Witkoff are due to meet Vladimir Putin in Moscow on Thursday and then Volodymyr Zelensky in Dublin, and the exchange, whose numbers are to be settled on Thursday, could take place within two or three weeks, the Russian side told the AP."
       ],
       "figure": {
-        "value": "≈ 4 hours",
-        "label": "of talks on the first day",
-        "compare": "the first three-way meeting since February, according to the AP"
+        "value": "> 1,000",
+        "label": "prisoners on each side covered by the announced exchange",
+        "compare": "against 270 in the last swap, on 23 October"
       },
       "since": {
         "date": "2022-02-24",
@@ -54,8 +54,8 @@
             }
           ],
           "next": {
-            "d": "2026-11-11",
-            "t": "Second day of talks in Abu Dhabi."
+            "d": "2026-11-12",
+            "t": "Jared Kushner and Steve Witkoff received by Vladimir Putin in Moscow."
           },
           "source": {
             "name": "Associated Press, via PBS",
@@ -104,7 +104,7 @@
       "keys": [
         {
           "title": "The humanitarian track",
-          "text": "A senior Ukrainian official quoted by the AP speaks of a large-scale prisoner exchange, whose details are to be settled in the coming days. Volodymyr Zelensky, speaking at the University of Copenhagen, also mentioned the return of civilians and children."
+          "text": "On Tuesday Volodymyr Zelensky spoke of an exchange of 1,000, or even 1,500, prisoners on each side, though neither Kyiv nor Moscow has yet published a final figure. The last swap, on 23 October, involved 270 people each way, the Kyiv Independent notes."
         },
         {
           "title": "The war goes on",
@@ -135,10 +135,32 @@
         },
         {
           "d": "2026-11-11",
-          "t": "Second day of talks."
+          "t": "Talks end with a prisoner-exchange deal but no breakthrough."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "America's envoys expected at the Kremlin."
         }
       ],
       "sources": [
+        {
+          "name": "The Kyiv Independent",
+          "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "Associated Press, via KPBS",
+          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+          "url": "https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "The Moscow Times",
+          "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+          "url": "https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+          "date": "2026-11-11"
+        },
         {
           "name": "Al Jazeera",
           "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
@@ -150,19 +172,19 @@
           "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
           "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi",
           "date": "2026-11-10"
-        },
-        {
-          "name": "Meduza",
-          "title": "Russia, Ukraine and the US to hold peace talks in Abu Dhabi on November 10, their first trilateral meeting since February",
-          "url": "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda",
-          "date": "2026-11-09"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "abu-dhabi-first-day-talks-that-kyiv-washington"
+      "slug": "abu-dhabi-first-day-talks-that-kyiv-washington",
+      "updates": [
+        {
+          "time": "2026-11-11T19:45:03+01:00",
+          "text": "The talks ended with a prisoner-exchange deal but no breakthrough; headline, text, figure and timetable rewritten."
+        }
+      ]
     },
     {
       "rank": 2,
@@ -348,27 +370,35 @@
       "types": [
         "society"
       ],
-      "title": "Indonesia's vice-president, Gibran Rakabuming Raka, weakened by doubts over his diplomas, offers to go",
-      "standfirst": "The son of the former president Joko Widodo said on Tuesday that he intended to resign, after court rulings found his school qualifications wanting. Parliament is weighing an inquiry that could pave the way to impeachment.",
+      "title": "Indonesia's vice-president, Gibran Rakabuming Raka, resigns amid doubts over his diplomas",
+      "standfirst": "The son of the former president Joko Widodo handed his resignation to President Prabowo Subianto on Wednesday, after court rulings found his school qualifications wanting. Parliament will then have 60 days to elect a successor.",
       "body": [
-        "On Tuesday 10 November Indonesia's vice-president, Gibran Rakabuming Raka, said he intended to resign during a meeting of some two and a half hours with President Prabowo Subianto, according to the state secretary, Prasetyo Hadi, who said the president had not refused the request.",
-        "The son of the former president Joko Widodo has been under pressure since the Constitutional Court and then the Supreme Court ruled in October that the documents attesting to his studies abroad did not meet the requirements for his candidacy in 2024.",
-        "That evening, however, Mr Gibran said the president had advised him to “fight” to prove his qualifications valid, while Parliament, dominated by the president's coalition, is considering an inquiry that some analysts see as a first step towards impeachment."
+        "On Wednesday 11 November Indonesia's vice-president, Gibran Rakabuming Raka, handed his resignation to President Prabowo Subianto at a meeting at Halim Perdanakusuma air base in Jakarta, his ally Budi Arie Setiadi, chairman of the Projo organisation, confirmed to Reuters and the Antara news agency.",
+        "The son of the former president Joko Widodo had been under pressure since the Constitutional Court and then the Supreme Court ruled that his studies abroad did not meet the requirements for his candidacy in 2024, and 120 legislators had just filed a petition demanding his impeachment.",
+        "According to the senior law minister, Yusril Ihza Mahendra, Parliament must declare the post vacant and then, within 60 days, elect a successor from two names put forward by the president, an uncertainty that is weighing on investor confidence, Reuters notes."
       ],
       "figure": {
-        "value": "3",
-        "label": "senior police officers arrested over illegal wiretapping",
-        "compare": "including a close ally of Joko Widodo, according to Reuters"
+        "value": "60 days",
+        "label": "to elect a new vice-president",
+        "compare": "from two candidates put forward by the president, according to the government"
       },
       "modules": {
         "actors": {
           "items": [
             {
               "name": "Gibran Rakabuming Raka",
-              "role": "Vice-president since 2024, son of Joko Widodo; vows to appeal.",
+              "role": "Vice-president since 2024, son of Joko Widodo; handed in his resignation on 11 November.",
               "source": {
-                "name": "Reuters, via ThePrint",
-                "url": "https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/"
+                "name": "Bernama",
+                "url": "https://www.bernama.com/en/world/news.php?id=2633025"
+              }
+            },
+            {
+              "name": "Budi Arie Setiadi",
+              "role": "Chairman of Projo, a Joko Widodo supporters' organisation; confirmed the resignation.",
+              "source": {
+                "name": "Bernama",
+                "url": "https://www.bernama.com/en/world/news.php?id=2633025"
               }
             },
             {
@@ -409,18 +439,18 @@
             },
             {
               "d": "2026-11-10",
-              "t": "Parliament returns from recess to decide the vice-president's fate.",
-              "source": {
-                "name": "The Jakarta Post",
-                "url": "https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran"
-              }
-            },
-            {
-              "d": "2026-11-10",
               "t": "Gibran says he intends to resign.",
               "source": {
                 "name": "The Jakarta Post",
                 "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
+              }
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Gibran hands his resignation to the president.",
+              "source": {
+                "name": "Reuters, via TimesLIVE",
+                "url": "https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/"
               }
             }
           ]
@@ -461,9 +491,25 @@
         {
           "d": "2026-11-10",
           "t": "Gibran says he intends to resign."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Gibran resigns; 120 legislators had demanded his impeachment."
         }
       ],
       "sources": [
+        {
+          "name": "Reuters, via TimesLIVE",
+          "title": "Indonesia's vice-president has resigned, aide says, stoking political uncertainty",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "Bernama",
+          "title": "Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says",
+          "url": "https://www.bernama.com/en/world/news.php?id=2633025",
+          "date": "2026-11-11"
+        },
         {
           "name": "The Jakarta Post",
           "title": "Breaking: VP Gibran intends to resign, says state secretary",
@@ -481,19 +527,19 @@
           "title": "Ministers leave PSI as House sets to decide on Gibran",
           "url": "https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran",
           "date": "2026-11-10"
-        },
-        {
-          "name": "The Jakarta Post",
-          "title": "Supreme Court ruling renews calls for Gibran to step down",
-          "url": "https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down",
-          "date": "2026-11-01"
         }
       ],
       "dossier": {
         "id": "indonesia-vice-presidency-crisis",
         "title": "Indonesia's vice-presidency crisis"
       },
-      "slug": "indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts"
+      "slug": "indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts",
+      "updates": [
+        {
+          "time": "2026-11-11T19:45:03+01:00",
+          "text": "The vice-president handed in his resignation on Wednesday; headline, text, figure of the day and modules rewritten."
+        }
+      ]
     },
     {
       "rank": 4,
@@ -848,6 +894,10 @@
     {
       "d": "2026-11-11",
       "t": "Second day of the Abu Dhabi talks; COP31 leaders' summit in Antalya, until the 12th; independence day in Poland."
+    },
+    {
+      "d": "2026-11-12",
+      "t": "America's envoys Jared Kushner and Steve Witkoff received by Vladimir Putin in Moscow."
     },
     {
       "d": "2026-11-16",

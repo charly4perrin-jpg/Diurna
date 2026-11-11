@@ -1,9 +1,9 @@
 {
   "date": "2026-11-11",
   "number": 7,
-  "updated": "2026-11-11T07:02:43+01:00",
-  "headline": "À Abou Dhabi, Russes et Ukrainiens poursuivent des pourparlers jugés « constructifs » par Kiev",
-  "standfirst": "La première journée de discussions sous médiation américaine a porté sur les prisonniers et les garanties de sécurité. Paris accuse les Gardiens de la révolution iraniens d'avoir saboté 700 commerces, le vice-président indonésien vacille, des soldats salvadoriens frappent un gang haïtien et le Niger accueille les réfugiés du Nigeria.",
+  "updated": "2026-11-11T19:45:03+01:00",
+  "headline": "À Abou Dhabi, Russes et Ukrainiens conviennent d'un vaste échange de prisonniers, sans percée",
+  "standfirst": "Les pourparlers sous médiation américaine se sont achevés mercredi sans avancée sur les territoires, et les émissaires américains sont attendus jeudi à Moscou. Paris accuse les Gardiens de la révolution iraniens d'avoir saboté 700 commerces, le vice-président indonésien démissionne, des soldats salvadoriens frappent un gang haïtien et le Niger accueille les réfugiés du Nigeria.",
   "essentials": [
     {
       "rank": 1,
@@ -15,17 +15,17 @@
         "diplomacy",
         "conflict"
       ],
-      "title": "À Abou Dhabi, une première journée de pourparlers jugée « constructive » par Kiev et Washington",
-      "standfirst": "Russes, Ukrainiens et Américains ont discuté près de quatre heures mardi, surtout de questions humanitaires et de garanties de sécurité. Les délégations se retrouvent mercredi pour une seconde journée, sans qu'aucune percée soit attendue.",
+      "title": "À Abou Dhabi, Russes et Ukrainiens conviennent d'un vaste échange de prisonniers, sans percée",
+      "standfirst": "Les pourparlers sous médiation américaine se sont achevés mercredi sur un accord de principe portant sur plus de 1 000 prisonniers de chaque camp, selon Moscou. Rien n'a bougé sur les territoires, et les émissaires américains sont attendus jeudi au Kremlin.",
       "body": [
-        "Mardi 10 novembre, les délégations russe, ukrainienne et américaine ont discuté près de quatre heures à Abou Dhabi, une séance que le président ukrainien, Volodymyr Zelensky, a jugée « constructive » et « assez substantielle », un avis partagé par l'émissaire américain Jared Kushner.",
-        "Selon Kiev, les échanges ont surtout porté sur les questions humanitaires, dont un vaste échange de prisonniers et le retour de civils et d'enfants, ainsi que sur les garanties de sécurité, alors que Moscou réclame toujours le retrait ukrainien de quatre régions et que l'Ukraine exige d'abord un cessez-le-feu.",
-        "Les discussions reprennent mercredi, mais le secrétaire d'État américain, Marco Rubio, réuni à Paris avec ses homologues du G7, a appelé à la patience, et un responsable américain cité par Al Jazeera estime qu'un éventuel accord territorial viendrait en dernier."
+        "Mercredi 11 novembre, au terme d'une seconde séance de moins de deux heures à Abou Dhabi, Russes et Ukrainiens ont annoncé un accord de principe sur un vaste échange de prisonniers, que le général russe Alexandre Zorine dit le plus important de la guerre, avec plus de 1 000 personnes de chaque côté, selon l'agence TASS.",
+        "Le chef de la délégation ukrainienne, Roustem Oumerov, en fait le « principal résultat » des discussions, mais rien n'a bougé sur les territoires : le négociateur russe, Vladimir Medinski, a répété que Moscou récupérerait « chaque pouce » des terres qu'elle revendique, tandis que Kiev exige toujours un cessez-le-feu préalable.",
+        "Les émissaires américains Jared Kushner et Steve Witkoff doivent rencontrer Vladimir Poutine jeudi à Moscou, puis Volodymyr Zelensky à Dublin, et l'échange, dont les chiffres doivent être arrêtés jeudi, pourrait intervenir d'ici deux à trois semaines, selon la partie russe citée par l'AP."
       ],
       "figure": {
-        "value": "≈ 4 heures",
-        "label": "de discussions lors de la première journée",
-        "compare": "première rencontre à trois depuis février, selon l'AP"
+        "value": "> 1 000",
+        "label": "prisonniers de chaque camp concernés par l'échange annoncé",
+        "compare": "contre 270 lors du dernier échange, le 23 octobre"
       },
       "since": {
         "date": "2022-02-24",
@@ -54,8 +54,8 @@
             }
           ],
           "next": {
-            "d": "2026-11-11",
-            "t": "Seconde journée de pourparlers à Abou Dhabi."
+            "d": "2026-11-12",
+            "t": "Jared Kushner et Steve Witkoff reçus par Vladimir Poutine à Moscou."
           },
           "source": {
             "name": "Associated Press, via PBS",
@@ -104,7 +104,7 @@
       "keys": [
         {
           "title": "Le volet humanitaire",
-          "text": "Un haut responsable ukrainien cité par l'AP évoque un échange de prisonniers à grande échelle, dont les détails doivent être précisés dans les prochains jours. Volodymyr Zelensky, qui s'exprimait à l'université de Copenhague, a aussi cité le retour de civils et d'enfants."
+          "text": "Volodymyr Zelensky avait évoqué mardi un échange de 1 000, voire 1 500 prisonniers de chaque côté, sans que Kiev ni Moscou n'aient encore publié de chiffre définitif. Le dernier échange, le 23 octobre, avait porté sur 270 personnes de part et d'autre, rappelle le Kyiv Independent."
         },
         {
           "title": "La guerre continue",
@@ -135,10 +135,32 @@
         },
         {
           "d": "2026-11-11",
-          "t": "Seconde journée de discussions."
+          "t": "Fin des pourparlers sur un accord d'échange de prisonniers, sans percée."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Les émissaires américains attendus au Kremlin."
         }
       ],
       "sources": [
+        {
+          "name": "The Kyiv Independent",
+          "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "Associated Press, via KPBS",
+          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
+          "url": "https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "The Moscow Times",
+          "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
+          "url": "https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+          "date": "2026-11-11"
+        },
         {
           "name": "Al Jazeera",
           "title": "Une première journée « constructive », selon Zelensky",
@@ -150,19 +172,19 @@
           "title": "Près de quatre heures de discussions à Abou Dhabi",
           "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi",
           "date": "2026-11-10"
-        },
-        {
-          "name": "Meduza",
-          "title": "Première rencontre à trois depuis février",
-          "url": "https://meduza.io/en/feature/2026/11/10/russia-ukraine-and-the-u-s-to-hold-peace-talks-in-abu-dhabi-on-november-10-their-first-trilateral-meeting-since-february-with-security-issues-expected-to-top-the-agenda",
-          "date": "2026-11-09"
         }
       ],
       "dossier": {
         "id": "guerre-ukraine",
         "title": "La guerre en Ukraine"
       },
-      "slug": "abou-dhabi-premiere-journee-pourparlers-jugee-constructive-kiev"
+      "slug": "abou-dhabi-premiere-journee-pourparlers-jugee-constructive-kiev",
+      "updates": [
+        {
+          "time": "2026-11-11T19:45:03+01:00",
+          "text": "Les pourparlers se sont achevés sur un accord d'échange de prisonniers, sans percée ; titre, texte, chiffre et calendrier réécrits."
+        }
+      ]
     },
     {
       "rank": 2,
@@ -348,27 +370,35 @@
       "types": [
         "society"
       ],
-      "title": "En Indonésie, le vice-président Gibran Rakabuming Raka, fragilisé par ses diplômes, se dit prêt à partir",
-      "standfirst": "Le fils de l'ancien président Joko Widodo a exprimé mardi son intention de démissionner, après des décisions de justice jugeant insuffisants ses titres scolaires. Le Parlement envisage une enquête qui pourrait ouvrir la voie à une destitution.",
+      "title": "En Indonésie, le vice-président Gibran Rakabuming Raka démissionne, fragilisé par le doute sur ses diplômes",
+      "standfirst": "Le fils de l'ancien président Joko Widodo a remis mercredi sa démission au président Prabowo Subianto, après des décisions de justice jugeant insuffisants ses titres scolaires. Le Parlement disposera ensuite de soixante jours pour élire son successeur.",
       "body": [
-        "Mardi 10 novembre, le vice-président indonésien, Gibran Rakabuming Raka, a fait part de son intention de démissionner lors d'un entretien d'environ deux heures et demie avec le président, Prabowo Subianto, a annoncé le secrétaire d'État, Prasetyo Hadi, assurant que le chef de l'État n'avait pas refusé cette demande.",
-        "Le fils de l'ancien président Joko Widodo est fragilisé depuis que la Cour constitutionnelle puis la Cour suprême ont jugé, en octobre, que les documents attestant ses études à l'étranger ne remplissaient pas les conditions exigées pour sa candidature de 2024.",
-        "Le soir même, M. Gibran a pourtant affirmé que le président lui avait conseillé de « se battre » pour prouver la validité de ses titres, tandis que le Parlement, dominé par la coalition présidentielle, envisage une enquête que certains analystes voient comme un premier pas vers une destitution."
+        "Mercredi 11 novembre, le vice-président indonésien, Gibran Rakabuming Raka, a remis sa démission au président, Prabowo Subianto, lors d'une rencontre sur la base aérienne de Halim Perdanakusuma, à Jakarta, a confirmé son allié Budi Arie Setiadi, président de l'organisation Projo, cité par Reuters et l'agence Antara.",
+        "Le fils de l'ancien président Joko Widodo était fragilisé depuis que la Cour constitutionnelle puis la Cour suprême avaient jugé que ses études à l'étranger ne remplissaient pas les conditions exigées pour sa candidature de 2024, et 120 parlementaires venaient de déposer une pétition réclamant sa destitution.",
+        "Selon le ministre coordinateur chargé du droit, Yusril Ihza Mahendra, le Parlement doit constater la vacance du poste, puis élire dans les soixante jours un successeur parmi deux noms proposés par le président, une incertitude qui pèse sur la confiance des investisseurs, souligne Reuters."
       ],
       "figure": {
-        "value": "3",
-        "label": "hauts gradés de la police arrêtés pour écoutes illégales",
-        "compare": "dont un proche de Joko Widodo, selon Reuters"
+        "value": "60 jours",
+        "label": "pour élire un nouveau vice-président",
+        "compare": "parmi deux candidats proposés par le président, selon le gouvernement"
       },
       "modules": {
         "actors": {
           "items": [
             {
               "name": "Gibran Rakabuming Raka",
-              "role": "Vice-président depuis 2024, fils de Joko Widodo ; promet de faire appel.",
+              "role": "Vice-président depuis 2024, fils de Joko Widodo ; a remis sa démission le 11 novembre.",
               "source": {
-                "name": "Reuters, via ThePrint",
-                "url": "https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/"
+                "name": "Bernama",
+                "url": "https://www.bernama.com/en/world/news.php?id=2633025"
+              }
+            },
+            {
+              "name": "Budi Arie Setiadi",
+              "role": "Président de Projo, organisation de soutiens de Joko Widodo ; a confirmé la démission.",
+              "source": {
+                "name": "Bernama",
+                "url": "https://www.bernama.com/en/world/news.php?id=2633025"
               }
             },
             {
@@ -409,18 +439,18 @@
             },
             {
               "d": "2026-11-10",
-              "t": "Le Parlement rentre de vacances pour décider du sort du vice-président.",
-              "source": {
-                "name": "The Jakarta Post",
-                "url": "https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran"
-              }
-            },
-            {
-              "d": "2026-11-10",
               "t": "Gibran exprime son intention de démissionner.",
               "source": {
                 "name": "The Jakarta Post",
                 "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
+              }
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Gibran remet sa démission au président.",
+              "source": {
+                "name": "Reuters, via TimesLIVE",
+                "url": "https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/"
               }
             }
           ]
@@ -461,9 +491,25 @@
         {
           "d": "2026-11-10",
           "t": "Gibran exprime son intention de démissionner."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Gibran remet sa démission ; 120 parlementaires réclamaient sa destitution."
         }
       ],
       "sources": [
+        {
+          "name": "Reuters, via TimesLIVE",
+          "title": "Indonesia's vice-president has resigned, aide says, stoking political uncertainty",
+          "url": "https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "Bernama",
+          "title": "Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says",
+          "url": "https://www.bernama.com/en/world/news.php?id=2633025",
+          "date": "2026-11-11"
+        },
         {
           "name": "The Jakarta Post",
           "title": "Gibran a l'intention de démissionner",
@@ -481,19 +527,19 @@
           "title": "Des ministres quittent le PSI",
           "url": "https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran",
           "date": "2026-11-10"
-        },
-        {
-          "name": "The Jakarta Post",
-          "title": "La Cour suprême relance les appels à la démission",
-          "url": "https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down",
-          "date": "2026-11-01"
         }
       ],
       "dossier": {
         "id": "crise-vice-presidence-indonesie",
         "title": "La crise de la vice-présidence indonésienne"
       },
-      "slug": "indonesie-vice-president-gibran-rakabuming-raka-fragilise-diplomes"
+      "slug": "indonesie-vice-president-gibran-rakabuming-raka-fragilise-diplomes",
+      "updates": [
+        {
+          "time": "2026-11-11T19:45:03+01:00",
+          "text": "Le vice-président a remis sa démission mercredi ; titre, texte, chiffre du jour et modules réécrits."
+        }
+      ]
     },
     {
       "rank": 4,
@@ -843,6 +889,10 @@
     {
       "d": "2026-11-11",
       "t": "Seconde journée des pourparlers d'Abou Dhabi ; sommet des dirigeants de la COP31 à Antalya, jusqu'au 12 ; fête de l'indépendance en Pologne."
+    },
+    {
+      "d": "2026-11-12",
+      "t": "Les émissaires américains Jared Kushner et Steve Witkoff reçus par Vladimir Poutine à Moscou."
     },
     {
       "d": "2026-11-16",
