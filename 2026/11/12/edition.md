@@ -1,16 +1,16 @@
 # Diurna — N° 8 — Jeudi 12 novembre 2026
 
-> Les émissaires de Donald Trump attendus chez Vladimir Poutine, au lendemain d’un accord sur les prisonniers
+> Reçus par Vladimir Poutine, les émissaires de Donald Trump repartent vers Volodymyr Zelensky à Dublin
 
-Steve Witkoff et Jared Kushner doivent être reçus jeudi au Kremlin, après les pourparlers d’Abou Dhabi. Washington mise sur le blocus pour faire plier l’Iran, Ebola dépasse 11 000 cas en RD Congo, António Guterres presse la COP31 d’en finir avec les fossiles, et des affrontements sont signalés à la frontière entre l’Éthiopie et l’Érythrée.
+Steve Witkoff et Jared Kushner ont été reçus plus de deux heures au Kremlin avant de rejoindre Volodymyr Zelensky à Dublin. Israël se préparerait à frapper l’Iran, Ebola dépasse 11 000 cas en RD Congo, António Guterres presse la COP31 d’en finir avec les fossiles, et des affrontements sont signalés à la frontière entre l’Éthiopie et l’Érythrée.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Ukraine — Les émissaires de Donald Trump attendus chez Vladimir Poutine, au lendemain d’un accord sur les prisonniers
+## 1. Ukraine — Reçus par Vladimir Poutine, les émissaires de Donald Trump repartent vers Volodymyr Zelensky à Dublin
 
-**Steve Witkoff et Jared Kushner doivent être reçus jeudi matin au Kremlin, avant de retrouver Volodymyr Zelensky à Dublin. La nuit précédente, des drones égarés ont déclenché des alertes dans les trois pays baltes.**
+**Steve Witkoff et Jared Kushner se sont entretenus plus de deux heures au Kremlin jeudi, sans annonce sur le fond du conflit. Moscou dit avoir obtenu leur soutien à une mission humanitaire à Kostiantynivka.**
 
-Jeudi 12 novembre, les émissaires américains Steve Witkoff et Jared Kushner doivent être reçus dans la matinée au Kremlin par Vladimir Poutine, a indiqué son conseiller diplomatique, Iouri Ouchakov, au lendemain de deux jours de pourparlers à Abou Dhabi conclus sur un accord d’échange de prisonniers, dont les chiffres doivent être arrêtés jeudi. Moscou dit attendre que les Américains « apportent quelque chose », mais Vladimir Poutine exige toujours la reconnaissance de ses conquêtes dans l’est de l’Ukraine, tandis que Volodymyr Zelensky refuse de céder le Donbass contre des garanties de sécurité en deçà d’une adhésion à l’OTAN, rapporte l’AP. Les deux émissaires doivent ensuite retrouver le président ukrainien à Dublin, alors que la guerre déborde : dans la nuit de mardi à mercredi, des drones égarés lors de frappes ukrainiennes contre la Russie ont conduit la Lituanie, la Lettonie et l’Estonie à appeler leurs habitants à s’abriter, selon Reuters.
+Jeudi 12 novembre, le président russe, Vladimir Poutine, a reçu au Kremlin pendant plus de deux heures les émissaires américains Steve Witkoff et Jared Kushner, au lendemain de deux jours de pourparlers à trois à Abou Dhabi conclus sur un accord d’échange de prisonniers, selon l’agence TASS et ABC News. Le conseiller diplomatique du Kremlin, Iouri Ouchakov, a jugé l’entretien « constructif » et affirmé que les Américains soutenaient une proposition russe de mission humanitaire à Kostiantynivka, dans la région de Donetsk, et que les discussions à trois se poursuivraient, sans rien dire du territoire, que Moscou exige et que Kiev refuse de céder. Les deux émissaires sont attendus jeudi soir à Dublin auprès de Volodymyr Zelensky, qui doute qu’ils rapportent « quelque chose de concret », tandis qu’une frappe de drone russe sur un immeuble de Kiev a tué une femme et blessé sept personnes dans la matinée, selon Meduza et ABC News.
 
 **Le chiffre du jour :** 4 — drones détectés dans la nuit au-dessus des pays baltes, selon Vilnius
 
@@ -18,31 +18,36 @@ Jeudi 12 novembre, les émissaires américains Steve Witkoff et Jared Kushner do
 
 Les frappes ukrainiennes contre les ports pétroliers russes de la Baltique débordent régulièrement sur les pays voisins : des drones ukrainiens se sont déjà égarés en Finlande, en Estonie, en Lettonie et en Lituanie, rappelle Reuters. Moscou accuse Kiev de se servir de l’espace aérien de l’OTAN comme couverture ; Kiev affirme que le brouillage russe dévie ses appareils. Dans la nuit de mardi à mercredi, une tentative d’abattre un drone au-dessus du nord de la Lituanie a eu lieu, et des débris d’un missile de l’OTAN ont été retrouvés au sol, sans qu’on sache si l’appareil a été touché. La Finlande a, de son côté, restreint temporairement son espace aérien et maritime dans l’est du golfe de Finlande.
 
+- _Ce qui a changé 19 h 55_ : Les émissaires américains ont été reçus par Vladimir Poutine ; titre, chapô et texte réécrits d’après le compte rendu du Kremlin.
+
 Sources :
+- [Meduza — Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks](https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks)
+- [ABC News — Witkoff and Kushner arrive in Moscow to meet with Putin, discuss Ukraine peace talks](https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892)
+- [UNN, d’après les médias russes — Putin was alarmed by Zelenskyy and his "greetings" to Trump — what the Russian dictator discussed with Witkoff and Kushner](https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner)
 - [CBS News, avec AP — U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory](https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/)
 - [Reuters, via Cyprus Mail — NATO jets scrambled as drone alerts sweep Baltic states](https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states)
-- [Associated Press, via KPBS — Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough](https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough)
-- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/12/emissaires-donald-trump-attendus-chez-vladimir-poutine-lendemain/
 
-## 2. Iran — Washington mise sur le blocus pour faire plier l’Iran, tandis que des pétroliers brûlent à Ormuz
+## 2. Iran — Israël se préparerait à frapper l’Iran, tandis que deux superpétroliers explosent à Ormuz
 
-**Le secrétaire d’État américain, Marco Rubio, juge inutiles pour l’heure de nouvelles opérations de combat, tant la pression économique sur Téhéran est forte. L’Iran maintient le détroit d’Ormuz fermé et annonce de nouveaux pétroliers en feu.**
+**Le cabinet de sécurité israélien aurait ordonné à l’armée d’accélérer ses préparatifs d’attaque, selon la radiotélévision publique Kan. À Ormuz, les Gardiens de la révolution annoncent deux superpétroliers mis hors d’usage par des explosions.**
 
-Mardi 10 novembre à Paris, à l’issue de deux jours de réunions avec ses homologues du G7, le secrétaire d’État américain, Marco Rubio, a estimé que le blocus naval et les sanctions infligeaient à l’Iran une pression si forte qu’aucune opération de combat majeure n’était nécessaire pour l’heure, rapporte Reuters. La veille, Donald Trump avait jugé de nouvelles frappes « très improbables » après des appels de pays de la région, dont le Qatar, mais Téhéran garde le détroit d’Ormuz fermé : les Gardiens de la révolution ont annoncé mardi trois pétroliers en feu, puis l’armée iranienne, mercredi, un autre qui aurait heurté une mine, selon l’AFP. Le vice-président, J. D. Vance, qui attribue à la guerre la défaite républicaine aux élections de mi-mandat, plaide pour un accord, mais Donald Trump juge un compromis impossible à ce stade, et Téhéran refuse toujours de laisser sortir son uranium enrichi, tandis que le Qatar se dit prudemment optimiste.
+Mercredi 11 novembre au soir, le cabinet de sécurité israélien, présidé par le Premier ministre sortant, Benjamin Nétanyahou, a ordonné à l’armée d’intensifier ses préparatifs en vue d’une attaque contre l’Iran, selon la radiotélévision publique Kan citée par Al Jazeera, alors que Gadi Eisenkot l’exhorte à ne pas engager l’armée sans menace directe et immédiate. Le même soir, deux superpétroliers ont été mis hors d’usage par des explosions dans le détroit d’Ormuz après avoir ignoré des avertissements, ont annoncé jeudi les Gardiens de la révolution, qui menacent du même sort tout navire coopérant avec l’armée américaine, selon Reuters. Donald Trump se dit prêt à reprendre la guerre si la médiation du Qatar échoue, même si son secrétaire d’État, Marco Rubio, juge le blocus assez efficace pour s’en passer, et le Brent a clôturé mercredi à 92,76 dollars après le refus de Téhéran de transférer son uranium enrichi vers un pays tiers, selon Al Jazeera.
 
-**Le chiffre du jour :** 107 $ — le prix du baril de Brent au 3 novembre, selon l’EIA
+**Le chiffre du jour :** 92,76 $ — le baril de Brent le 11 novembre, selon Al Jazeera
 
 ### Une administration divisée
 
 Selon Reuters, le nouveau secrétaire général de la Maison Blanche, Stephen Miller, et le secrétaire au Trésor, Scott Bessent, privilégient la pression économique, quand J. D. Vance préfère un accord. Devant le G7, Marco Rubio aurait qualifié les dirigeants iraniens de « fous », selon deux diplomates. La stratégie inquiète des pays comme le Pakistan, l’Irak ou la Turquie, qui en paient le coût économique, relève Al Jazeera. Un sondage Reuters/Ipsos indique que 71 % des Américains soutiennent une loi pour arrêter la guerre. En Iran, le rial a perdu plus de la moitié de sa valeur face au dollar en un an, selon Iran International, et le chef de la diplomatie, Abbas Araghtchi, assure que ni la force ni les sanctions ne mettront fin au conflit.
 
+- _Ce qui a changé 19 h 55_ : Israël se préparerait à frapper l’Iran et deux superpétroliers ont explosé à Ormuz ; titre, texte et chiffre du jour réécrits.
+
 Sources :
-- [Reuters, via Al-Monitor — Rubio says no need for major combat operations against Iran given US economic campaign](https://www.al-monitor.com/originals/2026/11/rubio-says-no-need-major-combat-operations-against-iran-given-us-economic)
+- [Al Jazeera — Iran warns of expanded retaliation as Israel reportedly readies to attack](https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack)
+- [Reuters, via MarineLink — Two Oil Supertankers Explode in Strait of Hormuz, IRGC Says](https://www.marinelink.com/news/two-oil-supertankers-explode-strait-544312)
 - [Al Jazeera — Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?](https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran)
 - [Reuters, via Al-Monitor — Rubio tells G7 US will keep imposing ’devastating’ costs on Iran, diplomats say](https://www.al-monitor.com/originals/2026/11/rubio-tells-g7-us-will-keep-imposing-devastating-costs-iran-diplomats-say)
-- [AFP, via Daily Tribune — Tanker strikes mine, catches fire in Hormuz](https://tribune.net.ph/2026/11/11/tanker-strikes-mine-catches-fire-in-hormuz)
 - [Iran International — Rubio tells G7 the US will keep imposing ’devastating’ costs on Iran](https://www.iranintl.com/en/202611107939)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/12/washington-mise-blocus-faire-plier-iran-tandis-petroliers/

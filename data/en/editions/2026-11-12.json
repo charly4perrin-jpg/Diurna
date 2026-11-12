@@ -1,9 +1,9 @@
 {
   "date": "2026-11-12",
   "number": 8,
-  "updated": "2026-11-12T07:04:16+01:00",
-  "headline": "Donald Trump's envoys are due to see Vladimir Putin, a day after a prisoner deal",
-  "standfirst": "Steve Witkoff and Jared Kushner are expected at the Kremlin on Thursday, after the Abu Dhabi talks. America is betting on its blockade to bend Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.",
+  "updated": "2026-11-12T19:55:00+01:00",
+  "headline": "After seeing Vladimir Putin, Donald Trump's envoys head to Dublin to meet Volodymyr Zelensky",
+  "standfirst": "Steve Witkoff and Jared Kushner spent more than two hours at the Kremlin before heading to Volodymyr Zelensky in Dublin. Israel is reportedly readying a strike on Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.",
   "essentials": [
     {
       "rank": 1,
@@ -15,12 +15,12 @@
         "diplomacy",
         "conflict"
       ],
-      "title": "Donald Trump's envoys are due to see Vladimir Putin, a day after a prisoner deal",
-      "standfirst": "Steve Witkoff and Jared Kushner are to be received at the Kremlin on Thursday morning, before meeting Volodymyr Zelensky in Dublin. The night before, stray drones set off alerts in all three Baltic states.",
+      "title": "After seeing Vladimir Putin, Donald Trump's envoys head to Dublin to meet Volodymyr Zelensky",
+      "standfirst": "Steve Witkoff and Jared Kushner spent more than two hours at the Kremlin on Thursday, with nothing announced on the substance of the conflict. Moscow says they backed a humanitarian mission to Kostiantynivka.",
       "body": [
-        "On Thursday 12 November America's envoys, Steve Witkoff and Jared Kushner, are due to be received by Vladimir Putin at the Kremlin in the morning, his foreign-policy adviser, Yuri Ushakov, said, after two days of talks in Abu Dhabi ended in a prisoner-exchange deal whose numbers are to be settled on Thursday.",
-        "Moscow says it expects the Americans to “bring something”, but Vladimir Putin still demands recognition of his conquests in eastern Ukraine, while Volodymyr Zelensky refuses to give up the Donbas in return for security guarantees that fall short of NATO membership, the AP reports.",
-        "The two envoys are then expected to meet Ukraine's president in Dublin, as the war spills over: on the night of 10-11 November, drones that strayed during Ukrainian strikes on Russia led Lithuania, Latvia and Estonia to tell residents to take shelter, according to Reuters."
+        "On Thursday 12 November Russia's president, Vladimir Putin, received America's envoys, Steve Witkoff and Jared Kushner, at the Kremlin for more than two hours, a day after two days of three-way talks in Abu Dhabi ended in a prisoner-exchange deal, according to TASS and ABC News.",
+        "The Kremlin's foreign-policy adviser, Yuri Ushakov, called the meeting “constructive” and said the Americans supported a Russian proposal for a humanitarian mission to Kostiantynivka, in the Donetsk region, and that the three-way talks would continue, but said nothing on territory, which Moscow demands and Kyiv refuses to cede.",
+        "The two envoys are expected in Dublin on Thursday evening to see Volodymyr Zelensky, who doubts they will bring back “something concrete”, while a Russian drone strike on a block of flats in Kyiv killed a woman and injured seven people that morning, according to Meduza and ABC News."
       ],
       "figure": {
         "value": "4",
@@ -54,7 +54,7 @@
           ],
           "next": {
             "d": "2026-11-12",
-            "t": "Steve Witkoff and Jared Kushner received by Vladimir Putin, then expected in Dublin to meet Volodymyr Zelensky."
+            "t": "Steve Witkoff and Jared Kushner expected in Dublin to meet Volodymyr Zelensky."
           },
           "source": {
             "name": "CBS News, avec AP",
@@ -127,10 +127,28 @@
         },
         {
           "d": "2026-11-12",
-          "t": "America's envoys received at the Kremlin, then expected in Dublin."
+          "t": "America's envoys spend more than two hours at the Kremlin, then head to Dublin."
         }
       ],
       "sources": [
+        {
+          "name": "Meduza",
+          "title": "Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks",
+          "url": "https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "ABC News",
+          "title": "Witkoff and Kushner arrive in Moscow to meet with Putin, discuss Ukraine peace talks",
+          "url": "https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "UNN, citing Russian media",
+          "title": "Putin was alarmed by Zelenskyy and his \"greetings\" to Trump — what the Russian dictator discussed with Witkoff and Kushner",
+          "url": "https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner",
+          "date": "2026-11-12"
+        },
         {
           "name": "CBS News, avec AP",
           "name_en": "CBS News, with AP",
@@ -143,25 +161,19 @@
           "title": "NATO jets scrambled as drone alerts sweep Baltic states",
           "url": "https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states",
           "date": "2026-11-11"
-        },
-        {
-          "name": "Associated Press, via KPBS",
-          "title": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
-          "url": "https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough",
-          "date": "2026-11-11"
-        },
-        {
-          "name": "The Kyiv Independent",
-          "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
-          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
-          "date": "2026-11-11"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "donald-trump-envoys-due-see-vladimir-putin-day"
+      "slug": "donald-trump-envoys-due-see-vladimir-putin-day",
+      "updates": [
+        {
+          "time": "2026-11-12T19:55:00+01:00",
+          "text": "America's envoys have met Vladimir Putin; headline, standfirst and text rewritten in the light of the Kremlin's readout."
+        }
+      ]
     },
     {
       "rank": 2,
@@ -174,17 +186,17 @@
         "diplomacy",
         "economy"
       ],
-      "title": "America bets on its blockade to bring Iran to heel as tankers burn in Hormuz",
-      "standfirst": "America's secretary of state, Marco Rubio, sees no need for new combat operations for now, so heavy is the economic pressure on Tehran. Iran is keeping the Strait of Hormuz closed and reports more tankers ablaze.",
+      "title": "Israel is reportedly readying a strike on Iran as two supertankers explode in Hormuz",
+      "standfirst": "Israel's security cabinet has reportedly ordered the army to step up preparations for an attack, according to the public broadcaster Kan. In Hormuz, the Revolutionary Guards say two supertankers were disabled by explosions.",
       "body": [
-        "In Paris on Tuesday 10 November, after two days of meetings with his G7 counterparts, America's secretary of state, Marco Rubio, said the naval blockade and sanctions were putting Iran under such pressure that no major combat operations were needed for now, Reuters reports.",
-        "The day before, Donald Trump had called fresh strikes “very unlikely” after appeals from countries in the region, including Qatar, but Tehran is keeping the Strait of Hormuz shut: the Revolutionary Guards reported three tankers ablaze on Tuesday, and the Iranian army another, apparently mined, on Wednesday, according to AFP.",
-        "The vice-president, J.D. Vance, who blames the war for the Republicans' defeat in the midterms, is pushing for a deal, but Donald Trump sees no compromise for now, Tehran still refuses to let its enriched uranium leave the country, and Qatar says it is cautiously optimistic."
+        "On the evening of Wednesday 11 November Israel's security cabinet, chaired by the caretaker prime minister, Benjamin Netanyahu, ordered the army to step up preparations for an attack on Iran, according to the public broadcaster Kan, cited by Al Jazeera, even as Gadi Eisenkot urged him not to deploy the army without a direct and immediate threat.",
+        "That same night two supertankers were disabled by explosions in the Strait of Hormuz after ignoring warnings, the Revolutionary Guards said on Thursday, threatening the same fate for any ship that co-operates with the American armed forces, according to Reuters.",
+        "Donald Trump says he is ready to return to war if Qatar's mediation fails, even though his secretary of state, Marco Rubio, thinks the blockade effective enough to make that unnecessary, and Brent closed at $92.76 on Wednesday after Tehran rejected moving its enriched uranium to a third country, according to Al Jazeera."
       ],
       "figure": {
-        "value": "$107",
-        "label": "the price of a barrel of Brent on 3 November, according to the EIA",
-        "compare": "against $71 on 27 February, the eve of the war"
+        "value": "$92.76",
+        "label": "a barrel of Brent on 11 November, according to Al Jazeera",
+        "compare": "against $71 on 27 February, the eve of the war, according to the EIA"
       },
       "since": {
         "date": "2026-02-28",
@@ -225,10 +237,10 @@
           }
         },
         "impact": {
-          "text": "A barrel of Brent cost $107 on 3 November, against $71 on the eve of the war, according to America's Energy Information Administration: a rise of roughly half, which makes fuel dearer and, in turn, the cost of getting about.",
+          "text": "A barrel of Brent closed at $92.76 on 11 November, according to Al Jazeera, against $71 on the eve of the war, according to America's Energy Information Administration: a rise of nearly a third, which makes fuel dearer and, in turn, the cost of getting about.",
           "source": {
-            "name": "EIA",
-            "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack"
           }
         }
       },
@@ -280,15 +292,21 @@
         },
         {
           "d": "2026-11-11",
-          "t": "Iran's army reports a tanker on fire after striking a mine."
+          "t": "A tanker strikes a mine; that night two supertankers explode in Hormuz and Israel readies an attack, according to Kan."
         }
       ],
       "sources": [
         {
-          "name": "Reuters, via Al-Monitor",
-          "title": "Rubio says no need for major combat operations against Iran given US economic campaign",
-          "url": "https://www.al-monitor.com/originals/2026/11/rubio-says-no-need-major-combat-operations-against-iran-given-us-economic",
-          "date": "2026-11-10"
+          "name": "Al Jazeera",
+          "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+          "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "Reuters, via MarineLink",
+          "title": "Two Oil Supertankers Explode in Strait of Hormuz, IRGC Says",
+          "url": "https://www.marinelink.com/news/two-oil-supertankers-explode-strait-544312",
+          "date": "2026-11-12"
         },
         {
           "name": "Al Jazeera",
@@ -303,12 +321,6 @@
           "date": "2026-11-10"
         },
         {
-          "name": "AFP, via Daily Tribune",
-          "title": "Tanker strikes mine, catches fire in Hormuz",
-          "url": "https://tribune.net.ph/2026/11/11/tanker-strikes-mine-catches-fire-in-hormuz",
-          "date": "2026-11-11"
-        },
-        {
           "name": "Iran International",
           "title": "Rubio tells G7 the US will keep imposing 'devastating' costs on Iran",
           "url": "https://www.iranintl.com/en/202611107939",
@@ -319,7 +331,13 @@
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "america-bets-blockade-bring-iran-heel-tankers-burn"
+      "slug": "america-bets-blockade-bring-iran-heel-tankers-burn",
+      "updates": [
+        {
+          "time": "2026-11-12T19:55:00+01:00",
+          "text": "Israel is reportedly readying a strike on Iran and two supertankers exploded in Hormuz; headline, text and figure rewritten."
+        }
+      ]
     },
     {
       "rank": 3,

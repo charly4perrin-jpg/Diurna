@@ -1,16 +1,16 @@
 # Diurna — No. 8 — Thursday, 12 November 2026
 
-> Donald Trump’s envoys are due to see Vladimir Putin, a day after a prisoner deal
+> After seeing Vladimir Putin, Donald Trump’s envoys head to Dublin to meet Volodymyr Zelensky
 
-Steve Witkoff and Jared Kushner are expected at the Kremlin on Thursday, after the Abu Dhabi talks. America is betting on its blockade to bend Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.
+Steve Witkoff and Jared Kushner spent more than two hours at the Kremlin before heading to Volodymyr Zelensky in Dublin. Israel is reportedly readying a strike on Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — Donald Trump’s envoys are due to see Vladimir Putin, a day after a prisoner deal
+## 1. Ukraine — After seeing Vladimir Putin, Donald Trump’s envoys head to Dublin to meet Volodymyr Zelensky
 
-**Steve Witkoff and Jared Kushner are to be received at the Kremlin on Thursday morning, before meeting Volodymyr Zelensky in Dublin. The night before, stray drones set off alerts in all three Baltic states.**
+**Steve Witkoff and Jared Kushner spent more than two hours at the Kremlin on Thursday, with nothing announced on the substance of the conflict. Moscow says they backed a humanitarian mission to Kostiantynivka.**
 
-On Thursday 12 November America’s envoys, Steve Witkoff and Jared Kushner, are due to be received by Vladimir Putin at the Kremlin in the morning, his foreign-policy adviser, Yuri Ushakov, said, after two days of talks in Abu Dhabi ended in a prisoner-exchange deal whose numbers are to be settled on Thursday. Moscow says it expects the Americans to “bring something”, but Vladimir Putin still demands recognition of his conquests in eastern Ukraine, while Volodymyr Zelensky refuses to give up the Donbas in return for security guarantees that fall short of NATO membership, the AP reports. The two envoys are then expected to meet Ukraine’s president in Dublin, as the war spills over: on the night of 10-11 November, drones that strayed during Ukrainian strikes on Russia led Lithuania, Latvia and Estonia to tell residents to take shelter, according to Reuters.
+On Thursday 12 November Russia’s president, Vladimir Putin, received America’s envoys, Steve Witkoff and Jared Kushner, at the Kremlin for more than two hours, a day after two days of three-way talks in Abu Dhabi ended in a prisoner-exchange deal, according to TASS and ABC News. The Kremlin’s foreign-policy adviser, Yuri Ushakov, called the meeting “constructive” and said the Americans supported a Russian proposal for a humanitarian mission to Kostiantynivka, in the Donetsk region, and that the three-way talks would continue, but said nothing on territory, which Moscow demands and Kyiv refuses to cede. The two envoys are expected in Dublin on Thursday evening to see Volodymyr Zelensky, who doubts they will bring back “something concrete”, while a Russian drone strike on a block of flats in Kyiv killed a woman and injured seven people that morning, according to Meduza and ABC News.
 
 **The number :** 4 — drones detected overnight over the Baltic states, according to Vilnius
 
@@ -18,31 +18,36 @@ On Thursday 12 November America’s envoys, Steve Witkoff and Jared Kushner, are
 
 Ukraine’s strikes on Russia’s Baltic oil ports regularly spill over into neighbouring countries: Ukrainian drones have already strayed into Finland, Estonia, Latvia and Lithuania, Reuters notes. Moscow accuses Kyiv of using NATO airspace as cover; Kyiv says Russian jamming knocks its drones off course. On the night of 10-11 November an attempt was made to shoot down a drone over northern Lithuania, and debris from a NATO missile was found on the ground, though it is unclear whether the drone was hit. Finland, for its part, temporarily restricted its airspace and waters in the eastern Gulf of Finland.
 
+- _What changed 19:55_ : America’s envoys have met Vladimir Putin; headline, standfirst and text rewritten in the light of the Kremlin’s readout.
+
 Sources :
+- [Meduza — Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks](https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks)
+- [ABC News — Witkoff and Kushner arrive in Moscow to meet with Putin, discuss Ukraine peace talks](https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892)
+- [UNN, citing Russian media — Putin was alarmed by Zelenskyy and his "greetings" to Trump — what the Russian dictator discussed with Witkoff and Kushner](https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner)
 - [CBS News, avec AP — U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory](https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/)
 - [Reuters, via Cyprus Mail — NATO jets scrambled as drone alerts sweep Baltic states](https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states)
-- [Associated Press, via KPBS — Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough](https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough)
-- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/donald-trump-envoys-due-see-vladimir-putin-day/
 
-## 2. Iran — America bets on its blockade to bring Iran to heel as tankers burn in Hormuz
+## 2. Iran — Israel is reportedly readying a strike on Iran as two supertankers explode in Hormuz
 
-**America’s secretary of state, Marco Rubio, sees no need for new combat operations for now, so heavy is the economic pressure on Tehran. Iran is keeping the Strait of Hormuz closed and reports more tankers ablaze.**
+**Israel’s security cabinet has reportedly ordered the army to step up preparations for an attack, according to the public broadcaster Kan. In Hormuz, the Revolutionary Guards say two supertankers were disabled by explosions.**
 
-In Paris on Tuesday 10 November, after two days of meetings with his G7 counterparts, America’s secretary of state, Marco Rubio, said the naval blockade and sanctions were putting Iran under such pressure that no major combat operations were needed for now, Reuters reports. The day before, Donald Trump had called fresh strikes “very unlikely” after appeals from countries in the region, including Qatar, but Tehran is keeping the Strait of Hormuz shut: the Revolutionary Guards reported three tankers ablaze on Tuesday, and the Iranian army another, apparently mined, on Wednesday, according to AFP. The vice-president, J.D. Vance, who blames the war for the Republicans’ defeat in the midterms, is pushing for a deal, but Donald Trump sees no compromise for now, Tehran still refuses to let its enriched uranium leave the country, and Qatar says it is cautiously optimistic.
+On the evening of Wednesday 11 November Israel’s security cabinet, chaired by the caretaker prime minister, Benjamin Netanyahu, ordered the army to step up preparations for an attack on Iran, according to the public broadcaster Kan, cited by Al Jazeera, even as Gadi Eisenkot urged him not to deploy the army without a direct and immediate threat. That same night two supertankers were disabled by explosions in the Strait of Hormuz after ignoring warnings, the Revolutionary Guards said on Thursday, threatening the same fate for any ship that co-operates with the American armed forces, according to Reuters. Donald Trump says he is ready to return to war if Qatar’s mediation fails, even though his secretary of state, Marco Rubio, thinks the blockade effective enough to make that unnecessary, and Brent closed at $92.76 on Wednesday after Tehran rejected moving its enriched uranium to a third country, according to Al Jazeera.
 
-**The number :** $107 — the price of a barrel of Brent on 3 November, according to the EIA
+**The number :** $92.76 — a barrel of Brent on 11 November, according to Al Jazeera
 
 ### A divided administration
 
 According to Reuters, the new White House chief of staff, Stephen Miller, and the treasury secretary, Scott Bessent, favour economic pressure, while J.D. Vance prefers a deal. At the G7, Marco Rubio reportedly called Iran’s leaders “crazy”, according to two diplomats. The strategy worries countries such as Pakistan, Iraq and Turkey, which bear its economic cost, Al Jazeera notes. A Reuters/Ipsos poll finds that 71% of Americans support legislation to end the war. In Iran, the rial has lost more than half its value against the dollar in a year, according to Iran International, and the foreign minister, Abbas Araghchi, insists that neither force nor sanctions will end the conflict.
 
+- _What changed 19:55_ : Israel is reportedly readying a strike on Iran and two supertankers exploded in Hormuz; headline, text and figure rewritten.
+
 Sources :
-- [Reuters, via Al-Monitor — Rubio says no need for major combat operations against Iran given US economic campaign](https://www.al-monitor.com/originals/2026/11/rubio-says-no-need-major-combat-operations-against-iran-given-us-economic)
+- [Al Jazeera — Iran warns of expanded retaliation as Israel reportedly readies to attack](https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack)
+- [Reuters, via MarineLink — Two Oil Supertankers Explode in Strait of Hormuz, IRGC Says](https://www.marinelink.com/news/two-oil-supertankers-explode-strait-544312)
 - [Al Jazeera — Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?](https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran)
 - [Reuters, via Al-Monitor — Rubio tells G7 US will keep imposing ’devastating’ costs on Iran, diplomats say](https://www.al-monitor.com/originals/2026/11/rubio-tells-g7-us-will-keep-imposing-devastating-costs-iran-diplomats-say)
-- [AFP, via Daily Tribune — Tanker strikes mine, catches fire in Hormuz](https://tribune.net.ph/2026/11/11/tanker-strikes-mine-catches-fire-in-hormuz)
 - [Iran International — Rubio tells G7 the US will keep imposing ’devastating’ costs on Iran](https://www.iranintl.com/en/202611107939)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/america-bets-blockade-bring-iran-heel-tankers-burn/
