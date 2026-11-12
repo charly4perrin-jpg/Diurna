@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-12-b2e12061@diurna
+DTSTAMP:20261112T060445Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Steve Witkoff et Jared Kushner reçus par Vladimir Poutine à Mos
+ cou \; fin du sommet des dirigeants de la COP31.
+DESCRIPTION:Diurna — Édition du 12 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/12/
+END:VEVENT
+END:VCALENDAR

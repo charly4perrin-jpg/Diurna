@@ -31,10 +31,11 @@
     "name_en": "Masoud Pezeshkian"
    }
   ],
-  "checked": "2026-11-08",
+  "checked": "2026-11-12",
   "source": {
-   "name": "The Times of Israel",
-   "url": "https://www.timesofisrael.com/irgc-says-its-self-imposed-limit-on-ballistic-missile-range-has-been-lifted/"
+   "name": "Reuters, via Al-Monitor",
+   "name_en": "Reuters, via Al-Monitor",
+   "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
   },
   "regime_en": "Islamic republic"
  },
@@ -47,11 +48,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-11",
+  "checked": "2026-11-12",
   "source": {
-   "name": "Al Jazeera",
-   "name_en": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+   "name": "CBS News",
+   "name_en": "CBS News",
+   "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -211,10 +212,11 @@
     "name": "Félix Tshisekedi"
    }
   ],
-  "checked": "2026-11-07",
+  "checked": "2026-11-12",
   "source": {
-   "name": "Actualite.cd",
-   "url": "https://actualite.cd/2026/11/05/felix-tshisekedi-brazzaville-pour-participer-au-mini-sommet-consacre-la-preservation-des"
+   "name": "Polity, avec Reuters",
+   "name_en": "Polity, with Reuters",
+   "url": "https://polity.org.za/article/congos-president-calls-for-national-dialogue-to-ease-tensions-rebels-excluded-2026-08-28"
   }
  },
  "HTI": {
@@ -278,11 +280,11 @@
     "name": "Recep Tayyip Erdoğan"
    }
   ],
-  "checked": "2026-11-09",
+  "checked": "2026-11-12",
   "source": {
-   "name": "Wikipedia",
-   "name_en": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/2026_United_Nations_Climate_Change_Conference"
+   "name": "Reuters, via Al-Monitor",
+   "name_en": "Reuters, via Al-Monitor",
+   "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
   }
  },
  "MMR": {
@@ -381,6 +383,40 @@
    "name": "Human Rights Watch",
    "name_en": "Human Rights Watch",
    "url": "https://www.hrw.org/news/2026/07/23/niger-3-years-of-military-rule-deepens-human-rights-crisis"
+  }
+ },
+ "ETH": {
+  "regime": "République fédérale parlementaire",
+  "regime_en": "Federal parliamentary republic",
+  "leaders": [
+   {
+    "role": "Premier ministre",
+    "role_en": "Prime Minister",
+    "name": "Abiy Ahmed"
+   }
+  ],
+  "checked": "2026-11-12",
+  "source": {
+   "name": "Al Jazeera",
+   "name_en": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
+  }
+ },
+ "ERI": {
+  "regime": "Régime présidentiel à parti unique",
+  "regime_en": "One-party presidential regime",
+  "leaders": [
+   {
+    "role": "Président",
+    "role_en": "President",
+    "name": "Isaias Afwerki"
+   }
+  ],
+  "checked": "2026-11-12",
+  "source": {
+   "name": "Critical Threats Project",
+   "name_en": "Critical Threats Project",
+   "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026"
   }
  }
 }

@@ -1,127 +1,123 @@
-# Diurna — N° 7 — Mercredi 11 novembre 2026
+# Diurna — N° 8 — Jeudi 12 novembre 2026
 
-> À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
+> Les émissaires de Donald Trump attendus chez Vladimir Poutine, au lendemain d’un accord sur les prisonniers
 
-Les pourparlers sous médiation américaine se sont achevés mercredi sans avancée sur les territoires, et les émissaires américains sont attendus jeudi à Moscou. Paris accuse les Gardiens de la révolution iraniens d’avoir saboté 700 commerces, le vice-président indonésien démissionne, des soldats salvadoriens frappent un gang haïtien et le Niger accueille les réfugiés du Nigeria.
+Steve Witkoff et Jared Kushner doivent être reçus jeudi au Kremlin, après les pourparlers d’Abou Dhabi. Washington mise sur le blocus pour faire plier l’Iran, Ebola dépasse 11 000 cas en RD Congo, António Guterres presse la COP31 d’en finir avec les fossiles, et des affrontements sont signalés à la frontière entre l’Éthiopie et l’Érythrée.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Ukraine — À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
+## 1. Ukraine — Les émissaires de Donald Trump attendus chez Vladimir Poutine, au lendemain d’un accord sur les prisonniers
 
-**Les pourparlers sous médiation américaine se sont achevés mercredi sur un accord de principe portant sur plus de 1 000 prisonniers de chaque camp, selon Moscou. Rien n’a bougé sur les territoires, et les émissaires américains sont attendus jeudi au Kremlin.**
+**Steve Witkoff et Jared Kushner doivent être reçus jeudi matin au Kremlin, avant de retrouver Volodymyr Zelensky à Dublin. La nuit précédente, des drones égarés ont déclenché des alertes dans les trois pays baltes.**
 
-Mercredi 11 novembre, au terme d’une seconde séance de moins de deux heures à Abou Dhabi, Russes et Ukrainiens ont annoncé un accord de principe sur un vaste échange de prisonniers, que le général russe Alexandre Zorine dit le plus important de la guerre, avec plus de 1 000 personnes de chaque côté, selon l’agence TASS. Le chef de la délégation ukrainienne, Roustem Oumerov, en fait le « principal résultat » des discussions, mais rien n’a bougé sur les territoires : le négociateur russe, Vladimir Medinski, a répété que Moscou récupérerait « chaque pouce » des terres qu’elle revendique, tandis que Kiev exige toujours un cessez-le-feu préalable. Les émissaires américains Jared Kushner et Steve Witkoff doivent rencontrer Vladimir Poutine jeudi à Moscou, puis Volodymyr Zelensky à Dublin, et l’échange, dont les chiffres doivent être arrêtés jeudi, pourrait intervenir d’ici deux à trois semaines, selon la partie russe citée par l’AP.
+Jeudi 12 novembre, les émissaires américains Steve Witkoff et Jared Kushner doivent être reçus dans la matinée au Kremlin par Vladimir Poutine, a indiqué son conseiller diplomatique, Iouri Ouchakov, au lendemain de deux jours de pourparlers à Abou Dhabi conclus sur un accord d’échange de prisonniers, dont les chiffres doivent être arrêtés jeudi. Moscou dit attendre que les Américains « apportent quelque chose », mais Vladimir Poutine exige toujours la reconnaissance de ses conquêtes dans l’est de l’Ukraine, tandis que Volodymyr Zelensky refuse de céder le Donbass contre des garanties de sécurité en deçà d’une adhésion à l’OTAN, rapporte l’AP. Les deux émissaires doivent ensuite retrouver le président ukrainien à Dublin, alors que la guerre déborde : dans la nuit de mardi à mercredi, des drones égarés lors de frappes ukrainiennes contre la Russie ont conduit la Lituanie, la Lettonie et l’Estonie à appeler leurs habitants à s’abriter, selon Reuters.
 
-**Le chiffre du jour :** > 1 000 — prisonniers de chaque camp concernés par l’échange annoncé
+**Le chiffre du jour :** 4 — drones détectés dans la nuit au-dessus des pays baltes, selon Vilnius
 
-### Les contours d’un compromis
+### La Baltique, angle mort de la guerre
 
-Un responsable américain cité par Al Jazeera affirme que les deux camps ont, en privé, montré une certaine souplesse sur les territoires occupés, alors que la Russie contrôle environ 20 % de l’Ukraine et que Vladimir Poutine réclame l’ensemble du Donbass. Les garanties de sécurité envisagées pour Kiev pourraient prendre la forme d’un engagement de défense inspiré de l’article 5 du traité de l’Atlantique Nord. Avant la séance, la délégation ukrainienne a rencontré les représentants du Royaume-Uni, de la France, de l’Allemagne, de l’Italie, de l’OTAN et de la Commission européenne, que Moscou refuse d’associer aux discussions. Le chancelier allemand, Friedrich Merz, dit ne pas avoir « d’attentes excessives », et l’analyste Ilya Timtchenko, du Center for European Policy Analysis, n’attend aucun accord.
-
-- _Ce qui a changé 19 h 45_ : Les pourparlers se sont achevés sur un accord d’échange de prisonniers, sans percée ; titre, texte, chiffre et calendrier réécrits.
+Les frappes ukrainiennes contre les ports pétroliers russes de la Baltique débordent régulièrement sur les pays voisins : des drones ukrainiens se sont déjà égarés en Finlande, en Estonie, en Lettonie et en Lituanie, rappelle Reuters. Moscou accuse Kiev de se servir de l’espace aérien de l’OTAN comme couverture ; Kiev affirme que le brouillage russe dévie ses appareils. Dans la nuit de mardi à mercredi, une tentative d’abattre un drone au-dessus du nord de la Lituanie a eu lieu, et des débris d’un missile de l’OTAN ont été retrouvés au sol, sans qu’on sache si l’appareil a été touché. La Finlande a, de son côté, restreint temporairement son espace aérien et maritime dans l’est du golfe de Finlande.
 
 Sources :
-- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
+- [CBS News, avec AP — U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory](https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/)
+- [Reuters, via Cyprus Mail — NATO jets scrambled as drone alerts sweep Baltic states](https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states)
 - [Associated Press, via KPBS — Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough](https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough)
-- [The Moscow Times — Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough](https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227)
-- [Al Jazeera — Une première journée « constructive », selon Zelensky](https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes)
-- [Associated Press, via PBS — Près de quatre heures de discussions à Abou Dhabi](https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi)
+- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/11/abou-dhabi-premiere-journee-pourparlers-jugee-constructive-kiev/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/12/emissaires-donald-trump-attendus-chez-vladimir-poutine-lendemain/
 
-## 2. France — Paris accuse les Gardiens de la révolution iraniens d’avoir saboté les réfrigérateurs de 700 commerces
+## 2. Iran — Washington mise sur le blocus pour faire plier l’Iran, tandis que des pétroliers brûlent à Ormuz
 
-**Le chef de la diplomatie française attribue à une unité cyber liée aux Gardiens l’attaque du 12 octobre contre des supermarchés. L’ambassadeur d’Iran a été convoqué et la France réclame des sanctions européennes.**
+**Le secrétaire d’État américain, Marco Rubio, juge inutiles pour l’heure de nouvelles opérations de combat, tant la pression économique sur Téhéran est forte. L’Iran maintient le détroit d’Ormuz fermé et annonce de nouveaux pétroliers en feu.**
 
-Lundi 9 novembre, le ministre des affaires étrangères, Jean-Noël Barrot, a imputé aux Gardiens de la révolution iraniens la cyberattaque qui, dans la nuit du 11 au 12 octobre, a déréglé les réfrigérateurs d’environ 700 commerces français, dont des magasins Carrefour, Monoprix, Intermarché et Coopérative U. Selon l’Agence nationale de la sécurité des systèmes d’information, l’attaque est l’œuvre de Shahid Kaveh, une unité liée aux Gardiens, trahie par des traces de persan et des adresses IP iraniennes, et les températures sont montées jusqu’à 50 °C pendant environ six heures, rapporte l’AP. Paris a convoqué l’ambassadeur d’Iran et veut des sanctions européennes, dont les ministres des affaires étrangères de l’Union pourraient débattre le 16 novembre, tandis que Téhéran rejette des accusations « sans fondement et partiales ».
+Mardi 10 novembre à Paris, à l’issue de deux jours de réunions avec ses homologues du G7, le secrétaire d’État américain, Marco Rubio, a estimé que le blocus naval et les sanctions infligeaient à l’Iran une pression si forte qu’aucune opération de combat majeure n’était nécessaire pour l’heure, rapporte Reuters. La veille, Donald Trump avait jugé de nouvelles frappes « très improbables » après des appels de pays de la région, dont le Qatar, mais Téhéran garde le détroit d’Ormuz fermé : les Gardiens de la révolution ont annoncé mardi trois pétroliers en feu, puis l’armée iranienne, mercredi, un autre qui aurait heurté une mine, selon l’AFP. Le vice-président, J. D. Vance, qui attribue à la guerre la défaite républicaine aux élections de mi-mandat, plaide pour un accord, mais Donald Trump juge un compromis impossible à ce stade, et Téhéran refuse toujours de laisser sortir son uranium enrichi, tandis que le Qatar se dit prudemment optimiste.
 
-**Le chiffre du jour :** ≈ 700 — commerces français dont les réfrigérateurs ont été piratés
+**Le chiffre du jour :** 107 $ — le prix du baril de Brent au 3 novembre, selon l’EIA
 
-### Une offensive qui dépasse la France
+### Une administration divisée
 
-Selon Reuters, le rapport conjoint des services de renseignement et de cybersécurité français recense au moins quinze incendies, et des boucheries, un abattoir et des usines alimentaires figurent parmi les sites visés. Une seconde vague, en novembre, a touché plus de cent établissements en Europe et affecté des réfrigérateurs de banques du sang en France. L’AP signale des incidents comparables en Suède, en Belgique, au Luxembourg, en Irlande et en Estonie. Aux États-Unis, une demi-douzaine de magasins militaires ont connu en août des pannes de réfrigération que le Pentagone traite comme une cyberattaque présumée. L’ANSSI attribue par ailleurs à un autre groupe iranien, Shahid Shoostari, des attaques contre la France depuis 2020, dont celles visant Charlie Hebdo en 2023 et les Jeux olympiques de 2024.
+Selon Reuters, le nouveau secrétaire général de la Maison Blanche, Stephen Miller, et le secrétaire au Trésor, Scott Bessent, privilégient la pression économique, quand J. D. Vance préfère un accord. Devant le G7, Marco Rubio aurait qualifié les dirigeants iraniens de « fous », selon deux diplomates. La stratégie inquiète des pays comme le Pakistan, l’Irak ou la Turquie, qui en paient le coût économique, relève Al Jazeera. Un sondage Reuters/Ipsos indique que 71 % des Américains soutiennent une loi pour arrêter la guerre. En Iran, le rial a perdu plus de la moitié de sa valeur face au dollar en un an, selon Iran International, et le chef de la diplomatie, Abbas Araghtchi, assure que ni la force ni les sanctions ne mettront fin au conflit.
 
 Sources :
-- [Euronews — La France accuse l’Iran d’être derrière les cyberattaques](https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges)
-- [Associated Press, via WFTV — La France accuse l’Iran](https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/)
-- [Reuters, via Khaleej Times — Paris accuse les Gardiens de la révolution](https://www.khaleejtimes.com/world/france-accuses-irgc-cyberattack-supermarket-fridges)
-- [Asharq Al-Awsat — L’Iran rejette les accusations françaises](https://english.aawsat.com/node/5300441)
+- [Reuters, via Al-Monitor — Rubio says no need for major combat operations against Iran given US economic campaign](https://www.al-monitor.com/originals/2026/11/rubio-says-no-need-major-combat-operations-against-iran-given-us-economic)
+- [Al Jazeera — Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?](https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran)
+- [Reuters, via Al-Monitor — Rubio tells G7 US will keep imposing ’devastating’ costs on Iran, diplomats say](https://www.al-monitor.com/originals/2026/11/rubio-tells-g7-us-will-keep-imposing-devastating-costs-iran-diplomats-say)
+- [AFP, via Daily Tribune — Tanker strikes mine, catches fire in Hormuz](https://tribune.net.ph/2026/11/11/tanker-strikes-mine-catches-fire-in-hormuz)
+- [Iran International — Rubio tells G7 the US will keep imposing ’devastating’ costs on Iran](https://www.iranintl.com/en/202611107939)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/11/paris-accuse-gardiens-revolution-iraniens-avoir-sabote-refrigerateurs/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/12/washington-mise-blocus-faire-plier-iran-tandis-petroliers/
 
-## 3. Indonésie — En Indonésie, le vice-président Gibran Rakabuming Raka démissionne, fragilisé par le doute sur ses diplômes
+## 3. RD Congo — En RD Congo, l’épidémie d’Ebola dépasse les 11 000 cas confirmés et 5 300 morts
 
-**Le fils de l’ancien président Joko Widodo a remis mercredi sa démission au président Prabowo Subianto, après des décisions de justice jugeant insuffisants ses titres scolaires. Le Parlement disposera ensuite de soixante jours pour élire son successeur.**
+**Les chiffres publiés mardi par le gouvernement congolais confirment une épidémie hors norme, la deuxième plus importante jamais recensée. Aucun vaccin ni traitement n’est homologué contre la souche Bundibugyo.**
 
-Mercredi 11 novembre, le vice-président indonésien, Gibran Rakabuming Raka, a remis sa démission au président, Prabowo Subianto, lors d’une rencontre sur la base aérienne de Halim Perdanakusuma, à Jakarta, a confirmé son allié Budi Arie Setiadi, président de l’organisation Projo, cité par Reuters et l’agence Antara. Le fils de l’ancien président Joko Widodo était fragilisé depuis que la Cour constitutionnelle puis la Cour suprême avaient jugé que ses études à l’étranger ne remplissaient pas les conditions exigées pour sa candidature de 2024, et 120 parlementaires venaient de déposer une pétition réclamant sa destitution. Selon le ministre coordinateur chargé du droit, Yusril Ihza Mahendra, le Parlement doit constater la vacance du poste, puis élire dans les soixante jours un successeur parmi deux noms proposés par le président, une incertitude qui pèse sur la confiance des investisseurs, souligne Reuters.
+Selon des données publiées mardi 10 novembre par le gouvernement congolais, l’épidémie d’Ebola déclarée à la mi-mai dans l’est de la République démocratique du Congo compte désormais 11 042 cas confirmés et 5 387 morts, la plus grave de l’histoire du pays, rapportent Reuters et l’AP. Due à la souche Bundibugyo, contre laquelle n’existe aucun vaccin ni traitement homologué, elle touche huit des vingt-six provinces, d’abord l’Ituri et le Nord-Kivu, où l’insécurité entrave l’accès aux centres de traitement et où de nombreux malades meurent chez eux, selon Reuters. C’est la deuxième épidémie d’Ebola la plus importante jamais enregistrée, après celle d’Afrique de l’Ouest en 2014-2016, et l’essai vaccinal lancé fin octobre à Bunia ne devrait pas livrer ses premiers résultats avant 2027, alors que le Kenya a recensé neuf cas et le Nigeria un cas importé.
 
-**Le chiffre du jour :** 60 jours — pour élire un nouveau vice-président
+**Le chiffre du jour :** 11 042 — cas confirmés d’Ebola en RD Congo au 10 novembre
 
-### La rupture entre Prabowo et Widodo
+### Une épidémie qui court plus vite que la riposte
 
-Battu par Joko Widodo en 2014 et en 2019, Prabowo Subianto avait bénéficié de son soutien tacite pour lui succéder, avec le fils de son ancien rival pour colistier. L’alliance se fissure : la semaine dernière, trois hauts gradés de la police ont été arrêtés pour des écoutes illégales visant notamment le président, dont l’ancien chef de la police nationale Listyo Sigit Prabowo, proche de M. Widodo, muté le mois dernier au poste honorifique de chef de cabinet présidentiel, selon le Jakarta Post. Trois responsables du PSI, présidé par Kaesang Pangarep, le fils cadet de l’ancien président, ont quitté le parti en promettant leur loyauté au chef de l’État. Selon Reuters, M. Widodo serait mécontent que Gibran n’ait pas été soutenu face aux juges.
-
-- _Ce qui a changé 19 h 45_ : Le vice-président a remis sa démission mercredi ; titre, texte, chiffre du jour et modules réécrits.
-
-Sources :
-- [Reuters, via TimesLIVE — Indonesia’s vice-president has resigned, aide says, stoking political uncertainty](https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/)
-- [Bernama — Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says](https://www.bernama.com/en/world/news.php?id=2633025)
-- [The Jakarta Post — Gibran a l’intention de démissionner](https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary)
-- [Reuters, via ThePrint — Le vice-président exprime son intention de démissionner](https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/)
-- [The Jakarta Post — Des ministres quittent le PSI](https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/11/indonesie-vice-president-gibran-rakabuming-raka-fragilise-diplomes/
-
-## 4. Haïti — En Haïti, des soldats salvadoriens détruisent la maison du chef du gang 400 Mawozo
-
-**Le président salvadorien, Nayib Bukele, a revendiqué mardi l’assaut contre le quartier général du gang, à Croix-des-Bouquets, où son chef était absent. Des diplomates américains reprochent au Salvador d’agir sans coordination avec la force soutenue par l’ONU.**
-
-Dimanche 8 novembre, vers 2 h 30, une unité de drones de la police haïtienne, appuyée par des soldats et des hélicoptères salvadoriens, a détruit à Croix-des-Bouquets, près de Port-au-Prince, la maison de Wilson Joseph, chef du gang 400 Mawozo, présentée comme son quartier général. Le président salvadorien, Nayib Bukele, qui avait promis de raser cette maison, a revendiqué mardi l’opération, qui aurait fait une vingtaine de morts selon le Miami Herald, un bilan que l’AFP n’a pu confirmer, et Wilson Joseph était absent, selon la presse salvadorienne. Le Premier ministre haïtien, Alix Didier Fils-Aimé, a salué l’action du Salvador, mais des diplomates américains reprochent aux quelque 2 000 soldats salvadoriens, pour la plupart extérieurs à la force de répression des gangs soutenue par l’ONU, de ne pas se coordonner avec elle, selon le site Axios.
-
-**Le chiffre du jour :** ≈ 2 000 — soldats salvadoriens déployés en Haïti
-
-### Une intervention hors du cadre onusien
-
-Le Salvador a envoyé ses premières forces spéciales le 22 octobre, après l’embuscade tendue le 18 octobre, à Croix-des-Bouquets, à quatre techniciens aéronautiques salvadoriens servant dans la force soutenue par l’ONU, portés disparus depuis, selon l’AP. Le contingent compte désormais environ 2 000 soldats, alors que la force de répression des gangs n’atteignait en octobre qu’un peu plus de 2 000 membres sur les 5 500 prévus. D’abord présentée comme une mission de récupération, l’opération vise désormais, selon Nayib Bukele, l’élimination des gangs. Amnesty International demande la publication de l’accord de déploiement et des enquêtes sur d’éventuels abus. Avant l’assaut, 400 Mawozo avait sollicité la commission haïtienne de désarmement pour ouvrir des négociations.
+Selon l’OMS, 512 personnes sont mortes entre le 21 octobre et le 3 novembre, dont 335 hors des centres de traitement, signe que nombre de malades échappent au système de soins. Le suivi quotidien des personnes contacts n’atteignait que 86 %, sous l’objectif de 95 %, et la transmission restait active dans 51 zones de santé. L’organisation, qui a déclaré l’épidémie urgence de santé publique de portée internationale dès le 17 mai, signale de graves lacunes de financement. La létalité, proche de 49 %, rejoint celle observée en RD Congo en 2012, lors d’une épidémie due à la même souche. L’essai Tumaini teste notamment deux vaccins conçus contre le virus Bundibugyo, par l’université d’Oxford et par Moderna.
 
 Sources :
-- [Al Jazeera — Des soldats salvadoriens visent un gang haïtien](https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead)
-- [AFP, via Yahoo — Le Premier ministre haïtien salue Bukele](https://www.yahoo.com/news/world/articles/haiti-pm-hails-bukele-salvadoran-235500837.html)
-- [EFE, via El Diario de Hoy — Washington s’interroge sur la mission salvadorienne](https://www.eldiariodehoy.com/noticias/nacionales/gobierno-ee-uu-cuestiona-la-mision-de-bukele-en-haiti-segun-axios/100055/2026/)
-- [Associated Press, via AJC — Le Salvador déploie des forces spéciales en Haïti](https://www.ajc.com/news/2026/10/el-salvador-deploys-special-forces-to-haiti-to-help-find-4-missing-soldiers-who-came-under-attack/)
+- [Reuters, via CNBC Africa — Congo’s Ebola cases surpass 11,000, government data show](https://www.cnbcafrica.com/2026/congos-ebola-cases-surpass-11000-government-data-show)
+- [Associated Press, via Local 10 — Ebola tops 11,000 cases in Congo’s deadliest outbreak](https://www.local10.com/news/world/2026/11/11/ebola-tops-11000-cases-in-congos-deadliest-outbreak/)
+- [AllAfrica — Congo Ebola Cases Surpass 11,000 As Death Toll Reaches 5,387](https://allafrica.com/stories/202611120020.html)
+- [OMS — Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625)
+- [ECDC — Ebola disease outbreak caused by Bundibugyo virus – Multi-country – 2026](https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/11/haiti-soldats-salvadoriens-detruisent-maison-chef-gang-400/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/12/rd-congo-epidemie-ebola-depasse-11-000-cas/
 
-## 5. Niger — Au Niger, près de 64 000 réfugiés venus du Nigeria depuis janvier, selon le HCR
+## 4. Turquie — À la COP31, António Guterres presse les dirigeants d’en finir avec les énergies fossiles
 
-**Les violences jihadistes et criminelles du nord du Nigeria poussent des dizaines de milliers de personnes vers un pays frappé par la sécheresse. Faute de moyens, seuls 5 % des nouveaux arrivants ont pu être enregistrés.**
+**Devant le sommet des dirigeants réuni à Antalya, le secrétaire général de l’ONU a jugé inévitable un dépassement temporaire de 1,5 °C. Il réclame la fin des nouveaux projets de charbon, de pétrole et de gaz.**
 
-Mardi 10 novembre, le Haut-Commissariat des Nations unies pour les réfugiés (HCR) a indiqué que près de 64 000 personnes avaient fui le nord du Nigeria vers le Niger depuis le début de l’année, et plusieurs centaines vers le Bénin, chassées par Boko Haram, l’État islamique en Afrique de l’Ouest et des bandes criminelles. La plupart s’installent dans les régions frontalières de Diffa, qui concentre plus de 70 % des incidents de sécurité recensés au Niger cette année, et de Tahoua, où ils manquent de nourriture, d’eau et d’abris, tandis que la malnutrition et les infections respiratoires progressent. Le HCR réclame 11,4 millions de dollars pour le Niger, le Nigeria et le Bénin, alors que le Niger accueillait déjà plus de 500 000 réfugiés et demandeurs d’asile et que la sécheresse menace les récoltes d’environ 700 villages sur 1 000 dans la région.
+Mercredi 11 novembre, devant le sommet des dirigeants de la COP31 à Antalya, en Turquie, le secrétaire général de l’ONU, António Guterres, a jugé « désormais inévitable » un dépassement du seuil de 1,5 °C de réchauffement et appelé à renoncer à tout nouveau projet de charbon, de pétrole ou de gaz. Les émissions mondiales devraient baisser d’environ 6 % par an, alors que les plans nationaux n’en assurent au mieux qu’un tiers et mènent au-delà de 2,5 °C d’ici à la fin du siècle, selon lui, et il propose de taxer les profits exceptionnels des compagnies pétrolières. Le président brésilien, Luiz Inácio Lula da Silva, a déploré la disparition du climat des discours du G7 et du G20, l’Iranien Massoud Pezeshkian a réclamé des compensations pour les dégâts écologiques des guerres, et les négociations, conduites par l’Australie, doivent s’achever le 20 novembre.
 
-**Le chiffre du jour :** ≈ 64 000 — réfugiés arrivés du Nigeria au Niger depuis janvier
+**Le chiffre du jour :** > 2,5 °C — de réchauffement en 2100 si les plans nationaux sont appliqués
 
-### Une crise qui s’ajoute à d’autres
+### Les chiffres d’un discours d’adieu
 
-Le Niger, qui accueillait déjà plus de 500 000 réfugiés et demandeurs d’asile, dont quelque 327 500 Nigérians, affronte en même temps la sécheresse : environ 70 % des pâturages ont été perdus, selon ONU Info. Faute de financement, seuls 5 % des arrivants de l’année ont été enregistrés, ce qui complique l’aide. Les femmes parcourent plusieurs kilomètres pour trouver de l’eau, et les enfants venus du système scolaire anglophone du Nigeria peinent à être scolarisés. Le HCR salue la solidarité des autorités et des communautés d’accueil, qui ont notamment fourni des terres. Sa porte-parole, Dominique Hyde, prévient que, sans moyens supplémentaires, des milliers de familles risquent d’être privées d’une aide essentielle.
+António Guterres, qui quittera ses fonctions l’an prochain, a mis en regard deux réalités. D’un côté, les émissions ont atteint un record en 2025 et les quatre dernières années ont été les plus chaudes jamais mesurées. De l’autre, le solaire a couvert près des trois quarts de la hausse de la demande mondiale d’électricité l’an dernier, et près d’une voiture vendue sur trois sera électrique cette année. Il a rappelé que les neuf plus grandes compagnies pétrolières ont dégagé 95 milliards de dollars de bénéfices au dernier trimestre, quand le fonds pour les pertes et dommages n’a reçu qu’environ 600 millions. Il propose un « pacte de justice climatique » fondé sur une transition juste, la protection des populations, le financement et la coopération.
 
 Sources :
-- [ONU Info — Près de 64 000 personnes fuient le Nigeria vers le Niger](https://news.un.org/en/story/2026/11/1168779)
-- [Reuters, via TimesLIVE — Les violences du nord du Nigeria chassent des dizaines de milliers de personnes](https://www.timeslive.co.za/news/africa/2026-11-10-11112026wop5-filler/)
-- [Associated Press, via KSAT — Au moins 62 morts dans une attaque au Nigeria](https://www.ksat.com/news/world/2026/10/27/at-least-62-people-killed-in-attack-on-a-community-in-northeastern-nigeria/)
+- [ONU Climat — Transcript of remarks made by UN Secretary-General António Guterres to the COP31 Leaders’ Summit](https://unfccc.int/news/transcript-of-remarks-made-by-un-secretary-general-antonio-guterres-to-the-cop31-leaders-summit)
+- [Reuters, via Al-Monitor — World leaders speak at COP31 climate conference](https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference)
+- [Business Recorder — Leaders warn COP31: War, conflict must not distract from climate action](https://www.brecorder.com/news/40448508/leaders-warn-cop31-war-conflict-must-not-distract-from-climate-action)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/11/niger-pres-64-000-refugies-venus-nigeria-depuis/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/12/cop31-antonio-guterres-presse-dirigeants-finir-energies-fossiles/
+
+## 5. Éthiopie — Au nord du Tigré, l’armée éthiopienne et les forces érythréennes s’affronteraient autour de Badme
+
+**Après avoir repris l’essentiel du Tigré en octobre, l’armée fédérale pousse vers la frontière érythréenne. Addis-Abeba accuse Asmara d’invasion, Asmara dénonce un prétexte à la guerre.**
+
+Lundi 9 novembre, l’armée fédérale éthiopienne et des forces érythréennes se seraient affrontées autour de Badme, localité frontalière longtemps disputée, selon des observateurs cités par le Critical Threats Project, qui n’a pu le confirmer, après la prise de Sheraro et d’Adi Awala par l’armée éthiopienne, le 3 novembre. Depuis fin septembre, les troupes fédérales, alliées à une faction tigréenne dissidente, combattent les forces du Front populaire de libération du Tigré, et Addis-Abeba accuse l’Érythrée d’une « invasion » jusqu’à 60 kilomètres à l’intérieur du Tigré, ce qu’Asmara présente comme le prétexte d’une guerre d’agression. Le Premier ministre, Abiy Ahmed, qui juge l’accès de son pays à la mer Rouge inévitable, a installé à la mi-octobre un gouvernement intérimaire au Tigré, tandis que des émissaires chinois ont été reçus début novembre à Addis-Abeba puis par le président érythréen, Isaias Afwerki, pour tenter d’éviter une guerre ouverte.
+
+**Le chiffre du jour :** 60 km — profondeur de l’incursion érythréenne au Tigré, selon Addis-Abeba
+
+### La mer Rouge en toile de fond
+
+L’Érythrée accuse l’Éthiopie de préparer une guerre d’agression depuis qu’Abiy Ahmed a revendiqué, en 2023, un accès à la mer, et notamment au port érythréen d’Assab. Reconduit au pouvoir en octobre, le Premier ministre a répété que cet accès n’était « qu’une question de temps ». En octobre, l’armée fédérale a repris Shire, Axoum, Adoua, Adigrat puis Zalambessa, tenue par l’Érythrée depuis 2022, selon le Critical Threats Project. Le chef de la diplomatie éthiopienne, Gedion Timothewos, a saisi le Conseil de sécurité ; son homologue érythréen a jugé cette lettre équivalente à une déclaration de guerre. Les deux pays s’étaient déjà affrontés de 1998 à 2000, une guerre frontalière qui avait fait des dizaines de milliers de morts.
+
+Sources :
+- [Critical Threats Project — Ethiopia War Security Review, November 10, 2026](https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-10-2026)
+- [Critical Threats Project — Ethiopia War Security Review, November 6, 2026](https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026)
+- [Critical Threats Project — Ethiopia Reaches Eritrean Border; M23 Rebrands With Kabila: Africa File, October 15, 2026](https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-drc-m23-fln-kabila-rwanda-jnim-issp)
+- [The Reporter — Ethiopia Accuses Eritrea Of Military Incursions Across Three Tigray Zones](https://www.thereporterethiopia.com/53378/)
+- [Al Jazeera — Ethiopia announces instalment of interim government in Tigray](https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/12/nord-tigre-armee-ethiopienne-forces-erythreennes-affronteraient-autour/
 
 ## En bref
 
-- **Hongrie** : Áron Orbán, frère de l’ancien Premier ministre Viktor Orbán, a été placé en garde à vue lundi dans une enquête pour trafic de migrants, a annoncé le Premier ministre, Péter Magyar ; Viktor Orbán dénonce un « sale jeu ». ([Source](https://www.euronews.com/2026/11/09/viktor-orbans-brother-reportedly-detained-over-suspected-people-smuggling))
-- **Turquie** : Une explosion suivie d’un incendie a fait six morts et treize blessés lundi dans l’aciérie Habas d’Aliaga, dans la province d’Izmir, où les secours recherchaient huit ouvriers disparus ; une enquête a été ouverte. ([Source](https://morningstaronline.co.uk/article/world-brief-november-10-2026))
-- **Paraguay** : Les enseignants du public se sont mis en grève après l’effondrement de la banque Ueno, où auraient été déposés quelque 60 millions de dollars de leurs fonds de pension, selon leur dirigeant syndical, Silvio Piris. ([Source](https://www.wftv.com/news/business/teachers-strike/ZNKFQUMYPYZE7A32P5ZAAAQRI4/))
+- **Israël** : La nouvelle Knesset a prêté serment mardi ; chargé de former un gouvernement, l’ancien chef d’état-major Gadi Eisenkot, qui dispose de six semaines, promet de défaire une large part de la politique de Benjamin Nétanyahou, Premier ministre sortant. ([Source](https://www.durangoherald.com/articles/associated-press/eisenkot-unveils-agenda-to-reverse-netanyahus-policies-as-israels-new-parliament-is-sworn-in/))
+- **Italie** : Au moins 300 écoles ont été évacuées mercredi après des alertes à la bombe envoyées par courriel, qui menaçaient aussi la présidente du conseil, Giorgia Meloni ; le ministre de l’éducation, Giuseppe Valditara, y voit « une stratégie ». ([Source](https://www.euronews.com/2026/11/11/at-least-300-schools-in-italy-evacuated-after-emailed-bomb-threats))
+- **Trinité-et-Tobago** : Le Comité judiciaire du Conseil privé, à Londres, juridiction d’appel suprême du pays, a invalidé mardi à l’unanimité les lois d’époque coloniale réprimant les relations homosexuelles, au terme d’une procédure engagée en 2017 par Jason Jones. ([Source](https://jamaica-gleaner.com/article/world-news/20261111/privy-council-rules-gay-sex-not-crime-trinidad-and-tobago))
 
 ## À venir
 
-- 11 nov. : Seconde journée des pourparlers d’Abou Dhabi ; sommet des dirigeants de la COP31 à Antalya, jusqu’au 12 ; fête de l’indépendance en Pologne.
-- 12 nov. : Les émissaires américains Jared Kushner et Steve Witkoff reçus par Vladimir Poutine à Moscou.
+- 12 nov. : Steve Witkoff et Jared Kushner reçus par Vladimir Poutine à Moscou ; fin du sommet des dirigeants de la COP31.
 - 16 nov. : Conseil des affaires étrangères de l’UE, qui pourrait examiner les cyberattaques attribuées à l’Iran.
-- 18 nov. : Audition à huis clos demandée à Jensen Huang par la Chambre des représentants ; sommet de l’APEC à Shenzhen.
+- 18 nov. : Sommet de l’APEC à Shenzhen.
 - 20 nov. : Clôture prévue de la COP31.
 - 6 déc. : Fin du délai initial de Gadi Eisenkot pour former un gouvernement en Israël.

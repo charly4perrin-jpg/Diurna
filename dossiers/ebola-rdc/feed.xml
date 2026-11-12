@@ -1,13 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
 <channel>
-<title>Diurna — L’épidémie d’Ebola en RD Congo</title>
+<title>Diurna — Ebola en RD Congo</title>
 <link>https://charly4perrin-jpg.github.io/Diurna/dossiers/ebola-rdc/</link>
-<description>Le suivi de Diurna, jour après jour : L&apos;épidémie d&apos;Ebola en RD Congo.</description>
+<description>Le suivi de Diurna, jour après jour : Ebola en RD Congo.</description>
 <language>fr</language>
 <atom:link href="https://charly4perrin-jpg.github.io/Diurna/dossiers/ebola-rdc/feed.xml" rel="self" type="application/rss+xml"/>
-<image><url>https://charly4perrin-jpg.github.io/Diurna/icons/icon-192.png</url><title>Diurna — L’épidémie d’Ebola en RD Congo</title><link>https://charly4perrin-jpg.github.io/Diurna/dossiers/ebola-rdc/</link></image>
-<lastBuildDate>Sat, 07 Nov 2026 18:55:00 GMT</lastBuildDate>
+<image><url>https://charly4perrin-jpg.github.io/Diurna/icons/icon-192.png</url><title>Diurna — Ebola en RD Congo</title><link>https://charly4perrin-jpg.github.io/Diurna/dossiers/ebola-rdc/</link></image>
+<lastBuildDate>Thu, 12 Nov 2026 06:04:16 GMT</lastBuildDate>
+<item>
+<title>En RD Congo, l’épidémie d’Ebola dépasse les 11 000 cas confirmés et 5 300 morts</title>
+<link>https://charly4perrin-jpg.github.io/Diurna/2026/11/12/rd-congo-epidemie-ebola-depasse-11-000-cas/</link>
+<guid isPermaLink="true">https://charly4perrin-jpg.github.io/Diurna/2026/11/12/rd-congo-epidemie-ebola-depasse-11-000-cas/</guid>
+<pubDate>Thu, 12 Nov 2026 06:00:00 GMT</pubDate>
+<category>Afrique</category>
+<category>Ebola en RD Congo</category>
+<description>&lt;p&gt;&lt;strong&gt;Les chiffres publiés mardi par le gouvernement congolais confirment une épidémie hors norme, la deuxième plus importante jamais recensée. Aucun vaccin ni traitement n’est homologué contre la souche Bundibugyo.&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;Selon des données publiées mardi 10 novembre par le gouvernement congolais, l’épidémie d’Ebola déclarée à la mi-mai dans l’est de la République démocratique du Congo compte désormais 11 042 cas confirmés et 5 387 morts, la plus grave de l’histoire du pays, rapportent Reuters et l’AP. Due à la souche Bundibugyo, contre laquelle n’existe aucun vaccin ni traitement homologué, elle touche huit des vingt-six provinces, d’abord l’Ituri et le Nord-Kivu, où l’insécurité entrave l’accès aux centres de traitement et où de nombreux malades meurent chez eux, selon Reuters. C’est la deuxième épidémie d’Ebola la plus importante jamais enregistrée, après celle d’Afrique de l’Ouest en 2014-2016, et l’essai vaccinal lancé fin octobre à Bunia ne devrait pas livrer ses premiers résultats avant 2027, alors que le Kenya a recensé neuf cas et le Nigeria un cas importé.&lt;/p&gt;&lt;p&gt;&lt;em&gt;Rédigé par une IA à partir des sources citées.&lt;/em&gt;&lt;/p&gt;</description>
+<media:content url="https://charly4perrin-jpg.github.io/Diurna/og/fr/2026-11-12-3.jpg" medium="image" type="image/jpeg" width="1200" height="630"/>
+</item>
 <item>
 <title>En RD Congo, deux vaccins inédits contre une épidémie d’Ebola qui a fait plus de 5 000 morts</title>
 <link>https://charly4perrin-jpg.github.io/Diurna/2026/11/07/rd-congo-deux-vaccins-inedits-contre-epidemie-ebola/</link>
