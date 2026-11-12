@@ -8,7 +8,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 ## Édition du jour / Today's edition
 
 - [Édition du 2026-11-12 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): Les émissaires de Donald Trump attendus chez Vladimir Poutine, au lendemain d’un accord sur les prisonniers
-- [Edition of 2026-11-11 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
+- [Edition of 2026-11-12 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Donald Trump’s envoys are due to see Vladimir Putin, a day after a prisoner deal
 - [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
 
 ## Comprendre Diurna / About
@@ -34,10 +34,10 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 - [2026-11-08](https://charly4perrin-jpg.github.io/Diurna/2026/11/08/edition.md): En Israël, Gadi Eisenkot chargé de former un gouvernement à la place de Benyamin Nétanyahou
 - [2026-11-07](https://charly4perrin-jpg.github.io/Diurna/2026/11/07/edition.md): Au Paraguay, Santiago Peña destitué et assigné à résidence après la faillite d’une banque
 - [2026-11-06](https://charly4perrin-jpg.github.io/Diurna/2026/11/06/edition.md): À Ormuz, des pétroliers en feu tandis que l’Iran pose ses conditions à Washington
+- [2026-11-12](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/edition.md): Donald Trump’s envoys are due to see Vladimir Putin, a day after a prisoner deal
 - [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/edition.md): Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
 - [2026-11-10](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/edition.md): In Abu Dhabi, Russia, Ukraine and America reopen talks as Europeans watch from the wings
 - [2026-11-09](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/edition.md): Gadi Eisenkot accepts Israel’s mandate and calls for a national emergency government
 - [2026-11-08](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/edition.md): Gadi Eisenkot is asked to form Israel’s government in place of Benjamin Netanyahu
 - [2026-11-07](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/edition.md): Paraguay’s Santiago Peña is ousted and placed under house arrest after a bank collapse
 - [2026-11-06](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/edition.md): Tankers burn in Hormuz as Iran sets its terms for Washington
-- [2026-11-05](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/edition.md): After the midterms, America delivers its verdict on the Iran war

@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-11",
-  "number": 7,
-  "updated": "2026-11-11T19:45:03+01:00",
-  "headline": "Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough",
-  "standfirst": "The American-brokered talks ended on Wednesday with no progress on territory, and America's envoys are due in Moscow on Thursday. France blames Iran's Revolutionary Guards for sabotaging 700 shops, Indonesia's vice-president resigns, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.",
+  "date": "2026-11-12",
+  "number": 8,
+  "updated": "2026-11-12T07:04:16+01:00",
+  "headline": "Donald Trump's envoys are due to see Vladimir Putin, a day after a prisoner deal",
+  "standfirst": "Steve Witkoff and Jared Kushner are expected at the Kremlin on Thursday, after the Abu Dhabi talks. America is betting on its blockade to bend Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.",
   "essentials": [
     {
       "rank": 1,
@@ -15,17 +15,17 @@
         "diplomacy",
         "conflict"
       ],
-      "title": "Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough",
-      "standfirst": "The American-brokered talks ended on Wednesday with an agreement in principle covering more than 1,000 prisoners on each side, according to Moscow. Nothing moved on territory, and America's envoys are expected at the Kremlin on Thursday.",
+      "title": "Donald Trump's envoys are due to see Vladimir Putin, a day after a prisoner deal",
+      "standfirst": "Steve Witkoff and Jared Kushner are to be received at the Kremlin on Thursday morning, before meeting Volodymyr Zelensky in Dublin. The night before, stray drones set off alerts in all three Baltic states.",
       "body": [
-        "On Wednesday 11 November, after a second session of under two hours in Abu Dhabi, Russia and Ukraine announced an agreement in principle on a large prisoner exchange, which the Russian general Alexander Zorin says will be the biggest of the war, with more than 1,000 people on each side, according to TASS.",
-        "Ukraine's chief negotiator, Rustem Umerov, called the swap the “main result” of the talks, but nothing moved on territory: Russia's negotiator, Vladimir Medinsky, repeated that Moscow would recover “every inch” of the land it claims, while Kyiv still insists on a ceasefire first.",
-        "The American envoys Jared Kushner and Steve Witkoff are due to meet Vladimir Putin in Moscow on Thursday and then Volodymyr Zelensky in Dublin, and the exchange, whose numbers are to be settled on Thursday, could take place within two or three weeks, the Russian side told the AP."
+        "On Thursday 12 November America's envoys, Steve Witkoff and Jared Kushner, are due to be received by Vladimir Putin at the Kremlin in the morning, his foreign-policy adviser, Yuri Ushakov, said, after two days of talks in Abu Dhabi ended in a prisoner-exchange deal whose numbers are to be settled on Thursday.",
+        "Moscow says it expects the Americans to “bring something”, but Vladimir Putin still demands recognition of his conquests in eastern Ukraine, while Volodymyr Zelensky refuses to give up the Donbas in return for security guarantees that fall short of NATO membership, the AP reports.",
+        "The two envoys are then expected to meet Ukraine's president in Dublin, as the war spills over: on the night of 10-11 November, drones that strayed during Ukrainian strikes on Russia led Lithuania, Latvia and Estonia to tell residents to take shelter, according to Reuters."
       ],
       "figure": {
-        "value": "> 1,000",
-        "label": "prisoners on each side covered by the announced exchange",
-        "compare": "against 270 in the last swap, on 23 October"
+        "value": "4",
+        "label": "drones detected overnight over the Baltic states, according to Vilnius",
+        "compare": "one alert covered Kaunas and its 300,000 or so residents"
       },
       "since": {
         "date": "2022-02-24",
@@ -38,83 +38,75 @@
             "RUS",
             "USA"
           ],
-          "host": "ARE",
           "positions": [
             {
               "who": "Moscow",
-              "wants": "Ukraine's withdrawal from the four regions annexed in September 2022, renunciation of NATO and limits on the Ukrainian army; no general halt to the fighting."
+              "wants": "Recognition of its conquests in eastern Ukraine, and no Europeans in the direct talks."
             },
             {
               "who": "Kyiv",
-              "wants": "An immediate ceasefire first; no surrender of territory and no limits on its army."
+              "wants": "“Concrete mechanisms” against any resumption of the war, no surrender of the Donbas, and Europe involved at every stage."
             },
             {
               "who": "Washington",
-              "wants": "A “new framework”; according to Jared Kushner, a lasting settlement will require direct dialogue on security between Russia and Europe."
+              "wants": "A breakthrough that “will take time”, according to the secretary of state, Marco Rubio, who called the first session “very productive”."
             }
           ],
           "next": {
             "d": "2026-11-12",
-            "t": "Jared Kushner and Steve Witkoff received by Vladimir Putin in Moscow."
+            "t": "Steve Witkoff and Jared Kushner received by Vladimir Putin, then expected in Dublin to meet Volodymyr Zelensky."
           },
           "source": {
-            "name": "Associated Press, via PBS",
-            "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi"
+            "name": "CBS News, avec AP",
+            "name_en": "CBS News, with AP",
+            "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/"
           }
         },
-        "sides": {
-          "groups": [
+        "places": {
+          "items": [
             {
-              "name": "Russia",
-              "lead": "Vladimir Putin",
-              "ids": [
-                "RUS"
+              "name": "Kaunas",
+              "coords": [
+                23.9,
+                54.9
               ],
-              "note": "Delegation led by Vladimir Medinsky, with the head of military intelligence, Igor Kostyukov."
+              "note": "Lithuania's second city, covered by a drone alert on the night of 10-11 November."
             },
             {
-              "name": "Ukraine",
-              "lead": "Volodymyr Zelensky",
-              "ids": [
-                "UKR"
+              "name": "Ust-Luga",
+              "coords": [
+                28.39,
+                59.68
               ],
-              "note": "Delegation led by Rustem Umerov, with Kyrylo Budanov and Davyd Arakhamia."
-            }
-          ],
-          "mediators": [
-            {
-              "id": "USA",
-              "note": "Steve Witkoff, Jared Kushner and General Alexus Grynkewich, NATO's Supreme Allied Commander Europe"
-            },
-            {
-              "id": "ARE",
-              "note": "host country"
+              "note": "Russian Baltic port set ablaze by a Ukrainian drone attack, according to Reuters."
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes"
+            "name": "Reuters, via Cyprus Mail",
+            "url": "https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states"
           }
         }
       },
       "analysis": {
-        "title": "The outline of a compromise",
-        "text": "An American official quoted by Al Jazeera says both sides have privately shown some flexibility over the occupied territories; Russia controls about 20% of Ukraine and Vladimir Putin wants the whole of the Donbas. The security guarantees under discussion for Kyiv could take the form of a defence commitment modelled on Article 5 of the North Atlantic Treaty. Before the session, the Ukrainian delegation met representatives of Britain, France, Germany, Italy, NATO and the European Commission, whom Moscow refuses to admit to the talks. Germany's chancellor, Friedrich Merz, says he has no “excessive expectations”, and an analyst at the Center for European Policy Analysis expects no deal at all."
+        "title": "The Baltic, the war's blind spot",
+        "text": "Ukraine's strikes on Russia's Baltic oil ports regularly spill over into neighbouring countries: Ukrainian drones have already strayed into Finland, Estonia, Latvia and Lithuania, Reuters notes. Moscow accuses Kyiv of using NATO airspace as cover; Kyiv says Russian jamming knocks its drones off course. On the night of 10-11 November an attempt was made to shoot down a drone over northern Lithuania, and debris from a NATO missile was found on the ground, though it is unclear whether the drone was hit. Finland, for its part, temporarily restricted its airspace and waters in the eastern Gulf of Finland."
       },
       "keys": [
         {
-          "title": "The humanitarian track",
-          "text": "On Tuesday Volodymyr Zelensky spoke of an exchange of 1,000, or even 1,500, prisoners on each side, though neither Kyiv nor Moscow has yet published a final figure. The last swap, on 23 October, involved 270 people each way, the Kyiv Independent notes."
+          "title": "The prisoner exchange",
+          "text": "Russia's chief negotiator, Vladimir Medinsky, and his Ukrainian counterpart, Rustem Umerov, both confirmed the planned swap, which they described as “significant”. The talks also covered detained civilians and children taken from Ukraine, according to the AP."
         },
         {
-          "title": "The war goes on",
-          "text": "On the night before the session Russia launched 162 drones and a ballistic missile, according to Ukraine's air force. Moscow, for its part, claims to have shot down 155 Ukrainian drones over eight Russian regions and Crimea."
+          "title": "The strikes go on",
+          "text": "Russia's defence ministry claims to have shot down 627 Ukrainian drones in a single night. In Ukraine, a Russian strike cut power to Kryvyi Rih and injured people in Kharkiv and Zaporizhzhia, according to Reuters, which could not verify the reports."
         }
       ],
       "involved": [
         "RUS",
         "USA",
-        "ARE"
+        "LTU",
+        "LVA",
+        "EST"
       ],
       "context": [
         {
@@ -123,30 +115,33 @@
         },
         {
           "d": "2026-02",
-          "t": "Last three-way meeting before a nine-month pause."
-        },
-        {
-          "d": "2026-11-08",
-          "t": "More than 850,000 people lose power after Russian strikes."
+          "t": "Last meeting of the delegations, in Geneva, before a nine-month pause."
         },
         {
           "d": "2026-11-10",
-          "t": "First day of talks in Abu Dhabi, called “constructive”."
+          "t": "Three-way talks open in Abu Dhabi."
         },
         {
           "d": "2026-11-11",
-          "t": "Talks end with a prisoner-exchange deal but no breakthrough."
+          "t": "Agreement on a large prisoner exchange; drone alerts in the Baltic states."
         },
         {
           "d": "2026-11-12",
-          "t": "America's envoys expected at the Kremlin."
+          "t": "America's envoys received at the Kremlin, then expected in Dublin."
         }
       ],
       "sources": [
         {
-          "name": "The Kyiv Independent",
-          "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
-          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
+          "name": "CBS News, avec AP",
+          "name_en": "CBS News, with AP",
+          "title": "U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory",
+          "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "Reuters, via Cyprus Mail",
+          "title": "NATO jets scrambled as drone alerts sweep Baltic states",
+          "url": "https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states",
           "date": "2026-11-11"
         },
         {
@@ -156,156 +151,115 @@
           "date": "2026-11-11"
         },
         {
-          "name": "The Moscow Times",
-          "title": "Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough",
-          "url": "https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227",
+          "name": "The Kyiv Independent",
+          "title": "'Large-scale' prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says",
+          "url": "https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/",
           "date": "2026-11-11"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes",
-          "url": "https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes",
-          "date": "2026-11-10"
-        },
-        {
-          "name": "Associated Press, via PBS",
-          "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
-          "url": "https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi",
-          "date": "2026-11-10"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "abu-dhabi-first-day-talks-that-kyiv-washington",
-      "updates": [
-        {
-          "time": "2026-11-11T19:45:03+01:00",
-          "text": "The talks ended with a prisoner-exchange deal but no breakthrough; headline, text, figure and timetable rewritten."
-        }
-      ]
+      "slug": "donald-trump-envoys-due-see-vladimir-putin-day"
     },
     {
       "rank": 2,
-      "id": "FRA",
-      "place": "France",
-      "section": "Europe",
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
       "radar": false,
       "types": [
+        "conflict",
         "diplomacy",
-        "society"
+        "economy"
       ],
-      "title": "France accuses Iran's Revolutionary Guards of sabotaging the fridges of 700 shops",
-      "standfirst": "France's foreign minister blames a cyber unit linked to the Guards for the attack on supermarkets on 12 October. Iran's ambassador has been summoned and Paris wants European sanctions.",
+      "title": "America bets on its blockade to bring Iran to heel as tankers burn in Hormuz",
+      "standfirst": "America's secretary of state, Marco Rubio, sees no need for new combat operations for now, so heavy is the economic pressure on Tehran. Iran is keeping the Strait of Hormuz closed and reports more tankers ablaze.",
       "body": [
-        "On Monday 9 November France's foreign minister, Jean-Noël Barrot, blamed Iran's Revolutionary Guards for the cyber-attack which, on the night of 11-12 October, tampered with refrigeration in some 700 French shops, including Carrefour, Monoprix, Intermarché and Coopérative U stores.",
-        "According to ANSSI, France's national cyber-security agency, the attack was the work of Shahid Kaveh, a unit linked to the Guards and betrayed by traces of Persian and Iranian IP addresses, and temperatures rose as high as 50°C for about six hours, the AP reports.",
-        "Paris has summoned Iran's ambassador and wants European sanctions, which EU foreign ministers could discuss on 16 November, while Tehran dismisses the accusations as “baseless and biased”."
+        "In Paris on Tuesday 10 November, after two days of meetings with his G7 counterparts, America's secretary of state, Marco Rubio, said the naval blockade and sanctions were putting Iran under such pressure that no major combat operations were needed for now, Reuters reports.",
+        "The day before, Donald Trump had called fresh strikes “very unlikely” after appeals from countries in the region, including Qatar, but Tehran is keeping the Strait of Hormuz shut: the Revolutionary Guards reported three tankers ablaze on Tuesday, and the Iranian army another, apparently mined, on Wednesday, according to AFP.",
+        "The vice-president, J.D. Vance, who blames the war for the Republicans' defeat in the midterms, is pushing for a deal, but Donald Trump sees no compromise for now, Tehran still refuses to let its enriched uranium leave the country, and Qatar says it is cautiously optimistic."
       ],
       "figure": {
-        "value": "≈ 700",
-        "label": "French shops whose fridges were hacked",
-        "compare": "out of some 10,000 supermarkets in France, according to the AP"
+        "value": "$107",
+        "label": "the price of a barrel of Brent on 3 November, according to the EIA",
+        "compare": "against $71 on 27 February, the eve of the war"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "since the war began"
       },
       "modules": {
         "table": {
           "ids": [
-            "FRA",
-            "IRN"
+            "USA",
+            "IRN",
+            "QAT"
           ],
           "positions": [
             {
-              "who": "Paris",
-              "wants": "EU-level sanctions and international arrest warrants for the head of Shahid Kaveh and his two deputies."
+              "who": "Washington",
+              "wants": "Keep up the blockade and impose “devastating” economic costs on Iran while professing openness to diplomacy; Marco Rubio calls Iran's demands “totally unrealistic”."
             },
             {
-              "who": "European Union",
-              "wants": "A “stronger” response if the attribution is confirmed, according to the EU's foreign-policy chief, Kaja Kallas."
+              "who": "Tehran",
+              "wants": "The lifting of sanctions and of the blockade, a smaller American military presence, restored oil waivers and the release of its frozen assets; no transfer of enriched uranium."
+            },
+            {
+              "who": "Doha",
+              "wants": "A diplomatic solution, which its prime minister still considers possible, with “cautious optimism”."
             }
           ],
-          "next": {
-            "d": "2026-11-16",
-            "t": "EU Foreign Affairs Council, which could take up the attacks."
-          },
           "source": {
-            "name": "Euronews",
-            "url": "https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran"
           }
         },
-        "actors": {
-          "items": [
-            {
-              "name": "Jean-Noël Barrot",
-              "role": "Foreign minister; denounces an attack of “unprecedented” scale and aggressiveness.",
-              "source": {
-                "name": "Associated Press, via WFTV",
-                "url": "https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/"
-              }
-            },
-            {
-              "name": "Laure Beccuau",
-              "role": "Paris prosecutor; has opened a judicial investigation into organised cybercrime on behalf of a foreign power.",
-              "source": {
-                "name": "Associated Press, via WFTV",
-                "url": "https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/"
-              }
-            },
-            {
-              "name": "Shahid Kaveh",
-              "role": "Cyber unit affiliated with the Revolutionary Guards, named by ANSSI.",
-              "source": {
-                "name": "Associated Press, via WFTV",
-                "url": "https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/"
-              }
-            },
-            {
-              "name": "Kaja Kallas",
-              "role": "EU High Representative; talks of a tougher response.",
-              "source": {
-                "name": "Euronews",
-                "url": "https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges"
-              }
-            }
-          ]
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
         },
-        "dates": {
-          "items": [
-            {
-              "d": "2026-10-12",
-              "t": "Fridges in some 700 shops tampered with remotely."
-            },
-            {
-              "d": "2026-11-09",
-              "t": "Paris blames the Revolutionary Guards for the attack."
-            },
-            {
-              "d": "2026-11-16",
-              "t": "EU Foreign Affairs Council."
-            }
-          ],
+        "impact": {
+          "text": "A barrel of Brent cost $107 on 3 November, against $71 on the eve of the war, according to America's Energy Information Administration: a rise of roughly half, which makes fuel dearer and, in turn, the cost of getting about.",
           "source": {
-            "name": "Euronews",
-            "url": "https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges"
+            "name": "EIA",
+            "url": "https://www.eia.gov/dnav/pet/hist/RBRTEd.htm"
           }
         }
       },
       "analysis": {
-        "title": "A campaign that goes beyond France",
-        "text": "According to Reuters, the joint report by France's intelligence and cyber-security services counts at least 15 fires, and butchers, an abattoir and food factories were among the sites targeted. A second wave in November hit more than 100 establishments across Europe and affected refrigerators at blood banks in France. The AP notes similar incidents in Sweden, Belgium, Luxembourg, Ireland and Estonia. In America, half a dozen military commissaries suffered refrigeration failures in August that the Pentagon is treating as a suspected cyber-attack. ANSSI also blames another Iranian group, Shahid Shushtari, for attacks on France since 2020, including those on Charlie Hebdo in 2023 and on the 2024 Olympic Games."
+        "title": "A divided administration",
+        "text": "According to Reuters, the new White House chief of staff, Stephen Miller, and the treasury secretary, Scott Bessent, favour economic pressure, while J.D. Vance prefers a deal. At the G7, Marco Rubio reportedly called Iran's leaders “crazy”, according to two diplomats. The strategy worries countries such as Pakistan, Iraq and Turkey, which bear its economic cost, Al Jazeera notes. A Reuters/Ipsos poll finds that 71% of Americans support legislation to end the war. In Iran, the rial has lost more than half its value against the dollar in a year, according to Iran International, and the foreign minister, Abbas Araghchi, insists that neither force nor sanctions will end the conflict."
       },
       "keys": [
         {
-          "title": "The cost",
-          "text": "Intermarché reported losses of “tens of millions of euros” in a single day, according to the AP. The foreign ministry speaks of heavy material damage, including fires."
+          "title": "The strait under pressure",
+          "text": "Since the war began Tehran has required ships to follow authorised routes, while Washington escorts tankers and blockades Iran's ports. India's shipping minister reported a Liberian-flagged tanker hit by a projectile in the Gulf, with four sailors injured."
         },
         {
-          "title": "The criminal inquiry",
-          "text": "Paris prosecutors have sought international arrest warrants for the head of Shahid Kaveh and his two deputies. The French report also names three alleged associates and two front groups, CyberAveng3rs and Cyber Isnaad Front, according to Reuters."
+          "title": "Threats in the West",
+          "text": "America's Justice Department has charged three alleged Iranian agents over plots to carry out attacks in America and Europe. Scott Bessent has moved onto a military base after threats attributed to Iran, according to the New York Times."
         }
       ],
       "involved": [
-        "IRN"
+        "USA",
+        "QAT",
+        "ISR"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
       ],
       "context": [
         {
@@ -313,45 +267,51 @@
           "t": "War breaks out between America, Israel and Iran."
         },
         {
-          "d": "2026-10-12",
-          "t": "Cyber-attack on the fridges of some 700 French shops."
+          "d": "2026-09",
+          "t": "Iran proposes a seven-day plan to reopen Hormuz and resume talks."
         },
         {
-          "d": "2026-11",
-          "t": "A second wave of attacks hits more than 100 establishments in Europe."
+          "d": "2026-11-03",
+          "t": "Midterm elections, lost by the Republicans."
         },
         {
-          "d": "2026-11-09",
-          "t": "Paris blames the Revolutionary Guards and summons Iran's ambassador."
+          "d": "2026-11-10",
+          "t": "Marco Rubio rules out new major operations; three tankers ablaze, according to the Guards."
         },
         {
-          "d": "2026-11-16",
-          "t": "Meeting of EU foreign ministers."
+          "d": "2026-11-11",
+          "t": "Iran's army reports a tanker on fire after striking a mine."
         }
       ],
       "sources": [
         {
-          "name": "Euronews",
-          "title": "France says Iran behind cyberattacks on supermarket fridges",
-          "url": "https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges",
-          "date": "2026-11-09"
+          "name": "Reuters, via Al-Monitor",
+          "title": "Rubio says no need for major combat operations against Iran given US economic campaign",
+          "url": "https://www.al-monitor.com/originals/2026/11/rubio-says-no-need-major-combat-operations-against-iran-given-us-economic",
+          "date": "2026-11-10"
         },
         {
-          "name": "Associated Press, via WFTV",
-          "title": "France blames Iran",
-          "url": "https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/",
-          "date": "2026-11-09"
+          "name": "Al Jazeera",
+          "title": "Rubio backs blockade, Vance wants deal: Is Trump's team split on Iran war?",
+          "url": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran",
+          "date": "2026-11-11"
         },
         {
-          "name": "Reuters, via Khaleej Times",
-          "title": "France accuses IRGC of cyberattack on supermarket fridges",
-          "url": "https://www.khaleejtimes.com/world/france-accuses-irgc-cyberattack-supermarket-fridges",
-          "date": "2026-11-09"
+          "name": "Reuters, via Al-Monitor",
+          "title": "Rubio tells G7 US will keep imposing 'devastating' costs on Iran, diplomats say",
+          "url": "https://www.al-monitor.com/originals/2026/11/rubio-tells-g7-us-will-keep-imposing-devastating-costs-iran-diplomats-say",
+          "date": "2026-11-10"
         },
         {
-          "name": "Asharq Al-Awsat",
-          "title": "Iran rejects French accusations",
-          "url": "https://english.aawsat.com/node/5300441",
+          "name": "AFP, via Daily Tribune",
+          "title": "Tanker strikes mine, catches fire in Hormuz",
+          "url": "https://tribune.net.ph/2026/11/11/tanker-strikes-mine-catches-fire-in-hormuz",
+          "date": "2026-11-11"
+        },
+        {
+          "name": "Iran International",
+          "title": "Rubio tells G7 the US will keep imposing 'devastating' costs on Iran",
+          "url": "https://www.iranintl.com/en/202611107939",
           "date": "2026-11-10"
         }
       ],
@@ -359,545 +319,533 @@
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "france-accuses-iran-revolutionary-guards-sabotaging-fridges-700"
+      "slug": "america-bets-blockade-bring-iran-heel-tankers-burn"
     },
     {
       "rank": 3,
-      "id": "IDN",
-      "place": "Indonesia",
-      "section": "Asia-Pacific",
+      "id": "COD",
+      "place": "DR Congo",
+      "section": "Africa",
       "radar": false,
       "types": [
+        "disaster",
         "society"
       ],
-      "title": "Indonesia's vice-president, Gibran Rakabuming Raka, resigns amid doubts over his diplomas",
-      "standfirst": "The son of the former president Joko Widodo handed his resignation to President Prabowo Subianto on Wednesday, after court rulings found his school qualifications wanting. Parliament will then have 60 days to elect a successor.",
+      "title": "Ebola in DR Congo passes 11,000 confirmed cases and 5,300 deaths",
+      "standfirst": "Figures published on Tuesday by the Congolese government confirm an outbreak of exceptional scale, the second-largest ever recorded. No vaccine or treatment is approved against the Bundibugyo strain.",
       "body": [
-        "On Wednesday 11 November Indonesia's vice-president, Gibran Rakabuming Raka, handed his resignation to President Prabowo Subianto at a meeting at Halim Perdanakusuma air base in Jakarta, his ally Budi Arie Setiadi, chairman of the Projo organisation, confirmed to Reuters and the Antara news agency.",
-        "The son of the former president Joko Widodo had been under pressure since the Constitutional Court and then the Supreme Court ruled that his studies abroad did not meet the requirements for his candidacy in 2024, and 120 legislators had just filed a petition demanding his impeachment.",
-        "According to the senior law minister, Yusril Ihza Mahendra, Parliament must declare the post vacant and then, within 60 days, elect a successor from two names put forward by the president, an uncertainty that is weighing on investor confidence, Reuters notes."
+        "According to figures published by the Congolese government on Tuesday 10 November, the Ebola outbreak declared in mid-May in the east of the Democratic Republic of Congo now stands at 11,042 confirmed cases and 5,387 deaths, the worst in the country's history, Reuters and the AP report.",
+        "Caused by the Bundibugyo strain, for which no vaccine or treatment has been approved, it has reached eight of the country's 26 provinces, above all Ituri and North Kivu, where insecurity hampers access to treatment centres and many patients die at home, according to Reuters.",
+        "It is the second-largest Ebola outbreak on record, after West Africa's in 2014-2016, and the vaccine trial launched in Bunia at the end of October is not expected to produce results before 2027, while Kenya has recorded nine cases and Nigeria one imported case."
       ],
       "figure": {
-        "value": "60 days",
-        "label": "to elect a new vice-president",
-        "compare": "from two candidates put forward by the president, according to the government"
+        "value": "11,042",
+        "label": "confirmed Ebola cases in DR Congo as of 10 November",
+        "compare": "with 5,387 deaths, according to the Congolese government"
       },
-      "modules": {
-        "actors": {
-          "items": [
-            {
-              "name": "Gibran Rakabuming Raka",
-              "role": "Vice-president since 2024, son of Joko Widodo; handed in his resignation on 11 November.",
-              "source": {
-                "name": "Bernama",
-                "url": "https://www.bernama.com/en/world/news.php?id=2633025"
-              }
-            },
-            {
-              "name": "Budi Arie Setiadi",
-              "role": "Chairman of Projo, a Joko Widodo supporters' organisation; confirmed the resignation.",
-              "source": {
-                "name": "Bernama",
-                "url": "https://www.bernama.com/en/world/news.php?id=2633025"
-              }
-            },
-            {
-              "name": "Prabowo Subianto",
-              "role": "President; did not object to the request, according to his spokesman.",
-              "source": {
-                "name": "Reuters, via ThePrint",
-                "url": "https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/"
-              }
-            },
-            {
-              "name": "Prasetyo Hadi",
-              "role": "State secretary; announced the vice-president's intention to resign.",
-              "source": {
-                "name": "The Jakarta Post",
-                "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
-              }
-            },
-            {
-              "name": "Raja Juli Antoni",
-              "role": "Forestry minister; has stepped down as secretary-general of the PSI, the Widodo family's party.",
-              "source": {
-                "name": "The Jakarta Post",
-                "url": "https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran"
-              }
-            }
-          ]
-        },
-        "dates": {
-          "items": [
-            {
-              "d": "2026-10-30",
-              "t": "The Supreme Court annuls the certificate recognising Gibran's studies as equivalent.",
-              "source": {
-                "name": "The Jakarta Post",
-                "url": "https://www.thejakartapost.com/indonesia/2026/11/02/supreme-court-ruling-renews-calls-for-gibran-to-step-down"
-              }
-            },
-            {
-              "d": "2026-11-10",
-              "t": "Gibran says he intends to resign.",
-              "source": {
-                "name": "The Jakarta Post",
-                "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
-              }
-            },
-            {
-              "d": "2026-11-11",
-              "t": "Gibran hands his resignation to the president.",
-              "source": {
-                "name": "Reuters, via TimesLIVE",
-                "url": "https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/"
-              }
-            }
-          ]
-        }
-      },
-      "analysis": {
-        "title": "The rift between Prabowo and Widodo",
-        "text": "Beaten by Joko Widodo in 2014 and 2019, Prabowo Subianto enjoyed his tacit backing to succeed him, with his former rival's son as running-mate. The alliance is cracking. Last week three senior police officers were arrested over illegal wiretapping that targeted, among others, the president; they include the former national police chief Listyo Sigit Prabowo, a Widodo ally moved last month to the ceremonial post of presidential chief of staff, according to the Jakarta Post. Three officials of the PSI, chaired by the former president's younger son, Kaesang Pangarep, have left the party, pledging loyalty to the head of state. According to Reuters, Mr Widodo is said to be unhappy that Gibran was not defended against the judges."
-      },
-      "keys": [
-        {
-          "title": "The school record",
-          "text": "Acting on a petition from the lawyer Subhan Palal, the Supreme Court annulled the certificate that recognised his studies in Singapore and Australia as equivalent to an Indonesian high-school diploma. Mr Palal wants the vice-presidency declared vacant."
-        },
-        {
-          "title": "The precedent of 2023",
-          "text": "In 2023 the Constitutional Court allowed Gibran to stand despite the minimum age of 40, Reuters recalls. Its chief justice, the candidate's uncle, was later found by an ethics panel to have had a conflict of interest."
-        }
-      ],
-      "involved": [],
-      "context": [
-        {
-          "d": "2023-10",
-          "t": "The Constitutional Court clears the way for Gibran to stand despite his age."
-        },
-        {
-          "d": "2024-10-20",
-          "t": "Prabowo Subianto and Gibran Rakabuming Raka take office."
-        },
-        {
-          "d": "2026-10-30",
-          "t": "The Supreme Court annuls the certificate of equivalence for his studies."
-        },
-        {
-          "d": "2026-11",
-          "t": "Three senior police officers arrested over illegal wiretapping."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "Gibran says he intends to resign."
-        },
-        {
-          "d": "2026-11-11",
-          "t": "Gibran resigns; 120 legislators had demanded his impeachment."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Reuters, via TimesLIVE",
-          "title": "Indonesia's vice-president has resigned, aide says, stoking political uncertainty",
-          "url": "https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/",
-          "date": "2026-11-11"
-        },
-        {
-          "name": "Bernama",
-          "title": "Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says",
-          "url": "https://www.bernama.com/en/world/news.php?id=2633025",
-          "date": "2026-11-11"
-        },
-        {
-          "name": "The Jakarta Post",
-          "title": "Breaking: VP Gibran intends to resign, says state secretary",
-          "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary",
-          "date": "2026-11-10"
-        },
-        {
-          "name": "Reuters, via ThePrint",
-          "title": "Indonesia vice president expresses intention to resign, presidential official says",
-          "url": "https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/",
-          "date": "2026-11-10"
-        },
-        {
-          "name": "The Jakarta Post",
-          "title": "Ministers leave PSI as House sets to decide on Gibran",
-          "url": "https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran",
-          "date": "2026-11-10"
-        }
-      ],
-      "dossier": {
-        "id": "indonesia-vice-presidency-crisis",
-        "title": "Indonesia's vice-presidency crisis"
-      },
-      "slug": "indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts",
-      "updates": [
-        {
-          "time": "2026-11-11T19:45:03+01:00",
-          "text": "The vice-president handed in his resignation on Wednesday; headline, text, figure of the day and modules rewritten."
-        }
-      ]
-    },
-    {
-      "rank": 4,
-      "id": "HTI",
-      "place": "Haiti",
-      "section": "Americas",
-      "radar": false,
-      "types": [
-        "conflict",
-        "diplomacy"
-      ],
-      "title": "In Haiti, Salvadoran troops destroy the house of the 400 Mawozo gang's leader",
-      "standfirst": "El Salvador's president, Nayib Bukele, on Tuesday claimed the assault on the gang's headquarters in Croix-des-Bouquets, where its leader was absent. American diplomats complain that El Salvador is acting without co-ordinating with the UN-backed force.",
-      "body": [
-        "At around 2.30am on Sunday 8 November a drone unit of the Haitian police, backed by Salvadoran soldiers and helicopters, destroyed the house of Wilson Joseph, leader of the 400 Mawozo gang, in Croix-des-Bouquets near Port-au-Prince, described as his headquarters.",
-        "El Salvador's president, Nayib Bukele, who had vowed to raze the house, claimed the operation on Tuesday; it reportedly left about 20 dead according to the Miami Herald, a toll AFP could not confirm, and Wilson Joseph was absent, according to the Salvadoran press.",
-        "Haiti's prime minister, Alix Didier Fils-Aimé, praised El Salvador, but American diplomats complain that the 2,000 or so Salvadoran soldiers, most of them outside the UN-backed Gang Suppression Force, are not co-ordinating with it, according to Axios."
-      ],
-      "figure": {
-        "value": "≈ 2,000",
-        "label": "Salvadoran soldiers deployed in Haiti",
-        "compare": "in effect doubling the foreign contingent, according to AFP"
+      "since": {
+        "date": "2026-05-15",
+        "label": "since the outbreak was declared"
       },
       "modules": {
         "toll": {
           "items": [
             {
-              "value": "≈ 20",
-              "label": "dead in the assault on Wilson Joseph's house",
-              "by": "the Miami Herald, cited by AFP",
+              "value": "11,042",
+              "label": "confirmed cases in DR Congo",
+              "by": "the Congolese government, cited by Reuters",
               "date": "2026-11-10",
               "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
+                "name": "Reuters, via CNBC Africa",
+                "url": "https://www.cnbcafrica.com/2026/congos-ebola-cases-surpass-11000-government-data-show"
               }
             },
             {
-              "value": "≥ 5,700",
-              "label": "people killed or wounded by gang violence between 1 January and 11 September",
-              "by": "the UN High Commissioner for Human Rights, Volker Türk",
-              "date": "2026-10-02",
+              "value": "5,387",
+              "label": "deaths in DR Congo",
+              "by": "the Congolese government, cited by Reuters",
+              "date": "2026-11-10",
               "source": {
-                "name": "Africanews, avec AFP",
-                "name_en": "Africanews, with AFP",
-                "url": "https://www.africanews.com/amp/2026/10/02/at-least-5700-killed-wounded-in-haiti-gang-crisis-this-year-un/"
+                "name": "Reuters, via CNBC Africa",
+                "url": "https://www.cnbcafrica.com/2026/congos-ebola-cases-surpass-11000-government-data-show"
+              }
+            },
+            {
+              "value": "7,654",
+              "label": "confirmed cases in Ituri province alone",
+              "by": "the European Centre for Disease Prevention and Control",
+              "date": "2026-11-09",
+              "source": {
+                "name": "ECDC",
+                "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10"
+              }
+            },
+            {
+              "value": "9",
+              "label": "confirmed cases in Kenya, two of them fatal",
+              "by": "the WHO",
+              "date": "2026-11-03",
+              "source": {
+                "name": "OMS",
+                "name_en": "WHO",
+                "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625"
               }
             }
-          ],
-          "note": "The toll from the assault has not been independently confirmed."
+          ]
         },
         "places": {
           "items": [
             {
-              "name": "Croix-des-Bouquets",
+              "name": "Bunia (Ituri)",
               "coords": [
-                -72.227,
-                18.576
+                30.25,
+                1.56
               ],
-              "note": "House of Wilson Joseph, described as the headquarters of 400 Mawozo, destroyed on 8 November."
+              "note": "Capital of Ituri, the worst-hit province; the Tumaini vaccine trial began here on 23 October."
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
-          }
-        },
-        "sides": {
-          "groups": [
-            {
-              "name": "Haitian state and foreign forces",
-              "lead": "Alix Didier Fils-Aimé",
-              "ids": [
-                "HTI",
-                "SLV"
-              ],
-              "note": "Haitian police, the UN-backed Gang Suppression Force and Salvadoran soldiers, most of them deployed outside that framework."
-            },
-            {
-              "name": "Armed gangs",
-              "ids": [
-                "HTI"
-              ],
-              "note": "Including 400 Mawozo, led by Wilson Joseph, one of the country's biggest gangs."
-            }
-          ],
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
+            "name": "OMS",
+            "name_en": "WHO",
+            "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625"
           }
         },
         "help": {
           "orgs": [
             "msf",
             "unicef",
-            "wfp"
+            "ifrc"
           ]
+        },
+        "impact": {
+          "text": "For people living in the European Union, the European Centre for Disease Prevention and Control rates the risk of infection as “very low”; it remains “low” for those living in or travelling to the affected areas, from which a few sick health workers have been flown home.",
+          "source": {
+            "name": "ECDC",
+            "url": "https://www.ecdc.europa.eu/en/ebola-disease-multi-country-outbreak-2026"
+          }
         }
       },
       "analysis": {
-        "title": "An intervention outside the UN framework",
-        "text": "El Salvador sent its first special forces on 22 October, after an ambush on 18 October in Croix-des-Bouquets against four Salvadoran aviation technicians serving with the UN-backed force, who have been missing ever since, according to the AP. The contingent now numbers about 2,000 soldiers, whereas the Gang Suppression Force had only just over 2,000 members in October out of a planned 5,500. Presented at first as a recovery mission, the operation now aims, according to Nayib Bukele, to eliminate the gangs. Amnesty International wants the deployment agreement published and any abuses investigated. Before the assault, 400 Mawozo had approached Haiti's disarmament commission to open negotiations."
+        "title": "An outbreak outrunning the response",
+        "text": "According to the WHO, 512 people died between 21 October and 3 November, 335 of them outside treatment centres, a sign that many patients are slipping through the health system. Daily follow-up of contacts reached only 86%, short of the 95% target, and transmission remained active in 51 health zones. The organisation, which declared the outbreak a public-health emergency of international concern as early as 17 May, reports serious funding gaps. The fatality rate, close to 49%, is in line with that of a 2012 outbreak in DR Congo caused by the same strain. The Tumaini trial is testing, among others, two vaccines designed against the Bundibugyo virus, one by the University of Oxford and one by Moderna."
       },
       "keys": [
         {
-          "title": "Washington's misgivings",
-          "text": "On 4 November the American chargé d'affaires in Haiti, David Howell, asked the prime minister to have El Salvador suspend its operations until co-ordination improved, according to EFE, citing Axios. San Salvador rejected his complaints and questioned his credibility."
+          "title": "Ituri and North Kivu",
+          "text": "As of 9 November Ituri had recorded 7,654 cases and 3,613 deaths, and North Kivu 2,720 cases and 1,488 deaths, according to the European Centre for Disease Prevention and Control. Both eastern provinces are also the scene of armed conflicts."
         },
         {
-          "title": "The political calendar",
-          "text": "Haiti plans elections in July and October 2027, its first in more than a decade, according to Al Jazeera. Alix Didier Fils-Aimé is due to visit El Salvador next week."
+          "title": "Beyond the borders",
+          "text": "Uganda overcame its outbreak this summer, after 20 cases. Kenya has recorded no new case since 19 October, and the patient diagnosed in Nigeria was evacuated to Geneva."
         }
       ],
       "involved": [
-        "SLV",
-        "USA"
+        "UGA",
+        "KEN",
+        "NGA"
       ],
       "context": [
         {
-          "d": "2026-02-07",
-          "t": "The Transitional Presidential Council's mandate ends; Alix Didier Fils-Aimé alone heads the executive."
+          "d": "2026-05-15",
+          "t": "Outbreak declared, caused by the Bundibugyo strain."
         },
         {
-          "d": "2026-10-18",
-          "t": "Four Salvadoran technicians go missing in an ambush in Croix-des-Bouquets."
+          "d": "2026-05-17",
+          "t": "The WHO declares a public-health emergency of international concern."
         },
         {
-          "d": "2026-10-22",
-          "t": "The first Salvadoran special forces arrive."
+          "d": "2026-10-20",
+          "t": "An imported case reported in Nigeria."
         },
         {
-          "d": "2026-11-06",
-          "t": "400 Mawozo approaches the disarmament commission."
+          "d": "2026-10-23",
+          "t": "The Tumaini vaccine trial begins in Bunia."
         },
         {
-          "d": "2026-11-08",
-          "t": "Wilson Joseph's house destroyed in an assault backed by El Salvador."
+          "d": "2026-11-10",
+          "t": "More than 11,000 confirmed cases, according to the Congolese government."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
-          "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead",
-          "date": "2026-11-10"
+          "name": "Reuters, via CNBC Africa",
+          "title": "Congo's Ebola cases surpass 11,000, government data show",
+          "url": "https://www.cnbcafrica.com/2026/congos-ebola-cases-surpass-11000-government-data-show",
+          "date": "2026-11-11"
         },
         {
-          "name": "AFP, via Yahoo",
-          "title": "Haiti PM hails Bukele and Salvadoran troops",
-          "url": "https://www.yahoo.com/news/world/articles/haiti-pm-hails-bukele-salvadoran-235500837.html",
-          "date": "2026-11-10"
+          "name": "Associated Press, via Local 10",
+          "title": "Ebola tops 11,000 cases in Congo's deadliest outbreak",
+          "url": "https://www.local10.com/news/world/2026/11/11/ebola-tops-11000-cases-in-congos-deadliest-outbreak/",
+          "date": "2026-11-11"
         },
         {
-          "name": "EFE, via El Diario de Hoy",
-          "title": "Gobierno de EE. UU. cuestiona la misión de Bukele en Haití, según Axios",
-          "url": "https://www.eldiariodehoy.com/noticias/nacionales/gobierno-ee-uu-cuestiona-la-mision-de-bukele-en-haiti-segun-axios/100055/2026/",
-          "date": "2026-11-10"
+          "name": "AllAfrica",
+          "title": "Congo Ebola Cases Surpass 11,000 As Death Toll Reaches 5,387",
+          "url": "https://allafrica.com/stories/202611120020.html",
+          "date": "2026-11-11"
         },
         {
-          "name": "Associated Press, via AJC",
-          "title": "El Salvador deploys special forces to Haiti to help find 4 missing soldiers who came under attack",
-          "url": "https://www.ajc.com/news/2026/10/el-salvador-deploys-special-forces-to-haiti-to-help-find-4-missing-soldiers-who-came-under-attack/",
-          "date": "2026-10-23"
+          "name": "OMS",
+          "name_en": "WHO",
+          "title": "Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "ECDC",
+          "title": "Ebola disease outbreak caused by Bundibugyo virus – Multi-country – 2026",
+          "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10",
+          "date": "2026-11-10"
         }
       ],
       "dossier": {
-        "id": "haiti-crisis",
-        "title": "The crisis in Haiti"
+        "id": "ebola-drc",
+        "title": "The Ebola outbreak in DR Congo"
       },
-      "slug": "haiti-salvadoran-troops-destroy-house-400-mawozo-gang"
+      "slug": "ebola-dr-congo-passes-11-000-confirmed-cases"
     },
     {
-      "rank": 5,
-      "id": "NER",
-      "place": "Niger",
-      "section": "Africa",
-      "radar": true,
+      "rank": 4,
+      "id": "TUR",
+      "place": "Turkey",
+      "section": "International",
+      "radar": false,
       "types": [
-        "society",
-        "conflict"
+        "diplomacy",
+        "society"
       ],
-      "title": "Niger has taken in nearly 64,000 refugees from Nigeria since January, says the UNHCR",
-      "standfirst": "Jihadist and criminal violence in northern Nigeria is driving tens of thousands of people into a drought-stricken neighbour. For lack of money, only 5% of the new arrivals have been registered.",
+      "title": "At COP31, António Guterres urges world leaders to be done with fossil fuels",
+      "standfirst": "Addressing the leaders' summit in Antalya, the UN secretary-general said a temporary overshoot of 1.5°C was now inevitable. He wants an end to new coal, oil and gas projects.",
       "body": [
-        "On Tuesday 10 November the UN refugee agency (UNHCR) said that nearly 64,000 people had fled northern Nigeria for Niger since the start of the year, and several hundred more for Benin, driven out by Boko Haram, Islamic State West Africa and criminal gangs.",
-        "Most settle in the border regions of Diffa, which accounts for more than 70% of the security incidents recorded in Niger this year, and Tahoua, where they lack food, water and shelter, while malnutrition and respiratory infections are spreading.",
-        "The UNHCR is appealing for $11.4m for Niger, Nigeria and Benin, at a time when Niger was already hosting more than 500,000 refugees and asylum-seekers and drought threatens the harvests of some 700 of the region's 1,000 villages."
+        "On Wednesday 11 November, addressing the COP31 leaders' summit in Antalya, Turkey, the UN secretary-general, António Guterres, said that overshooting the 1.5°C warming threshold was “now inevitable” and called for an end to all new coal, oil and gas projects.",
+        "Global emissions would need to fall by about 6% a year, whereas national plans deliver a third of that at best and point to more than 2.5°C of warming by the end of the century, he said, before proposing a tax on oil companies' windfall profits.",
+        "Brazil's president, Luiz Inácio Lula da Silva, lamented that climate had vanished from G7 and G20 speeches, Iran's Masoud Pezeshkian demanded compensation for the environmental damage done by wars, and the negotiations, led by Australia, are due to end on 20 November."
       ],
       "figure": {
-        "value": "≈ 64,000",
-        "label": "refugees arriving in Niger from Nigeria since January",
-        "compare": "including more than 23,000 in the Diffa region"
+        "value": "> 2.5°C",
+        "label": "of warming by 2100 if national plans are carried out",
+        "compare": "against the 1.5°C goal of the Paris agreement"
       },
       "modules": {
-        "toll": {
-          "items": [
+        "table": {
+          "ids": [
+            "TUR",
+            "AUS",
+            "BRA",
+            "CHN"
+          ],
+          "host": "TUR",
+          "positions": [
             {
-              "value": "≈ 64,000",
-              "label": "people who have fled Nigeria for Niger since January 2026",
-              "by": "the UNHCR",
-              "date": "2026-11-10",
-              "source": {
-                "name": "ONU Info",
-                "name_en": "UN News",
-                "url": "https://news.un.org/en/story/2026/11/1168779"
-              }
+              "who": "António Guterres",
+              "wants": "No new coal and no new oil or gas infrastructure, and at least $300bn a year in climate finance by 2035."
             },
             {
-              "value": "> 23,000",
-              "label": "arrivals in the Diffa region since January, more than two-thirds of them children",
-              "by": "the UNHCR",
-              "date": "2026-11-10",
-              "source": {
-                "name": "Reuters, via TimesLIVE",
-                "url": "https://www.timeslive.co.za/news/africa/2026-11-10-11112026wop5-filler/"
-              }
+              "who": "China",
+              "wants": "“Common but differentiated” responsibilities: rich countries should cut their emissions first and keep their finance promises, according to its vice-president, Han Zheng."
             },
             {
-              "value": "≈ 327,500",
-              "label": "Nigerian refugees already hosted in Niger before 2026",
-              "by": "the UNHCR",
-              "date": "2026-11-10",
-              "source": {
-                "name": "ONU Info",
-                "name_en": "UN News",
-                "url": "https://news.un.org/en/story/2026/11/1168779"
-              }
+              "who": "European Union",
+              "wants": "A global commitment to electrification, championed by the president of the European Commission, Ursula von der Leyen."
+            },
+            {
+              "who": "Maldives",
+              "wants": "New and predictable climate finance, paid as grants, according to President Mohamed Muizzu."
             }
-          ]
+          ],
+          "next": {
+            "d": "2026-11-20",
+            "t": "Negotiations scheduled to close."
+          },
+          "source": {
+            "name": "Reuters, via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
+          }
         },
         "places": {
           "items": [
             {
-              "name": "Diffa",
+              "name": "Antalya",
               "coords": [
-                12.61,
-                13.32
+                30.71,
+                36.9
               ],
-              "note": "More than 23,000 arrivals since January, about 1,200 of them in October."
-            },
-            {
-              "name": "Tahoua",
-              "coords": [
-                5.27,
-                14.89
-              ],
-              "note": "About 3,400 arrivals in October."
+              "note": "Host city of COP31 and of the leaders' summit on 11 and 12 November."
             }
           ],
           "source": {
-            "name": "ONU Info",
-            "name_en": "UN News",
-            "url": "https://news.un.org/en/story/2026/11/1168779"
+            "name": "ONU Climat",
+            "name_en": "UN Climate Change",
+            "url": "https://unfccc.int/news/transcript-of-remarks-made-by-un-secretary-general-antonio-guterres-to-the-cop31-leaders-summit"
           }
-        },
-        "help": {
-          "orgs": [
-            "unhcr",
-            "wfp",
-            "unicef"
-          ]
         }
       },
       "analysis": {
-        "title": "One crisis on top of others",
-        "text": "Niger, already home to more than 500,000 refugees and asylum-seekers, some 327,500 of them Nigerians, is battling drought at the same time: about 70% of its pastureland has been lost, according to UN News. For lack of funds, only 5% of this year's arrivals have been registered, which makes delivering aid harder. Women walk several kilometres to find water, and children who come from Nigeria's English-language school system struggle to find a place in class. The UNHCR praises the solidarity of the authorities and host communities, who have provided land among other things. Its spokeswoman, Dominique Hyde, warns that without more money thousands of families risk losing essential help."
+        "title": "The numbers of a farewell speech",
+        "text": "António Guterres, who leaves office next year, set two realities side by side. On one hand, emissions hit a record in 2025 and the past four years were the hottest ever measured. On the other, solar power met nearly three-quarters of the growth in global electricity demand last year, and almost one car in three sold this year will be electric. He pointed out that the nine biggest oil companies made $95bn in profits in the last quarter, while the loss-and-damage fund has received only about $600m. He proposes a “climate justice pact” built on a just transition, protecting people, finance and co-operation."
       },
       "keys": [
         {
-          "title": "Northern Nigeria under fire",
-          "text": "On 23 October at least 62 people were killed by armed bandits in Binnari, in Taraba state, according to the AP. The north-east remains the theatre of the insurgency waged by Boko Haram and Islamic State West Africa."
+          "title": "The Turkish host",
+          "text": "Turkey's president, Recep Tayyip Erdoğan, pleaded for more solidarity in the face of wars, crises and migration. Turkey is hosting the conference, while Australia is leading the negotiations."
         },
         {
-          "title": "What is needed",
-          "text": "The UNHCR has launched an emergency appeal for $2m, part of its $11.4m request. New arrivals live in makeshift shelters, with limited access to water and sanitation."
+          "title": "The solar pledges",
+          "text": "Australia, Bangladesh, Kenya, Nigeria and Vanuatu have signed a declaration that aims to double, by 2030, the number of households with rooftop solar panels, according to the AP."
         }
       ],
       "involved": [
-        "NGA",
-        "BEN"
+        "AUS",
+        "BRA",
+        "CHN",
+        "IRN"
       ],
       "context": [
         {
-          "d": "2023-07-26",
-          "t": "Military coup in Niger."
+          "d": "2015-12-12",
+          "t": "Adoption of the Paris agreement, which aims to limit warming to 1.5°C."
         },
         {
-          "d": "2026-01",
-          "t": "Start of the refugee influx counted by the UNHCR this year."
+          "d": "2026-11-09",
+          "t": "COP31 opens in Antalya."
         },
         {
-          "d": "2026-10",
-          "t": "About 1,200 arrivals in Diffa and 3,400 in Tahoua in a single month."
+          "d": "2026-11-11",
+          "t": "The leaders' summit opens; António Guterres calls for an exit from fossil fuels."
         },
         {
-          "d": "2026-10-23",
-          "t": "At least 62 killed in a bandit attack on Binnari, in Nigeria."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "The UNHCR warns of nearly 64,000 arrivals in Niger since January."
+          "d": "2026-11-20",
+          "t": "The conference is scheduled to close."
         }
       ],
       "sources": [
         {
-          "name": "ONU Info",
-          "name_en": "UN News",
-          "title": "Nearly 64,000 people flee Nigeria for Niger",
-          "url": "https://news.un.org/en/story/2026/11/1168779",
-          "date": "2026-11-10"
+          "name": "ONU Climat",
+          "name_en": "UN Climate Change",
+          "title": "Transcript of remarks made by UN Secretary-General António Guterres to the COP31 Leaders' Summit",
+          "url": "https://unfccc.int/news/transcript-of-remarks-made-by-un-secretary-general-antonio-guterres-to-the-cop31-leaders-summit",
+          "date": "2026-11-11"
         },
         {
-          "name": "Reuters, via TimesLIVE",
-          "title": "Violence in northern Nigeria drives tens of thousands into Niger",
-          "url": "https://www.timeslive.co.za/news/africa/2026-11-10-11112026wop5-filler/",
-          "date": "2026-11-10"
+          "name": "Reuters, via Al-Monitor",
+          "title": "World leaders speak at COP31 climate conference",
+          "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference",
+          "date": "2026-11-11"
         },
         {
-          "name": "Associated Press, via KSAT",
-          "title": "At least 62 people killed in attack on a community in northeastern Nigeria",
-          "url": "https://www.ksat.com/news/world/2026/10/27/at-least-62-people-killed-in-attack-on-a-community-in-northeastern-nigeria/",
-          "date": "2026-10-27"
+          "name": "Business Recorder",
+          "title": "Leaders warn COP31: War, conflict must not distract from climate action",
+          "url": "https://www.brecorder.com/news/40448508/leaders-warn-cop31-war-conflict-must-not-distract-from-climate-action",
+          "date": "2026-11-11"
         }
       ],
       "dossier": {
-        "id": "nigeria-niger-refugees",
-        "title": "Refugees from Nigeria in Niger"
+        "id": "cop31",
+        "title": "COP31 in Antalya"
       },
-      "slug": "niger-has-taken-nearly-64-000-refugees-nigeria"
+      "slug": "cop31-antonio-guterres-urges-world-leaders-be-done"
+    },
+    {
+      "rank": 5,
+      "id": "ETH",
+      "place": "Ethiopia",
+      "section": "Africa",
+      "radar": true,
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "title": "In northern Tigray, Ethiopia's army and Eritrean forces are reported to be clashing around Badme",
+      "standfirst": "Having retaken most of Tigray in October, the federal army is pushing towards the Eritrean border. Addis Ababa accuses Asmara of invasion; Asmara calls that a pretext for war.",
+      "body": [
+        "On Monday 9 November Ethiopia's federal army and Eritrean forces reportedly clashed around Badme, a long-disputed border town, according to observers cited by the Critical Threats Project, which could not confirm it, after the Ethiopian army took Sheraro and Adi Awala on 3 November.",
+        "Since late September federal troops, allied with a breakaway Tigrayan faction, have been fighting the forces of the Tigray People's Liberation Front, and Addis Ababa accuses Eritrea of an “invasion” reaching 60km into Tigray, which Asmara portrays as a pretext for a war of aggression.",
+        "The prime minister, Abiy Ahmed, who regards his country's access to the Red Sea as inevitable, installed an interim government in Tigray in mid-October, while Chinese envoys were received in Addis Ababa in early November and then by Eritrea's president, Isaias Afwerki, in an effort to avert open war."
+      ],
+      "figure": {
+        "value": "60km",
+        "label": "depth of the Eritrean incursion into Tigray, according to Addis Ababa",
+        "compare": "a charge laid before the UN Security Council"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Badme",
+              "coords": [
+                37.8,
+                14.73
+              ],
+              "note": "Border town at the heart of the 1998-2000 war; clashes reported on 9 November, unconfirmed."
+            },
+            {
+              "name": "Sheraro",
+              "coords": [
+                37.77,
+                14.4
+              ],
+              "note": "Taken by the Ethiopian army on 3 November, according to ACLED."
+            },
+            {
+              "name": "Mekelle",
+              "coords": [
+                39.47,
+                13.5
+              ],
+              "note": "Capital of Tigray, under a curfew imposed by the army on 5 November."
+            }
+          ],
+          "source": {
+            "name": "Critical Threats Project",
+            "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-10-2026"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Federal government",
+              "lead": "Abiy Ahmed",
+              "ids": [
+                "ETH"
+              ],
+              "note": "Federal army, allied with the Tigray Peace Force, a breakaway faction."
+            },
+            {
+              "name": "Tigray Defence Forces",
+              "ids": [
+                "ETH"
+              ],
+              "note": "Armed wing of the Tigray People's Liberation Front (TPLF)."
+            },
+            {
+              "name": "Eritrea",
+              "lead": "Isaias Afwerki",
+              "ids": [
+                "ERI"
+              ],
+              "note": "Accused by Addis Ababa of occupying part of Tigray and backing the rebels; denies it."
+            }
+          ],
+          "mediators": [
+            {
+              "id": "CHN",
+              "note": "envoys received in Addis Ababa and Asmara from 3 to 5 November"
+            }
+          ],
+          "source": {
+            "name": "Critical Threats Project",
+            "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026"
+          }
+        }
+      },
+      "analysis": {
+        "title": "The Red Sea in the background",
+        "text": "Eritrea has accused Ethiopia of preparing a war of aggression ever since Abiy Ahmed laid claim, in 2023, to access to the sea, notably via the Eritrean port of Assab. Returned to power in October, the prime minister has repeated that such access is “only a matter of time”. In October the federal army retook Shire, Axum, Adwa, Adigrat and then Zalambessa, held by Eritrea since 2022, according to the Critical Threats Project. Ethiopia's foreign minister, Gedion Timothewos, has taken the matter to the Security Council; his Eritrean counterpart said the letter amounted to a declaration of war. The two countries already fought each other from 1998 to 2000, in a border war that killed tens of thousands."
+      },
+      "keys": [
+        {
+          "title": "Tigray under supervision",
+          "text": "Installed on 16 October, Tigray's interim government brings together figures backed by Addis Ababa. More than 5,000 former Tigrayan fighters are going through a disarmament programme in Mekelle, according to state media."
+        },
+        {
+          "title": "The other fronts",
+          "text": "The army is also fighting Fano militias in Amhara, where it retook several towns in early November. Sudan, for its part, accuses Ethiopia of letting the Rapid Support Forces launch drones from its territory."
+        }
+      ],
+      "involved": [
+        "ERI",
+        "SDN"
+      ],
+      "context": [
+        {
+          "d": "1998-05",
+          "t": "The Ethiopia-Eritrea border war breaks out, around Badme."
+        },
+        {
+          "d": "2026-09",
+          "t": "Fighting resumes between the federal army and Tigrayan forces."
+        },
+        {
+          "d": "2026-10-09",
+          "t": "Addis Ababa accuses Eritrea of invasion before the Security Council."
+        },
+        {
+          "d": "2026-10-16",
+          "t": "An interim government is installed in Tigray."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "The Ethiopian army takes Sheraro, near the border."
+        },
+        {
+          "d": "2026-11-09",
+          "t": "Clashes reported around Badme."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Critical Threats Project",
+          "title": "Ethiopia War Security Review, November 10, 2026",
+          "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-10-2026",
+          "date": "2026-11-10"
+        },
+        {
+          "name": "Critical Threats Project",
+          "title": "Ethiopia War Security Review, November 6, 2026",
+          "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026",
+          "date": "2026-11-06"
+        },
+        {
+          "name": "Critical Threats Project",
+          "title": "Ethiopia Reaches Eritrean Border; M23 Rebrands With Kabila: Africa File, October 15, 2026",
+          "url": "https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-drc-m23-fln-kabila-rwanda-jnim-issp",
+          "date": "2026-10-15"
+        },
+        {
+          "name": "The Reporter",
+          "title": "Ethiopia Accuses Eritrea Of Military Incursions Across Three Tigray Zones",
+          "url": "https://www.thereporterethiopia.com/53378/",
+          "date": "2026-10-10"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Ethiopia announces instalment of interim government in Tigray",
+          "url": "https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray",
+          "date": "2026-10-16"
+        }
+      ],
+      "dossier": {
+        "id": "ethiopia-tigray-eritrea",
+        "title": "Ethiopia, Tigray and Eritrea"
+      },
+      "slug": "northern-tigray-ethiopia-army-eritrean-forces-reported-be"
     }
   ],
   "brief": [
     {
-      "id": "HUN",
-      "place": "Hungary",
-      "text": "Áron Orbán, brother of the former prime minister Viktor Orbán, was detained on Monday in a people-smuggling investigation, the prime minister, Péter Magyar, announced; Viktor Orbán decries a “dirty game”.",
-      "url": "https://www.euronews.com/2026/11/09/viktor-orbans-brother-reportedly-detained-over-suspected-people-smuggling"
+      "id": "ISR",
+      "place": "Israel",
+      "text": "Israel's new Knesset was sworn in on Tuesday; Gadi Eisenkot, a former army chief of staff who has six weeks to form a government, promises to undo much of the policy of the outgoing prime minister, Benjamin Netanyahu.",
+      "url": "https://www.durangoherald.com/articles/associated-press/eisenkot-unveils-agenda-to-reverse-netanyahus-policies-as-israels-new-parliament-is-sworn-in/"
     },
     {
-      "id": "TUR",
-      "place": "Turkey",
-      "text": "An explosion and fire killed six people and injured 13 on Monday at the Habaş steelworks in Aliağa, in Izmir province, where rescuers were searching for eight missing workers; an investigation has been opened.",
-      "url": "https://morningstaronline.co.uk/article/world-brief-november-10-2026"
+      "id": "ITA",
+      "place": "Italy",
+      "text": "At least 300 schools were evacuated on Wednesday after emailed bomb threats, which also targeted the prime minister, Giorgia Meloni; the education minister, Giuseppe Valditara, sees in them “a strategy”.",
+      "url": "https://www.euronews.com/2026/11/11/at-least-300-schools-in-italy-evacuated-after-emailed-bomb-threats"
     },
     {
-      "id": "PRY",
-      "place": "Paraguay",
-      "text": "State-school teachers have gone on strike after the collapse of Ueno bank, where some $60m of their pension funds had reportedly been deposited, according to their union leader, Silvio Piris.",
-      "url": "https://www.wftv.com/news/business/teachers-strike/ZNKFQUMYPYZE7A32P5ZAAAQRI4/"
+      "id": "TTO",
+      "place": "Trinidad and Tobago",
+      "text": "The Judicial Committee of the Privy Council in London, the country's highest court of appeal, unanimously struck down colonial-era laws criminalising gay sex on Tuesday, ending a case brought by Jason Jones in 2017.",
+      "url": "https://jamaica-gleaner.com/article/world-news/20261111/privy-council-rules-gay-sex-not-crime-trinidad-and-tobago"
     }
   ],
   "agenda": [
     {
-      "d": "2026-11-11",
-      "t": "Second day of the Abu Dhabi talks; COP31 leaders' summit in Antalya, until the 12th; independence day in Poland."
-    },
-    {
       "d": "2026-11-12",
-      "t": "America's envoys Jared Kushner and Steve Witkoff received by Vladimir Putin in Moscow."
+      "t": "Steve Witkoff and Jared Kushner received by Vladimir Putin in Moscow; COP31 leaders' summit ends."
     },
     {
       "d": "2026-11-16",
@@ -905,7 +853,7 @@
     },
     {
       "d": "2026-11-18",
-      "t": "Closed-door hearing for Jensen Huang requested by the House of Representatives; APEC summit in Shenzhen."
+      "t": "APEC summit in Shenzhen."
     },
     {
       "d": "2026-11-20",
@@ -917,18 +865,19 @@
     }
   ],
   "consulted": [
-    "Associated Press",
     "Reuters",
+    "Associated Press",
     "AFP",
     "Al Jazeera",
+    "CBS News",
+    "Al-Monitor",
     "Euronews",
-    "PBS",
-    "The Jakarta Post",
-    "UN News",
-    "EFE",
-    "Meduza",
-    "Foreign Exchanges",
+    "WHO",
+    "ECDC",
+    "UN Climate Change",
+    "Critical Threats Project",
+    "Human Rights Watch",
     "Just Security",
-    "Morning Star"
+    "Iran International"
   ]
 }

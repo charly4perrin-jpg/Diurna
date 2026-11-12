@@ -1,127 +1,123 @@
-# Diurna — No. 7 — Wednesday, 11 November 2026
+# Diurna — No. 8 — Thursday, 12 November 2026
 
-> Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
+> Donald Trump’s envoys are due to see Vladimir Putin, a day after a prisoner deal
 
-The American-brokered talks ended on Wednesday with no progress on territory, and America’s envoys are due in Moscow on Thursday. France blames Iran’s Revolutionary Guards for sabotaging 700 shops, Indonesia’s vice-president resigns, Salvadoran troops strike a Haitian gang and Niger takes in refugees from Nigeria.
+Steve Witkoff and Jared Kushner are expected at the Kremlin on Thursday, after the Abu Dhabi talks. America is betting on its blockade to bend Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
+## 1. Ukraine — Donald Trump’s envoys are due to see Vladimir Putin, a day after a prisoner deal
 
-**The American-brokered talks ended on Wednesday with an agreement in principle covering more than 1,000 prisoners on each side, according to Moscow. Nothing moved on territory, and America’s envoys are expected at the Kremlin on Thursday.**
+**Steve Witkoff and Jared Kushner are to be received at the Kremlin on Thursday morning, before meeting Volodymyr Zelensky in Dublin. The night before, stray drones set off alerts in all three Baltic states.**
 
-On Wednesday 11 November, after a second session of under two hours in Abu Dhabi, Russia and Ukraine announced an agreement in principle on a large prisoner exchange, which the Russian general Alexander Zorin says will be the biggest of the war, with more than 1,000 people on each side, according to TASS. Ukraine’s chief negotiator, Rustem Umerov, called the swap the “main result” of the talks, but nothing moved on territory: Russia’s negotiator, Vladimir Medinsky, repeated that Moscow would recover “every inch” of the land it claims, while Kyiv still insists on a ceasefire first. The American envoys Jared Kushner and Steve Witkoff are due to meet Vladimir Putin in Moscow on Thursday and then Volodymyr Zelensky in Dublin, and the exchange, whose numbers are to be settled on Thursday, could take place within two or three weeks, the Russian side told the AP.
+On Thursday 12 November America’s envoys, Steve Witkoff and Jared Kushner, are due to be received by Vladimir Putin at the Kremlin in the morning, his foreign-policy adviser, Yuri Ushakov, said, after two days of talks in Abu Dhabi ended in a prisoner-exchange deal whose numbers are to be settled on Thursday. Moscow says it expects the Americans to “bring something”, but Vladimir Putin still demands recognition of his conquests in eastern Ukraine, while Volodymyr Zelensky refuses to give up the Donbas in return for security guarantees that fall short of NATO membership, the AP reports. The two envoys are then expected to meet Ukraine’s president in Dublin, as the war spills over: on the night of 10-11 November, drones that strayed during Ukrainian strikes on Russia led Lithuania, Latvia and Estonia to tell residents to take shelter, according to Reuters.
 
-**The number :** > 1,000 — prisoners on each side covered by the announced exchange
+**The number :** 4 — drones detected overnight over the Baltic states, according to Vilnius
 
-### The outline of a compromise
+### The Baltic, the war’s blind spot
 
-An American official quoted by Al Jazeera says both sides have privately shown some flexibility over the occupied territories; Russia controls about 20% of Ukraine and Vladimir Putin wants the whole of the Donbas. The security guarantees under discussion for Kyiv could take the form of a defence commitment modelled on Article 5 of the North Atlantic Treaty. Before the session, the Ukrainian delegation met representatives of Britain, France, Germany, Italy, NATO and the European Commission, whom Moscow refuses to admit to the talks. Germany’s chancellor, Friedrich Merz, says he has no “excessive expectations”, and an analyst at the Center for European Policy Analysis expects no deal at all.
-
-- _What changed 19:45_ : The talks ended with a prisoner-exchange deal but no breakthrough; headline, text, figure and timetable rewritten.
+Ukraine’s strikes on Russia’s Baltic oil ports regularly spill over into neighbouring countries: Ukrainian drones have already strayed into Finland, Estonia, Latvia and Lithuania, Reuters notes. Moscow accuses Kyiv of using NATO airspace as cover; Kyiv says Russian jamming knocks its drones off course. On the night of 10-11 November an attempt was made to shoot down a drone over northern Lithuania, and debris from a NATO missile was found on the ground, though it is unclear whether the drone was hit. Finland, for its part, temporarily restricted its airspace and waters in the eastern Gulf of Finland.
 
 Sources :
-- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
+- [CBS News, avec AP — U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory](https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/)
+- [Reuters, via Cyprus Mail — NATO jets scrambled as drone alerts sweep Baltic states](https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states)
 - [Associated Press, via KPBS — Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough](https://www.kpbs.org/news/international/2026/11/11/russia-and-ukraine-agree-to-a-prisoner-exchange-as-talks-end-with-no-big-breakthrough)
-- [The Moscow Times — Abu Dhabi Talks End With Prisoner Exchange But No Peace Breakthrough](https://themoscowtimes.com/2026/11/11/abu-dhabi-talks-end-with-prisoner-exchange-but-no-peace-breakthrough-a94227)
-- [Al Jazeera — Russia, Ukraine and US to meet as Zelenskyy claims battlefield successes](https://www.aljazeera.com/news/2026/11/10/russia-ukraine-and-us-to-meet-as-zelenskyy-claims-battlefield-successes)
-- [Associated Press, via PBS — Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi](https://www.pbs.org/newshour/world/russia-and-ukraine-hold-nearly-4-hours-of-u-s-mediated-talks-in-abu-dhabi)
+- [The Kyiv Independent — ’Large-scale’ prisoner exchange agreed as 2nd day of Abu Dhabi talks concludes, Umerov says](https://kyivindependent.com/large-scale-prisoner-exchange-agreed-as-2nd-day-of-abu-dhabi-talks-concludes-umerov-says/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/abu-dhabi-first-day-talks-that-kyiv-washington/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/donald-trump-envoys-due-see-vladimir-putin-day/
 
-## 2. France — France accuses Iran’s Revolutionary Guards of sabotaging the fridges of 700 shops
+## 2. Iran — America bets on its blockade to bring Iran to heel as tankers burn in Hormuz
 
-**France’s foreign minister blames a cyber unit linked to the Guards for the attack on supermarkets on 12 October. Iran’s ambassador has been summoned and Paris wants European sanctions.**
+**America’s secretary of state, Marco Rubio, sees no need for new combat operations for now, so heavy is the economic pressure on Tehran. Iran is keeping the Strait of Hormuz closed and reports more tankers ablaze.**
 
-On Monday 9 November France’s foreign minister, Jean-Noël Barrot, blamed Iran’s Revolutionary Guards for the cyber-attack which, on the night of 11-12 October, tampered with refrigeration in some 700 French shops, including Carrefour, Monoprix, Intermarché and Coopérative U stores. According to ANSSI, France’s national cyber-security agency, the attack was the work of Shahid Kaveh, a unit linked to the Guards and betrayed by traces of Persian and Iranian IP addresses, and temperatures rose as high as 50°C for about six hours, the AP reports. Paris has summoned Iran’s ambassador and wants European sanctions, which EU foreign ministers could discuss on 16 November, while Tehran dismisses the accusations as “baseless and biased”.
+In Paris on Tuesday 10 November, after two days of meetings with his G7 counterparts, America’s secretary of state, Marco Rubio, said the naval blockade and sanctions were putting Iran under such pressure that no major combat operations were needed for now, Reuters reports. The day before, Donald Trump had called fresh strikes “very unlikely” after appeals from countries in the region, including Qatar, but Tehran is keeping the Strait of Hormuz shut: the Revolutionary Guards reported three tankers ablaze on Tuesday, and the Iranian army another, apparently mined, on Wednesday, according to AFP. The vice-president, J.D. Vance, who blames the war for the Republicans’ defeat in the midterms, is pushing for a deal, but Donald Trump sees no compromise for now, Tehran still refuses to let its enriched uranium leave the country, and Qatar says it is cautiously optimistic.
 
-**The number :** ≈ 700 — French shops whose fridges were hacked
+**The number :** $107 — the price of a barrel of Brent on 3 November, according to the EIA
 
-### A campaign that goes beyond France
+### A divided administration
 
-According to Reuters, the joint report by France’s intelligence and cyber-security services counts at least 15 fires, and butchers, an abattoir and food factories were among the sites targeted. A second wave in November hit more than 100 establishments across Europe and affected refrigerators at blood banks in France. The AP notes similar incidents in Sweden, Belgium, Luxembourg, Ireland and Estonia. In America, half a dozen military commissaries suffered refrigeration failures in August that the Pentagon is treating as a suspected cyber-attack. ANSSI also blames another Iranian group, Shahid Shushtari, for attacks on France since 2020, including those on Charlie Hebdo in 2023 and on the 2024 Olympic Games.
+According to Reuters, the new White House chief of staff, Stephen Miller, and the treasury secretary, Scott Bessent, favour economic pressure, while J.D. Vance prefers a deal. At the G7, Marco Rubio reportedly called Iran’s leaders “crazy”, according to two diplomats. The strategy worries countries such as Pakistan, Iraq and Turkey, which bear its economic cost, Al Jazeera notes. A Reuters/Ipsos poll finds that 71% of Americans support legislation to end the war. In Iran, the rial has lost more than half its value against the dollar in a year, according to Iran International, and the foreign minister, Abbas Araghchi, insists that neither force nor sanctions will end the conflict.
 
 Sources :
-- [Euronews — France says Iran behind cyberattacks on supermarket fridges](https://www.euronews.com/2026/11/09/france-says-iran-behind-cyberattacks-on-supermarket-fridges)
-- [Associated Press, via WFTV — France blames Iran](https://www.wftv.com/news/world/france-blames-iran/GRMXH4NFIY3OLB4PJI2W6X7IRM/)
-- [Reuters, via Khaleej Times — France accuses IRGC of cyberattack on supermarket fridges](https://www.khaleejtimes.com/world/france-accuses-irgc-cyberattack-supermarket-fridges)
-- [Asharq Al-Awsat — Iran rejects French accusations](https://english.aawsat.com/node/5300441)
+- [Reuters, via Al-Monitor — Rubio says no need for major combat operations against Iran given US economic campaign](https://www.al-monitor.com/originals/2026/11/rubio-says-no-need-major-combat-operations-against-iran-given-us-economic)
+- [Al Jazeera — Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?](https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran)
+- [Reuters, via Al-Monitor — Rubio tells G7 US will keep imposing ’devastating’ costs on Iran, diplomats say](https://www.al-monitor.com/originals/2026/11/rubio-tells-g7-us-will-keep-imposing-devastating-costs-iran-diplomats-say)
+- [AFP, via Daily Tribune — Tanker strikes mine, catches fire in Hormuz](https://tribune.net.ph/2026/11/11/tanker-strikes-mine-catches-fire-in-hormuz)
+- [Iran International — Rubio tells G7 the US will keep imposing ’devastating’ costs on Iran](https://www.iranintl.com/en/202611107939)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/france-accuses-iran-revolutionary-guards-sabotaging-fridges-700/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/america-bets-blockade-bring-iran-heel-tankers-burn/
 
-## 3. Indonesia — Indonesia’s vice-president, Gibran Rakabuming Raka, resigns amid doubts over his diplomas
+## 3. DR Congo — Ebola in DR Congo passes 11,000 confirmed cases and 5,300 deaths
 
-**The son of the former president Joko Widodo handed his resignation to President Prabowo Subianto on Wednesday, after court rulings found his school qualifications wanting. Parliament will then have 60 days to elect a successor.**
+**Figures published on Tuesday by the Congolese government confirm an outbreak of exceptional scale, the second-largest ever recorded. No vaccine or treatment is approved against the Bundibugyo strain.**
 
-On Wednesday 11 November Indonesia’s vice-president, Gibran Rakabuming Raka, handed his resignation to President Prabowo Subianto at a meeting at Halim Perdanakusuma air base in Jakarta, his ally Budi Arie Setiadi, chairman of the Projo organisation, confirmed to Reuters and the Antara news agency. The son of the former president Joko Widodo had been under pressure since the Constitutional Court and then the Supreme Court ruled that his studies abroad did not meet the requirements for his candidacy in 2024, and 120 legislators had just filed a petition demanding his impeachment. According to the senior law minister, Yusril Ihza Mahendra, Parliament must declare the post vacant and then, within 60 days, elect a successor from two names put forward by the president, an uncertainty that is weighing on investor confidence, Reuters notes.
+According to figures published by the Congolese government on Tuesday 10 November, the Ebola outbreak declared in mid-May in the east of the Democratic Republic of Congo now stands at 11,042 confirmed cases and 5,387 deaths, the worst in the country’s history, Reuters and the AP report. Caused by the Bundibugyo strain, for which no vaccine or treatment has been approved, it has reached eight of the country’s 26 provinces, above all Ituri and North Kivu, where insecurity hampers access to treatment centres and many patients die at home, according to Reuters. It is the second-largest Ebola outbreak on record, after West Africa’s in 2014-2016, and the vaccine trial launched in Bunia at the end of October is not expected to produce results before 2027, while Kenya has recorded nine cases and Nigeria one imported case.
 
-**The number :** 60 days — to elect a new vice-president
+**The number :** 11,042 — confirmed Ebola cases in DR Congo as of 10 November
 
-### The rift between Prabowo and Widodo
+### An outbreak outrunning the response
 
-Beaten by Joko Widodo in 2014 and 2019, Prabowo Subianto enjoyed his tacit backing to succeed him, with his former rival’s son as running-mate. The alliance is cracking. Last week three senior police officers were arrested over illegal wiretapping that targeted, among others, the president; they include the former national police chief Listyo Sigit Prabowo, a Widodo ally moved last month to the ceremonial post of presidential chief of staff, according to the Jakarta Post. Three officials of the PSI, chaired by the former president’s younger son, Kaesang Pangarep, have left the party, pledging loyalty to the head of state. According to Reuters, Mr Widodo is said to be unhappy that Gibran was not defended against the judges.
-
-- _What changed 19:45_ : The vice-president handed in his resignation on Wednesday; headline, text, figure of the day and modules rewritten.
-
-Sources :
-- [Reuters, via TimesLIVE — Indonesia’s vice-president has resigned, aide says, stoking political uncertainty](https://www.timeslive.co.za/news/world/2026-11-11-indonesias-vice-president-has-resigned-aide-says-stoking-political-uncertainty/)
-- [Bernama — Indonesian Vice-President Gibran Formally Submits Resignation, Projo Chairman Says](https://www.bernama.com/en/world/news.php?id=2633025)
-- [The Jakarta Post — Breaking: VP Gibran intends to resign, says state secretary](https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary)
-- [Reuters, via ThePrint — Indonesia vice president expresses intention to resign, presidential official says](https://theprint.in/world/indonesia-vice-president-expresses-intention-to-resign-presidential-official-says/3095017/)
-- [The Jakarta Post — Ministers leave PSI as House sets to decide on Gibran](https://www.thejakartapost.com/indonesia/2026/11/10/ministers-leave-psi-as-house-sets-to-decide-on-gibran)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/indonesia-vice-president-gibran-rakabuming-raka-weakened-doubts/
-
-## 4. Haiti — In Haiti, Salvadoran troops destroy the house of the 400 Mawozo gang’s leader
-
-**El Salvador’s president, Nayib Bukele, on Tuesday claimed the assault on the gang’s headquarters in Croix-des-Bouquets, where its leader was absent. American diplomats complain that El Salvador is acting without co-ordinating with the UN-backed force.**
-
-At around 2.30am on Sunday 8 November a drone unit of the Haitian police, backed by Salvadoran soldiers and helicopters, destroyed the house of Wilson Joseph, leader of the 400 Mawozo gang, in Croix-des-Bouquets near Port-au-Prince, described as his headquarters. El Salvador’s president, Nayib Bukele, who had vowed to raze the house, claimed the operation on Tuesday; it reportedly left about 20 dead according to the Miami Herald, a toll AFP could not confirm, and Wilson Joseph was absent, according to the Salvadoran press. Haiti’s prime minister, Alix Didier Fils-Aimé, praised El Salvador, but American diplomats complain that the 2,000 or so Salvadoran soldiers, most of them outside the UN-backed Gang Suppression Force, are not co-ordinating with it, according to Axios.
-
-**The number :** ≈ 2,000 — Salvadoran soldiers deployed in Haiti
-
-### An intervention outside the UN framework
-
-El Salvador sent its first special forces on 22 October, after an ambush on 18 October in Croix-des-Bouquets against four Salvadoran aviation technicians serving with the UN-backed force, who have been missing ever since, according to the AP. The contingent now numbers about 2,000 soldiers, whereas the Gang Suppression Force had only just over 2,000 members in October out of a planned 5,500. Presented at first as a recovery mission, the operation now aims, according to Nayib Bukele, to eliminate the gangs. Amnesty International wants the deployment agreement published and any abuses investigated. Before the assault, 400 Mawozo had approached Haiti’s disarmament commission to open negotiations.
+According to the WHO, 512 people died between 21 October and 3 November, 335 of them outside treatment centres, a sign that many patients are slipping through the health system. Daily follow-up of contacts reached only 86%, short of the 95% target, and transmission remained active in 51 health zones. The organisation, which declared the outbreak a public-health emergency of international concern as early as 17 May, reports serious funding gaps. The fatality rate, close to 49%, is in line with that of a 2012 outbreak in DR Congo caused by the same strain. The Tumaini trial is testing, among others, two vaccines designed against the Bundibugyo virus, one by the University of Oxford and one by Moderna.
 
 Sources :
-- [Al Jazeera — Salvadoran troops target Haitian gang, leaving 20 dead](https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead)
-- [AFP, via Yahoo — Haiti PM hails Bukele and Salvadoran troops](https://www.yahoo.com/news/world/articles/haiti-pm-hails-bukele-salvadoran-235500837.html)
-- [EFE, via El Diario de Hoy — Gobierno de EE. UU. cuestiona la misión de Bukele en Haití, según Axios](https://www.eldiariodehoy.com/noticias/nacionales/gobierno-ee-uu-cuestiona-la-mision-de-bukele-en-haiti-segun-axios/100055/2026/)
-- [Associated Press, via AJC — El Salvador deploys special forces to Haiti to help find 4 missing soldiers who came under attack](https://www.ajc.com/news/2026/10/el-salvador-deploys-special-forces-to-haiti-to-help-find-4-missing-soldiers-who-came-under-attack/)
+- [Reuters, via CNBC Africa — Congo’s Ebola cases surpass 11,000, government data show](https://www.cnbcafrica.com/2026/congos-ebola-cases-surpass-11000-government-data-show)
+- [Associated Press, via Local 10 — Ebola tops 11,000 cases in Congo’s deadliest outbreak](https://www.local10.com/news/world/2026/11/11/ebola-tops-11000-cases-in-congos-deadliest-outbreak/)
+- [AllAfrica — Congo Ebola Cases Surpass 11,000 As Death Toll Reaches 5,387](https://allafrica.com/stories/202611120020.html)
+- [OMS — Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625)
+- [ECDC — Ebola disease outbreak caused by Bundibugyo virus – Multi-country – 2026](https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/haiti-salvadoran-troops-destroy-house-400-mawozo-gang/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/ebola-dr-congo-passes-11-000-confirmed-cases/
 
-## 5. Niger — Niger has taken in nearly 64,000 refugees from Nigeria since January, says the UNHCR
+## 4. Türkiye — At COP31, António Guterres urges world leaders to be done with fossil fuels
 
-**Jihadist and criminal violence in northern Nigeria is driving tens of thousands of people into a drought-stricken neighbour. For lack of money, only 5% of the new arrivals have been registered.**
+**Addressing the leaders’ summit in Antalya, the UN secretary-general said a temporary overshoot of 1.5°C was now inevitable. He wants an end to new coal, oil and gas projects.**
 
-On Tuesday 10 November the UN refugee agency (UNHCR) said that nearly 64,000 people had fled northern Nigeria for Niger since the start of the year, and several hundred more for Benin, driven out by Boko Haram, Islamic State West Africa and criminal gangs. Most settle in the border regions of Diffa, which accounts for more than 70% of the security incidents recorded in Niger this year, and Tahoua, where they lack food, water and shelter, while malnutrition and respiratory infections are spreading. The UNHCR is appealing for $11.4m for Niger, Nigeria and Benin, at a time when Niger was already hosting more than 500,000 refugees and asylum-seekers and drought threatens the harvests of some 700 of the region’s 1,000 villages.
+On Wednesday 11 November, addressing the COP31 leaders’ summit in Antalya, Turkey, the UN secretary-general, António Guterres, said that overshooting the 1.5°C warming threshold was “now inevitable” and called for an end to all new coal, oil and gas projects. Global emissions would need to fall by about 6% a year, whereas national plans deliver a third of that at best and point to more than 2.5°C of warming by the end of the century, he said, before proposing a tax on oil companies’ windfall profits. Brazil’s president, Luiz Inácio Lula da Silva, lamented that climate had vanished from G7 and G20 speeches, Iran’s Masoud Pezeshkian demanded compensation for the environmental damage done by wars, and the negotiations, led by Australia, are due to end on 20 November.
 
-**The number :** ≈ 64,000 — refugees arriving in Niger from Nigeria since January
+**The number :** > 2.5°C — of warming by 2100 if national plans are carried out
 
-### One crisis on top of others
+### The numbers of a farewell speech
 
-Niger, already home to more than 500,000 refugees and asylum-seekers, some 327,500 of them Nigerians, is battling drought at the same time: about 70% of its pastureland has been lost, according to UN News. For lack of funds, only 5% of this year’s arrivals have been registered, which makes delivering aid harder. Women walk several kilometres to find water, and children who come from Nigeria’s English-language school system struggle to find a place in class. The UNHCR praises the solidarity of the authorities and host communities, who have provided land among other things. Its spokeswoman, Dominique Hyde, warns that without more money thousands of families risk losing essential help.
+António Guterres, who leaves office next year, set two realities side by side. On one hand, emissions hit a record in 2025 and the past four years were the hottest ever measured. On the other, solar power met nearly three-quarters of the growth in global electricity demand last year, and almost one car in three sold this year will be electric. He pointed out that the nine biggest oil companies made $95bn in profits in the last quarter, while the loss-and-damage fund has received only about $600m. He proposes a “climate justice pact” built on a just transition, protecting people, finance and co-operation.
 
 Sources :
-- [ONU Info — Nearly 64,000 people flee Nigeria for Niger](https://news.un.org/en/story/2026/11/1168779)
-- [Reuters, via TimesLIVE — Violence in northern Nigeria drives tens of thousands into Niger](https://www.timeslive.co.za/news/africa/2026-11-10-11112026wop5-filler/)
-- [Associated Press, via KSAT — At least 62 people killed in attack on a community in northeastern Nigeria](https://www.ksat.com/news/world/2026/10/27/at-least-62-people-killed-in-attack-on-a-community-in-northeastern-nigeria/)
+- [ONU Climat — Transcript of remarks made by UN Secretary-General António Guterres to the COP31 Leaders’ Summit](https://unfccc.int/news/transcript-of-remarks-made-by-un-secretary-general-antonio-guterres-to-the-cop31-leaders-summit)
+- [Reuters, via Al-Monitor — World leaders speak at COP31 climate conference](https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference)
+- [Business Recorder — Leaders warn COP31: War, conflict must not distract from climate action](https://www.brecorder.com/news/40448508/leaders-warn-cop31-war-conflict-must-not-distract-from-climate-action)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/niger-has-taken-nearly-64-000-refugees-nigeria/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/cop31-antonio-guterres-urges-world-leaders-be-done/
+
+## 5. Ethiopia — In northern Tigray, Ethiopia’s army and Eritrean forces are reported to be clashing around Badme
+
+**Having retaken most of Tigray in October, the federal army is pushing towards the Eritrean border. Addis Ababa accuses Asmara of invasion; Asmara calls that a pretext for war.**
+
+On Monday 9 November Ethiopia’s federal army and Eritrean forces reportedly clashed around Badme, a long-disputed border town, according to observers cited by the Critical Threats Project, which could not confirm it, after the Ethiopian army took Sheraro and Adi Awala on 3 November. Since late September federal troops, allied with a breakaway Tigrayan faction, have been fighting the forces of the Tigray People’s Liberation Front, and Addis Ababa accuses Eritrea of an “invasion” reaching 60km into Tigray, which Asmara portrays as a pretext for a war of aggression. The prime minister, Abiy Ahmed, who regards his country’s access to the Red Sea as inevitable, installed an interim government in Tigray in mid-October, while Chinese envoys were received in Addis Ababa in early November and then by Eritrea’s president, Isaias Afwerki, in an effort to avert open war.
+
+**The number :** 60km — depth of the Eritrean incursion into Tigray, according to Addis Ababa
+
+### The Red Sea in the background
+
+Eritrea has accused Ethiopia of preparing a war of aggression ever since Abiy Ahmed laid claim, in 2023, to access to the sea, notably via the Eritrean port of Assab. Returned to power in October, the prime minister has repeated that such access is “only a matter of time”. In October the federal army retook Shire, Axum, Adwa, Adigrat and then Zalambessa, held by Eritrea since 2022, according to the Critical Threats Project. Ethiopia’s foreign minister, Gedion Timothewos, has taken the matter to the Security Council; his Eritrean counterpart said the letter amounted to a declaration of war. The two countries already fought each other from 1998 to 2000, in a border war that killed tens of thousands.
+
+Sources :
+- [Critical Threats Project — Ethiopia War Security Review, November 10, 2026](https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-10-2026)
+- [Critical Threats Project — Ethiopia War Security Review, November 6, 2026](https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026)
+- [Critical Threats Project — Ethiopia Reaches Eritrean Border; M23 Rebrands With Kabila: Africa File, October 15, 2026](https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-drc-m23-fln-kabila-rwanda-jnim-issp)
+- [The Reporter — Ethiopia Accuses Eritrea Of Military Incursions Across Three Tigray Zones](https://www.thereporterethiopia.com/53378/)
+- [Al Jazeera — Ethiopia announces instalment of interim government in Tigray](https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/northern-tigray-ethiopia-army-eritrean-forces-reported-be/
 
 ## In brief
 
-- **Hungary** : Áron Orbán, brother of the former prime minister Viktor Orbán, was detained on Monday in a people-smuggling investigation, the prime minister, Péter Magyar, announced; Viktor Orbán decries a “dirty game”. ([Source](https://www.euronews.com/2026/11/09/viktor-orbans-brother-reportedly-detained-over-suspected-people-smuggling))
-- **Turkey** : An explosion and fire killed six people and injured 13 on Monday at the Habaş steelworks in Aliağa, in Izmir province, where rescuers were searching for eight missing workers; an investigation has been opened. ([Source](https://morningstaronline.co.uk/article/world-brief-november-10-2026))
-- **Paraguay** : State-school teachers have gone on strike after the collapse of Ueno bank, where some $60m of their pension funds had reportedly been deposited, according to their union leader, Silvio Piris. ([Source](https://www.wftv.com/news/business/teachers-strike/ZNKFQUMYPYZE7A32P5ZAAAQRI4/))
+- **Israel** : Israel’s new Knesset was sworn in on Tuesday; Gadi Eisenkot, a former army chief of staff who has six weeks to form a government, promises to undo much of the policy of the outgoing prime minister, Benjamin Netanyahu. ([Source](https://www.durangoherald.com/articles/associated-press/eisenkot-unveils-agenda-to-reverse-netanyahus-policies-as-israels-new-parliament-is-sworn-in/))
+- **Italy** : At least 300 schools were evacuated on Wednesday after emailed bomb threats, which also targeted the prime minister, Giorgia Meloni; the education minister, Giuseppe Valditara, sees in them “a strategy”. ([Source](https://www.euronews.com/2026/11/11/at-least-300-schools-in-italy-evacuated-after-emailed-bomb-threats))
+- **Trinidad and Tobago** : The Judicial Committee of the Privy Council in London, the country’s highest court of appeal, unanimously struck down colonial-era laws criminalising gay sex on Tuesday, ending a case brought by Jason Jones in 2017. ([Source](https://jamaica-gleaner.com/article/world-news/20261111/privy-council-rules-gay-sex-not-crime-trinidad-and-tobago))
 
 ## Coming up
 
-- 11 Nov : Second day of the Abu Dhabi talks; COP31 leaders’ summit in Antalya, until the 12th; independence day in Poland.
-- 12 Nov : America’s envoys Jared Kushner and Steve Witkoff received by Vladimir Putin in Moscow.
+- 12 Nov : Steve Witkoff and Jared Kushner received by Vladimir Putin in Moscow; COP31 leaders’ summit ends.
 - 16 Nov : EU Foreign Affairs Council, which could take up the cyber-attacks blamed on Iran.
-- 18 Nov : Closed-door hearing for Jensen Huang requested by the House of Representatives; APEC summit in Shenzhen.
+- 18 Nov : APEC summit in Shenzhen.
 - 20 Nov : COP31 scheduled to close.
 - 6 Dec : End of Gadi Eisenkot’s initial deadline to form a government in Israel.

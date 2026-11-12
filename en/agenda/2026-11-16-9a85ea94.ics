@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-11-16-9a85ea94@diurna
-DTSTAMP:20261112T060445Z
+DTSTAMP:20261112T062600Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:EU Foreign Affairs Council\, which could take up the cyber-attack
  s blamed on Iran.
-DESCRIPTION:Diurna — Edition of 11 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/
+DESCRIPTION:Diurna — Edition of 12 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/
 END:VEVENT
 END:VCALENDAR
