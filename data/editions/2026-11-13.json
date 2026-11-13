@@ -1,0 +1,794 @@
+{
+  "date": "2026-11-13",
+  "number": 9,
+  "updated": "2026-11-13T07:02:59+01:00",
+  "headline": "Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains",
+  "standfirst": "Au retour du Kremlin, Steve Witkoff et Jared Kushner ont vu Volodymyr Zelensky près de Dublin, qui annonce le plus grand échange de prisonniers de la guerre et des Européens à la table. Donald Trump dit ne plus avoir besoin d'un accord avec l'Iran, Jensen Huang quitte la direction de Nvidia, l'Espagne a connu sa première grève générale depuis 2012, et Amnesty accuse l'ONU d'inaction avant un massacre au Soudan du Sud.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "conflict"
+      ],
+      "title": "À Dublin, Volodymyr Zelensky annonce un échange record de prisonniers et l'Europe à la table",
+      "standfirst": "Reçus jeudi soir par le président ukrainien au retour du Kremlin, Steve Witkoff et Jared Kushner lui ont promis, selon lui, le plus grand échange de prisonniers de la guerre. Les Européens devraient participer au prochain tour de discussions, ce que Moscou n'a pas confirmé.",
+      "body": [
+        "Jeudi 12 novembre au soir, sur la base aérienne de Baldonnel, à l'ouest de Dublin, le président ukrainien, Volodymyr Zelensky, a reçu les émissaires américains Steve Witkoff et Jared Kushner, quelques heures après leur entretien avec Vladimir Poutine au Kremlin, rapporte le Kyiv Independent.",
+        "Selon M. Zelensky, la rencontre a permis de « débloquer » les discussions à trois, de préparer le plus vaste échange de prisonniers de guerre depuis 2022 et d'obtenir que l'Europe soit directement représentée à la prochaine séance, Jared Kushner jugeant tout accord impossible sans les Européens, selon le Kyiv Post.",
+        "Aucune date n'est encore fixée pour ce nouveau tour, dont le Kremlin n'a pas confirmé le format, tandis que la « coalition des volontaires » doit se réunir à Berlin la semaine prochaine et que les dirigeants de l'UE examineront les 26 et 27 novembre les besoins financiers de Kiev pour 2027."
+      ],
+      "figure": {
+        "value": "Jusqu'à 1 500",
+        "label": "prisonniers par camp évoqués à Abou Dhabi pour l'échange",
+        "compare": "chiffre définitif et calendrier pas encore annoncés, selon le Kyiv Post"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "UKR",
+            "USA",
+            "RUS"
+          ],
+          "positions": [
+            {
+              "who": "Kiev",
+              "wants": "Une Europe directement représentée dans l'équipe de négociation dès la prochaine réunion, et un ordre du jour consacré à la désescalade et à des cessez-le-feu."
+            },
+            {
+              "who": "Washington",
+              "wants": "Un accord conclu avec les Européens à la table, selon Jared Kushner ; Steve Witkoff assure qu'une nouvelle réunion est déjà programmée."
+            },
+            {
+              "who": "Moscou",
+              "wants": "N'a pas confirmé officiellement la participation des Européens au prochain tour de discussions."
+            }
+          ],
+          "source": {
+            "name": "Kyiv Post",
+            "url": "https://www.kyivpost.com/post/89972"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Base aérienne de Baldonnel",
+              "coords": [
+                -6.45,
+                53.3
+              ],
+              "note": "Aérodrome Casement, à l'ouest de Dublin, où Volodymyr Zelensky a reçu les émissaires américains jeudi soir."
+            }
+          ],
+          "source": {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "L'Europe cherche encore sa voix",
+        "text": "Le sommet de la Communauté politique européenne, qui a réuni à Dublin plus de cinquante dirigeants, a surtout montré que les Européens peinent à désigner qui parlerait en leur nom face au Kremlin, relève EU Perspectives. Le premier ministre estonien, Kristen Michal, a proposé le président du Conseil européen, António Costa, et la haute représentante de l'UE, Kaja Kallas ; Emmanuel Macron a répondu que « le contenu détermine le format ». Une déclaration soutenue par la France et signée par trente-neuf pays pose que toute question touchant à la sécurité européenne doit être tranchée avec les Européens, selon le Kyiv Post. La présidente de la Commission, Ursula von der Leyen, et António Costa ont promis de poursuivre une aide financière et militaire « considérable » à l'Ukraine."
+      },
+      "keys": [
+        {
+          "title": "Le volet humanitaire",
+          "text": "À Abou Dhabi, les négociateurs avaient évoqué l'échange de 1 000 à 1 500 prisonniers de chaque camp, sans arrêter de chiffre ni de calendrier. Jared Kushner affirme que l'accord sur cet échange est désormais finalisé, selon le Kyiv Post."
+        },
+        {
+          "title": "L'aide européenne pour l'hiver",
+          "text": "L'UE a annoncé l'envoi de 500 générateurs tirés de ses réserves d'urgence, de 200 bus et de quatre ponts flottants fournis par la Norvège. La Commission doit présenter un 22e paquet de sanctions contre la Russie, selon Interfax-Ukraine."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "IRL"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "La Russie lance son invasion à grande échelle de l'Ukraine."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Ouverture des pourparlers à trois d'Abou Dhabi."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Accord de principe sur un vaste échange de prisonniers."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Les émissaires américains reçus au Kremlin, puis par Volodymyr Zelensky près de Dublin, en marge du sommet de la CPE."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "Conseil européen consacré notamment au financement de l'Ukraine en 2027."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kyiv Independent",
+          "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
+          "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "Kyiv Post",
+          "title": "Europe to Join Next Ukraine Peace Talks Following US-Putin Meeting",
+          "url": "https://www.kyivpost.com/post/89972",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Ukrinform",
+          "title": "Zelensky meets with Witkoff and Kushner, outlines key outcomes of Abu Dhabi talks",
+          "url": "https://www.ukrinform.net/rubric-polytics/4184145-zelensky-meets-with-witkoff-and-kushner-outlines-key-outcomes-of-abu-dhabi-talks.html",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Interfax-Ukraine",
+          "title": "Joint statement by von der Leyen and Costa following meeting with Zelenskyy: We will continue to stand by Ukraine",
+          "url": "https://en.interfax.com.ua/news/general/1235706.html",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "EU Perspectives",
+          "title": "'Europe must have a voice at the table.' But it is still floundering over who should speak to Kremlin",
+          "url": "https://euperspectives.eu/2026/11/epc-summit-dublin-ukraine-peace-talks-europe/",
+          "date": "2026-11-12"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "dublin-volodymyr-zelensky-annonce-echange-record-prisonniers-europe"
+    },
+    {
+      "rank": 2,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Moyen-Orient",
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "Donald Trump dit ne plus avoir besoin d'un accord avec l'Iran et écarte JD Vance",
+      "standfirst": "Le président américain a affirmé jeudi que le temps d'un accord avec Téhéran était révolu et prié son vice-président de se consacrer à d'autres dossiers. Dans le détroit d'Ormuz, l'Iran dit que deux pétroliers ont pris feu après avoir heurté des mines.",
+      "body": [
+        "Jeudi 12 novembre, Donald Trump a écrit que les États-Unis n'avaient « pas besoin d'un accord avec l'Iran » et demandé au vice-président, JD Vance, qui envisageait de rencontrer le secrétaire du Conseil suprême de sécurité nationale iranien, Mohsen Rezaei, de se consacrer à la criminalité dans les villes démocrates, selon Middle East Eye.",
+        "Ce revirement, quelques jours après des propos sur une « dynamique » favorable à un règlement, intervient alors que Téhéran dément toute rencontre prévue au Qatar, refuse d'envoyer à l'étranger son uranium enrichi et maintient fermé le détroit d'Ormuz tant que ses conditions ne sont pas remplies.",
+        "La marine iranienne affirme que deux pétroliers ont pris feu jeudi en heurtant des mines, ce qui n'a pu être vérifié, et le Brent est repassé au-dessus de 94 dollars après le message présidentiel, selon HNGN, alors qu'Israël se préparerait à frapper l'Iran, selon la télévision publique Kan."
+      ],
+      "figure": {
+        "value": "2",
+        "label": "pétroliers en feu jeudi après avoir heurté des mines, selon la marine iranienne",
+        "compare": "après trois annoncés mardi et trois dimanche"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "depuis le début de la guerre"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "IRN",
+            "QAT"
+          ],
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Plus d'accord nécessaire, selon Donald Trump ; le secrétaire d'État, Marco Rubio, estime avoir l'avantage à Ormuz et n'être pas pressé."
+            },
+            {
+              "who": "Téhéran",
+              "wants": "Dément officiellement que des pourparlers aient été programmés au Qatar."
+            },
+            {
+              "who": "Doha",
+              "wants": "Devait accueillir une rencontre entre JD Vance et Mohsen Rezaei, selon le chef du renseignement turc, Ibrahim Kalin."
+            }
+          ],
+          "source": {
+            "name": "Middle East Eye",
+            "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Une diplomatie sans porte-parole",
+        "text": "Un responsable de l'administration a refusé de dire si les discussions étaient interrompues, et la Maison Blanche n'a pas indiqué qui parlerait désormais à Téhéran au nom de Washington, rapporte HNGN. L'Iran conditionne la réouverture d'Ormuz, qu'il dit possible en deux jours, à la levée des sanctions et du blocus américain de ses ports et à la fin des combats sur tous les fronts ; le secrétaire d'État, Marco Rubio, juge ces exigences « inacceptables », selon CBS News. Le trafic commercial dans le détroit ne représente plus qu'une fraction de son niveau d'avant-guerre, et le commandement central américain se dit prêt à reprendre des opérations de combat majeures si l'ordre lui en est donné."
+      },
+      "keys": [
+        {
+          "title": "Israël en embuscade",
+          "text": "Le cabinet de sécurité israélien, présidé par le premier ministre sortant, Benyamin Nétanyahou, aurait ordonné à l'armée d'accélérer ses préparatifs d'attaque, selon les médias israéliens. Mohsen Rezaei prévient que toute base américaine, « de l'Asie de l'Ouest à l'Europe », deviendrait une cible."
+        },
+        {
+          "title": "L'ombre des élections de mi-mandat",
+          "text": "JD Vance a écrit que la guerre expliquait la défaite républicaine du 3 novembre, en assurant que le président lui-même l'avait reconnu. Donald Trump l'a chargé de se consacrer à la « corruption » dans les villes et les États démocrates."
+        }
+      ],
+      "involved": [
+        "USA",
+        "QAT",
+        "ISR"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Ormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "Début de la guerre entre les États-Unis, Israël et l'Iran."
+        },
+        {
+          "d": "2026-11-03",
+          "t": "Élections de mi-mandat, perdues par les républicains."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Le Brent repasse sous 90 dollars pour la première fois depuis fin août."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "JD Vance envisagerait de rencontrer Mohsen Rezaei ; Israël préparerait une attaque, selon Kan."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Donald Trump juge un accord inutile et écarte son vice-président du dossier."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Middle East Eye",
+          "title": "Trump sidelines Vance from Iran talks, says no need to negotiate",
+          "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "HNGN",
+          "title": "Trump Says No Iran Deal Needed, Pulls Vance From Talks",
+          "url": "https://www.hngn.com/articles/273810/20261112/trump-says-no-iran-deal-needed-pulls-vance-talks.htm",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+          "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "CBS News",
+          "title": "Live Updates: Iran sticks to its demands as Trump insists war will end \"when we want to end it\"",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
+          "date": "2026-11-12"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-iran",
+        "title": "La guerre avec l’Iran"
+      },
+      "slug": "donald-trump-dit-avoir-besoin-accord-iran-ecarte"
+    },
+    {
+      "rank": 3,
+      "id": "USA",
+      "place": "États-Unis",
+      "section": "Amériques",
+      "radar": false,
+      "types": [
+        "economy",
+        "society"
+      ],
+      "title": "Rattrapé par des soupçons d'espionnage chinois, Jensen Huang quitte la direction de Nvidia",
+      "standfirst": "Le cofondateur du géant des puces pour l'intelligence artificielle a démissionné jeudi, après la révélation de sa liaison avec une femme que des responsables américains soupçonnent d'espionner pour Pékin. La directrice financière, Colette Kress, assure l'intérim.",
+      "body": [
+        "Jeudi 12 novembre, Nvidia a annoncé la démission « avec effet immédiat » de son PDG et cofondateur, Jensen Huang, 63 ans, qui quitte aussi le conseil d'administration, sans motif officiel, et confié l'intérim à sa directrice financière, Colette Kress, rapportent Al Jazeera et The National.",
+        "Le dirigeant avait reconnu le 8 novembre une liaison avec Alice Huang, ancienne cadre de la société singapourienne Megaspeed, que des responsables américains soupçonnent d'espionner pour Pékin, alors que Nvidia, qui contrôle environ 90 % du marché des puces avancées pour l'IA, est au cœur de la rivalité technologique sino-américaine.",
+        "L'action a perdu à un moment plus de 14 % jeudi, le conseil, désormais présidé par Harvey Jones, cherche un successeur, et des élus républicains menacent d'une assignation à comparaître pour entendre M. Huang sur les conséquences de l'affaire pour la sécurité nationale."
+      ],
+      "figure": {
+        "value": "> 14 %",
+        "label": "chute maximale de l'action Nvidia jeudi en séance, selon Al Jazeera",
+        "compare": "avant une remontée partielle"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Jensen Huang",
+              "role": "Cofondateur de Nvidia en 1993, PDG démissionnaire"
+            },
+            {
+              "name": "Colette Kress",
+              "role": "Directrice financière, PDG par intérim"
+            },
+            {
+              "name": "Harvey Jones",
+              "role": "Administrateur depuis 1993, premier président du conseil d'administration"
+            },
+            {
+              "name": "Alice Huang",
+              "role": "Ancienne cadre de Megaspeed, soupçonnée par des responsables américains d'espionner pour la Chine"
+            },
+            {
+              "name": "John Moolenaar",
+              "role": "Président républicain de la commission de la Chambre consacrée à la Chine"
+            }
+          ],
+          "source": {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-10-29",
+              "t": "Le New York Times révèle la relation entre Jensen Huang et Alice Huang."
+            },
+            {
+              "d": "2026-11-08",
+              "t": "Jensen Huang reconnaît une infidélité ; le conseil ouvre une enquête indépendante."
+            },
+            {
+              "d": "2026-11-12",
+              "t": "Démission annoncée ; Colette Kress assure l'intérim."
+            }
+          ],
+          "source": {
+            "name": "TechCrunch",
+            "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Les puces, affaire de sécurité nationale",
+        "text": "En décembre 2025, Donald Trump avait autorisé l'exportation vers la Chine des puces H200 de Nvidia, environ six fois plus puissantes que les H20, moyennant inspections, plafonds de livraison et une taxe de 25 %, rappelle Al Jazeera. Des entreprises chinoises en auraient commandé plus de deux millions, pour une valeur potentielle de 54 milliards de dollars, des commandes plutôt que des ventes conclues. Megaspeed, qui aurait acheté pour 4,8 milliards de dollars de puces Nvidia en deux ans, a déjà fait l'objet d'enquêtes aux États-Unis et à Singapour, et le département de la justice a repris l'enquête fédérale, selon le New York Times cité par TechCrunch. Le conseil d'administration dit n'avoir « aucune raison » de croire la sécurité nationale compromise."
+      },
+      "keys": [
+        {
+          "title": "La Maison Blanche",
+          "text": "Donald Trump, qui jugeait encore le 8 novembre que Jensen Huang devait rester, a suggéré l'ancien patron d'Apple Tim Cook pour lui succéder. Selon le New York Times, cité par TechCrunch, le président avait été informé des soupçons fin 2025."
+        },
+        {
+          "title": "Le Congrès",
+          "text": "Trois présidents républicains de commissions de la Chambre des représentants avaient demandé le 5 novembre à entendre Jensen Huang à huis clos. Faute de réponse, une assignation à comparaître serait probable, a averti John Moolenaar le 11 novembre."
+        }
+      ],
+      "involved": [
+        "CHN"
+      ],
+      "context": [
+        {
+          "d": "2025-12",
+          "t": "Donald Trump autorise l'exportation des puces H200 de Nvidia vers la Chine."
+        },
+        {
+          "d": "2026-10-29",
+          "t": "Le New York Times révèle la relation de Jensen Huang avec une ancienne cadre de Megaspeed."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Jensen Huang reconnaît une liaison ; le conseil d'administration ouvre une enquête."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Démission de Jensen Huang ; Colette Kress nommée PDG par intérim."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec Reuters",
+          "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
+          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "ABC News",
+          "title": "Nvidia CEO Jensen Huang resigns amid alleged affair with suspected spy; CFO to serve as interim chief executive",
+          "url": "https://abcnews.com/Business/nvidia-ceo-jensen-huang-resigns-amid-alleged-affair/story?id=138076256",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "The National",
+          "title": "Jensen Huang resigns as Nvidia CEO after affair with suspected Chinese spy",
+          "url": "https://www.thenationalnews.com/future/technology/2026/11/12/jensen-huang-resigns-nvidia-affair/",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "TechCrunch",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "date": "2026-11-12"
+        }
+      ],
+      "dossier": {
+        "id": "nvidia-chine",
+        "title": "Nvidia et les soupçons d'espionnage chinois"
+      },
+      "slug": "rattrape-soupcons-espionnage-chinois-jensen-huang-quitte-direction"
+    },
+    {
+      "rank": 4,
+      "id": "ESP",
+      "place": "Espagne",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "society",
+        "economy"
+      ],
+      "title": "En Espagne, une grève générale inédite depuis 2012 place le logement au cœur des élections",
+      "standfirst": "Des centaines de milliers de manifestants ont défilé mercredi dans les grandes villes espagnoles, à l'appel des principaux syndicats, contre la flambée des loyers et pour les salaires. La mobilisation intervient à moins de trois semaines des législatives anticipées du 29 novembre.",
+      "body": [
+        "Mercredi 11 novembre, l'Espagne a connu sa première grève générale depuis 2012, une journée lancée par les syndicats CCOO et UGT sous le mot d'ordre « salaires, logement et prix », qui a réuni au moins 120 000 manifestants à Madrid et 55 000 à Barcelone selon les autorités, bien davantage selon les organisateurs, rapporte Euronews.",
+        "Les loyers ont bondi de 87 % entre 2015 et 2025 quand les salaires progressaient d'environ 30 %, selon El País cité par Time, et le loyer moyen absorbe presque tout le salaire moyen des 16-29 ans, selon le Conseil de la jeunesse d'Espagne.",
+        "La police a procédé à au moins 75 interpellations, le chef du Parti populaire, Alberto Núñez Feijóo, a dénoncé une grève dirigée contre l'opposition, et les sondages donnent la droite favorite des législatives anticipées convoquées par le président du gouvernement, Pedro Sánchez, pour le 29 novembre."
+      ],
+      "figure": {
+        "value": "4 millions",
+        "label": "de grévistes revendiqués par les syndicats, soit 17 % des actifs",
+        "compare": "moins de 5 % de participation selon le patronat"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Pedro Sánchez",
+              "role": "Président du gouvernement, à la tête d'un gouvernement minoritaire, a convoqué des élections anticipées"
+            },
+            {
+              "name": "Alberto Núñez Feijóo",
+              "role": "Chef du Parti populaire, principal parti d'opposition"
+            },
+            {
+              "name": "Valeria Racu",
+              "role": "Porte-parole du syndicat des locataires de Madrid"
+            },
+            {
+              "name": "CEOE",
+              "role": "Principale organisation patronale, qui juge la grève un « échec »"
+            }
+          ],
+          "source": {
+            "name": "Time",
+            "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-10",
+              "t": "Pedro Sánchez convoque des législatives anticipées."
+            },
+            {
+              "d": "2026-11-11",
+              "t": "Première grève générale depuis 2012."
+            },
+            {
+              "d": "2026-11-29",
+              "t": "Élections législatives anticipées."
+            }
+          ],
+          "source": {
+            "name": "Time",
+            "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Le logement, fracture d'une génération",
+        "text": "Le déficit de logements atteint environ 750 000 unités et pourrait dépasser le million d'ici à 2028, selon la Banque d'Espagne citée par El País, et le taux d'émancipation des jeunes est tombé à 14,5 %, un plancher historique, rapporte Time. Pedro Sánchez a convoqué ces élections anticipées après le rejet par le Parlement de deux décrets-lois sur le logement, combattus par le Parti populaire, Vox et les indépendantistes catalans de Junts, selon EUobserver. Les Cortes étant dissoutes, c'est leur Députation permanente, où la gauche et ses alliés régionaux disposent d'une voix d'avance, qui se prononce sur les décrets révisés."
+      },
+      "keys": [
+        {
+          "title": "Une mobilisation contestée",
+          "text": "Les syndicats revendiquent 90 % de grévistes dans les ports et l'automobile, quand l'organisation patronale CEOE évoque moins de 5 % de participation. La demande d'électricité industrielle a reculé de 25,6 % dans la journée, selon Euronews."
+        },
+        {
+          "title": "Des heurts",
+          "text": "La police a recensé plus d'un millier d'incidents, selon Time. Les CCOO de Madrid comptent porter plainte après une vingtaine de blessés lors de charges contre des piquets de grève."
+        }
+      ],
+      "involved": [],
+      "context": [
+        {
+          "d": "2026-09",
+          "t": "Expulsée de son logement, Maricarmen Abascal, 87 ans, meurt à l'hôpital deux semaines plus tard."
+        },
+        {
+          "d": "2026-10",
+          "t": "Après le rejet de deux décrets sur le logement, Pedro Sánchez convoque des élections anticipées."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Première grève générale depuis 2012, à l'appel des CCOO et de l'UGT."
+        },
+        {
+          "d": "2026-11-29",
+          "t": "Élections législatives anticipées."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Euronews",
+          "title": "Spain grinds to a halt in first general strike in 14 years",
+          "url": "https://www.euronews.com/2026/11/12/spain-holds-its-first-general-strike-in-14-years-amid-mass-protests-and-police-charges",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "Time",
+          "title": "Millions of Spanish Workers Stage First General Strike in 14 Years",
+          "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "EUobserver",
+          "title": "Spain's 54-day sprint to the polls: can Sánchez's housing gamble stop the far-right from entering into government?",
+          "url": "https://euobserver.com/241155/spains-54-day-sprint-to-the-polls-can-sanchezs-housing-gamble-stop-the-far-right-from-entering-into-government/",
+          "date": "2026-10-05"
+        }
+      ],
+      "dossier": {
+        "id": "elections-espagne-2026",
+        "title": "Les législatives anticipées en Espagne"
+      },
+      "slug": "espagne-greve-generale-inedite-depuis-2012-place-logement"
+    },
+    {
+      "rank": 5,
+      "id": "SSD",
+      "place": "Soudan du Sud",
+      "section": "Afrique",
+      "radar": true,
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "title": "Au Soudan du Sud, Amnesty accuse l'ONU et Djouba d'avoir ignoré les alertes avant un massacre",
+      "standfirst": "Selon l'ONG, les autorités et les casques bleus savaient qu'une attaque se préparait contre Abiemnom, où au moins 213 personnes ont été tuées le 1er mars. Le rapport paraît à six semaines des premières élections depuis l'indépendance.",
+      "body": [
+        "Dans un rapport rendu public cette semaine, Amnesty International affirme que le gouvernement sud-soudanais et la Mission des Nations unies au Soudan du Sud disposaient d'informations et de temps suffisants pour prévenir l'attaque du 1er mars contre Abiemnom, près de la frontière soudanaise, qui a fait au moins 213 morts selon les autorités.",
+        "Selon l'ONG, qui a interrogé 82 personnes, de 1 000 à 1 500 hommes armés venus du comté voisin de Mayom ont abattu des habitants, détruit plus de 230 bâtiments et pillé une partie de l'hôpital, alors que la mission onusienne n'a renforcé sa petite garnison qu'une fois l'assaut terminé.",
+        "La mission invoque des moyens réduits par les coupes budgétaires, Djouba n'a pas répondu à Amnesty, qui réclame une enquête indépendante, et le pays, dont le président, Salva Kiir, a dissous en septembre le gouvernement de transition, doit voter le 22 décembre pour la première fois depuis son indépendance."
+      ],
+      "figure": {
+        "value": "213",
+        "label": "morts lors de l'attaque d'Abiemnom le 1er mars, selon les autorités",
+        "compare": "le pire massacre documenté dans le pays depuis 2020, selon Amnesty"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "213",
+              "label": "morts au total",
+              "by": "les autorités, citées par Amnesty International",
+              "date": "2026-03-01",
+              "source": {
+                "name": "The New Arab, avec AP",
+                "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing"
+              }
+            },
+            {
+              "value": "130",
+              "label": "habitants tués",
+              "by": "les autorités, citées par Amnesty International",
+              "date": "2026-03-01",
+              "source": {
+                "name": "The New Arab, avec AP",
+                "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing"
+              }
+            },
+            {
+              "value": "76",
+              "label": "membres des forces de sécurité tués",
+              "by": "les autorités, citées par Amnesty International",
+              "date": "2026-03-01",
+              "source": {
+                "name": "The New Arab, avec AP",
+                "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing"
+              }
+            },
+            {
+              "value": "35 000",
+              "label": "personnes déplacées par des affrontements dans l'État du Haut-Nil",
+              "by": "ONU Info",
+              "date": "2026-11-10",
+              "source": {
+                "name": "ONU Info",
+                "url": "https://news.un.org/en/story/2026/11/1168774"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Abiemnom",
+              "coords": [
+                28.82,
+                9.4
+              ],
+              "note": "Comté de la zone administrative de Ruweng, frontalier du Soudan, attaqué le 1er mars 2026 et déjà le 2 avril 2025."
+            }
+          ],
+          "source": {
+            "name": "Wikipédia",
+            "url": "https://en.wikipedia.org/wiki/Abiemnom_County"
+          }
+        },
+        "help": {
+          "orgs": [
+            "wfp",
+            "unicef",
+            "msf"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Des casques bleus à moyens comptés",
+        "text": "Le Conseil de sécurité a renouvelé en avril le mandat de la mission onusienne en abaissant son plafond de 17 000 à 12 000 soldats, rappelle l'AP. À Abiemnom, la base ne comptait plus que 44 militaires à la veille de l'attaque, contre 74 auparavant, et les patrouilles de nuit avaient été restreintes, selon les éléments réunis par Amnesty. Environ un millier de civils s'étaient massés devant la base le 28 février. La porte-parole de la mission, Priyanka Chowdhury, affirme que celle-ci a concentré ses moyens sur la protection des quelque 2 500 personnes réfugiées dans son enceinte, et qu'elle avait demandé à plusieurs reprises des renforts à l'armée nationale."
+      },
+      "keys": [
+        {
+          "title": "Une ville déjà frappée",
+          "text": "Abiemnom avait déjà été attaquée le 2 avril 2025, un assaut qui avait fait 52 morts selon la mission onusienne. Amnesty demande pourquoi les 40 policiers onusiens envoyés après le massacre ne l'ont pas été plus tôt."
+        },
+        {
+          "title": "Un scrutin sous tension",
+          "text": "Le Soudan du Sud doit organiser le 22 décembre ses premières élections depuis l'indépendance de 2011. Selon ONU Info, 2,5 millions d'habitants connaissent une faim d'urgence, et l'opposant Riek Machar, ancien vice-président, reste détenu."
+        }
+      ],
+      "involved": [
+        "SDN"
+      ],
+      "context": [
+        {
+          "d": "2018-09",
+          "t": "Accord de paix mettant fin à cinq ans de guerre civile."
+        },
+        {
+          "d": "2025-04-02",
+          "t": "Première attaque contre Abiemnom, 52 morts selon l'ONU."
+        },
+        {
+          "d": "2026-03-01",
+          "t": "Massacre d'Abiemnom : au moins 213 morts selon les autorités."
+        },
+        {
+          "d": "2026-09",
+          "t": "Salva Kiir dissout le gouvernement de transition et révoque tous les vice-présidents."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Amnesty International publie son rapport et réclame une enquête indépendante."
+        },
+        {
+          "d": "2026-12-22",
+          "t": "Premières élections générales depuis l'indépendance."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Amnesty International, via allAfrica",
+          "title": "South Sudan: Authorities, UN Must Investigate Failure to Protect Victims of Abiemnom Massacre",
+          "url": "https://allafrica.com/stories/202611120242.html",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "The New Arab, avec AP",
+          "title": "UN peacekeepers failed to protect civilians before South Sudan massacre, Amnesty says",
+          "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "Diplomacy and Law",
+          "title": "Abiemnom Massacre: Amnesty Faults South Sudan and UN Peacekeepers",
+          "url": "https://diplomacyandlaw.com/post/abiemnom-massacre",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "ONU Info",
+          "title": "Security Council LIVE: South Sudan's first elections loom amid rising violence",
+          "url": "https://news.un.org/en/story/2026/11/1168774",
+          "date": "2026-11-10"
+        }
+      ],
+      "dossier": {
+        "id": "crise-soudan-du-sud",
+        "title": "La crise au Soudan du Sud"
+      },
+      "slug": "soudan-sud-amnesty-accuse-onu-djouba-avoir-ignore"
+    }
+  ],
+  "brief": [
+    {
+      "id": "PSE",
+      "place": "Gaza",
+      "text": "Une frappe israélienne a touché jeudi l'aile chirurgicale de l'hôpital Nasser, à Khan Younès, tuant au moins six personnes selon le ministère de la santé de Gaza ; l'armée israélienne affirme avoir visé un commandant du Hamas.",
+      "url": "https://abcnews.com/International/israeli-airstrike-gaza-hospital-kills-6-people-hamas/story?id=138073754"
+    },
+    {
+      "id": "IDN",
+      "place": "Indonésie",
+      "text": "Le vice-président, Gibran Rakabuming Raka, fils de l'ancien président Joko Widodo, a remis jeudi sa démission après des décisions de justice jugeant ses diplômes non conformes ; le Parlement élira un successeur parmi deux candidats du président.",
+      "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
+    },
+    {
+      "id": "TUR",
+      "place": "COP31",
+      "text": "Selon un rapport de l'ONU et de l'Organisation météorologique mondiale présenté à Antalya, 136 pays disposent désormais de systèmes d'alerte précoce multirisques, l'Afrique rejoignant le niveau des Amériques.",
+      "url": "https://www.okayafrica.com/today-in-africa-nov-12-2026-un-peacekeepers-and-south-sudan-accused-of-ignoring-warnings-before-deadly-attack-africas-early-disaster-warning-systems-now-match-the-americas/1441876"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-18",
+      "t": "Sommet de l'APEC à Shenzhen."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Clôture prévue de la COP31."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Conseil européen de deux jours, consacré notamment aux besoins de financement de l'Ukraine pour 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Élections législatives anticipées en Espagne."
+    },
+    {
+      "d": "2026-12-22",
+      "t": "Premières élections générales au Soudan du Sud depuis l'indépendance."
+    }
+  ],
+  "consulted": [
+    "Associated Press",
+    "Reuters",
+    "AFP",
+    "Al Jazeera",
+    "Euronews",
+    "Time",
+    "ABC News",
+    "CBS News",
+    "Middle East Eye",
+    "Kyiv Independent",
+    "Kyiv Post",
+    "Ukrinform",
+    "The National",
+    "TechCrunch",
+    "Amnesty International",
+    "ONU Info"
+  ]
+}

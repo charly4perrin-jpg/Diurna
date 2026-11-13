@@ -8,11 +8,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-10",
+  "checked": "2026-11-13",
   "source": {
-   "name": "CNN",
-   "name_en": "CNN",
-   "url": "https://www.cnn.com/2026/11/09/politics/live-news/midterm-election-trump-congress"
+   "name": "Middle East Eye",
+   "name_en": "Middle East Eye",
+   "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate"
   },
   "regime_en": "Federal republic, presidential system"
  },
@@ -31,11 +31,11 @@
     "name_en": "Masoud Pezeshkian"
    }
   ],
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "source": {
-   "name": "Reuters, via Al-Monitor",
-   "name_en": "Reuters, via Al-Monitor",
-   "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
+   "name": "CBS News",
+   "name_en": "CBS News",
+   "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
   },
   "regime_en": "Islamic republic"
  },
@@ -48,11 +48,11 @@
     "role_en": "President"
    }
   ],
-  "checked": "2026-11-12",
+  "checked": "2026-11-13",
   "source": {
-   "name": "CBS News",
-   "name_en": "CBS News",
-   "url": "https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/"
+   "name": "Kyiv Independent",
+   "name_en": "Kyiv Independent",
+   "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
   },
   "regime_en": "Semi-presidential republic, under martial law"
  },
@@ -417,6 +417,40 @@
    "name": "Critical Threats Project",
    "name_en": "Critical Threats Project",
    "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026"
+  }
+ },
+ "ESP": {
+  "regime": "Monarchie parlementaire",
+  "regime_en": "Parliamentary monarchy",
+  "leaders": [
+   {
+    "role": "Président du gouvernement (Parlement dissous)",
+    "role_en": "Prime Minister (parliament dissolved)",
+    "name": "Pedro Sánchez"
+   }
+  ],
+  "checked": "2026-11-13",
+  "source": {
+   "name": "Time",
+   "name_en": "Time",
+   "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+  }
+ },
+ "SSD": {
+  "regime": "Régime présidentiel, en transition",
+  "regime_en": "Presidential system, in transition",
+  "leaders": [
+   {
+    "role": "Président",
+    "role_en": "President",
+    "name": "Salva Kiir"
+   }
+  ],
+  "checked": "2026-11-13",
+  "source": {
+   "name": "ONU Info",
+   "name_en": "UN News",
+   "url": "https://news.un.org/en/story/2026/11/1168774"
   }
  }
 }

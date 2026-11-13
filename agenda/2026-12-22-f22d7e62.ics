@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-12-22-f22d7e62@diurna
+DTSTAMP:20261113T060318Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Premières élections générales au Soudan du Sud depuis l’ind
+ épendance.
+DESCRIPTION:Diurna — Édition du 13 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/13/
+END:VEVENT
+END:VCALENDAR
