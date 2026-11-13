@@ -1,9 +1,9 @@
 {
   "date": "2026-11-13",
   "number": 9,
-  "updated": "2026-11-13T07:02:59+01:00",
+  "updated": "2026-11-13T19:55:00+01:00",
   "headline": "Volodymyr Zelensky announces a record prisoner swap after meeting America's envoys",
-  "standfirst": "Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war's largest prisoner exchange and a seat for Europe at the table. Donald Trump says he no longer needs a deal with Iran, Jensen Huang steps down as Nvidia's boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.",
+  "standfirst": "Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war's largest prisoner exchange and a seat for Europe at the table. Iran says it targeted an American radar in Bahrain a day after Donald Trump ruled out a deal, Jensen Huang steps down as Nvidia's boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.",
   "essentials": [
     {
       "rank": 1,
@@ -164,12 +164,12 @@
         "diplomacy",
         "economy"
       ],
-      "title": "Donald Trump says he no longer needs a deal with Iran and sidelines JD Vance",
-      "standfirst": "America's president said on Thursday that the time for a deal with Tehran had passed and told his vice-president to turn to other matters. In the Strait of Hormuz, Iran says two tankers caught fire after hitting mines.",
+      "title": "Iran says it hit an American radar in Bahrain as Donald Trump rules out a deal",
+      "standfirst": "The Revolutionary Guards claim to have destroyed an American early-warning radar in Bahrain on Friday in retaliation for a strike on the port of Sirik, a claim America's military disputes. A day earlier America's president called a deal with Tehran unnecessary and took his vice-president off the file.",
       "body": [
         "On Thursday 12 November Donald Trump wrote that America did “not need a deal with Iran” and told his vice-president, JD Vance, who had been considering a meeting with the secretary of Iran's Supreme National Security Council, Mohsen Rezaei, to focus on crime in Democratic-run cities, Middle East Eye reports.",
         "The reversal, days after he spoke of “momentum” towards a settlement, comes as Tehran denies any planned meeting in Qatar, refuses to send its enriched uranium abroad and keeps the Strait of Hormuz closed until its conditions are met.",
-        "Iran's navy says two tankers caught fire on Thursday after hitting mines, a claim that could not be verified, and Brent crude climbed back above $94 after the president's message, according to HNGN, while Israel is said to be preparing to strike Iran, according to the public broadcaster Kan."
+        "On Friday 13 November the Revolutionary Guards said they had destroyed an American early-warning radar in Bahrain in retaliation for an unclaimed strike on a telecoms tower in Sirik, on the Strait of Hormuz, while America's Central Command says it shot down two drones, causing no damage, according to RFE/RL and Fox News."
       ],
       "figure": {
         "value": "2",
@@ -264,6 +264,10 @@
         {
           "d": "2026-11-12",
           "t": "Donald Trump calls a deal unnecessary and takes his vice-president off the file."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "The Revolutionary Guards say they struck an American radar in Bahrain, which Washington disputes."
         }
       ],
       "sources": [
@@ -271,12 +275,6 @@
           "name": "Middle East Eye",
           "title": "Trump sidelines Vance from Iran talks, says no need to negotiate",
           "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "HNGN",
-          "title": "Trump Says No Iran Deal Needed, Pulls Vance From Talks",
-          "url": "https://www.hngn.com/articles/273810/20261112/trump-says-no-iran-deal-needed-pulls-vance-talks.htm",
           "date": "2026-11-12"
         },
         {
@@ -290,13 +288,31 @@
           "title": "Live Updates: Iran sticks to its demands as Trump insists war will end \"when we want to end it\"",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
           "date": "2026-11-12"
+        },
+        {
+          "name": "RFE/RL",
+          "title": "Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town",
+          "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Fox News",
+          "title": "Iran rules out nuclear inspections while under threat from US",
+          "url": "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26",
+          "date": "2026-11-13"
         }
       ],
       "dossier": {
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "donald-trump-says-he-no-longer-needs-deal"
+      "slug": "donald-trump-says-he-no-longer-needs-deal",
+      "updates": [
+        {
+          "time": "2026-11-13T19:55:00+01:00",
+          "text": "The Revolutionary Guards claim to have targeted an American radar in Bahrain after a strike on Sirik; headline, standfirst and third sentence rewritten."
+        }
+      ]
     },
     {
       "rank": 3,

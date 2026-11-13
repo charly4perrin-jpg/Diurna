@@ -1,9 +1,9 @@
 {
   "date": "2026-11-13",
   "number": 9,
-  "updated": "2026-11-13T07:02:59+01:00",
+  "updated": "2026-11-13T19:55:00+01:00",
   "headline": "Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains",
-  "standfirst": "Au retour du Kremlin, Steve Witkoff et Jared Kushner ont vu Volodymyr Zelensky près de Dublin, qui annonce le plus grand échange de prisonniers de la guerre et des Européens à la table. Donald Trump dit ne plus avoir besoin d'un accord avec l'Iran, Jensen Huang quitte la direction de Nvidia, l'Espagne a connu sa première grève générale depuis 2012, et Amnesty accuse l'ONU d'inaction avant un massacre au Soudan du Sud.",
+  "standfirst": "Au retour du Kremlin, Steve Witkoff et Jared Kushner ont vu Volodymyr Zelensky près de Dublin, qui annonce le plus grand échange de prisonniers de la guerre et des Européens à la table. l'Iran dit avoir visé un radar américain à Bahreïn au lendemain du refus d'un accord par Donald Trump, Jensen Huang quitte la direction de Nvidia, l'Espagne a connu sa première grève générale depuis 2012, et Amnesty accuse l'ONU d'inaction avant un massacre au Soudan du Sud.",
   "essentials": [
     {
       "rank": 1,
@@ -164,12 +164,12 @@
         "diplomacy",
         "economy"
       ],
-      "title": "Donald Trump dit ne plus avoir besoin d'un accord avec l'Iran et écarte JD Vance",
-      "standfirst": "Le président américain a affirmé jeudi que le temps d'un accord avec Téhéran était révolu et prié son vice-président de se consacrer à d'autres dossiers. Dans le détroit d'Ormuz, l'Iran dit que deux pétroliers ont pris feu après avoir heurté des mines.",
+      "title": "L'Iran dit avoir visé un radar américain à Bahreïn, Donald Trump écarte tout accord",
+      "standfirst": "Les Gardiens de la révolution affirment avoir détruit vendredi un radar d'alerte avancée américain à Bahreïn, en riposte à une frappe contre le port de Sirik, ce que conteste le commandement américain. La veille, le président américain avait jugé un accord avec Téhéran inutile et écarté son vice-président du dossier.",
       "body": [
         "Jeudi 12 novembre, Donald Trump a écrit que les États-Unis n'avaient « pas besoin d'un accord avec l'Iran » et demandé au vice-président, JD Vance, qui envisageait de rencontrer le secrétaire du Conseil suprême de sécurité nationale iranien, Mohsen Rezaei, de se consacrer à la criminalité dans les villes démocrates, selon Middle East Eye.",
         "Ce revirement, quelques jours après des propos sur une « dynamique » favorable à un règlement, intervient alors que Téhéran dément toute rencontre prévue au Qatar, refuse d'envoyer à l'étranger son uranium enrichi et maintient fermé le détroit d'Ormuz tant que ses conditions ne sont pas remplies.",
-        "La marine iranienne affirme que deux pétroliers ont pris feu jeudi en heurtant des mines, ce qui n'a pu être vérifié, et le Brent est repassé au-dessus de 94 dollars après le message présidentiel, selon HNGN, alors qu'Israël se préparerait à frapper l'Iran, selon la télévision publique Kan."
+        "Vendredi 13 novembre, les Gardiens de la révolution ont affirmé avoir détruit un radar d'alerte avancée américain à Bahreïn, en riposte à une frappe non revendiquée contre une tour de télécommunications de Sirik, sur le détroit d'Ormuz, tandis que le commandement américain dit avoir abattu deux drones, sans dégâts, selon RFE/RL et Fox News."
       ],
       "figure": {
         "value": "2",
@@ -264,6 +264,10 @@
         {
           "d": "2026-11-12",
           "t": "Donald Trump juge un accord inutile et écarte son vice-président du dossier."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Les Gardiens de la révolution disent avoir frappé un radar américain à Bahreïn, ce que Washington conteste."
         }
       ],
       "sources": [
@@ -271,12 +275,6 @@
           "name": "Middle East Eye",
           "title": "Trump sidelines Vance from Iran talks, says no need to negotiate",
           "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "HNGN",
-          "title": "Trump Says No Iran Deal Needed, Pulls Vance From Talks",
-          "url": "https://www.hngn.com/articles/273810/20261112/trump-says-no-iran-deal-needed-pulls-vance-talks.htm",
           "date": "2026-11-12"
         },
         {
@@ -290,13 +288,31 @@
           "title": "Live Updates: Iran sticks to its demands as Trump insists war will end \"when we want to end it\"",
           "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
           "date": "2026-11-12"
+        },
+        {
+          "name": "RFE/RL",
+          "title": "Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town",
+          "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Fox News",
+          "title": "Iran rules out nuclear inspections while under threat from US",
+          "url": "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26",
+          "date": "2026-11-13"
         }
       ],
       "dossier": {
         "id": "guerre-iran",
         "title": "La guerre avec l’Iran"
       },
-      "slug": "donald-trump-dit-avoir-besoin-accord-iran-ecarte"
+      "slug": "donald-trump-dit-avoir-besoin-accord-iran-ecarte",
+      "updates": [
+        {
+          "time": "2026-11-13T19:55:00+01:00",
+          "text": "Les Gardiens de la révolution affirment avoir visé un radar américain à Bahreïn après une frappe sur Sirik ; titre, chapô et troisième phrase réécrits."
+        }
+      ]
     },
     {
       "rank": 3,

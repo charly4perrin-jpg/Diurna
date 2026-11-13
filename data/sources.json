@@ -1,7 +1,7 @@
 {
   "_doc": "Rédactions et institutions de référence (« ref ») et sources à éviter ou à doubler (« weak »). Chaque sujet doit citer au moins une source de référence ; une source « weak » déclenche un avertissement. Domaines sans « www. ».",
   "ref": [
-    "reuters.com", "apnews.com", "afp.com", "bloomberg.com", "dpa-international.com",
+    "reuters.com", "rferl.org", "apnews.com", "afp.com", "bloomberg.com", "dpa-international.com",
     "lemonde.fr", "lefigaro.fr", "liberation.fr", "lesechos.fr", "la-croix.com", "ouest-france.fr", "franceinfo.fr", "francetvinfo.fr", "rfi.fr", "france24.com", "tv5monde.com", "courrierinternational.com", "mediapart.fr", "lepoint.fr", "lexpress.fr", "connaissancedesenergies.org",
     "nytimes.com", "washingtonpost.com", "wsj.com", "ft.com", "economist.com", "theguardian.com", "bbc.com", "bbc.co.uk", "npr.org", "pbs.org", "cbsnews.com", "abcnews.com", "abcnews.go.com", "nbcnews.com", "cnn.com", "cnbc.com", "politico.com", "politico.eu", "axios.com", "theatlantic.com", "latimes.com", "apnews.org",
     "aljazeera.com", "euronews.com", "dw.com", "spiegel.de", "elpais.com", "corriere.it", "lesoir.be", "rtbf.be", "swissinfo.ch", "letemps.ch", "abc.net.au", "cbc.ca", "theglobeandmail.com", "globalnews.ca",

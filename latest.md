@@ -2,7 +2,7 @@
 
 > Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains
 
-Au retour du Kremlin, Steve Witkoff et Jared Kushner ont vu Volodymyr Zelensky près de Dublin, qui annonce le plus grand échange de prisonniers de la guerre et des Européens à la table. Donald Trump dit ne plus avoir besoin d’un accord avec l’Iran, Jensen Huang quitte la direction de Nvidia, l’Espagne a connu sa première grève générale depuis 2012, et Amnesty accuse l’ONU d’inaction avant un massacre au Soudan du Sud.
+Au retour du Kremlin, Steve Witkoff et Jared Kushner ont vu Volodymyr Zelensky près de Dublin, qui annonce le plus grand échange de prisonniers de la guerre et des Européens à la table. l’Iran dit avoir visé un radar américain à Bahreïn au lendemain du refus d’un accord par Donald Trump, Jensen Huang quitte la direction de Nvidia, l’Espagne a connu sa première grève générale depuis 2012, et Amnesty accuse l’ONU d’inaction avant un massacre au Soudan du Sud.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
@@ -27,11 +27,11 @@ Sources :
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/13/dublin-volodymyr-zelensky-annonce-echange-record-prisonniers-europe/
 
-## 2. Iran — Donald Trump dit ne plus avoir besoin d’un accord avec l’Iran et écarte JD Vance
+## 2. Iran — L’Iran dit avoir visé un radar américain à Bahreïn, Donald Trump écarte tout accord
 
-**Le président américain a affirmé jeudi que le temps d’un accord avec Téhéran était révolu et prié son vice-président de se consacrer à d’autres dossiers. Dans le détroit d’Ormuz, l’Iran dit que deux pétroliers ont pris feu après avoir heurté des mines.**
+**Les Gardiens de la révolution affirment avoir détruit vendredi un radar d’alerte avancée américain à Bahreïn, en riposte à une frappe contre le port de Sirik, ce que conteste le commandement américain. La veille, le président américain avait jugé un accord avec Téhéran inutile et écarté son vice-président du dossier.**
 
-Jeudi 12 novembre, Donald Trump a écrit que les États-Unis n’avaient « pas besoin d’un accord avec l’Iran » et demandé au vice-président, JD Vance, qui envisageait de rencontrer le secrétaire du Conseil suprême de sécurité nationale iranien, Mohsen Rezaei, de se consacrer à la criminalité dans les villes démocrates, selon Middle East Eye. Ce revirement, quelques jours après des propos sur une « dynamique » favorable à un règlement, intervient alors que Téhéran dément toute rencontre prévue au Qatar, refuse d’envoyer à l’étranger son uranium enrichi et maintient fermé le détroit d’Ormuz tant que ses conditions ne sont pas remplies. La marine iranienne affirme que deux pétroliers ont pris feu jeudi en heurtant des mines, ce qui n’a pu être vérifié, et le Brent est repassé au-dessus de 94 dollars après le message présidentiel, selon HNGN, alors qu’Israël se préparerait à frapper l’Iran, selon la télévision publique Kan.
+Jeudi 12 novembre, Donald Trump a écrit que les États-Unis n’avaient « pas besoin d’un accord avec l’Iran » et demandé au vice-président, JD Vance, qui envisageait de rencontrer le secrétaire du Conseil suprême de sécurité nationale iranien, Mohsen Rezaei, de se consacrer à la criminalité dans les villes démocrates, selon Middle East Eye. Ce revirement, quelques jours après des propos sur une « dynamique » favorable à un règlement, intervient alors que Téhéran dément toute rencontre prévue au Qatar, refuse d’envoyer à l’étranger son uranium enrichi et maintient fermé le détroit d’Ormuz tant que ses conditions ne sont pas remplies. Vendredi 13 novembre, les Gardiens de la révolution ont affirmé avoir détruit un radar d’alerte avancée américain à Bahreïn, en riposte à une frappe non revendiquée contre une tour de télécommunications de Sirik, sur le détroit d’Ormuz, tandis que le commandement américain dit avoir abattu deux drones, sans dégâts, selon RFE/RL et Fox News.
 
 **Le chiffre du jour :** 2 — pétroliers en feu jeudi après avoir heurté des mines, selon la marine iranienne
 
@@ -39,11 +39,14 @@ Jeudi 12 novembre, Donald Trump a écrit que les États-Unis n’avaient « pas
 
 Un responsable de l’administration a refusé de dire si les discussions étaient interrompues, et la Maison Blanche n’a pas indiqué qui parlerait désormais à Téhéran au nom de Washington, rapporte HNGN. L’Iran conditionne la réouverture d’Ormuz, qu’il dit possible en deux jours, à la levée des sanctions et du blocus américain de ses ports et à la fin des combats sur tous les fronts ; le secrétaire d’État, Marco Rubio, juge ces exigences « inacceptables », selon CBS News. Le trafic commercial dans le détroit ne représente plus qu’une fraction de son niveau d’avant-guerre, et le commandement central américain se dit prêt à reprendre des opérations de combat majeures si l’ordre lui en est donné.
 
+- _Ce qui a changé 19 h 55_ : Les Gardiens de la révolution affirment avoir visé un radar américain à Bahreïn après une frappe sur Sirik ; titre, chapô et troisième phrase réécrits.
+
 Sources :
 - [Middle East Eye — Trump sidelines Vance from Iran talks, says no need to negotiate](https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate)
-- [HNGN — Trump Says No Iran Deal Needed, Pulls Vance From Talks](https://www.hngn.com/articles/273810/20261112/trump-says-no-iran-deal-needed-pulls-vance-talks.htm)
 - [Al Jazeera — Iran warns of expanded retaliation as Israel reportedly readies to attack](https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack)
 - [CBS News — Live Updates: Iran sticks to its demands as Trump insists war will end "when we want to end it"](https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/)
+- [RFE/RL — Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town](https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html)
+- [Fox News — Iran rules out nuclear inspections while under threat from US](https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/13/donald-trump-dit-avoir-besoin-accord-iran-ecarte/
 

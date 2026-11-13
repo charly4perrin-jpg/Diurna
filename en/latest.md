@@ -2,7 +2,7 @@
 
 > Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys
 
-Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war’s largest prisoner exchange and a seat for Europe at the table. Donald Trump says he no longer needs a deal with Iran, Jensen Huang steps down as Nvidia’s boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.
+Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war’s largest prisoner exchange and a seat for Europe at the table. Iran says it targeted an American radar in Bahrain a day after Donald Trump ruled out a deal, Jensen Huang steps down as Nvidia’s boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
@@ -27,11 +27,11 @@ Sources :
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/dublin-volodymyr-zelensky-announces-record-prisoner-swap-europe/
 
-## 2. Iran — Donald Trump says he no longer needs a deal with Iran and sidelines JD Vance
+## 2. Iran — Iran says it hit an American radar in Bahrain as Donald Trump rules out a deal
 
-**America’s president said on Thursday that the time for a deal with Tehran had passed and told his vice-president to turn to other matters. In the Strait of Hormuz, Iran says two tankers caught fire after hitting mines.**
+**The Revolutionary Guards claim to have destroyed an American early-warning radar in Bahrain on Friday in retaliation for a strike on the port of Sirik, a claim America’s military disputes. A day earlier America’s president called a deal with Tehran unnecessary and took his vice-president off the file.**
 
-On Thursday 12 November Donald Trump wrote that America did “not need a deal with Iran” and told his vice-president, JD Vance, who had been considering a meeting with the secretary of Iran’s Supreme National Security Council, Mohsen Rezaei, to focus on crime in Democratic-run cities, Middle East Eye reports. The reversal, days after he spoke of “momentum” towards a settlement, comes as Tehran denies any planned meeting in Qatar, refuses to send its enriched uranium abroad and keeps the Strait of Hormuz closed until its conditions are met. Iran’s navy says two tankers caught fire on Thursday after hitting mines, a claim that could not be verified, and Brent crude climbed back above $94 after the president’s message, according to HNGN, while Israel is said to be preparing to strike Iran, according to the public broadcaster Kan.
+On Thursday 12 November Donald Trump wrote that America did “not need a deal with Iran” and told his vice-president, JD Vance, who had been considering a meeting with the secretary of Iran’s Supreme National Security Council, Mohsen Rezaei, to focus on crime in Democratic-run cities, Middle East Eye reports. The reversal, days after he spoke of “momentum” towards a settlement, comes as Tehran denies any planned meeting in Qatar, refuses to send its enriched uranium abroad and keeps the Strait of Hormuz closed until its conditions are met. On Friday 13 November the Revolutionary Guards said they had destroyed an American early-warning radar in Bahrain in retaliation for an unclaimed strike on a telecoms tower in Sirik, on the Strait of Hormuz, while America’s Central Command says it shot down two drones, causing no damage, according to RFE/RL and Fox News.
 
 **The number :** 2 — tankers ablaze on Thursday after hitting mines, according to Iran’s navy
 
@@ -39,11 +39,14 @@ On Thursday 12 November Donald Trump wrote that America did “not need a deal w
 
 An administration official declined to say whether the talks had been halted, and the White House has not said who will now speak to Tehran on Washington’s behalf, HNGN reports. Iran makes reopening Hormuz, which it says could be done in two days, conditional on the lifting of sanctions and of America’s blockade of its ports, and on an end to fighting on every front; the secretary of state, Marco Rubio, calls those demands “unacceptable”, according to CBS News. Commercial traffic through the strait is now a fraction of its pre-war level, and America’s Central Command says it is ready to resume major combat operations if ordered to.
 
+- _What changed 19:55_ : The Revolutionary Guards claim to have targeted an American radar in Bahrain after a strike on Sirik; headline, standfirst and third sentence rewritten.
+
 Sources :
 - [Middle East Eye — Trump sidelines Vance from Iran talks, says no need to negotiate](https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate)
-- [HNGN — Trump Says No Iran Deal Needed, Pulls Vance From Talks](https://www.hngn.com/articles/273810/20261112/trump-says-no-iran-deal-needed-pulls-vance-talks.htm)
 - [Al Jazeera — Iran warns of expanded retaliation as Israel reportedly readies to attack](https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack)
 - [CBS News — Live Updates: Iran sticks to its demands as Trump insists war will end "when we want to end it"](https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/)
+- [RFE/RL — Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town](https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html)
+- [Fox News — Iran rules out nuclear inspections while under threat from US](https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/donald-trump-says-he-no-longer-needs-deal/
 
