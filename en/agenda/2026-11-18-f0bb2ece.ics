@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-11-18-f0bb2ece@diurna
-DTSTAMP:20261113T060318Z
+DTSTAMP:20261113T062442Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:APEC summit in Shenzhen.
-DESCRIPTION:Diurna — Edition of 12 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/
+DESCRIPTION:Diurna — Edition of 13 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
 END:VEVENT
 END:VCALENDAR

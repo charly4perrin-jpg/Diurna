@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-26-0e8dcf9d@diurna
+DTSTAMP:20261113T062442Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Two-day European Council\, with Ukraine’s financing needs for 2
+ 027 on the agenda.
+DESCRIPTION:Diurna — Edition of 13 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+END:VEVENT
+END:VCALENDAR

@@ -1,128 +1,121 @@
-# Diurna — No. 8 — Thursday, 12 November 2026
+# Diurna — No. 9 — Friday, 13 November 2026
 
-> After seeing Vladimir Putin, Donald Trump’s envoys head to Dublin to meet Volodymyr Zelensky
+> Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys
 
-Steve Witkoff and Jared Kushner spent more than two hours at the Kremlin before heading to Volodymyr Zelensky in Dublin. Israel is reportedly readying a strike on Iran, Ebola passes 11,000 cases in DR Congo, António Guterres urges COP31 to be done with fossil fuels, and clashes are reported on the Ethiopia-Eritrea border.
+Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war’s largest prisoner exchange and a seat for Europe at the table. Donald Trump says he no longer needs a deal with Iran, Jensen Huang steps down as Nvidia’s boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — After seeing Vladimir Putin, Donald Trump’s envoys head to Dublin to meet Volodymyr Zelensky
+## 1. Ukraine — In Dublin, Volodymyr Zelensky announces a record prisoner swap and Europe’s seat at the table
 
-**Steve Witkoff and Jared Kushner spent more than two hours at the Kremlin on Thursday, with nothing announced on the substance of the conflict. Moscow says they backed a humanitarian mission to Kostiantynivka.**
+**Ukraine’s president says Steve Witkoff and Jared Kushner, whom he received on Thursday evening on their way back from the Kremlin, promised him the biggest prisoner exchange of the war. Europeans are expected to join the next round of talks, though Moscow has not confirmed it.**
 
-On Thursday 12 November Russia’s president, Vladimir Putin, received America’s envoys, Steve Witkoff and Jared Kushner, at the Kremlin for more than two hours, a day after two days of three-way talks in Abu Dhabi ended in a prisoner-exchange deal, according to TASS and ABC News. The Kremlin’s foreign-policy adviser, Yuri Ushakov, called the meeting “constructive” and said the Americans supported a Russian proposal for a humanitarian mission to Kostiantynivka, in the Donetsk region, and that the three-way talks would continue, but said nothing on territory, which Moscow demands and Kyiv refuses to cede. The two envoys are expected in Dublin on Thursday evening to see Volodymyr Zelensky, who doubts they will bring back “something concrete”, while a Russian drone strike on a block of flats in Kyiv killed a woman and injured seven people that morning, according to Meduza and ABC News.
+On the evening of Thursday 12 November, at Baldonnel air base west of Dublin, Ukraine’s president, Volodymyr Zelensky, received America’s envoys, Steve Witkoff and Jared Kushner, a few hours after their meeting with Vladimir Putin at the Kremlin, the Kyiv Independent reports. Mr Zelensky says the meeting “unblocked” the three-way talks, paved the way for the largest exchange of prisoners of war since 2022 and secured direct European representation at the next session, with Mr Kushner arguing that no deal is possible without Europe, according to the Kyiv Post. No date has yet been set for the new round, whose format the Kremlin has not confirmed, while the “coalition of the willing” is due to meet in Berlin next week and EU leaders will weigh Kyiv’s financing needs for 2027 on 26-27 November.
 
-**The number :** 4 — drones detected overnight over the Baltic states, according to Vilnius
+**The number :** Up to 1,500 — prisoners per side discussed in Abu Dhabi for the exchange
 
-### The Baltic, the war’s blind spot
+### Europe still searching for its voice
 
-Ukraine’s strikes on Russia’s Baltic oil ports regularly spill over into neighbouring countries: Ukrainian drones have already strayed into Finland, Estonia, Latvia and Lithuania, Reuters notes. Moscow accuses Kyiv of using NATO airspace as cover; Kyiv says Russian jamming knocks its drones off course. On the night of 10-11 November an attempt was made to shoot down a drone over northern Lithuania, and debris from a NATO missile was found on the ground, though it is unclear whether the drone was hit. Finland, for its part, temporarily restricted its airspace and waters in the eastern Gulf of Finland.
-
-- _What changed 19:55_ : America’s envoys have met Vladimir Putin; headline, standfirst and text rewritten in the light of the Kremlin’s readout.
+The European Political Community summit, which brought more than 50 leaders to Dublin, mostly showed how hard Europeans find it to agree on who should speak for them to the Kremlin, notes EU Perspectives. Estonia’s prime minister, Kristen Michal, proposed the president of the European Council, António Costa, and the EU’s foreign-policy chief, Kaja Kallas; Emmanuel Macron replied that “content determines format”. A declaration backed by France and signed by 39 countries states that any question touching on European security must be settled with the Europeans, according to the Kyiv Post. The president of the European Commission, Ursula von der Leyen, and Mr Costa promised to keep up “substantial” financial and military support for Ukraine.
 
 Sources :
-- [Meduza — Kushner and Witkoff hold talks with Putin before heading to meet Zelensky as Europe seeks a seat at the peace talks](https://meduza.io/en/feature/2026/11/12/kushner-and-witkoff-hold-talks-with-putin-before-heading-to-meet-zelensky-as-europe-seeks-a-seat-at-the-peace-talks)
-- [ABC News — Witkoff and Kushner arrive in Moscow to meet with Putin, discuss Ukraine peace talks](https://abcnews.com/International/witkoff-kushner-arrive-moscow-meet-putin-discuss-ukraine/story?id=138070892)
-- [UNN, citing Russian media — Putin was alarmed by Zelenskyy and his "greetings" to Trump — what the Russian dictator discussed with Witkoff and Kushner](https://unn.ua/en/news/putin-was-concerned-by-zelenskyy-and-his-greetings-to-trump-what-else-the-russian-dictator-discussed-with-witkoff-and-kushner)
-- [CBS News, avec AP — U.S. brokers another Russia-Ukraine prisoner swap, but war continues as Putin sticks to demand for territory](https://www.cbsnews.com/news/us-russia-ukraine-war-talks-prisoner-swap-no-ceasaefire-putin-trump/)
-- [Reuters, via Cyprus Mail — NATO jets scrambled as drone alerts sweep Baltic states](https://cyprus-mail.com/2026/11/11/nato-jets-scrambled-as-drone-alerts-sweep-baltic-states)
+- [Kyiv Independent — Zelensky meets with Trump’s envoys in Dublin after their summit with Putin](https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/)
+- [Kyiv Post — Europe to Join Next Ukraine Peace Talks Following US-Putin Meeting](https://www.kyivpost.com/post/89972)
+- [Ukrinform — Zelensky meets with Witkoff and Kushner, outlines key outcomes of Abu Dhabi talks](https://www.ukrinform.net/rubric-polytics/4184145-zelensky-meets-with-witkoff-and-kushner-outlines-key-outcomes-of-abu-dhabi-talks.html)
+- [Interfax-Ukraine — Joint statement by von der Leyen and Costa following meeting with Zelenskyy: We will continue to stand by Ukraine](https://en.interfax.com.ua/news/general/1235706.html)
+- [EU Perspectives — ’Europe must have a voice at the table.’ But it is still floundering over who should speak to Kremlin](https://euperspectives.eu/2026/11/epc-summit-dublin-ukraine-peace-talks-europe/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/donald-trump-envoys-due-see-vladimir-putin-day/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/dublin-volodymyr-zelensky-announces-record-prisoner-swap-europe/
 
-## 2. Iran — Israel is reportedly readying a strike on Iran as two supertankers explode in Hormuz
+## 2. Iran — Donald Trump says he no longer needs a deal with Iran and sidelines JD Vance
 
-**Israel’s security cabinet has reportedly ordered the army to step up preparations for an attack, according to the public broadcaster Kan. In Hormuz, the Revolutionary Guards say two supertankers were disabled by explosions.**
+**America’s president said on Thursday that the time for a deal with Tehran had passed and told his vice-president to turn to other matters. In the Strait of Hormuz, Iran says two tankers caught fire after hitting mines.**
 
-On the evening of Wednesday 11 November Israel’s security cabinet, chaired by the caretaker prime minister, Benjamin Netanyahu, ordered the army to step up preparations for an attack on Iran, according to the public broadcaster Kan, cited by Al Jazeera, even as Gadi Eisenkot urged him not to deploy the army without a direct and immediate threat. That same night two supertankers were disabled by explosions in the Strait of Hormuz after ignoring warnings, the Revolutionary Guards said on Thursday, threatening the same fate for any ship that co-operates with the American armed forces, according to Reuters. Donald Trump says he is ready to return to war if Qatar’s mediation fails, even though his secretary of state, Marco Rubio, thinks the blockade effective enough to make that unnecessary, and Brent closed at $92.76 on Wednesday after Tehran rejected moving its enriched uranium to a third country, according to Al Jazeera.
+On Thursday 12 November Donald Trump wrote that America did “not need a deal with Iran” and told his vice-president, JD Vance, who had been considering a meeting with the secretary of Iran’s Supreme National Security Council, Mohsen Rezaei, to focus on crime in Democratic-run cities, Middle East Eye reports. The reversal, days after he spoke of “momentum” towards a settlement, comes as Tehran denies any planned meeting in Qatar, refuses to send its enriched uranium abroad and keeps the Strait of Hormuz closed until its conditions are met. Iran’s navy says two tankers caught fire on Thursday after hitting mines, a claim that could not be verified, and Brent crude climbed back above $94 after the president’s message, according to HNGN, while Israel is said to be preparing to strike Iran, according to the public broadcaster Kan.
 
-**The number :** $92.76 — a barrel of Brent on 11 November, according to Al Jazeera
+**The number :** 2 — tankers ablaze on Thursday after hitting mines, according to Iran’s navy
 
-### A divided administration
+### Diplomacy without a spokesman
 
-According to Reuters, the new White House chief of staff, Stephen Miller, and the treasury secretary, Scott Bessent, favour economic pressure, while J.D. Vance prefers a deal. At the G7, Marco Rubio reportedly called Iran’s leaders “crazy”, according to two diplomats. The strategy worries countries such as Pakistan, Iraq and Turkey, which bear its economic cost, Al Jazeera notes. A Reuters/Ipsos poll finds that 71% of Americans support legislation to end the war. In Iran, the rial has lost more than half its value against the dollar in a year, according to Iran International, and the foreign minister, Abbas Araghchi, insists that neither force nor sanctions will end the conflict.
-
-- _What changed 19:55_ : Israel is reportedly readying a strike on Iran and two supertankers exploded in Hormuz; headline, text and figure rewritten.
+An administration official declined to say whether the talks had been halted, and the White House has not said who will now speak to Tehran on Washington’s behalf, HNGN reports. Iran makes reopening Hormuz, which it says could be done in two days, conditional on the lifting of sanctions and of America’s blockade of its ports, and on an end to fighting on every front; the secretary of state, Marco Rubio, calls those demands “unacceptable”, according to CBS News. Commercial traffic through the strait is now a fraction of its pre-war level, and America’s Central Command says it is ready to resume major combat operations if ordered to.
 
 Sources :
+- [Middle East Eye — Trump sidelines Vance from Iran talks, says no need to negotiate](https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate)
+- [HNGN — Trump Says No Iran Deal Needed, Pulls Vance From Talks](https://www.hngn.com/articles/273810/20261112/trump-says-no-iran-deal-needed-pulls-vance-talks.htm)
 - [Al Jazeera — Iran warns of expanded retaliation as Israel reportedly readies to attack](https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack)
-- [Reuters, via MarineLink — Two Oil Supertankers Explode in Strait of Hormuz, IRGC Says](https://www.marinelink.com/news/two-oil-supertankers-explode-strait-544312)
-- [Al Jazeera — Rubio backs blockade, Vance wants deal: Is Trump’s team split on Iran war?](https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran)
-- [Reuters, via Al-Monitor — Rubio tells G7 US will keep imposing ’devastating’ costs on Iran, diplomats say](https://www.al-monitor.com/originals/2026/11/rubio-tells-g7-us-will-keep-imposing-devastating-costs-iran-diplomats-say)
-- [Iran International — Rubio tells G7 the US will keep imposing ’devastating’ costs on Iran](https://www.iranintl.com/en/202611107939)
+- [CBS News — Live Updates: Iran sticks to its demands as Trump insists war will end "when we want to end it"](https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/america-bets-blockade-bring-iran-heel-tankers-burn/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/donald-trump-says-he-no-longer-needs-deal/
 
-## 3. DR Congo — Ebola in DR Congo passes 11,000 confirmed cases and 5,300 deaths
+## 3. United States — Dogged by suspicions of Chinese espionage, Jensen Huang steps down as Nvidia’s boss
 
-**Figures published on Tuesday by the Congolese government confirm an outbreak of exceptional scale, the second-largest ever recorded. No vaccine or treatment is approved against the Bundibugyo strain.**
+**The co-founder of the AI-chip giant resigned on Thursday, after revelations of an affair with a woman whom American officials suspect of spying for Beijing. The chief financial officer, Colette Kress, takes over in the interim.**
 
-According to figures published by the Congolese government on Tuesday 10 November, the Ebola outbreak declared in mid-May in the east of the Democratic Republic of Congo now stands at 11,042 confirmed cases and 5,387 deaths, the worst in the country’s history, Reuters and the AP report. Caused by the Bundibugyo strain, for which no vaccine or treatment has been approved, it has reached eight of the country’s 26 provinces, above all Ituri and North Kivu, where insecurity hampers access to treatment centres and many patients die at home, according to Reuters. It is the second-largest Ebola outbreak on record, after West Africa’s in 2014-2016, and the vaccine trial launched in Bunia at the end of October is not expected to produce results before 2027, while Kenya has recorded nine cases and Nigeria one imported case.
+On Thursday 12 November Nvidia announced the resignation “effective immediately” of its chief executive and co-founder, Jensen Huang, 63, who also leaves the board, gave no official reason and named its chief financial officer, Colette Kress, as interim boss, Al Jazeera and The National report. On 8 November he had admitted an affair with Alice Huang, a former executive at Megaspeed, a Singaporean firm, whom American officials suspect of spying for Beijing, while Nvidia, which controls about 90% of the market for advanced AI chips, sits at the heart of the Sino-American technology rivalry. The shares fell by more than 14% at one point on Thursday, the board, now chaired by Harvey Jones, is looking for a successor, and Republican lawmakers are threatening a subpoena to question Mr Huang about the affair’s implications for national security.
 
-**The number :** 11,042 — confirmed Ebola cases in DR Congo as of 10 November
+**The number :** > 14% — peak intraday fall in Nvidia’s share price on Thursday, according to Al Jazeera
 
-### An outbreak outrunning the response
+### Chips as a national-security matter
 
-According to the WHO, 512 people died between 21 October and 3 November, 335 of them outside treatment centres, a sign that many patients are slipping through the health system. Daily follow-up of contacts reached only 86%, short of the 95% target, and transmission remained active in 51 health zones. The organisation, which declared the outbreak a public-health emergency of international concern as early as 17 May, reports serious funding gaps. The fatality rate, close to 49%, is in line with that of a 2012 outbreak in DR Congo caused by the same strain. The Tumaini trial is testing, among others, two vaccines designed against the Bundibugyo virus, one by the University of Oxford and one by Moderna.
+In December 2025 Donald Trump allowed Nvidia’s H200 chips, roughly six times as powerful as the H20, to be exported to China, subject to inspections, delivery caps and a 25% levy, Al Jazeera recalls. Chinese firms are said to have ordered more than 2m of them, potentially worth $54bn, though these are orders rather than completed sales. Megaspeed, which reportedly bought $4.8bn-worth of Nvidia chips in two years, has already been investigated in America and Singapore, and the Justice Department has taken over the federal inquiry, according to the New York Times, cited by TechCrunch. The board says it has “no reason” to believe national security was compromised.
 
 Sources :
-- [Reuters, via CNBC Africa — Congo’s Ebola cases surpass 11,000, government data show](https://www.cnbcafrica.com/2026/congos-ebola-cases-surpass-11000-government-data-show)
-- [Associated Press, via Local 10 — Ebola tops 11,000 cases in Congo’s deadliest outbreak](https://www.local10.com/news/world/2026/11/11/ebola-tops-11000-cases-in-congos-deadliest-outbreak/)
-- [AllAfrica — Congo Ebola Cases Surpass 11,000 As Death Toll Reaches 5,387](https://allafrica.com/stories/202611120020.html)
-- [OMS — Ebola disease caused by Bundibugyo virus - Democratic Republic of the Congo, Kenya and Nigeria](https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625)
-- [ECDC — Ebola disease outbreak caused by Bundibugyo virus – Multi-country – 2026](https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-10)
+- [Al Jazeera, avec Reuters — Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?](https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress)
+- [ABC News — Nvidia CEO Jensen Huang resigns amid alleged affair with suspected spy; CFO to serve as interim chief executive](https://abcnews.com/Business/nvidia-ceo-jensen-huang-resigns-amid-alleged-affair/story?id=138076256)
+- [The National — Jensen Huang resigns as Nvidia CEO after affair with suspected Chinese spy](https://www.thenationalnews.com/future/technology/2026/11/12/jensen-huang-resigns-nvidia-affair/)
+- [TechCrunch — The unfolding Jensen Huang scandal: a timeline](https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/ebola-dr-congo-passes-11-000-confirmed-cases/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/dogged-suspicions-chinese-espionage-jensen-huang-steps-down/
 
-## 4. Türkiye — At COP31, António Guterres urges world leaders to be done with fossil fuels
+## 4. Spain — Spain’s first general strike since 2012 puts housing at the heart of the election
 
-**Addressing the leaders’ summit in Antalya, the UN secretary-general said a temporary overshoot of 1.5°C was now inevitable. He wants an end to new coal, oil and gas projects.**
+**Hundreds of thousands marched through Spain’s big cities on Wednesday, answering the main unions’ call to protest against soaring rents and for higher wages. The mobilisation comes less than three weeks before the snap general election of 29 November.**
 
-On Wednesday 11 November, addressing the COP31 leaders’ summit in Antalya, Turkey, the UN secretary-general, António Guterres, said that overshooting the 1.5°C warming threshold was “now inevitable” and called for an end to all new coal, oil and gas projects. Global emissions would need to fall by about 6% a year, whereas national plans deliver a third of that at best and point to more than 2.5°C of warming by the end of the century, he said, before proposing a tax on oil companies’ windfall profits. Brazil’s president, Luiz Inácio Lula da Silva, lamented that climate had vanished from G7 and G20 speeches, Iran’s Masoud Pezeshkian demanded compensation for the environmental damage done by wars, and the negotiations, led by Australia, are due to end on 20 November.
+On Wednesday 11 November Spain held its first general strike since 2012, called by the CCOO and UGT unions under the banner “wages, housing and prices”, which drew at least 120,000 marchers in Madrid and 55,000 in Barcelona according to the authorities, and many more according to the organisers, Euronews reports. Rents soared by 87% between 2015 and 2025 while wages rose by about 30%, according to El País, cited by Time, and the average rent swallows almost the entire average salary of 16- to 29-year-olds, according to Spain’s Youth Council. Police made at least 75 arrests, the leader of the People’s Party, Alberto Núñez Feijóo, denounced a strike aimed at the opposition, and polls make the right favourite to win the snap election that the prime minister, Pedro Sánchez, has called for 29 November.
 
-**The number :** > 2.5°C — of warming by 2100 if national plans are carried out
+**The number :** 4m — strikers claimed by the unions, or 17% of the workforce
 
-### The numbers of a farewell speech
+### Housing, a generation’s fault line
 
-António Guterres, who leaves office next year, set two realities side by side. On one hand, emissions hit a record in 2025 and the past four years were the hottest ever measured. On the other, solar power met nearly three-quarters of the growth in global electricity demand last year, and almost one car in three sold this year will be electric. He pointed out that the nine biggest oil companies made $95bn in profits in the last quarter, while the loss-and-damage fund has received only about $600m. He proposes a “climate justice pact” built on a just transition, protecting people, finance and co-operation.
-
-Sources :
-- [ONU Climat — Transcript of remarks made by UN Secretary-General António Guterres to the COP31 Leaders’ Summit](https://unfccc.int/news/transcript-of-remarks-made-by-un-secretary-general-antonio-guterres-to-the-cop31-leaders-summit)
-- [Reuters, via Al-Monitor — World leaders speak at COP31 climate conference](https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference)
-- [Business Recorder — Leaders warn COP31: War, conflict must not distract from climate action](https://www.brecorder.com/news/40448508/leaders-warn-cop31-war-conflict-must-not-distract-from-climate-action)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/cop31-antonio-guterres-urges-world-leaders-be-done/
-
-## 5. Ethiopia — In northern Tigray, Ethiopia’s army and Eritrean forces are reported to be clashing around Badme
-
-**Having retaken most of Tigray in October, the federal army is pushing towards the Eritrean border. Addis Ababa accuses Asmara of invasion; Asmara calls that a pretext for war.**
-
-On Monday 9 November Ethiopia’s federal army and Eritrean forces reportedly clashed around Badme, a long-disputed border town, according to observers cited by the Critical Threats Project, which could not confirm it, after the Ethiopian army took Sheraro and Adi Awala on 3 November. Since late September federal troops, allied with a breakaway Tigrayan faction, have been fighting the forces of the Tigray People’s Liberation Front, and Addis Ababa accuses Eritrea of an “invasion” reaching 60km into Tigray, which Asmara portrays as a pretext for a war of aggression. The prime minister, Abiy Ahmed, who regards his country’s access to the Red Sea as inevitable, installed an interim government in Tigray in mid-October, while Chinese envoys were received in Addis Ababa in early November and then by Eritrea’s president, Isaias Afwerki, in an effort to avert open war.
-
-**The number :** 60km — depth of the Eritrean incursion into Tigray, according to Addis Ababa
-
-### The Red Sea in the background
-
-Eritrea has accused Ethiopia of preparing a war of aggression ever since Abiy Ahmed laid claim, in 2023, to access to the sea, notably via the Eritrean port of Assab. Returned to power in October, the prime minister has repeated that such access is “only a matter of time”. In October the federal army retook Shire, Axum, Adwa, Adigrat and then Zalambessa, held by Eritrea since 2022, according to the Critical Threats Project. Ethiopia’s foreign minister, Gedion Timothewos, has taken the matter to the Security Council; his Eritrean counterpart said the letter amounted to a declaration of war. The two countries already fought each other from 1998 to 2000, in a border war that killed tens of thousands.
+The housing shortfall stands at about 750,000 homes and could exceed 1m by 2028, according to the Bank of Spain, cited by El País, and the share of young people living independently has fallen to 14.5%, a record low, Time reports. Pedro Sánchez called the snap election after parliament threw out two housing decree-laws, opposed by the People’s Party, Vox and the Catalan separatists of Junts, according to EUobserver. With the Cortes dissolved, it falls to their Permanent Deputation, where the left and its regional allies have a one-vote majority, to rule on the revised decrees.
 
 Sources :
-- [Critical Threats Project — Ethiopia War Security Review, November 10, 2026](https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-10-2026)
-- [Critical Threats Project — Ethiopia War Security Review, November 6, 2026](https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026)
-- [Critical Threats Project — Ethiopia Reaches Eritrean Border; M23 Rebrands With Kabila: Africa File, October 15, 2026](https://www.criticalthreats.org/analysis/Ethiopia-eritrea-tigray-drc-m23-fln-kabila-rwanda-jnim-issp)
-- [The Reporter — Ethiopia Accuses Eritrea Of Military Incursions Across Three Tigray Zones](https://www.thereporterethiopia.com/53378/)
-- [Al Jazeera — Ethiopia announces instalment of interim government in Tigray](https://www.aljazeera.com/news/2026/10/16/ethiopia-announces-instalment-of-interim-government-in-tigray)
+- [Euronews — Spain grinds to a halt in first general strike in 14 years](https://www.euronews.com/2026/11/12/spain-holds-its-first-general-strike-in-14-years-amid-mass-protests-and-police-charges)
+- [Time — Millions of Spanish Workers Stage First General Strike in 14 Years](https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/)
+- [EUobserver — Spain’s 54-day sprint to the polls: can Sánchez’s housing gamble stop the far-right from entering into government?](https://euobserver.com/241155/spains-54-day-sprint-to-the-polls-can-sanchezs-housing-gamble-stop-the-far-right-from-entering-into-government/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/northern-tigray-ethiopia-army-eritrean-forces-reported-be/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/spain-first-general-strike-since-2012-puts-housing/
+
+## 5. South Sudan — In South Sudan, Amnesty accuses the UN and Juba of ignoring warnings before a massacre
+
+**The rights group says the authorities and UN peacekeepers knew an attack was being prepared on Abiemnom, where at least 213 people were killed on 1 March. The report comes six weeks before the first elections since independence.**
+
+In a report published this week, Amnesty International says South Sudan’s government and the United Nations Mission in South Sudan had enough information and time to prevent the attack of 1 March on Abiemnom, near the Sudanese border, which killed at least 213 people according to the authorities. According to the group, which interviewed 82 people, between 1,000 and 1,500 gunmen from neighbouring Mayom county shot residents, destroyed more than 230 buildings and looted part of the hospital, while the UN mission reinforced its small garrison only once the assault was over. The mission blames resources squeezed by budget cuts, Juba did not respond to Amnesty, which wants an independent inquiry, and the country, whose president, Salva Kiir, dissolved the transitional government in September, is due to vote on 22 December for the first time since independence.
+
+**The number :** 213 — killed in the attack on Abiemnom on 1 March, according to the authorities
+
+### Peacekeepers on a shoestring
+
+When the Security Council renewed the UN mission’s mandate in April it lowered its troop ceiling from 17,000 to 12,000, the AP notes. At Abiemnom the base was down to 44 soldiers on the eve of the attack, against 74 before, and night patrols had been curtailed, according to evidence gathered by Amnesty. Around a thousand civilians had gathered outside the base on 28 February. The mission’s spokeswoman, Priyanka Chowdhury, says it concentrated its resources on protecting the 2,500 or so people sheltering inside its compound, and had repeatedly asked the national army for reinforcements.
+
+Sources :
+- [Amnesty International, via allAfrica — South Sudan: Authorities, UN Must Investigate Failure to Protect Victims of Abiemnom Massacre](https://allafrica.com/stories/202611120242.html)
+- [The New Arab, avec AP — UN peacekeepers failed to protect civilians before South Sudan massacre, Amnesty says](https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing)
+- [Diplomacy and Law — Abiemnom Massacre: Amnesty Faults South Sudan and UN Peacekeepers](https://diplomacyandlaw.com/post/abiemnom-massacre)
+- [ONU Info — Security Council LIVE: South Sudan’s first elections loom amid rising violence](https://news.un.org/en/story/2026/11/1168774)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/south-sudan-amnesty-accuses-un-juba-ignoring-warnings/
 
 ## In brief
 
-- **Israel** : Israel’s new Knesset was sworn in on Tuesday; Gadi Eisenkot, a former army chief of staff who has six weeks to form a government, promises to undo much of the policy of the outgoing prime minister, Benjamin Netanyahu. ([Source](https://www.durangoherald.com/articles/associated-press/eisenkot-unveils-agenda-to-reverse-netanyahus-policies-as-israels-new-parliament-is-sworn-in/))
-- **Italy** : At least 300 schools were evacuated on Wednesday after emailed bomb threats, which also targeted the prime minister, Giorgia Meloni; the education minister, Giuseppe Valditara, sees in them “a strategy”. ([Source](https://www.euronews.com/2026/11/11/at-least-300-schools-in-italy-evacuated-after-emailed-bomb-threats))
-- **Trinidad and Tobago** : The Judicial Committee of the Privy Council in London, the country’s highest court of appeal, unanimously struck down colonial-era laws criminalising gay sex on Tuesday, ending a case brought by Jason Jones in 2017. ([Source](https://jamaica-gleaner.com/article/world-news/20261111/privy-council-rules-gay-sex-not-crime-trinidad-and-tobago))
+- **Gaza** : An Israeli strike hit the surgical wing of Nasser hospital in Khan Younis on Thursday, killing at least six people according to Gaza’s health ministry; Israel’s army says it targeted a Hamas commander. ([Source](https://abcnews.com/International/israeli-airstrike-gaza-hospital-kills-6-people-hamas/story?id=138073754))
+- **Indonesia** : The vice-president, Gibran Rakabuming Raka, son of the former president Joko Widodo, resigned on Thursday after court rulings found his qualifications non-compliant; parliament will choose a successor from two candidates put forward by the president. ([Source](https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility))
+- **COP31** : Some 136 countries now have multi-hazard early-warning systems, with Africa catching up with the Americas, according to a report by the UN and the World Meteorological Organization presented in Antalya. ([Source](https://www.okayafrica.com/today-in-africa-nov-12-2026-un-peacekeepers-and-south-sudan-accused-of-ignoring-warnings-before-deadly-attack-africas-early-disaster-warning-systems-now-match-the-americas/1441876))
 
 ## Coming up
 
-- 12 Nov : Steve Witkoff and Jared Kushner received by Vladimir Putin in Moscow; COP31 leaders’ summit ends.
-- 16 Nov : EU Foreign Affairs Council, which could take up the cyber-attacks blamed on Iran.
 - 18 Nov : APEC summit in Shenzhen.
 - 20 Nov : COP31 scheduled to close.
-- 6 Dec : End of Gadi Eisenkot’s initial deadline to form a government in Israel.
+- 26 Nov : Two-day European Council, with Ukraine’s financing needs for 2027 on the agenda.
+- 29 Nov : Snap general election in Spain.
+- 22 Dec : South Sudan’s first general election since independence.
