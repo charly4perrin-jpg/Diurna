@@ -1,124 +1,118 @@
-# Diurna — No. 9 — Friday, 13 November 2026
+# Diurna — No. 10 — Saturday, 14 November 2026
 
-> Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys
+> Europe names five countries to speak for it in the Ukraine peace talks
 
-Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war’s largest prisoner exchange and a seat for Europe at the table. Iran says it targeted an American radar in Bahrain a day after Donald Trump ruled out a deal, Jensen Huang steps down as Nvidia’s boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.
+Meeting in Dublin, EU leaders entrusted their voice to Britain, France, Germany, Italy and Poland, and Friedrich Merz asked Donald Trump for “no surprises” before his talks with Vladimir Putin in China. Qatar allies with Turkey as Israel debates a strike on Iran, an outage grounded every flight in America, the Houthis target Saudi Arabia, and in Burkina Faso rival jihadists fight each other.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — In Dublin, Volodymyr Zelensky announces a record prisoner swap and Europe’s seat at the table
+## 1. Ukraine — Europe picks five countries for the Ukraine talks as Berlin warns Washington against surprises
 
-**Ukraine’s president says Steve Witkoff and Jared Kushner, whom he received on Thursday evening on their way back from the Kremlin, promised him the biggest prisoner exchange of the war. Europeans are expected to join the next round of talks, though Moscow has not confirmed it.**
+**Meeting in Dublin, European leaders entrusted their voice in future negotiations to the EU’s institutions and to five members of the “coalition of the willing”. Germany’s chancellor has asked Donald Trump for “no surprises” ahead of his expected talks with Vladimir Putin in China.**
 
-On the evening of Thursday 12 November, at Baldonnel air base west of Dublin, Ukraine’s president, Volodymyr Zelensky, received America’s envoys, Steve Witkoff and Jared Kushner, a few hours after their meeting with Vladimir Putin at the Kremlin, the Kyiv Independent reports. Mr Zelensky says the meeting “unblocked” the three-way talks, paved the way for the largest exchange of prisoners of war since 2022 and secured direct European representation at the next session, with Mr Kushner arguing that no deal is possible without Europe, according to the Kyiv Post. No date has yet been set for the new round, whose format the Kremlin has not confirmed, while the “coalition of the willing” is due to meet in Berlin next week and EU leaders will weigh Kyiv’s financing needs for 2027 on 26-27 November.
+On Friday 13 November, after a meeting of European leaders in Dublin, the president of the European Council, António Costa, announced that Europe would be represented at future negotiations on Ukraine by the EU and five members of the “coalition of the willing”: Britain, France, Germany, Italy and Poland, Al Jazeera reports. The choice answers America’s envoys, Steve Witkoff and Jared Kushner, the latter having urged Europe to speak with one voice, but Moscow still refuses to involve Europeans directly, with the Kremlin’s spokesman, Dmitry Peskov, insisting that no decision has been taken. Germany’s chancellor, Friedrich Merz, who expects Donald Trump to discuss Ukraine with Vladimir Putin in China next week, has asked the American president for “no surprises”, with some in Dublin fearing a “second Anchorage”, according to Reuters, quoted by Al-Monitor.
 
-**The number :** Up to 1,500 — prisoners per side discussed in Abu Dhabi for the exchange
+**The number :** 5 — countries chosen to represent Europe alongside the EU’s institutions
 
-### Europe still searching for its voice
+### The ghost of Anchorage
 
-The European Political Community summit, which brought more than 50 leaders to Dublin, mostly showed how hard Europeans find it to agree on who should speak for them to the Kremlin, notes EU Perspectives. Estonia’s prime minister, Kristen Michal, proposed the president of the European Council, António Costa, and the EU’s foreign-policy chief, Kaja Kallas; Emmanuel Macron replied that “content determines format”. A declaration backed by France and signed by 39 countries states that any question touching on European security must be settled with the Europeans, according to the Kyiv Post. The president of the European Commission, Ursula von der Leyen, and Mr Costa promised to keep up “substantial” financial and military support for Ukraine.
-
-Sources :
-- [Kyiv Independent — Zelensky meets with Trump’s envoys in Dublin after their summit with Putin](https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/)
-- [Kyiv Post — Europe to Join Next Ukraine Peace Talks Following US-Putin Meeting](https://www.kyivpost.com/post/89972)
-- [Ukrinform — Zelensky meets with Witkoff and Kushner, outlines key outcomes of Abu Dhabi talks](https://www.ukrinform.net/rubric-polytics/4184145-zelensky-meets-with-witkoff-and-kushner-outlines-key-outcomes-of-abu-dhabi-talks.html)
-- [Interfax-Ukraine — Joint statement by von der Leyen and Costa following meeting with Zelenskyy: We will continue to stand by Ukraine](https://en.interfax.com.ua/news/general/1235706.html)
-- [EU Perspectives — ’Europe must have a voice at the table.’ But it is still floundering over who should speak to Kremlin](https://euperspectives.eu/2026/11/epc-summit-dublin-ukraine-peace-talks-europe/)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/dublin-volodymyr-zelensky-announces-record-prisoner-swap-europe/
-
-## 2. Iran — Iran says it hit an American radar in Bahrain as Donald Trump rules out a deal
-
-**The Revolutionary Guards claim to have destroyed an American early-warning radar in Bahrain on Friday in retaliation for a strike on the port of Sirik, a claim America’s military disputes. A day earlier America’s president called a deal with Tehran unnecessary and took his vice-president off the file.**
-
-On Thursday 12 November Donald Trump wrote that America did “not need a deal with Iran” and told his vice-president, JD Vance, who had been considering a meeting with the secretary of Iran’s Supreme National Security Council, Mohsen Rezaei, to focus on crime in Democratic-run cities, Middle East Eye reports. The reversal, days after he spoke of “momentum” towards a settlement, comes as Tehran denies any planned meeting in Qatar, refuses to send its enriched uranium abroad and keeps the Strait of Hormuz closed until its conditions are met. On Friday 13 November the Revolutionary Guards said they had destroyed an American early-warning radar in Bahrain in retaliation for an unclaimed strike on a telecoms tower in Sirik, on the Strait of Hormuz, while America’s Central Command says it shot down two drones, causing no damage, according to RFE/RL and Fox News.
-
-**The number :** 2 — tankers ablaze on Thursday after hitting mines, according to Iran’s navy
-
-### Diplomacy without a spokesman
-
-An administration official declined to say whether the talks had been halted, and the White House has not said who will now speak to Tehran on Washington’s behalf, HNGN reports. Iran makes reopening Hormuz, which it says could be done in two days, conditional on the lifting of sanctions and of America’s blockade of its ports, and on an end to fighting on every front; the secretary of state, Marco Rubio, calls those demands “unacceptable”, according to CBS News. Commercial traffic through the strait is now a fraction of its pre-war level, and America’s Central Command says it is ready to resume major combat operations if ordered to.
-
-- _What changed 19:55_ : The Revolutionary Guards claim to have targeted an American radar in Bahrain after a strike on Sirik; headline, standfirst and third sentence rewritten.
+The allusion to the summit in Anchorage, Alaska, where Donald Trump hosted Vladimir Putin in August 2025 without the Europeans, betrays a fear of a settlement struck over their heads. Friedrich Merz wants the coming talks to address a single question, the framework under which Ukraine’s security would be guaranteed after peace, and rejects Russia’s idea of redesigning the continent’s security architecture, which in his view NATO already provides, Reuters reports. The chancellor is also pressing partners to write support for Kyiv into the EU’s next multi-year budget, a proposal that enjoys broad backing but whose adoption remains distant. He expects genuine peace negotiations to begin in the coming weeks, with Europeans taking part for the first time.
 
 Sources :
-- [Middle East Eye — Trump sidelines Vance from Iran talks, says no need to negotiate](https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate)
-- [Al Jazeera — Iran warns of expanded retaliation as Israel reportedly readies to attack](https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack)
-- [CBS News — Live Updates: Iran sticks to its demands as Trump insists war will end "when we want to end it"](https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/)
-- [RFE/RL — Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town](https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html)
-- [Fox News — Iran rules out nuclear inspections while under threat from US](https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26)
+- [Al Jazeera, avec AFP, AP et Reuters — EU agrees on five countries to represent Europe in Ukraine peace talks](https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice)
+- [Al-Monitor, avec Reuters — Germany’s Merz asks Trump for ’no surprises’ from Putin talks](https://www.al-monitor.com/originals/2026/11/germanys-merz-asks-trump-no-surprises-putin-talks)
+- [The Times of Israel, avec Reuters — Germany’s Merz asks Trump for ’no surprises’ from Putin talks](https://www.timesofisrael.com/liveblog_entry/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/)
+- [UNN — Merz urged Trump to hold talks with Putin on Ukraine "without surprises"](https://unn.ua/en/news/merz-urged-trump-to-hold-talks-with-putin-on-ukraine-without-surprises)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/donald-trump-says-he-no-longer-needs-deal/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/europe-picks-five-countries-ukraine-talks-berlin-warns/
 
-## 3. United States — Dogged by suspicions of Chinese espionage, Jensen Huang steps down as Nvidia’s boss
+## 2. Iran — Qatar seals a defence pact with Turkey as Israel debates a strike on Iran
 
-**The co-founder of the AI-chip giant resigned on Thursday, after revelations of an affair with a woman whom American officials suspect of spying for Beijing. The chief financial officer, Colette Kress, takes over in the interim.**
+**Doha and Ankara pledged on Friday to stand together against any armed attack on either of them, a sign of waning faith in America’s guarantees in the Gulf. In Israel, Benjamin Netanyahu’s caretaker government is preparing a fresh offensive against Iran, without open backing from the army or Washington.**
 
-On Thursday 12 November Nvidia announced the resignation “effective immediately” of its chief executive and co-founder, Jensen Huang, 63, who also leaves the board, gave no official reason and named its chief financial officer, Colette Kress, as interim boss, Al Jazeera and The National report. On 8 November he had admitted an affair with Alice Huang, a former executive at Megaspeed, a Singaporean firm, whom American officials suspect of spying for Beijing, while Nvidia, which controls about 90% of the market for advanced AI chips, sits at the heart of the Sino-American technology rivalry. The shares fell by more than 14% at one point on Thursday, the board, now chaired by Harvey Jones, is looking for a successor, and Republican lawmakers are threatening a subpoena to question Mr Huang about the affair’s implications for national security.
+In Istanbul on Friday 13 November, Turkey’s president, Recep Tayyip Erdogan, and the emir of Qatar, Sheikh Tamim bin Hamad Al Thani, signed a mutual-defence agreement under which the two countries promise a common stance against any external armed attack, Al Jazeera reports. Gulf monarchies believe America’s security guarantees no longer work, according to a Turkish analyst quoted by the channel, as the Revolutionary Guards’ navy says an LNG tanker struck a mine in Hormuz and America’s military command says it shot down two Iranian drones heading for Bahrain. In Israel, the security cabinet chaired by the outgoing prime minister, Benjamin Netanyahu, has ordered faster preparations for an attack on Iran, according to Israeli media, though the general staff sees no urgency and Gadi Eisenkot, who is tasked with forming the next government, fears “devastating” consequences.
 
-**The number :** > 14% — peak intraday fall in Nvidia’s share price on Thursday, according to Al Jazeera
+**The number :** $92.14 — a barrel of Brent crude on 11 November, according to the EIA
 
-### Chips as a national-security matter
+### Can a caretaker government go to war?
 
-In December 2025 Donald Trump allowed Nvidia’s H200 chips, roughly six times as powerful as the H20, to be exported to China, subject to inspections, delivery caps and a 25% levy, Al Jazeera recalls. Chinese firms are said to have ordered more than 2m of them, potentially worth $54bn, though these are orders rather than completed sales. Megaspeed, which reportedly bought $4.8bn-worth of Nvidia chips in two years, has already been investigated in America and Singapore, and the Justice Department has taken over the federal inquiry, according to the New York Times, cited by TechCrunch. The board says it has “no reason” to believe national security was compromised.
-
-Sources :
-- [Al Jazeera, avec Reuters — Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?](https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress)
-- [ABC News — Nvidia CEO Jensen Huang resigns amid alleged affair with suspected spy; CFO to serve as interim chief executive](https://abcnews.com/Business/nvidia-ceo-jensen-huang-resigns-amid-alleged-affair/story?id=138076256)
-- [The National — Jensen Huang resigns as Nvidia CEO after affair with suspected Chinese spy](https://www.thenationalnews.com/future/technology/2026/11/12/jensen-huang-resigns-nvidia-affair/)
-- [TechCrunch — The unfolding Jensen Huang scandal: a timeline](https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/dogged-suspicions-chinese-espionage-jensen-huang-steps-down/
-
-## 4. Spain — Spain’s first general strike since 2012 puts housing at the heart of the election
-
-**Hundreds of thousands marched through Spain’s big cities on Wednesday, answering the main unions’ call to protest against soaring rents and for higher wages. The mobilisation comes less than three weeks before the snap general election of 29 November.**
-
-On Wednesday 11 November Spain held its first general strike since 2012, called by the CCOO and UGT unions under the banner “wages, housing and prices”, which drew at least 120,000 marchers in Madrid and 55,000 in Barcelona according to the authorities, and many more according to the organisers, Euronews reports. Rents soared by 87% between 2015 and 2025 while wages rose by about 30%, according to El País, cited by Time, and the average rent swallows almost the entire average salary of 16- to 29-year-olds, according to Spain’s Youth Council. Police made at least 75 arrests, the leader of the People’s Party, Alberto Núñez Feijóo, denounced a strike aimed at the opposition, and polls make the right favourite to win the snap election that the prime minister, Pedro Sánchez, has called for 29 November.
-
-**The number :** 4m — strikers claimed by the unions, or 17% of the workforce
-
-### Housing, a generation’s fault line
-
-The housing shortfall stands at about 750,000 homes and could exceed 1m by 2028, according to the Bank of Spain, cited by El País, and the share of young people living independently has fallen to 14.5%, a record low, Time reports. Pedro Sánchez called the snap election after parliament threw out two housing decree-laws, opposed by the People’s Party, Vox and the Catalan separatists of Junts, according to EUobserver. With the Cortes dissolved, it falls to their Permanent Deputation, where the left and its regional allies have a one-vote majority, to rule on the revised decrees.
+Defeated in October’s general election, Benjamin Netanyahu heads a caretaker government until a new majority is formed, which could take months, Al Jazeera notes. Israel’s Basic Law leaves an outgoing government its powers, but the Supreme Court imposes a duty of restraint, to which national security is the clearest exception, according to a researcher at the Tachlith institute quoted by Reuters. There is a precedent: in May 2021, already in a caretaker role, Mr Netanyahu launched an 11-day war on Gaza. The bigger obstacle lies in Washington, which says it is betting on economic pressure rather than a large-scale military campaign, and the leader of Yisrael Beiteinu, Avigdor Lieberman, opposes any decision taken without parliamentary oversight.
 
 Sources :
-- [Euronews — Spain grinds to a halt in first general strike in 14 years](https://www.euronews.com/2026/11/12/spain-holds-its-first-general-strike-in-14-years-amid-mass-protests-and-police-charges)
-- [Time — Millions of Spanish Workers Stage First General Strike in 14 Years](https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/)
-- [EUobserver — Spain’s 54-day sprint to the polls: can Sánchez’s housing gamble stop the far-right from entering into government?](https://euobserver.com/241155/spains-54-day-sprint-to-the-polls-can-sanchezs-housing-gamble-stop-the-far-right-from-entering-into-government/)
+- [Al Jazeera, avec AFP et Reuters — Turkiye and Qatar sign mutual defence agreement](https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement)
+- [Al Jazeera — Can Netanyahu launch a strike on Iran before he leaves?](https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves)
+- [The Times of Israel — Liveblog, November 13, 2026](https://www.timesofisrael.com/liveblog-november-13-2026/)
+- [Just Security — Early Edition: November 13, 2026](https://www.justsecurity.org/164357/early-edition-november-13-2026/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/spain-first-general-strike-since-2012-puts-housing/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/qatar-seals-defence-pact-turkey-israel-debates-strike/
 
-## 5. South Sudan — In South Sudan, Amnesty accuses the UN and Juba of ignoring warnings before a massacre
+## 3. United States — A telecoms failure grounds every flight in America for more than four hours
 
-**The rights group says the authorities and UN peacekeepers knew an attack was being prepared on Abiemnom, where at least 213 people were killed on 1 March. The report comes six weeks before the first elections since independence.**
+**The Federal Aviation Administration halted all take-offs nationwide on Friday after an outage hit air-traffic control centres. Thousands of flights were cancelled, and a return to normal could take several days.**
 
-In a report published this week, Amnesty International says South Sudan’s government and the United Nations Mission in South Sudan had enough information and time to prevent the attack of 1 March on Abiemnom, near the Sudanese border, which killed at least 213 people according to the authorities. According to the group, which interviewed 82 people, between 1,000 and 1,500 gunmen from neighbouring Mayom county shot residents, destroyed more than 230 buildings and looted part of the hospital, while the UN mission reinforced its small garrison only once the assault was over. The mission blames resources squeezed by budget cuts, Juba did not respond to Amnesty, which wants an independent inquiry, and the country, whose president, Salva Kiir, dissolved the transitional government in September, is due to vote on 22 December for the first time since independence.
+At 3.54pm New York time on Friday 13 November, the Federal Aviation Administration (FAA) halted all departures nationwide, citing “extraordinary circumstances”, after a telecoms failure hit the en-route centres that control aircraft at altitude, Al Jazeera reports. According to the transport secretary, Sean Duffy, switches and routers overloaded with data gave way, without a total loss of communications or radar, and the homeland-security secretary, Markwayne Mullin, ruled out a cyber-attack. Airspace reopened at 8.15pm after more than four hours, but more than 4,700 flights were cancelled on Friday, according to FlightRadar24, and Mr Duffy, who wants $50bn to modernise air-traffic control, promises a return to normal before Thanksgiving.
 
-**The number :** 213 — killed in the attack on Abiemnom on 1 March, according to the authorities
+**The number :** 4,700 — flights cancelled in America on Friday, according to FlightRadar24
 
-### Peacekeepers on a shoestring
+### Air-traffic control at breaking point
 
-When the Security Council renewed the UN mission’s mandate in April it lowered its troop ceiling from 17,000 to 12,000, the AP notes. At Abiemnom the base was down to 44 soldiers on the eve of the attack, against 74 before, and night patrols had been curtailed, according to evidence gathered by Amnesty. Around a thousand civilians had gathered outside the base on 28 February. The mission’s spokeswoman, Priyanka Chowdhury, says it concentrated its resources on protecting the 2,500 or so people sheltering inside its compound, and had repeatedly asked the national army for reinforcements.
+This is only the third time since the attacks of 11 September 2001 that all departures have been suspended nationwide, the previous occasion being an FAA outage in 2023, Al Jazeera notes. The failures appear to have been concentrated in the 21 en-route centres that handle high-altitude flights, according to the expert Todd Curtis, and an aviation-safety specialist is surprised that backup systems did not take over. According to Cirium, some 11,000 flights carrying more than 1.5m passengers were still due to depart after 4pm, and at least 827 aircraft already in the air were diverted, 670 of them back to their airport of departure.
 
 Sources :
-- [Amnesty International, via allAfrica — South Sudan: Authorities, UN Must Investigate Failure to Protect Victims of Abiemnom Massacre](https://allafrica.com/stories/202611120242.html)
-- [The New Arab, avec AP — UN peacekeepers failed to protect civilians before South Sudan massacre, Amnesty says](https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing)
-- [Diplomacy and Law — Abiemnom Massacre: Amnesty Faults South Sudan and UN Peacekeepers](https://diplomacyandlaw.com/post/abiemnom-massacre)
-- [ONU Info — Security Council LIVE: South Sudan’s first elections loom amid rising violence](https://news.un.org/en/story/2026/11/1168774)
+- [Al Jazeera — FAA ground stop lifted: Why were US flights grounded, and what’s next?](https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next)
+- [Al Jazeera — US flights resume after FAA lifts hours-long nationwide ground stop](https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/south-sudan-amnesty-accuses-un-juba-ignoring-warnings/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/telecoms-failure-grounds-every-flight-america-more-than/
+
+## 4. Yemen — The Houthis step up strikes on Saudi Arabia as the UN extends sanctions on Yemen
+
+**Riyadh says it intercepted drones over its capital and Eastern Province on Thursday, while Yemen’s rebels claim attacks on oil and military sites. The Security Council has renewed sanctions on Yemen for another year.**
+
+On Thursday 12 November the spokesman for the Saudi-led coalition, General Turki al-Maliki, announced the interception of drones over the Riyadh region and the Eastern Province, while the Houthis’ military spokesman, Yahya Saree, claimed strikes on a pipeline, the port of Yanbu and two military sites, Al Jazeera reports. The attacks target the main route around Hormuz, with Riyadh saying it pumps some 4m barrels of crude a day through the East-West pipeline to Yanbu on the Red Sea, while Yemen’s government forces have pressed an offensive against the rebels since October. On Thursday the Security Council unanimously extended for a year the asset freezes and travel bans targeting Yemen and condemned the Houthis’ escalation, while Riyadh is urging the European Union to add them to its list of terrorist organisations, according to Reuters.
+
+**The number :** 333,000 — people displaced in Yemen since early August, according to OCHA
+
+### The East-West pipeline, a vital artery
+
+With the Strait of Hormuz all but closed, the pipeline that crosses Saudi Arabia to the Red Sea has become the main outlet for Saudi crude: the 4m barrels a day that Riyadh sends through it amount to about 4% of global supply, according to Al Jazeera. By targeting it, the Houthis directly threaten the world’s oil supply. Yahya Saree did, however, call the Saudi accusation that the rebels had targeted the Mecca region on Wednesday a “grave lie”. Yemen’s Saudi-backed defence ministry, for its part, insists that its forces are advancing towards their objectives on every front.
+
+Sources :
+- [Al Jazeera, avec Reuters — Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions](https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions)
+- [Al Jazeera — Yemen’s leader announces military operation to retake Houthi-held territory](https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory)
+- [CNN — Building owned by Saudi oil giant damaged in missile attack on Riyadh’s financial district](https://www.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl)
+- [Al Jazeera — Iran war updates: Qatar, Turkiye ink defence deal; fighting rages in Yemen](https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/houthis-step-up-strikes-saudi-arabia-un-extends/
+
+## 5. Burkina Faso — In Burkina Faso, rival jihadists fight each other while the state fails to regain ground
+
+**Since September, Islamic State Sahel and the al-Qaeda-linked JNIM have fought each other with rare ferocity near the Malian border. The junta, which has lost control of vast areas, is meanwhile tightening its crackdown on critics.**
+
+Since early September, fighting between Jama’at Nusrat al-Islam wal-Muslimin (JNIM), an al-Qaeda affiliate, and Islamic State Sahel has intensified in northern Burkina Faso along the border with Mali, with Islamic State’s weekly claiming more than 400 rival fighters killed on 9 October, Al Jazeera reports. The rivalry, which dates back to 2019, has already killed more than 2,200 fighters according to ACLED, a conflict monitor, and distracts JNIM from its war on the army, even as the group controls large swathes of the north, centre-north, west and east, according to the International Crisis Group. The junta of Captain Ibrahim Traoré, in power since September 2022, this month issued “terrorism” arrest warrants for some twenty people, including a journalist from RFI, while 4.5m people need humanitarian aid in 2026, according to the UN.
+
+**The number :** 2,200 — fighters killed in clashes between rival jihadists since 2019, according to ACLED
+
+### A war within a war
+
+The clashes force JNIM to divert fighters and resources from its campaign against the armies of Mali and Burkina Faso, observes Heni Nsaibia, a researcher at ACLED, but nothing suggests the state will gain a lasting advantage, Al Jazeera notes. The rivalry is now spilling into Niger, in the Tillabéri and Dosso regions, and as far as Kebbi state in Nigeria. JNIM also extended its presence into Togo and Benin in 2025, and in October 2025 claimed its first official attack in Nigeria. In 2025 ACLED recorded more than 10,000 deaths linked to political violence in Burkina Faso, Mali and Niger.
+
+Sources :
+- [Al Jazeera — Burkina Faso’s rival armed groups turn on each other as state loses ground](https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground)
+- [Vanguard — Burkina issues ’terrorist’ warrants for journalists, activists](https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/burkina-faso-rival-jihadists-fight-each-other-while/
 
 ## In brief
 
-- **Gaza** : An Israeli strike hit the surgical wing of Nasser hospital in Khan Younis on Thursday, killing at least six people according to Gaza’s health ministry; Israel’s army says it targeted a Hamas commander. ([Source](https://abcnews.com/International/israeli-airstrike-gaza-hospital-kills-6-people-hamas/story?id=138073754))
-- **Indonesia** : The vice-president, Gibran Rakabuming Raka, son of the former president Joko Widodo, resigned on Thursday after court rulings found his qualifications non-compliant; parliament will choose a successor from two candidates put forward by the president. ([Source](https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility))
-- **COP31** : Some 136 countries now have multi-hazard early-warning systems, with Africa catching up with the Americas, according to a report by the UN and the World Meteorological Organization presented in Antalya. ([Source](https://www.okayafrica.com/today-in-africa-nov-12-2026-un-peacekeepers-and-south-sudan-accused-of-ignoring-warnings-before-deadly-attack-africas-early-disaster-warning-systems-now-match-the-americas/1441876))
+- **Guinea** : At least ten people, five of them foreigners, were killed on Wednesday in Balato, in the Siguiri region, in clashes between protesters and security forces enforcing a ban on artisanal gold mining, according to the government. ([Source](https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining))
+- **Pakistan** : Pakistan’s army says it killed 74 militants in ten days of raids in Khyber Pakhtunkhwa and Balochistan, provinces bordering Afghanistan, which it accuses of backing them. ([Source](https://apnews.com/article/pakistan-military-militants-71c4b95a908b89e25a2c45408b150489))
+- **Gaza** : A nine-month-old baby died of hypothermia at Nasser hospital, the winter’s first cold-related death according to health officials, after rain flooded the family’s tent. ([Source](https://morningstaronline.co.uk/article/world-brief-57))
+- **Netherlands** : The prime minister, Rob Jetten, called a crisis meeting with his two coalition partners on Friday, after the liberal VVD accused his party of voting for opposition tax amendments. ([Source](https://morningstaronline.co.uk/article/world-brief-57))
 
 ## Coming up
 
 - 18 Nov : APEC summit in Shenzhen.
 - 20 Nov : COP31 scheduled to close.
-- 26 Nov : Two-day European Council, with Ukraine’s financing needs for 2027 on the agenda.
+- 26 Nov : Two-day European Council, focused in part on Ukraine’s financing needs for 2027.
 - 29 Nov : Snap general election in Spain.
 - 22 Dec : South Sudan’s first general election since independence.

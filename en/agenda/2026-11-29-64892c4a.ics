@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-11-29-64892c4a@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Snap general election in Spain.
-DESCRIPTION:Diurna — Edition of 13 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
 END:VEVENT
 END:VCALENDAR

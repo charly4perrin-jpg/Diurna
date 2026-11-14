@@ -6,7 +6,7 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-11-06-3ba66ce6@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261106
 DTEND;VALUE=DATE:20261107
 SUMMARY:Santiago Peña’s trial in Paraguay’s Senate\; removal needs 3
@@ -16,7 +16,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-762b290f@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Isaac Herzog names the leader tasked with forming Israel’s next
@@ -26,7 +26,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-5932d57e@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Isaac Herzog names the leader tasked with forming Israel’s gove
@@ -36,7 +36,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/07/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-08-2adbe7f8@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:Gadi Eisenkot formally receives the mandate to form Israel’s go
@@ -46,7 +46,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09-7db254c9@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:The COP31 climate summit opens in Antalya\, Turkey.
@@ -55,7 +55,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-09-de5f495f@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261109
 DTEND;VALUE=DATE:20261110
 SUMMARY:The COP31 climate conference opens in Antalya\, Turkey.
@@ -64,7 +64,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-2a9f7ba9@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Talks between Ukraine\, Russia and the United States in Abu Dhabi
@@ -74,7 +74,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/06/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-90d6618c@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Talks between Ukraine\, Russia and America in Abu Dhabi\; the Kne
@@ -84,7 +84,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/08/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-1dd7d8e5@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Talks on Ukraine in Abu Dhabi\, with Europeans at the table\; the
@@ -94,7 +94,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-10-e42670f8@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:Talks on Ukraine in Abu Dhabi\, until the 11th\; the Knesset is s
@@ -104,7 +104,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-ec4dfe38@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:COP31 leaders’ summit\, until 12 November.
@@ -113,7 +113,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-efb6a278@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Independence day in Poland\; COP31 leaders’ summit in Antalya\,
@@ -123,7 +123,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-11-5d349c0b@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:Second day of the Abu Dhabi talks\; COP31 leaders’ summit in An
@@ -133,7 +133,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-ea8d3a63@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:America’s envoys Jared Kushner and Steve Witkoff received by Vl
@@ -143,7 +143,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-12-6dbe08bc@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Steve Witkoff and Jared Kushner received by Vladimir Putin in Mos
@@ -153,7 +153,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-16-9a85ea94@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261116
 DTEND;VALUE=DATE:20261117
 SUMMARY:EU Foreign Affairs Council\, which could take up the cyber-attack
@@ -163,7 +163,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18-f1f27ecd@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:APEC summit in Shenzhen\, with a meeting between Donald Trump and
@@ -173,7 +173,7 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/09/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18-25ee5c03@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Closed-door hearing for Jensen Huang requested by the House of Re
@@ -183,25 +183,25 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-18-f0bb2ece@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:APEC summit in Shenzhen.
-DESCRIPTION:Diurna — Edition of 13 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-20-171ceecb@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:COP31 scheduled to close.
-DESCRIPTION:Diurna — Edition of 13 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-26-0e8dcf9d@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Two-day European Council\, with Ukraine’s financing needs for 2
@@ -210,8 +210,18 @@ DESCRIPTION:Diurna — Edition of 13 November 2026
 URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
 END:VEVENT
 BEGIN:VEVENT
+UID:2026-11-26-2157e998@diurna
+DTSTAMP:20261114T062539Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Two-day European Council\, focused in part on Ukraine’s financi
+ ng needs for 2027.
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
+END:VEVENT
+BEGIN:VEVENT
 UID:2026-11-28-58a3188c@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Local elections in Taiwan.
@@ -220,16 +230,16 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/05/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-11-29-64892c4a@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Snap general election in Spain.
-DESCRIPTION:Diurna — Edition of 13 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-06-dd6a5160@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:End of Gadi Eisenkot’s initial deadline to form a government in
@@ -239,11 +249,11 @@ URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/
 END:VEVENT
 BEGIN:VEVENT
 UID:2026-12-22-0321a5ee@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:South Sudan’s first general election since independence.
-DESCRIPTION:Diurna — Edition of 13 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
 END:VEVENT
 END:VCALENDAR

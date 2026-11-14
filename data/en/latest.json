@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-13",
-  "number": 9,
-  "updated": "2026-11-13T19:55:00+01:00",
-  "headline": "Volodymyr Zelensky announces a record prisoner swap after meeting America's envoys",
-  "standfirst": "Fresh from the Kremlin, Steve Witkoff and Jared Kushner met Volodymyr Zelensky near Dublin, who announced the war's largest prisoner exchange and a seat for Europe at the table. Iran says it targeted an American radar in Bahrain a day after Donald Trump ruled out a deal, Jensen Huang steps down as Nvidia's boss, Spain holds its first general strike since 2012, and Amnesty accuses the UN of failing to act before a massacre in South Sudan.",
+  "date": "2026-11-14",
+  "number": 10,
+  "updated": "2026-11-14T07:01:00+01:00",
+  "headline": "Europe names five countries to speak for it in the Ukraine peace talks",
+  "standfirst": "Meeting in Dublin, EU leaders entrusted their voice to Britain, France, Germany, Italy and Poland, and Friedrich Merz asked Donald Trump for “no surprises” before his talks with Vladimir Putin in China. Qatar allies with Turkey as Israel debates a strike on Iran, an outage grounded every flight in America, the Houthis target Saudi Arabia, and in Burkina Faso rival jihadists fight each other.",
   "essentials": [
     {
       "rank": 1,
@@ -15,17 +15,17 @@
         "diplomacy",
         "conflict"
       ],
-      "title": "In Dublin, Volodymyr Zelensky announces a record prisoner swap and Europe's seat at the table",
-      "standfirst": "Ukraine's president says Steve Witkoff and Jared Kushner, whom he received on Thursday evening on their way back from the Kremlin, promised him the biggest prisoner exchange of the war. Europeans are expected to join the next round of talks, though Moscow has not confirmed it.",
+      "title": "Europe picks five countries for the Ukraine talks as Berlin warns Washington against surprises",
+      "standfirst": "Meeting in Dublin, European leaders entrusted their voice in future negotiations to the EU's institutions and to five members of the “coalition of the willing”. Germany's chancellor has asked Donald Trump for “no surprises” ahead of his expected talks with Vladimir Putin in China.",
       "body": [
-        "On the evening of Thursday 12 November, at Baldonnel air base west of Dublin, Ukraine's president, Volodymyr Zelensky, received America's envoys, Steve Witkoff and Jared Kushner, a few hours after their meeting with Vladimir Putin at the Kremlin, the Kyiv Independent reports.",
-        "Mr Zelensky says the meeting “unblocked” the three-way talks, paved the way for the largest exchange of prisoners of war since 2022 and secured direct European representation at the next session, with Mr Kushner arguing that no deal is possible without Europe, according to the Kyiv Post.",
-        "No date has yet been set for the new round, whose format the Kremlin has not confirmed, while the “coalition of the willing” is due to meet in Berlin next week and EU leaders will weigh Kyiv's financing needs for 2027 on 26-27 November."
+        "On Friday 13 November, after a meeting of European leaders in Dublin, the president of the European Council, António Costa, announced that Europe would be represented at future negotiations on Ukraine by the EU and five members of the “coalition of the willing”: Britain, France, Germany, Italy and Poland, Al Jazeera reports.",
+        "The choice answers America's envoys, Steve Witkoff and Jared Kushner, the latter having urged Europe to speak with one voice, but Moscow still refuses to involve Europeans directly, with the Kremlin's spokesman, Dmitry Peskov, insisting that no decision has been taken.",
+        "Germany's chancellor, Friedrich Merz, who expects Donald Trump to discuss Ukraine with Vladimir Putin in China next week, has asked the American president for “no surprises”, with some in Dublin fearing a “second Anchorage”, according to Reuters, quoted by Al-Monitor."
       ],
       "figure": {
-        "value": "Up to 1,500",
-        "label": "prisoners per side discussed in Abu Dhabi for the exchange",
-        "compare": "final figure and timetable not yet announced, according to the Kyiv Post"
+        "value": "5",
+        "label": "countries chosen to represent Europe alongside the EU's institutions",
+        "compare": "Britain, France, Germany, Italy and Poland"
       },
       "since": {
         "date": "2022-02-24",
@@ -36,62 +36,60 @@
           "ids": [
             "UKR",
             "USA",
-            "RUS"
+            "RUS",
+            "DEU"
           ],
           "positions": [
             {
-              "who": "Kyiv",
-              "wants": "Europe directly represented on the negotiating team from the next meeting, and an agenda devoted to de-escalation and ceasefires."
+              "who": "The European Union",
+              "wants": "To speak “with one voice” in all discussions on Ukraine's future, according to António Costa, through five countries of the coalition of the willing."
+            },
+            {
+              "who": "Berlin",
+              "wants": "Talks focused on the framework for guaranteeing Ukraine's security after peace, with NATO remaining, in Friedrich Merz's view, the bedrock of European security."
             },
             {
               "who": "Washington",
-              "wants": "A deal struck with the Europeans at the table, according to Jared Kushner; Steve Witkoff says a new meeting is already scheduled."
+              "wants": "A single European interlocutor: that would be greater progress than Russia's acceptance of Europe's presence, according to Jared Kushner."
             },
             {
               "who": "Moscow",
-              "wants": "Has not officially confirmed that the Europeans will take part in the next round of talks."
+              "wants": "No decision yet on European participation, according to the Kremlin's spokesman, Dmitry Peskov."
             }
           ],
+          "next": {
+            "d": "2026-11-26",
+            "t": "European Council meeting, with Ukraine's financing for 2027 high on the agenda."
+          },
           "source": {
-            "name": "Kyiv Post",
-            "url": "https://www.kyivpost.com/post/89972"
-          }
-        },
-        "places": {
-          "items": [
-            {
-              "name": "Baldonnel air base",
-              "coords": [
-                -6.45,
-                53.3
-              ],
-              "note": "Casement Aerodrome, west of Dublin, where Volodymyr Zelensky received the American envoys on Thursday evening."
-            }
-          ],
-          "source": {
-            "name": "Kyiv Independent",
-            "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
           }
         }
       },
       "analysis": {
-        "title": "Europe still searching for its voice",
-        "text": "The European Political Community summit, which brought more than 50 leaders to Dublin, mostly showed how hard Europeans find it to agree on who should speak for them to the Kremlin, notes EU Perspectives. Estonia's prime minister, Kristen Michal, proposed the president of the European Council, António Costa, and the EU's foreign-policy chief, Kaja Kallas; Emmanuel Macron replied that “content determines format”. A declaration backed by France and signed by 39 countries states that any question touching on European security must be settled with the Europeans, according to the Kyiv Post. The president of the European Commission, Ursula von der Leyen, and Mr Costa promised to keep up “substantial” financial and military support for Ukraine."
+        "title": "The ghost of Anchorage",
+        "text": "The allusion to the summit in Anchorage, Alaska, where Donald Trump hosted Vladimir Putin in August 2025 without the Europeans, betrays a fear of a settlement struck over their heads. Friedrich Merz wants the coming talks to address a single question, the framework under which Ukraine's security would be guaranteed after peace, and rejects Russia's idea of redesigning the continent's security architecture, which in his view NATO already provides, Reuters reports. The chancellor is also pressing partners to write support for Kyiv into the EU's next multi-year budget, a proposal that enjoys broad backing but whose adoption remains distant. He expects genuine peace negotiations to begin in the coming weeks, with Europeans taking part for the first time."
       },
       "keys": [
         {
-          "title": "The humanitarian track",
-          "text": "In Abu Dhabi, negotiators had discussed swapping 1,000 to 1,500 prisoners on each side, without settling on a figure or a timetable. Jared Kushner says the agreement on the exchange has now been finalised, according to the Kyiv Post."
+          "title": "Who speaks for Europe",
+          "text": "Italy's prime minister, Giorgia Meloni, argues for a single European envoy, judging the existing formats too numerous. The EU's foreign-policy chief, Kaja Kallas, claims the role but lacks unanimous support, according to Al Jazeera."
         },
         {
-          "title": "Europe's winter aid",
-          "text": "The EU announced 500 generators from its emergency reserves, 200 buses and four floating bridges supplied by Norway. The Commission is due to present a 22nd package of sanctions against Russia, according to Interfax-Ukraine."
+          "title": "Moscow's scepticism",
+          "text": "The Kremlin has not confirmed that it agreed to widen the three-way talks to include the Europeans. Dmitry Peskov likened European leaders to “spiders in a jar”, according to Al Jazeera."
         }
       ],
       "involved": [
         "RUS",
         "USA",
-        "IRL"
+        "DEU",
+        "FRA",
+        "GBR",
+        "ITA",
+        "POL",
+        "CHN"
       ],
       "context": [
         {
@@ -99,16 +97,20 @@
           "t": "Russia launches its full-scale invasion of Ukraine."
         },
         {
-          "d": "2026-11-10",
-          "t": "Three-way talks open in Abu Dhabi."
+          "d": "2025-08-15",
+          "t": "Donald Trump and Vladimir Putin meet in Anchorage, Alaska, without the Europeans."
         },
         {
-          "d": "2026-11-11",
-          "t": "Agreement in principle on a large prisoner exchange."
+          "d": "2026-11-10",
+          "t": "Three-way talks open in Abu Dhabi, yielding agreement on a large prisoner exchange."
         },
         {
           "d": "2026-11-12",
-          "t": "America's envoys received at the Kremlin, then by Volodymyr Zelensky near Dublin, on the sidelines of the EPC summit."
+          "t": "America's envoys are received at the Kremlin, then by Volodymyr Zelensky near Dublin."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "The EU names five countries to represent Europe; Friedrich Merz asks Donald Trump for “no surprises”."
         },
         {
           "d": "2026-11-26",
@@ -117,41 +119,38 @@
       ],
       "sources": [
         {
-          "name": "Kyiv Independent",
-          "title": "Zelensky meets with Trump's envoys in Dublin after their summit with Putin",
-          "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/",
-          "date": "2026-11-12"
+          "name": "Al Jazeera, avec AFP, AP et Reuters",
+          "title": "EU agrees on five countries to represent Europe in Ukraine peace talks",
+          "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
+          "date": "2026-11-13",
+          "name_en": "Al Jazeera, with AFP, AP and Reuters"
         },
         {
-          "name": "Kyiv Post",
-          "title": "Europe to Join Next Ukraine Peace Talks Following US-Putin Meeting",
-          "url": "https://www.kyivpost.com/post/89972",
+          "name": "Al-Monitor, avec Reuters",
+          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
+          "url": "https://www.al-monitor.com/originals/2026/11/germanys-merz-asks-trump-no-surprises-putin-talks",
+          "date": "2026-11-13",
+          "name_en": "Al-Monitor, with Reuters"
+        },
+        {
+          "name": "The Times of Israel, avec Reuters",
+          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
+          "url": "https://www.timesofisrael.com/liveblog_entry/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/",
+          "date": "2026-11-13",
+          "name_en": "The Times of Israel, with Reuters"
+        },
+        {
+          "name": "UNN",
+          "title": "Merz urged Trump to hold talks with Putin on Ukraine \"without surprises\"",
+          "url": "https://unn.ua/en/news/merz-urged-trump-to-hold-talks-with-putin-on-ukraine-without-surprises",
           "date": "2026-11-13"
-        },
-        {
-          "name": "Ukrinform",
-          "title": "Zelensky meets with Witkoff and Kushner, outlines key outcomes of Abu Dhabi talks",
-          "url": "https://www.ukrinform.net/rubric-polytics/4184145-zelensky-meets-with-witkoff-and-kushner-outlines-key-outcomes-of-abu-dhabi-talks.html",
-          "date": "2026-11-13"
-        },
-        {
-          "name": "Interfax-Ukraine",
-          "title": "Joint statement by von der Leyen and Costa following meeting with Zelenskyy: We will continue to stand by Ukraine",
-          "url": "https://en.interfax.com.ua/news/general/1235706.html",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "EU Perspectives",
-          "title": "'Europe must have a voice at the table.' But it is still floundering over who should speak to Kremlin",
-          "url": "https://euperspectives.eu/2026/11/epc-summit-dublin-ukraine-peace-talks-europe/",
-          "date": "2026-11-12"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "dublin-volodymyr-zelensky-announces-record-prisoner-swap-europe"
+      "slug": "europe-picks-five-countries-ukraine-talks-berlin-warns"
     },
     {
       "rank": 2,
@@ -164,17 +163,17 @@
         "diplomacy",
         "economy"
       ],
-      "title": "Iran says it hit an American radar in Bahrain as Donald Trump rules out a deal",
-      "standfirst": "The Revolutionary Guards claim to have destroyed an American early-warning radar in Bahrain on Friday in retaliation for a strike on the port of Sirik, a claim America's military disputes. A day earlier America's president called a deal with Tehran unnecessary and took his vice-president off the file.",
+      "title": "Qatar seals a defence pact with Turkey as Israel debates a strike on Iran",
+      "standfirst": "Doha and Ankara pledged on Friday to stand together against any armed attack on either of them, a sign of waning faith in America's guarantees in the Gulf. In Israel, Benjamin Netanyahu's caretaker government is preparing a fresh offensive against Iran, without open backing from the army or Washington.",
       "body": [
-        "On Thursday 12 November Donald Trump wrote that America did “not need a deal with Iran” and told his vice-president, JD Vance, who had been considering a meeting with the secretary of Iran's Supreme National Security Council, Mohsen Rezaei, to focus on crime in Democratic-run cities, Middle East Eye reports.",
-        "The reversal, days after he spoke of “momentum” towards a settlement, comes as Tehran denies any planned meeting in Qatar, refuses to send its enriched uranium abroad and keeps the Strait of Hormuz closed until its conditions are met.",
-        "On Friday 13 November the Revolutionary Guards said they had destroyed an American early-warning radar in Bahrain in retaliation for an unclaimed strike on a telecoms tower in Sirik, on the Strait of Hormuz, while America's Central Command says it shot down two drones, causing no damage, according to RFE/RL and Fox News."
+        "In Istanbul on Friday 13 November, Turkey's president, Recep Tayyip Erdogan, and the emir of Qatar, Sheikh Tamim bin Hamad Al Thani, signed a mutual-defence agreement under which the two countries promise a common stance against any external armed attack, Al Jazeera reports.",
+        "Gulf monarchies believe America's security guarantees no longer work, according to a Turkish analyst quoted by the channel, as the Revolutionary Guards' navy says an LNG tanker struck a mine in Hormuz and America's military command says it shot down two Iranian drones heading for Bahrain.",
+        "In Israel, the security cabinet chaired by the outgoing prime minister, Benjamin Netanyahu, has ordered faster preparations for an attack on Iran, according to Israeli media, though the general staff sees no urgency and Gadi Eisenkot, who is tasked with forming the next government, fears “devastating” consequences."
       ],
       "figure": {
-        "value": "2",
-        "label": "tankers ablaze on Thursday after hitting mines, according to Iran's navy",
-        "compare": "after three reported on Tuesday and three on Sunday"
+        "value": "$92.14",
+        "label": "a barrel of Brent crude on 11 November, according to the EIA",
+        "compare": "against $90.16 the day before"
       },
       "since": {
         "date": "2026-02-28",
@@ -183,27 +182,25 @@
       "modules": {
         "table": {
           "ids": [
-            "USA",
+            "QAT",
+            "TUR",
             "IRN",
-            "QAT"
+            "USA"
           ],
+          "host": "TUR",
           "positions": [
             {
-              "who": "Washington",
-              "wants": "No deal needed any more, according to Donald Trump; the secretary of state, Marco Rubio, believes America holds the upper hand in Hormuz and is in no hurry."
-            },
-            {
-              "who": "Tehran",
-              "wants": "Officially denies that any talks had been scheduled in Qatar."
+              "who": "Ankara",
+              "wants": "To keep working with Doha to prevent a return to war in the Gulf, according to Recep Tayyip Erdogan."
             },
             {
               "who": "Doha",
-              "wants": "Was due to host a meeting between JD Vance and Mohsen Rezaei, according to Turkey's intelligence chief, Ibrahim Kalin."
+              "wants": "A “strategic partnership” with Turkey, according to the emir, who discussed the priorities for joint action."
             }
           ],
           "source": {
-            "name": "Middle East Eye",
-            "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
           }
         },
         "market": {
@@ -216,23 +213,24 @@
         }
       },
       "analysis": {
-        "title": "Diplomacy without a spokesman",
-        "text": "An administration official declined to say whether the talks had been halted, and the White House has not said who will now speak to Tehran on Washington's behalf, HNGN reports. Iran makes reopening Hormuz, which it says could be done in two days, conditional on the lifting of sanctions and of America's blockade of its ports, and on an end to fighting on every front; the secretary of state, Marco Rubio, calls those demands “unacceptable”, according to CBS News. Commercial traffic through the strait is now a fraction of its pre-war level, and America's Central Command says it is ready to resume major combat operations if ordered to."
+        "title": "Can a caretaker government go to war?",
+        "text": "Defeated in October's general election, Benjamin Netanyahu heads a caretaker government until a new majority is formed, which could take months, Al Jazeera notes. Israel's Basic Law leaves an outgoing government its powers, but the Supreme Court imposes a duty of restraint, to which national security is the clearest exception, according to a researcher at the Tachlith institute quoted by Reuters. There is a precedent: in May 2021, already in a caretaker role, Mr Netanyahu launched an 11-day war on Gaza. The bigger obstacle lies in Washington, which says it is betting on economic pressure rather than a large-scale military campaign, and the leader of Yisrael Beiteinu, Avigdor Lieberman, opposes any decision taken without parliamentary oversight."
       },
       "keys": [
         {
-          "title": "Israel waiting in the wings",
-          "text": "Israel's security cabinet, chaired by the outgoing prime minister, Benjamin Netanyahu, has reportedly ordered the army to speed up preparations for an attack, according to Israeli media. Mohsen Rezaei warns that every American base “from West Asia to Europe” would become a target."
+          "title": "The IAEA's worries",
+          "text": "In a confidential report, the International Atomic Energy Agency says Iran refuses to discuss monitoring of its programme while it is under military threat, according to AP. The agency is concerned about the enrichment plant at Isfahan, declared in June 2025 but never inspected."
         },
         {
-          "title": "The shadow of the midterms",
-          "text": "JD Vance wrote that the war explained the Republicans' defeat on 3 November, insisting that the president himself had acknowledged as much. Donald Trump has told him to concentrate on “corruption” in Democratic-run cities and states."
+          "title": "Donald Trump bides his time",
+          "text": "America's president claims “total” control of the Strait of Hormuz despite almost daily attacks on ships. He says he would not hesitate to strike Iran if things went wrong, according to The Times of Israel."
         }
       ],
       "involved": [
         "USA",
+        "ISR",
         "QAT",
-        "ISR"
+        "TUR"
       ],
       "zones": [
         {
@@ -250,55 +248,46 @@
           "t": "War breaks out between America, Israel and Iran."
         },
         {
-          "d": "2026-11-03",
-          "t": "Midterm elections, lost by the Republicans."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "Brent falls below $90 for the first time since late August."
+          "d": "2026-10",
+          "t": "Benjamin Netanyahu loses his majority in Israel's general election."
         },
         {
           "d": "2026-11-11",
-          "t": "JD Vance reportedly weighs a meeting with Mohsen Rezaei; Israel said to be preparing an attack, according to Kan."
+          "t": "Israel's security cabinet orders faster preparations for an attack, according to Israeli media."
         },
         {
           "d": "2026-11-12",
-          "t": "Donald Trump calls a deal unnecessary and takes his vice-president off the file."
+          "t": "Donald Trump calls a deal with Tehran unnecessary and takes his vice-president off the file."
         },
         {
           "d": "2026-11-13",
-          "t": "The Revolutionary Guards say they struck an American radar in Bahrain, which Washington disputes."
+          "t": "Iranian drones downed over Bahrain; Qatar and Turkey sign a defence pact."
         }
       ],
       "sources": [
         {
-          "name": "Middle East Eye",
-          "title": "Trump sidelines Vance from Iran talks, says no need to negotiate",
-          "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate",
-          "date": "2026-11-12"
+          "name": "Al Jazeera, avec AFP et Reuters",
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+          "date": "2026-11-13",
+          "name_en": "Al Jazeera, with AFP and Reuters"
         },
         {
           "name": "Al Jazeera",
-          "title": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
-          "url": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "CBS News",
-          "title": "Live Updates: Iran sticks to its demands as Trump insists war will end \"when we want to end it\"",
-          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "RFE/RL",
-          "title": "Iran Claims Strike On US Radar In Bahrain After Attack On Hormuz Port Town",
-          "url": "https://www.rferl.org/a/iran-us-sirik-bahrain-war-nuclear-talks/33897951.html",
+          "title": "Can Netanyahu launch a strike on Iran before he leaves?",
+          "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
           "date": "2026-11-13"
         },
         {
-          "name": "Fox News",
-          "title": "Iran rules out nuclear inspections while under threat from US",
-          "url": "https://www.foxnews.com/live-news/oil-prices-war-strikes-donald-trump-iran-11-13-26",
+          "name": "The Times of Israel",
+          "title": "Liveblog, November 13, 2026",
+          "url": "https://www.timesofisrael.com/liveblog-november-13-2026/",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition: November 13, 2026",
+          "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
           "date": "2026-11-13"
         }
       ],
@@ -306,13 +295,7 @@
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "donald-trump-says-he-no-longer-needs-deal",
-      "updates": [
-        {
-          "time": "2026-11-13T19:55:00+01:00",
-          "text": "The Revolutionary Guards claim to have targeted an American radar in Bahrain after a strike on Sirik; headline, standfirst and third sentence rewritten."
-        }
-      ]
+      "slug": "qatar-seals-defence-pact-turkey-israel-debates-strike"
     },
     {
       "rank": 3,
@@ -321,458 +304,430 @@
       "section": "Americas",
       "radar": false,
       "types": [
-        "economy",
-        "society"
-      ],
-      "title": "Dogged by suspicions of Chinese espionage, Jensen Huang steps down as Nvidia's boss",
-      "standfirst": "The co-founder of the AI-chip giant resigned on Thursday, after revelations of an affair with a woman whom American officials suspect of spying for Beijing. The chief financial officer, Colette Kress, takes over in the interim.",
-      "body": [
-        "On Thursday 12 November Nvidia announced the resignation “effective immediately” of its chief executive and co-founder, Jensen Huang, 63, who also leaves the board, gave no official reason and named its chief financial officer, Colette Kress, as interim boss, Al Jazeera and The National report.",
-        "On 8 November he had admitted an affair with Alice Huang, a former executive at Megaspeed, a Singaporean firm, whom American officials suspect of spying for Beijing, while Nvidia, which controls about 90% of the market for advanced AI chips, sits at the heart of the Sino-American technology rivalry.",
-        "The shares fell by more than 14% at one point on Thursday, the board, now chaired by Harvey Jones, is looking for a successor, and Republican lawmakers are threatening a subpoena to question Mr Huang about the affair's implications for national security."
-      ],
-      "figure": {
-        "value": "> 14%",
-        "label": "peak intraday fall in Nvidia's share price on Thursday, according to Al Jazeera",
-        "compare": "before a partial recovery"
-      },
-      "modules": {
-        "actors": {
-          "items": [
-            {
-              "name": "Jensen Huang",
-              "role": "Co-founded Nvidia in 1993; outgoing chief executive"
-            },
-            {
-              "name": "Colette Kress",
-              "role": "Chief financial officer, interim chief executive"
-            },
-            {
-              "name": "Harvey Jones",
-              "role": "Board member since 1993, now the board's first chairman"
-            },
-            {
-              "name": "Alice Huang",
-              "role": "Former Megaspeed executive, suspected by American officials of spying for China"
-            },
-            {
-              "name": "John Moolenaar",
-              "role": "Republican chairman of the House select committee on China"
-            }
-          ],
-          "source": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-          }
-        },
-        "dates": {
-          "items": [
-            {
-              "d": "2026-10-29",
-              "t": "The New York Times reveals the relationship between Jensen Huang and Alice Huang."
-            },
-            {
-              "d": "2026-11-08",
-              "t": "Jensen Huang admits infidelity; the board opens an independent inquiry."
-            },
-            {
-              "d": "2026-11-12",
-              "t": "Resignation announced; Colette Kress takes over in the interim."
-            }
-          ],
-          "source": {
-            "name": "TechCrunch",
-            "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/"
-          }
-        }
-      },
-      "analysis": {
-        "title": "Chips as a national-security matter",
-        "text": "In December 2025 Donald Trump allowed Nvidia's H200 chips, roughly six times as powerful as the H20, to be exported to China, subject to inspections, delivery caps and a 25% levy, Al Jazeera recalls. Chinese firms are said to have ordered more than 2m of them, potentially worth $54bn, though these are orders rather than completed sales. Megaspeed, which reportedly bought $4.8bn-worth of Nvidia chips in two years, has already been investigated in America and Singapore, and the Justice Department has taken over the federal inquiry, according to the New York Times, cited by TechCrunch. The board says it has “no reason” to believe national security was compromised."
-      },
-      "keys": [
-        {
-          "title": "The White House",
-          "text": "Donald Trump, who on 8 November still thought Jensen Huang should stay, has suggested Apple's former boss, Tim Cook, as his successor. According to the New York Times, cited by TechCrunch, the president had been told of the suspicions in late 2025."
-        },
-        {
-          "title": "Congress",
-          "text": "On 5 November three Republican committee chairmen in the House of Representatives asked to question Jensen Huang behind closed doors. Without a reply, a subpoena is likely, John Moolenaar warned on 11 November."
-        }
-      ],
-      "involved": [
-        "CHN"
-      ],
-      "context": [
-        {
-          "d": "2025-12",
-          "t": "Donald Trump authorises exports of Nvidia's H200 chips to China."
-        },
-        {
-          "d": "2026-10-29",
-          "t": "The New York Times reveals Jensen Huang's relationship with a former Megaspeed executive."
-        },
-        {
-          "d": "2026-11-08",
-          "t": "Jensen Huang admits an affair; the board opens an inquiry."
-        },
-        {
-          "d": "2026-11-12",
-          "t": "Jensen Huang resigns; Colette Kress named interim chief executive."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera, avec Reuters",
-          "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress?",
-          "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
-          "date": "2026-11-12",
-          "name_en": "Al Jazeera, with Reuters"
-        },
-        {
-          "name": "ABC News",
-          "title": "Nvidia CEO Jensen Huang resigns amid alleged affair with suspected spy; CFO to serve as interim chief executive",
-          "url": "https://abcnews.com/Business/nvidia-ceo-jensen-huang-resigns-amid-alleged-affair/story?id=138076256",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "The National",
-          "title": "Jensen Huang resigns as Nvidia CEO after affair with suspected Chinese spy",
-          "url": "https://www.thenationalnews.com/future/technology/2026/11/12/jensen-huang-resigns-nvidia-affair/",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "TechCrunch",
-          "title": "The unfolding Jensen Huang scandal: a timeline",
-          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-          "date": "2026-11-12"
-        }
-      ],
-      "dossier": {
-        "id": "nvidia-china",
-        "title": "Nvidia and the China spying claims"
-      },
-      "slug": "dogged-suspicions-chinese-espionage-jensen-huang-steps-down"
-    },
-    {
-      "rank": 4,
-      "id": "ESP",
-      "place": "Spain",
-      "section": "Europe",
-      "radar": false,
-      "types": [
         "society",
         "economy"
       ],
-      "title": "Spain's first general strike since 2012 puts housing at the heart of the election",
-      "standfirst": "Hundreds of thousands marched through Spain's big cities on Wednesday, answering the main unions' call to protest against soaring rents and for higher wages. The mobilisation comes less than three weeks before the snap general election of 29 November.",
+      "title": "A telecoms failure grounds every flight in America for more than four hours",
+      "standfirst": "The Federal Aviation Administration halted all take-offs nationwide on Friday after an outage hit air-traffic control centres. Thousands of flights were cancelled, and a return to normal could take several days.",
       "body": [
-        "On Wednesday 11 November Spain held its first general strike since 2012, called by the CCOO and UGT unions under the banner “wages, housing and prices”, which drew at least 120,000 marchers in Madrid and 55,000 in Barcelona according to the authorities, and many more according to the organisers, Euronews reports.",
-        "Rents soared by 87% between 2015 and 2025 while wages rose by about 30%, according to El País, cited by Time, and the average rent swallows almost the entire average salary of 16- to 29-year-olds, according to Spain's Youth Council.",
-        "Police made at least 75 arrests, the leader of the People's Party, Alberto Núñez Feijóo, denounced a strike aimed at the opposition, and polls make the right favourite to win the snap election that the prime minister, Pedro Sánchez, has called for 29 November."
+        "At 3.54pm New York time on Friday 13 November, the Federal Aviation Administration (FAA) halted all departures nationwide, citing “extraordinary circumstances”, after a telecoms failure hit the en-route centres that control aircraft at altitude, Al Jazeera reports.",
+        "According to the transport secretary, Sean Duffy, switches and routers overloaded with data gave way, without a total loss of communications or radar, and the homeland-security secretary, Markwayne Mullin, ruled out a cyber-attack.",
+        "Airspace reopened at 8.15pm after more than four hours, but more than 4,700 flights were cancelled on Friday, according to FlightRadar24, and Mr Duffy, who wants $50bn to modernise air-traffic control, promises a return to normal before Thanksgiving."
       ],
       "figure": {
-        "value": "4m",
-        "label": "strikers claimed by the unions, or 17% of the workforce",
-        "compare": "under 5% turnout, according to the employers"
+        "value": "4,700",
+        "label": "flights cancelled in America on Friday, according to FlightRadar24",
+        "compare": "with another 10,000 delayed"
       },
       "modules": {
         "actors": {
           "items": [
             {
-              "name": "Pedro Sánchez",
-              "role": "Prime minister at the head of a minority government, who called the snap election"
+              "name": "Sean Duffy",
+              "role": "Transport secretary, who is seeking $50bn to modernise air-traffic control"
             },
             {
-              "name": "Alberto Núñez Feijóo",
-              "role": "Leader of the People's Party, the main opposition party"
+              "name": "Markwayne Mullin",
+              "role": "Homeland-security secretary, who rules out a cyber-attack"
             },
             {
-              "name": "Valeria Racu",
-              "role": "Spokeswoman for the Madrid tenants' union"
+              "name": "FAA",
+              "role": "Federal Aviation Administration, which ordered the nationwide halt to departures"
             },
             {
-              "name": "CEOE",
-              "role": "The main employers' federation, which calls the strike a “failure”"
+              "name": "Cirium",
+              "role": "Aviation-data firm, which counted at least 827 diverted flights"
             }
           ],
           "source": {
-            "name": "Time",
-            "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
           }
         },
         "dates": {
           "items": [
             {
-              "d": "2026-10",
-              "t": "Pedro Sánchez calls a snap general election."
+              "d": "2026-11-13",
+              "t": "3.54pm (New York time): all departures halted."
             },
             {
-              "d": "2026-11-11",
-              "t": "First general strike since 2012."
+              "d": "2026-11-13",
+              "t": "8.15pm: airspace reopens."
             },
             {
-              "d": "2026-11-29",
-              "t": "Snap general election."
+              "d": "2026-11-26",
+              "t": "Thanksgiving, the peak of the air-travel season."
             }
           ],
           "source": {
-            "name": "Time",
-            "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
           }
         }
       },
       "analysis": {
-        "title": "Housing, a generation's fault line",
-        "text": "The housing shortfall stands at about 750,000 homes and could exceed 1m by 2028, according to the Bank of Spain, cited by El País, and the share of young people living independently has fallen to 14.5%, a record low, Time reports. Pedro Sánchez called the snap election after parliament threw out two housing decree-laws, opposed by the People's Party, Vox and the Catalan separatists of Junts, according to EUobserver. With the Cortes dissolved, it falls to their Permanent Deputation, where the left and its regional allies have a one-vote majority, to rule on the revised decrees."
+        "title": "Air-traffic control at breaking point",
+        "text": "This is only the third time since the attacks of 11 September 2001 that all departures have been suspended nationwide, the previous occasion being an FAA outage in 2023, Al Jazeera notes. The failures appear to have been concentrated in the 21 en-route centres that handle high-altitude flights, according to the expert Todd Curtis, and an aviation-safety specialist is surprised that backup systems did not take over. According to Cirium, some 11,000 flights carrying more than 1.5m passengers were still due to depart after 4pm, and at least 827 aircraft already in the air were diverted, 670 of them back to their airport of departure."
       },
       "keys": [
         {
-          "title": "A contested turnout",
-          "text": "The unions claim 90% of workers struck in the ports and the car industry, while the CEOE employers' federation puts participation below 5%. Industrial electricity demand fell by 25.6% over the day, according to Euronews."
+          "title": "No cyber-attack",
+          "text": "Markwayne Mullin insisted that “everyone is safe” and that the incident bore no resemblance to another 9/11. The authorities blame overloaded network equipment, not an intrusion."
         },
         {
-          "title": "Clashes",
-          "text": "Police recorded more than a thousand incidents, according to Time. The Madrid branch of CCOO plans to file a complaint after some 20 people were hurt when police charged picket lines."
+          "title": "Days to catch up",
+          "text": "Some 700 flights had already been cancelled for Saturday, according to FlightRadar24. The recovery depends on crew availability, and analysts expect it to take several days to restore schedules."
         }
       ],
       "involved": [],
       "context": [
         {
-          "d": "2026-09",
-          "t": "Maricarmen Abascal, 87, dies in hospital two weeks after being evicted from her home."
+          "d": "2001-09-11",
+          "t": "After the attacks, all flights over America are grounded for the first time."
         },
         {
-          "d": "2026-10",
-          "t": "After two housing decrees are rejected, Pedro Sánchez calls a snap election."
+          "d": "2023-01-11",
+          "t": "An FAA computer failure triggers a nationwide halt to departures."
         },
         {
-          "d": "2026-11-11",
-          "t": "First general strike since 2012, called by CCOO and UGT."
+          "d": "2026-11-13",
+          "t": "A telecoms failure in air-traffic control halts the country's flights for more than four hours."
         },
         {
-          "d": "2026-11-29",
-          "t": "Snap general election."
+          "d": "2026-11-26",
+          "t": "Thanksgiving, one of the busiest weekends of the year at airports."
         }
       ],
       "sources": [
         {
-          "name": "Euronews",
-          "title": "Spain grinds to a halt in first general strike in 14 years",
-          "url": "https://www.euronews.com/2026/11/12/spain-holds-its-first-general-strike-in-14-years-amid-mass-protests-and-police-charges",
-          "date": "2026-11-12"
+          "name": "Al Jazeera",
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+          "date": "2026-11-14"
         },
         {
-          "name": "Time",
-          "title": "Millions of Spanish Workers Stage First General Strike in 14 Years",
-          "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "EUobserver",
-          "title": "Spain's 54-day sprint to the polls: can Sánchez's housing gamble stop the far-right from entering into government?",
-          "url": "https://euobserver.com/241155/spains-54-day-sprint-to-the-polls-can-sanchezs-housing-gamble-stop-the-far-right-from-entering-into-government/",
-          "date": "2026-10-05"
+          "name": "Al Jazeera",
+          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+          "date": "2026-11-13"
         }
       ],
-      "dossier": {
-        "id": "spain-election-2026",
-        "title": "Spain's snap election"
-      },
-      "slug": "spain-first-general-strike-since-2012-puts-housing"
+      "slug": "telecoms-failure-grounds-every-flight-america-more-than"
     },
     {
-      "rank": 5,
-      "id": "SSD",
-      "place": "South Sudan",
-      "section": "Africa",
-      "radar": true,
+      "rank": 4,
+      "id": "YEM",
+      "place": "Yemen",
+      "section": "Middle East",
+      "radar": false,
       "types": [
         "conflict",
-        "society"
+        "economy"
       ],
-      "title": "In South Sudan, Amnesty accuses the UN and Juba of ignoring warnings before a massacre",
-      "standfirst": "The rights group says the authorities and UN peacekeepers knew an attack was being prepared on Abiemnom, where at least 213 people were killed on 1 March. The report comes six weeks before the first elections since independence.",
+      "title": "The Houthis step up strikes on Saudi Arabia as the UN extends sanctions on Yemen",
+      "standfirst": "Riyadh says it intercepted drones over its capital and Eastern Province on Thursday, while Yemen's rebels claim attacks on oil and military sites. The Security Council has renewed sanctions on Yemen for another year.",
       "body": [
-        "In a report published this week, Amnesty International says South Sudan's government and the United Nations Mission in South Sudan had enough information and time to prevent the attack of 1 March on Abiemnom, near the Sudanese border, which killed at least 213 people according to the authorities.",
-        "According to the group, which interviewed 82 people, between 1,000 and 1,500 gunmen from neighbouring Mayom county shot residents, destroyed more than 230 buildings and looted part of the hospital, while the UN mission reinforced its small garrison only once the assault was over.",
-        "The mission blames resources squeezed by budget cuts, Juba did not respond to Amnesty, which wants an independent inquiry, and the country, whose president, Salva Kiir, dissolved the transitional government in September, is due to vote on 22 December for the first time since independence."
+        "On Thursday 12 November the spokesman for the Saudi-led coalition, General Turki al-Maliki, announced the interception of drones over the Riyadh region and the Eastern Province, while the Houthis' military spokesman, Yahya Saree, claimed strikes on a pipeline, the port of Yanbu and two military sites, Al Jazeera reports.",
+        "The attacks target the main route around Hormuz, with Riyadh saying it pumps some 4m barrels of crude a day through the East-West pipeline to Yanbu on the Red Sea, while Yemen's government forces have pressed an offensive against the rebels since October.",
+        "On Thursday the Security Council unanimously extended for a year the asset freezes and travel bans targeting Yemen and condemned the Houthis' escalation, while Riyadh is urging the European Union to add them to its list of terrorist organisations, according to Reuters."
       ],
       "figure": {
-        "value": "213",
-        "label": "killed in the attack on Abiemnom on 1 March, according to the authorities",
-        "compare": "the worst massacre documented in the country since 2020, according to Amnesty"
+        "value": "333,000",
+        "label": "people displaced in Yemen since early August, according to OCHA",
+        "compare": "including more than 24,000 last week"
       },
       "modules": {
         "toll": {
           "items": [
             {
-              "value": "213",
-              "label": "dead in total",
-              "by": "the authorities, cited by Amnesty International",
-              "date": "2026-03-01",
-              "source": {
-                "name": "The New Arab, avec AP",
-                "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing",
-                "name_en": "The New Arab, with AP"
-              }
+              "value": "333,000",
+              "label": "people displaced since early August",
+              "by": "the UN Office for the Coordination of Humanitarian Affairs (OCHA)",
+              "date": "2026-11-12"
             },
             {
-              "value": "130",
-              "label": "residents killed",
-              "by": "the authorities, cited by Amnesty International",
-              "date": "2026-03-01",
-              "source": {
-                "name": "The New Arab, avec AP",
-                "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing",
-                "name_en": "The New Arab, with AP"
-              }
-            },
-            {
-              "value": "76",
-              "label": "members of the security forces killed",
-              "by": "the authorities, cited by Amnesty International",
-              "date": "2026-03-01",
-              "source": {
-                "name": "The New Arab, avec AP",
-                "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing",
-                "name_en": "The New Arab, with AP"
-              }
-            },
-            {
-              "value": "35,000",
-              "label": "people displaced by clashes in Upper Nile state",
-              "by": "UN News",
-              "date": "2026-11-10",
-              "source": {
-                "name": "ONU Info",
-                "url": "https://news.un.org/en/story/2026/11/1168774",
-                "name_en": "UN News"
-              }
+              "value": "24,000",
+              "label": "people displaced over the past week",
+              "by": "OCHA",
+              "date": "2026-11-12"
             }
-          ]
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+          }
         },
         "places": {
           "items": [
             {
-              "name": "Abiemnom",
+              "name": "Yanbu",
               "coords": [
-                28.82,
-                9.4
+                38.06,
+                24.09
               ],
-              "note": "A county in the Ruweng administrative area, on the Sudanese border, attacked on 1 March 2026 and previously on 2 April 2025."
+              "note": "Saudi oil terminal on the Red Sea, outlet of the East-West pipeline, which the Houthis say they targeted."
+            },
+            {
+              "name": "Khamis Mushait",
+              "coords": [
+                42.73,
+                18.3
+              ],
+              "note": "Saudi air base the Houthis say they hit with a ballistic missile."
+            },
+            {
+              "name": "Sharurah",
+              "coords": [
+                47.12,
+                17.47
+              ],
+              "note": "Saudi airport near the Yemeni border, where a military aircraft was reportedly targeted by a drone."
+            },
+            {
+              "name": "Marib",
+              "coords": [
+                45.32,
+                15.46
+              ],
+              "note": "Yemeni city from which the defence ministry coordinated the “Dawn of Yemen” offensive."
             }
           ],
           "source": {
-            "name": "Wikipédia",
-            "url": "https://en.wikipedia.org/wiki/Abiemnom_County",
-            "name_en": "Wikipedia"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
           }
         },
         "help": {
           "orgs": [
             "wfp",
             "unicef",
-            "msf"
+            "unhcr"
           ]
         }
       },
       "analysis": {
-        "title": "Peacekeepers on a shoestring",
-        "text": "When the Security Council renewed the UN mission's mandate in April it lowered its troop ceiling from 17,000 to 12,000, the AP notes. At Abiemnom the base was down to 44 soldiers on the eve of the attack, against 74 before, and night patrols had been curtailed, according to evidence gathered by Amnesty. Around a thousand civilians had gathered outside the base on 28 February. The mission's spokeswoman, Priyanka Chowdhury, says it concentrated its resources on protecting the 2,500 or so people sheltering inside its compound, and had repeatedly asked the national army for reinforcements."
+        "title": "The East-West pipeline, a vital artery",
+        "text": "With the Strait of Hormuz all but closed, the pipeline that crosses Saudi Arabia to the Red Sea has become the main outlet for Saudi crude: the 4m barrels a day that Riyadh sends through it amount to about 4% of global supply, according to Al Jazeera. By targeting it, the Houthis directly threaten the world's oil supply. Yahya Saree did, however, call the Saudi accusation that the rebels had targeted the Mecca region on Wednesday a “grave lie”. Yemen's Saudi-backed defence ministry, for its part, insists that its forces are advancing towards their objectives on every front."
       },
       "keys": [
         {
-          "title": "A town attacked before",
-          "text": "Abiemnom had already been attacked on 2 April 2025, an assault that killed 52 people according to the UN mission. Amnesty asks why the 40 UN police officers sent after the massacre were not deployed sooner."
+          "title": "Beijing's caution",
+          "text": "China's ambassador to the UN, Fu Cong, said that sanctions are “only a means, not an end”. The Council also renewed the mandate of its panel of experts on Yemen."
         },
         {
-          "title": "A tense election",
-          "text": "South Sudan is due to hold its first elections since independence in 2011 on 22 December. According to UN News, 2.5m people face emergency levels of hunger, and the opposition leader and former vice-president, Riek Machar, remains in detention."
+          "title": "European reluctance",
+          "text": "According to Reuters, European officials fear that listing the Houthis as a terrorist group in the EU could jeopardise a future peace process. The EU's spokesman declined to comment."
         }
       ],
       "involved": [
-        "SDN"
+        "SAU"
       ],
       "context": [
         {
-          "d": "2018-09",
-          "t": "Peace deal ends five years of civil war."
+          "d": "2026-08",
+          "t": "A new wave of displacement begins, affecting more than 333,000 people, according to OCHA."
         },
         {
-          "d": "2025-04-02",
-          "t": "First attack on Abiemnom; 52 dead, according to the UN."
+          "d": "2026-10-04",
+          "t": "The chairman of the Presidential Leadership Council, Rashad al-Alimi, announces an operation to retake Houthi-held territory."
         },
         {
-          "d": "2026-03-01",
-          "t": "Abiemnom massacre: at least 213 dead, according to the authorities."
-        },
-        {
-          "d": "2026-09",
-          "t": "Salva Kiir dissolves the transitional government and sacks all the vice-presidents."
+          "d": "2026-11-08",
+          "t": "An Aramco building is damaged in a missile attack on Riyadh's financial district."
         },
         {
           "d": "2026-11-12",
-          "t": "Amnesty International publishes its report and calls for an independent inquiry."
-        },
-        {
-          "d": "2026-12-22",
-          "t": "First general election since independence."
+          "t": "Fresh drone attacks on Saudi Arabia; the UN extends its sanctions."
         }
       ],
       "sources": [
         {
-          "name": "Amnesty International, via allAfrica",
-          "title": "South Sudan: Authorities, UN Must Investigate Failure to Protect Victims of Abiemnom Massacre",
-          "url": "https://allafrica.com/stories/202611120242.html",
-          "date": "2026-11-12"
-        },
-        {
-          "name": "The New Arab, avec AP",
-          "title": "UN peacekeepers failed to protect civilians before South Sudan massacre, Amnesty says",
-          "url": "https://newarab.com/news/un-peacekeepers-didnt-protect-civilians-s-sudan-killing",
+          "name": "Al Jazeera, avec Reuters",
+          "title": "Yemen's Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
           "date": "2026-11-12",
-          "name_en": "The New Arab, with AP"
+          "name_en": "Al Jazeera, with Reuters"
         },
         {
-          "name": "Diplomacy and Law",
-          "title": "Abiemnom Massacre: Amnesty Faults South Sudan and UN Peacekeepers",
-          "url": "https://diplomacyandlaw.com/post/abiemnom-massacre",
-          "date": "2026-11-12"
+          "name": "Al Jazeera",
+          "title": "Yemen's leader announces military operation to retake Houthi-held territory",
+          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory",
+          "date": "2026-10-04"
         },
         {
-          "name": "ONU Info",
-          "title": "Security Council LIVE: South Sudan's first elections loom amid rising violence",
-          "url": "https://news.un.org/en/story/2026/11/1168774",
-          "date": "2026-11-10",
-          "name_en": "UN News"
+          "name": "CNN",
+          "title": "Building owned by Saudi oil giant damaged in missile attack on Riyadh's financial district",
+          "url": "https://www.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Iran war updates: Qatar, Turkiye ink defence deal; fighting rages in Yemen",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks",
+          "date": "2026-11-13"
         }
       ],
       "dossier": {
-        "id": "south-sudan-crisis",
-        "title": "The crisis in South Sudan"
+        "id": "yemen-war",
+        "title": "The war in Yemen"
       },
-      "slug": "south-sudan-amnesty-accuses-un-juba-ignoring-warnings"
+      "slug": "houthis-step-up-strikes-saudi-arabia-un-extends"
+    },
+    {
+      "rank": 5,
+      "id": "BFA",
+      "place": "Burkina Faso",
+      "section": "Africa",
+      "radar": true,
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "title": "In Burkina Faso, rival jihadists fight each other while the state fails to regain ground",
+      "standfirst": "Since September, Islamic State Sahel and the al-Qaeda-linked JNIM have fought each other with rare ferocity near the Malian border. The junta, which has lost control of vast areas, is meanwhile tightening its crackdown on critics.",
+      "body": [
+        "Since early September, fighting between Jama'at Nusrat al-Islam wal-Muslimin (JNIM), an al-Qaeda affiliate, and Islamic State Sahel has intensified in northern Burkina Faso along the border with Mali, with Islamic State's weekly claiming more than 400 rival fighters killed on 9 October, Al Jazeera reports.",
+        "The rivalry, which dates back to 2019, has already killed more than 2,200 fighters according to ACLED, a conflict monitor, and distracts JNIM from its war on the army, even as the group controls large swathes of the north, centre-north, west and east, according to the International Crisis Group.",
+        "The junta of Captain Ibrahim Traoré, in power since September 2022, this month issued “terrorism” arrest warrants for some twenty people, including a journalist from RFI, while 4.5m people need humanitarian aid in 2026, according to the UN."
+      ],
+      "figure": {
+        "value": "2,200",
+        "label": "fighters killed in clashes between rival jihadists since 2019, according to ACLED",
+        "compare": "in some 320 clashes"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "2,200",
+              "label": "fighters killed in clashes between JNIM and Islamic State since 2019",
+              "by": "ACLED",
+              "date": "2026-11-13"
+            },
+            {
+              "value": "400",
+              "label": "JNIM fighters killed near Ganadaouri, an unverified figure",
+              "by": "Islamic State's weekly, Al-Naba",
+              "date": "2026-10-09"
+            },
+            {
+              "value": "120",
+              "label": "bodies at least counted in photos released by Islamic State",
+              "by": "the regional outlet i-Sahel",
+              "date": "2026-11-01"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Oudalan province",
+              "coords": [
+                -0.24,
+                14.44
+              ],
+              "note": "Northern province bordering Mali, home to Ganadaouri, scene of the fighting on 9 October; the marker sits at Gorom-Gorom, its capital."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+          }
+        },
+        "help": {
+          "orgs": [
+            "wfp",
+            "unicef",
+            "unhcr",
+            "icrc"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A war within a war",
+        "text": "The clashes force JNIM to divert fighters and resources from its campaign against the armies of Mali and Burkina Faso, observes Heni Nsaibia, a researcher at ACLED, but nothing suggests the state will gain a lasting advantage, Al Jazeera notes. The rivalry is now spilling into Niger, in the Tillabéri and Dosso regions, and as far as Kebbi state in Nigeria. JNIM also extended its presence into Togo and Benin in 2025, and in October 2025 claimed its first official attack in Nigeria. In 2025 ACLED recorded more than 10,000 deaths linked to political violence in Burkina Faso, Mali and Niger."
+      },
+      "keys": [
+        {
+          "title": "Unverifiable tolls",
+          "text": "Islamic State Sahel also claims to have killed more than 200 JNIM fighters near Kacham in early September. None of these figures could be independently verified, and JNIM has not commented publicly."
+        },
+        {
+          "title": "Silencing critics",
+          "text": "The warrants target, among others, the RFI journalist Newton Ahmed Barry and a former foreign minister, Djibril Bassolé. Ouagadougou's prosecutor-general added that outlets such as France 24 were in the authorities' sights."
+        }
+      ],
+      "involved": [
+        "MLI",
+        "NER"
+      ],
+      "context": [
+        {
+          "d": "2022-09",
+          "t": "Captain Ibrahim Traoré seizes power in a coup."
+        },
+        {
+          "d": "2026-02",
+          "t": "A JNIM offensive kills more than 120 soldiers and auxiliaries, according to ACLED."
+        },
+        {
+          "d": "2026-09",
+          "t": "Fighting near Kacham; Islamic State claims more than 200 enemy dead."
+        },
+        {
+          "d": "2026-10-09",
+          "t": "Battle of Ganadaouri, in Oudalan, the deadliest claimed so far."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Burkina Faso's rival armed groups turn on each other as state loses ground",
+          "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Vanguard",
+          "title": "Burkina issues 'terrorist' warrants for journalists, activists",
+          "url": "https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "sahel-jihadism",
+        "title": "Jihadism in the Sahel"
+      },
+      "slug": "burkina-faso-rival-jihadists-fight-each-other-while"
     }
   ],
   "brief": [
     {
+      "id": "GIN",
+      "place": "Guinea",
+      "text": "At least ten people, five of them foreigners, were killed on Wednesday in Balato, in the Siguiri region, in clashes between protesters and security forces enforcing a ban on artisanal gold mining, according to the government.",
+      "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining"
+    },
+    {
+      "id": "PAK",
+      "place": "Pakistan",
+      "text": "Pakistan's army says it killed 74 militants in ten days of raids in Khyber Pakhtunkhwa and Balochistan, provinces bordering Afghanistan, which it accuses of backing them.",
+      "url": "https://apnews.com/article/pakistan-military-militants-71c4b95a908b89e25a2c45408b150489"
+    },
+    {
       "id": "PSE",
       "place": "Gaza",
-      "text": "An Israeli strike hit the surgical wing of Nasser hospital in Khan Younis on Thursday, killing at least six people according to Gaza's health ministry; Israel's army says it targeted a Hamas commander.",
-      "url": "https://abcnews.com/International/israeli-airstrike-gaza-hospital-kills-6-people-hamas/story?id=138073754"
+      "text": "A nine-month-old baby died of hypothermia at Nasser hospital, the winter's first cold-related death according to health officials, after rain flooded the family's tent.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-57"
     },
     {
-      "id": "IDN",
-      "place": "Indonesia",
-      "text": "The vice-president, Gibran Rakabuming Raka, son of the former president Joko Widodo, resigned on Thursday after court rulings found his qualifications non-compliant; parliament will choose a successor from two candidates put forward by the president.",
-      "url": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility"
-    },
-    {
-      "id": "TUR",
-      "place": "COP31",
-      "text": "Some 136 countries now have multi-hazard early-warning systems, with Africa catching up with the Americas, according to a report by the UN and the World Meteorological Organization presented in Antalya.",
-      "url": "https://www.okayafrica.com/today-in-africa-nov-12-2026-un-peacekeepers-and-south-sudan-accused-of-ignoring-warnings-before-deadly-attack-africas-early-disaster-warning-systems-now-match-the-americas/1441876"
+      "id": "NLD",
+      "place": "Netherlands",
+      "text": "The prime minister, Rob Jetten, called a crisis meeting with his two coalition partners on Friday, after the liberal VVD accused his party of voting for opposition tax amendments.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-57"
     }
   ],
   "agenda": [
@@ -786,7 +741,7 @@
     },
     {
       "d": "2026-11-26",
-      "t": "Two-day European Council, with Ukraine's financing needs for 2027 on the agenda."
+      "t": "Two-day European Council, focused in part on Ukraine's financing needs for 2027."
     },
     {
       "d": "2026-11-29",
@@ -798,21 +753,16 @@
     }
   ],
   "consulted": [
-    "Associated Press",
     "Reuters",
+    "Associated Press",
     "AFP",
     "Al Jazeera",
-    "Euronews",
-    "Time",
-    "ABC News",
-    "CBS News",
-    "Middle East Eye",
-    "Kyiv Independent",
-    "Kyiv Post",
-    "Ukrinform",
-    "The National",
-    "TechCrunch",
-    "Amnesty International",
-    "UN News"
+    "Al-Monitor",
+    "The Times of Israel",
+    "UNN",
+    "CNN",
+    "Just Security",
+    "Morning Star",
+    "Vanguard"
   ]
 }

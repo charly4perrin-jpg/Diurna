@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-26-2157e998@diurna
+DTSTAMP:20261114T062539Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Two-day European Council\, focused in part on Ukraine’s financi
+ ng needs for 2027.
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
+END:VEVENT
+END:VCALENDAR

@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-12-22-0321a5ee@diurna
-DTSTAMP:20261114T060158Z
+DTSTAMP:20261114T062539Z
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:South Sudan’s first general election since independence.
-DESCRIPTION:Diurna — Edition of 13 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/
+DESCRIPTION:Diurna — Edition of 14 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/
 END:VEVENT
 END:VCALENDAR

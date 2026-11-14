@@ -1,0 +1,768 @@
+{
+  "date": "2026-11-14",
+  "number": 10,
+  "updated": "2026-11-14T07:01:00+01:00",
+  "headline": "Europe names five countries to speak for it in the Ukraine peace talks",
+  "standfirst": "Meeting in Dublin, EU leaders entrusted their voice to Britain, France, Germany, Italy and Poland, and Friedrich Merz asked Donald Trump for “no surprises” before his talks with Vladimir Putin in China. Qatar allies with Turkey as Israel debates a strike on Iran, an outage grounded every flight in America, the Houthis target Saudi Arabia, and in Burkina Faso rival jihadists fight each other.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "conflict"
+      ],
+      "title": "Europe picks five countries for the Ukraine talks as Berlin warns Washington against surprises",
+      "standfirst": "Meeting in Dublin, European leaders entrusted their voice in future negotiations to the EU's institutions and to five members of the “coalition of the willing”. Germany's chancellor has asked Donald Trump for “no surprises” ahead of his expected talks with Vladimir Putin in China.",
+      "body": [
+        "On Friday 13 November, after a meeting of European leaders in Dublin, the president of the European Council, António Costa, announced that Europe would be represented at future negotiations on Ukraine by the EU and five members of the “coalition of the willing”: Britain, France, Germany, Italy and Poland, Al Jazeera reports.",
+        "The choice answers America's envoys, Steve Witkoff and Jared Kushner, the latter having urged Europe to speak with one voice, but Moscow still refuses to involve Europeans directly, with the Kremlin's spokesman, Dmitry Peskov, insisting that no decision has been taken.",
+        "Germany's chancellor, Friedrich Merz, who expects Donald Trump to discuss Ukraine with Vladimir Putin in China next week, has asked the American president for “no surprises”, with some in Dublin fearing a “second Anchorage”, according to Reuters, quoted by Al-Monitor."
+      ],
+      "figure": {
+        "value": "5",
+        "label": "countries chosen to represent Europe alongside the EU's institutions",
+        "compare": "Britain, France, Germany, Italy and Poland"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "UKR",
+            "USA",
+            "RUS",
+            "DEU"
+          ],
+          "positions": [
+            {
+              "who": "The European Union",
+              "wants": "To speak “with one voice” in all discussions on Ukraine's future, according to António Costa, through five countries of the coalition of the willing."
+            },
+            {
+              "who": "Berlin",
+              "wants": "Talks focused on the framework for guaranteeing Ukraine's security after peace, with NATO remaining, in Friedrich Merz's view, the bedrock of European security."
+            },
+            {
+              "who": "Washington",
+              "wants": "A single European interlocutor: that would be greater progress than Russia's acceptance of Europe's presence, according to Jared Kushner."
+            },
+            {
+              "who": "Moscow",
+              "wants": "No decision yet on European participation, according to the Kremlin's spokesman, Dmitry Peskov."
+            }
+          ],
+          "next": {
+            "d": "2026-11-26",
+            "t": "European Council meeting, with Ukraine's financing for 2027 high on the agenda."
+          },
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
+          }
+        }
+      },
+      "analysis": {
+        "title": "The ghost of Anchorage",
+        "text": "The allusion to the summit in Anchorage, Alaska, where Donald Trump hosted Vladimir Putin in August 2025 without the Europeans, betrays a fear of a settlement struck over their heads. Friedrich Merz wants the coming talks to address a single question, the framework under which Ukraine's security would be guaranteed after peace, and rejects Russia's idea of redesigning the continent's security architecture, which in his view NATO already provides, Reuters reports. The chancellor is also pressing partners to write support for Kyiv into the EU's next multi-year budget, a proposal that enjoys broad backing but whose adoption remains distant. He expects genuine peace negotiations to begin in the coming weeks, with Europeans taking part for the first time."
+      },
+      "keys": [
+        {
+          "title": "Who speaks for Europe",
+          "text": "Italy's prime minister, Giorgia Meloni, argues for a single European envoy, judging the existing formats too numerous. The EU's foreign-policy chief, Kaja Kallas, claims the role but lacks unanimous support, according to Al Jazeera."
+        },
+        {
+          "title": "Moscow's scepticism",
+          "text": "The Kremlin has not confirmed that it agreed to widen the three-way talks to include the Europeans. Dmitry Peskov likened European leaders to “spiders in a jar”, according to Al Jazeera."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "DEU",
+        "FRA",
+        "GBR",
+        "ITA",
+        "POL",
+        "CHN"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2025-08-15",
+          "t": "Donald Trump and Vladimir Putin meet in Anchorage, Alaska, without the Europeans."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Three-way talks open in Abu Dhabi, yielding agreement on a large prisoner exchange."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "America's envoys are received at the Kremlin, then by Volodymyr Zelensky near Dublin."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "The EU names five countries to represent Europe; Friedrich Merz asks Donald Trump for “no surprises”."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "European Council meets, with Ukraine's financing for 2027 on the agenda."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AFP, AP et Reuters",
+          "title": "EU agrees on five countries to represent Europe in Ukraine peace talks",
+          "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
+          "date": "2026-11-13",
+          "name_en": "Al Jazeera, with AFP, AP and Reuters"
+        },
+        {
+          "name": "Al-Monitor, avec Reuters",
+          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
+          "url": "https://www.al-monitor.com/originals/2026/11/germanys-merz-asks-trump-no-surprises-putin-talks",
+          "date": "2026-11-13",
+          "name_en": "Al-Monitor, with Reuters"
+        },
+        {
+          "name": "The Times of Israel, avec Reuters",
+          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
+          "url": "https://www.timesofisrael.com/liveblog_entry/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/",
+          "date": "2026-11-13",
+          "name_en": "The Times of Israel, with Reuters"
+        },
+        {
+          "name": "UNN",
+          "title": "Merz urged Trump to hold talks with Putin on Ukraine \"without surprises\"",
+          "url": "https://unn.ua/en/news/merz-urged-trump-to-hold-talks-with-putin-on-ukraine-without-surprises",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "europe-picks-five-countries-ukraine-talks-berlin-warns"
+    },
+    {
+      "rank": 2,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "Qatar seals a defence pact with Turkey as Israel debates a strike on Iran",
+      "standfirst": "Doha and Ankara pledged on Friday to stand together against any armed attack on either of them, a sign of waning faith in America's guarantees in the Gulf. In Israel, Benjamin Netanyahu's caretaker government is preparing a fresh offensive against Iran, without open backing from the army or Washington.",
+      "body": [
+        "In Istanbul on Friday 13 November, Turkey's president, Recep Tayyip Erdogan, and the emir of Qatar, Sheikh Tamim bin Hamad Al Thani, signed a mutual-defence agreement under which the two countries promise a common stance against any external armed attack, Al Jazeera reports.",
+        "Gulf monarchies believe America's security guarantees no longer work, according to a Turkish analyst quoted by the channel, as the Revolutionary Guards' navy says an LNG tanker struck a mine in Hormuz and America's military command says it shot down two Iranian drones heading for Bahrain.",
+        "In Israel, the security cabinet chaired by the outgoing prime minister, Benjamin Netanyahu, has ordered faster preparations for an attack on Iran, according to Israeli media, though the general staff sees no urgency and Gadi Eisenkot, who is tasked with forming the next government, fears “devastating” consequences."
+      ],
+      "figure": {
+        "value": "$92.14",
+        "label": "a barrel of Brent crude on 11 November, according to the EIA",
+        "compare": "against $90.16 the day before"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "since the war began"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "QAT",
+            "TUR",
+            "IRN",
+            "USA"
+          ],
+          "host": "TUR",
+          "positions": [
+            {
+              "who": "Ankara",
+              "wants": "To keep working with Doha to prevent a return to war in the Gulf, according to Recep Tayyip Erdogan."
+            },
+            {
+              "who": "Doha",
+              "wants": "A “strategic partnership” with Turkey, according to the emir, who discussed the priorities for joint action."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Can a caretaker government go to war?",
+        "text": "Defeated in October's general election, Benjamin Netanyahu heads a caretaker government until a new majority is formed, which could take months, Al Jazeera notes. Israel's Basic Law leaves an outgoing government its powers, but the Supreme Court imposes a duty of restraint, to which national security is the clearest exception, according to a researcher at the Tachlith institute quoted by Reuters. There is a precedent: in May 2021, already in a caretaker role, Mr Netanyahu launched an 11-day war on Gaza. The bigger obstacle lies in Washington, which says it is betting on economic pressure rather than a large-scale military campaign, and the leader of Yisrael Beiteinu, Avigdor Lieberman, opposes any decision taken without parliamentary oversight."
+      },
+      "keys": [
+        {
+          "title": "The IAEA's worries",
+          "text": "In a confidential report, the International Atomic Energy Agency says Iran refuses to discuss monitoring of its programme while it is under military threat, according to AP. The agency is concerned about the enrichment plant at Isfahan, declared in June 2025 but never inspected."
+        },
+        {
+          "title": "Donald Trump bides his time",
+          "text": "America's president claims “total” control of the Strait of Hormuz despite almost daily attacks on ships. He says he would not hesitate to strike Iran if things went wrong, according to The Times of Israel."
+        }
+      ],
+      "involved": [
+        "USA",
+        "ISR",
+        "QAT",
+        "TUR"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "War breaks out between America, Israel and Iran."
+        },
+        {
+          "d": "2026-10",
+          "t": "Benjamin Netanyahu loses his majority in Israel's general election."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Israel's security cabinet orders faster preparations for an attack, according to Israeli media."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Donald Trump calls a deal with Tehran unnecessary and takes his vice-president off the file."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Iranian drones downed over Bahrain; Qatar and Turkey sign a defence pact."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AFP et Reuters",
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+          "date": "2026-11-13",
+          "name_en": "Al Jazeera, with AFP and Reuters"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Can Netanyahu launch a strike on Iran before he leaves?",
+          "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "Liveblog, November 13, 2026",
+          "url": "https://www.timesofisrael.com/liveblog-november-13-2026/",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition: November 13, 2026",
+          "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "qatar-seals-defence-pact-turkey-israel-debates-strike"
+    },
+    {
+      "rank": 3,
+      "id": "USA",
+      "place": "United States",
+      "section": "Americas",
+      "radar": false,
+      "types": [
+        "society",
+        "economy"
+      ],
+      "title": "A telecoms failure grounds every flight in America for more than four hours",
+      "standfirst": "The Federal Aviation Administration halted all take-offs nationwide on Friday after an outage hit air-traffic control centres. Thousands of flights were cancelled, and a return to normal could take several days.",
+      "body": [
+        "At 3.54pm New York time on Friday 13 November, the Federal Aviation Administration (FAA) halted all departures nationwide, citing “extraordinary circumstances”, after a telecoms failure hit the en-route centres that control aircraft at altitude, Al Jazeera reports.",
+        "According to the transport secretary, Sean Duffy, switches and routers overloaded with data gave way, without a total loss of communications or radar, and the homeland-security secretary, Markwayne Mullin, ruled out a cyber-attack.",
+        "Airspace reopened at 8.15pm after more than four hours, but more than 4,700 flights were cancelled on Friday, according to FlightRadar24, and Mr Duffy, who wants $50bn to modernise air-traffic control, promises a return to normal before Thanksgiving."
+      ],
+      "figure": {
+        "value": "4,700",
+        "label": "flights cancelled in America on Friday, according to FlightRadar24",
+        "compare": "with another 10,000 delayed"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Sean Duffy",
+              "role": "Transport secretary, who is seeking $50bn to modernise air-traffic control"
+            },
+            {
+              "name": "Markwayne Mullin",
+              "role": "Homeland-security secretary, who rules out a cyber-attack"
+            },
+            {
+              "name": "FAA",
+              "role": "Federal Aviation Administration, which ordered the nationwide halt to departures"
+            },
+            {
+              "name": "Cirium",
+              "role": "Aviation-data firm, which counted at least 827 diverted flights"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-13",
+              "t": "3.54pm (New York time): all departures halted."
+            },
+            {
+              "d": "2026-11-13",
+              "t": "8.15pm: airspace reopens."
+            },
+            {
+              "d": "2026-11-26",
+              "t": "Thanksgiving, the peak of the air-travel season."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Air-traffic control at breaking point",
+        "text": "This is only the third time since the attacks of 11 September 2001 that all departures have been suspended nationwide, the previous occasion being an FAA outage in 2023, Al Jazeera notes. The failures appear to have been concentrated in the 21 en-route centres that handle high-altitude flights, according to the expert Todd Curtis, and an aviation-safety specialist is surprised that backup systems did not take over. According to Cirium, some 11,000 flights carrying more than 1.5m passengers were still due to depart after 4pm, and at least 827 aircraft already in the air were diverted, 670 of them back to their airport of departure."
+      },
+      "keys": [
+        {
+          "title": "No cyber-attack",
+          "text": "Markwayne Mullin insisted that “everyone is safe” and that the incident bore no resemblance to another 9/11. The authorities blame overloaded network equipment, not an intrusion."
+        },
+        {
+          "title": "Days to catch up",
+          "text": "Some 700 flights had already been cancelled for Saturday, according to FlightRadar24. The recovery depends on crew availability, and analysts expect it to take several days to restore schedules."
+        }
+      ],
+      "involved": [],
+      "context": [
+        {
+          "d": "2001-09-11",
+          "t": "After the attacks, all flights over America are grounded for the first time."
+        },
+        {
+          "d": "2023-01-11",
+          "t": "An FAA computer failure triggers a nationwide halt to departures."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "A telecoms failure in air-traffic control halts the country's flights for more than four hours."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "Thanksgiving, one of the busiest weekends of the year at airports."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+          "date": "2026-11-13"
+        }
+      ],
+      "slug": "telecoms-failure-grounds-every-flight-america-more-than"
+    },
+    {
+      "rank": 4,
+      "id": "YEM",
+      "place": "Yemen",
+      "section": "Middle East",
+      "radar": false,
+      "types": [
+        "conflict",
+        "economy"
+      ],
+      "title": "The Houthis step up strikes on Saudi Arabia as the UN extends sanctions on Yemen",
+      "standfirst": "Riyadh says it intercepted drones over its capital and Eastern Province on Thursday, while Yemen's rebels claim attacks on oil and military sites. The Security Council has renewed sanctions on Yemen for another year.",
+      "body": [
+        "On Thursday 12 November the spokesman for the Saudi-led coalition, General Turki al-Maliki, announced the interception of drones over the Riyadh region and the Eastern Province, while the Houthis' military spokesman, Yahya Saree, claimed strikes on a pipeline, the port of Yanbu and two military sites, Al Jazeera reports.",
+        "The attacks target the main route around Hormuz, with Riyadh saying it pumps some 4m barrels of crude a day through the East-West pipeline to Yanbu on the Red Sea, while Yemen's government forces have pressed an offensive against the rebels since October.",
+        "On Thursday the Security Council unanimously extended for a year the asset freezes and travel bans targeting Yemen and condemned the Houthis' escalation, while Riyadh is urging the European Union to add them to its list of terrorist organisations, according to Reuters."
+      ],
+      "figure": {
+        "value": "333,000",
+        "label": "people displaced in Yemen since early August, according to OCHA",
+        "compare": "including more than 24,000 last week"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "333,000",
+              "label": "people displaced since early August",
+              "by": "the UN Office for the Coordination of Humanitarian Affairs (OCHA)",
+              "date": "2026-11-12"
+            },
+            {
+              "value": "24,000",
+              "label": "people displaced over the past week",
+              "by": "OCHA",
+              "date": "2026-11-12"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Yanbu",
+              "coords": [
+                38.06,
+                24.09
+              ],
+              "note": "Saudi oil terminal on the Red Sea, outlet of the East-West pipeline, which the Houthis say they targeted."
+            },
+            {
+              "name": "Khamis Mushait",
+              "coords": [
+                42.73,
+                18.3
+              ],
+              "note": "Saudi air base the Houthis say they hit with a ballistic missile."
+            },
+            {
+              "name": "Sharurah",
+              "coords": [
+                47.12,
+                17.47
+              ],
+              "note": "Saudi airport near the Yemeni border, where a military aircraft was reportedly targeted by a drone."
+            },
+            {
+              "name": "Marib",
+              "coords": [
+                45.32,
+                15.46
+              ],
+              "note": "Yemeni city from which the defence ministry coordinated the “Dawn of Yemen” offensive."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+          }
+        },
+        "help": {
+          "orgs": [
+            "wfp",
+            "unicef",
+            "unhcr"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "The East-West pipeline, a vital artery",
+        "text": "With the Strait of Hormuz all but closed, the pipeline that crosses Saudi Arabia to the Red Sea has become the main outlet for Saudi crude: the 4m barrels a day that Riyadh sends through it amount to about 4% of global supply, according to Al Jazeera. By targeting it, the Houthis directly threaten the world's oil supply. Yahya Saree did, however, call the Saudi accusation that the rebels had targeted the Mecca region on Wednesday a “grave lie”. Yemen's Saudi-backed defence ministry, for its part, insists that its forces are advancing towards their objectives on every front."
+      },
+      "keys": [
+        {
+          "title": "Beijing's caution",
+          "text": "China's ambassador to the UN, Fu Cong, said that sanctions are “only a means, not an end”. The Council also renewed the mandate of its panel of experts on Yemen."
+        },
+        {
+          "title": "European reluctance",
+          "text": "According to Reuters, European officials fear that listing the Houthis as a terrorist group in the EU could jeopardise a future peace process. The EU's spokesman declined to comment."
+        }
+      ],
+      "involved": [
+        "SAU"
+      ],
+      "context": [
+        {
+          "d": "2026-08",
+          "t": "A new wave of displacement begins, affecting more than 333,000 people, according to OCHA."
+        },
+        {
+          "d": "2026-10-04",
+          "t": "The chairman of the Presidential Leadership Council, Rashad al-Alimi, announces an operation to retake Houthi-held territory."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "An Aramco building is damaged in a missile attack on Riyadh's financial district."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Fresh drone attacks on Saudi Arabia; the UN extends its sanctions."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec Reuters",
+          "title": "Yemen's Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
+          "date": "2026-11-12",
+          "name_en": "Al Jazeera, with Reuters"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Yemen's leader announces military operation to retake Houthi-held territory",
+          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory",
+          "date": "2026-10-04"
+        },
+        {
+          "name": "CNN",
+          "title": "Building owned by Saudi oil giant damaged in missile attack on Riyadh's financial district",
+          "url": "https://www.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Iran war updates: Qatar, Turkiye ink defence deal; fighting rages in Yemen",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "yemen-war",
+        "title": "The war in Yemen"
+      },
+      "slug": "houthis-step-up-strikes-saudi-arabia-un-extends"
+    },
+    {
+      "rank": 5,
+      "id": "BFA",
+      "place": "Burkina Faso",
+      "section": "Africa",
+      "radar": true,
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "title": "In Burkina Faso, rival jihadists fight each other while the state fails to regain ground",
+      "standfirst": "Since September, Islamic State Sahel and the al-Qaeda-linked JNIM have fought each other with rare ferocity near the Malian border. The junta, which has lost control of vast areas, is meanwhile tightening its crackdown on critics.",
+      "body": [
+        "Since early September, fighting between Jama'at Nusrat al-Islam wal-Muslimin (JNIM), an al-Qaeda affiliate, and Islamic State Sahel has intensified in northern Burkina Faso along the border with Mali, with Islamic State's weekly claiming more than 400 rival fighters killed on 9 October, Al Jazeera reports.",
+        "The rivalry, which dates back to 2019, has already killed more than 2,200 fighters according to ACLED, a conflict monitor, and distracts JNIM from its war on the army, even as the group controls large swathes of the north, centre-north, west and east, according to the International Crisis Group.",
+        "The junta of Captain Ibrahim Traoré, in power since September 2022, this month issued “terrorism” arrest warrants for some twenty people, including a journalist from RFI, while 4.5m people need humanitarian aid in 2026, according to the UN."
+      ],
+      "figure": {
+        "value": "2,200",
+        "label": "fighters killed in clashes between rival jihadists since 2019, according to ACLED",
+        "compare": "in some 320 clashes"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "2,200",
+              "label": "fighters killed in clashes between JNIM and Islamic State since 2019",
+              "by": "ACLED",
+              "date": "2026-11-13"
+            },
+            {
+              "value": "400",
+              "label": "JNIM fighters killed near Ganadaouri, an unverified figure",
+              "by": "Islamic State's weekly, Al-Naba",
+              "date": "2026-10-09"
+            },
+            {
+              "value": "120",
+              "label": "bodies at least counted in photos released by Islamic State",
+              "by": "the regional outlet i-Sahel",
+              "date": "2026-11-01"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Oudalan province",
+              "coords": [
+                -0.24,
+                14.44
+              ],
+              "note": "Northern province bordering Mali, home to Ganadaouri, scene of the fighting on 9 October; the marker sits at Gorom-Gorom, its capital."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+          }
+        },
+        "help": {
+          "orgs": [
+            "wfp",
+            "unicef",
+            "unhcr",
+            "icrc"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A war within a war",
+        "text": "The clashes force JNIM to divert fighters and resources from its campaign against the armies of Mali and Burkina Faso, observes Heni Nsaibia, a researcher at ACLED, but nothing suggests the state will gain a lasting advantage, Al Jazeera notes. The rivalry is now spilling into Niger, in the Tillabéri and Dosso regions, and as far as Kebbi state in Nigeria. JNIM also extended its presence into Togo and Benin in 2025, and in October 2025 claimed its first official attack in Nigeria. In 2025 ACLED recorded more than 10,000 deaths linked to political violence in Burkina Faso, Mali and Niger."
+      },
+      "keys": [
+        {
+          "title": "Unverifiable tolls",
+          "text": "Islamic State Sahel also claims to have killed more than 200 JNIM fighters near Kacham in early September. None of these figures could be independently verified, and JNIM has not commented publicly."
+        },
+        {
+          "title": "Silencing critics",
+          "text": "The warrants target, among others, the RFI journalist Newton Ahmed Barry and a former foreign minister, Djibril Bassolé. Ouagadougou's prosecutor-general added that outlets such as France 24 were in the authorities' sights."
+        }
+      ],
+      "involved": [
+        "MLI",
+        "NER"
+      ],
+      "context": [
+        {
+          "d": "2022-09",
+          "t": "Captain Ibrahim Traoré seizes power in a coup."
+        },
+        {
+          "d": "2026-02",
+          "t": "A JNIM offensive kills more than 120 soldiers and auxiliaries, according to ACLED."
+        },
+        {
+          "d": "2026-09",
+          "t": "Fighting near Kacham; Islamic State claims more than 200 enemy dead."
+        },
+        {
+          "d": "2026-10-09",
+          "t": "Battle of Ganadaouri, in Oudalan, the deadliest claimed so far."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Burkina Faso's rival armed groups turn on each other as state loses ground",
+          "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Vanguard",
+          "title": "Burkina issues 'terrorist' warrants for journalists, activists",
+          "url": "https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "sahel-jihadism",
+        "title": "Jihadism in the Sahel"
+      },
+      "slug": "burkina-faso-rival-jihadists-fight-each-other-while"
+    }
+  ],
+  "brief": [
+    {
+      "id": "GIN",
+      "place": "Guinea",
+      "text": "At least ten people, five of them foreigners, were killed on Wednesday in Balato, in the Siguiri region, in clashes between protesters and security forces enforcing a ban on artisanal gold mining, according to the government.",
+      "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining"
+    },
+    {
+      "id": "PAK",
+      "place": "Pakistan",
+      "text": "Pakistan's army says it killed 74 militants in ten days of raids in Khyber Pakhtunkhwa and Balochistan, provinces bordering Afghanistan, which it accuses of backing them.",
+      "url": "https://apnews.com/article/pakistan-military-militants-71c4b95a908b89e25a2c45408b150489"
+    },
+    {
+      "id": "PSE",
+      "place": "Gaza",
+      "text": "A nine-month-old baby died of hypothermia at Nasser hospital, the winter's first cold-related death according to health officials, after rain flooded the family's tent.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-57"
+    },
+    {
+      "id": "NLD",
+      "place": "Netherlands",
+      "text": "The prime minister, Rob Jetten, called a crisis meeting with his two coalition partners on Friday, after the liberal VVD accused his party of voting for opposition tax amendments.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-57"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-18",
+      "t": "APEC summit in Shenzhen."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "COP31 scheduled to close."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Two-day European Council, focused in part on Ukraine's financing needs for 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Snap general election in Spain."
+    },
+    {
+      "d": "2026-12-22",
+      "t": "South Sudan's first general election since independence."
+    }
+  ],
+  "consulted": [
+    "Reuters",
+    "Associated Press",
+    "AFP",
+    "Al Jazeera",
+    "Al-Monitor",
+    "The Times of Israel",
+    "UNN",
+    "CNN",
+    "Just Security",
+    "Morning Star",
+    "Vanguard"
+  ]
+}
