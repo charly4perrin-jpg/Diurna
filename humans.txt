@@ -8,7 +8,7 @@ Natural Earth, world-atlas, flag-icons, mledoze/countries, Banque mondiale, BCE,
 Newsreader (Production Type), Archivo (Omnibus-Type), Atkinson Hyperlegible Next (Braille Institute)
 
 /* SITE */
-Dernière édition / Last edition: 2026-11-13
+Dernière édition / Last edition: 2026-11-14
 Langues / Languages: français, English
 Normes / Standards: HTML, CSS, JavaScript, WCAG 2.2, RSS, Atom, JSON Feed, iCalendar, OPML
 Composants / Components: d3-geo, d3-array, topojson-client

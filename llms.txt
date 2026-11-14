@@ -7,7 +7,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 
 ## Édition du jour / Today's edition
 
-- [Édition du 2026-11-13 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains
+- [Édition du 2026-11-14 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): L’Europe désigne cinq pays pour la représenter aux pourparlers sur l’Ukraine
 - [Edition of 2026-11-13 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys
 - [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
 
@@ -27,13 +27,13 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 
 ## Optional
 
+- [2026-11-14](https://charly4perrin-jpg.github.io/Diurna/2026/11/14/edition.md): L’Europe désigne cinq pays pour la représenter aux pourparlers sur l’Ukraine
 - [2026-11-13](https://charly4perrin-jpg.github.io/Diurna/2026/11/13/edition.md): Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains
 - [2026-11-12](https://charly4perrin-jpg.github.io/Diurna/2026/11/12/edition.md): Reçus par Vladimir Poutine, les émissaires de Donald Trump repartent vers Volodymyr Zelensky à Dublin
 - [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/2026/11/11/edition.md): À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
 - [2026-11-10](https://charly4perrin-jpg.github.io/Diurna/2026/11/10/edition.md): À Abou Dhabi, Russes, Ukrainiens et Américains rouvrent les pourparlers sous le regard des Européens
 - [2026-11-09](https://charly4perrin-jpg.github.io/Diurna/2026/11/09/edition.md): En Israël, Gadi Eisenkot reçoit le mandat et promet un « gouvernement d’urgence nationale »
 - [2026-11-08](https://charly4perrin-jpg.github.io/Diurna/2026/11/08/edition.md): En Israël, Gadi Eisenkot chargé de former un gouvernement à la place de Benyamin Nétanyahou
-- [2026-11-07](https://charly4perrin-jpg.github.io/Diurna/2026/11/07/edition.md): Au Paraguay, Santiago Peña destitué et assigné à résidence après la faillite d’une banque
 - [2026-11-13](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/edition.md): Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys
 - [2026-11-12](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/edition.md): After seeing Vladimir Putin, Donald Trump’s envoys head to Dublin to meet Volodymyr Zelensky
 - [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/edition.md): Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough

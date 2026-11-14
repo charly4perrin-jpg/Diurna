@@ -1,0 +1,763 @@
+{
+  "date": "2026-11-14",
+  "number": 10,
+  "updated": "2026-11-14T07:01:00+01:00",
+  "headline": "L'Europe désigne cinq pays pour la représenter aux pourparlers sur l'Ukraine",
+  "standfirst": "Réunis à Dublin, les dirigeants de l'UE confient leur voix au Royaume-Uni, à la France, à l'Allemagne, à l'Italie et à la Pologne, et Friedrich Merz demande à Donald Trump « pas de surprises » avant des discussions avec Vladimir Poutine en Chine. Le Qatar s'allie à la Turquie tandis qu'Israël débat d'une frappe contre l'Iran, une panne a cloué au sol tous les avions des États-Unis, les Houthis visent l'Arabie saoudite, et au Burkina Faso les djihadistes rivaux s'affrontent.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "conflict"
+      ],
+      "title": "Pour les pourparlers sur l'Ukraine, l'Europe désigne cinq pays et Berlin met en garde Washington",
+      "standfirst": "Réunis à Dublin, les dirigeants européens ont confié leur voix dans les futures négociations aux institutions de l'Union et à cinq pays de la « coalition des volontaires ». Le chancelier allemand demande à Donald Trump « pas de surprises » avant des discussions attendues avec Vladimir Poutine en Chine.",
+      "body": [
+        "Vendredi 13 novembre, à l'issue d'une réunion des dirigeants européens à Dublin, le président du Conseil européen, António Costa, a annoncé que l'Europe serait représentée aux futures négociations sur l'Ukraine par l'Union européenne et par cinq membres de la « coalition des volontaires » : le Royaume-Uni, la France, l'Allemagne, l'Italie et la Pologne, rapporte Al Jazeera.",
+        "Ce choix répond aux émissaires américains Steve Witkoff et Jared Kushner, ce dernier ayant invité l'Europe à parler d'une seule voix, mais Moscou refuse toujours d'associer directement les Européens, le porte-parole du Kremlin, Dmitri Peskov, assurant qu'aucune décision n'a été prise.",
+        "Le chancelier allemand, Friedrich Merz, qui attend des discussions sur l'Ukraine avec Vladimir Poutine en Chine la semaine prochaine, a demandé à Donald Trump « pas de surprises », certains à Dublin redoutant un « second Anchorage », selon Reuters, cité par Al-Monitor."
+      ],
+      "figure": {
+        "value": "5",
+        "label": "pays chargés de représenter l'Europe aux côtés des institutions de l'UE",
+        "compare": "Royaume-Uni, France, Allemagne, Italie et Pologne"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "UKR",
+            "USA",
+            "RUS",
+            "DEU"
+          ],
+          "positions": [
+            {
+              "who": "L'Union européenne",
+              "wants": "Parler « d'une seule voix » dans toutes les discussions sur l'avenir de l'Ukraine, selon António Costa, avec cinq pays de la coalition des volontaires."
+            },
+            {
+              "who": "Berlin",
+              "wants": "Des discussions centrées sur le cadre des garanties de sécurité de l'Ukraine après la paix, l'OTAN restant selon Friedrich Merz le socle de la sécurité européenne."
+            },
+            {
+              "who": "Washington",
+              "wants": "Un interlocuteur européen unique : ce serait un progrès plus grand que l'accord russe sur la présence de l'Europe, selon Jared Kushner."
+            },
+            {
+              "who": "Moscou",
+              "wants": "Aucune décision prise sur la participation des Européens, selon le porte-parole du Kremlin, Dmitri Peskov."
+            }
+          ],
+          "next": {
+            "d": "2026-11-26",
+            "t": "Conseil européen consacré notamment au financement de l'Ukraine en 2027."
+          },
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Le spectre d'Anchorage",
+        "text": "L'allusion au sommet d'Anchorage, en Alaska, où Donald Trump avait reçu Vladimir Poutine en août 2025 sans les Européens, dit la crainte d'un règlement négocié par-dessus leur tête. Friedrich Merz veut que les prochaines discussions portent sur une seule question, le cadre dans lequel la sécurité de l'Ukraine serait garantie après la paix, et il rejette l'idée russe de refonder l'architecture de sécurité du continent, que l'OTAN assure déjà selon lui, rapporte Reuters. Le chancelier pousse aussi ses partenaires à inscrire le soutien à Kiev dans le prochain budget pluriannuel de l'Union, une proposition largement soutenue mais dont l'adoption reste lointaine. Il attend l'ouverture de véritables négociations de paix dans les prochaines semaines, avec, pour la première fois, une participation européenne."
+      },
+      "keys": [
+        {
+          "title": "La question du porte-parole",
+          "text": "La présidente du Conseil italien, Giorgia Meloni, plaide pour un émissaire européen unique, jugeant trop nombreux les formats existants. La haute représentante de l'UE, Kaja Kallas, revendique ce rôle sans faire l'unanimité, selon Al Jazeera."
+        },
+        {
+          "title": "Le scepticisme de Moscou",
+          "text": "Le Kremlin n'a pas confirmé avoir accepté d'élargir aux Européens les discussions à trois. Dmitri Peskov a comparé les dirigeants européens à des « araignées dans un bocal », selon Al Jazeera."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "DEU",
+        "FRA",
+        "GBR",
+        "ITA",
+        "POL",
+        "CHN"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "La Russie lance son invasion à grande échelle de l'Ukraine."
+        },
+        {
+          "d": "2025-08-15",
+          "t": "Sommet entre Donald Trump et Vladimir Poutine à Anchorage, en Alaska, sans les Européens."
+        },
+        {
+          "d": "2026-11-10",
+          "t": "Ouverture des pourparlers à trois d'Abou Dhabi, qui aboutissent à un accord sur un vaste échange de prisonniers."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Les émissaires américains reçus au Kremlin, puis par Volodymyr Zelensky près de Dublin."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "L'UE désigne cinq pays pour représenter l'Europe ; Friedrich Merz demande « pas de surprises » à Donald Trump."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "Conseil européen consacré notamment au financement de l'Ukraine en 2027."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AFP, AP et Reuters",
+          "title": "EU agrees on five countries to represent Europe in Ukraine peace talks",
+          "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Al-Monitor, avec Reuters",
+          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
+          "url": "https://www.al-monitor.com/originals/2026/11/germanys-merz-asks-trump-no-surprises-putin-talks",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "The Times of Israel, avec Reuters",
+          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
+          "url": "https://www.timesofisrael.com/liveblog_entry/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "UNN",
+          "title": "Merz urged Trump to hold talks with Putin on Ukraine \"without surprises\"",
+          "url": "https://unn.ua/en/news/merz-urged-trump-to-hold-talks-with-putin-on-ukraine-without-surprises",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "pourparlers-ukraine-europe-designe-cinq-pays-berlin-met"
+    },
+    {
+      "rank": 2,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Moyen-Orient",
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "Le Qatar scelle un pacte de défense avec la Turquie, Israël débat d'une frappe contre l'Iran",
+      "standfirst": "Doha et Ankara se sont engagés vendredi à faire front commun face à toute attaque armée visant l'un d'eux, signe d'une défiance envers les garanties américaines dans le Golfe. En Israël, le gouvernement sortant de Benyamin Nétanyahou prépare une nouvelle offensive contre l'Iran, sans l'aval affiché de l'armée ni de Washington.",
+      "body": [
+        "Vendredi 13 novembre à Istanbul, le président turc, Recep Tayyip Erdoğan, et l'émir du Qatar, le cheikh Tamim ben Hamad Al Thani, ont signé un accord de défense mutuelle par lequel les deux pays promettent une position commune face à toute attaque armée extérieure, rapporte Al Jazeera.",
+        "Les monarchies du Golfe jugent que les garanties de sécurité américaines ne fonctionnent plus, estime un analyste turc cité par la chaîne, au moment où la marine des Gardiens de la révolution dit qu'un méthanier a heurté une mine à Ormuz et où le commandement américain affirme avoir abattu deux drones iraniens visant Bahreïn.",
+        "En Israël, le cabinet de sécurité présidé par le premier ministre sortant, Benyamin Nétanyahou, a ordonné d'accélérer les préparatifs d'une attaque contre l'Iran, selon les médias israéliens, alors que l'état-major ne voit pas d'urgence et que Gadi Eisenkot, chargé de former le prochain gouvernement, redoute des conséquences « dévastatrices »."
+      ],
+      "figure": {
+        "value": "92,14 $",
+        "label": "le baril de Brent le 11 novembre, selon l'EIA",
+        "compare": "contre 90,16 $ la veille"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "depuis le début de la guerre"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "QAT",
+            "TUR",
+            "IRN",
+            "USA"
+          ],
+          "host": "TUR",
+          "positions": [
+            {
+              "who": "Ankara",
+              "wants": "Continuer à travailler avec Doha pour empêcher la reprise de la guerre dans le Golfe, selon Recep Tayyip Erdoğan."
+            },
+            {
+              "who": "Doha",
+              "wants": "Un « partenariat stratégique » avec la Turquie, selon l'émir, qui a discuté des priorités d'une action commune."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Un gouvernement sortant peut-il entrer en guerre ?",
+        "text": "Battu aux législatives d'octobre, Benyamin Nétanyahou gère les affaires courantes jusqu'à la formation d'une nouvelle majorité, ce qui peut prendre des mois, rappelle Al Jazeera. La Loi fondamentale conserve au gouvernement sortant ses attributions, mais la Cour suprême lui impose un devoir de retenue, dont la sécurité nationale constitue l'exception la plus nette, selon un chercheur de l'institut Tachlith cité par Reuters. Le précédent existe : en mai 2021, déjà sortant, M. Nétanyahou avait lancé une guerre de onze jours contre Gaza. Le principal obstacle tient plutôt à Washington, qui dit miser sur la pression économique plutôt que sur une campagne militaire d'ampleur, et le chef de Yisrael Beytenou, Avigdor Lieberman, refuse toute décision prise sans contrôle parlementaire."
+      },
+      "keys": [
+        {
+          "title": "Les inquiétudes de l'AIEA",
+          "text": "Dans un rapport confidentiel, l'Agence internationale de l'énergie atomique dit que l'Iran refuse de discuter du contrôle de son programme tant qu'il est menacé militairement, selon l'AP. Elle s'inquiète de l'usine d'enrichissement d'Ispahan, déclarée en juin 2025 mais jamais inspectée."
+        },
+        {
+          "title": "Donald Trump temporise",
+          "text": "Le président américain affirme contrôler « totalement » le détroit d'Ormuz malgré des attaques quasi quotidiennes contre des navires. Il dit qu'il n'hésiterait pas à frapper l'Iran si la situation tournait mal, selon The Times of Israel."
+        }
+      ],
+      "involved": [
+        "USA",
+        "ISR",
+        "QAT",
+        "TUR"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Ormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "Début de la guerre entre les États-Unis, Israël et l'Iran."
+        },
+        {
+          "d": "2026-10",
+          "t": "Benyamin Nétanyahou perd sa majorité aux législatives israéliennes."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Le cabinet de sécurité israélien ordonne d'accélérer les préparatifs d'une attaque, selon les médias israéliens."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Donald Trump juge un accord avec Téhéran inutile et écarte son vice-président du dossier."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Drones iraniens abattus au-dessus de Bahreïn ; pacte de défense entre le Qatar et la Turquie."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AFP et Reuters",
+          "title": "Turkiye and Qatar sign mutual defence agreement",
+          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Can Netanyahu launch a strike on Iran before he leaves?",
+          "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "Liveblog, November 13, 2026",
+          "url": "https://www.timesofisrael.com/liveblog-november-13-2026/",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition: November 13, 2026",
+          "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-iran",
+        "title": "La guerre avec l’Iran"
+      },
+      "slug": "qatar-scelle-pacte-defense-turquie-israel-debat-frappe"
+    },
+    {
+      "rank": 3,
+      "id": "USA",
+      "place": "États-Unis",
+      "section": "Amériques",
+      "radar": false,
+      "types": [
+        "society",
+        "economy"
+      ],
+      "title": "Une panne de télécommunications cloue au sol tous les avions des États-Unis pendant quatre heures",
+      "standfirst": "L'Agence fédérale de l'aviation a interrompu vendredi tous les décollages du pays après une panne touchant les centres de contrôle aérien. Des milliers de vols ont été annulés, et le retour à la normale pourrait prendre plusieurs jours.",
+      "body": [
+        "Vendredi 13 novembre à 15 h 54, heure de New York, l'Agence fédérale de l'aviation (FAA) a ordonné l'arrêt de tous les départs dans le pays en invoquant des « circonstances extraordinaires », après une panne de télécommunications touchant les centres de contrôle aérien en route, rapporte Al Jazeera.",
+        "Selon le secrétaire aux transports, Sean Duffy, des commutateurs et des routeurs saturés de données ont lâché, sans perte totale des communications ni du radar, et le secrétaire à la sécurité intérieure, Markwayne Mullin, a écarté toute cyberattaque.",
+        "L'espace aérien a rouvert à 20 h 15 après plus de quatre heures d'interruption, mais plus de 4 700 vols ont été annulés vendredi selon FlightRadar24, et M. Duffy, qui réclame 50 milliards de dollars pour moderniser le contrôle aérien, promet un retour à la normale avant Thanksgiving."
+      ],
+      "figure": {
+        "value": "4 700",
+        "label": "vols annulés vendredi aux États-Unis, selon FlightRadar24",
+        "compare": "et 10 000 retardés"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "Sean Duffy",
+              "role": "Secrétaire aux transports, qui réclame 50 milliards de dollars pour moderniser le contrôle aérien"
+            },
+            {
+              "name": "Markwayne Mullin",
+              "role": "Secrétaire à la sécurité intérieure, qui exclut une cyberattaque"
+            },
+            {
+              "name": "FAA",
+              "role": "Agence fédérale de l'aviation, qui a ordonné l'arrêt national des départs"
+            },
+            {
+              "name": "Cirium",
+              "role": "Société d'analyse aérienne, qui a recensé au moins 827 vols déroutés"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2026-11-13",
+              "t": "15 h 54 (heure de New York) : arrêt de tous les départs."
+            },
+            {
+              "d": "2026-11-13",
+              "t": "20 h 15 : réouverture de l'espace aérien."
+            },
+            {
+              "d": "2026-11-26",
+              "t": "Thanksgiving, période de pointe du trafic aérien."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Un contrôle aérien à bout de souffle",
+        "text": "C'est seulement la troisième fois depuis les attentats du 11 septembre 2001 que tous les départs sont suspendus dans le pays, la précédente remontant à une panne de la FAA en 2023, rappelle Al Jazeera. Les défaillances semblent concentrées dans les vingt et un centres de contrôle en route qui gèrent les vols à haute altitude, estime l'expert Todd Curtis, et un spécialiste de la sécurité aérienne s'étonne que les systèmes de secours n'aient pas pris le relais. Selon la société Cirium, environ 11 000 vols transportant plus de 1,5 million de passagers devaient encore décoller après 16 heures, et au moins 827 avions déjà en vol ont été déroutés, dont 670 renvoyés vers leur aéroport de départ."
+      },
+      "keys": [
+        {
+          "title": "Une panne sans cyberattaque",
+          "text": "Markwayne Mullin a assuré que « tout le monde est en sécurité » et que l'incident n'avait rien d'un nouveau 11-Septembre. Les autorités attribuent la panne à la saturation d'équipements de réseau, non à une intrusion."
+        },
+        {
+          "title": "Des jours pour rattraper le retard",
+          "text": "Quelque 700 vols étaient déjà annulés pour samedi, selon FlightRadar24. La reprise dépend de la disponibilité des équipages, et les analystes estiment qu'il faudra plusieurs jours pour rétablir les programmes."
+        }
+      ],
+      "involved": [],
+      "context": [
+        {
+          "d": "2001-09-11",
+          "t": "Après les attentats, premier arrêt de tous les vols au-dessus des États-Unis."
+        },
+        {
+          "d": "2023-01-11",
+          "t": "Une panne informatique de la FAA entraîne un arrêt national des départs."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Panne de télécommunications du contrôle aérien : plus de quatre heures d'arrêt national."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "Thanksgiving, l'un des week-ends les plus chargés de l'année dans les aéroports."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
+          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
+          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
+          "date": "2026-11-13"
+        }
+      ],
+      "slug": "panne-telecommunications-cloue-sol-tous-avions-etats-unis"
+    },
+    {
+      "rank": 4,
+      "id": "YEM",
+      "place": "Yémen",
+      "section": "Moyen-Orient",
+      "radar": false,
+      "types": [
+        "conflict",
+        "economy"
+      ],
+      "title": "Les Houthis multiplient les frappes contre l'Arabie saoudite, l'ONU prolonge ses sanctions contre le Yémen",
+      "standfirst": "Riyad dit avoir intercepté jeudi des drones au-dessus de sa capitale et de sa province orientale, tandis que les rebelles yéménites revendiquent des attaques contre des sites pétroliers et militaires. Le Conseil de sécurité a reconduit pour un an les sanctions visant le Yémen.",
+      "body": [
+        "Jeudi 12 novembre, le porte-parole de la coalition menée par l'Arabie saoudite, le général Turki al-Maliki, a annoncé l'interception de drones au-dessus de la région de Riyad et de la province orientale, tandis que le porte-parole militaire des Houthis, Yahya Saree, revendiquait des frappes contre un oléoduc, le port de Yanbu et deux sites militaires, rapporte Al Jazeera.",
+        "Ces attaques visent le principal contournement d'Ormuz, Riyad disant faire transiter environ 4 millions de barils de brut par jour par l'oléoduc Est-Ouest jusqu'à Yanbu, sur la mer Rouge, alors que les forces gouvernementales yéménites mènent depuis octobre une offensive contre les rebelles.",
+        "Le Conseil de sécurité a prolongé jeudi à l'unanimité, pour un an, le gel des avoirs et les interdictions de voyager visant le Yémen et condamné l'escalade des Houthis, tandis que Riyad presse l'Union européenne de les inscrire sur sa liste des organisations terroristes, selon Reuters."
+      ],
+      "figure": {
+        "value": "333 000",
+        "label": "personnes déplacées au Yémen depuis début août, selon l'OCHA",
+        "compare": "dont plus de 24 000 la semaine dernière"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "333 000",
+              "label": "personnes déplacées depuis début août",
+              "by": "le Bureau de la coordination des affaires humanitaires de l'ONU (OCHA)",
+              "date": "2026-11-12"
+            },
+            {
+              "value": "24 000",
+              "label": "personnes déplacées au cours de la dernière semaine",
+              "by": "OCHA",
+              "date": "2026-11-12"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Yanbu",
+              "coords": [
+                38.06,
+                24.09
+              ],
+              "note": "Terminal pétrolier saoudien sur la mer Rouge, débouché de l'oléoduc Est-Ouest, visé selon les Houthis."
+            },
+            {
+              "name": "Khamis Mouchaït",
+              "coords": [
+                42.73,
+                18.3
+              ],
+              "note": "Base aérienne saoudienne que les Houthis disent avoir frappée d'un missile balistique."
+            },
+            {
+              "name": "Charourah",
+              "coords": [
+                47.12,
+                17.47
+              ],
+              "note": "Aéroport saoudien proche de la frontière yéménite, où un avion militaire aurait été visé par un drone."
+            },
+            {
+              "name": "Marib",
+              "coords": [
+                45.32,
+                15.46
+              ],
+              "note": "Ville yéménite où le ministère de la défense a coordonné l'offensive « Aube du Yémen »."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
+          }
+        },
+        "help": {
+          "orgs": [
+            "wfp",
+            "unicef",
+            "unhcr"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "L'oléoduc Est-Ouest, artère vitale",
+        "text": "Avec le détroit d'Ormuz quasi fermé, l'oléoduc qui traverse l'Arabie saoudite jusqu'à la mer Rouge est devenu la principale issue du brut saoudien : les 4 millions de barils par jour que Riyad y fait transiter représentent environ 4 % de l'offre mondiale, selon Al Jazeera. En le visant, les Houthis menacent directement l'approvisionnement mondial. Yahya Saree a en revanche qualifié de « grave mensonge » l'accusation saoudienne selon laquelle les rebelles auraient visé la région de La Mecque mercredi. Le ministère yéménite de la défense, soutenu par Riyad, assure de son côté que les combats progressent vers leurs objectifs sur tous les fronts."
+      },
+      "keys": [
+        {
+          "title": "La prudence de Pékin",
+          "text": "Le représentant de la Chine à l'ONU, Fu Cong, a rappelé que les sanctions ne sont « qu'un moyen, pas une fin ». Le Conseil a aussi reconduit le mandat du groupe d'experts chargé du Yémen."
+        },
+        {
+          "title": "Les réticences européennes",
+          "text": "Selon Reuters, des responsables européens craignent qu'une inscription des Houthis sur la liste terroriste de l'UE ne compromette un futur processus de paix. Le porte-parole de l'Union n'a pas commenté."
+        }
+      ],
+      "involved": [
+        "SAU"
+      ],
+      "context": [
+        {
+          "d": "2026-08",
+          "t": "Début d'une nouvelle vague de déplacements, qui touche plus de 333 000 personnes, selon l'OCHA."
+        },
+        {
+          "d": "2026-10-04",
+          "t": "Le président du Conseil de direction présidentiel, Rachad al-Alimi, annonce une opération pour reprendre les territoires houthis."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Un immeuble d'Aramco endommagé lors d'une attaque de missiles contre le quartier financier de Riyad."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Nouvelles attaques de drones contre l'Arabie saoudite ; l'ONU prolonge les sanctions."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec Reuters",
+          "title": "Yemen's Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
+          "date": "2026-11-12"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Yemen's leader announces military operation to retake Houthi-held territory",
+          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory",
+          "date": "2026-10-04"
+        },
+        {
+          "name": "CNN",
+          "title": "Building owned by Saudi oil giant damaged in missile attack on Riyadh's financial district",
+          "url": "https://www.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl",
+          "date": "2026-11-08"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Iran war updates: Qatar, Turkiye ink defence deal; fighting rages in Yemen",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-yemen",
+        "title": "La guerre au Yémen"
+      },
+      "slug": "houthis-multiplient-frappes-contre-arabie-saoudite-onu-prolonge"
+    },
+    {
+      "rank": 5,
+      "id": "BFA",
+      "place": "Burkina Faso",
+      "section": "Afrique",
+      "radar": true,
+      "types": [
+        "conflict",
+        "society"
+      ],
+      "title": "Au Burkina Faso, les groupes djihadistes rivaux s'entre-déchirent sans que l'État reprenne pied",
+      "standfirst": "Depuis septembre, l'État islamique au Sahel et le JNIM, lié à Al-Qaida, se livrent des combats d'une rare violence près de la frontière malienne. La junte, qui a perdu le contrôle de vastes régions, durcit dans le même temps la répression contre ses critiques.",
+      "body": [
+        "Depuis début septembre, les combats entre le Groupe de soutien à l'islam et aux musulmans (JNIM), affilié à Al-Qaida, et l'État islamique au Sahel se sont intensifiés dans le nord du Burkina Faso, le long de la frontière malienne, l'hebdomadaire de l'État islamique revendiquant plus de 400 combattants rivaux tués le 9 octobre, rapporte Al Jazeera.",
+        "Cette rivalité, née en 2019, a déjà fait plus de 2 200 morts parmi les combattants selon l'ONG ACLED, et elle détourne le JNIM de sa lutte contre l'armée, alors que le groupe contrôle de larges pans du nord, du centre-nord, de l'ouest et de l'est du pays, selon l'International Crisis Group.",
+        "La junte du capitaine Ibrahim Traoré, au pouvoir depuis septembre 2022, a lancé ce mois-ci des mandats d'arrêt pour « terrorisme » contre une vingtaine de personnes, dont un journaliste de RFI, tandis que 4,5 millions d'habitants ont besoin d'aide humanitaire en 2026, selon l'ONU."
+      ],
+      "figure": {
+        "value": "2 200",
+        "label": "combattants tués dans les affrontements entre djihadistes rivaux depuis 2019, selon ACLED",
+        "compare": "en quelque 320 affrontements"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "2 200",
+              "label": "combattants tués dans les affrontements entre le JNIM et l'État islamique depuis 2019",
+              "by": "ACLED",
+              "date": "2026-11-13"
+            },
+            {
+              "value": "400",
+              "label": "combattants du JNIM tués près de Ganadaouri, chiffre invérifié",
+              "by": "l'hebdomadaire de l'État islamique, Al-Naba",
+              "date": "2026-10-09"
+            },
+            {
+              "value": "120",
+              "label": "corps au moins comptés sur des photos publiées par l'État islamique",
+              "by": "le média régional i-Sahel",
+              "date": "2026-11-01"
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Province de l'Oudalan",
+              "coords": [
+                -0.24,
+                14.44
+              ],
+              "note": "Province du nord frontalière du Mali, où se trouve Ganadaouri, théâtre des combats du 9 octobre ; repère placé à Gorom-Gorom, son chef-lieu."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
+          }
+        },
+        "help": {
+          "orgs": [
+            "wfp",
+            "unicef",
+            "unhcr",
+            "icrc"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Une guerre dans la guerre",
+        "text": "Les affrontements obligent le JNIM à détourner combattants et ressources de sa lutte contre les armées du Mali et du Burkina Faso, observe Heni Nsaibia, chercheur à ACLED, mais rien n'indique que l'État en tirera un avantage durable, souligne Al Jazeera. La rivalité déborde désormais sur le Niger, dans les régions de Tillabéri et de Dosso, et jusqu'à l'État de Kebbi, au Nigeria. Le JNIM a parallèlement étendu sa présence au Togo et au Bénin en 2025, et revendiqué en octobre 2025 sa première attaque officielle au Nigeria. En 2025, ACLED avait recensé plus de 10 000 morts liées aux violences politiques au Burkina Faso, au Mali et au Niger."
+      },
+      "keys": [
+        {
+          "title": "Des bilans invérifiables",
+          "text": "L'État islamique au Sahel affirme aussi avoir tué plus de 200 combattants du JNIM début septembre près de Kacham. Aucun de ces chiffres n'a pu être vérifié de source indépendante, et le JNIM ne s'est pas exprimé publiquement."
+        },
+        {
+          "title": "La répression des voix critiques",
+          "text": "Les mandats visent notamment le journaliste de RFI Newton Ahmed Barry et l'ancien ministre des affaires étrangères Djibril Bassolé. Le procureur général de Ouagadougou a ajouté que des médias comme France 24 étaient dans le viseur des autorités."
+        }
+      ],
+      "involved": [
+        "MLI",
+        "NER"
+      ],
+      "context": [
+        {
+          "d": "2022-09",
+          "t": "Le capitaine Ibrahim Traoré prend le pouvoir par un coup d'État."
+        },
+        {
+          "d": "2026-02",
+          "t": "Offensive du JNIM : plus de 120 soldats et supplétifs tués, selon ACLED."
+        },
+        {
+          "d": "2026-09",
+          "t": "Combats près de Kacham, l'État islamique revendique plus de 200 morts dans le camp adverse."
+        },
+        {
+          "d": "2026-10-09",
+          "t": "Bataille de Ganadaouri, dans l'Oudalan, la plus meurtrière revendiquée."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Burkina Faso's rival armed groups turn on each other as state loses ground",
+          "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Vanguard",
+          "title": "Burkina issues 'terrorist' warrants for journalists, activists",
+          "url": "https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/",
+          "date": "2026-11-13"
+        }
+      ],
+      "dossier": {
+        "id": "djihadisme-sahel",
+        "title": "Le djihadisme au Sahel"
+      },
+      "slug": "burkina-faso-groupes-djihadistes-rivaux-dechirent-sans-etat"
+    }
+  ],
+  "brief": [
+    {
+      "id": "GIN",
+      "place": "Guinée",
+      "text": "Au moins dix personnes, dont cinq étrangers, ont été tuées mercredi à Balato, dans la région de Siguiri, lors d'affrontements entre manifestants et forces de sécurité chargées de faire respecter l'interdiction de l'orpaillage, selon le gouvernement.",
+      "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining"
+    },
+    {
+      "id": "PAK",
+      "place": "Pakistan",
+      "text": "L'armée pakistanaise affirme avoir tué 74 militants en dix jours lors de raids dans le Khyber Pakhtunkhwa et le Baloutchistan, frontaliers de l'Afghanistan, pays qu'elle accuse de les soutenir.",
+      "url": "https://apnews.com/article/pakistan-military-militants-71c4b95a908b89e25a2c45408b150489"
+    },
+    {
+      "id": "PSE",
+      "place": "Gaza",
+      "text": "Un nourrisson de neuf mois est mort d'hypothermie à l'hôpital Nasser, premier décès lié au froid de l'hiver selon les autorités sanitaires, la tente de sa famille ayant été inondée par les pluies.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-57"
+    },
+    {
+      "id": "NLD",
+      "place": "Pays-Bas",
+      "text": "Le premier ministre, Rob Jetten, a convoqué vendredi une réunion de crise avec ses deux partenaires de coalition, les libéraux du VVD reprochant aux siens d'avoir voté des amendements fiscaux de l'opposition.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-57"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-18",
+      "t": "Sommet de l'APEC à Shenzhen."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Clôture prévue de la COP31."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Conseil européen de deux jours, consacré notamment aux besoins de financement de l'Ukraine pour 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Élections législatives anticipées en Espagne."
+    },
+    {
+      "d": "2026-12-22",
+      "t": "Premières élections générales au Soudan du Sud depuis l'indépendance."
+    }
+  ],
+  "consulted": [
+    "Reuters",
+    "Associated Press",
+    "AFP",
+    "Al Jazeera",
+    "Al-Monitor",
+    "The Times of Israel",
+    "UNN",
+    "CNN",
+    "Just Security",
+    "Morning Star",
+    "Vanguard"
+  ]
+}

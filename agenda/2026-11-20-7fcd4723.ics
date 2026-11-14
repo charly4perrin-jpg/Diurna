@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — agenda
 BEGIN:VEVENT
 UID:2026-11-20-7fcd4723@diurna
-DTSTAMP:20261113T184438Z
+DTSTAMP:20261114T060158Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Clôture prévue de la COP31.
-DESCRIPTION:Diurna — Édition du 13 novembre 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/13/
+DESCRIPTION:Diurna — Édition du 14 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/14/
 END:VEVENT
 END:VCALENDAR

@@ -1,456 +1,467 @@
 {
- "USA": {
-  "regime": "République fédérale, régime présidentiel",
-  "leaders": [
-   {
-    "role": "Président",
-    "name": "Donald Trump",
-    "role_en": "President"
-   }
-  ],
-  "checked": "2026-11-13",
-  "source": {
-   "name": "Middle East Eye",
-   "name_en": "Middle East Eye",
-   "url": "https://www.middleeasteye.net/news/trump-sidelines-vance-iran-talks-says-no-need-negotiate"
+  "USA": {
+    "regime": "République fédérale, régime présidentiel",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Donald Trump",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-14",
+    "source": {
+      "name": "The Times of Israel",
+      "name_en": "The Times of Israel",
+      "url": "https://www.timesofisrael.com/liveblog-november-13-2026/"
+    },
+    "regime_en": "Federal republic, presidential system"
   },
-  "regime_en": "Federal republic, presidential system"
- },
- "IRN": {
-  "regime": "République islamique",
-  "leaders": [
-   {
-    "role": "Guide suprême",
-    "name": "Mojtaba Khamenei",
-    "role_en": "Supreme Leader"
-   },
-   {
-    "role": "Président",
-    "name": "Massoud Pezeshkian",
-    "role_en": "President",
-    "name_en": "Masoud Pezeshkian"
-   }
-  ],
-  "checked": "2026-11-13",
-  "source": {
-   "name": "CBS News",
-   "name_en": "CBS News",
-   "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
+  "IRN": {
+    "regime": "République islamique",
+    "leaders": [
+      {
+        "role": "Guide suprême",
+        "name": "Mojtaba Khamenei",
+        "role_en": "Supreme Leader"
+      },
+      {
+        "role": "Président",
+        "name": "Massoud Pezeshkian",
+        "role_en": "President",
+        "name_en": "Masoud Pezeshkian"
+      }
+    ],
+    "checked": "2026-11-13",
+    "source": {
+      "name": "CBS News",
+      "name_en": "CBS News",
+      "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
+    },
+    "regime_en": "Islamic republic"
   },
-  "regime_en": "Islamic republic"
- },
- "UKR": {
-  "regime": "République semi-présidentielle, sous loi martiale",
-  "leaders": [
-   {
-    "role": "Président",
-    "name": "Volodymyr Zelensky",
-    "role_en": "President"
-   }
-  ],
-  "checked": "2026-11-13",
-  "source": {
-   "name": "Kyiv Independent",
-   "name_en": "Kyiv Independent",
-   "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+  "UKR": {
+    "regime": "République semi-présidentielle, sous loi martiale",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Volodymyr Zelensky",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-13",
+    "source": {
+      "name": "Kyiv Independent",
+      "name_en": "Kyiv Independent",
+      "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+    },
+    "regime_en": "Semi-presidential republic, under martial law"
   },
-  "regime_en": "Semi-presidential republic, under martial law"
- },
- "ISR": {
-  "regime": "Démocratie parlementaire",
-  "leaders": [
-   {
-    "role": "Premier ministre (affaires courantes)",
-    "name": "Benyamin Nétanyahou",
-    "role_en": "Prime Minister (caretaker)",
-    "name_en": "Benjamin Netanyahu"
-   },
-   {
-    "role": "Président",
-    "name": "Isaac Herzog",
-    "role_en": "President"
-   }
-  ],
-  "checked": "2026-11-09",
-  "source": {
-   "name": "Associated Press, via PBS",
-   "name_en": "Associated Press, via PBS",
-   "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government"
+  "ISR": {
+    "regime": "Démocratie parlementaire",
+    "leaders": [
+      {
+        "role": "Premier ministre (affaires courantes)",
+        "name": "Benyamin Nétanyahou",
+        "role_en": "Prime Minister (caretaker)",
+        "name_en": "Benjamin Netanyahu"
+      },
+      {
+        "role": "Président",
+        "name": "Isaac Herzog",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-09",
+    "source": {
+      "name": "Associated Press, via PBS",
+      "name_en": "Associated Press, via PBS",
+      "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government"
+    },
+    "regime_en": "Parliamentary democracy"
   },
-  "regime_en": "Parliamentary democracy"
- },
- "SDN": {
-  "regime": "Pouvoir militaire de transition, en guerre civile",
-  "leaders": [
-   {
-    "role": "Président du Conseil de souveraineté",
-    "name": "Abdel Fattah Al-Bourhane",
-    "role_en": "Chair of the Sovereignty Council",
-    "name_en": "Abdel Fattah al-Burhan"
-   },
-   {
-    "role": "Premier ministre",
-    "name": "Kamil Idris",
-    "role_en": "Prime Minister"
-   }
-  ],
-  "checked": "2026-11-05",
-  "source": {
-   "name": "The National",
-   "url": "https://www.thenationalnews.com/news/mena/2026/06/29/sudans-army-aligned-prime-minister-under-fire-for-worsening-services/"
+  "SDN": {
+    "regime": "Pouvoir militaire de transition, en guerre civile",
+    "leaders": [
+      {
+        "role": "Président du Conseil de souveraineté",
+        "name": "Abdel Fattah Al-Bourhane",
+        "role_en": "Chair of the Sovereignty Council",
+        "name_en": "Abdel Fattah al-Burhan"
+      },
+      {
+        "role": "Premier ministre",
+        "name": "Kamil Idris",
+        "role_en": "Prime Minister"
+      }
+    ],
+    "checked": "2026-11-05",
+    "source": {
+      "name": "The National",
+      "url": "https://www.thenationalnews.com/news/mena/2026/06/29/sudans-army-aligned-prime-minister-under-fire-for-worsening-services/"
+    },
+    "regime_en": "Military-led transitional rule, in civil war"
   },
-  "regime_en": "Military-led transitional rule, in civil war"
- },
- "IDN": {
-  "regime": "République présidentielle",
-  "leaders": [
-   {
-    "role": "Président",
-    "name": "Prabowo Subianto",
-    "role_en": "President"
-   }
-  ],
-  "checked": "2026-11-11",
-  "source": {
-   "name": "The Jakarta Post",
-   "name_en": "The Jakarta Post",
-   "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
+  "IDN": {
+    "regime": "République présidentielle",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Prabowo Subianto",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-11",
+    "source": {
+      "name": "The Jakarta Post",
+      "name_en": "The Jakarta Post",
+      "url": "https://www.thejakartapost.com/indonesia/2026/11/10/breaking-vp-gibran-intends-to-resign-says-state-secretary"
+    },
+    "regime_en": "Presidential republic"
   },
-  "regime_en": "Presidential republic"
- },
- "BRA": {
-  "regime": "République fédérale, régime présidentiel",
-  "leaders": [
-   {
-    "role": "Président",
-    "name": "Luiz Inácio Lula da Silva",
-    "role_en": "President"
-   }
-  ],
-  "checked": "2026-11-05",
-  "source": {
-   "name": "NPR",
-   "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+  "BRA": {
+    "regime": "République fédérale, régime présidentiel",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Luiz Inácio Lula da Silva",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-05",
+    "source": {
+      "name": "NPR",
+      "url": "https://www.npr.org/2026/10/25/nx-s1-6016299/brazil-lula-bolsonaro-election"
+    },
+    "regime_en": "Federal republic, presidential system"
   },
-  "regime_en": "Federal republic, presidential system"
- },
- "HUN": {
-  "regime": "Démocratie parlementaire",
-  "leaders": [
-   {
-    "role": "Premier ministre",
-    "name": "Péter Magyar",
-    "role_en": "Prime Minister"
-   }
-  ],
-  "checked": "2026-11-05",
-  "source": {
-   "name": "Euronews",
-   "url": "https://www.euronews.com/my-europe/2026/05/09/peter-magyar-sworn-in-as-hungarys-new-prime-minister-after-landslide-april-election-victor"
+  "HUN": {
+    "regime": "Démocratie parlementaire",
+    "leaders": [
+      {
+        "role": "Premier ministre",
+        "name": "Péter Magyar",
+        "role_en": "Prime Minister"
+      }
+    ],
+    "checked": "2026-11-05",
+    "source": {
+      "name": "Euronews",
+      "url": "https://www.euronews.com/my-europe/2026/05/09/peter-magyar-sworn-in-as-hungarys-new-prime-minister-after-landslide-april-election-victor"
+    },
+    "regime_en": "Parliamentary democracy"
   },
-  "regime_en": "Parliamentary democracy"
- },
- "FRA": {
-  "regime": "République semi-présidentielle",
-  "leaders": [
-   {
-    "role": "Président",
-    "name": "Emmanuel Macron",
-    "role_en": "President"
-   }
-  ],
-  "checked": "2026-11-11",
-  "source": {
-   "name": "Élysée",
-   "name_en": "Élysée",
-   "url": "https://www.elysee.fr/en/diary-november-2026"
+  "FRA": {
+    "regime": "République semi-présidentielle",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Emmanuel Macron",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-11",
+    "source": {
+      "name": "Élysée",
+      "name_en": "Élysée",
+      "url": "https://www.elysee.fr/en/diary-november-2026"
+    },
+    "regime_en": "Semi-presidential republic"
   },
-  "regime_en": "Semi-presidential republic"
- },
- "PRY": {
-  "regime": "République présidentielle",
-  "regime_en": "Presidential republic",
-  "leaders": [
-   {
-    "role": "Président (depuis le 6 novembre 2026)",
-    "role_en": "President (since 6 November 2026)",
-    "name": "Pedro Alliana"
-   }
-  ],
-  "checked": "2026-11-08",
-  "source": {
-   "name": "Reuters, via The Times of Israel",
-   "name_en": "Reuters, via The Times of Israel",
-   "url": "https://www.timesofisrael.com/paraguays-pro-israel-ex-president-taken-into-custody-over-alleged-bank-crisis-role/"
+  "PRY": {
+    "regime": "République présidentielle",
+    "regime_en": "Presidential republic",
+    "leaders": [
+      {
+        "role": "Président (depuis le 6 novembre 2026)",
+        "role_en": "President (since 6 November 2026)",
+        "name": "Pedro Alliana"
+      }
+    ],
+    "checked": "2026-11-08",
+    "source": {
+      "name": "Reuters, via The Times of Israel",
+      "name_en": "Reuters, via The Times of Israel",
+      "url": "https://www.timesofisrael.com/paraguays-pro-israel-ex-president-taken-into-custody-over-alleged-bank-crisis-role/"
+    }
+  },
+  "SOM": {
+    "regime": "République fédérale, en crise constitutionnelle",
+    "regime_en": "Federal republic, in constitutional crisis",
+    "leaders": [
+      {
+        "role": "Président (mandat jugé expiré par la Cour suprême)",
+        "role_en": "President (term ruled expired by the Supreme Court)",
+        "name": "Hassan Cheikh Mohamoud",
+        "name_en": "Hassan Sheikh Mohamud"
+      }
+    ],
+    "checked": "2026-11-06",
+    "source": {
+      "name": "AFP, via Arab News",
+      "name_en": "AFP, via Arab News",
+      "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974"
+    }
+  },
+  "COD": {
+    "regime": "République semi-présidentielle",
+    "regime_en": "Semi-presidential republic",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Félix Tshisekedi"
+      }
+    ],
+    "checked": "2026-11-12",
+    "source": {
+      "name": "Polity, avec Reuters",
+      "name_en": "Polity, with Reuters",
+      "url": "https://polity.org.za/article/congos-president-calls-for-national-dialogue-to-ease-tensions-rebels-excluded-2026-08-28"
+    }
+  },
+  "HTI": {
+    "regime": "Gouvernement de transition, sans président élu",
+    "regime_en": "Transitional government, with no elected president",
+    "leaders": [
+      {
+        "role": "Premier ministre (chef de l'exécutif)",
+        "role_en": "Prime Minister (head of the executive)",
+        "name": "Alix Didier Fils-Aimé"
+      }
+    ],
+    "checked": "2026-11-11",
+    "source": {
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
+    }
+  },
+  "IRL": {
+    "regime": "Démocratie parlementaire",
+    "regime_en": "Parliamentary democracy",
+    "leaders": [
+      {
+        "role": "Premier ministre (Taoiseach)",
+        "role_en": "Taoiseach (Prime Minister)",
+        "name": "Micheál Martin"
+      }
+    ],
+    "checked": "2026-11-08",
+    "source": {
+      "name": "Shannonside",
+      "url": "https://www.shannonside.ie/news/micheal-martin-to-be-taoiseach-until-november-2027-256699"
+    }
+  },
+  "SAU": {
+    "regime": "Monarchie absolue",
+    "regime_en": "Absolute monarchy",
+    "leaders": [
+      {
+        "role": "Prince héritier et Premier ministre",
+        "role_en": "Crown Prince and Prime Minister",
+        "name": "Mohammed ben Salmane",
+        "name_en": "Mohammed bin Salman"
+      }
+    ],
+    "checked": "2026-11-09",
+    "source": {
+      "name": "Gulf News",
+      "name_en": "Gulf News",
+      "url": "https://gulfnews.com/world/gulf/saudi/houthi-missiles-intercepted-over-dhahran-and-haradh-debris-falls-in-residential-area-1.500709539"
+    }
+  },
+  "TUR": {
+    "regime": "République présidentielle",
+    "regime_en": "Presidential republic",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Recep Tayyip Erdoğan"
+      }
+    ],
+    "checked": "2026-11-12",
+    "source": {
+      "name": "Reuters, via Al-Monitor",
+      "name_en": "Reuters, via Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
+    }
+  },
+  "MMR": {
+    "regime": "Pouvoir dominé par l'armée, issu d'élections organisées par la junte",
+    "regime_en": "Military-dominated government, after junta-run elections",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Min Aung Hlaing"
+      }
+    ],
+    "checked": "2026-11-09",
+    "source": {
+      "name": "Wikipedia",
+      "name_en": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
+    }
+  },
+  "POL": {
+    "regime": "Démocratie parlementaire",
+    "regime_en": "Parliamentary democracy",
+    "leaders": [
+      {
+        "role": "Premier ministre",
+        "role_en": "Prime Minister",
+        "name": "Donald Tusk"
+      },
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Karol Nawrocki"
+      }
+    ],
+    "checked": "2026-11-10",
+    "source": {
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow"
+    }
+  },
+  "ZAF": {
+    "regime": "République parlementaire, gouvernement d'unité nationale",
+    "regime_en": "Parliamentary republic, government of national unity",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Cyril Ramaphosa"
+      }
+    ],
+    "checked": "2026-11-10",
+    "source": {
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
+    }
+  },
+  "YEM": {
+    "regime": "Pays divisé : gouvernement reconnu à Aden, Houthis à Sanaa",
+    "regime_en": "Divided country: recognised government in Aden, Houthis in Sanaa",
+    "leaders": [
+      {
+        "role": "Président du Conseil de direction présidentiel",
+        "role_en": "Chairman of the Presidential Leadership Council",
+        "name": "Rachad al-Alimi",
+        "name_en": "Rashad al-Alimi"
+      }
+    ],
+    "checked": "2026-11-14",
+    "source": {
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory"
+    }
+  },
+  "NER": {
+    "regime": "Pouvoir militaire de transition",
+    "regime_en": "Military transitional rule",
+    "leaders": [
+      {
+        "role": "Président de la transition (général)",
+        "role_en": "Transitional President (general)",
+        "name": "Abdourahamane Tiani",
+        "name_en": "Abdourahamane Tchiani"
+      }
+    ],
+    "checked": "2026-11-11",
+    "source": {
+      "name": "Human Rights Watch",
+      "name_en": "Human Rights Watch",
+      "url": "https://www.hrw.org/news/2026/07/23/niger-3-years-of-military-rule-deepens-human-rights-crisis"
+    }
+  },
+  "ETH": {
+    "regime": "République fédérale parlementaire",
+    "regime_en": "Federal parliamentary republic",
+    "leaders": [
+      {
+        "role": "Premier ministre",
+        "role_en": "Prime Minister",
+        "name": "Abiy Ahmed"
+      }
+    ],
+    "checked": "2026-11-12",
+    "source": {
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
+    }
+  },
+  "ERI": {
+    "regime": "Régime présidentiel à parti unique",
+    "regime_en": "One-party presidential regime",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Isaias Afwerki"
+      }
+    ],
+    "checked": "2026-11-12",
+    "source": {
+      "name": "Critical Threats Project",
+      "name_en": "Critical Threats Project",
+      "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026"
+    }
+  },
+  "ESP": {
+    "regime": "Monarchie parlementaire",
+    "regime_en": "Parliamentary monarchy",
+    "leaders": [
+      {
+        "role": "Président du gouvernement (Parlement dissous)",
+        "role_en": "Prime Minister (parliament dissolved)",
+        "name": "Pedro Sánchez"
+      }
+    ],
+    "checked": "2026-11-13",
+    "source": {
+      "name": "Time",
+      "name_en": "Time",
+      "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
+    }
+  },
+  "SSD": {
+    "regime": "Régime présidentiel, en transition",
+    "regime_en": "Presidential system, in transition",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Salva Kiir"
+      }
+    ],
+    "checked": "2026-11-13",
+    "source": {
+      "name": "ONU Info",
+      "name_en": "UN News",
+      "url": "https://news.un.org/en/story/2026/11/1168774"
+    }
+  },
+  "BFA": {
+    "regime": "Pouvoir militaire de transition",
+    "regime_en": "Military transitional government",
+    "leaders": [
+      {
+        "role": "Président de la transition",
+        "role_en": "Transitional President",
+        "name": "Ibrahim Traoré"
+      }
+    ],
+    "checked": "2026-11-14",
+    "source": {
+      "name": "Vanguard",
+      "name_en": "Vanguard",
+      "url": "https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/"
+    }
   }
- },
- "SOM": {
-  "regime": "République fédérale, en crise constitutionnelle",
-  "regime_en": "Federal republic, in constitutional crisis",
-  "leaders": [
-   {
-    "role": "Président (mandat jugé expiré par la Cour suprême)",
-    "role_en": "President (term ruled expired by the Supreme Court)",
-    "name": "Hassan Cheikh Mohamoud",
-    "name_en": "Hassan Sheikh Mohamud"
-   }
-  ],
-  "checked": "2026-11-06",
-  "source": {
-   "name": "AFP, via Arab News",
-   "name_en": "AFP, via Arab News",
-   "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974"
-  }
- },
- "COD": {
-  "regime": "République semi-présidentielle",
-  "regime_en": "Semi-presidential republic",
-  "leaders": [
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Félix Tshisekedi"
-   }
-  ],
-  "checked": "2026-11-12",
-  "source": {
-   "name": "Polity, avec Reuters",
-   "name_en": "Polity, with Reuters",
-   "url": "https://polity.org.za/article/congos-president-calls-for-national-dialogue-to-ease-tensions-rebels-excluded-2026-08-28"
-  }
- },
- "HTI": {
-  "regime": "Gouvernement de transition, sans président élu",
-  "regime_en": "Transitional government, with no elected president",
-  "leaders": [
-   {
-    "role": "Premier ministre (chef de l'exécutif)",
-    "role_en": "Prime Minister (head of the executive)",
-    "name": "Alix Didier Fils-Aimé"
-   }
-  ],
-  "checked": "2026-11-11",
-  "source": {
-   "name": "Al Jazeera",
-   "name_en": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
-  }
- },
- "IRL": {
-  "regime": "Démocratie parlementaire",
-  "regime_en": "Parliamentary democracy",
-  "leaders": [
-   {
-    "role": "Premier ministre (Taoiseach)",
-    "role_en": "Taoiseach (Prime Minister)",
-    "name": "Micheál Martin"
-   }
-  ],
-  "checked": "2026-11-08",
-  "source": {
-   "name": "Shannonside",
-   "url": "https://www.shannonside.ie/news/micheal-martin-to-be-taoiseach-until-november-2027-256699"
-  }
- },
- "SAU": {
-  "regime": "Monarchie absolue",
-  "regime_en": "Absolute monarchy",
-  "leaders": [
-   {
-    "role": "Prince héritier et Premier ministre",
-    "role_en": "Crown Prince and Prime Minister",
-    "name": "Mohammed ben Salmane",
-    "name_en": "Mohammed bin Salman"
-   }
-  ],
-  "checked": "2026-11-09",
-  "source": {
-   "name": "Gulf News",
-   "name_en": "Gulf News",
-   "url": "https://gulfnews.com/world/gulf/saudi/houthi-missiles-intercepted-over-dhahran-and-haradh-debris-falls-in-residential-area-1.500709539"
-  }
- },
- "TUR": {
-  "regime": "République présidentielle",
-  "regime_en": "Presidential republic",
-  "leaders": [
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Recep Tayyip Erdoğan"
-   }
-  ],
-  "checked": "2026-11-12",
-  "source": {
-   "name": "Reuters, via Al-Monitor",
-   "name_en": "Reuters, via Al-Monitor",
-   "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
-  }
- },
- "MMR": {
-  "regime": "Pouvoir dominé par l'armée, issu d'élections organisées par la junte",
-  "regime_en": "Military-dominated government, after junta-run elections",
-  "leaders": [
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Min Aung Hlaing"
-   }
-  ],
-  "checked": "2026-11-09",
-  "source": {
-   "name": "Wikipedia",
-   "name_en": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
-  }
- },
- "POL": {
-  "regime": "Démocratie parlementaire",
-  "regime_en": "Parliamentary democracy",
-  "leaders": [
-   {
-    "role": "Premier ministre",
-    "role_en": "Prime Minister",
-    "name": "Donald Tusk"
-   },
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Karol Nawrocki"
-   }
-  ],
-  "checked": "2026-11-10",
-  "source": {
-   "name": "Al Jazeera",
-   "name_en": "Al Jazeera",
-   "url": "https://aljazeera.com/news/2026/11/7/casualties-reported-after-shooting-in-polands-krakow"
-  }
- },
- "ZAF": {
-  "regime": "République parlementaire, gouvernement d'unité nationale",
-  "regime_en": "Parliamentary republic, government of national unity",
-  "leaders": [
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Cyril Ramaphosa"
-   }
-  ],
-  "checked": "2026-11-10",
-  "source": {
-   "name": "Al Jazeera",
-   "name_en": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/11/4/south-africans-vote-in-local-elections-seen-as-test-for-embattled-anc"
-  }
- },
- "YEM": {
-  "regime": "Pays divisé : gouvernement reconnu à Aden, Houthis à Sanaa",
-  "regime_en": "Divided country: recognised government in Aden, Houthis in Sanaa",
-  "leaders": [
-   {
-    "role": "Président du Conseil de direction présidentiel",
-    "role_en": "Chairman of the Presidential Leadership Council",
-    "name": "Rachad al-Alimi",
-    "name_en": "Rashad al-Alimi"
-   },
-   {
-    "role": "Premier ministre",
-    "role_en": "Prime Minister",
-    "name": "Chaya al-Zindani",
-    "name_en": "Shaya al-Zindani"
-   }
-  ],
-  "checked": "2026-11-10",
-  "source": {
-   "name": "Wikipedia",
-   "name_en": "Wikipedia",
-   "url": "https://en.wikipedia.org/wiki/Shaya_al-Zindani"
-  }
- },
- "NER": {
-  "regime": "Pouvoir militaire de transition",
-  "regime_en": "Military transitional rule",
-  "leaders": [
-   {
-    "role": "Président de la transition (général)",
-    "role_en": "Transitional President (general)",
-    "name": "Abdourahamane Tiani",
-    "name_en": "Abdourahamane Tchiani"
-   }
-  ],
-  "checked": "2026-11-11",
-  "source": {
-   "name": "Human Rights Watch",
-   "name_en": "Human Rights Watch",
-   "url": "https://www.hrw.org/news/2026/07/23/niger-3-years-of-military-rule-deepens-human-rights-crisis"
-  }
- },
- "ETH": {
-  "regime": "République fédérale parlementaire",
-  "regime_en": "Federal parliamentary republic",
-  "leaders": [
-   {
-    "role": "Premier ministre",
-    "role_en": "Prime Minister",
-    "name": "Abiy Ahmed"
-   }
-  ],
-  "checked": "2026-11-12",
-  "source": {
-   "name": "Al Jazeera",
-   "name_en": "Al Jazeera",
-   "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
-  }
- },
- "ERI": {
-  "regime": "Régime présidentiel à parti unique",
-  "regime_en": "One-party presidential regime",
-  "leaders": [
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Isaias Afwerki"
-   }
-  ],
-  "checked": "2026-11-12",
-  "source": {
-   "name": "Critical Threats Project",
-   "name_en": "Critical Threats Project",
-   "url": "https://www.criticalthreats.org/briefs/ethiopia-war-security-review/november-6-2026"
-  }
- },
- "ESP": {
-  "regime": "Monarchie parlementaire",
-  "regime_en": "Parliamentary monarchy",
-  "leaders": [
-   {
-    "role": "Président du gouvernement (Parlement dissous)",
-    "role_en": "Prime Minister (parliament dissolved)",
-    "name": "Pedro Sánchez"
-   }
-  ],
-  "checked": "2026-11-13",
-  "source": {
-   "name": "Time",
-   "name_en": "Time",
-   "url": "https://time.com/article/2026/11/12/spain-general-strike-housing-crisis-national-election-sanchez/"
-  }
- },
- "SSD": {
-  "regime": "Régime présidentiel, en transition",
-  "regime_en": "Presidential system, in transition",
-  "leaders": [
-   {
-    "role": "Président",
-    "role_en": "President",
-    "name": "Salva Kiir"
-   }
-  ],
-  "checked": "2026-11-13",
-  "source": {
-   "name": "ONU Info",
-   "name_en": "UN News",
-   "url": "https://news.un.org/en/story/2026/11/1168774"
-  }
- }
 }
