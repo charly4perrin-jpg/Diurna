@@ -1,9 +1,9 @@
 {
-  "date": "2026-11-14",
-  "number": 10,
-  "updated": "2026-11-14T07:01:00+01:00",
-  "headline": "Europe names five countries to speak for it in the Ukraine peace talks",
-  "standfirst": "Meeting in Dublin, EU leaders entrusted their voice to Britain, France, Germany, Italy and Poland, and Friedrich Merz asked Donald Trump for “no surprises” before his talks with Vladimir Putin in China. Qatar allies with Turkey as Israel debates a strike on Iran, an outage grounded every flight in America, the Houthis target Saudi Arabia, and in Burkina Faso rival jihadists fight each other.",
+  "date": "2026-11-15",
+  "number": 11,
+  "updated": "2026-11-15T06:55:00+01:00",
+  "headline": "Washington links Ukraine's NATO membership to a withdrawal from the Donbas",
+  "standfirst": "Volodymyr Zelensky says American negotiators have, for the first time, tied Ukraine's entry into the alliance to giving up the Donbas, which he refuses to do without guarantees and a referendum. Donald Trump will meet Xi Jinping and Vladimir Putin in Shenzhen on Thursday to talk about nuclear weapons, Benjamin Netanyahu invokes the Iranian threat to demand a unity government, America loses its measles-free status, and diphtheria has killed more than 1,100 people in Nigeria this year.",
   "essentials": [
     {
       "rank": 1,
@@ -15,17 +15,17 @@
         "diplomacy",
         "conflict"
       ],
-      "title": "Europe picks five countries for the Ukraine talks as Berlin warns Washington against surprises",
-      "standfirst": "Meeting in Dublin, European leaders entrusted their voice in future negotiations to the EU's institutions and to five members of the “coalition of the willing”. Germany's chancellor has asked Donald Trump for “no surprises” ahead of his expected talks with Vladimir Putin in China.",
+      "title": "America floats NATO membership for Ukraine in exchange for a withdrawal from the Donbas",
+      "standfirst": "According to Volodymyr Zelensky, American negotiators have for the first time linked his country's accession to the Atlantic alliance to giving up the parts of the Donbas that Kyiv still holds. Ukraine's president rejects any cession of territory, but says he is ready to consult Ukrainians if offered a complete package of guarantees.",
       "body": [
-        "On Friday 13 November, after a meeting of European leaders in Dublin, the president of the European Council, António Costa, announced that Europe would be represented at future negotiations on Ukraine by the EU and five members of the “coalition of the willing”: Britain, France, Germany, Italy and Poland, Al Jazeera reports.",
-        "The choice answers America's envoys, Steve Witkoff and Jared Kushner, the latter having urged Europe to speak with one voice, but Moscow still refuses to involve Europeans directly, with the Kremlin's spokesman, Dmitry Peskov, insisting that no decision has been taken.",
-        "Germany's chancellor, Friedrich Merz, who expects Donald Trump to discuss Ukraine with Vladimir Putin in China next week, has asked the American president for “no surprises”, with some in Dublin fearing a “second Anchorage”, according to Reuters, quoted by Al-Monitor."
+        "In remarks released by his office on Saturday 14 November, Ukraine's president, Volodymyr Zelensky, said American negotiators had asked him whether Ukraine would withdraw from the Donbas in exchange for NATO membership, the first time, in his account, that the alliance has been tied to territorial concessions, Al Jazeera reports.",
+        "The areas in question are those Russia does not control, and Mr Zelensky refused to give them up, while saying he would put the matter to a referendum if America and its allies offered security guarantees, a funded army and a reconstruction plan; Vladimir Putin regards Ukraine's membership as a red line.",
+        "Kyiv now awaits details: Washington talks of guarantees resembling Articles 4 and 5 of the North Atlantic Treaty, but with no American troops on Ukrainian soil, according to the Kyiv Independent, while the Europeans have chosen five countries to represent them in future negotiations."
       ],
       "figure": {
-        "value": "5",
-        "label": "countries chosen to represent Europe alongside the EU's institutions",
-        "compare": "Britain, France, Germany, Italy and Poland"
+        "value": "1,200",
+        "label": "Ukrainian drones launched at Russia, according to the Russian authorities on Friday",
+        "compare": "with oil infrastructure among the targets"
       },
       "since": {
         "date": "2022-02-24",
@@ -36,25 +36,16 @@
           "ids": [
             "UKR",
             "USA",
-            "RUS",
-            "DEU"
+            "RUS"
           ],
           "positions": [
             {
-              "who": "The European Union",
-              "wants": "To speak “with one voice” in all discussions on Ukraine's future, according to António Costa, through five countries of the coalition of the willing."
-            },
-            {
-              "who": "Berlin",
-              "wants": "Talks focused on the framework for guaranteeing Ukraine's security after peace, with NATO remaining, in Friedrich Merz's view, the bedrock of European security."
-            },
-            {
               "who": "Washington",
-              "wants": "A single European interlocutor: that would be greater progress than Russia's acceptance of Europe's presence, according to Jared Kushner."
+              "wants": "To know whether Ukraine would leave the Donbas in exchange for NATO membership, with bilateral guarantees comparable to those Israel enjoys, but without American troops."
             },
             {
-              "who": "Moscow",
-              "wants": "No decision yet on European participation, according to the Kremlin's spokesman, Dmitry Peskov."
+              "who": "Kyiv",
+              "wants": "Guarantees from NATO and the EU amounting “at a minimum” to Article 5, a strong army and a funded reconstruction plan, before any consultation of Ukrainians."
             }
           ],
           "next": {
@@ -62,34 +53,32 @@
             "t": "European Council meeting, with Ukraine's financing for 2027 high on the agenda."
           },
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice"
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/"
           }
         }
       },
       "analysis": {
-        "title": "The ghost of Anchorage",
-        "text": "The allusion to the summit in Anchorage, Alaska, where Donald Trump hosted Vladimir Putin in August 2025 without the Europeans, betrays a fear of a settlement struck over their heads. Friedrich Merz wants the coming talks to address a single question, the framework under which Ukraine's security would be guaranteed after peace, and rejects Russia's idea of redesigning the continent's security architecture, which in his view NATO already provides, Reuters reports. The chancellor is also pressing partners to write support for Kyiv into the EU's next multi-year budget, a proposal that enjoys broad backing but whose adoption remains distant. He expects genuine peace negotiations to begin in the coming weeks, with Europeans taking part for the first time."
+        "title": "A taboo lifted in Washington",
+        "text": "Since 2022 Ukraine's membership of NATO has been the one point on which Moscow will not bend, and Washington had kept it out of the talks. Tying that prospect to a withdrawal from the Donbas amounts to offering Kyiv protection in exchange for territory, a bargain Mr Zelensky does not reject outright but makes conditional on precise commitments. He nonetheless rules out neutrality, which would require amending the constitution, and refuses any arrangement that recognises the occupied territories as Russian. It remains unclear whether the American offer binds the other allies, whose unanimity any accession requires, and whether the Kremlin would accept Ukraine in the alliance, even a diminished one. Mr Zelensky himself says he is still waiting for “details”."
       },
       "keys": [
         {
-          "title": "Who speaks for Europe",
-          "text": "Italy's prime minister, Giorgia Meloni, argues for a single European envoy, judging the existing formats too numerous. The EU's foreign-policy chief, Kaja Kallas, claims the role but lacks unanimous support, according to Al Jazeera."
+          "title": "The Abu Dhabi talks",
+          "text": "Ukrainian and Russian representatives negotiated in Abu Dhabi on 10 and 11 November under American mediation, without a major breakthrough. A prisoner exchange involving more than 1,000 people was agreed there, according to Reuters."
         },
         {
-          "title": "Moscow's scepticism",
-          "text": "The Kremlin has not confirmed that it agreed to widen the three-way talks to include the Europeans. Dmitry Peskov likened European leaders to “spiders in a jar”, according to Al Jazeera."
+          "title": "A truce offered in Kostiantynivka",
+          "text": "Vladimir Putin has suggested a local humanitarian ceasefire in this Donbas town, which in Mr Zelensky's view shows that the Russian army cannot take it. Ukraine's president also says the Kremlin's leader does not support a truce on strikes against energy facilities."
+        },
+        {
+          "title": "Europe at the table",
+          "text": "America's envoys, Steve Witkoff and Jared Kushner, assured Mr Zelensky in Ireland on Thursday that all parties accepted a role for Europe. It will be represented by the EU's institutions and by Britain, France, Germany, Italy and Poland."
         }
       ],
       "involved": [
         "RUS",
-        "USA",
-        "DEU",
-        "FRA",
-        "GBR",
-        "ITA",
-        "POL",
-        "CHN"
+        "USA"
       ],
       "context": [
         {
@@ -97,63 +86,191 @@
           "t": "Russia launches its full-scale invasion of Ukraine."
         },
         {
-          "d": "2025-08-15",
-          "t": "Donald Trump and Vladimir Putin meet in Anchorage, Alaska, without the Europeans."
-        },
-        {
-          "d": "2026-11-10",
-          "t": "Three-way talks open in Abu Dhabi, yielding agreement on a large prisoner exchange."
-        },
-        {
-          "d": "2026-11-12",
-          "t": "America's envoys are received at the Kremlin, then by Volodymyr Zelensky near Dublin."
+          "d": "2026-11-11",
+          "t": "Two days of Russian-Ukrainian talks end in Abu Dhabi, under American mediation."
         },
         {
           "d": "2026-11-13",
-          "t": "The EU names five countries to represent Europe; Friedrich Merz asks Donald Trump for “no surprises”."
+          "t": "In Dublin, the Europeans name five countries to represent them in the negotiations."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Volodymyr Zelensky reveals the American proposal linking NATO to a withdrawal from the Donbas."
         },
         {
           "d": "2026-11-26",
-          "t": "European Council meets, with Ukraine's financing for 2027 on the agenda."
+          "t": "European Council meeting, with Ukraine's financing high on the agenda."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera, avec AFP, AP et Reuters",
-          "title": "EU agrees on five countries to represent Europe in Ukraine peace talks",
-          "url": "https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice",
-          "date": "2026-11-13",
-          "name_en": "Al Jazeera, with AFP, AP and Reuters"
+          "name": "Al Jazeera, avec Reuters et AP",
+          "name_en": "Al Jazeera, with Reuters and AP",
+          "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato",
+          "date": "2026-11-14"
         },
         {
-          "name": "Al-Monitor, avec Reuters",
-          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
-          "url": "https://www.al-monitor.com/originals/2026/11/germanys-merz-asks-trump-no-surprises-putin-talks",
-          "date": "2026-11-13",
-          "name_en": "Al-Monitor, with Reuters"
+          "name": "Kyiv Independent",
+          "title": "US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says",
+          "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
+          "date": "2026-11-14"
         },
         {
-          "name": "The Times of Israel, avec Reuters",
-          "title": "Germany's Merz asks Trump for 'no surprises' from Putin talks",
-          "url": "https://www.timesofisrael.com/liveblog_entry/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/",
-          "date": "2026-11-13",
-          "name_en": "The Times of Israel, with Reuters"
+          "name": "Reuters, via ABC",
+          "title": "US has raised idea of NATO membership for Ukraine, Volodymyr Zelenskyy says",
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=458008",
+          "date": "2026-11-14"
         },
         {
-          "name": "UNN",
-          "title": "Merz urged Trump to hold talks with Putin on Ukraine \"without surprises\"",
-          "url": "https://unn.ua/en/news/merz-urged-trump-to-hold-talks-with-putin-on-ukraine-without-surprises",
-          "date": "2026-11-13"
+          "name": "CNN",
+          "title": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+          "url": "https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl",
+          "date": "2026-11-14"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "europe-picks-five-countries-ukraine-talks-berlin-warns"
+      "slug": "america-floats-nato-membership-ukraine-exchange-withdrawal-donbas"
     },
     {
       "rank": 2,
+      "id": "CHN",
+      "place": "China",
+      "section": "Asia-Pacific",
+      "focus": [
+        114.06,
+        22.54
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy"
+      ],
+      "title": "Trump, Xi and Putin to meet in Shenzhen on Thursday for a first three-way nuclear summit",
+      "standfirst": "The White House has confirmed an unprecedented meeting of the American, Chinese and Russian presidents on the sidelines of the APEC summit, focused on cutting nuclear arsenals. Washington expects no agreement, and Ukraine will not be on the agenda.",
+      "body": [
+        "The White House's deputy press secretary, Olivia Wales, announced on Friday 13 November that Donald Trump would meet Xi Jinping and Vladimir Putin in Shenzhen on Thursday 19 November, on the sidelines of the APEC summit, to discuss reducing nuclear weapons worldwide, Al Jazeera reports.",
+        "The New START treaty, which capped the Russian and American arsenals, expired in February after Mr Trump declined a one-year extension in order to demand a new deal that includes China, which argues that Washington and Moscow, with far bigger stockpiles, should negotiate between themselves.",
+        "A senior American official warns that no agreement is expected and speaks of the start of a conversation, with the president due to raise the war with Iran but not Ukraine, while Volodymyr Zelensky fears a repeat of the Yalta conference and a carve-up into spheres of influence."
+      ],
+      "figure": {
+        "value": "9 months",
+        "label": "since the Russian-American New START treaty expired in February",
+        "compare": "leaving the two biggest arsenals uncapped for the first time in more than 50 years"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "CHN",
+            "RUS"
+          ],
+          "host": "CHN",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "To open a discussion on cutting nuclear weapons and see China “step up”, without expecting an agreement in Shenzhen."
+            },
+            {
+              "who": "Beijing",
+              "wants": "To let America and Russia, whose stockpiles are far larger, negotiate directly with each other, China having so far refused to put its own programme on the table."
+            },
+            {
+              "who": "Kyiv",
+              "wants": "To avoid a Yalta-style “division of spheres of influence”, according to Volodymyr Zelensky, who fears a deal struck without Ukraine."
+            }
+          ],
+          "next": {
+            "d": "2026-11-19",
+            "t": "Three-way summit in Shenzhen, after a working lunch between Donald Trump and Xi Jinping."
+          },
+          "source": {
+            "name": "Dawn",
+            "url": "https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin"
+          }
+        }
+      },
+      "analysis": {
+        "title": "China, outside the arms-control treaties",
+        "text": "For half a century nuclear arms control rested on a dialogue between Washington and Moscow, which hold most of the planet's warheads; China, the third nuclear power according to the Stockholm International Peace Research Institute, has never accepted numerical limits. By letting New START lapse without an extension, Donald Trump made Beijing's inclusion a condition of any new treaty. The three-way format in Shenzhen is therefore above all a diplomatic gamble: an attempt to bring China to a table it has always avoided, on its own soil and during a summit it wanted to devote to trade. America's insistence on nuclear weapons has irritated Beijing, according to Dawn, a Pakistani daily."
+      },
+      "keys": [
+        {
+          "title": "The itinerary",
+          "text": "Donald Trump leaves on Monday for Manila, which hosts an ASEAN summit and a meeting of Quad leaders, before flying to Shenzhen on Wednesday. He will lunch with Xi Jinping on Thursday, but no one-to-one meeting with Vladimir Putin is planned."
+        },
+        {
+          "title": "The Kremlin's response",
+          "text": "The Kremlin's spokesman, Dmitry Peskov, called the meeting “extremely important” and rejected the comparison with Yalta. Agreements reached in Shenzhen could not, in his view, be imposed on other countries."
+        }
+      ],
+      "involved": [
+        "USA",
+        "RUS"
+      ],
+      "zones": [
+        {
+          "id": "SHENZHEN",
+          "name": "Shenzhen",
+          "coords": [
+            114.06,
+            22.54
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02",
+          "t": "New START, the last treaty limiting the Russian and American arsenals, expires."
+        },
+        {
+          "d": "2026-09-24",
+          "t": "Xi Jinping visits Washington."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "The White House confirms the three-way summit in Shenzhen."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "Donald Trump begins his Asian tour in Manila."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "Trump, Xi and Putin meet in Shenzhen, on the sidelines of APEC."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AP et Reuters",
+          "name_en": "Al Jazeera, with AP and Reuters",
+          "title": "Trump, Xi and Putin to hold first three-way summit in China",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Dawn",
+          "title": "Trump to broach nuclear cuts with Xi, Putin",
+          "url": "https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "trump-xi-putin-summit",
+        "title": "The Trump-Xi-Putin summit"
+      },
+      "slug": "trump-xi-putin-meet-shenzhen-thursday-first-three"
+    },
+    {
+      "rank": 3,
       "id": "IRN",
       "place": "Iran",
       "section": "Middle East",
@@ -163,17 +280,17 @@
         "diplomacy",
         "economy"
       ],
-      "title": "Qatar seals a defence pact with Turkey as Israel debates a strike on Iran",
-      "standfirst": "Doha and Ankara pledged on Friday to stand together against any armed attack on either of them, a sign of waning faith in America's guarantees in the Gulf. In Israel, Benjamin Netanyahu's caretaker government is preparing a fresh offensive against Iran, without open backing from the army or Washington.",
+      "title": "Netanyahu invokes the Iranian threat to demand a unity government as Washington bets on pressure",
+      "standfirst": "Israel's outgoing prime minister is urging Gadi Eisenkot to form a unity government with him capable of “eliminating” the Iranian threat, an offer his rival promptly rejected. American intelligence reckons Tehran still has thousands of missiles, while Washington sees no need for a fresh offensive.",
       "body": [
-        "In Istanbul on Friday 13 November, Turkey's president, Recep Tayyip Erdogan, and the emir of Qatar, Sheikh Tamim bin Hamad Al Thani, signed a mutual-defence agreement under which the two countries promise a common stance against any external armed attack, Al Jazeera reports.",
-        "Gulf monarchies believe America's security guarantees no longer work, according to a Turkish analyst quoted by the channel, as the Revolutionary Guards' navy says an LNG tanker struck a mine in Hormuz and America's military command says it shot down two Iranian drones heading for Bahrain.",
-        "In Israel, the security cabinet chaired by the outgoing prime minister, Benjamin Netanyahu, has ordered faster preparations for an attack on Iran, according to Israeli media, though the general staff sees no urgency and Gadi Eisenkot, who is tasked with forming the next government, fears “devastating” consequences."
+        "In a video statement released on Saturday 14 November, Israel's outgoing prime minister, Benjamin Netanyahu, called on Gadi Eisenkot, who has been asked to form the next government, to join him in a national-unity government to remove the Iranian threat “once and for all”, an offer Mr Eisenkot dismissed within minutes, Al Jazeera reports.",
+        "The head of Mossad, Roman Gofman, met the CIA's director, John Ratcliffe, in Washington to seek American backing for new strikes, according to Haaretz, just as the Wall Street Journal, citing American intelligence, estimated that Iran retains between 1,500 and 2,500 missiles despite the bombing.",
+        "America's secretary of state, Marco Rubio, has nonetheless said fresh military action is unnecessary because the economic pressure on Tehran is considerable, while the Knesset elects its speaker on Tuesday and Mr Eisenkot has 28 days, extendable by 14, to form a coalition."
       ],
       "figure": {
-        "value": "$92.14",
-        "label": "a barrel of Brent crude on 11 November, according to the EIA",
-        "compare": "against $90.16 the day before"
+        "value": "1,500–2,500",
+        "label": "missiles Iran may retain, according to American intelligence cited by the WSJ",
+        "compare": "an estimate its authors consider uncertain"
       },
       "since": {
         "date": "2026-02-28",
@@ -182,25 +299,27 @@
       "modules": {
         "table": {
           "ids": [
-            "QAT",
-            "TUR",
+            "ISR",
             "IRN",
             "USA"
           ],
-          "host": "TUR",
           "positions": [
             {
-              "who": "Ankara",
-              "wants": "To keep working with Doha to prevent a return to war in the Gulf, according to Recep Tayyip Erdogan."
+              "who": "Benjamin Netanyahu",
+              "wants": "A national-unity government with Gadi Eisenkot, without preconditions, to put an end to the Iranian threat."
             },
             {
-              "who": "Doha",
-              "wants": "A “strategic partnership” with Turkey, according to the emir, who discussed the priorities for joint action."
+              "who": "Gadi Eisenkot",
+              "wants": "A minority “national emergency government”, open to Likud provided it breaks with the supporters of Itamar Ben-Gvir."
             }
           ],
+          "next": {
+            "d": "2026-11-17",
+            "t": "Election of the Knesset's speaker."
+          },
           "source": {
             "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement"
+            "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security"
           }
         },
         "market": {
@@ -213,24 +332,22 @@
         }
       },
       "analysis": {
-        "title": "Can a caretaker government go to war?",
-        "text": "Defeated in October's general election, Benjamin Netanyahu heads a caretaker government until a new majority is formed, which could take months, Al Jazeera notes. Israel's Basic Law leaves an outgoing government its powers, but the Supreme Court imposes a duty of restraint, to which national security is the clearest exception, according to a researcher at the Tachlith institute quoted by Reuters. There is a precedent: in May 2021, already in a caretaker role, Mr Netanyahu launched an 11-day war on Gaza. The bigger obstacle lies in Washington, which says it is betting on economic pressure rather than a large-scale military campaign, and the leader of Yisrael Beiteinu, Avigdor Lieberman, opposes any decision taken without parliamentary oversight."
+        "title": "The bet on economic pressure",
+        "text": "Washington has so far preferred sanctions and a blockade to a new military campaign, and the Gulf monarchies, which fear Iranian retaliation, are encouraging it. The American intelligence estimate complicates that choice: even at its low end, Iran would have rebuilt more than half of its pre-war arsenal, according to a former Pentagon official quoted by Anadolu. Israel's chief worry is a deal between Washington and Tehran that eases the pressure without addressing the nuclear programme or the missiles. Israel's political calendar matters too: defeated in the election of 27 October, Mr Netanyahu heads only a caretaker government, and the general staff sees no imminent threat that would justify resuming the war in the coming weeks, according to KAN, the public broadcaster."
       },
       "keys": [
         {
-          "title": "The IAEA's worries",
-          "text": "In a confidential report, the International Atomic Energy Agency says Iran refuses to discuss monitoring of its programme while it is under military threat, according to AP. The agency is concerned about the enrichment plant at Isfahan, declared in June 2025 but never inspected."
+          "title": "The Knesset arithmetic",
+          "text": "Mr Netanyahu's right-wing and religious bloc won 53 of the 120 seats, Mr Eisenkot's 48, and the Arab parties a record 19. Mr Eisenkot, nominated by 67 members to form the government, is counting on Arab and ultra-Orthodox parties to abstain."
         },
         {
-          "title": "Donald Trump bides his time",
-          "text": "America's president claims “total” control of the Strait of Hormuz despite almost daily attacks on ships. He says he would not hesitate to strike Iran if things went wrong, according to The Times of Israel."
+          "title": "A sceptical rival",
+          "text": "Gadi Eisenkot says Mr Netanyahu “knows he lost the election” and that his appeals do not work on him. He had not been told about the Mossad chief's visit to Washington, according to Israel's Channel 12."
         }
       ],
       "involved": [
-        "USA",
         "ISR",
-        "QAT",
-        "TUR"
+        "USA"
       ],
       "zones": [
         {
@@ -248,492 +365,377 @@
           "t": "War breaks out between America, Israel and Iran."
         },
         {
-          "d": "2026-10",
-          "t": "Benjamin Netanyahu loses his majority in Israel's general election."
-        },
-        {
-          "d": "2026-11-11",
-          "t": "Israel's security cabinet orders faster preparations for an attack, according to Israeli media."
+          "d": "2026-10-27",
+          "t": "Benjamin Netanyahu's bloc loses its majority in Israel's general election."
         },
         {
           "d": "2026-11-12",
-          "t": "Donald Trump calls a deal with Tehran unnecessary and takes his vice-president off the file."
+          "t": "Benjamin Netanyahu and Gadi Eisenkot discuss a possible resumption of strikes on Iran."
         },
         {
-          "d": "2026-11-13",
-          "t": "Iranian drones downed over Bahrain; Qatar and Turkey sign a defence pact."
+          "d": "2026-11-14",
+          "t": "Mr Netanyahu calls for a unity government; Marco Rubio deems a new offensive unnecessary."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "The Knesset elects its speaker."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera, avec AFP et Reuters",
-          "title": "Turkiye and Qatar sign mutual defence agreement",
-          "url": "https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement",
-          "date": "2026-11-13",
-          "name_en": "Al Jazeera, with AFP and Reuters"
+          "name": "Al Jazeera, avec AFP",
+          "name_en": "Al Jazeera, with AFP",
+          "title": "Netanyahu says only a unity government can guarantee Israel's security",
+          "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security",
+          "date": "2026-11-14"
         },
         {
-          "name": "Al Jazeera",
-          "title": "Can Netanyahu launch a strike on Iran before he leaves?",
-          "url": "https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves",
-          "date": "2026-11-13"
+          "name": "Anadolu",
+          "title": "Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media",
+          "url": "https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Anadolu, d'après le Wall Street Journal",
+          "name_en": "Anadolu, citing the Wall Street Journal",
+          "title": "US intel estimates Iran retains up to 2,500 missiles despite war damage: Report",
+          "url": "https://www.aa.com.tr/en/americas/us-intel-estimates-iran-retains-up-to-2-500-missiles-despite-war-damage-report/4125478",
+          "date": "2026-11-15"
         },
         {
           "name": "The Times of Israel",
-          "title": "Liveblog, November 13, 2026",
-          "url": "https://www.timesofisrael.com/liveblog-november-13-2026/",
-          "date": "2026-11-13"
-        },
-        {
-          "name": "Just Security",
-          "title": "Early Edition: November 13, 2026",
-          "url": "https://www.justsecurity.org/164357/early-edition-november-13-2026/",
-          "date": "2026-11-13"
+          "title": "Liveblog, November 14, 2026",
+          "url": "https://www.timesofisrael.com/liveblog-november-14-2026/",
+          "date": "2026-11-14"
         }
       ],
       "dossier": {
         "id": "iran-war",
         "title": "The Iran war"
       },
-      "slug": "qatar-seals-defence-pact-turkey-israel-debates-strike"
+      "slug": "netanyahu-invokes-iranian-threat-demand-unity-government-washington"
     },
     {
-      "rank": 3,
+      "rank": 4,
       "id": "USA",
       "place": "United States",
       "section": "Americas",
       "radar": false,
       "types": [
-        "society",
-        "economy"
+        "society"
       ],
-      "title": "A telecoms failure grounds every flight in America for more than four hours",
-      "standfirst": "The Federal Aviation Administration halted all take-offs nationwide on Friday after an outage hit air-traffic control centres. Thousands of flights were cancelled, and a return to normal could take several days.",
+      "title": "America loses its measles-elimination status after a string of outbreaks",
+      "standfirst": "The Pan American Health Organisation has concluded that the virus is once again circulating continuously in America, a quarter of a century after it was eliminated. Experts blame falling childhood vaccination, while the administration blames its predecessors.",
       "body": [
-        "At 3.54pm New York time on Friday 13 November, the Federal Aviation Administration (FAA) halted all departures nationwide, citing “extraordinary circumstances”, after a telecoms failure hit the en-route centres that control aircraft at altitude, Al Jazeera reports.",
-        "According to the transport secretary, Sean Duffy, switches and routers overloaded with data gave way, without a total loss of communications or radar, and the homeland-security secretary, Markwayne Mullin, ruled out a cyber-attack.",
-        "Airspace reopened at 8.15pm after more than four hours, but more than 4,700 flights were cancelled on Friday, according to FlightRadar24, and Mr Duffy, who wants $50bn to modernise air-traffic control, promises a return to normal before Thanksgiving."
+        "The Pan American Health Organisation (PAHO), the WHO's regional arm, concluded this week that measles transmission had become established again in America, which thus loses its status as a country that has eliminated the disease, according to researchers quoted by KFF Health News, with an official announcement due on 17 November.",
+        "Elimination requires every outbreak to die out within a year, which has no longer been the case since a cluster in Utah crossed that threshold in June, following the west Texas outbreak that infected more than 4,500 people in America and Mexico in 2025.",
+        "Robert F. Kennedy Jr's health department attributes the situation to vaccination gaps that predate the current administration, while former officials at the Centers for Disease Control and Prevention say regaining elimination status is a distant prospect until the current outbreaks are contained."
       ],
       "figure": {
-        "value": "4,700",
-        "label": "flights cancelled in America on Friday, according to FlightRadar24",
-        "compare": "with another 10,000 delayed"
+        "value": "5,400",
+        "label": "measles cases reported in America in 2026, according to Anadolu",
+        "compare": "more than 8,000 infections and 830 hospitalisations in two years"
       },
       "modules": {
         "actors": {
           "items": [
             {
-              "name": "Sean Duffy",
-              "role": "Transport secretary, who is seeking $50bn to modernise air-traffic control"
+              "name": "PAHO",
+              "role": "Pan American Health Organisation, which based its finding on an analysis by the CDC and by independent experts"
             },
             {
-              "name": "Markwayne Mullin",
-              "role": "Homeland-security secretary, who rules out a cyber-attack"
+              "name": "Emily Hilliard",
+              "role": "Health department spokeswoman, who blames vaccination gaps on the years before the current administration"
             },
             {
-              "name": "FAA",
-              "role": "Federal Aviation Administration, which ordered the nationwide halt to departures"
+              "name": "Anne Schuchat",
+              "role": "Former principal deputy director of the CDC, who speaks of a “very sad” moment"
             },
             {
-              "name": "Cirium",
-              "role": "Aviation-data firm, which counted at least 827 diverted flights"
+              "name": "Patsy Stinchfield",
+              "role": "Head of the Measles Collaborative, who accuses the federal government of no longer treating measles as a preventable tragedy"
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+            "name": "KFF Health News, via NPR",
+            "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say"
           }
         },
         "dates": {
           "items": [
             {
-              "d": "2026-11-13",
-              "t": "3.54pm (New York time): all departures halted."
+              "d": "2025-01",
+              "t": "The west Texas outbreak begins, the largest since 1992."
             },
             {
-              "d": "2026-11-13",
-              "t": "8.15pm: airspace reopens."
+              "d": "2026-06",
+              "t": "A cluster in Utah passes a year of continuous transmission."
             },
             {
-              "d": "2026-11-26",
-              "t": "Thanksgiving, the peak of the air-travel season."
+              "d": "2026-11-17",
+              "t": "PAHO's official announcement is due."
             }
           ],
           "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next"
+            "name": "KFF Health News, via NPR",
+            "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say"
           }
         }
       },
       "analysis": {
-        "title": "Air-traffic control at breaking point",
-        "text": "This is only the third time since the attacks of 11 September 2001 that all departures have been suspended nationwide, the previous occasion being an FAA outage in 2023, Al Jazeera notes. The failures appear to have been concentrated in the 21 en-route centres that handle high-altitude flights, according to the expert Todd Curtis, and an aviation-safety specialist is surprised that backup systems did not take over. According to Cirium, some 11,000 flights carrying more than 1.5m passengers were still due to depart after 4pm, and at least 827 aircraft already in the air were diverted, 670 of them back to their airport of departure."
+        "title": "What losing the status means",
+        "text": "Elimination status does not mean the absence of cases, but the absence of continuous transmission for more than a year: infections imported from abroad then fizzle out on their own thanks to sufficient vaccination coverage. Losing it therefore reflects the virus taking hold in under-vaccinated communities, whose share has been growing since the covid-19 pandemic, according to CDC data. To regain the status, America will have to extinguish the current outbreaks and then prevent any new chain of transmission for a year. Experts quoted by KFF Health News also point to cuts in states' vaccination grants and to delays in publishing CDC reports, which staff attribute to political appointees, a claim the health department disputes."
       },
       "keys": [
         {
-          "title": "No cyber-attack",
-          "text": "Markwayne Mullin insisted that “everyone is safe” and that the incident bore no resemblance to another 9/11. The authorities blame overloaded network equipment, not an intrusion."
+          "title": "The human toll",
+          "text": "States have reported thirteen measles-related deaths in recent months, including a seven-month-old baby in New York. The Texas outbreak killed at least sixteen people in the two countries."
         },
         {
-          "title": "Days to catch up",
-          "text": "Some 700 flights had already been cancelled for Saturday, according to FlightRadar24. The recovery depends on crew availability, and analysts expect it to take several days to restore schedules."
+          "title": "Washington's response",
+          "text": "The health department says it has released some $100m in additional funds to fight outbreaks. The White House insists that the president and the health secretary have repeatedly encouraged vaccination."
+        }
+      ],
+      "involved": [
+        "MEX"
+      ],
+      "context": [
+        {
+          "d": "2025-01",
+          "t": "The west Texas outbreak spreads to Mexico and to at least three other states."
+        },
+        {
+          "d": "2026-06",
+          "t": "A cluster in Utah passes a year of transmission."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "The American press reports the loss of elimination status."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "PAHO's official announcement is expected."
+        }
+      ],
+      "sources": [
+        {
+          "name": "KFF Health News, via NPR",
+          "title": "US has lost measles elimination status, global health authorities say",
+          "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "CNN",
+          "title": "Measles: After 26 years, the US has lost its elimination status",
+          "url": "https://www.cnn.com/2026/11/13/health/us-measles-elimination-status",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "us-measles",
+        "title": "The return of measles in America"
+      },
+      "slug": "america-loses-measles-elimination-status-after-string-outbreaks"
+    },
+    {
+      "rank": 5,
+      "id": "NGA",
+      "place": "Nigeria",
+      "section": "Africa",
+      "radar": true,
+      "types": [
+        "disaster",
+        "society"
+      ],
+      "title": "In Nigeria, diphtheria has killed more than 1,100 people this year and antitoxin is running out",
+      "standfirst": "The worst diphtheria epidemic on record in the country has caused more than 28,000 confirmed cases, mostly among poorly vaccinated children. Médecins Sans Frontières warns that its stocks of the only effective treatment are “dangerously low”.",
+      "body": [
+        "Médecins Sans Frontières warned on Friday 13 November that its stocks of diphtheria antitoxin were almost exhausted in northern Nigeria, where its teams are already rationing treatment, as the country has recorded 28,151 confirmed cases and 1,126 deaths since January, according to health authorities quoted by Premium Times.",
+        "The epidemic, which emerged in late 2022, mainly strikes unvaccinated or under-vaccinated children in 26 states and the Federal Capital Territory, with Kano state alone accounting for 43% of confirmed cases, while global production of antitoxin remains limited and erratic.",
+        "The charity is calling for higher global production, faster customs clearance for medicines and sustained investment in routine immunisation, as a new outbreak is reported at a boarding school of more than 2,000 pupils in Kano state, according to Anadolu."
+      ],
+      "figure": {
+        "value": "1,126",
+        "label": "diphtheria deaths in Nigeria in 2026, as of 7 November",
+        "compare": "out of 28,151 confirmed and 37,529 suspected cases"
+      },
+      "since": {
+        "date": "2022-12",
+        "label": "since the epidemic began"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "1,126",
+              "label": "deaths in 2026",
+              "by": "the Nigeria Centre for Disease Control (NCDC), cited by the Red Cross",
+              "date": "2026-11-07"
+            },
+            {
+              "value": "28,151",
+              "label": "confirmed cases",
+              "by": "NCDC",
+              "date": "2026-11-07"
+            },
+            {
+              "value": "12,008",
+              "label": "confirmed cases in Kano state",
+              "by": "NCDC",
+              "date": "2026-11-07"
+            }
+          ],
+          "source": {
+            "name": "Premium Times",
+            "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Kano",
+              "coords": [
+                8.52,
+                12
+              ],
+              "note": "The worst-hit state, with about 43% of the country's confirmed cases."
+            },
+            {
+              "name": "Katsina",
+              "coords": [
+                7.6,
+                12.99
+              ],
+              "note": "MSF treated 86 patients there in two weeks, 70 of them severe cases."
+            },
+            {
+              "name": "Gusau",
+              "coords": [
+                6.66,
+                12.17
+              ],
+              "note": "Capital of Zamfara state: more than 671 admissions in a month at MSF-supported facilities."
+            },
+            {
+              "name": "Sokoto",
+              "coords": [
+                5.24,
+                13.06
+              ],
+              "note": "Two vaccination campaigns there reached 49,018 children under 15."
+            }
+          ],
+          "source": {
+            "name": "Premium Times",
+            "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html"
+          }
+        },
+        "help": {
+          "orgs": [
+            "msf",
+            "ifrc",
+            "unicef"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A preventable disease, a scarce cure",
+        "text": "Diphtheria is prevented by a vaccine given in three childhood doses, yet about 93% of children caught up in the recent outbreaks had not received all the recommended doses, according to Muyi Aina, head of Nigeria's primary health-care agency, who blames misinformation and vaccine distrust. Once the disease takes hold, antitoxin, made from horse plasma, must be given early, because it cannot repair damage the toxin has already done, the WHO notes. Its manufacture is unprofitable and carried out by a handful of laboratories worldwide, which explains recurring shortages. In Zamfara state, only 25,000 of the 90,000 vaccine doses needed for an emergency campaign have been delivered."
+      },
+      "keys": [
+        {
+          "title": "Children on the front line",
+          "text": "In Gusau most hospitalised patients are children, four in five of whom had never been vaccinated, according to MSF. The charity says it has treated more than 9,000 diphtheria patients since the start of the year."
+        },
+        {
+          "title": "An overwhelmed public response",
+          "text": "In August the federal government set up an emergency task force for Katsina and Kano states, whose federal teaching hospital was overwhelmed. MSF has not confirmed that the treatment annexes announced are operating."
         }
       ],
       "involved": [],
       "context": [
         {
-          "d": "2001-09-11",
-          "t": "After the attacks, all flights over America are grounded for the first time."
+          "d": "2022-12",
+          "t": "A diphtheria epidemic breaks out in northern Nigeria."
         },
         {
-          "d": "2023-01-11",
-          "t": "An FAA computer failure triggers a nationwide halt to departures."
+          "d": "2026-08",
+          "t": "Abuja sets up an emergency task force for Katsina and Kano states."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "The year's death toll passes 1,100, according to the NCDC."
         },
         {
           "d": "2026-11-13",
-          "t": "A telecoms failure in air-traffic control halts the country's flights for more than four hours."
-        },
-        {
-          "d": "2026-11-26",
-          "t": "Thanksgiving, one of the busiest weekends of the year at airports."
+          "t": "MSF warns that its antitoxin stocks are running out."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "FAA ground stop lifted: Why were US flights grounded, and what's next?",
-          "url": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next",
+          "name": "Premium Times",
+          "title": "Diphtheria: MSF warns of treatment shortages as Nigeria records over 1,100 deaths",
+          "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html",
           "date": "2026-11-14"
         },
         {
-          "name": "Al Jazeera",
-          "title": "US flights resume after FAA lifts hours-long nationwide ground stop",
-          "url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue",
-          "date": "2026-11-13"
-        }
-      ],
-      "slug": "telecoms-failure-grounds-every-flight-america-more-than"
-    },
-    {
-      "rank": 4,
-      "id": "YEM",
-      "place": "Yemen",
-      "section": "Middle East",
-      "radar": false,
-      "types": [
-        "conflict",
-        "economy"
-      ],
-      "title": "The Houthis step up strikes on Saudi Arabia as the UN extends sanctions on Yemen",
-      "standfirst": "Riyadh says it intercepted drones over its capital and Eastern Province on Thursday, while Yemen's rebels claim attacks on oil and military sites. The Security Council has renewed sanctions on Yemen for another year.",
-      "body": [
-        "On Thursday 12 November the spokesman for the Saudi-led coalition, General Turki al-Maliki, announced the interception of drones over the Riyadh region and the Eastern Province, while the Houthis' military spokesman, Yahya Saree, claimed strikes on a pipeline, the port of Yanbu and two military sites, Al Jazeera reports.",
-        "The attacks target the main route around Hormuz, with Riyadh saying it pumps some 4m barrels of crude a day through the East-West pipeline to Yanbu on the Red Sea, while Yemen's government forces have pressed an offensive against the rebels since October.",
-        "On Thursday the Security Council unanimously extended for a year the asset freezes and travel bans targeting Yemen and condemned the Houthis' escalation, while Riyadh is urging the European Union to add them to its list of terrorist organisations, according to Reuters."
-      ],
-      "figure": {
-        "value": "333,000",
-        "label": "people displaced in Yemen since early August, according to OCHA",
-        "compare": "including more than 24,000 last week"
-      },
-      "modules": {
-        "toll": {
-          "items": [
-            {
-              "value": "333,000",
-              "label": "people displaced since early August",
-              "by": "the UN Office for the Coordination of Humanitarian Affairs (OCHA)",
-              "date": "2026-11-12"
-            },
-            {
-              "value": "24,000",
-              "label": "people displaced over the past week",
-              "by": "OCHA",
-              "date": "2026-11-12"
-            }
-          ],
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
-          }
-        },
-        "places": {
-          "items": [
-            {
-              "name": "Yanbu",
-              "coords": [
-                38.06,
-                24.09
-              ],
-              "note": "Saudi oil terminal on the Red Sea, outlet of the East-West pipeline, which the Houthis say they targeted."
-            },
-            {
-              "name": "Khamis Mushait",
-              "coords": [
-                42.73,
-                18.3
-              ],
-              "note": "Saudi air base the Houthis say they hit with a ballistic missile."
-            },
-            {
-              "name": "Sharurah",
-              "coords": [
-                47.12,
-                17.47
-              ],
-              "note": "Saudi airport near the Yemeni border, where a military aircraft was reportedly targeted by a drone."
-            },
-            {
-              "name": "Marib",
-              "coords": [
-                45.32,
-                15.46
-              ],
-              "note": "Yemeni city from which the defence ministry coordinated the “Dawn of Yemen” offensive."
-            }
-          ],
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions"
-          }
-        },
-        "help": {
-          "orgs": [
-            "wfp",
-            "unicef",
-            "unhcr"
-          ]
-        }
-      },
-      "analysis": {
-        "title": "The East-West pipeline, a vital artery",
-        "text": "With the Strait of Hormuz all but closed, the pipeline that crosses Saudi Arabia to the Red Sea has become the main outlet for Saudi crude: the 4m barrels a day that Riyadh sends through it amount to about 4% of global supply, according to Al Jazeera. By targeting it, the Houthis directly threaten the world's oil supply. Yahya Saree did, however, call the Saudi accusation that the rebels had targeted the Mecca region on Wednesday a “grave lie”. Yemen's Saudi-backed defence ministry, for its part, insists that its forces are advancing towards their objectives on every front."
-      },
-      "keys": [
-        {
-          "title": "Beijing's caution",
-          "text": "China's ambassador to the UN, Fu Cong, said that sanctions are “only a means, not an end”. The Council also renewed the mandate of its panel of experts on Yemen."
-        },
-        {
-          "title": "European reluctance",
-          "text": "According to Reuters, European officials fear that listing the Houthis as a terrorist group in the EU could jeopardise a future peace process. The EU's spokesman declined to comment."
-        }
-      ],
-      "involved": [
-        "SAU"
-      ],
-      "context": [
-        {
-          "d": "2026-08",
-          "t": "A new wave of displacement begins, affecting more than 333,000 people, according to OCHA."
-        },
-        {
-          "d": "2026-10-04",
-          "t": "The chairman of the Presidential Leadership Council, Rashad al-Alimi, announces an operation to retake Houthi-held territory."
-        },
-        {
-          "d": "2026-11-08",
-          "t": "An Aramco building is damaged in a missile attack on Riyadh's financial district."
-        },
-        {
-          "d": "2026-11-12",
-          "t": "Fresh drone attacks on Saudi Arabia; the UN extends its sanctions."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera, avec Reuters",
-          "title": "Yemen's Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-          "url": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions",
-          "date": "2026-11-12",
-          "name_en": "Al Jazeera, with Reuters"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Yemen's leader announces military operation to retake Houthi-held territory",
-          "url": "https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory",
-          "date": "2026-10-04"
-        },
-        {
-          "name": "CNN",
-          "title": "Building owned by Saudi oil giant damaged in missile attack on Riyadh's financial district",
-          "url": "https://www.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl",
-          "date": "2026-11-08"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Iran war updates: Qatar, Turkiye ink defence deal; fighting rages in Yemen",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks",
-          "date": "2026-11-13"
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "date": "2026-11-14"
         }
       ],
       "dossier": {
-        "id": "yemen-war",
-        "title": "The war in Yemen"
+        "id": "nigeria-diphtheria",
+        "title": "Diphtheria in Nigeria"
       },
-      "slug": "houthis-step-up-strikes-saudi-arabia-un-extends"
-    },
-    {
-      "rank": 5,
-      "id": "BFA",
-      "place": "Burkina Faso",
-      "section": "Africa",
-      "radar": true,
-      "types": [
-        "conflict",
-        "society"
-      ],
-      "title": "In Burkina Faso, rival jihadists fight each other while the state fails to regain ground",
-      "standfirst": "Since September, Islamic State Sahel and the al-Qaeda-linked JNIM have fought each other with rare ferocity near the Malian border. The junta, which has lost control of vast areas, is meanwhile tightening its crackdown on critics.",
-      "body": [
-        "Since early September, fighting between Jama'at Nusrat al-Islam wal-Muslimin (JNIM), an al-Qaeda affiliate, and Islamic State Sahel has intensified in northern Burkina Faso along the border with Mali, with Islamic State's weekly claiming more than 400 rival fighters killed on 9 October, Al Jazeera reports.",
-        "The rivalry, which dates back to 2019, has already killed more than 2,200 fighters according to ACLED, a conflict monitor, and distracts JNIM from its war on the army, even as the group controls large swathes of the north, centre-north, west and east, according to the International Crisis Group.",
-        "The junta of Captain Ibrahim Traoré, in power since September 2022, this month issued “terrorism” arrest warrants for some twenty people, including a journalist from RFI, while 4.5m people need humanitarian aid in 2026, according to the UN."
-      ],
-      "figure": {
-        "value": "2,200",
-        "label": "fighters killed in clashes between rival jihadists since 2019, according to ACLED",
-        "compare": "in some 320 clashes"
-      },
-      "modules": {
-        "toll": {
-          "items": [
-            {
-              "value": "2,200",
-              "label": "fighters killed in clashes between JNIM and Islamic State since 2019",
-              "by": "ACLED",
-              "date": "2026-11-13"
-            },
-            {
-              "value": "400",
-              "label": "JNIM fighters killed near Ganadaouri, an unverified figure",
-              "by": "Islamic State's weekly, Al-Naba",
-              "date": "2026-10-09"
-            },
-            {
-              "value": "120",
-              "label": "bodies at least counted in photos released by Islamic State",
-              "by": "the regional outlet i-Sahel",
-              "date": "2026-11-01"
-            }
-          ],
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
-          }
-        },
-        "places": {
-          "items": [
-            {
-              "name": "Oudalan province",
-              "coords": [
-                -0.24,
-                14.44
-              ],
-              "note": "Northern province bordering Mali, home to Ganadaouri, scene of the fighting on 9 October; the marker sits at Gorom-Gorom, its capital."
-            }
-          ],
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground"
-          }
-        },
-        "help": {
-          "orgs": [
-            "wfp",
-            "unicef",
-            "unhcr",
-            "icrc"
-          ]
-        }
-      },
-      "analysis": {
-        "title": "A war within a war",
-        "text": "The clashes force JNIM to divert fighters and resources from its campaign against the armies of Mali and Burkina Faso, observes Heni Nsaibia, a researcher at ACLED, but nothing suggests the state will gain a lasting advantage, Al Jazeera notes. The rivalry is now spilling into Niger, in the Tillabéri and Dosso regions, and as far as Kebbi state in Nigeria. JNIM also extended its presence into Togo and Benin in 2025, and in October 2025 claimed its first official attack in Nigeria. In 2025 ACLED recorded more than 10,000 deaths linked to political violence in Burkina Faso, Mali and Niger."
-      },
-      "keys": [
-        {
-          "title": "Unverifiable tolls",
-          "text": "Islamic State Sahel also claims to have killed more than 200 JNIM fighters near Kacham in early September. None of these figures could be independently verified, and JNIM has not commented publicly."
-        },
-        {
-          "title": "Silencing critics",
-          "text": "The warrants target, among others, the RFI journalist Newton Ahmed Barry and a former foreign minister, Djibril Bassolé. Ouagadougou's prosecutor-general added that outlets such as France 24 were in the authorities' sights."
-        }
-      ],
-      "involved": [
-        "MLI",
-        "NER"
-      ],
-      "context": [
-        {
-          "d": "2022-09",
-          "t": "Captain Ibrahim Traoré seizes power in a coup."
-        },
-        {
-          "d": "2026-02",
-          "t": "A JNIM offensive kills more than 120 soldiers and auxiliaries, according to ACLED."
-        },
-        {
-          "d": "2026-09",
-          "t": "Fighting near Kacham; Islamic State claims more than 200 enemy dead."
-        },
-        {
-          "d": "2026-10-09",
-          "t": "Battle of Ganadaouri, in Oudalan, the deadliest claimed so far."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera",
-          "title": "Burkina Faso's rival armed groups turn on each other as state loses ground",
-          "url": "https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground",
-          "date": "2026-11-13"
-        },
-        {
-          "name": "Vanguard",
-          "title": "Burkina issues 'terrorist' warrants for journalists, activists",
-          "url": "https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/",
-          "date": "2026-11-13"
-        }
-      ],
-      "dossier": {
-        "id": "sahel-jihadism",
-        "title": "Jihadism in the Sahel"
-      },
-      "slug": "burkina-faso-rival-jihadists-fight-each-other-while"
+      "slug": "nigeria-diphtheria-has-killed-more-than-1-100"
     }
   ],
   "brief": [
     {
-      "id": "GIN",
-      "place": "Guinea",
-      "text": "At least ten people, five of them foreigners, were killed on Wednesday in Balato, in the Siguiri region, in clashes between protesters and security forces enforcing a ban on artisanal gold mining, according to the government.",
-      "url": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining"
+      "id": "FRA",
+      "place": "France",
+      "text": "Some 106,000 people, 24,000 of them in Paris, marched on Saturday against the rising cost of living at the call of the “yellow vests” and youth movements, according to the interior ministry, fewer than the week before.",
+      "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
     },
     {
-      "id": "PAK",
-      "place": "Pakistan",
-      "text": "Pakistan's army says it killed 74 militants in ten days of raids in Khyber Pakhtunkhwa and Balochistan, provinces bordering Afghanistan, which it accuses of backing them.",
-      "url": "https://apnews.com/article/pakistan-military-militants-71c4b95a908b89e25a2c45408b150489"
+      "id": "POL",
+      "place": "Poland",
+      "text": "President Karol Nawrocki has vetoed for a second time the law implementing the EU's Digital Services Act, arguing it would give too much control over online speech, drawing criticism from Donald Tusk.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
     },
     {
-      "id": "PSE",
-      "place": "Gaza",
-      "text": "A nine-month-old baby died of hypothermia at Nasser hospital, the winter's first cold-related death according to health officials, after rain flooded the family's tent.",
-      "url": "https://morningstaronline.co.uk/article/world-brief-57"
+      "id": "AFG",
+      "place": "Afghanistan",
+      "text": "Judges at the International Criminal Court have closed the original investigation into Afghanistan, which also covered American soldiers, while the inquiry into crimes attributed to the Taliban since August 2021 continues separately.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
     },
     {
-      "id": "NLD",
-      "place": "Netherlands",
-      "text": "The prime minister, Rob Jetten, called a crisis meeting with his two coalition partners on Friday, after the liberal VVD accused his party of voting for opposition tax amendments.",
-      "url": "https://morningstaronline.co.uk/article/world-brief-57"
+      "id": "NZL",
+      "place": "New Zealand",
+      "text": "A global Microsoft outage, which the company blamed on a network upgrade, halted the processing of New Zealand visas and knocked out email at Japan's government.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
     }
   ],
   "agenda": [
     {
-      "d": "2026-11-18",
-      "t": "APEC summit in Shenzhen."
+      "d": "2026-11-16",
+      "t": "Donald Trump in Manila for an ASEAN summit and a Quad meeting."
+    },
+    {
+      "d": "2026-11-17",
+      "t": "Israel's Knesset elects its speaker."
+    },
+    {
+      "d": "2026-11-19",
+      "t": "Trump, Xi and Putin meet in Shenzhen, on the sidelines of the APEC summit."
     },
     {
       "d": "2026-11-20",
@@ -746,10 +748,6 @@
     {
       "d": "2026-11-29",
       "t": "Snap general election in Spain."
-    },
-    {
-      "d": "2026-12-22",
-      "t": "South Sudan's first general election since independence."
     }
   ],
   "consulted": [
@@ -757,12 +755,15 @@
     "Associated Press",
     "AFP",
     "Al Jazeera",
-    "Al-Monitor",
-    "The Times of Israel",
-    "UNN",
     "CNN",
-    "Just Security",
-    "Morning Star",
-    "Vanguard"
+    "Anadolu",
+    "Kyiv Independent",
+    "Dawn",
+    "The Times of Israel",
+    "Haaretz",
+    "The Wall Street Journal",
+    "KFF Health News",
+    "NPR",
+    "Premium Times"
   ]
 }
