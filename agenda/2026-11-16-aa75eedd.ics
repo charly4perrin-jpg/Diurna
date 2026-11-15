@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-16-aa75eedd@diurna
+DTSTAMP:20261115T055601Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Donald Trump à Manille pour un sommet de l’ASEAN et une réuni
+ on du Quad.
+DESCRIPTION:Diurna — Édition du 15 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/15/
+END:VEVENT
+END:VCALENDAR

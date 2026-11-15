@@ -1,0 +1,765 @@
+{
+  "date": "2026-11-15",
+  "number": 11,
+  "updated": "2026-11-15T06:55:00+01:00",
+  "headline": "Washington lie l'adhésion de l'Ukraine à l'OTAN à un retrait du Donbass",
+  "standfirst": "Volodymyr Zelensky révèle que les négociateurs américains ont, pour la première fois, rattaché l'entrée de l'Ukraine dans l'Alliance à l'abandon du Donbass, qu'il refuse sans garanties et sans référendum. Donald Trump retrouvera Xi Jinping et Vladimir Poutine jeudi à Shenzhen pour parler d'armes nucléaires, Benyamin Nétanyahou invoque la menace iranienne pour réclamer une union nationale, les États-Unis perdent leur statut de pays débarrassé de la rougeole, et au Nigeria la diphtérie a fait plus de 1 100 morts cette année.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "conflict"
+      ],
+      "title": "Washington évoque l'entrée de l'Ukraine dans l'OTAN en échange d'un retrait du Donbass",
+      "standfirst": "Selon Volodymyr Zelensky, les négociateurs américains ont pour la première fois lié l'adhésion de son pays à l'Alliance atlantique à l'abandon des parties du Donbass encore tenues par Kiev. Le président ukrainien refuse toute cession, mais se dit prêt à consulter les Ukrainiens si un ensemble complet de garanties lui est proposé.",
+      "body": [
+        "Dans des déclarations diffusées samedi 14 novembre par ses services, le président ukrainien, Volodymyr Zelensky, a affirmé que les négociateurs américains lui avaient demandé si l'Ukraine se retirerait du Donbass en échange d'une adhésion à l'OTAN, la première fois selon lui que l'Alliance est liée à des concessions territoriales, rapporte Al Jazeera.",
+        "Les zones évoquées sont celles que la Russie ne contrôle pas, et M. Zelensky a refusé de les céder, tout en se disant prêt à soumettre la question à référendum si les États-Unis et leurs alliés offraient des garanties de sécurité, une armée financée et un plan de reconstruction, alors que Vladimir Poutine tient l'adhésion de l'Ukraine pour une ligne rouge.",
+        "Kiev attend désormais des précisions : Washington évoque des garanties proches des articles 4 et 5 du traité de l'Atlantique Nord, mais sans soldats américains sur le sol ukrainien, selon le Kyiv Independent, tandis que les Européens ont désigné cinq pays pour les représenter aux futures négociations."
+      ],
+      "figure": {
+        "value": "1 200",
+        "label": "drones ukrainiens lancés contre la Russie, selon les autorités russes vendredi",
+        "compare": "des infrastructures pétrolières figurant parmi les cibles"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "UKR",
+            "USA",
+            "RUS"
+          ],
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Savoir si l'Ukraine quitterait le Donbass en échange d'une adhésion à l'OTAN, avec des garanties bilatérales comparables à celles dont bénéficie Israël, mais sans troupes américaines."
+            },
+            {
+              "who": "Kiev",
+              "wants": "Des garanties de l'OTAN et de l'UE équivalant « au minimum » à l'article 5, une armée forte et un plan de reconstruction financé, avant toute consultation des Ukrainiens."
+            }
+          ],
+          "next": {
+            "d": "2026-11-26",
+            "t": "Conseil européen consacré notamment au financement de l'Ukraine en 2027."
+          },
+          "source": {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Un tabou levé à Washington",
+        "text": "Depuis 2022, l'adhésion de l'Ukraine à l'OTAN est le point sur lequel Moscou ne transige pas, et Washington l'avait tenue à l'écart des discussions. Rattacher cette perspective à un retrait du Donbass revient à proposer à Kiev d'échanger un territoire contre une protection, une équation que M. Zelensky ne rejette pas en bloc mais qu'il subordonne à des engagements précis. Il exclut toutefois la neutralité, qui supposerait de modifier la Constitution, et refuse que l'arrangement reconnaisse comme russes les territoires occupés. Reste à savoir si l'offre américaine engage les autres alliés, dont l'unanimité est requise pour toute adhésion, et si le Kremlin accepterait une Ukraine dans l'Alliance, même amputée. M. Zelensky dit lui-même attendre « des détails » qu'il n'a pas encore."
+      },
+      "keys": [
+        {
+          "title": "Les pourparlers d'Abou Dhabi",
+          "text": "Des représentants ukrainiens et russes ont négocié les 10 et 11 novembre à Abou Dhabi sous médiation américaine, sans percée majeure. Un échange de prisonniers portant sur plus de 1 000 personnes y a été convenu, selon Reuters."
+        },
+        {
+          "title": "La trêve proposée à Kostiantynivka",
+          "text": "Vladimir Poutine a suggéré un cessez-le-feu humanitaire local dans cette ville du Donbass, ce qui traduit selon M. Zelensky l'incapacité de l'armée russe à la prendre. Le président ukrainien affirme en outre que le chef du Kremlin ne soutient pas une trêve sur les frappes énergétiques."
+        },
+        {
+          "title": "L'Europe à la table",
+          "text": "Les émissaires américains Steve Witkoff et Jared Kushner ont assuré à M. Zelensky, jeudi en Irlande, que toutes les parties acceptaient une place pour l'Europe. Celle-ci sera représentée par les institutions de l'UE et par le Royaume-Uni, la France, l'Allemagne, l'Italie et la Pologne."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Invasion de l'Ukraine à grande échelle par la Russie."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Fin de deux jours de pourparlers russo-ukrainiens à Abou Dhabi, sous médiation américaine."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "À Dublin, les Européens désignent cinq pays pour les représenter aux négociations."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Volodymyr Zelensky révèle la proposition américaine liant OTAN et retrait du Donbass."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "Conseil européen consacré notamment au financement de l'Ukraine."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec Reuters et AP",
+          "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Kyiv Independent",
+          "title": "US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says",
+          "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Reuters, via ABC",
+          "title": "US has raised idea of NATO membership for Ukraine, Volodymyr Zelenskyy says",
+          "url": "https://home.nzcity.co.nz/news/article.aspx?id=458008",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "CNN",
+          "title": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
+          "url": "https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "washington-evoque-entree-ukraine-otan-echange-retrait-donbass"
+    },
+    {
+      "rank": 2,
+      "id": "CHN",
+      "place": "Chine",
+      "section": "Asie-Pacifique",
+      "focus": [
+        114.06,
+        22.54
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy"
+      ],
+      "title": "Trump, Xi et Poutine se retrouveront jeudi à Shenzhen pour un premier sommet à trois sur le nucléaire",
+      "standfirst": "La Maison Blanche a confirmé une rencontre inédite entre les présidents américain, chinois et russe en marge du sommet de l'APEC, centrée sur la réduction des arsenaux nucléaires. Washington n'en attend aucun accord, et l'Ukraine ne sera pas à l'ordre du jour.",
+      "body": [
+        "La porte-parole adjointe de la Maison Blanche, Olivia Wales, a annoncé vendredi 13 novembre que Donald Trump rencontrerait Xi Jinping et Vladimir Poutine jeudi 19 novembre à Shenzhen, en marge du sommet de l'APEC, et qu'il y évoquerait la réduction des armes nucléaires dans le monde, rapporte Al Jazeera.",
+        "Le traité New START, qui plafonnait les arsenaux russe et américain, a expiré en février, Donald Trump ayant refusé une prolongation d'un an pour exiger un nouvel accord incluant la Chine, laquelle juge plus approprié que Washington et Moscou, mieux dotés, négocient entre eux.",
+        "Un haut responsable américain prévient qu'aucun accord n'est attendu et parle d'un début de conversation, le président américain devant aborder la guerre avec l'Iran mais pas l'Ukraine, alors que Volodymyr Zelensky redoute une réédition de la conférence de Yalta et un partage de sphères d'influence."
+      ],
+      "figure": {
+        "value": "9 mois",
+        "label": "depuis l'expiration du traité russo-américain New START, en février",
+        "compare": "les deux premiers arsenaux sans plafond pour la première fois depuis plus de 50 ans"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "USA",
+            "CHN",
+            "RUS"
+          ],
+          "host": "CHN",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "Ouvrir une discussion sur la réduction des armes nucléaires et voir la Chine « prendre ses responsabilités », sans attendre d'accord dès Shenzhen."
+            },
+            {
+              "who": "Pékin",
+              "wants": "Laisser les États-Unis et la Russie, dont les stocks sont bien plus importants, négocier directement entre eux, la Chine refusant jusqu'ici d'ouvrir son programme à la discussion."
+            },
+            {
+              "who": "Kiev",
+              "wants": "Éviter un « partage des sphères d'influence » à la manière de Yalta, selon Volodymyr Zelensky, qui redoute un accord conclu sans l'Ukraine."
+            }
+          ],
+          "next": {
+            "d": "2026-11-19",
+            "t": "Sommet à trois à Shenzhen, après un déjeuner de travail entre Donald Trump et Xi Jinping."
+          },
+          "source": {
+            "name": "Dawn",
+            "url": "https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin"
+          }
+        }
+      },
+      "analysis": {
+        "title": "La Chine, absente des traités de désarmement",
+        "text": "Le contrôle des armements nucléaires s'est construit pendant un demi-siècle sur un tête-à-tête entre Washington et Moscou, qui détiennent l'essentiel des ogives de la planète ; la Chine, troisième puissance selon l'institut suédois SIPRI, n'a jamais accepté de limites chiffrées. En laissant expirer New START sans le prolonger, Donald Trump a fait de l'inclusion de Pékin une condition de tout nouveau traité. Le format à trois de Shenzhen est donc d'abord un pari diplomatique : il s'agit d'amener la Chine à une table qu'elle a toujours évitée, sur son propre sol et pendant un sommet qu'elle voulait consacrer au commerce. L'insistance américaine sur le nucléaire a d'ailleurs irrité Pékin, selon le quotidien pakistanais Dawn."
+      },
+      "keys": [
+        {
+          "title": "Le calendrier de la tournée",
+          "text": "Donald Trump part lundi pour Manille, où se tiennent un sommet de l'ASEAN et une réunion des dirigeants du Quad, avant de rejoindre Shenzhen mercredi. Il déjeunera avec Xi Jinping jeudi, mais aucun tête-à-tête n'est prévu avec Vladimir Poutine."
+        },
+        {
+          "title": "La réponse du Kremlin",
+          "text": "Le porte-parole du Kremlin, Dmitri Peskov, a jugé la rencontre « extrêmement importante » et récusé la comparaison avec Yalta. Les accords conclus à Shenzhen ne sauraient selon lui être imposés à d'autres pays."
+        }
+      ],
+      "involved": [
+        "USA",
+        "RUS"
+      ],
+      "zones": [
+        {
+          "id": "SHENZHEN",
+          "name": "Shenzhen",
+          "coords": [
+            114.06,
+            22.54
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02",
+          "t": "Expiration du traité New START, dernier accord limitant les arsenaux russe et américain."
+        },
+        {
+          "d": "2026-09-24",
+          "t": "Xi Jinping en visite à Washington."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "La Maison Blanche confirme le sommet à trois de Shenzhen."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "Donald Trump entame sa tournée asiatique à Manille."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "Rencontre Trump-Xi-Poutine à Shenzhen, en marge de l'APEC."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AP et Reuters",
+          "title": "Trump, Xi and Putin to hold first three-way summit in China",
+          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Dawn",
+          "title": "Trump to broach nuclear cuts with Xi, Putin",
+          "url": "https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "sommet-trump-xi-poutine",
+        "title": "Le sommet Trump-Xi-Poutine"
+      },
+      "slug": "trump-xi-poutine-retrouveront-jeudi-shenzhen-premier-sommet"
+    },
+    {
+      "rank": 3,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Moyen-Orient",
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "Nétanyahou invoque la menace iranienne pour réclamer une union nationale, Washington mise sur la pression",
+      "standfirst": "Le premier ministre israélien sortant presse Gadi Eisenkot de former avec lui un gouvernement d'union capable d'« éliminer » la menace iranienne, ce que son rival a aussitôt rejeté. Le renseignement américain estime que Téhéran conserve des milliers de missiles, tandis que Washington juge une nouvelle offensive inutile.",
+      "body": [
+        "Dans une déclaration vidéo diffusée samedi 14 novembre, le premier ministre israélien sortant, Benyamin Nétanyahou, a appelé Gadi Eisenkot, chargé de former le prochain gouvernement, à constituer avec lui une union nationale pour éliminer « une fois pour toutes » la menace iranienne, une offre que l'intéressé a écartée en quelques minutes, rapporte Al Jazeera.",
+        "Le chef du Mossad, Roman Gofman, a rencontré à Washington le directeur de la CIA, John Ratcliffe, afin d'obtenir le soutien américain à de nouvelles frappes, selon Haaretz, au moment où le Wall Street Journal, citant le renseignement américain, estime que l'Iran conserve entre 1 500 et 2 500 missiles malgré les bombardements.",
+        "Le secrétaire d'État américain, Marco Rubio, a pourtant jugé une nouvelle action militaire inutile, la pression économique sur Téhéran étant selon lui considérable, alors que la Knesset doit élire mardi son président et que M. Eisenkot dispose de 28 jours, prolongeables de 14, pour former une coalition."
+      ],
+      "figure": {
+        "value": "1 500–2 500",
+        "label": "missiles que conserverait l'Iran, selon le renseignement américain cité par le Wall Street Journal",
+        "compare": "une estimation que ses auteurs jugent peu sûre"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "depuis le début de la guerre"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "ISR",
+            "IRN",
+            "USA"
+          ],
+          "positions": [
+            {
+              "who": "Benyamin Nétanyahou",
+              "wants": "Un gouvernement d'union nationale avec Gadi Eisenkot, sans conditions préalables, pour en finir avec la menace iranienne."
+            },
+            {
+              "who": "Gadi Eisenkot",
+              "wants": "Un « gouvernement d'urgence nationale » minoritaire, ouvert au Likoud à condition de rompre avec les partisans d'Itamar Ben-Gvir."
+            }
+          ],
+          "next": {
+            "d": "2026-11-17",
+            "t": "Élection du président de la Knesset."
+          },
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Le pari de la pression économique",
+        "text": "Washington a choisi jusqu'ici les sanctions et le blocus plutôt qu'une nouvelle campagne militaire, et les monarchies du Golfe, qui redoutent des représailles iraniennes, l'y encouragent. L'estimation du renseignement américain complique ce choix : même dans son hypothèse basse, l'Iran aurait reconstitué plus de la moitié de son arsenal d'avant-guerre, selon une ancienne responsable du Pentagone citée par l'agence Anadolu. Israël redoute surtout un accord entre Washington et Téhéran qui allégerait la pression sans traiter le programme nucléaire ni les missiles. Le calendrier politique israélien pèse aussi : battu aux législatives du 27 octobre, M. Nétanyahou ne gère que les affaires courantes, et l'état-major ne voit pas de menace imminente justifiant une reprise de la guerre dans les prochaines semaines, selon la radio publique KAN."
+      },
+      "keys": [
+        {
+          "title": "L'arithmétique de la Knesset",
+          "text": "Le bloc de droite et religieux de M. Nétanyahou a obtenu 53 des 120 sièges, celui de M. Eisenkot 48, et les partis arabes un record de 19. M. Eisenkot, soutenu par 67 députés pour former le gouvernement, compte sur l'abstention des partis arabes et ultraorthodoxes."
+        },
+        {
+          "title": "Un rival sceptique",
+          "text": "Gadi Eisenkot estime que M. Nétanyahou « sait qu'il a perdu l'élection » et que ses appels ne fonctionnent pas sur lui. Il n'avait pas été informé de la visite du chef du Mossad à Washington, selon la chaîne israélienne Channel 12."
+        }
+      ],
+      "involved": [
+        "ISR",
+        "USA"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Ormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "Début de la guerre entre les États-Unis, Israël et l'Iran."
+        },
+        {
+          "d": "2026-10-27",
+          "t": "Le bloc de Benyamin Nétanyahou perd sa majorité aux législatives israéliennes."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Benyamin Nétanyahou et Gadi Eisenkot évoquent une possible reprise des frappes contre l'Iran."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Appel de M. Nétanyahou à une union nationale ; Marco Rubio juge une nouvelle offensive inutile."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Élection du président de la Knesset."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec AFP",
+          "title": "Netanyahu says only a unity government can guarantee Israel's security",
+          "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media",
+          "url": "https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Anadolu, d'après le Wall Street Journal",
+          "title": "US intel estimates Iran retains up to 2,500 missiles despite war damage: Report",
+          "url": "https://www.aa.com.tr/en/americas/us-intel-estimates-iran-retains-up-to-2-500-missiles-despite-war-damage-report/4125478",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "Liveblog, November 14, 2026",
+          "url": "https://www.timesofisrael.com/liveblog-november-14-2026/",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-iran",
+        "title": "La guerre avec l’Iran"
+      },
+      "slug": "netanyahou-invoque-menace-iranienne-reclamer-union-nationale-washington"
+    },
+    {
+      "rank": 4,
+      "id": "USA",
+      "place": "États-Unis",
+      "section": "Amériques",
+      "radar": false,
+      "types": [
+        "society"
+      ],
+      "title": "Les États-Unis perdent leur statut de pays ayant éliminé la rougeole, après une série d'épidémies",
+      "standfirst": "L'Organisation panaméricaine de la santé a conclu que le virus circule de nouveau durablement sur le territoire américain, un quart de siècle après son élimination. Les spécialistes mettent en cause le recul de la vaccination des enfants, et l'administration rejette la responsabilité sur ses prédécesseurs.",
+      "body": [
+        "L'Organisation panaméricaine de la santé (OPS), bras régional de l'OMS, a conclu cette semaine que la rougeole avait rétabli une transmission régulière aux États-Unis, qui perdent ainsi leur statut de pays ayant éliminé la maladie, selon des chercheurs cités par KFF Health News, l'annonce officielle étant prévue le 17 novembre.",
+        "L'élimination suppose que chaque épidémie s'éteigne en moins d'un an, ce qui n'est plus le cas depuis qu'un foyer apparu dans l'Utah a franchi ce seuil en juin, après l'épidémie de l'ouest du Texas qui avait touché plus de 4 500 personnes aux États-Unis et au Mexique en 2025.",
+        "Le ministère de la santé de Robert F. Kennedy Jr. attribue la situation à des lacunes vaccinales antérieures à l'actuelle administration, tandis que d'anciens responsables des Centres de contrôle des maladies jugent le retour au statut d'élimination lointain, faute d'endiguer d'abord les foyers en cours."
+      ],
+      "figure": {
+        "value": "5 400",
+        "label": "cas de rougeole signalés aux États-Unis en 2026, selon l'agence Anadolu",
+        "compare": "plus de 8 000 malades et 830 hospitalisations en deux ans"
+      },
+      "modules": {
+        "actors": {
+          "items": [
+            {
+              "name": "OPS",
+              "role": "Organisation panaméricaine de la santé, qui a fondé son constat sur une analyse des CDC et sur celle d'experts indépendants"
+            },
+            {
+              "name": "Emily Hilliard",
+              "role": "Porte-parole du ministère de la santé, qui impute les lacunes vaccinales aux années précédant l'administration actuelle"
+            },
+            {
+              "name": "Anne Schuchat",
+              "role": "Ancienne directrice adjointe des CDC, qui parle d'un moment « très triste »"
+            },
+            {
+              "name": "Patsy Stinchfield",
+              "role": "Directrice du Measles Collaborative, qui reproche à l'État fédéral de ne plus traiter la rougeole comme une tragédie évitable"
+            }
+          ],
+          "source": {
+            "name": "KFF Health News, via NPR",
+            "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2025-01",
+              "t": "Début de l'épidémie de l'ouest du Texas, la plus importante depuis 1992."
+            },
+            {
+              "d": "2026-06",
+              "t": "Un foyer de l'Utah dépasse un an de transmission continue."
+            },
+            {
+              "d": "2026-11-17",
+              "t": "Annonce officielle prévue par l'OPS."
+            }
+          ],
+          "source": {
+            "name": "KFF Health News, via NPR",
+            "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Ce que signifie la perte du statut",
+        "text": "Le statut d'élimination ne signifie pas l'absence de cas, mais l'absence de transmission continue pendant plus d'un an : les contaminations importées de l'étranger s'éteignent alors d'elles-mêmes grâce à une couverture vaccinale suffisante. Sa perte traduit donc l'installation du virus dans des communautés insuffisamment vaccinées, dont la proportion augmente depuis la pandémie de Covid-19, selon les données des CDC. Pour retrouver le statut, les États-Unis devront éteindre les foyers actuels puis empêcher toute nouvelle chaîne de transmission pendant un an. Les spécialistes cités par KFF Health News mettent aussi en cause les coupes dans les subventions vaccinales des États et les retards de publication de rapports des CDC, attribués par des agents à des responsables politiques, ce que le ministère conteste."
+      },
+      "keys": [
+        {
+          "title": "Un bilan humain",
+          "text": "Les États ont signalé treize décès liés à la rougeole ces derniers mois, dont celui d'un nourrisson de sept mois à New York. L'épidémie du Texas avait fait au moins seize morts dans les deux pays."
+        },
+        {
+          "title": "La réponse de Washington",
+          "text": "Le ministère de la santé affirme avoir débloqué environ 100 millions de dollars supplémentaires contre les épidémies. La Maison Blanche assure que le président et le ministre ont encouragé à plusieurs reprises la vaccination."
+        }
+      ],
+      "involved": [
+        "MEX"
+      ],
+      "context": [
+        {
+          "d": "2025-01",
+          "t": "Épidémie de l'ouest du Texas, étendue au Mexique et à au moins trois autres États."
+        },
+        {
+          "d": "2026-06",
+          "t": "Un foyer de l'Utah dépasse un an de transmission."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "La perte du statut est rendue publique par la presse américaine."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Annonce officielle de l'OPS attendue."
+        }
+      ],
+      "sources": [
+        {
+          "name": "KFF Health News, via NPR",
+          "title": "US has lost measles elimination status, global health authorities say",
+          "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "CNN",
+          "title": "Measles: After 26 years, the US has lost its elimination status",
+          "url": "https://www.cnn.com/2026/11/13/health/us-measles-elimination-status",
+          "date": "2026-11-13"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "rougeole-etats-unis",
+        "title": "Le retour de la rougeole aux États-Unis"
+      },
+      "slug": "etats-unis-perdent-statut-pays-ayant-elimine-rougeole"
+    },
+    {
+      "rank": 5,
+      "id": "NGA",
+      "place": "Nigeria",
+      "section": "Afrique",
+      "radar": true,
+      "types": [
+        "disaster",
+        "society"
+      ],
+      "title": "Au Nigeria, la diphtérie a tué plus de 1 100 personnes cette année et l'antitoxine vient à manquer",
+      "standfirst": "La plus grave épidémie de diphtérie jamais enregistrée dans le pays compte plus de 28 000 cas confirmés, surtout chez des enfants mal vaccinés. Médecins sans frontières prévient que ses stocks du seul traitement efficace sont « dangereusement bas ».",
+      "body": [
+        "Médecins sans frontières a averti vendredi 13 novembre que ses réserves d'antitoxine diphtérique étaient presque épuisées dans le nord du Nigeria, où ses équipes rationnent déjà le traitement, alors que le pays a recensé 28 151 cas confirmés et 1 126 morts depuis janvier, selon les autorités sanitaires citées par Premium Times.",
+        "L'épidémie, apparue fin 2022, frappe surtout des enfants pas ou mal vaccinés dans 26 États et le territoire de la capitale fédérale, et l'État de Kano concentre à lui seul 43 % des cas confirmés, la production mondiale d'antitoxine restant limitée et irrégulière.",
+        "L'ONG réclame une hausse de la production mondiale, un dédouanement plus rapide des médicaments et des investissements durables dans la vaccination de routine, alors qu'un nouveau foyer est signalé dans un internat de plus de 2 000 élèves de l'État de Kano, selon l'agence Anadolu."
+      ],
+      "figure": {
+        "value": "1 126",
+        "label": "morts de la diphtérie au Nigeria en 2026, au 7 novembre",
+        "compare": "pour 28 151 cas confirmés et 37 529 cas suspects"
+      },
+      "since": {
+        "date": "2022-12",
+        "label": "depuis le début de l'épidémie"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "1 126",
+              "label": "morts en 2026",
+              "by": "le Centre nigérian de contrôle des maladies (NCDC), cité par la Croix-Rouge",
+              "date": "2026-11-07"
+            },
+            {
+              "value": "28 151",
+              "label": "cas confirmés",
+              "by": "NCDC",
+              "date": "2026-11-07"
+            },
+            {
+              "value": "12 008",
+              "label": "cas confirmés dans l'État de Kano",
+              "by": "NCDC",
+              "date": "2026-11-07"
+            }
+          ],
+          "source": {
+            "name": "Premium Times",
+            "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Kano",
+              "coords": [
+                8.52,
+                12
+              ],
+              "note": "État le plus touché, avec environ 43 % des cas confirmés du pays."
+            },
+            {
+              "name": "Katsina",
+              "coords": [
+                7.6,
+                12.99
+              ],
+              "note": "MSF y a pris en charge 86 malades en deux semaines, dont 70 cas graves."
+            },
+            {
+              "name": "Gusau",
+              "coords": [
+                6.66,
+                12.17
+              ],
+              "note": "Capitale de l'État de Zamfara : plus de 671 hospitalisations en un mois dans les structures soutenues par MSF."
+            },
+            {
+              "name": "Sokoto",
+              "coords": [
+                5.24,
+                13.06
+              ],
+              "note": "Deux campagnes de vaccination y ont touché 49 018 enfants de moins de 15 ans."
+            }
+          ],
+          "source": {
+            "name": "Premium Times",
+            "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html"
+          }
+        },
+        "help": {
+          "orgs": [
+            "msf",
+            "ifrc",
+            "unicef"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Une maladie évitable, un traitement rare",
+        "text": "La diphtérie se prévient par un vaccin administré en trois doses dans l'enfance, mais environ 93 % des enfants touchés par les récentes flambées n'avaient pas reçu toutes les doses recommandées, selon le directeur de l'agence nigériane des soins de santé primaires, Muyi Aina, qui cite la désinformation et la défiance envers les vaccins. Une fois la maladie déclarée, l'antitoxine, produite à partir de plasma de cheval, doit être administrée tôt, car elle ne répare pas les lésions déjà causées par la toxine, rappelle l'OMS. Sa fabrication, peu rentable, est assurée par une poignée de laboratoires dans le monde, ce qui explique les pénuries récurrentes. Dans l'État de Zamfara, seules 25 000 des 90 000 doses de vaccin nécessaires à une campagne d'urgence ont été livrées."
+      },
+      "keys": [
+        {
+          "title": "Des enfants en première ligne",
+          "text": "À Gusau, la plupart des patients hospitalisés sont des enfants, dont quatre sur cinq n'avaient jamais été vaccinés, selon MSF. L'ONG dit avoir soigné plus de 9 000 malades de la diphtérie depuis le début de l'année."
+        },
+        {
+          "title": "Une réponse publique débordée",
+          "text": "En août, le gouvernement fédéral a créé une cellule d'urgence pour les États de Katsina et de Kano, dont l'hôpital universitaire fédéral était submergé. MSF n'a pas confirmé que les annexes de traitement annoncées fonctionnent."
+        }
+      ],
+      "involved": [],
+      "context": [
+        {
+          "d": "2022-12",
+          "t": "Début de l'épidémie de diphtérie dans le nord du Nigeria."
+        },
+        {
+          "d": "2026-08",
+          "t": "Abuja crée une cellule d'urgence pour les États de Katsina et de Kano."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Le bilan de l'année dépasse 1 100 morts, selon le NCDC."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "MSF alerte sur l'épuisement de ses stocks d'antitoxine."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Premium Times",
+          "title": "Diphtheria: MSF warns of treatment shortages as Nigeria records over 1,100 deaths",
+          "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 14, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
+          "date": "2026-11-14"
+        }
+      ],
+      "dossier": {
+        "id": "diphterie-nigeria",
+        "title": "La diphtérie au Nigeria"
+      },
+      "slug": "nigeria-diphterie-tue-1-100-personnes-annee-antitoxine"
+    }
+  ],
+  "brief": [
+    {
+      "id": "FRA",
+      "place": "France",
+      "text": "Quelque 106 000 personnes, dont 24 000 à Paris, ont manifesté samedi contre la vie chère à l'appel des « gilets jaunes » et de mouvements de jeunes, selon le ministère de l'intérieur, en recul sur la semaine précédente.",
+      "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+    },
+    {
+      "id": "POL",
+      "place": "Pologne",
+      "text": "Le président, Karol Nawrocki, a opposé pour la deuxième fois son veto à la loi transposant le règlement européen sur les services numériques, jugeant qu'elle donnerait trop de contrôle sur la parole en ligne, ce que Donald Tusk a critiqué.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+    },
+    {
+      "id": "AFG",
+      "place": "Afghanistan",
+      "text": "Les juges de la Cour pénale internationale ont clos l'enquête initiale sur l'Afghanistan, qui visait aussi des soldats américains, l'enquête sur les crimes imputés aux talibans depuis août 2021 se poursuivant séparément.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+    },
+    {
+      "id": "NZL",
+      "place": "Nouvelle-Zélande",
+      "text": "Une panne mondiale de Microsoft, attribuée par le groupe à une mise à niveau de réseau, a suspendu le traitement des visas néo-zélandais et coupé la messagerie du gouvernement japonais.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-16",
+      "t": "Donald Trump à Manille pour un sommet de l'ASEAN et une réunion du Quad."
+    },
+    {
+      "d": "2026-11-17",
+      "t": "Élection du président de la Knesset, en Israël."
+    },
+    {
+      "d": "2026-11-19",
+      "t": "Rencontre Trump-Xi-Poutine à Shenzhen, en marge du sommet de l'APEC."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Clôture prévue de la COP31."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Conseil européen de deux jours, consacré notamment aux besoins de financement de l'Ukraine pour 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Élections législatives anticipées en Espagne."
+    }
+  ],
+  "consulted": [
+    "Reuters",
+    "Associated Press",
+    "AFP",
+    "Al Jazeera",
+    "CNN",
+    "Anadolu",
+    "Kyiv Independent",
+    "Dawn",
+    "The Times of Israel",
+    "Haaretz",
+    "The Wall Street Journal",
+    "KFF Health News",
+    "NPR",
+    "Premium Times"
+  ]
+}

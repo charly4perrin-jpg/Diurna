@@ -8,11 +8,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-14",
+    "checked": "2026-11-15",
     "source": {
-      "name": "The Times of Israel",
-      "name_en": "The Times of Israel",
-      "url": "https://www.timesofisrael.com/liveblog-november-13-2026/"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
     },
     "regime_en": "Federal republic, presidential system"
   },
@@ -31,7 +31,7 @@
         "name_en": "Masoud Pezeshkian"
       }
     ],
-    "checked": "2026-11-13",
+    "checked": "2026-11-15",
     "source": {
       "name": "CBS News",
       "name_en": "CBS News",
@@ -48,11 +48,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-13",
+    "checked": "2026-11-15",
     "source": {
-      "name": "Kyiv Independent",
-      "name_en": "Kyiv Independent",
-      "url": "https://kyivindependent.com/zelensky-meets-with-trumps-envoys-in-dublin-after-their-summit-with-putin/"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato"
     },
     "regime_en": "Semi-presidential republic, under martial law"
   },
@@ -462,6 +462,40 @@
       "name": "Vanguard",
       "name_en": "Vanguard",
       "url": "https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/"
+    }
+  },
+  "CHN": {
+    "regime": "République populaire, parti unique",
+    "regime_en": "People's republic, one-party state",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Xi Jinping",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-15",
+    "source": {
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+    }
+  },
+  "NGA": {
+    "regime": "République fédérale, régime présidentiel",
+    "regime_en": "Federal republic, presidential system",
+    "leaders": [
+      {
+        "role": "Président",
+        "name": "Bola Tinubu",
+        "role_en": "President"
+      }
+    ],
+    "checked": "2026-11-15",
+    "source": {
+      "name": "AllAfrica",
+      "name_en": "AllAfrica",
+      "url": "https://allafrica.com/stories/202611100607.html"
     }
   }
 }

@@ -1,118 +1,119 @@
-# Diurna — N° 10 — Samedi 14 novembre 2026
+# Diurna — N° 11 — Dimanche 15 novembre 2026
 
-> L’Europe désigne cinq pays pour la représenter aux pourparlers sur l’Ukraine
+> Washington lie l’adhésion de l’Ukraine à l’OTAN à un retrait du Donbass
 
-Réunis à Dublin, les dirigeants de l’UE confient leur voix au Royaume-Uni, à la France, à l’Allemagne, à l’Italie et à la Pologne, et Friedrich Merz demande à Donald Trump « pas de surprises » avant des discussions avec Vladimir Poutine en Chine. Le Qatar s’allie à la Turquie tandis qu’Israël débat d’une frappe contre l’Iran, une panne a cloué au sol tous les avions des États-Unis, les Houthis visent l’Arabie saoudite, et au Burkina Faso les djihadistes rivaux s’affrontent.
+Volodymyr Zelensky révèle que les négociateurs américains ont, pour la première fois, rattaché l’entrée de l’Ukraine dans l’Alliance à l’abandon du Donbass, qu’il refuse sans garanties et sans référendum. Donald Trump retrouvera Xi Jinping et Vladimir Poutine jeudi à Shenzhen pour parler d’armes nucléaires, Benyamin Nétanyahou invoque la menace iranienne pour réclamer une union nationale, les États-Unis perdent leur statut de pays débarrassé de la rougeole, et au Nigeria la diphtérie a fait plus de 1 100 morts cette année.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Ukraine — Pour les pourparlers sur l’Ukraine, l’Europe désigne cinq pays et Berlin met en garde Washington
+## 1. Ukraine — Washington évoque l’entrée de l’Ukraine dans l’OTAN en échange d’un retrait du Donbass
 
-**Réunis à Dublin, les dirigeants européens ont confié leur voix dans les futures négociations aux institutions de l’Union et à cinq pays de la « coalition des volontaires ». Le chancelier allemand demande à Donald Trump « pas de surprises » avant des discussions attendues avec Vladimir Poutine en Chine.**
+**Selon Volodymyr Zelensky, les négociateurs américains ont pour la première fois lié l’adhésion de son pays à l’Alliance atlantique à l’abandon des parties du Donbass encore tenues par Kiev. Le président ukrainien refuse toute cession, mais se dit prêt à consulter les Ukrainiens si un ensemble complet de garanties lui est proposé.**
 
-Vendredi 13 novembre, à l’issue d’une réunion des dirigeants européens à Dublin, le président du Conseil européen, António Costa, a annoncé que l’Europe serait représentée aux futures négociations sur l’Ukraine par l’Union européenne et par cinq membres de la « coalition des volontaires » : le Royaume-Uni, la France, l’Allemagne, l’Italie et la Pologne, rapporte Al Jazeera. Ce choix répond aux émissaires américains Steve Witkoff et Jared Kushner, ce dernier ayant invité l’Europe à parler d’une seule voix, mais Moscou refuse toujours d’associer directement les Européens, le porte-parole du Kremlin, Dmitri Peskov, assurant qu’aucune décision n’a été prise. Le chancelier allemand, Friedrich Merz, qui attend des discussions sur l’Ukraine avec Vladimir Poutine en Chine la semaine prochaine, a demandé à Donald Trump « pas de surprises », certains à Dublin redoutant un « second Anchorage », selon Reuters, cité par Al-Monitor.
+Dans des déclarations diffusées samedi 14 novembre par ses services, le président ukrainien, Volodymyr Zelensky, a affirmé que les négociateurs américains lui avaient demandé si l’Ukraine se retirerait du Donbass en échange d’une adhésion à l’OTAN, la première fois selon lui que l’Alliance est liée à des concessions territoriales, rapporte Al Jazeera. Les zones évoquées sont celles que la Russie ne contrôle pas, et M. Zelensky a refusé de les céder, tout en se disant prêt à soumettre la question à référendum si les États-Unis et leurs alliés offraient des garanties de sécurité, une armée financée et un plan de reconstruction, alors que Vladimir Poutine tient l’adhésion de l’Ukraine pour une ligne rouge. Kiev attend désormais des précisions : Washington évoque des garanties proches des articles 4 et 5 du traité de l’Atlantique Nord, mais sans soldats américains sur le sol ukrainien, selon le Kyiv Independent, tandis que les Européens ont désigné cinq pays pour les représenter aux futures négociations.
 
-**Le chiffre du jour :** 5 — pays chargés de représenter l’Europe aux côtés des institutions de l’UE
+**Le chiffre du jour :** 1 200 — drones ukrainiens lancés contre la Russie, selon les autorités russes vendredi
 
-### Le spectre d’Anchorage
+### Un tabou levé à Washington
 
-L’allusion au sommet d’Anchorage, en Alaska, où Donald Trump avait reçu Vladimir Poutine en août 2025 sans les Européens, dit la crainte d’un règlement négocié par-dessus leur tête. Friedrich Merz veut que les prochaines discussions portent sur une seule question, le cadre dans lequel la sécurité de l’Ukraine serait garantie après la paix, et il rejette l’idée russe de refonder l’architecture de sécurité du continent, que l’OTAN assure déjà selon lui, rapporte Reuters. Le chancelier pousse aussi ses partenaires à inscrire le soutien à Kiev dans le prochain budget pluriannuel de l’Union, une proposition largement soutenue mais dont l’adoption reste lointaine. Il attend l’ouverture de véritables négociations de paix dans les prochaines semaines, avec, pour la première fois, une participation européenne.
-
-Sources :
-- [Al Jazeera, avec AFP, AP et Reuters — EU agrees on five countries to represent Europe in Ukraine peace talks](https://www.aljazeera.com/news/2026/11/13/europe-seeks-seat-at-ukraine-peace-talks-but-lacks-unified-voice)
-- [Al-Monitor, avec Reuters — Germany’s Merz asks Trump for ’no surprises’ from Putin talks](https://www.al-monitor.com/originals/2026/11/germanys-merz-asks-trump-no-surprises-putin-talks)
-- [The Times of Israel, avec Reuters — Germany’s Merz asks Trump for ’no surprises’ from Putin talks](https://www.timesofisrael.com/liveblog_entry/germanys-merz-asks-trump-for-no-surprises-from-putin-talks/)
-- [UNN — Merz urged Trump to hold talks with Putin on Ukraine "without surprises"](https://unn.ua/en/news/merz-urged-trump-to-hold-talks-with-putin-on-ukraine-without-surprises)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/14/pourparlers-ukraine-europe-designe-cinq-pays-berlin-met/
-
-## 2. Iran — Le Qatar scelle un pacte de défense avec la Turquie, Israël débat d’une frappe contre l’Iran
-
-**Doha et Ankara se sont engagés vendredi à faire front commun face à toute attaque armée visant l’un d’eux, signe d’une défiance envers les garanties américaines dans le Golfe. En Israël, le gouvernement sortant de Benyamin Nétanyahou prépare une nouvelle offensive contre l’Iran, sans l’aval affiché de l’armée ni de Washington.**
-
-Vendredi 13 novembre à Istanbul, le président turc, Recep Tayyip Erdoğan, et l’émir du Qatar, le cheikh Tamim ben Hamad Al Thani, ont signé un accord de défense mutuelle par lequel les deux pays promettent une position commune face à toute attaque armée extérieure, rapporte Al Jazeera. Les monarchies du Golfe jugent que les garanties de sécurité américaines ne fonctionnent plus, estime un analyste turc cité par la chaîne, au moment où la marine des Gardiens de la révolution dit qu’un méthanier a heurté une mine à Ormuz et où le commandement américain affirme avoir abattu deux drones iraniens visant Bahreïn. En Israël, le cabinet de sécurité présidé par le premier ministre sortant, Benyamin Nétanyahou, a ordonné d’accélérer les préparatifs d’une attaque contre l’Iran, selon les médias israéliens, alors que l’état-major ne voit pas d’urgence et que Gadi Eisenkot, chargé de former le prochain gouvernement, redoute des conséquences « dévastatrices ».
-
-**Le chiffre du jour :** 92,14 $ — le baril de Brent le 11 novembre, selon l’EIA
-
-### Un gouvernement sortant peut-il entrer en guerre ?
-
-Battu aux législatives d’octobre, Benyamin Nétanyahou gère les affaires courantes jusqu’à la formation d’une nouvelle majorité, ce qui peut prendre des mois, rappelle Al Jazeera. La Loi fondamentale conserve au gouvernement sortant ses attributions, mais la Cour suprême lui impose un devoir de retenue, dont la sécurité nationale constitue l’exception la plus nette, selon un chercheur de l’institut Tachlith cité par Reuters. Le précédent existe : en mai 2021, déjà sortant, M. Nétanyahou avait lancé une guerre de onze jours contre Gaza. Le principal obstacle tient plutôt à Washington, qui dit miser sur la pression économique plutôt que sur une campagne militaire d’ampleur, et le chef de Yisrael Beytenou, Avigdor Lieberman, refuse toute décision prise sans contrôle parlementaire.
+Depuis 2022, l’adhésion de l’Ukraine à l’OTAN est le point sur lequel Moscou ne transige pas, et Washington l’avait tenue à l’écart des discussions. Rattacher cette perspective à un retrait du Donbass revient à proposer à Kiev d’échanger un territoire contre une protection, une équation que M. Zelensky ne rejette pas en bloc mais qu’il subordonne à des engagements précis. Il exclut toutefois la neutralité, qui supposerait de modifier la Constitution, et refuse que l’arrangement reconnaisse comme russes les territoires occupés. Reste à savoir si l’offre américaine engage les autres alliés, dont l’unanimité est requise pour toute adhésion, et si le Kremlin accepterait une Ukraine dans l’Alliance, même amputée. M. Zelensky dit lui-même attendre « des détails » qu’il n’a pas encore.
 
 Sources :
-- [Al Jazeera, avec AFP et Reuters — Turkiye and Qatar sign mutual defence agreement](https://www.aljazeera.com/news/2026/11/13/turkiye-and-qatar-sign-mutual-defence-agreement)
-- [Al Jazeera — Can Netanyahu launch a strike on Iran before he leaves?](https://www.aljazeera.com/news/2026/11/13/can-netanyahu-launch-a-strike-on-iran-before-he-leaves)
-- [The Times of Israel — Liveblog, November 13, 2026](https://www.timesofisrael.com/liveblog-november-13-2026/)
-- [Just Security — Early Edition: November 13, 2026](https://www.justsecurity.org/164357/early-edition-november-13-2026/)
+- [Al Jazeera, avec Reuters et AP — US suggested Ukraine cede parts of Donbas to Russia to become part of NATO](https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato)
+- [Kyiv Independent — US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says](https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/)
+- [Reuters, via ABC — US has raised idea of NATO membership for Ukraine, Volodymyr Zelenskyy says](https://home.nzcity.co.nz/news/article.aspx?id=458008)
+- [CNN — US floated idea of Ukraine swapping land for NATO membership, Zelensky says](https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/14/qatar-scelle-pacte-defense-turquie-israel-debat-frappe/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/15/washington-evoque-entree-ukraine-otan-echange-retrait-donbass/
 
-## 3. États-Unis — Une panne de télécommunications cloue au sol tous les avions des États-Unis pendant quatre heures
+## 2. Chine — Trump, Xi et Poutine se retrouveront jeudi à Shenzhen pour un premier sommet à trois sur le nucléaire
 
-**L’Agence fédérale de l’aviation a interrompu vendredi tous les décollages du pays après une panne touchant les centres de contrôle aérien. Des milliers de vols ont été annulés, et le retour à la normale pourrait prendre plusieurs jours.**
+**La Maison Blanche a confirmé une rencontre inédite entre les présidents américain, chinois et russe en marge du sommet de l’APEC, centrée sur la réduction des arsenaux nucléaires. Washington n’en attend aucun accord, et l’Ukraine ne sera pas à l’ordre du jour.**
 
-Vendredi 13 novembre à 15 h 54, heure de New York, l’Agence fédérale de l’aviation (FAA) a ordonné l’arrêt de tous les départs dans le pays en invoquant des « circonstances extraordinaires », après une panne de télécommunications touchant les centres de contrôle aérien en route, rapporte Al Jazeera. Selon le secrétaire aux transports, Sean Duffy, des commutateurs et des routeurs saturés de données ont lâché, sans perte totale des communications ni du radar, et le secrétaire à la sécurité intérieure, Markwayne Mullin, a écarté toute cyberattaque. L’espace aérien a rouvert à 20 h 15 après plus de quatre heures d’interruption, mais plus de 4 700 vols ont été annulés vendredi selon FlightRadar24, et M. Duffy, qui réclame 50 milliards de dollars pour moderniser le contrôle aérien, promet un retour à la normale avant Thanksgiving.
+La porte-parole adjointe de la Maison Blanche, Olivia Wales, a annoncé vendredi 13 novembre que Donald Trump rencontrerait Xi Jinping et Vladimir Poutine jeudi 19 novembre à Shenzhen, en marge du sommet de l’APEC, et qu’il y évoquerait la réduction des armes nucléaires dans le monde, rapporte Al Jazeera. Le traité New START, qui plafonnait les arsenaux russe et américain, a expiré en février, Donald Trump ayant refusé une prolongation d’un an pour exiger un nouvel accord incluant la Chine, laquelle juge plus approprié que Washington et Moscou, mieux dotés, négocient entre eux. Un haut responsable américain prévient qu’aucun accord n’est attendu et parle d’un début de conversation, le président américain devant aborder la guerre avec l’Iran mais pas l’Ukraine, alors que Volodymyr Zelensky redoute une réédition de la conférence de Yalta et un partage de sphères d’influence.
 
-**Le chiffre du jour :** 4 700 — vols annulés vendredi aux États-Unis, selon FlightRadar24
+**Le chiffre du jour :** 9 mois — depuis l’expiration du traité russo-américain New START, en février
 
-### Un contrôle aérien à bout de souffle
+### La Chine, absente des traités de désarmement
 
-C’est seulement la troisième fois depuis les attentats du 11 septembre 2001 que tous les départs sont suspendus dans le pays, la précédente remontant à une panne de la FAA en 2023, rappelle Al Jazeera. Les défaillances semblent concentrées dans les vingt et un centres de contrôle en route qui gèrent les vols à haute altitude, estime l’expert Todd Curtis, et un spécialiste de la sécurité aérienne s’étonne que les systèmes de secours n’aient pas pris le relais. Selon la société Cirium, environ 11 000 vols transportant plus de 1,5 million de passagers devaient encore décoller après 16 heures, et au moins 827 avions déjà en vol ont été déroutés, dont 670 renvoyés vers leur aéroport de départ.
-
-Sources :
-- [Al Jazeera — FAA ground stop lifted: Why were US flights grounded, and what’s next?](https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next)
-- [Al Jazeera — US flights resume after FAA lifts hours-long nationwide ground stop](https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/14/panne-telecommunications-cloue-sol-tous-avions-etats-unis/
-
-## 4. Yémen — Les Houthis multiplient les frappes contre l’Arabie saoudite, l’ONU prolonge ses sanctions contre le Yémen
-
-**Riyad dit avoir intercepté jeudi des drones au-dessus de sa capitale et de sa province orientale, tandis que les rebelles yéménites revendiquent des attaques contre des sites pétroliers et militaires. Le Conseil de sécurité a reconduit pour un an les sanctions visant le Yémen.**
-
-Jeudi 12 novembre, le porte-parole de la coalition menée par l’Arabie saoudite, le général Turki al-Maliki, a annoncé l’interception de drones au-dessus de la région de Riyad et de la province orientale, tandis que le porte-parole militaire des Houthis, Yahya Saree, revendiquait des frappes contre un oléoduc, le port de Yanbu et deux sites militaires, rapporte Al Jazeera. Ces attaques visent le principal contournement d’Ormuz, Riyad disant faire transiter environ 4 millions de barils de brut par jour par l’oléoduc Est-Ouest jusqu’à Yanbu, sur la mer Rouge, alors que les forces gouvernementales yéménites mènent depuis octobre une offensive contre les rebelles. Le Conseil de sécurité a prolongé jeudi à l’unanimité, pour un an, le gel des avoirs et les interdictions de voyager visant le Yémen et condamné l’escalade des Houthis, tandis que Riyad presse l’Union européenne de les inscrire sur sa liste des organisations terroristes, selon Reuters.
-
-**Le chiffre du jour :** 333 000 — personnes déplacées au Yémen depuis début août, selon l’OCHA
-
-### L’oléoduc Est-Ouest, artère vitale
-
-Avec le détroit d’Ormuz quasi fermé, l’oléoduc qui traverse l’Arabie saoudite jusqu’à la mer Rouge est devenu la principale issue du brut saoudien : les 4 millions de barils par jour que Riyad y fait transiter représentent environ 4 % de l’offre mondiale, selon Al Jazeera. En le visant, les Houthis menacent directement l’approvisionnement mondial. Yahya Saree a en revanche qualifié de « grave mensonge » l’accusation saoudienne selon laquelle les rebelles auraient visé la région de La Mecque mercredi. Le ministère yéménite de la défense, soutenu par Riyad, assure de son côté que les combats progressent vers leurs objectifs sur tous les fronts.
+Le contrôle des armements nucléaires s’est construit pendant un demi-siècle sur un tête-à-tête entre Washington et Moscou, qui détiennent l’essentiel des ogives de la planète ; la Chine, troisième puissance selon l’institut suédois SIPRI, n’a jamais accepté de limites chiffrées. En laissant expirer New START sans le prolonger, Donald Trump a fait de l’inclusion de Pékin une condition de tout nouveau traité. Le format à trois de Shenzhen est donc d’abord un pari diplomatique : il s’agit d’amener la Chine à une table qu’elle a toujours évitée, sur son propre sol et pendant un sommet qu’elle voulait consacrer au commerce. L’insistance américaine sur le nucléaire a d’ailleurs irrité Pékin, selon le quotidien pakistanais Dawn.
 
 Sources :
-- [Al Jazeera, avec Reuters — Yemen’s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions](https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions)
-- [Al Jazeera — Yemen’s leader announces military operation to retake Houthi-held territory](https://www.aljazeera.com/news/2026/10/4/yemens-leader-announces-military-operation-to-retake-houthi-held-territory)
-- [CNN — Building owned by Saudi oil giant damaged in missile attack on Riyadh’s financial district](https://www.cnn.com/2026/11/08/middleeast/saudi-arabia-riyadh-missile-financial-intl)
-- [Al Jazeera — Iran war updates: Qatar, Turkiye ink defence deal; fighting rages in Yemen](https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks)
+- [Al Jazeera, avec AP et Reuters — Trump, Xi and Putin to hold first three-way summit in China](https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china)
+- [Dawn — Trump to broach nuclear cuts with Xi, Putin](https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin)
+- [Anadolu — Morning Briefing: Nov. 14, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/14/houthis-multiplient-frappes-contre-arabie-saoudite-onu-prolonge/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/15/trump-xi-poutine-retrouveront-jeudi-shenzhen-premier-sommet/
 
-## 5. Burkina Faso — Au Burkina Faso, les groupes djihadistes rivaux s’entre-déchirent sans que l’État reprenne pied
+## 3. Iran — Nétanyahou invoque la menace iranienne pour réclamer une union nationale, Washington mise sur la pression
 
-**Depuis septembre, l’État islamique au Sahel et le JNIM, lié à Al-Qaida, se livrent des combats d’une rare violence près de la frontière malienne. La junte, qui a perdu le contrôle de vastes régions, durcit dans le même temps la répression contre ses critiques.**
+**Le premier ministre israélien sortant presse Gadi Eisenkot de former avec lui un gouvernement d’union capable d’« éliminer » la menace iranienne, ce que son rival a aussitôt rejeté. Le renseignement américain estime que Téhéran conserve des milliers de missiles, tandis que Washington juge une nouvelle offensive inutile.**
 
-Depuis début septembre, les combats entre le Groupe de soutien à l’islam et aux musulmans (JNIM), affilié à Al-Qaida, et l’État islamique au Sahel se sont intensifiés dans le nord du Burkina Faso, le long de la frontière malienne, l’hebdomadaire de l’État islamique revendiquant plus de 400 combattants rivaux tués le 9 octobre, rapporte Al Jazeera. Cette rivalité, née en 2019, a déjà fait plus de 2 200 morts parmi les combattants selon l’ONG ACLED, et elle détourne le JNIM de sa lutte contre l’armée, alors que le groupe contrôle de larges pans du nord, du centre-nord, de l’ouest et de l’est du pays, selon l’International Crisis Group. La junte du capitaine Ibrahim Traoré, au pouvoir depuis septembre 2022, a lancé ce mois-ci des mandats d’arrêt pour « terrorisme » contre une vingtaine de personnes, dont un journaliste de RFI, tandis que 4,5 millions d’habitants ont besoin d’aide humanitaire en 2026, selon l’ONU.
+Dans une déclaration vidéo diffusée samedi 14 novembre, le premier ministre israélien sortant, Benyamin Nétanyahou, a appelé Gadi Eisenkot, chargé de former le prochain gouvernement, à constituer avec lui une union nationale pour éliminer « une fois pour toutes » la menace iranienne, une offre que l’intéressé a écartée en quelques minutes, rapporte Al Jazeera. Le chef du Mossad, Roman Gofman, a rencontré à Washington le directeur de la CIA, John Ratcliffe, afin d’obtenir le soutien américain à de nouvelles frappes, selon Haaretz, au moment où le Wall Street Journal, citant le renseignement américain, estime que l’Iran conserve entre 1 500 et 2 500 missiles malgré les bombardements. Le secrétaire d’État américain, Marco Rubio, a pourtant jugé une nouvelle action militaire inutile, la pression économique sur Téhéran étant selon lui considérable, alors que la Knesset doit élire mardi son président et que M. Eisenkot dispose de 28 jours, prolongeables de 14, pour former une coalition.
 
-**Le chiffre du jour :** 2 200 — combattants tués dans les affrontements entre djihadistes rivaux depuis 2019, selon ACLED
+**Le chiffre du jour :** 1 500–2 500 — missiles que conserverait l’Iran, selon le renseignement américain cité par le Wall Street Journal
 
-### Une guerre dans la guerre
+### Le pari de la pression économique
 
-Les affrontements obligent le JNIM à détourner combattants et ressources de sa lutte contre les armées du Mali et du Burkina Faso, observe Heni Nsaibia, chercheur à ACLED, mais rien n’indique que l’État en tirera un avantage durable, souligne Al Jazeera. La rivalité déborde désormais sur le Niger, dans les régions de Tillabéri et de Dosso, et jusqu’à l’État de Kebbi, au Nigeria. Le JNIM a parallèlement étendu sa présence au Togo et au Bénin en 2025, et revendiqué en octobre 2025 sa première attaque officielle au Nigeria. En 2025, ACLED avait recensé plus de 10 000 morts liées aux violences politiques au Burkina Faso, au Mali et au Niger.
+Washington a choisi jusqu’ici les sanctions et le blocus plutôt qu’une nouvelle campagne militaire, et les monarchies du Golfe, qui redoutent des représailles iraniennes, l’y encouragent. L’estimation du renseignement américain complique ce choix : même dans son hypothèse basse, l’Iran aurait reconstitué plus de la moitié de son arsenal d’avant-guerre, selon une ancienne responsable du Pentagone citée par l’agence Anadolu. Israël redoute surtout un accord entre Washington et Téhéran qui allégerait la pression sans traiter le programme nucléaire ni les missiles. Le calendrier politique israélien pèse aussi : battu aux législatives du 27 octobre, M. Nétanyahou ne gère que les affaires courantes, et l’état-major ne voit pas de menace imminente justifiant une reprise de la guerre dans les prochaines semaines, selon la radio publique KAN.
 
 Sources :
-- [Al Jazeera — Burkina Faso’s rival armed groups turn on each other as state loses ground](https://www.aljazeera.com/news/2026/11/13/burkina-fasos-rival-armed-groups-turn-on-each-other-as-state-loses-ground)
-- [Vanguard — Burkina issues ’terrorist’ warrants for journalists, activists](https://www.vanguardngr.com/2026/11/burkina-issues-terrorist-warrants-for-journalists-activists/)
+- [Al Jazeera, avec AFP — Netanyahu says only a unity government can guarantee Israel’s security](https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security)
+- [Anadolu — Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media](https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854)
+- [Anadolu, d’après le Wall Street Journal — US intel estimates Iran retains up to 2,500 missiles despite war damage: Report](https://www.aa.com.tr/en/americas/us-intel-estimates-iran-retains-up-to-2-500-missiles-despite-war-damage-report/4125478)
+- [The Times of Israel — Liveblog, November 14, 2026](https://www.timesofisrael.com/liveblog-november-14-2026/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/14/burkina-faso-groupes-djihadistes-rivaux-dechirent-sans-etat/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/15/netanyahou-invoque-menace-iranienne-reclamer-union-nationale-washington/
+
+## 4. États-Unis — Les États-Unis perdent leur statut de pays ayant éliminé la rougeole, après une série d’épidémies
+
+**L’Organisation panaméricaine de la santé a conclu que le virus circule de nouveau durablement sur le territoire américain, un quart de siècle après son élimination. Les spécialistes mettent en cause le recul de la vaccination des enfants, et l’administration rejette la responsabilité sur ses prédécesseurs.**
+
+L’Organisation panaméricaine de la santé (OPS), bras régional de l’OMS, a conclu cette semaine que la rougeole avait rétabli une transmission régulière aux États-Unis, qui perdent ainsi leur statut de pays ayant éliminé la maladie, selon des chercheurs cités par KFF Health News, l’annonce officielle étant prévue le 17 novembre. L’élimination suppose que chaque épidémie s’éteigne en moins d’un an, ce qui n’est plus le cas depuis qu’un foyer apparu dans l’Utah a franchi ce seuil en juin, après l’épidémie de l’ouest du Texas qui avait touché plus de 4 500 personnes aux États-Unis et au Mexique en 2025. Le ministère de la santé de Robert F. Kennedy Jr. attribue la situation à des lacunes vaccinales antérieures à l’actuelle administration, tandis que d’anciens responsables des Centres de contrôle des maladies jugent le retour au statut d’élimination lointain, faute d’endiguer d’abord les foyers en cours.
+
+**Le chiffre du jour :** 5 400 — cas de rougeole signalés aux États-Unis en 2026, selon l’agence Anadolu
+
+### Ce que signifie la perte du statut
+
+Le statut d’élimination ne signifie pas l’absence de cas, mais l’absence de transmission continue pendant plus d’un an : les contaminations importées de l’étranger s’éteignent alors d’elles-mêmes grâce à une couverture vaccinale suffisante. Sa perte traduit donc l’installation du virus dans des communautés insuffisamment vaccinées, dont la proportion augmente depuis la pandémie de Covid-19, selon les données des CDC. Pour retrouver le statut, les États-Unis devront éteindre les foyers actuels puis empêcher toute nouvelle chaîne de transmission pendant un an. Les spécialistes cités par KFF Health News mettent aussi en cause les coupes dans les subventions vaccinales des États et les retards de publication de rapports des CDC, attribués par des agents à des responsables politiques, ce que le ministère conteste.
+
+Sources :
+- [KFF Health News, via NPR — US has lost measles elimination status, global health authorities say](https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say)
+- [CNN — Measles: After 26 years, the US has lost its elimination status](https://www.cnn.com/2026/11/13/health/us-measles-elimination-status)
+- [Anadolu — Morning Briefing: Nov. 14, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/15/etats-unis-perdent-statut-pays-ayant-elimine-rougeole/
+
+## 5. Nigéria — Au Nigeria, la diphtérie a tué plus de 1 100 personnes cette année et l’antitoxine vient à manquer
+
+**La plus grave épidémie de diphtérie jamais enregistrée dans le pays compte plus de 28 000 cas confirmés, surtout chez des enfants mal vaccinés. Médecins sans frontières prévient que ses stocks du seul traitement efficace sont « dangereusement bas ».**
+
+Médecins sans frontières a averti vendredi 13 novembre que ses réserves d’antitoxine diphtérique étaient presque épuisées dans le nord du Nigeria, où ses équipes rationnent déjà le traitement, alors que le pays a recensé 28 151 cas confirmés et 1 126 morts depuis janvier, selon les autorités sanitaires citées par Premium Times. L’épidémie, apparue fin 2022, frappe surtout des enfants pas ou mal vaccinés dans 26 États et le territoire de la capitale fédérale, et l’État de Kano concentre à lui seul 43 % des cas confirmés, la production mondiale d’antitoxine restant limitée et irrégulière. L’ONG réclame une hausse de la production mondiale, un dédouanement plus rapide des médicaments et des investissements durables dans la vaccination de routine, alors qu’un nouveau foyer est signalé dans un internat de plus de 2 000 élèves de l’État de Kano, selon l’agence Anadolu.
+
+**Le chiffre du jour :** 1 126 — morts de la diphtérie au Nigeria en 2026, au 7 novembre
+
+### Une maladie évitable, un traitement rare
+
+La diphtérie se prévient par un vaccin administré en trois doses dans l’enfance, mais environ 93 % des enfants touchés par les récentes flambées n’avaient pas reçu toutes les doses recommandées, selon le directeur de l’agence nigériane des soins de santé primaires, Muyi Aina, qui cite la désinformation et la défiance envers les vaccins. Une fois la maladie déclarée, l’antitoxine, produite à partir de plasma de cheval, doit être administrée tôt, car elle ne répare pas les lésions déjà causées par la toxine, rappelle l’OMS. Sa fabrication, peu rentable, est assurée par une poignée de laboratoires dans le monde, ce qui explique les pénuries récurrentes. Dans l’État de Zamfara, seules 25 000 des 90 000 doses de vaccin nécessaires à une campagne d’urgence ont été livrées.
+
+Sources :
+- [Premium Times — Diphtheria: MSF warns of treatment shortages as Nigeria records over 1,100 deaths](https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html)
+- [Anadolu — Morning Briefing: Nov. 14, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/15/nigeria-diphterie-tue-1-100-personnes-annee-antitoxine/
 
 ## En bref
 
-- **Guinée** : Au moins dix personnes, dont cinq étrangers, ont été tuées mercredi à Balato, dans la région de Siguiri, lors d’affrontements entre manifestants et forces de sécurité chargées de faire respecter l’interdiction de l’orpaillage, selon le gouvernement. ([Source](https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining))
-- **Pakistan** : L’armée pakistanaise affirme avoir tué 74 militants en dix jours lors de raids dans le Khyber Pakhtunkhwa et le Baloutchistan, frontaliers de l’Afghanistan, pays qu’elle accuse de les soutenir. ([Source](https://apnews.com/article/pakistan-military-militants-71c4b95a908b89e25a2c45408b150489))
-- **Gaza** : Un nourrisson de neuf mois est mort d’hypothermie à l’hôpital Nasser, premier décès lié au froid de l’hiver selon les autorités sanitaires, la tente de sa famille ayant été inondée par les pluies. ([Source](https://morningstaronline.co.uk/article/world-brief-57))
-- **Pays-Bas** : Le premier ministre, Rob Jetten, a convoqué vendredi une réunion de crise avec ses deux partenaires de coalition, les libéraux du VVD reprochant aux siens d’avoir voté des amendements fiscaux de l’opposition. ([Source](https://morningstaronline.co.uk/article/world-brief-57))
+- **France** : Quelque 106 000 personnes, dont 24 000 à Paris, ont manifesté samedi contre la vie chère à l’appel des « gilets jaunes » et de mouvements de jeunes, selon le ministère de l’intérieur, en recul sur la semaine précédente. ([Source](https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests))
+- **Pologne** : Le président, Karol Nawrocki, a opposé pour la deuxième fois son veto à la loi transposant le règlement européen sur les services numériques, jugeant qu’elle donnerait trop de contrôle sur la parole en ligne, ce que Donald Tusk a critiqué. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855))
+- **Afghanistan** : Les juges de la Cour pénale internationale ont clos l’enquête initiale sur l’Afghanistan, qui visait aussi des soldats américains, l’enquête sur les crimes imputés aux talibans depuis août 2021 se poursuivant séparément. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855))
+- **Nouvelle-Zélande** : Une panne mondiale de Microsoft, attribuée par le groupe à une mise à niveau de réseau, a suspendu le traitement des visas néo-zélandais et coupé la messagerie du gouvernement japonais. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855))
 
 ## À venir
 
-- 18 nov. : Sommet de l’APEC à Shenzhen.
+- 16 nov. : Donald Trump à Manille pour un sommet de l’ASEAN et une réunion du Quad.
+- 17 nov. : Élection du président de la Knesset, en Israël.
+- 19 nov. : Rencontre Trump-Xi-Poutine à Shenzhen, en marge du sommet de l’APEC.
 - 20 nov. : Clôture prévue de la COP31.
 - 26 nov. : Conseil européen de deux jours, consacré notamment aux besoins de financement de l’Ukraine pour 2027.
 - 29 nov. : Élections législatives anticipées en Espagne.
-- 22 déc. : Premières élections générales au Soudan du Sud depuis l’indépendance.

@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-19-4f5498e2@diurna
+DTSTAMP:20261115T055601Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Rencontre Trump-Xi-Poutine à Shenzhen\, en marge du sommet de l
+ ’APEC.
+DESCRIPTION:Diurna — Édition du 15 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/15/
+END:VEVENT
+END:VCALENDAR
