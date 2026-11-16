@@ -1,0 +1,843 @@
+{
+  "date": "2026-11-16",
+  "number": 12,
+  "updated": "2026-11-16T07:10:00+01:00",
+  "headline": "L'Iran revendique une attaque de drones contre une base américaine à Bahreïn",
+  "standfirst": "Bahreïn a déclenché dimanche ses premières alertes générales depuis septembre, tandis que les Gardiens de la révolution affirment avoir visé un radar américain et que deux pétroliers auraient sauté sur des mines près d'Ormuz. Volodymyr Zelensky dénonce les restrictions imposées à Starshield, l'ASEAN et la Chine échouent à conclure leur code de conduite maritime, la COP31 bute sur la finance, et l'armée soudanaise progresse au Kordofan.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Moyen-Orient",
+      "focus": [
+        53.5,
+        26.8
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "L'Iran revendique une attaque de drones contre une base américaine à Bahreïn, Ormuz reste fermé",
+      "standfirst": "Les Gardiens de la révolution affirment avoir lancé six drones contre un radar américain sur une base bahreïnienne, la deuxième revendication de ce type en trois jours. Téhéran dit aussi que deux pétroliers ont heurté des mines près d'Ormuz, et attend la réponse de Washington à ses conditions pour mettre fin à la guerre.",
+      "body": [
+        "Le corps des Gardiens de la révolution islamique a affirmé dimanche 15 novembre avoir lancé six drones contre un radar de défense aérienne américain installé sur la base de Riffa, à Bahreïn, où le ministère de l'intérieur a émis à l'aube deux alertes en trois heures, les premières à l'échelle du pays depuis septembre, rapportent Al Jazeera et The National.",
+        "L'armée bahreïnie dit avoir intercepté plusieurs attaques iraniennes, sans qu'aucun dégât soit confirmé, alors que le commandement militaire américain avait démenti vendredi une première revendication et que les Gardiens assurent que deux pétroliers, qui naviguaient balises éteintes sur une route « non autorisée », ont heurté des mines au sud du détroit d'Ormuz.",
+        "Le président du Parlement iranien et négociateur en chef, Mohammad Bagher Ghalibaf, affirme avoir transmis sept conditions par l'intermédiaire du Qatar, dont la levée du blocus et la fin officielle de la guerre, alors que Washington maintient le blocus des ports iraniens et durcit ses sanctions."
+      ],
+      "figure": {
+        "value": "92 $",
+        "label": "le prix du baril de Brent au 11 novembre",
+        "compare": "contre 71,66 $ le 26 février, avant la guerre"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "depuis le début de la guerre"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "IRN",
+            "USA",
+            "QAT"
+          ],
+          "positions": [
+            {
+              "who": "Téhéran",
+              "wants": "La levée du blocus naval américain et des sanctions, le dégel de ses avoirs, la fin des hostilités sur tous les fronts et une déclaration formelle de fin de la guerre, selon Mohammad Bagher Ghalibaf."
+            },
+            {
+              "who": "Washington",
+              "wants": "Le maintien du blocus des ports iraniens et des sanctions renforcées, l'administration Trump n'ayant pas encore répondu officiellement aux conditions transmises par le médiateur qatari."
+            },
+            {
+              "who": "Manama",
+              "wants": "La pleine application de la résolution 2817 du Conseil de sécurité, qui a condamné les attaques iraniennes contre Bahreïn et d'autres pays de la région."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "Début de la guerre"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Une guerre de basse intensité qui menace de déraper",
+        "text": "Les combats se sont atténués sans qu'aucun accord ne mette fin à la guerre déclenchée le 28 février par les frappes américaines et israéliennes : l'Iran continue de viser par intermittence les bases américaines du Golfe, et Washington étrangle son économie par le blocus. La revendication de vendredi contre Bahreïn, qui abrite le quartier général de la Ve flotte américaine, était la première visant des installations militaires américaines dans un pays du Golfe depuis début septembre, selon Reuters. Téhéran affirme contrôler seul, avec Oman, le détroit d'Ormuz, ce que les États-Unis contestent. Le danger tient désormais à l'erreur de calcul, estime le politiste Saeid Golkar, cité par Al Jazeera : des échanges limités peuvent dégénérer à tout moment."
+      },
+      "keys": [
+        {
+          "title": "Le front saoudien",
+          "text": "La coalition menée par l'Arabie saoudite affirme avoir intercepté dimanche deux missiles balistiques tirés par les houthistes yéménites vers Riyad, ainsi que trois drones dans la province orientale. Riyad a exprimé sa « pleine solidarité » avec Bahreïn."
+        },
+        {
+          "title": "La facture réclamée par le Golfe",
+          "text": "Les monarchies arabes du Golfe ont exigé vendredi que l'Iran verse une « pleine indemnisation » pour les milliers de missiles et de drones tirés depuis février. Elles demandent au Conseil de sécurité de l'ONU de tenir Téhéran pour responsable."
+        },
+        {
+          "title": "Des revendications invérifiables",
+          "text": "Ni le nom, ni le pavillon, ni l'armateur des pétroliers cités par les Gardiens n'ont été communiqués, et aucune autorité maritime n'a confirmé les explosions. Les Gardiens disent aussi avoir abattu un drone américain MQ-1 au-dessus de l'île de Qeshm."
+        }
+      ],
+      "involved": [
+        "USA",
+        "QAT",
+        "SAU"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Ormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        },
+        {
+          "id": "RIFFA",
+          "name": "Riffa (Bahreïn)",
+          "coords": [
+            50.56,
+            26.13
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "Début de la guerre entre les États-Unis, Israël et l'Iran."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Les Gardiens revendiquent la destruction d'un radar américain à Bahreïn, ce que Washington dément."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Deux pétroliers heurtent des mines au sud d'Ormuz, selon la marine des Gardiens."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "Alertes générales à Bahreïn ; Téhéran revendique une attaque de six drones contre la base de Riffa."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Élection du président de la Knesset, en Israël."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Iran says it targets US radar in Bahrain. What do we know?",
+          "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "The National",
+          "title": "Bahrain intercepts Iranian attacks after first nationwide alert in months",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 15, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489",
+          "date": "2026-11-15"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-iran",
+        "title": "La guerre avec l’Iran"
+      },
+      "slug": "iran-revendique-attaque-drones-contre-base-americaine-bahrein"
+    },
+    {
+      "rank": 2,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "title": "Zelensky accuse les restrictions de Starshield d'affaiblir la défense du réseau électrique ukrainien",
+      "standfirst": "Le président ukrainien affirme que les limites de vitesse imposées aux terminaux du système de SpaceX empêchent ses drones intercepteurs d'abattre les Shahed russes. Les frappes croisées sur les infrastructures énergétiques se poursuivent à l'approche de l'hiver.",
+      "body": [
+        "Le président ukrainien, Volodymyr Zelensky, a affirmé dimanche 15 novembre que les limites de vitesse imposées aux terminaux Starshield, la version militaire du réseau Starlink exploitée par SpaceX, empêchaient ses drones intercepteurs d'abattre les drones russes Shahed à réaction, et a chargé ses ministères de négocier avec Washington et l'entreprise, rapporte l'Associated Press.",
+        "Selon lui, les intercepteurs perdent le contact avec leurs opérateurs au-delà de 161 km/h sur le front et au-dessus des territoires occupés, ce qui laisse passer des engins visant les sous-stations électriques, alors que la Russie a tiré en une semaine plus de 2 300 drones d'attaque, 1 590 bombes planantes et 15 missiles.",
+        "Une frappe russe sur Tchornomorsk, près d'Odessa, a privé d'électricité quelque 41 000 abonnés, tandis que l'état-major ukrainien revendique des frappes sur l'aérodrome militaire d'Akhtoubinsk et sur des sites industriels de Nijnekamsk, au Tatarstan, à plus de 1 000 kilomètres de l'Ukraine."
+      ],
+      "figure": {
+        "value": "161 km/h",
+        "label": "la vitesse au-delà de laquelle les drones intercepteurs perdent la liaison Starshield, selon Kiev",
+        "compare": "trop peu pour rattraper les Shahed à réaction"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "depuis l'invasion à grande échelle"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "4",
+              "label": "civils tués en Ukraine en une journée",
+              "by": "autorités régionales, compilées par le Kyiv Independent",
+              "date": "2026-11-15"
+            },
+            {
+              "value": "69",
+              "label": "civils blessés en Ukraine en une journée",
+              "by": "autorités régionales, compilées par le Kyiv Independent",
+              "date": "2026-11-15"
+            },
+            {
+              "value": "132",
+              "label": "drones d'attaque lancés par la Russie dans la nuit, dont 106 interceptés",
+              "by": "armée de l'air ukrainienne",
+              "date": "2026-11-15"
+            }
+          ],
+          "source": {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Tchornomorsk",
+              "coords": [
+                30.66,
+                46.3
+              ],
+              "note": "Port de la région d'Odessa, où une frappe a touché une installation de DTEK et blessé six personnes."
+            },
+            {
+              "name": "Akhtoubinsk",
+              "coords": [
+                46.18,
+                48.28
+              ],
+              "note": "Aérodrome russe d'essais en vol, à environ 650 km du territoire contrôlé par Kiev, frappé selon l'état-major ukrainien."
+            },
+            {
+              "name": "Nijnekamsk",
+              "coords": [
+                51.82,
+                55.64
+              ],
+              "note": "Ville industrielle du Tatarstan dont la raffinerie et le complexe pétrochimique ont été visés, selon Kiev."
+            }
+          ],
+          "source": {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Une dépendance devenue un levier",
+        "text": "L'armée ukrainienne s'appuie à la fois sur le Starlink commercial et sur Starshield, auquel le Kyiv Independent attribue le succès de ses frappes contre la logistique russe à moyenne portée. Que ces terminaux soient bridés précisément au-dessus des territoires occupés donne à la question une portée politique : M. Zelensky y voit une reconnaissance partielle de ces zones comme non ukrainiennes, et doute que la contrainte soit purement technique, alors que le secrétaire d'État américain, Marco Rubio, lui avait assuré que Starshield relevait davantage du gouvernement américain. La restriction intervient au moment où Moscou concentre ses Shahed sur les sous-stations électriques, comme lors des hivers précédents, et où Washington évoque avec Kiev un compromis territorial dans le Donbass."
+      },
+      "keys": [
+        {
+          "title": "La réaction au Congrès",
+          "text": "Le groupe parlementaire bipartisan de soutien à l'Ukraine au Congrès américain a demandé des explications complètes à l'administration Trump et à SpaceX. Il réclame le rétablissement immédiat d'un accès complet à Starshield pour l'armée ukrainienne."
+        },
+        {
+          "title": "Les frappes ukrainiennes en Russie",
+          "text": "Moscou affirme avoir abattu 533 drones ukrainiens en une nuit au-dessus de treize régions, de la Crimée et des mers Noire et d'Azov. Dans la région de Rostov, deux sous-stations ont été endommagées et un ingénieur tué, selon le gouverneur."
+        },
+        {
+          "title": "La proposition américaine",
+          "text": "M. Zelensky a révélé que Washington évoquait une adhésion de l'Ukraine à l'OTAN en échange d'un retrait du Donbass. Il exige des garanties au moins équivalentes à l'article 5 et refuse toute reconnaissance des territoires occupés comme russes."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Invasion de l'Ukraine à grande échelle par la Russie."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Fin de deux jours de pourparlers russo-ukrainiens à Abou Dhabi, sous médiation américaine."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Volodymyr Zelensky juge « très dangereuses » les restrictions de Starshield au-dessus des territoires occupés."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "Le président ukrainien demande la levée des restrictions avant l'hiver ; frappe sur le réseau électrique de la région d'Odessa."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "Conseil européen consacré notamment au financement de l'Ukraine."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via ABC News",
+          "title": "Zelenskyy warns Starshield restrictions threaten Ukraine's energy defenses",
+          "url": "https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Kyiv Independent",
+          "title": "Starshield restrictions hamper Ukraine's ability to defend energy infrastructure from Russian drones, Zelensky says",
+          "url": "https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Kyiv Independent",
+          "title": "Ukraine war latest: Russia launches mass attack on Odesa Oblast as Ukraine strikes airfield, drone launch site in Russia",
+          "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/",
+          "date": "2026-11-15"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-ukraine",
+        "title": "La guerre en Ukraine"
+      },
+      "slug": "zelensky-accuse-restrictions-starshield-affaiblir-defense-reseau-electri"
+    },
+    {
+      "rank": 3,
+      "id": "PHL",
+      "place": "Philippines",
+      "section": "Asie-Pacifique",
+      "focus": [
+        120.98,
+        14.6
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy"
+      ],
+      "title": "L'ASEAN et la Chine échouent à conclure leur code de conduite en mer de Chine méridionale",
+      "standfirst": "Réunis à Manille, les pays d'Asie du Sud-Est n'ont pas pu boucler avec Pékin le texte promis pour 2026, provisoirement agréé à environ 80 %. La présidence philippine passe le dossier à Singapour, avant la venue de Donald Trump mardi.",
+      "body": [
+        "La ministre des affaires étrangères philippine, Ma. Theresa Lazaro, a reconnu dimanche 15 novembre, en marge du 49e sommet de l'ASEAN à Manille, que l'organisation et la Chine n'avaient pas conclu le code de conduite en mer de Chine méridionale, malgré un accord provisoire sur environ 80 % des paragraphes du projet, rapporte Reuters.",
+        "Restent en suspens le caractère juridiquement contraignant du texte et son étendue géographique, Pékin revendiquant la quasi-totalité de cette mer, par où transite la moitié des navires marchands du monde, malgré une sentence arbitrale de 2016 qu'il rejette, face aux revendications des Philippines, du Vietnam, de la Malaisie, de Brunei et de l'Indonésie.",
+        "Singapour, qui prendra la présidence de l'ASEAN l'an prochain, hérite d'un texte négocié depuis plus de vingt ans, tandis que Donald Trump est attendu mardi à Manille pour un sommet spécial entre l'ASEAN et les États-Unis, avant de rejoindre Shenzhen pour l'APEC."
+      ],
+      "figure": {
+        "value": "80 %",
+        "label": "des paragraphes du projet de code provisoirement agréés, selon Manille",
+        "compare": "après plus de vingt ans de négociations"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "PHL",
+            "CHN",
+            "VNM",
+            "MYS"
+          ],
+          "host": "PHL",
+          "positions": [
+            {
+              "who": "Manille",
+              "wants": "Un code qui respecte les droits des pays extérieurs à la région, selon le porte-parole des affaires étrangères, Dominic Xavier Imperial, la ministre Lazaro jugeant le document achevé à 80 %."
+            },
+            {
+              "who": "Pékin",
+              "wants": "Que les Philippines fassent entendre une voix « rationnelle et unifiée », le ministre chinois des affaires étrangères, Wang Yi, ayant demandé à Manille de recadrer ses responsables politiques."
+            }
+          ],
+          "next": {
+            "d": "2026-11-17",
+            "t": "Sommet spécial entre l'ASEAN et les États-Unis à Manille, en présence de Donald Trump."
+          },
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Un texte suspendu aux rapports sino-philippins",
+        "text": "En 2023, les ministres des affaires étrangères de l'ASEAN et de la Chine s'étaient donné trois ans pour aboutir, une échéance qui tombait sous la présidence philippine. Mais Manille, en conflit ouvert avec Pékin autour des récifs qu'elle revendique, se trouvait dans une position délicate : un texte favorable aurait paru imposé à la Chine, un texte faible aurait affaibli le gouvernement de Ferdinand Marcos Jr., résume le politiste Aries Arugay, cité par Al Jazeera. Les relations se sont tendues ces derniers mois, entre les échanges d'invectives du ministre de la défense, Gilberto Teodoro, interdit d'entrée en Chine, et de l'ambassadeur chinois à Manille. Les divergences internes à l'ASEAN, notamment sur le périmètre du code, pèsent aussi, selon le chercheur singapourien Collin Koh, cité par Reuters."
+      },
+      "keys": [
+        {
+          "title": "Le seul point acquis",
+          "text": "Sur les quatre grands sujets de désaccord, les négociateurs se sont entendus sur l'articulation du code avec la déclaration de 2002, dont il doit reprendre les principes. Mme Lazaro dit laisser à Singapour un document « presque achevé à 80 % »."
+        },
+        {
+          "title": "Les autres résultats du sommet",
+          "text": "Les dirigeants ont signé l'accord-cadre de l'ASEAN sur l'économie numérique et un protocole d'accord sur un réseau électrique régional. Ils ont aussi adopté une déclaration sur le recrutement équitable des travailleurs migrants."
+        }
+      ],
+      "involved": [
+        "CHN",
+        "USA"
+      ],
+      "zones": [
+        {
+          "id": "MANILLE",
+          "name": "Manille",
+          "coords": [
+            120.98,
+            14.6
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2002-11-04",
+          "t": "L'ASEAN et la Chine signent une déclaration sur la conduite des parties en mer de Chine méridionale."
+        },
+        {
+          "d": "2016-07-12",
+          "t": "Un tribunal arbitral juge sans fondement en droit international les revendications chinoises, ce que Pékin rejette."
+        },
+        {
+          "d": "2023-07",
+          "t": "L'ASEAN et la Chine se fixent trois ans pour conclure le code de conduite."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "Manille reconnaît l'échec des négociations sous sa présidence."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Sommet spécial entre l'ASEAN et les États-Unis à Manille."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters, via ThePrint",
+          "title": "ASEAN, China fail to conclude South China Sea code of conduct",
+          "url": "https://theprint.in/world/asean-china-fail-to-conclude-south-china-sea-code-of-conduct/3099511/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather",
+          "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "The Philippine Star",
+          "title": "No final code of conduct on South China Sea – DFA",
+          "url": "https://www.philstar.com/headlines/2026/11/16/2570417/no-final-code-conduct-south-china-sea-dfa",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "The Philippine Star",
+          "title": "Donald Trump to join Marcos, ASEAN leaders for Manila summit on Nov. 17",
+          "url": "https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17",
+          "date": "2026-11-12"
+        }
+      ],
+      "dossier": {
+        "id": "mer-de-chine-meridionale",
+        "title": "Les tensions en mer de Chine méridionale"
+      },
+      "slug": "asean-chine-echouent-conclure-code-conduite-mer-chine"
+    },
+    {
+      "rank": 4,
+      "id": "TUR",
+      "place": "Turquie",
+      "section": "International",
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "economy"
+      ],
+      "title": "À mi-parcours de la COP31, la finance climatique divise toujours pays riches et pays en développement",
+      "standfirst": "Le groupe des pays en développement a rejeté samedi à Antalya un texte jugé trop faible sur le financement climatique, au moment où les ministres prennent le relais des négociateurs. La coalition pour la sortie des énergies fossiles poursuit sa route sans la Colombie, l'un de ses fondateurs.",
+      "body": [
+        "Le groupe des 77 et la Chine ont rejeté samedi 14 novembre, à Antalya, le dernier texte sur le programme de travail consacré au financement climatique, jugé trop faible, alors que la COP31 entre dans sa seconde semaine avec l'arrivée des ministres, selon le Réseau Action Climat.",
+        "Les pays africains font du triplement des financements pour l'adaptation, à au moins 120 milliards de dollars par an d'ici à 2035, leur priorité, mais l'Union européenne, le Japon et la Norvège contestent cette référence, tandis que le mécanisme pour une transition juste se réduit pour l'heure à un centre de connaissances et une réunion annuelle.",
+        "Le patron de l'ONU Climat, Simon Stiell, juge les progrès « constructifs » et appelle à éviter les manœuvres dilatoires avant la clôture prévue vendredi, tandis que la coalition née à Santa Marta pour sortir des énergies fossiles continue sans la Colombie, qui l'a quittée après l'élection d'Abelardo de la Espriella."
+      ],
+      "figure": {
+        "value": "2,8 milliards $",
+        "label": "demandés par 119 pays au fonds pour les pertes et dommages",
+        "compare": "pour environ 600 millions reçus, selon le Réseau Action Climat"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "TUR",
+            "AUS",
+            "CHN",
+            "JPN",
+            "NOR"
+          ],
+          "host": "TUR",
+          "positions": [
+            {
+              "who": "G77 et Chine",
+              "wants": "Un texte plus ambitieux sur le financement climatique, celui présenté samedi ayant été rejeté comme trop faible, alors que les obligations de l'article 9.1 de l'accord de Paris sont de nouveau disputées."
+            },
+            {
+              "who": "UE, Japon et Norvège",
+              "wants": "Écarter les références au triplement des financements pour l'adaptation, et éviter des orientations détaillées pour le fonds pour les pertes et dommages, au nom de l'indépendance de son conseil."
+            },
+            {
+              "who": "Pays les moins avancés",
+              "wants": "Des moyens à la hauteur des besoins du fonds pour les pertes et dommages, sollicité à hauteur de 2,8 milliards de dollars pour environ 600 millions reçus."
+            }
+          ],
+          "next": {
+            "d": "2026-11-20",
+            "t": "Clôture prévue des négociations."
+          },
+          "source": {
+            "name": "Réseau Action Climat",
+            "url": "https://climatenetwork.org/2026/11/15/state-of-play-from-antalya-cop31-midway-media-brief/"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Antalya",
+              "coords": [
+                30.71,
+                36.9
+              ],
+              "note": "Ville hôte de la COP31, où ministres et négociateurs entament la seconde semaine."
+            }
+          ],
+          "source": {
+            "name": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "La promesse de Belém mise à l'épreuve",
+        "text": "La COP30, à Belém, avait lancé un mécanisme pour une transition juste et promis de tripler les financements pour l'adaptation ; Antalya doit en préciser le contenu. Or le premier texte sur la transition juste propose surtout un portail, des rapports et une réunion annuelle, sans mobilisation explicite de fonds, ce que dénoncent les organisations de la société civile. La présidence de la COP est partagée : l'Australie conduit les négociations, avec son ministre du climat, Chris Bowen, et la Turquie l'agenda de l'action. Une partie des grands pays émergents rejette aussi l'idée d'une décision chapeau qui fixerait des objectifs sectoriels, comme l'électrification, que l'UE pourrait ne plus qualifier de « propre », selon Climate Home News."
+      },
+      "keys": [
+        {
+          "title": "La coalition de Santa Marta",
+          "text": "Lancée en avril en Colombie par une soixantaine de gouvernements lassés de la lenteur des COP, elle doit présenter cette semaine un rapport d'étape. L'Irlande et Tuvalu s'apprêtent à en prendre la tête après le départ de Bogota."
+        },
+        {
+          "title": "L'électrification",
+          "text": "La Turquie défend un engagement volontaire visant à porter la part de l'électricité dans la consommation finale d'énergie de 23 % à 35 % d'ici à 2035. Au moins quatorze pays l'ont soutenu, selon Climate Home News."
+        }
+      ],
+      "involved": [
+        "AUS",
+        "BRA",
+        "COL"
+      ],
+      "context": [
+        {
+          "d": "2023-12",
+          "t": "À la COP28, près de 200 pays s'accordent pour une transition hors des énergies fossiles, sans calendrier contraignant."
+        },
+        {
+          "d": "2025-11",
+          "t": "La COP30, à Belém, crée un mécanisme pour une transition juste."
+        },
+        {
+          "d": "2026-04",
+          "t": "Première conférence de la coalition pour la sortie des énergies fossiles, à Santa Marta."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Séance plénière de mi-parcours à Antalya ; le G77 rejette le texte sur la finance."
+        },
+        {
+          "d": "2026-11-20",
+          "t": "Clôture prévue de la COP31."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Climate Home News",
+          "title": "COP31 Bulletin Day 6: Climate marchers call for justice as talks make limited progress",
+          "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Réseau Action Climat",
+          "title": "State of Play from Antalya: COP31 Midway Media Brief",
+          "url": "https://climatenetwork.org/2026/11/15/state-of-play-from-antalya-cop31-midway-media-brief/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Morning Star",
+          "title": "Coalition to move away from fossil fuels presses ahead without founding member Colombia",
+          "url": "https://morningstaronline.co.uk/article/cop31-coalition-move-away-fossil-fuels-presses-ahead-without-founding-member-colombia",
+          "date": "2026-11-15"
+        }
+      ],
+      "dossier": {
+        "id": "cop31",
+        "title": "La COP31 à Antalya"
+      },
+      "slug": "mi-parcours-cop31-finance-climatique-divise-pays-riches"
+    },
+    {
+      "rank": 5,
+      "id": "SDN",
+      "place": "Soudan",
+      "section": "Afrique",
+      "radar": true,
+      "types": [
+        "conflict",
+        "disaster"
+      ],
+      "title": "Au Soudan, l'armée reprend du terrain au Kordofan, où les frappes de drones tuent des civils",
+      "standfirst": "L'armée soudanaise et ses alliés darfouris ont repris plusieurs localités du Kordofan-Occidental et desserré l'étau sur El-Obeid. Les civils paient le prix de cette offensive, sous les drones et les attaques des paramilitaires.",
+      "body": [
+        "L'armée soudanaise et les forces darfouries qui lui sont alliées ont repris ces derniers jours plusieurs localités stratégiques du Kordofan-Occidental, dont Al-Khouaï, rompant le siège qu'imposaient les Forces de soutien rapide à El-Obeid, capitale du Kordofan-Septentrional, selon Al Jazeera.",
+        "Les paramilitaires du général Hemetti tiennent encore En-Nahoud, ville aurifère où ils ont tué dix civils depuis jeudi selon un groupe de secours local cité par l'agence Anadolu, tandis que des frappes de drones ont tué au moins quinze civils dans la région ces derniers jours, d'après le média soudanais Darfur24.",
+        "Des analystes cités par Al Jazeera s'attendent à ce que les paramilitaires se replient vers le Darfour, leur base tribale, alors que l'ONU désigne le Kordofan comme l'épicentre du conflit et que la plupart des opérations humanitaires y sont suspendues."
+      ],
+      "figure": {
+        "value": "≥ 15",
+        "label": "civils tués par des frappes de drones au Kordofan-Occidental, selon Darfur24",
+        "compare": "et treize véhicules civils détruits"
+      },
+      "since": {
+        "date": "2023-04-15",
+        "label": "depuis le début de la guerre"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "15",
+              "label": "civils tués par des frappes de drones au Kordofan-Occidental",
+              "by": "Darfur24",
+              "date": "2026-11-15",
+              "source": {
+                "name": "Darfur24",
+                "url": "https://darfur24.com/en/2026/11/15/drone-strikes-kill-15-civilians-in-sudans-west-kordofan/"
+              }
+            },
+            {
+              "value": "10",
+              "label": "civils tués par les FSR à En-Nahoud depuis jeudi",
+              "by": "un groupe de secours local, cité par Anadolu",
+              "date": "2026-11-15",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "El-Obeid",
+              "coords": [
+                30.22,
+                13.18
+              ],
+              "note": "Capitale du Kordofan-Septentrional, dont le siège a été rompu par l'offensive de l'armée."
+            },
+            {
+              "name": "En-Nahoud",
+              "coords": [
+                28.43,
+                12.7
+              ],
+              "note": "Deuxième ville du Kordofan-Occidental, encore tenue par les Forces de soutien rapide."
+            },
+            {
+              "name": "El-Fasher",
+              "coords": [
+                25.35,
+                13.63
+              ],
+              "note": "Capitale du Darfour-Septentrional, tombée aux mains des FSR en octobre 2025."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Armée soudanaise et Force conjointe",
+              "lead": "Abdel Fattah Al-Bourhane",
+              "ids": [
+                "SDN"
+              ],
+              "note": "Appuyée par des forces darfouries alliées, en pointe dans l'offensive au Kordofan."
+            },
+            {
+              "name": "Forces de soutien rapide",
+              "lead": "Mohamed Hamdan Daglo, dit Hemetti",
+              "ids": [
+                "SDN"
+              ],
+              "note": "Alliées dans le Kordofan-Méridional au SPLM-N d'Abdelaziz Al-Hilu."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "msf",
+            "wfp",
+            "unicef"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Le Kordofan, verrou entre Khartoum et le Darfour",
+        "text": "Après la chute d'El-Fasher en octobre 2025, les Forces de soutien rapide contrôlaient l'essentiel du Darfour et menaçaient El-Obeid, porte du centre du pays. La reprise de localités du Kordofan-Occidental ouvre à l'armée des routes vers Babanousa et le Darfour, et l'éloigne moins du cœur pétrolier du pays : selon l'économiste Mohamed al-Nayer, cité par Al Jazeera, les champs de Heglig et de Balila assurent 90 % de la production soudanaise, et la stabilité de la région conditionne aussi les exportations du Soudan du Sud. Les deux camps revendiquent tour à tour des victoires invérifiables, et plusieurs localités ont changé de mains à plusieurs reprises depuis le début du mois, selon Asharq Al-Awsat."
+      },
+      "keys": [
+        {
+          "title": "Des revendications contradictoires",
+          "text": "Le porte-parole de la Force conjointe alliée à l'armée affirme avoir repris début novembre quatre localités et détruit 40 véhicules de combat. Les médias proches des paramilitaires assurent au contraire avoir repoussé l'armée vers El-Obeid."
+        },
+        {
+          "title": "Les civils pris pour cible",
+          "text": "Selon Darfur24, des drones ont frappé ces derniers jours une voiture de passagers, un marché de carburant à Foga, un convoi de produits agricoles et un tricycle motorisé. Des enfants figurent parmi les victimes."
+        }
+      ],
+      "involved": [],
+      "context": [
+        {
+          "d": "2023-04-15",
+          "t": "Début de la guerre entre l'armée et les Forces de soutien rapide."
+        },
+        {
+          "d": "2025-10",
+          "t": "Chute d'El-Fasher, dernier bastion de l'armée au Darfour."
+        },
+        {
+          "d": "2026-11-05",
+          "t": "L'armée lance des attaques simultanées au Kordofan-Septentrional et Occidental."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Al Jazeera fait état de la prise d'Al-Khouaï et de la levée du siège d'El-Obeid."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "How SAF successes in Sudan's Kordofan could turn tide against the RSF",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Darfur24",
+          "title": "Drone Strikes Kill 15 Civilians in Sudan's West Kordofan",
+          "url": "https://darfur24.com/en/2026/11/15/drone-strikes-kill-15-civilians-in-sudans-west-kordofan/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Asharq Al-Awsat",
+          "title": "Sudanese Army, RSF Clash in Fierce Battles in Kordofan",
+          "url": "https://english.aawsat.com/arab-world/5338514-sudanese-army-rsf-clash-fierce-battles-kordofan",
+          "date": "2026-11-07"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 15, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489",
+          "date": "2026-11-15"
+        }
+      ],
+      "dossier": {
+        "id": "guerre-soudan",
+        "title": "La guerre au Soudan"
+      },
+      "slug": "soudan-armee-reprend-terrain-kordofan-frappes-drones-tuent"
+    }
+  ],
+  "brief": [
+    {
+      "id": "ISR",
+      "place": "Israël",
+      "text": "Des proches de Benyamin Nétanyahou ont fait savoir à l'équipe de Gadi Eisenkot que le Likoud accepterait un gouvernement d'union sans le parti d'Itamar Ben-Gvir, selon le quotidien Israel Hayom, ce que le Likoud dément.",
+      "url": "https://www.aa.com.tr/en/middle-east/netanyahu-allies-open-door-to-unity-government-without-ben-gvir-s-party-report/4126088"
+    },
+    {
+      "id": "HUN",
+      "place": "Hongrie",
+      "text": "Près de 20 millions de dollars en liquide ont été découverts, cachés dans des fermes et enterrés en forêt, dans l'enquête visant Miklos Sesztak, ancien ministre de Viktor Orban accusé de corruption, qui conteste.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-58"
+    },
+    {
+      "id": "ITA",
+      "place": "Italie",
+      "text": "L'autorité italienne de protection des données a infligé à Meta une amende de 805 millions d'euros pour avoir accédé aux photos et vidéos d'utilisateurs d'Android sans leur consentement ; le groupe annonce un recours.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
+    },
+    {
+      "id": "USA",
+      "place": "États-Unis",
+      "text": "Le contrôle aérien américain est stabilisé après une panne nationale, selon l'Administration fédérale de l'aviation, mais les compagnies prévoyaient d'annuler 4 000 à 5 000 des quelque 41 000 vols programmés.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-17",
+      "t": "Sommet spécial entre l'ASEAN et les États-Unis à Manille, en présence de Donald Trump."
+    },
+    {
+      "d": "2026-11-17",
+      "t": "Élection du président de la Knesset, en Israël."
+    },
+    {
+      "d": "2026-11-19",
+      "t": "Rencontre Trump-Xi-Poutine à Shenzhen, en marge du sommet de l'APEC."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Clôture prévue de la COP31, à Antalya."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Conseil européen de deux jours, consacré notamment aux besoins de financement de l'Ukraine pour 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Élections législatives anticipées en Espagne."
+    }
+  ],
+  "consulted": [
+    "Reuters",
+    "Associated Press",
+    "Al Jazeera",
+    "Anadolu",
+    "The National",
+    "Kyiv Independent",
+    "The Philippine Star",
+    "Philippine News Agency",
+    "Climate Home News",
+    "Réseau Action Climat",
+    "Morning Star",
+    "Darfur24",
+    "Asharq Al-Awsat"
+  ]
+}

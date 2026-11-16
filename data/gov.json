@@ -31,7 +31,7 @@
         "name_en": "Masoud Pezeshkian"
       }
     ],
-    "checked": "2026-11-15",
+    "checked": "2026-11-16",
     "source": {
       "name": "CBS News",
       "name_en": "CBS News",
@@ -48,11 +48,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-15",
+    "checked": "2026-11-16",
     "source": {
-      "name": "Al Jazeera",
-      "name_en": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato"
+      "name": "Associated Press, via ABC News",
+      "name_en": "Associated Press, via ABC News",
+      "url": "https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524"
     },
     "regime_en": "Semi-presidential republic, under martial law"
   },
@@ -94,10 +94,11 @@
         "role_en": "Prime Minister"
       }
     ],
-    "checked": "2026-11-05",
+    "checked": "2026-11-16",
     "source": {
-      "name": "The National",
-      "url": "https://www.thenationalnews.com/news/mena/2026/06/29/sudans-army-aligned-prime-minister-under-fire-for-worsening-services/"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
     },
     "regime_en": "Military-led transitional rule, in civil war"
   },
@@ -280,11 +281,11 @@
         "name": "Recep Tayyip Erdoğan"
       }
     ],
-    "checked": "2026-11-12",
+    "checked": "2026-11-16",
     "source": {
-      "name": "Reuters, via Al-Monitor",
-      "name_en": "Reuters, via Al-Monitor",
-      "url": "https://www.al-monitor.com/originals/2026/11/world-leaders-speak-cop31-climate-conference"
+      "name": "Anadolu",
+      "name_en": "Anadolu",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
     }
   },
   "MMR": {
@@ -496,6 +497,23 @@
       "name": "AllAfrica",
       "name_en": "AllAfrica",
       "url": "https://allafrica.com/stories/202611100607.html"
+    }
+  },
+  "PHL": {
+    "regime": "République présidentielle",
+    "regime_en": "Presidential republic",
+    "leaders": [
+      {
+        "role": "Président",
+        "role_en": "President",
+        "name": "Ferdinand Marcos Jr."
+      }
+    ],
+    "checked": "2026-11-16",
+    "source": {
+      "name": "The Philippine Star",
+      "name_en": "The Philippine Star",
+      "url": "https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17"
     }
   }
 }
