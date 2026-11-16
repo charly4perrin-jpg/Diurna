@@ -1,79 +1,267 @@
 {
-  "date": "2026-11-15",
-  "number": 11,
-  "updated": "2026-11-15T06:55:00+01:00",
-  "headline": "Washington links Ukraine's NATO membership to a withdrawal from the Donbas",
-  "standfirst": "Volodymyr Zelensky says American negotiators have, for the first time, tied Ukraine's entry into the alliance to giving up the Donbas, which he refuses to do without guarantees and a referendum. Donald Trump will meet Xi Jinping and Vladimir Putin in Shenzhen on Thursday to talk about nuclear weapons, Benjamin Netanyahu invokes the Iranian threat to demand a unity government, America loses its measles-free status, and diphtheria has killed more than 1,100 people in Nigeria this year.",
+  "date": "2026-11-16",
+  "number": 12,
+  "updated": "2026-11-16T07:10:00+01:00",
+  "headline": "Iran claims a drone attack on an American base in Bahrain",
+  "standfirst": "Bahrain sounded its first nationwide alerts since September on Sunday, as the Revolutionary Guards claimed to have targeted an American radar and said two tankers had struck mines near Hormuz. Volodymyr Zelensky protests against limits placed on Starshield, ASEAN and China fail to agree their maritime code of conduct, COP31 stalls on finance, and Sudan's army gains ground in Kordofan.",
   "essentials": [
     {
       "rank": 1,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "focus": [
+        53.5,
+        26.8
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "Iran claims a drone attack on an American base in Bahrain as Hormuz stays closed",
+      "standfirst": "The Revolutionary Guards say they launched six drones at an American radar on a Bahraini base, their second such claim in three days. Tehran also says two tankers struck mines near Hormuz, and is waiting for Washington to answer its conditions for ending the war.",
+      "body": [
+        "Iran's Islamic Revolutionary Guard Corps said on Sunday 15 November that it had launched six drones at an American air-defence radar at the Riffa base in Bahrain, where the interior ministry issued two alerts within three hours at dawn, the first nationwide warnings since September, Al Jazeera and The National report.",
+        "Bahrain's armed forces say they intercepted several Iranian attacks, with no damage confirmed, after America's military command denied an earlier claim on Friday; the Guards also say that two tankers sailing with their transponders switched off on an “unauthorised” route struck mines south of the Strait of Hormuz.",
+        "Mohammad Bagher Ghalibaf, the speaker of Iran's parliament and its chief negotiator, says he has passed seven conditions to Washington through Qatar, including an end to the blockade and a formal end to the war, while America keeps Iranian ports under blockade and tightens its sanctions."
+      ],
+      "figure": {
+        "value": "$92",
+        "label": "the price of a barrel of Brent crude on 11 November",
+        "compare": "against $71.66 on 26 February, before the war"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "since the war began"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "IRN",
+            "USA",
+            "QAT"
+          ],
+          "positions": [
+            {
+              "who": "Tehran",
+              "wants": "An end to the American naval blockade and to sanctions, the release of its frozen assets, a halt to hostilities on every front and a formal declaration that the war is over, according to Mohammad Bagher Ghalibaf."
+            },
+            {
+              "who": "Washington",
+              "wants": "To keep Iranian ports under blockade and tighten sanctions, the Trump administration having not yet formally answered the conditions passed on by the Qatari mediator."
+            },
+            {
+              "who": "Manama",
+              "wants": "Full implementation of Security Council Resolution 2817, which condemned Iran's attacks on Bahrain and other countries in the region."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A low-intensity war that could spiral",
+        "text": "The fighting has subsided, but no agreement has ended the war that began with American and Israeli strikes on 28 February: Iran still sporadically targets American bases in the Gulf, while Washington throttles its economy with the blockade. Friday's claim against Bahrain, home to the headquarters of America's Fifth Fleet, was the first aimed at American military installations in a Gulf state since early September, according to Reuters. Tehran insists that it alone, with Oman, controls the Strait of Hormuz, which America disputes. The danger now lies in miscalculation, argues Saeid Golkar, a political scientist quoted by Al Jazeera: limited exchanges can escalate at any moment."
+      },
+      "keys": [
+        {
+          "title": "The Saudi front",
+          "text": "The Saudi-led coalition says it intercepted two ballistic missiles fired by Yemen's Houthis towards Riyadh on Sunday, as well as three drones over the Eastern Province. Riyadh expressed its “full solidarity” with Bahrain."
+        },
+        {
+          "title": "The Gulf's bill",
+          "text": "The Arab Gulf monarchies demanded on Friday that Iran pay “full compensation” for the thousands of missiles and drones fired since February. They want the UN Security Council to hold Tehran to account."
+        },
+        {
+          "title": "Unverifiable claims",
+          "text": "The Guards have given neither the names, flags nor owners of the tankers, and no maritime authority has confirmed the explosions. They also claim to have shot down an American MQ-1 drone over Qeshm island."
+        }
+      ],
+      "involved": [
+        "USA",
+        "QAT",
+        "SAU"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        },
+        {
+          "id": "RIFFA",
+          "name": "Riffa (Bahrain)",
+          "coords": [
+            50.56,
+            26.13
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "War breaks out between America, Israel and Iran."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "The Guards claim to have destroyed an American radar in Bahrain, which Washington denies."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Two tankers strike mines south of Hormuz, according to the Guards' navy."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "Nationwide alerts in Bahrain; Tehran claims a six-drone attack on the Riffa base."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Election of the Knesset's speaker in Israel."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Iran says it targets US radar in Bahrain. What do we know?",
+          "url": "https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "The National",
+          "title": "Bahrain intercepts Iranian attacks after first nationwide alert in months",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Morning Briefing: Nov. 15, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489",
+          "date": "2026-11-15"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "iran-claims-drone-attack-american-base-bahrain-hormuz"
+    },
+    {
+      "rank": 2,
       "id": "UKR",
       "place": "Ukraine",
       "section": "Europe",
       "radar": false,
       "types": [
-        "diplomacy",
-        "conflict"
+        "conflict",
+        "diplomacy"
       ],
-      "title": "America floats NATO membership for Ukraine in exchange for a withdrawal from the Donbas",
-      "standfirst": "According to Volodymyr Zelensky, American negotiators have for the first time linked his country's accession to the Atlantic alliance to giving up the parts of the Donbas that Kyiv still holds. Ukraine's president rejects any cession of territory, but says he is ready to consult Ukrainians if offered a complete package of guarantees.",
+      "title": "Zelensky says Starshield restrictions are weakening the defence of Ukraine's power grid",
+      "standfirst": "Ukraine's president says speed limits on the terminals of SpaceX's system stop his interceptor drones from downing Russian Shaheds. Strikes on each other's energy infrastructure continue as winter approaches.",
       "body": [
-        "In remarks released by his office on Saturday 14 November, Ukraine's president, Volodymyr Zelensky, said American negotiators had asked him whether Ukraine would withdraw from the Donbas in exchange for NATO membership, the first time, in his account, that the alliance has been tied to territorial concessions, Al Jazeera reports.",
-        "The areas in question are those Russia does not control, and Mr Zelensky refused to give them up, while saying he would put the matter to a referendum if America and its allies offered security guarantees, a funded army and a reconstruction plan; Vladimir Putin regards Ukraine's membership as a red line.",
-        "Kyiv now awaits details: Washington talks of guarantees resembling Articles 4 and 5 of the North Atlantic Treaty, but with no American troops on Ukrainian soil, according to the Kyiv Independent, while the Europeans have chosen five countries to represent them in future negotiations."
+        "Ukraine's president, Volodymyr Zelensky, said on Sunday 15 November that speed limits on Starshield terminals, the military version of SpaceX's Starlink network, were preventing his interceptor drones from shooting down Russia's jet-powered Shaheds, and told his ministries to negotiate with Washington and the company, the Associated Press reports.",
+        "By his account, the interceptors lose contact with their operators above 161km/h along the front and over occupied territory, letting through drones aimed at electrical substations, while Russia fired more than 2,300 attack drones, 1,590 glide bombs and 15 missiles in a single week.",
+        "A Russian strike on Chornomorsk, near Odesa, cut power to some 41,000 customers, while Ukraine's general staff claims strikes on the Akhtubinsk military airfield and on industrial sites in Nizhnekamsk, in Tatarstan, more than 1,000 kilometres from Ukraine."
       ],
       "figure": {
-        "value": "1,200",
-        "label": "Ukrainian drones launched at Russia, according to the Russian authorities on Friday",
-        "compare": "with oil infrastructure among the targets"
+        "value": "161 km/h",
+        "label": "the speed above which interceptor drones lose their Starshield link, according to Kyiv",
+        "compare": "too slow to catch jet-powered Shaheds"
       },
       "since": {
         "date": "2022-02-24",
         "label": "since the full-scale invasion"
       },
       "modules": {
-        "table": {
-          "ids": [
-            "UKR",
-            "USA",
-            "RUS"
-          ],
-          "positions": [
+        "toll": {
+          "items": [
             {
-              "who": "Washington",
-              "wants": "To know whether Ukraine would leave the Donbas in exchange for NATO membership, with bilateral guarantees comparable to those Israel enjoys, but without American troops."
+              "value": "4",
+              "label": "civilians killed in Ukraine in a single day",
+              "by": "regional authorities, compiled by the Kyiv Independent",
+              "date": "2026-11-15"
             },
             {
-              "who": "Kyiv",
-              "wants": "Guarantees from NATO and the EU amounting “at a minimum” to Article 5, a strong army and a funded reconstruction plan, before any consultation of Ukrainians."
+              "value": "69",
+              "label": "civilians wounded in Ukraine in a single day",
+              "by": "regional authorities, compiled by the Kyiv Independent",
+              "date": "2026-11-15"
+            },
+            {
+              "value": "132",
+              "label": "attack drones launched by Russia overnight, 106 of them intercepted",
+              "by": "Ukraine's air force",
+              "date": "2026-11-15"
             }
           ],
-          "next": {
-            "d": "2026-11-26",
-            "t": "European Council meeting, with Ukraine's financing for 2027 high on the agenda."
-          },
           "source": {
             "name": "Kyiv Independent",
-            "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/"
+            "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Chornomorsk",
+              "coords": [
+                30.66,
+                46.3
+              ],
+              "note": "A port in Odesa region, where a strike hit a DTEK facility and wounded six people."
+            },
+            {
+              "name": "Akhtubinsk",
+              "coords": [
+                46.18,
+                48.28
+              ],
+              "note": "A Russian flight-test airfield some 650km from Kyiv-controlled territory, struck according to Ukraine's general staff."
+            },
+            {
+              "name": "Nizhnekamsk",
+              "coords": [
+                51.82,
+                55.64
+              ],
+              "note": "An industrial city in Tatarstan whose refinery and petrochemical complex were targeted, according to Kyiv."
+            }
+          ],
+          "source": {
+            "name": "Kyiv Independent",
+            "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/"
           }
         }
       },
       "analysis": {
-        "title": "A taboo lifted in Washington",
-        "text": "Since 2022 Ukraine's membership of NATO has been the one point on which Moscow will not bend, and Washington had kept it out of the talks. Tying that prospect to a withdrawal from the Donbas amounts to offering Kyiv protection in exchange for territory, a bargain Mr Zelensky does not reject outright but makes conditional on precise commitments. He nonetheless rules out neutrality, which would require amending the constitution, and refuses any arrangement that recognises the occupied territories as Russian. It remains unclear whether the American offer binds the other allies, whose unanimity any accession requires, and whether the Kremlin would accept Ukraine in the alliance, even a diminished one. Mr Zelensky himself says he is still waiting for “details”."
+        "title": "A dependency turned into leverage",
+        "text": "Ukraine's army relies on both commercial Starlink and Starshield, which the Kyiv Independent credits for the success of its strikes on Russian logistics at medium range. That the terminals are throttled precisely over occupied territory gives the matter a political edge: Mr Zelensky sees it as a partial acknowledgment that those areas are not Ukrainian, and doubts that the limit is purely technical, even though America's secretary of state, Marco Rubio, had assured him that Starshield was more a matter for the American government. The restriction comes as Moscow concentrates its Shaheds on electrical substations, as in previous winters, and as Washington discusses a territorial compromise in the Donbas with Kyiv."
       },
       "keys": [
         {
-          "title": "The Abu Dhabi talks",
-          "text": "Ukrainian and Russian representatives negotiated in Abu Dhabi on 10 and 11 November under American mediation, without a major breakthrough. A prisoner exchange involving more than 1,000 people was agreed there, according to Reuters."
+          "title": "The response in Congress",
+          "text": "The bipartisan Ukraine caucus in the American Congress has demanded a full explanation from the Trump administration and SpaceX. It wants full Starshield access restored to Ukraine's armed forces immediately."
         },
         {
-          "title": "A truce offered in Kostiantynivka",
-          "text": "Vladimir Putin has suggested a local humanitarian ceasefire in this Donbas town, which in Mr Zelensky's view shows that the Russian army cannot take it. Ukraine's president also says the Kremlin's leader does not support a truce on strikes against energy facilities."
+          "title": "Ukraine's strikes in Russia",
+          "text": "Moscow says it shot down 533 Ukrainian drones in one night over 13 regions, Crimea and the Black and Azov seas. In Rostov region two substations were damaged and an engineer killed, according to the governor."
         },
         {
-          "title": "Europe at the table",
-          "text": "America's envoys, Steve Witkoff and Jared Kushner, assured Mr Zelensky in Ireland on Thursday that all parties accepted a role for Europe. It will be represented by the EU's institutions and by Britain, France, Germany, Italy and Poland."
+          "title": "The American proposal",
+          "text": "Mr Zelensky revealed that Washington had floated NATO membership for Ukraine in exchange for a withdrawal from the Donbas. He demands guarantees at least equivalent to Article 5 and refuses to recognise any occupied territory as Russian."
         }
       ],
       "involved": [
@@ -87,15 +275,15 @@
         },
         {
           "d": "2026-11-11",
-          "t": "Two days of Russian-Ukrainian talks end in Abu Dhabi, under American mediation."
+          "t": "Two days of Russian-Ukrainian talks in Abu Dhabi, mediated by America, come to an end."
         },
         {
           "d": "2026-11-13",
-          "t": "In Dublin, the Europeans name five countries to represent them in the negotiations."
+          "t": "Volodymyr Zelensky calls the Starshield restrictions over occupied territory “very dangerous”."
         },
         {
-          "d": "2026-11-14",
-          "t": "Volodymyr Zelensky reveals the American proposal linking NATO to a withdrawal from the Donbas."
+          "d": "2026-11-15",
+          "t": "Ukraine's president asks for the restrictions to be lifted before winter; a strike hits the power grid in Odesa region."
         },
         {
           "d": "2026-11-26",
@@ -104,646 +292,535 @@
       ],
       "sources": [
         {
-          "name": "Al Jazeera, avec Reuters et AP",
-          "name_en": "Al Jazeera, with Reuters and AP",
-          "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
-          "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato",
-          "date": "2026-11-14"
+          "name": "Associated Press, via ABC News",
+          "title": "Zelenskyy warns Starshield restrictions threaten Ukraine's energy defenses",
+          "url": "https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524",
+          "date": "2026-11-15"
         },
         {
           "name": "Kyiv Independent",
-          "title": "US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says",
-          "url": "https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/",
-          "date": "2026-11-14"
+          "title": "Starshield restrictions hamper Ukraine's ability to defend energy infrastructure from Russian drones, Zelensky says",
+          "url": "https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/",
+          "date": "2026-11-15"
         },
         {
-          "name": "Reuters, via ABC",
-          "title": "US has raised idea of NATO membership for Ukraine, Volodymyr Zelenskyy says",
-          "url": "https://home.nzcity.co.nz/news/article.aspx?id=458008",
-          "date": "2026-11-14"
-        },
-        {
-          "name": "CNN",
-          "title": "US floated idea of Ukraine swapping land for NATO membership, Zelensky says",
-          "url": "https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl",
-          "date": "2026-11-14"
+          "name": "Kyiv Independent",
+          "title": "Ukraine war latest: Russia launches mass attack on Odesa Oblast as Ukraine strikes airfield, drone launch site in Russia",
+          "url": "https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/",
+          "date": "2026-11-15"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "america-floats-nato-membership-ukraine-exchange-withdrawal-donbas"
+      "slug": "zelensky-says-starshield-restrictions-weakening-defence-ukraine-power"
     },
     {
-      "rank": 2,
-      "id": "CHN",
-      "place": "China",
+      "rank": 3,
+      "id": "PHL",
+      "place": "Philippines",
       "section": "Asia-Pacific",
       "focus": [
-        114.06,
-        22.54
+        120.98,
+        14.6
       ],
       "radar": false,
       "types": [
         "diplomacy"
       ],
-      "title": "Trump, Xi and Putin to meet in Shenzhen on Thursday for a first three-way nuclear summit",
-      "standfirst": "The White House has confirmed an unprecedented meeting of the American, Chinese and Russian presidents on the sidelines of the APEC summit, focused on cutting nuclear arsenals. Washington expects no agreement, and Ukraine will not be on the agenda.",
+      "title": "ASEAN and China fail to conclude their code of conduct for the South China Sea",
+      "standfirst": "Meeting in Manila, South-East Asian countries could not finish the text promised for 2026 with Beijing, though some 80% of it has been provisionally agreed. The Philippine chair hands the file to Singapore, before Donald Trump arrives on Tuesday.",
       "body": [
-        "The White House's deputy press secretary, Olivia Wales, announced on Friday 13 November that Donald Trump would meet Xi Jinping and Vladimir Putin in Shenzhen on Thursday 19 November, on the sidelines of the APEC summit, to discuss reducing nuclear weapons worldwide, Al Jazeera reports.",
-        "The New START treaty, which capped the Russian and American arsenals, expired in February after Mr Trump declined a one-year extension in order to demand a new deal that includes China, which argues that Washington and Moscow, with far bigger stockpiles, should negotiate between themselves.",
-        "A senior American official warns that no agreement is expected and speaks of the start of a conversation, with the president due to raise the war with Iran but not Ukraine, while Volodymyr Zelensky fears a repeat of the Yalta conference and a carve-up into spheres of influence."
+        "The Philippines' foreign secretary, Ma. Theresa Lazaro, acknowledged on Sunday 15 November, on the sidelines of the 49th ASEAN summit in Manila, that the bloc and China had not concluded a code of conduct for the South China Sea, despite provisional agreement on about 80% of the draft's paragraphs, Reuters reports.",
+        "Still unresolved are whether the text will be legally binding and what area it will cover, with Beijing claiming almost all of a sea through which half the world's merchant ships pass, despite a 2016 arbitral ruling it rejects, against rival claims from the Philippines, Vietnam, Malaysia, Brunei and Indonesia.",
+        "Singapore, which takes over the ASEAN chair next year, inherits a text that has been under negotiation for more than two decades, while Donald Trump is due in Manila on Tuesday for a special ASEAN-US summit before heading to Shenzhen for APEC."
       ],
       "figure": {
-        "value": "9 months",
-        "label": "since the Russian-American New START treaty expired in February",
-        "compare": "leaving the two biggest arsenals uncapped for the first time in more than 50 years"
+        "value": "80%",
+        "label": "of the draft code's paragraphs provisionally agreed, according to Manila",
+        "compare": "after more than two decades of talks"
       },
       "modules": {
         "table": {
           "ids": [
-            "USA",
+            "PHL",
             "CHN",
-            "RUS"
+            "VNM",
+            "MYS"
           ],
-          "host": "CHN",
+          "host": "PHL",
           "positions": [
             {
-              "who": "Washington",
-              "wants": "To open a discussion on cutting nuclear weapons and see China “step up”, without expecting an agreement in Shenzhen."
+              "who": "Manila",
+              "wants": "A code that respects the rights of countries outside the region, according to the foreign ministry's spokesman, Dominic Xavier Imperial, with Ms Lazaro calling the document 80% complete."
             },
             {
               "who": "Beijing",
-              "wants": "To let America and Russia, whose stockpiles are far larger, negotiate directly with each other, China having so far refused to put its own programme on the table."
-            },
-            {
-              "who": "Kyiv",
-              "wants": "To avoid a Yalta-style “division of spheres of influence”, according to Volodymyr Zelensky, who fears a deal struck without Ukraine."
-            }
-          ],
-          "next": {
-            "d": "2026-11-19",
-            "t": "Three-way summit in Shenzhen, after a working lunch between Donald Trump and Xi Jinping."
-          },
-          "source": {
-            "name": "Dawn",
-            "url": "https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin"
-          }
-        }
-      },
-      "analysis": {
-        "title": "China, outside the arms-control treaties",
-        "text": "For half a century nuclear arms control rested on a dialogue between Washington and Moscow, which hold most of the planet's warheads; China, the third nuclear power according to the Stockholm International Peace Research Institute, has never accepted numerical limits. By letting New START lapse without an extension, Donald Trump made Beijing's inclusion a condition of any new treaty. The three-way format in Shenzhen is therefore above all a diplomatic gamble: an attempt to bring China to a table it has always avoided, on its own soil and during a summit it wanted to devote to trade. America's insistence on nuclear weapons has irritated Beijing, according to Dawn, a Pakistani daily."
-      },
-      "keys": [
-        {
-          "title": "The itinerary",
-          "text": "Donald Trump leaves on Monday for Manila, which hosts an ASEAN summit and a meeting of Quad leaders, before flying to Shenzhen on Wednesday. He will lunch with Xi Jinping on Thursday, but no one-to-one meeting with Vladimir Putin is planned."
-        },
-        {
-          "title": "The Kremlin's response",
-          "text": "The Kremlin's spokesman, Dmitry Peskov, called the meeting “extremely important” and rejected the comparison with Yalta. Agreements reached in Shenzhen could not, in his view, be imposed on other countries."
-        }
-      ],
-      "involved": [
-        "USA",
-        "RUS"
-      ],
-      "zones": [
-        {
-          "id": "SHENZHEN",
-          "name": "Shenzhen",
-          "coords": [
-            114.06,
-            22.54
-          ]
-        }
-      ],
-      "context": [
-        {
-          "d": "2026-02",
-          "t": "New START, the last treaty limiting the Russian and American arsenals, expires."
-        },
-        {
-          "d": "2026-09-24",
-          "t": "Xi Jinping visits Washington."
-        },
-        {
-          "d": "2026-11-13",
-          "t": "The White House confirms the three-way summit in Shenzhen."
-        },
-        {
-          "d": "2026-11-16",
-          "t": "Donald Trump begins his Asian tour in Manila."
-        },
-        {
-          "d": "2026-11-19",
-          "t": "Trump, Xi and Putin meet in Shenzhen, on the sidelines of APEC."
-        }
-      ],
-      "sources": [
-        {
-          "name": "Al Jazeera, avec AP et Reuters",
-          "name_en": "Al Jazeera, with AP and Reuters",
-          "title": "Trump, Xi and Putin to hold first three-way summit in China",
-          "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china",
-          "date": "2026-11-14"
-        },
-        {
-          "name": "Dawn",
-          "title": "Trump to broach nuclear cuts with Xi, Putin",
-          "url": "https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin",
-          "date": "2026-11-15"
-        },
-        {
-          "name": "Anadolu",
-          "title": "Morning Briefing: Nov. 14, 2026",
-          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
-          "date": "2026-11-14"
-        }
-      ],
-      "dossier": {
-        "id": "trump-xi-putin-summit",
-        "title": "The Trump-Xi-Putin summit"
-      },
-      "slug": "trump-xi-putin-meet-shenzhen-thursday-first-three"
-    },
-    {
-      "rank": 3,
-      "id": "IRN",
-      "place": "Iran",
-      "section": "Middle East",
-      "radar": false,
-      "types": [
-        "conflict",
-        "diplomacy",
-        "economy"
-      ],
-      "title": "Netanyahu invokes the Iranian threat to demand a unity government as Washington bets on pressure",
-      "standfirst": "Israel's outgoing prime minister is urging Gadi Eisenkot to form a unity government with him capable of “eliminating” the Iranian threat, an offer his rival promptly rejected. American intelligence reckons Tehran still has thousands of missiles, while Washington sees no need for a fresh offensive.",
-      "body": [
-        "In a video statement released on Saturday 14 November, Israel's outgoing prime minister, Benjamin Netanyahu, called on Gadi Eisenkot, who has been asked to form the next government, to join him in a national-unity government to remove the Iranian threat “once and for all”, an offer Mr Eisenkot dismissed within minutes, Al Jazeera reports.",
-        "The head of Mossad, Roman Gofman, met the CIA's director, John Ratcliffe, in Washington to seek American backing for new strikes, according to Haaretz, just as the Wall Street Journal, citing American intelligence, estimated that Iran retains between 1,500 and 2,500 missiles despite the bombing.",
-        "America's secretary of state, Marco Rubio, has nonetheless said fresh military action is unnecessary because the economic pressure on Tehran is considerable, while the Knesset elects its speaker on Tuesday and Mr Eisenkot has 28 days, extendable by 14, to form a coalition."
-      ],
-      "figure": {
-        "value": "1,500–2,500",
-        "label": "missiles Iran may retain, according to American intelligence cited by the WSJ",
-        "compare": "an estimate its authors consider uncertain"
-      },
-      "since": {
-        "date": "2026-02-28",
-        "label": "since the war began"
-      },
-      "modules": {
-        "table": {
-          "ids": [
-            "ISR",
-            "IRN",
-            "USA"
-          ],
-          "positions": [
-            {
-              "who": "Benjamin Netanyahu",
-              "wants": "A national-unity government with Gadi Eisenkot, without preconditions, to put an end to the Iranian threat."
-            },
-            {
-              "who": "Gadi Eisenkot",
-              "wants": "A minority “national emergency government”, open to Likud provided it breaks with the supporters of Itamar Ben-Gvir."
+              "wants": "A “rational and unified” voice from the Philippines, China's foreign minister, Wang Yi, having asked Manila to rein in its politicians."
             }
           ],
           "next": {
             "d": "2026-11-17",
-            "t": "Election of the Knesset's speaker."
+            "t": "Special ASEAN-US summit in Manila, attended by Donald Trump."
           },
           "source": {
             "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security"
-          }
-        },
-        "market": {
-          "series": "brent",
-          "from": "2026-01-01",
-          "mark": {
-            "d": "2026-02-28",
-            "label": "War begins"
+            "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather"
           }
         }
       },
       "analysis": {
-        "title": "The bet on economic pressure",
-        "text": "Washington has so far preferred sanctions and a blockade to a new military campaign, and the Gulf monarchies, which fear Iranian retaliation, are encouraging it. The American intelligence estimate complicates that choice: even at its low end, Iran would have rebuilt more than half of its pre-war arsenal, according to a former Pentagon official quoted by Anadolu. Israel's chief worry is a deal between Washington and Tehran that eases the pressure without addressing the nuclear programme or the missiles. Israel's political calendar matters too: defeated in the election of 27 October, Mr Netanyahu heads only a caretaker government, and the general staff sees no imminent threat that would justify resuming the war in the coming weeks, according to KAN, the public broadcaster."
+        "title": "A text hostage to Sino-Philippine relations",
+        "text": "In 2023 ASEAN and Chinese foreign ministers gave themselves three years to reach a deal, a deadline that fell during the Philippine chairmanship. But Manila, locked in an open dispute with Beijing over the reefs it claims, was awkwardly placed: a strong text would have looked imposed on China, a weak one would have damaged Ferdinand Marcos Jr's government, says Aries Arugay, a political scientist quoted by Al Jazeera. Relations have soured in recent months, amid insults traded between the defence secretary, Gilberto Teodoro, who is barred from entering China, and China's ambassador in Manila. Divisions within ASEAN, notably over the scope of the code, also weigh, according to Collin Koh, a Singaporean researcher quoted by Reuters."
       },
       "keys": [
         {
-          "title": "The Knesset arithmetic",
-          "text": "Mr Netanyahu's right-wing and religious bloc won 53 of the 120 seats, Mr Eisenkot's 48, and the Arab parties a record 19. Mr Eisenkot, nominated by 67 members to form the government, is counting on Arab and ultra-Orthodox parties to abstain."
+          "title": "The one settled point",
+          "text": "Of the four main areas of disagreement, negotiators settled only how the code relates to the 2002 declaration, whose principles it is to incorporate. Ms Lazaro says she is leaving Singapore a document “almost 80% complete”."
         },
         {
-          "title": "A sceptical rival",
-          "text": "Gadi Eisenkot says Mr Netanyahu “knows he lost the election” and that his appeals do not work on him. He had not been told about the Mossad chief's visit to Washington, according to Israel's Channel 12."
+          "title": "The summit's other results",
+          "text": "Leaders signed ASEAN's digital economy framework agreement and a memorandum of understanding on a regional power grid. They also adopted a declaration on the fair recruitment of migrant workers."
         }
       ],
       "involved": [
-        "ISR",
+        "CHN",
         "USA"
       ],
       "zones": [
         {
-          "id": "HORMUZ",
-          "name": "Hormuz",
+          "id": "MANILLE",
+          "name": "Manila",
           "coords": [
-            56.4,
-            26.5
+            120.98,
+            14.6
           ]
         }
       ],
       "context": [
         {
-          "d": "2026-02-28",
-          "t": "War breaks out between America, Israel and Iran."
+          "d": "2002-11-04",
+          "t": "ASEAN and China sign a declaration on the conduct of parties in the South China Sea."
         },
         {
-          "d": "2026-10-27",
-          "t": "Benjamin Netanyahu's bloc loses its majority in Israel's general election."
+          "d": "2016-07-12",
+          "t": "An arbitral tribunal finds China's claims have no basis in international law, a ruling Beijing rejects."
         },
         {
-          "d": "2026-11-12",
-          "t": "Benjamin Netanyahu and Gadi Eisenkot discuss a possible resumption of strikes on Iran."
+          "d": "2023-07",
+          "t": "ASEAN and China give themselves three years to conclude the code of conduct."
         },
         {
-          "d": "2026-11-14",
-          "t": "Mr Netanyahu calls for a unity government; Marco Rubio deems a new offensive unnecessary."
+          "d": "2026-11-15",
+          "t": "Manila acknowledges that the talks have failed under its chairmanship."
         },
         {
           "d": "2026-11-17",
-          "t": "The Knesset elects its speaker."
+          "t": "Special ASEAN-US summit in Manila."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera, avec AFP",
-          "name_en": "Al Jazeera, with AFP",
-          "title": "Netanyahu says only a unity government can guarantee Israel's security",
-          "url": "https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security",
-          "date": "2026-11-14"
-        },
-        {
-          "name": "Anadolu",
-          "title": "Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media",
-          "url": "https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854",
-          "date": "2026-11-14"
-        },
-        {
-          "name": "Anadolu, d'après le Wall Street Journal",
-          "name_en": "Anadolu, citing the Wall Street Journal",
-          "title": "US intel estimates Iran retains up to 2,500 missiles despite war damage: Report",
-          "url": "https://www.aa.com.tr/en/americas/us-intel-estimates-iran-retains-up-to-2-500-missiles-despite-war-damage-report/4125478",
+          "name": "Reuters, via ThePrint",
+          "title": "ASEAN, China fail to conclude South China Sea code of conduct",
+          "url": "https://theprint.in/world/asean-china-fail-to-conclude-south-china-sea-code-of-conduct/3099511/",
           "date": "2026-11-15"
         },
         {
-          "name": "The Times of Israel",
-          "title": "Liveblog, November 14, 2026",
-          "url": "https://www.timesofisrael.com/liveblog-november-14-2026/",
-          "date": "2026-11-14"
+          "name": "Al Jazeera",
+          "title": "Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather",
+          "url": "https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "The Philippine Star",
+          "title": "No final code of conduct on South China Sea – DFA",
+          "url": "https://www.philstar.com/headlines/2026/11/16/2570417/no-final-code-conduct-south-china-sea-dfa",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "The Philippine Star",
+          "title": "Donald Trump to join Marcos, ASEAN leaders for Manila summit on Nov. 17",
+          "url": "https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17",
+          "date": "2026-11-12"
         }
       ],
       "dossier": {
-        "id": "iran-war",
-        "title": "The Iran war"
+        "id": "south-china-sea",
+        "title": "Tensions in the South China Sea"
       },
-      "slug": "netanyahu-invokes-iranian-threat-demand-unity-government-washington"
+      "slug": "asean-china-fail-conclude-their-code-conduct-south"
     },
     {
       "rank": 4,
-      "id": "USA",
-      "place": "United States",
-      "section": "Americas",
+      "id": "TUR",
+      "place": "Turkey",
+      "section": "International",
       "radar": false,
       "types": [
-        "society"
+        "diplomacy",
+        "economy"
       ],
-      "title": "America loses its measles-elimination status after a string of outbreaks",
-      "standfirst": "The Pan American Health Organisation has concluded that the virus is once again circulating continuously in America, a quarter of a century after it was eliminated. Experts blame falling childhood vaccination, while the administration blames its predecessors.",
+      "title": "Halfway through COP31, climate finance still divides rich and developing countries",
+      "standfirst": "The developing countries' bloc rejected a text on climate finance as too weak in Antalya on Saturday, just as ministers take over from negotiators. The coalition to move away from fossil fuels presses on without Colombia, one of its founders.",
       "body": [
-        "The Pan American Health Organisation (PAHO), the WHO's regional arm, concluded this week that measles transmission had become established again in America, which thus loses its status as a country that has eliminated the disease, according to researchers quoted by KFF Health News, with an official announcement due on 17 November.",
-        "Elimination requires every outbreak to die out within a year, which has no longer been the case since a cluster in Utah crossed that threshold in June, following the west Texas outbreak that infected more than 4,500 people in America and Mexico in 2025.",
-        "Robert F. Kennedy Jr's health department attributes the situation to vaccination gaps that predate the current administration, while former officials at the Centers for Disease Control and Prevention say regaining elimination status is a distant prospect until the current outbreaks are contained."
+        "The Group of 77 and China on Saturday 14 November rejected in Antalya the latest text on the work programme for climate finance, calling it too weak, as COP31 enters its second week with the arrival of ministers, according to Climate Action Network.",
+        "African countries have made tripling adaptation finance to at least $120bn a year by 2035 their priority, but the European Union, Japan and Norway object to that benchmark, while the mechanism for a just transition amounts, for now, to a knowledge centre and an annual meeting.",
+        "Simon Stiell, the UN's climate chief, calls progress “constructive” and urges delegations to avoid stalling tactics before the scheduled close on Friday, while the coalition launched in Santa Marta to move away from fossil fuels carries on without Colombia, which left it after Abelardo de la Espriella's election."
       ],
       "figure": {
-        "value": "5,400",
-        "label": "measles cases reported in America in 2026, according to Anadolu",
-        "compare": "more than 8,000 infections and 830 hospitalisations in two years"
+        "value": "$2.8bn",
+        "label": "requested by 119 countries from the loss and damage fund",
+        "compare": "against roughly $600m received, according to Climate Action Network"
       },
       "modules": {
-        "actors": {
-          "items": [
+        "table": {
+          "ids": [
+            "TUR",
+            "AUS",
+            "CHN",
+            "JPN",
+            "NOR"
+          ],
+          "host": "TUR",
+          "positions": [
             {
-              "name": "PAHO",
-              "role": "Pan American Health Organisation, which based its finding on an analysis by the CDC and by independent experts"
+              "who": "G77 and China",
+              "wants": "A more ambitious text on climate finance, the one tabled on Saturday having been rejected as too weak, while obligations under Article 9.1 of the Paris agreement are once again in dispute."
             },
             {
-              "name": "Emily Hilliard",
-              "role": "Health department spokeswoman, who blames vaccination gaps on the years before the current administration"
+              "who": "EU, Japan and Norway",
+              "wants": "To drop references to tripling adaptation finance, and to avoid detailed guidance for the loss and damage fund, citing the independence of its board."
             },
             {
-              "name": "Anne Schuchat",
-              "role": "Former principal deputy director of the CDC, who speaks of a “very sad” moment"
-            },
-            {
-              "name": "Patsy Stinchfield",
-              "role": "Head of the Measles Collaborative, who accuses the federal government of no longer treating measles as a preventable tragedy"
+              "who": "Least developed countries",
+              "wants": "Resources that match the needs of the loss and damage fund, which has received requests for $2.8bn against roughly $600m in contributions."
             }
           ],
+          "next": {
+            "d": "2026-11-20",
+            "t": "Scheduled close of the negotiations."
+          },
           "source": {
-            "name": "KFF Health News, via NPR",
-            "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say"
-          }
-        },
-        "dates": {
-          "items": [
-            {
-              "d": "2025-01",
-              "t": "The west Texas outbreak begins, the largest since 1992."
-            },
-            {
-              "d": "2026-06",
-              "t": "A cluster in Utah passes a year of continuous transmission."
-            },
-            {
-              "d": "2026-11-17",
-              "t": "PAHO's official announcement is due."
-            }
-          ],
-          "source": {
-            "name": "KFF Health News, via NPR",
-            "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say"
-          }
-        }
-      },
-      "analysis": {
-        "title": "What losing the status means",
-        "text": "Elimination status does not mean the absence of cases, but the absence of continuous transmission for more than a year: infections imported from abroad then fizzle out on their own thanks to sufficient vaccination coverage. Losing it therefore reflects the virus taking hold in under-vaccinated communities, whose share has been growing since the covid-19 pandemic, according to CDC data. To regain the status, America will have to extinguish the current outbreaks and then prevent any new chain of transmission for a year. Experts quoted by KFF Health News also point to cuts in states' vaccination grants and to delays in publishing CDC reports, which staff attribute to political appointees, a claim the health department disputes."
-      },
-      "keys": [
-        {
-          "title": "The human toll",
-          "text": "States have reported thirteen measles-related deaths in recent months, including a seven-month-old baby in New York. The Texas outbreak killed at least sixteen people in the two countries."
-        },
-        {
-          "title": "Washington's response",
-          "text": "The health department says it has released some $100m in additional funds to fight outbreaks. The White House insists that the president and the health secretary have repeatedly encouraged vaccination."
-        }
-      ],
-      "involved": [
-        "MEX"
-      ],
-      "context": [
-        {
-          "d": "2025-01",
-          "t": "The west Texas outbreak spreads to Mexico and to at least three other states."
-        },
-        {
-          "d": "2026-06",
-          "t": "A cluster in Utah passes a year of transmission."
-        },
-        {
-          "d": "2026-11-13",
-          "t": "The American press reports the loss of elimination status."
-        },
-        {
-          "d": "2026-11-17",
-          "t": "PAHO's official announcement is expected."
-        }
-      ],
-      "sources": [
-        {
-          "name": "KFF Health News, via NPR",
-          "title": "US has lost measles elimination status, global health authorities say",
-          "url": "https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say",
-          "date": "2026-11-14"
-        },
-        {
-          "name": "CNN",
-          "title": "Measles: After 26 years, the US has lost its elimination status",
-          "url": "https://www.cnn.com/2026/11/13/health/us-measles-elimination-status",
-          "date": "2026-11-13"
-        },
-        {
-          "name": "Anadolu",
-          "title": "Morning Briefing: Nov. 14, 2026",
-          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
-          "date": "2026-11-14"
-        }
-      ],
-      "dossier": {
-        "id": "us-measles",
-        "title": "The return of measles in America"
-      },
-      "slug": "america-loses-measles-elimination-status-after-string-outbreaks"
-    },
-    {
-      "rank": 5,
-      "id": "NGA",
-      "place": "Nigeria",
-      "section": "Africa",
-      "radar": true,
-      "types": [
-        "disaster",
-        "society"
-      ],
-      "title": "In Nigeria, diphtheria has killed more than 1,100 people this year and antitoxin is running out",
-      "standfirst": "The worst diphtheria epidemic on record in the country has caused more than 28,000 confirmed cases, mostly among poorly vaccinated children. Médecins Sans Frontières warns that its stocks of the only effective treatment are “dangerously low”.",
-      "body": [
-        "Médecins Sans Frontières warned on Friday 13 November that its stocks of diphtheria antitoxin were almost exhausted in northern Nigeria, where its teams are already rationing treatment, as the country has recorded 28,151 confirmed cases and 1,126 deaths since January, according to health authorities quoted by Premium Times.",
-        "The epidemic, which emerged in late 2022, mainly strikes unvaccinated or under-vaccinated children in 26 states and the Federal Capital Territory, with Kano state alone accounting for 43% of confirmed cases, while global production of antitoxin remains limited and erratic.",
-        "The charity is calling for higher global production, faster customs clearance for medicines and sustained investment in routine immunisation, as a new outbreak is reported at a boarding school of more than 2,000 pupils in Kano state, according to Anadolu."
-      ],
-      "figure": {
-        "value": "1,126",
-        "label": "diphtheria deaths in Nigeria in 2026, as of 7 November",
-        "compare": "out of 28,151 confirmed and 37,529 suspected cases"
-      },
-      "since": {
-        "date": "2022-12",
-        "label": "since the epidemic began"
-      },
-      "modules": {
-        "toll": {
-          "items": [
-            {
-              "value": "1,126",
-              "label": "deaths in 2026",
-              "by": "the Nigeria Centre for Disease Control (NCDC), cited by the Red Cross",
-              "date": "2026-11-07"
-            },
-            {
-              "value": "28,151",
-              "label": "confirmed cases",
-              "by": "NCDC",
-              "date": "2026-11-07"
-            },
-            {
-              "value": "12,008",
-              "label": "confirmed cases in Kano state",
-              "by": "NCDC",
-              "date": "2026-11-07"
-            }
-          ],
-          "source": {
-            "name": "Premium Times",
-            "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html"
+            "name": "Réseau Action Climat",
+            "name_en": "Climate Action Network",
+            "url": "https://climatenetwork.org/2026/11/15/state-of-play-from-antalya-cop31-midway-media-brief/"
           }
         },
         "places": {
           "items": [
             {
-              "name": "Kano",
+              "name": "Antalya",
               "coords": [
-                8.52,
-                12
+                30.71,
+                36.9
               ],
-              "note": "The worst-hit state, with about 43% of the country's confirmed cases."
-            },
-            {
-              "name": "Katsina",
-              "coords": [
-                7.6,
-                12.99
-              ],
-              "note": "MSF treated 86 patients there in two weeks, 70 of them severe cases."
-            },
-            {
-              "name": "Gusau",
-              "coords": [
-                6.66,
-                12.17
-              ],
-              "note": "Capital of Zamfara state: more than 671 admissions in a month at MSF-supported facilities."
-            },
-            {
-              "name": "Sokoto",
-              "coords": [
-                5.24,
-                13.06
-              ],
-              "note": "Two vaccination campaigns there reached 49,018 children under 15."
+              "note": "Host city of COP31, where ministers and negotiators are starting the second week."
             }
           ],
           "source": {
-            "name": "Premium Times",
-            "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html"
+            "name": "Climate Home News",
+            "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Belém's promise put to the test",
+        "text": "COP30 in Belém launched a just-transition mechanism and promised to triple adaptation finance; Antalya is meant to give both substance. Yet the first text on the just transition offers mainly a portal, reports and an annual meeting, with no explicit commitment of money, which civil-society groups denounce. The presidency is shared: Australia, through its climate minister, Chris Bowen, steers the negotiations, while Turkey runs the action agenda. Some large emerging economies also reject the idea of an overarching cover decision setting sectoral goals, such as electrification, which the EU may no longer describe as “clean”, according to Climate Home News."
+      },
+      "keys": [
+        {
+          "title": "The Santa Marta coalition",
+          "text": "Launched in Colombia in April by some 60 governments frustrated by the slow pace of COPs, it is due to present a progress report this week. Ireland and Tuvalu are set to take the lead after Bogotá's departure."
+        },
+        {
+          "title": "Electrification",
+          "text": "Turkey is championing a voluntary pledge to raise electricity's share of final energy consumption from 23% to 35% by 2035. At least 14 countries have backed it, according to Climate Home News."
+        }
+      ],
+      "involved": [
+        "AUS",
+        "BRA",
+        "COL"
+      ],
+      "context": [
+        {
+          "d": "2023-12",
+          "t": "At COP28, nearly 200 countries agree to transition away from fossil fuels, without a binding timetable."
+        },
+        {
+          "d": "2025-11",
+          "t": "COP30 in Belém creates a mechanism for a just transition."
+        },
+        {
+          "d": "2026-04",
+          "t": "First conference of the coalition to move away from fossil fuels, in Santa Marta."
+        },
+        {
+          "d": "2026-11-14",
+          "t": "Mid-point plenary in Antalya; the G77 rejects the finance text."
+        },
+        {
+          "d": "2026-11-20",
+          "t": "Scheduled close of COP31."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Climate Home News",
+          "title": "COP31 Bulletin Day 6: Climate marchers call for justice as talks make limited progress",
+          "url": "https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Réseau Action Climat",
+          "name_en": "Climate Action Network",
+          "title": "State of Play from Antalya: COP31 Midway Media Brief",
+          "url": "https://climatenetwork.org/2026/11/15/state-of-play-from-antalya-cop31-midway-media-brief/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Morning Star",
+          "title": "Coalition to move away from fossil fuels presses ahead without founding member Colombia",
+          "url": "https://morningstaronline.co.uk/article/cop31-coalition-move-away-fossil-fuels-presses-ahead-without-founding-member-colombia",
+          "date": "2026-11-15"
+        }
+      ],
+      "dossier": {
+        "id": "cop31",
+        "title": "COP31 in Antalya"
+      },
+      "slug": "halfway-through-cop31-climate-finance-divides-rich-developing"
+    },
+    {
+      "rank": 5,
+      "id": "SDN",
+      "place": "Sudan",
+      "section": "Africa",
+      "radar": true,
+      "types": [
+        "conflict",
+        "disaster"
+      ],
+      "title": "In Sudan, the army regains ground in Kordofan, where drone strikes are killing civilians",
+      "standfirst": "Sudan's army and its Darfuri allies have retaken several towns in West Kordofan and loosened the grip on El Obeid. Civilians are paying the price of the offensive, caught between drones and paramilitary attacks.",
+      "body": [
+        "Sudan's army and allied Darfuri forces have in recent days retaken several strategic towns in West Kordofan, including Al-Khuwei, breaking the siege that the Rapid Support Forces had imposed on El Obeid, the capital of North Kordofan, according to Al Jazeera.",
+        "General Hemedti's paramilitaries still hold En Nahud, a gold-mining town where they have killed ten civilians since Thursday, according to a local relief group quoted by Anadolu, while drone strikes have killed at least 15 civilians in the region in recent days, according to the Sudanese outlet Darfur24.",
+        "Analysts quoted by Al Jazeera expect the paramilitaries to fall back towards Darfur, their tribal heartland, as the UN describes Kordofan as the epicentre of the conflict and most humanitarian operations there have been suspended."
+      ],
+      "figure": {
+        "value": "≥ 15",
+        "label": "civilians killed by drone strikes in West Kordofan, according to Darfur24",
+        "compare": "and 13 civilian vehicles destroyed"
+      },
+      "since": {
+        "date": "2023-04-15",
+        "label": "since the war began"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "15",
+              "label": "civilians killed by drone strikes in West Kordofan",
+              "by": "Darfur24",
+              "date": "2026-11-15",
+              "source": {
+                "name": "Darfur24",
+                "url": "https://darfur24.com/en/2026/11/15/drone-strikes-kill-15-civilians-in-sudans-west-kordofan/"
+              }
+            },
+            {
+              "value": "10",
+              "label": "civilians killed by the RSF in En Nahud since Thursday",
+              "by": "a local relief group, quoted by Anadolu",
+              "date": "2026-11-15",
+              "source": {
+                "name": "Anadolu",
+                "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "El Obeid",
+              "coords": [
+                30.22,
+                13.18
+              ],
+              "note": "Capital of North Kordofan, whose siege was broken by the army's offensive."
+            },
+            {
+              "name": "En Nahud",
+              "coords": [
+                28.43,
+                12.7
+              ],
+              "note": "West Kordofan's second city, still held by the Rapid Support Forces."
+            },
+            {
+              "name": "El Fasher",
+              "coords": [
+                25.35,
+                13.63
+              ],
+              "note": "Capital of North Darfur, which fell to the RSF in October 2025."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Sudanese army and Joint Force",
+              "lead": "Abdel Fattah al-Burhan",
+              "ids": [
+                "SDN"
+              ],
+              "note": "Backed by allied Darfuri forces, which are spearheading the offensive in Kordofan."
+            },
+            {
+              "name": "Rapid Support Forces",
+              "lead": "Mohamed Hamdan Dagalo, known as Hemedti",
+              "ids": [
+                "SDN"
+              ],
+              "note": "Allied in South Kordofan with Abdelaziz al-Hilu's SPLM-N."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf"
           }
         },
         "help": {
           "orgs": [
+            "icrc",
             "msf",
-            "ifrc",
+            "wfp",
             "unicef"
           ]
         }
       },
       "analysis": {
-        "title": "A preventable disease, a scarce cure",
-        "text": "Diphtheria is prevented by a vaccine given in three childhood doses, yet about 93% of children caught up in the recent outbreaks had not received all the recommended doses, according to Muyi Aina, head of Nigeria's primary health-care agency, who blames misinformation and vaccine distrust. Once the disease takes hold, antitoxin, made from horse plasma, must be given early, because it cannot repair damage the toxin has already done, the WHO notes. Its manufacture is unprofitable and carried out by a handful of laboratories worldwide, which explains recurring shortages. In Zamfara state, only 25,000 of the 90,000 vaccine doses needed for an emergency campaign have been delivered."
+        "title": "Kordofan, the lock between Khartoum and Darfur",
+        "text": "After El Fasher fell in October 2025, the Rapid Support Forces controlled most of Darfur and threatened El Obeid, the gateway to central Sudan. Retaking towns in West Kordofan opens routes for the army towards Babanusa and Darfur, and brings it closer to the country's oil heartland: according to the economist Mohamed al-Nayer, quoted by Al Jazeera, the Heglig and Balila fields provide 90% of Sudan's output, and the region's stability also determines South Sudan's exports. Both sides take turns claiming unverifiable victories, and several towns have changed hands more than once since the start of the month, according to Asharq Al-Awsat."
       },
       "keys": [
         {
-          "title": "Children on the front line",
-          "text": "In Gusau most hospitalised patients are children, four in five of whom had never been vaccinated, according to MSF. The charity says it has treated more than 9,000 diphtheria patients since the start of the year."
+          "title": "Conflicting claims",
+          "text": "The spokesman for the Joint Force allied with the army says it retook four towns in early November and destroyed 40 combat vehicles. Media close to the paramilitaries insist, on the contrary, that they pushed the army back towards El Obeid."
         },
         {
-          "title": "An overwhelmed public response",
-          "text": "In August the federal government set up an emergency task force for Katsina and Kano states, whose federal teaching hospital was overwhelmed. MSF has not confirmed that the treatment annexes announced are operating."
+          "title": "Civilians in the line of fire",
+          "text": "According to Darfur24, drones have in recent days struck a passenger car, a fuel market in Foga, a convoy carrying farm produce and a motorised tricycle. Children are among the victims."
         }
       ],
       "involved": [],
       "context": [
         {
-          "d": "2022-12",
-          "t": "A diphtheria epidemic breaks out in northern Nigeria."
+          "d": "2023-04-15",
+          "t": "War breaks out between the army and the Rapid Support Forces."
         },
         {
-          "d": "2026-08",
-          "t": "Abuja sets up an emergency task force for Katsina and Kano states."
+          "d": "2025-10",
+          "t": "El Fasher, the army's last stronghold in Darfur, falls."
         },
         {
-          "d": "2026-11-07",
-          "t": "The year's death toll passes 1,100, according to the NCDC."
+          "d": "2026-11-05",
+          "t": "The army launches simultaneous attacks in North and West Kordofan."
         },
         {
-          "d": "2026-11-13",
-          "t": "MSF warns that its antitoxin stocks are running out."
+          "d": "2026-11-14",
+          "t": "Al Jazeera reports the capture of Al-Khuwei and the lifting of the siege of El Obeid."
         }
       ],
       "sources": [
         {
-          "name": "Premium Times",
-          "title": "Diphtheria: MSF warns of treatment shortages as Nigeria records over 1,100 deaths",
-          "url": "https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html",
+          "name": "Al Jazeera",
+          "title": "How SAF successes in Sudan's Kordofan could turn tide against the RSF",
+          "url": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf",
           "date": "2026-11-14"
         },
         {
+          "name": "Darfur24",
+          "title": "Drone Strikes Kill 15 Civilians in Sudan's West Kordofan",
+          "url": "https://darfur24.com/en/2026/11/15/drone-strikes-kill-15-civilians-in-sudans-west-kordofan/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Asharq Al-Awsat",
+          "title": "Sudanese Army, RSF Clash in Fierce Battles in Kordofan",
+          "url": "https://english.aawsat.com/arab-world/5338514-sudanese-army-rsf-clash-fierce-battles-kordofan",
+          "date": "2026-11-07"
+        },
+        {
           "name": "Anadolu",
-          "title": "Morning Briefing: Nov. 14, 2026",
-          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855",
-          "date": "2026-11-14"
+          "title": "Morning Briefing: Nov. 15, 2026",
+          "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489",
+          "date": "2026-11-15"
         }
       ],
       "dossier": {
-        "id": "nigeria-diphtheria",
-        "title": "Diphtheria in Nigeria"
+        "id": "sudan-war",
+        "title": "The war in Sudan"
       },
-      "slug": "nigeria-diphtheria-has-killed-more-than-1-100"
+      "slug": "sudan-army-regains-ground-kordofan-where-drone-strikes"
     }
   ],
   "brief": [
     {
-      "id": "FRA",
-      "place": "France",
-      "text": "Some 106,000 people, 24,000 of them in Paris, marched on Saturday against the rising cost of living at the call of the “yellow vests” and youth movements, according to the interior ministry, fewer than the week before.",
-      "url": "https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests"
+      "id": "ISR",
+      "place": "Israel",
+      "text": "Allies of Benjamin Netanyahu have told Gadi Eisenkot's team that Likud would accept a unity government without Itamar Ben-Gvir's party, according to the daily Israel Hayom, a report Likud denies.",
+      "url": "https://www.aa.com.tr/en/middle-east/netanyahu-allies-open-door-to-unity-government-without-ben-gvir-s-party-report/4126088"
     },
     {
-      "id": "POL",
-      "place": "Poland",
-      "text": "President Karol Nawrocki has vetoed for a second time the law implementing the EU's Digital Services Act, arguing it would give too much control over online speech, drawing criticism from Donald Tusk.",
-      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+      "id": "HUN",
+      "place": "Hungary",
+      "text": "Nearly $20m in cash, hidden on farms and buried in forests, has been found in the investigation into Miklos Sesztak, a former minister under Viktor Orban accused of corruption, who denies wrongdoing.",
+      "url": "https://morningstaronline.co.uk/article/world-brief-58"
     },
     {
-      "id": "AFG",
-      "place": "Afghanistan",
-      "text": "Judges at the International Criminal Court have closed the original investigation into Afghanistan, which also covered American soldiers, while the inquiry into crimes attributed to the Taliban since August 2021 continues separately.",
-      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+      "id": "ITA",
+      "place": "Italy",
+      "text": "Italy's data-protection authority has fined Meta €805m for accessing Android users' photos and videos without their consent; the company says it will appeal.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
     },
     {
-      "id": "NZL",
-      "place": "New Zealand",
-      "text": "A global Microsoft outage, which the company blamed on a network upgrade, halted the processing of New Zealand visas and knocked out email at Japan's government.",
-      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855"
+      "id": "USA",
+      "place": "United States",
+      "text": "American air-traffic control has stabilised after a nationwide outage, according to the Federal Aviation Administration, but airlines expected to cancel 4,000 to 5,000 of some 41,000 scheduled flights.",
+      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
     }
   ],
   "agenda": [
     {
-      "d": "2026-11-16",
-      "t": "Donald Trump in Manila for an ASEAN summit and a Quad meeting."
+      "d": "2026-11-17",
+      "t": "Special ASEAN-US summit in Manila, attended by Donald Trump."
     },
     {
       "d": "2026-11-17",
-      "t": "Israel's Knesset elects its speaker."
+      "t": "Election of the Knesset's speaker in Israel."
     },
     {
       "d": "2026-11-19",
-      "t": "Trump, Xi and Putin meet in Shenzhen, on the sidelines of the APEC summit."
+      "t": "Trump, Xi and Putin meet in Shenzhen on the sidelines of the APEC summit."
     },
     {
       "d": "2026-11-20",
-      "t": "COP31 scheduled to close."
+      "t": "Scheduled close of COP31 in Antalya."
     },
     {
       "d": "2026-11-26",
-      "t": "Two-day European Council, focused in part on Ukraine's financing needs for 2027."
+      "t": "Two-day European Council meeting, focused in part on Ukraine's financing needs for 2027."
     },
     {
       "d": "2026-11-29",
@@ -753,17 +830,16 @@
   "consulted": [
     "Reuters",
     "Associated Press",
-    "AFP",
     "Al Jazeera",
-    "CNN",
     "Anadolu",
+    "The National",
     "Kyiv Independent",
-    "Dawn",
-    "The Times of Israel",
-    "Haaretz",
-    "The Wall Street Journal",
-    "KFF Health News",
-    "NPR",
-    "Premium Times"
+    "The Philippine Star",
+    "Philippine News Agency",
+    "Climate Home News",
+    "Climate Action Network",
+    "Morning Star",
+    "Darfur24",
+    "Asharq Al-Awsat"
   ]
 }

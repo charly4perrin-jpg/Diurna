@@ -1,119 +1,120 @@
-# Diurna — No. 11 — Sunday, 15 November 2026
+# Diurna — No. 12 — Monday, 16 November 2026
 
-> Washington links Ukraine’s NATO membership to a withdrawal from the Donbas
+> Iran claims a drone attack on an American base in Bahrain
 
-Volodymyr Zelensky says American negotiators have, for the first time, tied Ukraine’s entry into the alliance to giving up the Donbas, which he refuses to do without guarantees and a referendum. Donald Trump will meet Xi Jinping and Vladimir Putin in Shenzhen on Thursday to talk about nuclear weapons, Benjamin Netanyahu invokes the Iranian threat to demand a unity government, America loses its measles-free status, and diphtheria has killed more than 1,100 people in Nigeria this year.
+Bahrain sounded its first nationwide alerts since September on Sunday, as the Revolutionary Guards claimed to have targeted an American radar and said two tankers had struck mines near Hormuz. Volodymyr Zelensky protests against limits placed on Starshield, ASEAN and China fail to agree their maritime code of conduct, COP31 stalls on finance, and Sudan’s army gains ground in Kordofan.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Ukraine — America floats NATO membership for Ukraine in exchange for a withdrawal from the Donbas
+## 1. Iran — Iran claims a drone attack on an American base in Bahrain as Hormuz stays closed
 
-**According to Volodymyr Zelensky, American negotiators have for the first time linked his country’s accession to the Atlantic alliance to giving up the parts of the Donbas that Kyiv still holds. Ukraine’s president rejects any cession of territory, but says he is ready to consult Ukrainians if offered a complete package of guarantees.**
+**The Revolutionary Guards say they launched six drones at an American radar on a Bahraini base, their second such claim in three days. Tehran also says two tankers struck mines near Hormuz, and is waiting for Washington to answer its conditions for ending the war.**
 
-In remarks released by his office on Saturday 14 November, Ukraine’s president, Volodymyr Zelensky, said American negotiators had asked him whether Ukraine would withdraw from the Donbas in exchange for NATO membership, the first time, in his account, that the alliance has been tied to territorial concessions, Al Jazeera reports. The areas in question are those Russia does not control, and Mr Zelensky refused to give them up, while saying he would put the matter to a referendum if America and its allies offered security guarantees, a funded army and a reconstruction plan; Vladimir Putin regards Ukraine’s membership as a red line. Kyiv now awaits details: Washington talks of guarantees resembling Articles 4 and 5 of the North Atlantic Treaty, but with no American troops on Ukrainian soil, according to the Kyiv Independent, while the Europeans have chosen five countries to represent them in future negotiations.
+Iran’s Islamic Revolutionary Guard Corps said on Sunday 15 November that it had launched six drones at an American air-defence radar at the Riffa base in Bahrain, where the interior ministry issued two alerts within three hours at dawn, the first nationwide warnings since September, Al Jazeera and The National report. Bahrain’s armed forces say they intercepted several Iranian attacks, with no damage confirmed, after America’s military command denied an earlier claim on Friday; the Guards also say that two tankers sailing with their transponders switched off on an “unauthorised” route struck mines south of the Strait of Hormuz. Mohammad Bagher Ghalibaf, the speaker of Iran’s parliament and its chief negotiator, says he has passed seven conditions to Washington through Qatar, including an end to the blockade and a formal end to the war, while America keeps Iranian ports under blockade and tightens its sanctions.
 
-**The number :** 1,200 — Ukrainian drones launched at Russia, according to the Russian authorities on Friday
+**The number :** $92 — the price of a barrel of Brent crude on 11 November
 
-### A taboo lifted in Washington
+### A low-intensity war that could spiral
 
-Since 2022 Ukraine’s membership of NATO has been the one point on which Moscow will not bend, and Washington had kept it out of the talks. Tying that prospect to a withdrawal from the Donbas amounts to offering Kyiv protection in exchange for territory, a bargain Mr Zelensky does not reject outright but makes conditional on precise commitments. He nonetheless rules out neutrality, which would require amending the constitution, and refuses any arrangement that recognises the occupied territories as Russian. It remains unclear whether the American offer binds the other allies, whose unanimity any accession requires, and whether the Kremlin would accept Ukraine in the alliance, even a diminished one. Mr Zelensky himself says he is still waiting for “details”.
-
-Sources :
-- [Al Jazeera, avec Reuters et AP — US suggested Ukraine cede parts of Donbas to Russia to become part of NATO](https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato)
-- [Kyiv Independent — US floats NATO membership for Ukraine in exchange for Donbas withdrawal, Zelensky says](https://kyivindependent.com/us-floats-nato-membership-for-ukraine-in-exchange-for-donbas-withdrawal-zelensky-says/)
-- [Reuters, via ABC — US has raised idea of NATO membership for Ukraine, Volodymyr Zelenskyy says](https://home.nzcity.co.nz/news/article.aspx?id=458008)
-- [CNN — US floated idea of Ukraine swapping land for NATO membership, Zelensky says](https://edition.cnn.com/2026/11/14/europe/us-ukraine-zelensky-nato-intl)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/america-floats-nato-membership-ukraine-exchange-withdrawal-donbas/
-
-## 2. China — Trump, Xi and Putin to meet in Shenzhen on Thursday for a first three-way nuclear summit
-
-**The White House has confirmed an unprecedented meeting of the American, Chinese and Russian presidents on the sidelines of the APEC summit, focused on cutting nuclear arsenals. Washington expects no agreement, and Ukraine will not be on the agenda.**
-
-The White House’s deputy press secretary, Olivia Wales, announced on Friday 13 November that Donald Trump would meet Xi Jinping and Vladimir Putin in Shenzhen on Thursday 19 November, on the sidelines of the APEC summit, to discuss reducing nuclear weapons worldwide, Al Jazeera reports. The New START treaty, which capped the Russian and American arsenals, expired in February after Mr Trump declined a one-year extension in order to demand a new deal that includes China, which argues that Washington and Moscow, with far bigger stockpiles, should negotiate between themselves. A senior American official warns that no agreement is expected and speaks of the start of a conversation, with the president due to raise the war with Iran but not Ukraine, while Volodymyr Zelensky fears a repeat of the Yalta conference and a carve-up into spheres of influence.
-
-**The number :** 9 months — since the Russian-American New START treaty expired in February
-
-### China, outside the arms-control treaties
-
-For half a century nuclear arms control rested on a dialogue between Washington and Moscow, which hold most of the planet’s warheads; China, the third nuclear power according to the Stockholm International Peace Research Institute, has never accepted numerical limits. By letting New START lapse without an extension, Donald Trump made Beijing’s inclusion a condition of any new treaty. The three-way format in Shenzhen is therefore above all a diplomatic gamble: an attempt to bring China to a table it has always avoided, on its own soil and during a summit it wanted to devote to trade. America’s insistence on nuclear weapons has irritated Beijing, according to Dawn, a Pakistani daily.
+The fighting has subsided, but no agreement has ended the war that began with American and Israeli strikes on 28 February: Iran still sporadically targets American bases in the Gulf, while Washington throttles its economy with the blockade. Friday’s claim against Bahrain, home to the headquarters of America’s Fifth Fleet, was the first aimed at American military installations in a Gulf state since early September, according to Reuters. Tehran insists that it alone, with Oman, controls the Strait of Hormuz, which America disputes. The danger now lies in miscalculation, argues Saeid Golkar, a political scientist quoted by Al Jazeera: limited exchanges can escalate at any moment.
 
 Sources :
-- [Al Jazeera, avec AP et Reuters — Trump, Xi and Putin to hold first three-way summit in China](https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china)
-- [Dawn — Trump to broach nuclear cuts with Xi, Putin](https://www.dawn.com/news/2044636/trump-to-broach-nuclear-cuts-with-xi-putin)
-- [Anadolu — Morning Briefing: Nov. 14, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855)
+- [Al Jazeera — Iran says it targets US radar in Bahrain. What do we know?](https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know)
+- [The National — Bahrain intercepts Iranian attacks after first nationwide alert in months](https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/)
+- [Anadolu — Morning Briefing: Nov. 15, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/trump-xi-putin-meet-shenzhen-thursday-first-three/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/iran-claims-drone-attack-american-base-bahrain-hormuz/
 
-## 3. Iran — Netanyahu invokes the Iranian threat to demand a unity government as Washington bets on pressure
+## 2. Ukraine — Zelensky says Starshield restrictions are weakening the defence of Ukraine’s power grid
 
-**Israel’s outgoing prime minister is urging Gadi Eisenkot to form a unity government with him capable of “eliminating” the Iranian threat, an offer his rival promptly rejected. American intelligence reckons Tehran still has thousands of missiles, while Washington sees no need for a fresh offensive.**
+**Ukraine’s president says speed limits on the terminals of SpaceX’s system stop his interceptor drones from downing Russian Shaheds. Strikes on each other’s energy infrastructure continue as winter approaches.**
 
-In a video statement released on Saturday 14 November, Israel’s outgoing prime minister, Benjamin Netanyahu, called on Gadi Eisenkot, who has been asked to form the next government, to join him in a national-unity government to remove the Iranian threat “once and for all”, an offer Mr Eisenkot dismissed within minutes, Al Jazeera reports. The head of Mossad, Roman Gofman, met the CIA’s director, John Ratcliffe, in Washington to seek American backing for new strikes, according to Haaretz, just as the Wall Street Journal, citing American intelligence, estimated that Iran retains between 1,500 and 2,500 missiles despite the bombing. America’s secretary of state, Marco Rubio, has nonetheless said fresh military action is unnecessary because the economic pressure on Tehran is considerable, while the Knesset elects its speaker on Tuesday and Mr Eisenkot has 28 days, extendable by 14, to form a coalition.
+Ukraine’s president, Volodymyr Zelensky, said on Sunday 15 November that speed limits on Starshield terminals, the military version of SpaceX’s Starlink network, were preventing his interceptor drones from shooting down Russia’s jet-powered Shaheds, and told his ministries to negotiate with Washington and the company, the Associated Press reports. By his account, the interceptors lose contact with their operators above 161km/h along the front and over occupied territory, letting through drones aimed at electrical substations, while Russia fired more than 2,300 attack drones, 1,590 glide bombs and 15 missiles in a single week. A Russian strike on Chornomorsk, near Odesa, cut power to some 41,000 customers, while Ukraine’s general staff claims strikes on the Akhtubinsk military airfield and on industrial sites in Nizhnekamsk, in Tatarstan, more than 1,000 kilometres from Ukraine.
 
-**The number :** 1,500–2,500 — missiles Iran may retain, according to American intelligence cited by the WSJ
+**The number :** 161 km/h — the speed above which interceptor drones lose their Starshield link, according to Kyiv
 
-### The bet on economic pressure
+### A dependency turned into leverage
 
-Washington has so far preferred sanctions and a blockade to a new military campaign, and the Gulf monarchies, which fear Iranian retaliation, are encouraging it. The American intelligence estimate complicates that choice: even at its low end, Iran would have rebuilt more than half of its pre-war arsenal, according to a former Pentagon official quoted by Anadolu. Israel’s chief worry is a deal between Washington and Tehran that eases the pressure without addressing the nuclear programme or the missiles. Israel’s political calendar matters too: defeated in the election of 27 October, Mr Netanyahu heads only a caretaker government, and the general staff sees no imminent threat that would justify resuming the war in the coming weeks, according to KAN, the public broadcaster.
-
-Sources :
-- [Al Jazeera, avec AFP — Netanyahu says only a unity government can guarantee Israel’s security](https://www.aljazeera.com/news/2026/11/14/netanyahu-says-only-a-unity-government-can-guarantee-israels-security)
-- [Anadolu — Netanyahu discusses possible resumption of attacks on Iran with Eisenkot: Israeli media](https://www.aa.com.tr/en/middle-east/netanyahu-discusses-possible-resumption-of-attacks-on-iran-with-eisenkot-israeli-media/4124854)
-- [Anadolu, d’après le Wall Street Journal — US intel estimates Iran retains up to 2,500 missiles despite war damage: Report](https://www.aa.com.tr/en/americas/us-intel-estimates-iran-retains-up-to-2-500-missiles-despite-war-damage-report/4125478)
-- [The Times of Israel — Liveblog, November 14, 2026](https://www.timesofisrael.com/liveblog-november-14-2026/)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/netanyahu-invokes-iranian-threat-demand-unity-government-washington/
-
-## 4. United States — America loses its measles-elimination status after a string of outbreaks
-
-**The Pan American Health Organisation has concluded that the virus is once again circulating continuously in America, a quarter of a century after it was eliminated. Experts blame falling childhood vaccination, while the administration blames its predecessors.**
-
-The Pan American Health Organisation (PAHO), the WHO’s regional arm, concluded this week that measles transmission had become established again in America, which thus loses its status as a country that has eliminated the disease, according to researchers quoted by KFF Health News, with an official announcement due on 17 November. Elimination requires every outbreak to die out within a year, which has no longer been the case since a cluster in Utah crossed that threshold in June, following the west Texas outbreak that infected more than 4,500 people in America and Mexico in 2025. Robert F. Kennedy Jr’s health department attributes the situation to vaccination gaps that predate the current administration, while former officials at the Centers for Disease Control and Prevention say regaining elimination status is a distant prospect until the current outbreaks are contained.
-
-**The number :** 5,400 — measles cases reported in America in 2026, according to Anadolu
-
-### What losing the status means
-
-Elimination status does not mean the absence of cases, but the absence of continuous transmission for more than a year: infections imported from abroad then fizzle out on their own thanks to sufficient vaccination coverage. Losing it therefore reflects the virus taking hold in under-vaccinated communities, whose share has been growing since the covid-19 pandemic, according to CDC data. To regain the status, America will have to extinguish the current outbreaks and then prevent any new chain of transmission for a year. Experts quoted by KFF Health News also point to cuts in states’ vaccination grants and to delays in publishing CDC reports, which staff attribute to political appointees, a claim the health department disputes.
+Ukraine’s army relies on both commercial Starlink and Starshield, which the Kyiv Independent credits for the success of its strikes on Russian logistics at medium range. That the terminals are throttled precisely over occupied territory gives the matter a political edge: Mr Zelensky sees it as a partial acknowledgment that those areas are not Ukrainian, and doubts that the limit is purely technical, even though America’s secretary of state, Marco Rubio, had assured him that Starshield was more a matter for the American government. The restriction comes as Moscow concentrates its Shaheds on electrical substations, as in previous winters, and as Washington discusses a territorial compromise in the Donbas with Kyiv.
 
 Sources :
-- [KFF Health News, via NPR — US has lost measles elimination status, global health authorities say](https://www.hppr.org/npr-news/2026-11-14/us-has-lost-measles-elimination-status-global-health-authorities-say)
-- [CNN — Measles: After 26 years, the US has lost its elimination status](https://www.cnn.com/2026/11/13/health/us-measles-elimination-status)
-- [Anadolu — Morning Briefing: Nov. 14, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855)
+- [Associated Press, via ABC News — Zelenskyy warns Starshield restrictions threaten Ukraine’s energy defenses](https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524)
+- [Kyiv Independent — Starshield restrictions hamper Ukraine’s ability to defend energy infrastructure from Russian drones, Zelensky says](https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/)
+- [Kyiv Independent — Ukraine war latest: Russia launches mass attack on Odesa Oblast as Ukraine strikes airfield, drone launch site in Russia](https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/america-loses-measles-elimination-status-after-string-outbreaks/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/zelensky-says-starshield-restrictions-weakening-defence-ukraine-power/
 
-## 5. Nigeria — In Nigeria, diphtheria has killed more than 1,100 people this year and antitoxin is running out
+## 3. Philippines — ASEAN and China fail to conclude their code of conduct for the South China Sea
 
-**The worst diphtheria epidemic on record in the country has caused more than 28,000 confirmed cases, mostly among poorly vaccinated children. Médecins Sans Frontières warns that its stocks of the only effective treatment are “dangerously low”.**
+**Meeting in Manila, South-East Asian countries could not finish the text promised for 2026 with Beijing, though some 80% of it has been provisionally agreed. The Philippine chair hands the file to Singapore, before Donald Trump arrives on Tuesday.**
 
-Médecins Sans Frontières warned on Friday 13 November that its stocks of diphtheria antitoxin were almost exhausted in northern Nigeria, where its teams are already rationing treatment, as the country has recorded 28,151 confirmed cases and 1,126 deaths since January, according to health authorities quoted by Premium Times. The epidemic, which emerged in late 2022, mainly strikes unvaccinated or under-vaccinated children in 26 states and the Federal Capital Territory, with Kano state alone accounting for 43% of confirmed cases, while global production of antitoxin remains limited and erratic. The charity is calling for higher global production, faster customs clearance for medicines and sustained investment in routine immunisation, as a new outbreak is reported at a boarding school of more than 2,000 pupils in Kano state, according to Anadolu.
+The Philippines’ foreign secretary, Ma. Theresa Lazaro, acknowledged on Sunday 15 November, on the sidelines of the 49th ASEAN summit in Manila, that the bloc and China had not concluded a code of conduct for the South China Sea, despite provisional agreement on about 80% of the draft’s paragraphs, Reuters reports. Still unresolved are whether the text will be legally binding and what area it will cover, with Beijing claiming almost all of a sea through which half the world’s merchant ships pass, despite a 2016 arbitral ruling it rejects, against rival claims from the Philippines, Vietnam, Malaysia, Brunei and Indonesia. Singapore, which takes over the ASEAN chair next year, inherits a text that has been under negotiation for more than two decades, while Donald Trump is due in Manila on Tuesday for a special ASEAN-US summit before heading to Shenzhen for APEC.
 
-**The number :** 1,126 — diphtheria deaths in Nigeria in 2026, as of 7 November
+**The number :** 80% — of the draft code’s paragraphs provisionally agreed, according to Manila
 
-### A preventable disease, a scarce cure
+### A text hostage to Sino-Philippine relations
 
-Diphtheria is prevented by a vaccine given in three childhood doses, yet about 93% of children caught up in the recent outbreaks had not received all the recommended doses, according to Muyi Aina, head of Nigeria’s primary health-care agency, who blames misinformation and vaccine distrust. Once the disease takes hold, antitoxin, made from horse plasma, must be given early, because it cannot repair damage the toxin has already done, the WHO notes. Its manufacture is unprofitable and carried out by a handful of laboratories worldwide, which explains recurring shortages. In Zamfara state, only 25,000 of the 90,000 vaccine doses needed for an emergency campaign have been delivered.
+In 2023 ASEAN and Chinese foreign ministers gave themselves three years to reach a deal, a deadline that fell during the Philippine chairmanship. But Manila, locked in an open dispute with Beijing over the reefs it claims, was awkwardly placed: a strong text would have looked imposed on China, a weak one would have damaged Ferdinand Marcos Jr’s government, says Aries Arugay, a political scientist quoted by Al Jazeera. Relations have soured in recent months, amid insults traded between the defence secretary, Gilberto Teodoro, who is barred from entering China, and China’s ambassador in Manila. Divisions within ASEAN, notably over the scope of the code, also weigh, according to Collin Koh, a Singaporean researcher quoted by Reuters.
 
 Sources :
-- [Premium Times — Diphtheria: MSF warns of treatment shortages as Nigeria records over 1,100 deaths](https://www.premiumtimesng.com/health/health-news/925124-diphtheria-msf-warns-of-treatment-shortages-as-nigeria-records-over-1100-deaths.html)
-- [Anadolu — Morning Briefing: Nov. 14, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855)
+- [Reuters, via ThePrint — ASEAN, China fail to conclude South China Sea code of conduct](https://theprint.in/world/asean-china-fail-to-conclude-south-china-sea-code-of-conduct/3099511/)
+- [Al Jazeera — Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather](https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather)
+- [The Philippine Star — No final code of conduct on South China Sea – DFA](https://www.philstar.com/headlines/2026/11/16/2570417/no-final-code-conduct-south-china-sea-dfa)
+- [The Philippine Star — Donald Trump to join Marcos, ASEAN leaders for Manila summit on Nov. 17](https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/nigeria-diphtheria-has-killed-more-than-1-100/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/asean-china-fail-conclude-their-code-conduct-south/
+
+## 4. Türkiye — Halfway through COP31, climate finance still divides rich and developing countries
+
+**The developing countries’ bloc rejected a text on climate finance as too weak in Antalya on Saturday, just as ministers take over from negotiators. The coalition to move away from fossil fuels presses on without Colombia, one of its founders.**
+
+The Group of 77 and China on Saturday 14 November rejected in Antalya the latest text on the work programme for climate finance, calling it too weak, as COP31 enters its second week with the arrival of ministers, according to Climate Action Network. African countries have made tripling adaptation finance to at least $120bn a year by 2035 their priority, but the European Union, Japan and Norway object to that benchmark, while the mechanism for a just transition amounts, for now, to a knowledge centre and an annual meeting. Simon Stiell, the UN’s climate chief, calls progress “constructive” and urges delegations to avoid stalling tactics before the scheduled close on Friday, while the coalition launched in Santa Marta to move away from fossil fuels carries on without Colombia, which left it after Abelardo de la Espriella’s election.
+
+**The number :** $2.8bn — requested by 119 countries from the loss and damage fund
+
+### Belém’s promise put to the test
+
+COP30 in Belém launched a just-transition mechanism and promised to triple adaptation finance; Antalya is meant to give both substance. Yet the first text on the just transition offers mainly a portal, reports and an annual meeting, with no explicit commitment of money, which civil-society groups denounce. The presidency is shared: Australia, through its climate minister, Chris Bowen, steers the negotiations, while Turkey runs the action agenda. Some large emerging economies also reject the idea of an overarching cover decision setting sectoral goals, such as electrification, which the EU may no longer describe as “clean”, according to Climate Home News.
+
+Sources :
+- [Climate Home News — COP31 Bulletin Day 6: Climate marchers call for justice as talks make limited progress](https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/)
+- [Réseau Action Climat — State of Play from Antalya: COP31 Midway Media Brief](https://climatenetwork.org/2026/11/15/state-of-play-from-antalya-cop31-midway-media-brief/)
+- [Morning Star — Coalition to move away from fossil fuels presses ahead without founding member Colombia](https://morningstaronline.co.uk/article/cop31-coalition-move-away-fossil-fuels-presses-ahead-without-founding-member-colombia)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/halfway-through-cop31-climate-finance-divides-rich-developing/
+
+## 5. Sudan — In Sudan, the army regains ground in Kordofan, where drone strikes are killing civilians
+
+**Sudan’s army and its Darfuri allies have retaken several towns in West Kordofan and loosened the grip on El Obeid. Civilians are paying the price of the offensive, caught between drones and paramilitary attacks.**
+
+Sudan’s army and allied Darfuri forces have in recent days retaken several strategic towns in West Kordofan, including Al-Khuwei, breaking the siege that the Rapid Support Forces had imposed on El Obeid, the capital of North Kordofan, according to Al Jazeera. General Hemedti’s paramilitaries still hold En Nahud, a gold-mining town where they have killed ten civilians since Thursday, according to a local relief group quoted by Anadolu, while drone strikes have killed at least 15 civilians in the region in recent days, according to the Sudanese outlet Darfur24. Analysts quoted by Al Jazeera expect the paramilitaries to fall back towards Darfur, their tribal heartland, as the UN describes Kordofan as the epicentre of the conflict and most humanitarian operations there have been suspended.
+
+**The number :** ≥ 15 — civilians killed by drone strikes in West Kordofan, according to Darfur24
+
+### Kordofan, the lock between Khartoum and Darfur
+
+After El Fasher fell in October 2025, the Rapid Support Forces controlled most of Darfur and threatened El Obeid, the gateway to central Sudan. Retaking towns in West Kordofan opens routes for the army towards Babanusa and Darfur, and brings it closer to the country’s oil heartland: according to the economist Mohamed al-Nayer, quoted by Al Jazeera, the Heglig and Balila fields provide 90% of Sudan’s output, and the region’s stability also determines South Sudan’s exports. Both sides take turns claiming unverifiable victories, and several towns have changed hands more than once since the start of the month, according to Asharq Al-Awsat.
+
+Sources :
+- [Al Jazeera — How SAF successes in Sudan’s Kordofan could turn tide against the RSF](https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf)
+- [Darfur24 — Drone Strikes Kill 15 Civilians in Sudan’s West Kordofan](https://darfur24.com/en/2026/11/15/drone-strikes-kill-15-civilians-in-sudans-west-kordofan/)
+- [Asharq Al-Awsat — Sudanese Army, RSF Clash in Fierce Battles in Kordofan](https://english.aawsat.com/arab-world/5338514-sudanese-army-rsf-clash-fierce-battles-kordofan)
+- [Anadolu — Morning Briefing: Nov. 15, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/sudan-army-regains-ground-kordofan-where-drone-strikes/
 
 ## In brief
 
-- **France** : Some 106,000 people, 24,000 of them in Paris, marched on Saturday against the rising cost of living at the call of the “yellow vests” and youth movements, according to the interior ministry, fewer than the week before. ([Source](https://www.aljazeera.com/news/2026/11/14/more-than-100000-rally-across-france-in-new-yellow-vest-protests))
-- **Poland** : President Karol Nawrocki has vetoed for a second time the law implementing the EU’s Digital Services Act, arguing it would give too much control over online speech, drawing criticism from Donald Tusk. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855))
-- **Afghanistan** : Judges at the International Criminal Court have closed the original investigation into Afghanistan, which also covered American soldiers, while the inquiry into crimes attributed to the Taliban since August 2021 continues separately. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855))
-- **New Zealand** : A global Microsoft outage, which the company blamed on a network upgrade, halted the processing of New Zealand visas and knocked out email at Japan’s government. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-14-2026/4124855))
+- **Israel** : Allies of Benjamin Netanyahu have told Gadi Eisenkot’s team that Likud would accept a unity government without Itamar Ben-Gvir’s party, according to the daily Israel Hayom, a report Likud denies. ([Source](https://www.aa.com.tr/en/middle-east/netanyahu-allies-open-door-to-unity-government-without-ben-gvir-s-party-report/4126088))
+- **Hungary** : Nearly $20m in cash, hidden on farms and buried in forests, has been found in the investigation into Miklos Sesztak, a former minister under Viktor Orban accused of corruption, who denies wrongdoing. ([Source](https://morningstaronline.co.uk/article/world-brief-58))
+- **Italy** : Italy’s data-protection authority has fined Meta €805m for accessing Android users’ photos and videos without their consent; the company says it will appeal. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489))
+- **United States** : American air-traffic control has stabilised after a nationwide outage, according to the Federal Aviation Administration, but airlines expected to cancel 4,000 to 5,000 of some 41,000 scheduled flights. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489))
 
 ## Coming up
 
-- 16 Nov : Donald Trump in Manila for an ASEAN summit and a Quad meeting.
-- 17 Nov : Israel’s Knesset elects its speaker.
-- 19 Nov : Trump, Xi and Putin meet in Shenzhen, on the sidelines of the APEC summit.
-- 20 Nov : COP31 scheduled to close.
-- 26 Nov : Two-day European Council, focused in part on Ukraine’s financing needs for 2027.
+- 17 Nov : Special ASEAN-US summit in Manila, attended by Donald Trump.
+- 17 Nov : Election of the Knesset’s speaker in Israel.
+- 19 Nov : Trump, Xi and Putin meet in Shenzhen on the sidelines of the APEC summit.
+- 20 Nov : Scheduled close of COP31 in Antalya.
+- 26 Nov : Two-day European Council meeting, focused in part on Ukraine’s financing needs for 2027.
 - 29 Nov : Snap general election in Spain.
