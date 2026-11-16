@@ -1,16 +1,16 @@
 # Diurna — No. 12 — Monday, 16 November 2026
 
-> Iran claims a drone attack on an American base in Bahrain
+> Iran says six tankers have struck mines near Hormuz since Sunday
 
-Bahrain sounded its first nationwide alerts since September on Sunday, as the Revolutionary Guards claimed to have targeted an American radar and said two tankers had struck mines near Hormuz. Volodymyr Zelensky protests against limits placed on Starshield, ASEAN and China fail to agree their maritime code of conduct, COP31 stalls on finance, and Sudan’s army gains ground in Kordofan.
+The Revolutionary Guards say six tankers have caught fire after striking mines near Hormuz since Sunday, as a third American aircraft carrier reaches the region. Ukraine launches its biggest drone attack on Russia, ASEAN and China fail to conclude their maritime code of conduct, COP31 stalls over finance, and Sudan’s army advances in Kordofan.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Iran — Iran claims a drone attack on an American base in Bahrain as Hormuz stays closed
+## 1. Iran — Iran says six tankers have hit mines near Hormuz as a third American carrier arrives
 
-**The Revolutionary Guards say they launched six drones at an American radar on a Bahraini base, their second such claim in three days. Tehran also says two tankers struck mines near Hormuz, and is waiting for Washington to answer its conditions for ending the war.**
+**The Revolutionary Guards say six tankers have caught fire after striking mines near Hormuz since Sunday, a day after a claimed drone attack on Bahrain. A third American aircraft carrier has reached the region, and Tehran rules out any nuclear inspections until the war is over.**
 
-Iran’s Islamic Revolutionary Guard Corps said on Sunday 15 November that it had launched six drones at an American air-defence radar at the Riffa base in Bahrain, where the interior ministry issued two alerts within three hours at dawn, the first nationwide warnings since September, Al Jazeera and The National report. Bahrain’s armed forces say they intercepted several Iranian attacks, with no damage confirmed, after America’s military command denied an earlier claim on Friday; the Guards also say that two tankers sailing with their transponders switched off on an “unauthorised” route struck mines south of the Strait of Hormuz. Mohammad Bagher Ghalibaf, the speaker of Iran’s parliament and its chief negotiator, says he has passed seven conditions to Washington through Qatar, including an end to the blockade and a formal end to the war, while America keeps Iranian ports under blockade and tightens its sanctions.
+Iran’s Revolutionary Guards said on Monday 16 November that two more tankers had struck mines in the Strait of Hormuz, bringing to six the number of ships set ablaze since Sunday according to Iranian state media, a day after they claimed a six-drone attack on the Riffa base in Bahrain. The American carrier Theodore Roosevelt has arrived in the region, joining the George H. W. Bush and the George Washington, while a Panama-flagged tanker, the ON Phoenix, was hit by an unknown projectile off Oman without casualties, The Times of Israel reports. Kazem Gharibabadi, Iran’s deputy foreign minister, rules out any IAEA access to nuclear sites until the war has permanently ended, while Abbas Araghchi, the foreign minister, said in Islamabad that the Economic Cooperation Organisation backs an Iranian plan to reopen Hormuz within two days, on conditions.
 
 **The number :** $92 — the price of a barrel of Brent crude on 11 November
 
@@ -18,26 +18,33 @@ Iran’s Islamic Revolutionary Guard Corps said on Sunday 15 November that it ha
 
 The fighting has subsided, but no agreement has ended the war that began with American and Israeli strikes on 28 February: Iran still sporadically targets American bases in the Gulf, while Washington throttles its economy with the blockade. Friday’s claim against Bahrain, home to the headquarters of America’s Fifth Fleet, was the first aimed at American military installations in a Gulf state since early September, according to Reuters. Tehran insists that it alone, with Oman, controls the Strait of Hormuz, which America disputes. The danger now lies in miscalculation, argues Saeid Golkar, a political scientist quoted by Al Jazeera: limited exchanges can escalate at any moment.
 
+- _What changed 19:55_ : The Guards say six tankers have struck mines since Sunday and a third American carrier has arrived; headline and text rewritten.
+
 Sources :
+- [The Times of Israel — Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections](https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/)
+- [The New Arab — Third US aircraft carrier arrives to region, Iran claims another tanker hit in Hormuz](https://www.newarab.com/news/third-us-aircraft-carrier-arrives-iran-says-tankers-hit-mines)
 - [Al Jazeera — Iran says it targets US radar in Bahrain. What do we know?](https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know)
 - [The National — Bahrain intercepts Iranian attacks after first nationwide alert in months](https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/)
 - [Anadolu — Morning Briefing: Nov. 15, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/iran-claims-drone-attack-american-base-bahrain-hormuz/
 
-## 2. Ukraine — Zelensky says Starshield restrictions are weakening the defence of Ukraine’s power grid
+## 2. Ukraine — Ukraine launches its biggest drone attack on Russia, reaching as far as the Crimean bridge
 
-**Ukraine’s president says speed limits on the terminals of SpaceX’s system stop his interceptor drones from downing Russian Shaheds. Strikes on each other’s energy infrastructure continue as winter approaches.**
+**Moscow says it intercepted 1,336 Ukrainian drones in one night, a record since the invasion began, nearly 600 of them heading for the Moscow region. The Kremlin reports “insignificant” damage to the Kerch bridge, while Kyiv presses for Starshield restrictions to be lifted.**
 
-Ukraine’s president, Volodymyr Zelensky, said on Sunday 15 November that speed limits on Starshield terminals, the military version of SpaceX’s Starlink network, were preventing his interceptor drones from shooting down Russia’s jet-powered Shaheds, and told his ministries to negotiate with Washington and the company, the Associated Press reports. By his account, the interceptors lose contact with their operators above 161km/h along the front and over occupied territory, letting through drones aimed at electrical substations, while Russia fired more than 2,300 attack drones, 1,590 glide bombs and 15 missiles in a single week. A Russian strike on Chornomorsk, near Odesa, cut power to some 41,000 customers, while Ukraine’s general staff claims strikes on the Akhtubinsk military airfield and on industrial sites in Nizhnekamsk, in Tatarstan, more than 1,000 kilometres from Ukraine.
+Russia’s defence ministry said on Monday 16 November that it had intercepted 1,336 Ukrainian drones in a single night, the highest number it has claimed since the invasion, about 600 of them aimed at the Moscow region according to the city’s mayor, Sergei Sobyanin, the Associated Press reports. The Kerch bridge linking Crimea to Russia was targeted, with the Kremlin’s spokesman, Dmitry Peskov, describing the damage as “insignificant”, while Volodymyr Zelensky says Ukraine has knocked out more than 55% of Russia’s refining capacity and condemns the speed limits on SpaceX’s Starshield terminals. Russia fired more than 2,300 drones, 1,590 glide bombs and 15 missiles at Ukraine in a single week, according to Ukraine’s president, and its strikes on the Zaporizhzhia and Dnipropetrovsk regions left hundreds of thousands of homes without power as winter approaches.
 
-**The number :** 161 km/h — the speed above which interceptor drones lose their Starshield link, according to Kyiv
+**The number :** 1,336 — Ukrainian drones intercepted in one night, according to Russia’s defence ministry
 
 ### A dependency turned into leverage
 
 Ukraine’s army relies on both commercial Starlink and Starshield, which the Kyiv Independent credits for the success of its strikes on Russian logistics at medium range. That the terminals are throttled precisely over occupied territory gives the matter a political edge: Mr Zelensky sees it as a partial acknowledgment that those areas are not Ukrainian, and doubts that the limit is purely technical, even though America’s secretary of state, Marco Rubio, had assured him that Starshield was more a matter for the American government. The restriction comes as Moscow concentrates its Shaheds on electrical substations, as in previous winters, and as Washington discusses a territorial compromise in the Donbas with Kyiv.
 
+- _What changed 19:55_ : Moscow says it intercepted a record 1,336 Ukrainian drones and the Kerch bridge was targeted; headline, text and figure of the day rewritten.
+
 Sources :
+- [Associated Press, via PBS — Russia says its defenses intercepted over 1,300 Ukrainian drones in a major attack](https://www.pbs.org/newshour/world/russia-says-its-defenses-intercepted-over-1300-ukrainian-drones-in-a-major-attack)
 - [Associated Press, via ABC News — Zelenskyy warns Starshield restrictions threaten Ukraine’s energy defenses](https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524)
 - [Kyiv Independent — Starshield restrictions hamper Ukraine’s ability to defend energy infrastructure from Russian drones, Zelensky says](https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/)
 - [Kyiv Independent — Ukraine war latest: Russia launches mass attack on Odesa Oblast as Ukraine strikes airfield, drone launch site in Russia](https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/)

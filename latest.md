@@ -1,16 +1,16 @@
 # Diurna — N° 12 — Lundi 16 novembre 2026
 
-> L’Iran revendique une attaque de drones contre une base américaine à Bahreïn
+> L’Iran affirme que six pétroliers ont heurté des mines près d’Ormuz depuis dimanche
 
-Bahreïn a déclenché dimanche ses premières alertes générales depuis septembre, tandis que les Gardiens de la révolution affirment avoir visé un radar américain et que deux pétroliers auraient sauté sur des mines près d’Ormuz. Volodymyr Zelensky dénonce les restrictions imposées à Starshield, l’ASEAN et la Chine échouent à conclure leur code de conduite maritime, la COP31 bute sur la finance, et l’armée soudanaise progresse au Kordofan.
+Les Gardiens de la révolution affirment que six pétroliers ont pris feu après avoir heurté des mines près d’Ormuz depuis dimanche, tandis qu’un troisième porte-avions américain arrive dans la région. L’Ukraine lance sa plus vaste attaque de drones contre la Russie, l’ASEAN et la Chine échouent à conclure leur code de conduite maritime, la COP31 bute sur la finance, et l’armée soudanaise progresse au Kordofan.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Iran — L’Iran revendique une attaque de drones contre une base américaine à Bahreïn, Ormuz reste fermé
+## 1. Iran — Six pétroliers touchés par des mines près d’Ormuz selon l’Iran, un troisième porte-avions américain arrive
 
-**Les Gardiens de la révolution affirment avoir lancé six drones contre un radar américain sur une base bahreïnienne, la deuxième revendication de ce type en trois jours. Téhéran dit aussi que deux pétroliers ont heurté des mines près d’Ormuz, et attend la réponse de Washington à ses conditions pour mettre fin à la guerre.**
+**Les Gardiens de la révolution affirment que six pétroliers ont pris feu après avoir heurté des mines près d’Ormuz depuis dimanche, au lendemain d’une attaque de drones revendiquée contre Bahreïn. Un troisième porte-avions américain est arrivé dans la région, et Téhéran refuse toute inspection nucléaire avant la fin de la guerre.**
 
-Le corps des Gardiens de la révolution islamique a affirmé dimanche 15 novembre avoir lancé six drones contre un radar de défense aérienne américain installé sur la base de Riffa, à Bahreïn, où le ministère de l’intérieur a émis à l’aube deux alertes en trois heures, les premières à l’échelle du pays depuis septembre, rapportent Al Jazeera et The National. L’armée bahreïnie dit avoir intercepté plusieurs attaques iraniennes, sans qu’aucun dégât soit confirmé, alors que le commandement militaire américain avait démenti vendredi une première revendication et que les Gardiens assurent que deux pétroliers, qui naviguaient balises éteintes sur une route « non autorisée », ont heurté des mines au sud du détroit d’Ormuz. Le président du Parlement iranien et négociateur en chef, Mohammad Bagher Ghalibaf, affirme avoir transmis sept conditions par l’intermédiaire du Qatar, dont la levée du blocus et la fin officielle de la guerre, alors que Washington maintient le blocus des ports iraniens et durcit ses sanctions.
+Les Gardiens de la révolution ont affirmé lundi 16 novembre que deux nouveaux pétroliers avaient heurté des mines dans le détroit d’Ormuz, portant à six le nombre de navires incendiés depuis dimanche selon les médias d’État iraniens, au lendemain d’une attaque revendiquée de six drones contre la base de Riffa, à Bahreïn. Le porte-avions américain Theodore Roosevelt est arrivé dans la région, où croisent déjà le George H. W. Bush et le George Washington, tandis qu’un pétrolier sous pavillon panaméen, l’ON Phoenix, a été touché par un projectile inconnu au large d’Oman, sans faire de victime, rapporte The Times of Israel. Le vice-ministre iranien des affaires étrangères, Kazem Gharibabadi, exclut tout accès de l’AIEA aux sites nucléaires avant la fin définitive de la guerre, tandis que le chef de la diplomatie, Abbas Araghtchi, affirme depuis Islamabad que l’Organisation de coopération économique soutient un plan iranien de réouverture d’Ormuz en deux jours, sous conditions.
 
 **Le chiffre du jour :** 92 $ — le prix du baril de Brent au 11 novembre
 
@@ -18,26 +18,33 @@ Le corps des Gardiens de la révolution islamique a affirmé dimanche 15 novembr
 
 Les combats se sont atténués sans qu’aucun accord ne mette fin à la guerre déclenchée le 28 février par les frappes américaines et israéliennes : l’Iran continue de viser par intermittence les bases américaines du Golfe, et Washington étrangle son économie par le blocus. La revendication de vendredi contre Bahreïn, qui abrite le quartier général de la Ve flotte américaine, était la première visant des installations militaires américaines dans un pays du Golfe depuis début septembre, selon Reuters. Téhéran affirme contrôler seul, avec Oman, le détroit d’Ormuz, ce que les États-Unis contestent. Le danger tient désormais à l’erreur de calcul, estime le politiste Saeid Golkar, cité par Al Jazeera : des échanges limités peuvent dégénérer à tout moment.
 
+- _Ce qui a changé 19 h 55_ : Les Gardiens affirment que six pétroliers ont heurté des mines depuis dimanche et un troisième porte-avions américain est arrivé ; titre et texte réécrits.
+
 Sources :
+- [The Times of Israel — Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections](https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/)
+- [The New Arab — Third US aircraft carrier arrives to region, Iran claims another tanker hit in Hormuz](https://www.newarab.com/news/third-us-aircraft-carrier-arrives-iran-says-tankers-hit-mines)
 - [Al Jazeera — Iran says it targets US radar in Bahrain. What do we know?](https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know)
 - [The National — Bahrain intercepts Iranian attacks after first nationwide alert in months](https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/)
 - [Anadolu — Morning Briefing: Nov. 15, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/16/iran-revendique-attaque-drones-contre-base-americaine-bahrein/
 
-## 2. Ukraine — Zelensky accuse les restrictions de Starshield d’affaiblir la défense du réseau électrique ukrainien
+## 2. Ukraine — L’Ukraine mène sa plus vaste attaque de drones contre la Russie, jusqu’au pont de Crimée
 
-**Le président ukrainien affirme que les limites de vitesse imposées aux terminaux du système de SpaceX empêchent ses drones intercepteurs d’abattre les Shahed russes. Les frappes croisées sur les infrastructures énergétiques se poursuivent à l’approche de l’hiver.**
+**Moscou affirme avoir intercepté 1 336 drones ukrainiens en une nuit, un record depuis le début de l’invasion, dont près de 600 dirigés vers la région de Moscou. Le Kremlin fait état de dégâts « insignifiants » sur le pont de Kertch, tandis que Kiev réclame la levée des restrictions de Starshield.**
 
-Le président ukrainien, Volodymyr Zelensky, a affirmé dimanche 15 novembre que les limites de vitesse imposées aux terminaux Starshield, la version militaire du réseau Starlink exploitée par SpaceX, empêchaient ses drones intercepteurs d’abattre les drones russes Shahed à réaction, et a chargé ses ministères de négocier avec Washington et l’entreprise, rapporte l’Associated Press. Selon lui, les intercepteurs perdent le contact avec leurs opérateurs au-delà de 161 km/h sur le front et au-dessus des territoires occupés, ce qui laisse passer des engins visant les sous-stations électriques, alors que la Russie a tiré en une semaine plus de 2 300 drones d’attaque, 1 590 bombes planantes et 15 missiles. Une frappe russe sur Tchornomorsk, près d’Odessa, a privé d’électricité quelque 41 000 abonnés, tandis que l’état-major ukrainien revendique des frappes sur l’aérodrome militaire d’Akhtoubinsk et sur des sites industriels de Nijnekamsk, au Tatarstan, à plus de 1 000 kilomètres de l’Ukraine.
+Le ministère russe de la défense a affirmé lundi 16 novembre avoir intercepté 1 336 drones ukrainiens en une nuit, le chiffre le plus élevé revendiqué depuis l’invasion, dont environ 600 visaient la région de Moscou selon son maire, Sergueï Sobianine, rapporte l’Associated Press. Le pont de Kertch, qui relie la Crimée à la Russie, a été visé, le porte-parole du Kremlin, Dmitri Peskov, évoquant des dégâts « insignifiants », alors que Volodymyr Zelensky affirme avoir mis hors service plus de 55 % des capacités de raffinage russes et dénonce les limites de vitesse imposées aux terminaux Starshield de SpaceX. La Russie a tiré en une semaine plus de 2 300 drones, 1 590 bombes planantes et 15 missiles contre l’Ukraine, selon le président ukrainien, et ses frappes sur les régions de Zaporijia et de Dnipropetrovsk ont privé d’électricité des centaines de milliers de foyers à l’approche de l’hiver.
 
-**Le chiffre du jour :** 161 km/h — la vitesse au-delà de laquelle les drones intercepteurs perdent la liaison Starshield, selon Kiev
+**Le chiffre du jour :** 1 336 — drones ukrainiens interceptés en une nuit, selon le ministère russe de la défense
 
 ### Une dépendance devenue un levier
 
 L’armée ukrainienne s’appuie à la fois sur le Starlink commercial et sur Starshield, auquel le Kyiv Independent attribue le succès de ses frappes contre la logistique russe à moyenne portée. Que ces terminaux soient bridés précisément au-dessus des territoires occupés donne à la question une portée politique : M. Zelensky y voit une reconnaissance partielle de ces zones comme non ukrainiennes, et doute que la contrainte soit purement technique, alors que le secrétaire d’État américain, Marco Rubio, lui avait assuré que Starshield relevait davantage du gouvernement américain. La restriction intervient au moment où Moscou concentre ses Shahed sur les sous-stations électriques, comme lors des hivers précédents, et où Washington évoque avec Kiev un compromis territorial dans le Donbass.
 
+- _Ce qui a changé 19 h 55_ : Moscou affirme avoir intercepté 1 336 drones ukrainiens, un record, et le pont de Kertch a été visé ; titre, texte et chiffre du jour réécrits.
+
 Sources :
+- [Associated Press, via PBS — Russia says its defenses intercepted over 1,300 Ukrainian drones in a major attack](https://www.pbs.org/newshour/world/russia-says-its-defenses-intercepted-over-1300-ukrainian-drones-in-a-major-attack)
 - [Associated Press, via ABC News — Zelenskyy warns Starshield restrictions threaten Ukraine’s energy defenses](https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524)
 - [Kyiv Independent — Starshield restrictions hamper Ukraine’s ability to defend energy infrastructure from Russian drones, Zelensky says](https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/)
 - [Kyiv Independent — Ukraine war latest: Russia launches mass attack on Odesa Oblast as Ukraine strikes airfield, drone launch site in Russia](https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/)

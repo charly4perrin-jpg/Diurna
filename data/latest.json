@@ -1,9 +1,9 @@
 {
   "date": "2026-11-16",
   "number": 12,
-  "updated": "2026-11-16T07:10:00+01:00",
-  "headline": "L'Iran revendique une attaque de drones contre une base américaine à Bahreïn",
-  "standfirst": "Bahreïn a déclenché dimanche ses premières alertes générales depuis septembre, tandis que les Gardiens de la révolution affirment avoir visé un radar américain et que deux pétroliers auraient sauté sur des mines près d'Ormuz. Volodymyr Zelensky dénonce les restrictions imposées à Starshield, l'ASEAN et la Chine échouent à conclure leur code de conduite maritime, la COP31 bute sur la finance, et l'armée soudanaise progresse au Kordofan.",
+  "updated": "2026-11-16T19:55:00+01:00",
+  "headline": "L'Iran affirme que six pétroliers ont heurté des mines près d'Ormuz depuis dimanche",
+  "standfirst": "Les Gardiens de la révolution affirment que six pétroliers ont pris feu après avoir heurté des mines près d'Ormuz depuis dimanche, tandis qu'un troisième porte-avions américain arrive dans la région. L'Ukraine lance sa plus vaste attaque de drones contre la Russie, l'ASEAN et la Chine échouent à conclure leur code de conduite maritime, la COP31 bute sur la finance, et l'armée soudanaise progresse au Kordofan.",
   "essentials": [
     {
       "rank": 1,
@@ -20,12 +20,12 @@
         "diplomacy",
         "economy"
       ],
-      "title": "L'Iran revendique une attaque de drones contre une base américaine à Bahreïn, Ormuz reste fermé",
-      "standfirst": "Les Gardiens de la révolution affirment avoir lancé six drones contre un radar américain sur une base bahreïnienne, la deuxième revendication de ce type en trois jours. Téhéran dit aussi que deux pétroliers ont heurté des mines près d'Ormuz, et attend la réponse de Washington à ses conditions pour mettre fin à la guerre.",
+      "title": "Six pétroliers touchés par des mines près d'Ormuz selon l'Iran, un troisième porte-avions américain arrive",
+      "standfirst": "Les Gardiens de la révolution affirment que six pétroliers ont pris feu après avoir heurté des mines près d'Ormuz depuis dimanche, au lendemain d'une attaque de drones revendiquée contre Bahreïn. Un troisième porte-avions américain est arrivé dans la région, et Téhéran refuse toute inspection nucléaire avant la fin de la guerre.",
       "body": [
-        "Le corps des Gardiens de la révolution islamique a affirmé dimanche 15 novembre avoir lancé six drones contre un radar de défense aérienne américain installé sur la base de Riffa, à Bahreïn, où le ministère de l'intérieur a émis à l'aube deux alertes en trois heures, les premières à l'échelle du pays depuis septembre, rapportent Al Jazeera et The National.",
-        "L'armée bahreïnie dit avoir intercepté plusieurs attaques iraniennes, sans qu'aucun dégât soit confirmé, alors que le commandement militaire américain avait démenti vendredi une première revendication et que les Gardiens assurent que deux pétroliers, qui naviguaient balises éteintes sur une route « non autorisée », ont heurté des mines au sud du détroit d'Ormuz.",
-        "Le président du Parlement iranien et négociateur en chef, Mohammad Bagher Ghalibaf, affirme avoir transmis sept conditions par l'intermédiaire du Qatar, dont la levée du blocus et la fin officielle de la guerre, alors que Washington maintient le blocus des ports iraniens et durcit ses sanctions."
+        "Les Gardiens de la révolution ont affirmé lundi 16 novembre que deux nouveaux pétroliers avaient heurté des mines dans le détroit d'Ormuz, portant à six le nombre de navires incendiés depuis dimanche selon les médias d'État iraniens, au lendemain d'une attaque revendiquée de six drones contre la base de Riffa, à Bahreïn.",
+        "Le porte-avions américain Theodore Roosevelt est arrivé dans la région, où croisent déjà le George H. W. Bush et le George Washington, tandis qu'un pétrolier sous pavillon panaméen, l'ON Phoenix, a été touché par un projectile inconnu au large d'Oman, sans faire de victime, rapporte The Times of Israel.",
+        "Le vice-ministre iranien des affaires étrangères, Kazem Gharibabadi, exclut tout accès de l'AIEA aux sites nucléaires avant la fin définitive de la guerre, tandis que le chef de la diplomatie, Abbas Araghtchi, affirme depuis Islamabad que l'Organisation de coopération économique soutient un plan iranien de réouverture d'Ormuz en deux jours, sous conditions."
       ],
       "figure": {
         "value": "92 $",
@@ -86,7 +86,7 @@
         },
         {
           "title": "Des revendications invérifiables",
-          "text": "Ni le nom, ni le pavillon, ni l'armateur des pétroliers cités par les Gardiens n'ont été communiqués, et aucune autorité maritime n'a confirmé les explosions. Les Gardiens disent aussi avoir abattu un drone américain MQ-1 au-dessus de l'île de Qeshm."
+          "text": "Ni le nom ni le pavillon des pétroliers cités par les Gardiens n'ont été communiqués, et aucune autorité maritime n'a confirmé ces explosions. Seul l'incident de l'ON Phoenix, au large d'Oman, a été signalé par l'agence britannique UKMTO et la société de sécurité Vanguard."
         }
       ],
       "involved": [
@@ -130,11 +130,27 @@
           "t": "Alertes générales à Bahreïn ; Téhéran revendique une attaque de six drones contre la base de Riffa."
         },
         {
+          "d": "2026-11-16",
+          "t": "Six pétroliers incendiés par des mines depuis dimanche, selon les Gardiens ; arrivée d'un troisième porte-avions américain."
+        },
+        {
           "d": "2026-11-17",
           "t": "Élection du président de la Knesset, en Israël."
         }
       ],
       "sources": [
+        {
+          "name": "The Times of Israel",
+          "title": "Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections",
+          "url": "https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "The New Arab",
+          "title": "Third US aircraft carrier arrives to region, Iran claims another tanker hit in Hormuz",
+          "url": "https://www.newarab.com/news/third-us-aircraft-carrier-arrives-iran-says-tankers-hit-mines",
+          "date": "2026-11-16"
+        },
         {
           "name": "Al Jazeera",
           "title": "Iran says it targets US radar in Bahrain. What do we know?",
@@ -158,7 +174,13 @@
         "id": "guerre-iran",
         "title": "La guerre avec l’Iran"
       },
-      "slug": "iran-revendique-attaque-drones-contre-base-americaine-bahrein"
+      "slug": "iran-revendique-attaque-drones-contre-base-americaine-bahrein",
+      "updates": [
+        {
+          "time": "2026-11-16T19:55:00+01:00",
+          "text": "Les Gardiens affirment que six pétroliers ont heurté des mines depuis dimanche et un troisième porte-avions américain est arrivé ; titre et texte réécrits."
+        }
+      ]
     },
     {
       "rank": 2,
@@ -170,17 +192,17 @@
         "conflict",
         "diplomacy"
       ],
-      "title": "Zelensky accuse les restrictions de Starshield d'affaiblir la défense du réseau électrique ukrainien",
-      "standfirst": "Le président ukrainien affirme que les limites de vitesse imposées aux terminaux du système de SpaceX empêchent ses drones intercepteurs d'abattre les Shahed russes. Les frappes croisées sur les infrastructures énergétiques se poursuivent à l'approche de l'hiver.",
+      "title": "L'Ukraine mène sa plus vaste attaque de drones contre la Russie, jusqu'au pont de Crimée",
+      "standfirst": "Moscou affirme avoir intercepté 1 336 drones ukrainiens en une nuit, un record depuis le début de l'invasion, dont près de 600 dirigés vers la région de Moscou. Le Kremlin fait état de dégâts « insignifiants » sur le pont de Kertch, tandis que Kiev réclame la levée des restrictions de Starshield.",
       "body": [
-        "Le président ukrainien, Volodymyr Zelensky, a affirmé dimanche 15 novembre que les limites de vitesse imposées aux terminaux Starshield, la version militaire du réseau Starlink exploitée par SpaceX, empêchaient ses drones intercepteurs d'abattre les drones russes Shahed à réaction, et a chargé ses ministères de négocier avec Washington et l'entreprise, rapporte l'Associated Press.",
-        "Selon lui, les intercepteurs perdent le contact avec leurs opérateurs au-delà de 161 km/h sur le front et au-dessus des territoires occupés, ce qui laisse passer des engins visant les sous-stations électriques, alors que la Russie a tiré en une semaine plus de 2 300 drones d'attaque, 1 590 bombes planantes et 15 missiles.",
-        "Une frappe russe sur Tchornomorsk, près d'Odessa, a privé d'électricité quelque 41 000 abonnés, tandis que l'état-major ukrainien revendique des frappes sur l'aérodrome militaire d'Akhtoubinsk et sur des sites industriels de Nijnekamsk, au Tatarstan, à plus de 1 000 kilomètres de l'Ukraine."
+        "Le ministère russe de la défense a affirmé lundi 16 novembre avoir intercepté 1 336 drones ukrainiens en une nuit, le chiffre le plus élevé revendiqué depuis l'invasion, dont environ 600 visaient la région de Moscou selon son maire, Sergueï Sobianine, rapporte l'Associated Press.",
+        "Le pont de Kertch, qui relie la Crimée à la Russie, a été visé, le porte-parole du Kremlin, Dmitri Peskov, évoquant des dégâts « insignifiants », alors que Volodymyr Zelensky affirme avoir mis hors service plus de 55 % des capacités de raffinage russes et dénonce les limites de vitesse imposées aux terminaux Starshield de SpaceX.",
+        "La Russie a tiré en une semaine plus de 2 300 drones, 1 590 bombes planantes et 15 missiles contre l'Ukraine, selon le président ukrainien, et ses frappes sur les régions de Zaporijia et de Dnipropetrovsk ont privé d'électricité des centaines de milliers de foyers à l'approche de l'hiver."
       ],
       "figure": {
-        "value": "161 km/h",
-        "label": "la vitesse au-delà de laquelle les drones intercepteurs perdent la liaison Starshield, selon Kiev",
-        "compare": "trop peu pour rattraper les Shahed à réaction"
+        "value": "1 336",
+        "label": "drones ukrainiens interceptés en une nuit, selon le ministère russe de la défense",
+        "compare": "le nombre le plus élevé revendiqué depuis février 2022"
       },
       "since": {
         "date": "2022-02-24",
@@ -257,7 +279,7 @@
         },
         {
           "title": "Les frappes ukrainiennes en Russie",
-          "text": "Moscou affirme avoir abattu 533 drones ukrainiens en une nuit au-dessus de treize régions, de la Crimée et des mers Noire et d'Azov. Dans la région de Rostov, deux sous-stations ont été endommagées et un ingénieur tué, selon le gouverneur."
+          "text": "À Azov, dans la région de Rostov, trois personnes ont été blessées par des drones, et l'armée ukrainienne dit y avoir frappé deux dépôts pétroliers. Six personnes ont été blessées dans la région de Krasnodar, selon les autorités locales."
         },
         {
           "title": "La proposition américaine",
@@ -286,11 +308,21 @@
           "t": "Le président ukrainien demande la levée des restrictions avant l'hiver ; frappe sur le réseau électrique de la région d'Odessa."
         },
         {
+          "d": "2026-11-16",
+          "t": "Moscou dit avoir intercepté 1 336 drones ukrainiens en une nuit ; le pont de Kertch visé."
+        },
+        {
           "d": "2026-11-26",
           "t": "Conseil européen consacré notamment au financement de l'Ukraine."
         }
       ],
       "sources": [
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Russia says its defenses intercepted over 1,300 Ukrainian drones in a major attack",
+          "url": "https://www.pbs.org/newshour/world/russia-says-its-defenses-intercepted-over-1300-ukrainian-drones-in-a-major-attack",
+          "date": "2026-11-16"
+        },
         {
           "name": "Associated Press, via ABC News",
           "title": "Zelenskyy warns Starshield restrictions threaten Ukraine's energy defenses",
@@ -314,7 +346,13 @@
         "id": "guerre-ukraine",
         "title": "La guerre en Ukraine"
       },
-      "slug": "zelensky-accuse-restrictions-starshield-affaiblir-defense-reseau-electri"
+      "slug": "zelensky-accuse-restrictions-starshield-affaiblir-defense-reseau-electri",
+      "updates": [
+        {
+          "time": "2026-11-16T19:55:00+01:00",
+          "text": "Moscou affirme avoir intercepté 1 336 drones ukrainiens, un record, et le pont de Kertch a été visé ; titre, texte et chiffre du jour réécrits."
+        }
+      ]
     },
     {
       "rank": 3,
