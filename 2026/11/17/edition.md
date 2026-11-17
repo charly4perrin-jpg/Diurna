@@ -1,16 +1,16 @@
 # Diurna — N° 13 — Mardi 17 novembre 2026
 
-> Nouveaux pétroliers en feu à Ormuz, les Houthis aux portes d’Aden
+> L’Iran vise une base américaine à Bahreïn, le pont de Crimée en partie effondré
 
-L’Iran affirme que de nouveaux pétroliers ont heurté des mines dans le détroit d’Ormuz, où croisent trois porte-avions américains, tandis qu’au Yémen les Houthis s’approchent d’Aden. Donald Trump arrive à Manille, l’Europe refuse de négocier sa sécurité avec Moscou sans cessez-le-feu, et une frappe tue douze déplacés en Birmanie.
+Les Gardiens de la révolution affirment avoir visé un radar américain à Bahreïn, qui dit avoir intercepté l’attaque, tandis que la marine iranienne annonce trois nouveaux pétroliers en feu à Ormuz. Une section du pont de Crimée s’est effondrée après une nouvelle frappe ukrainienne, Donald Trump a réuni le Quad à Manille et les Houthis approchent d’Aden.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Iran — Nouveaux pétroliers en feu dans le détroit d’Ormuz, où croisent désormais trois porte-avions américains
+## 1. Iran — L’Iran affirme avoir visé un radar américain à Bahreïn, nouveaux pétroliers en feu à Ormuz
 
-**La marine des Gardiens de la révolution affirme que deux pétroliers ont heurté des mines lundi, et l’agence britannique UKMTO signale deux navires attaqués près d’Oman. Washington confirme l’arrivée d’un troisième porte-avions, tandis que la diplomatie reste bloquée.**
+**Les Gardiens de la révolution disent avoir pris pour cible mardi un radar de la base de Sheikh Isa, à Bahreïn, qui affirme avoir intercepté l’attaque. La marine iranienne annonce trois nouveaux pétroliers en feu après avoir heurté des mines.**
 
-La marine des Gardiens de la révolution a affirmé lundi 16 novembre que deux pétroliers avaient heurté des mines et pris feu en empruntant, dans le sud du détroit d’Ormuz, une route jugée non autorisée par Téhéran, tandis que la marine régulière iranienne faisait état d’un troisième navire immobilisé à l’est du détroit. Ces revendications sont invérifiables, mais l’agence britannique UKMTO a signalé de son côté deux attaques contre des pétroliers, dont l’une a désemparé un pétrolier à 13 kilomètres au nord de Khasab, à Oman, et avec la confirmation par un responsable américain de l’arrivée du porte-avions Theodore Roosevelt dans la région. Le vice-ministre iranien des affaires étrangères, Kazem Gharibabadi, prévient que l’Iran n’attendra pas d’être attaqué le premier, alors que le secrétaire d’État américain, Marco Rubio, promet une pression économique « encore pire » et que Téhéran attend toujours une réponse à ses sept conditions transmises par le Qatar.
+Les Gardiens de la révolution ont affirmé mardi 17 novembre avoir visé le système radar américain de la base de Sheikh Isa, à Bahreïn, siège de la Ve flotte, dont les autorités disent avoir intercepté l’attaque sans victime ni dégât, tandis que la marine iranienne annonçait trois pétroliers en feu après avoir heurté des mines depuis le matin. Ces revendications sont invérifiables, mais l’agence britannique UKMTO a signalé une nouvelle attaque contre un pétrolier au nord de Khasab, à Oman, dont l’équipage serait porté disparu, et un responsable iranien a attribué aux États-Unis une explosion survenue sur l’île de Qeshm, sans dégâts selon lui. Donald Trump, qui dit pouvoir surseoir à une attaque contre l’Iran selon le comportement de Téhéran, a prévenu que l’Iran « paierait le prix » de menaces contre Washington, alors que le ministre des affaires étrangères, Abbas Araghtchi, se rendait à Oman et que des responsables qatariens et iraniens se réunissaient.
 
 **Le chiffre du jour :** 136 — incidents de sécurité visant des navires recensés par l’OMI depuis mars
 
@@ -18,11 +18,14 @@ La marine des Gardiens de la révolution a affirmé lundi 16 novembre que deux p
 
 Depuis l’effondrement, début juillet, du protocole d’accord conclu en juin, les deux camps se livrent à ce que l’analyste Ali Vaez, de l’International Crisis Group, décrit comme un « jeu de la poule mouillée » périlleux. Washington parie sur l’asphyxie économique : blocus des ports iraniens, sanctions renforcées et nouvelle force chargée de couper le commerce terrestre et caspien de l’Iran. Téhéran répond en rendant le passage d’Ormuz dangereux pour quiconque ignore ses routes imposées. L’Organisation maritime internationale a recensé 136 incidents visant des navires dans la région entre le 1er mars et le 11 novembre. Le renforcement militaire américain, avec trois groupes aéronavals, accroît le risque qu’un incident isolé fasse basculer la région dans une nouvelle phase de combats.
 
+- _Ce qui a changé 19 h 44_ : Les Gardiens disent avoir visé un radar américain à Bahreïn et Téhéran annonce trois pétroliers en feu ; titre et texte réécrits.
+
 Sources :
+- [Anadolu — Iranian navy says 3rd oil tanker catches fire after hitting mine in Strait of Hormuz](https://www.aa.com.tr/en/middle-east/iranian-navy-says-3rd-oil-tanker-catches-fire-after-hitting-mine-in-strait-of-hormuz/4128076)
+- [Reuters, via MarineLink — US Military Radar System in Bahrain Attacked by Iran](https://www.marinelink.com/news/us-military-radar-system-bahrain-attacked-544422)
+- [Associated Press, via KPRC — Saudi-backed forces in Yemen beef up defenses outside Aden to thwart Houthis, and other Mideast news](https://www.click2houston.com/news/world/2026/11/17/saudi-backed-forces-in-yemen-beef-up-defenses-outside-aden-to-thwart-houthis-and-other-mideast-news/)
 - [Al Jazeera — Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field](https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field)
 - [Al Jazeera — USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?](https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume)
-- [Anadolu — Iran says 2 oil tankers hit mines near Strait of Hormuz, 1 sinks](https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-near-strait-of-hormuz-1-sinks/4125887)
-- [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/17/nouveaux-petroliers-feu-detroit-ormuz-croisent-desormais-trois/
 
@@ -48,9 +51,9 @@ https://charly4perrin-jpg.github.io/Diurna/2026/11/17/yemen-houthis-rapprochent-
 
 ## 3. Philippines — Donald Trump arrive à Manille pour la clôture du sommet de l’ASEAN avant Shenzhen
 
-**Le président américain est attendu mardi soir à Manille, au dernier jour du 49e sommet de l’ASEAN, pour une réunion du Quad et un sommet spécial avec les dirigeants d’Asie du Sud-Est. Il gagnera ensuite Shenzhen pour l’APEC.**
+**Le président américain est arrivé mardi à Manille, au dernier jour du 49e sommet de l’ASEAN, et a réuni pour la première fois de son second mandat les dirigeants du Quad. Il gagnera ensuite Shenzhen pour l’APEC.**
 
-Donald Trump est attendu mardi 17 novembre en fin d’après-midi à Manille, accompagné du secrétaire d’État, Marco Rubio, et du secrétaire au Trésor, Scott Bessent, au moment où s’achève le 49e sommet de l’ASEAN, dont les Philippines transmettent la présidence à Singapour pour 2027. Le président américain, qui a promis une rencontre consacrée « surtout à l’économie », doit participer à une réunion du Quad avec le Japon, l’Australie et l’Inde, puis à un sommet spécial avec les dirigeants de l’ASEAN, au lendemain de l’échec des négociations sur un code de conduite en mer de Chine méridionale. Un accueil officiel au palais présidentiel est prévu mercredi avec Ferdinand Marcos Jr., avant le départ de Donald Trump pour le sommet de l’APEC à Shenzhen, où une rencontre inédite avec Xi Jinping et Vladimir Poutine n’était pas encore formellement confirmée mardi.
+Donald Trump a atterri mardi 17 novembre à 17 h 33, heure locale, à Manille, accompagné notamment du secrétaire d’État, Marco Rubio, au moment où s’achevait le 49e sommet de l’ASEAN, dont les Philippines transmettent la présidence à Singapour pour 2027. Il a aussitôt réuni le Quad avec les premiers ministres australien, Anthony Albanese, japonais, Sanae Takaichi, et indien, Narendra Modi, une première depuis son retour à la Maison Blanche, qui a annoncé des travaux sur l’intelligence artificielle et un exercice commun d’avions de patrouille maritime. En marge du sommet, Washington et Bangkok ont signé une déclaration commerciale par laquelle la Thaïlande supprimerait ses droits de douane sur les produits américains, avant l’accueil officiel prévu mercredi par Ferdinand Marcos Jr. et le départ de Donald Trump pour l’APEC, à Shenzhen.
 
 **Le chiffre du jour :** 49e — sommet de l’ASEAN, clos mardi à Manille
 
@@ -58,7 +61,10 @@ Donald Trump est attendu mardi 17 novembre en fin d’après-midi à Manille, ac
 
 La visite intervient après la défaite du camp présidentiel aux élections de mi-mandat, et alors que la guerre au Moyen-Orient domine les projets de communiqué final du sommet. Pour l’analyste américain Greg Poling, cité par l’AP, ce court passage doit montrer aux alliés d’Asie du Sud-Est qu’ils ne sont pas oubliés, sans laisser espérer de progrès substantiels lors de la rencontre avec Xi Jinping. Les dirigeants de l’ASEAN n’ont conclu ni le code de conduite maritime avec la Chine, agréé à environ 80 %, ni la réintégration de la Birmanie, dont le dirigeant reste exclu des sommets. L’enchaînement Manille-Shenzhen place Washington face à ses deux priorités asiatiques : ses alliances et sa relation avec Pékin.
 
+- _Ce qui a changé 19 h 44_ : Donald Trump est arrivé à Manille et a réuni le Quad ; chapô et texte réécrits au passé.
+
 Sources :
+- [ABC News — Trump Asia trip live updates: Trump and Quad leaders gather in Manila](https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702)
 - [Associated Press, via PBS — Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda](https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda)
 - [The Star — Trump set to arrive in Manila as 49th Asean Summit draws to a close](https://www.thestar.com.my/news/nation/2026/11/17/trump-set-to-arrive-in-manila-as-49th-asean-summit-draws-to-a-close)
 - [Daily Tribune — Trump en route to Manila for ASEAN Summit](https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit)
@@ -66,22 +72,25 @@ Sources :
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/17/donald-trump-arrive-manille-cloture-sommet-asean-avant/
 
-## 4. Ukraine — Le pont de Crimée rouvert en partie, l’Europe refuse de négocier sa sécurité avec Moscou avant un cessez-le-feu
+## 4. Ukraine — Une section du pont de Crimée s’effondre, la Russie frappe les ponts de Kiev
 
-**Une voie du pont de Kertch a rouvert lundi soir, dix-sept heures après la frappe ukrainienne. Plusieurs ministres européens jugent prématuré de discuter de l’architecture de sécurité du continent avec la Russie.**
+**Une nouvelle frappe ukrainienne a fait s’effondrer dans la nuit de lundi à mardi une travée routière du pont de Kertch, fermé à la circulation. À Kiev, des missiles russes ont touché deux ponts et privé des quartiers d’eau et de chauffage.**
 
-Une voie du pont de Kertch, seul lien direct entre la Russie et la Crimée annexée, a rouvert lundi 16 novembre en soirée, environ dix-sept heures après avoir été touchée par des drones ukrainiens lors de l’attaque la plus massive lancée par Kiev depuis le début de la guerre, selon Reuters. Le vice-premier ministre russe, Marat Khousnoulline, assure que les moyens de réparation sont réunis, tandis que plusieurs ministres européens des affaires étrangères ont jugé prématuré, lundi, de discuter avec Moscou de la sécurité du continent avant un cessez-le-feu et des concessions russes. Les Européens accusent la Russie de faire traîner les pourparlers d’Abou Dhabi pour rendre l’hiver plus dur aux Ukrainiens, alors qu’un groupe de régulateurs de sûreté nucléaire juge croissant le risque d’accident en Ukraine en raison des frappes sur le réseau électrique.
+Le pont de Kertch, seul lien direct entre la Russie et la Crimée annexée, a été frappé dans la nuit du 16 au 17 novembre pour la deuxième fois en vingt-quatre heures, et l’état-major ukrainien affirme qu’une arche et une travée de la partie routière se sont effondrées. Le ministère russe des transports a suspendu la circulation routière et ferroviaire en faisant état d’une absence de victimes, tandis qu’à Kiev le maire, Vitali Klitschko, a indiqué que des missiles russes avaient touché les ponts Nord et Sud, privant certains quartiers d’eau et de chauffage. Ces frappes surviennent alors que plusieurs ministres européens jugent prématuré de discuter avec Moscou de la sécurité du continent avant un cessez-le-feu, et à deux jours de la rencontre prévue entre Vladimir Poutine, Donald Trump et Xi Jinping.
 
-**Le chiffre du jour :** 17 heures — de fermeture du pont de Crimée avant la réouverture d’une voie
+**Le chiffre du jour :** 2 — frappes ukrainiennes contre le pont de Crimée en vingt-quatre heures
 
 ### Une guerre d’usure menée aussi à la table
 
 Le pont de Kertch, déjà frappé en 2022, est un symbole autant qu’une artère logistique : le Kremlin répète que la question de la Crimée est close « pour toujours ». En le visant, Kiev rappelle sa capacité à frapper loin derrière la ligne de front, au moment où les pourparlers trilatéraux d’Abou Dhabi piétinent. Selon le New York Times, Moscou y a réitéré ses exigences d’avant-guerre sur le recul de l’OTAN, et le quotidien allemand Bild a fait état d’une demande de sortie de la Finlande de l’Alliance, aussitôt rejetée par Helsinki. Les Européens, qui veulent peser dans la négociation, refusent d’ouvrir le chantier de la sécurité continentale sans cessez-le-feu préalable.
 
+- _Ce qui a changé 19 h 44_ : Nouvelle frappe ukrainienne sur le pont de Crimée, dont une section s’est effondrée, et frappes russes sur Kiev ; titre et texte réécrits.
+
 Sources :
+- [The Kyiv Independent — Entire section of Crimean Bridge collapsed after reported Ukrainian Flamingo missile strike](https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/)
+- [The Kyiv Independent — Key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine](https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/)
 - [Reuters — Ukraine hits key Crimean bridge, curbing traffic, Russian governor says](https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/)
 - [Reuters — Holding talks with Russia on Europe’s security now would be premature, EU ministers say](https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/)
-- [Reuters — Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say](https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/)
 - [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/17/pont-crimee-rouvert-partie-europe-refuse-negocier-securite/

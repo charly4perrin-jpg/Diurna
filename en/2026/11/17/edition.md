@@ -1,16 +1,16 @@
 # Diurna — No. 13 — Tuesday, 17 November 2026
 
-> More tankers ablaze in Hormuz as the Houthis close in on Aden
+> Iran targets an American base in Bahrain as part of the Crimean bridge collapses
 
-Iran says more tankers have struck mines in the Strait of Hormuz, where three American aircraft carriers are now deployed, while in Yemen the Houthis advance towards Aden. Donald Trump lands in Manila, Europe refuses to discuss its security with Moscow before a ceasefire, and an air strike kills 12 displaced people in Myanmar.
+The Revolutionary Guards say they targeted an American radar in Bahrain, which says it intercepted the attack, while Iran’s navy reports three more tankers ablaze in the Strait of Hormuz. A section of the Crimean bridge has collapsed after another Ukrainian strike, Donald Trump has convened the Quad in Manila and the Houthis close in on Aden.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. Iran — More tankers ablaze in the Strait of Hormuz, where three American carriers are now deployed
+## 1. Iran — Iran says it targeted an American radar in Bahrain as more tankers burn in Hormuz
 
-**The Revolutionary Guards’ navy says two tankers struck mines on Monday, and Britain’s UKMTO reports two ships attacked off Oman. Washington confirms that a third aircraft carrier has arrived, while diplomacy remains stalled.**
+**The Revolutionary Guards say they struck at a radar at Bahrain’s Sheikh Isa base on Tuesday; Bahrain says it intercepted the attack. Iran’s navy reports three more tankers ablaze after striking mines.**
 
-The navy of Iran’s Revolutionary Guards claimed on Monday 16 November that two tankers had struck mines and caught fire while using a route in the southern Strait of Hormuz that Tehran deems unauthorised, while Iran’s regular navy reported a third vessel immobilised east of the strait. These claims cannot be verified, but Britain’s maritime agency, UKMTO, separately reported two attacks on tankers, one of which disabled a vessel 13 kilometres north of Khasab, in Oman, and an American official confirmed that the aircraft carrier Theodore Roosevelt had arrived in the region. Iran’s deputy foreign minister, Kazem Gharibabadi, warned that his country would not wait to be attacked first, as the American secretary of state, Marco Rubio, promised economic pressure that would be "even worse" and Tehran still awaits a reply to seven conditions relayed through Qatar.
+The Revolutionary Guards claimed on Tuesday 17 November to have targeted the American radar system at Sheikh Isa base in Bahrain, home to the US Fifth Fleet, whose authorities said they intercepted the attack without casualties or damage, while Iran’s navy reported three tankers ablaze after hitting mines since the morning. These claims cannot be verified, but Britain’s maritime agency, UKMTO, reported another attack on a tanker north of Khasab, in Oman, whose crew was reported missing, and an Iranian official blamed America for an explosion on Qeshm island, which he said caused no damage. Donald Trump, who says he may hold off attacking Iran depending on Tehran’s conduct, warned that Iran would "pay a price" for threats against Washington, as the foreign minister, Abbas Araghchi, visited Oman and Qatari and Iranian officials met.
 
 **The number :** 136 — security incidents involving ships recorded by the IMO since March
 
@@ -18,11 +18,14 @@ The navy of Iran’s Revolutionary Guards claimed on Monday 16 November that two
 
 Since the memorandum of understanding agreed in June collapsed in early July, the two sides have been locked in what Ali Vaez of the International Crisis Group calls a perilous "game of chicken". Washington is betting on economic strangulation: a blockade of Iranian ports, tougher sanctions and a new force tasked with cutting Iran’s overland and Caspian trade. Tehran’s answer is to make the Strait of Hormuz dangerous for any ship that ignores the routes it imposes. The International Maritime Organization recorded 136 incidents involving ships in the region between 1 March and 11 November. The American build-up, now three carrier strike groups, raises the risk that a single incident could tip the region into a new round of fighting.
 
+- _What changed 19:44_ : The Guards say they targeted an American radar in Bahrain and Tehran reports three tankers ablaze; headline and text rewritten.
+
 Sources :
+- [Anadolu — Iranian navy says 3rd oil tanker catches fire after hitting mine in Strait of Hormuz](https://www.aa.com.tr/en/middle-east/iranian-navy-says-3rd-oil-tanker-catches-fire-after-hitting-mine-in-strait-of-hormuz/4128076)
+- [Reuters, via MarineLink — US Military Radar System in Bahrain Attacked by Iran](https://www.marinelink.com/news/us-military-radar-system-bahrain-attacked-544422)
+- [Associated Press, via KPRC — Saudi-backed forces in Yemen beef up defenses outside Aden to thwart Houthis, and other Mideast news](https://www.click2houston.com/news/world/2026/11/17/saudi-backed-forces-in-yemen-beef-up-defenses-outside-aden-to-thwart-houthis-and-other-mideast-news/)
 - [Al Jazeera — Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field](https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field)
 - [Al Jazeera — USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?](https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume)
-- [Anadolu — Iran says 2 oil tankers hit mines near Strait of Hormuz, 1 sinks](https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-near-strait-of-hormuz-1-sinks/4125887)
-- [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/more-tankers-ablaze-strait-hormuz-where-three-american/
 
@@ -48,9 +51,9 @@ https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/yemen-houthis-close-ade
 
 ## 3. Philippines — Donald Trump lands in Manila for the close of the ASEAN summit, before heading to Shenzhen
 
-**The American president is due in Manila on Tuesday evening, on the final day of the 49th ASEAN summit, for a Quad meeting and a special summit with South-East Asian leaders. He then travels on to Shenzhen for APEC.**
+**The American president arrived in Manila on Tuesday, on the final day of the 49th ASEAN summit, and convened the Quad’s leaders for the first time in his second term. He then travels on to Shenzhen for APEC.**
 
-Donald Trump is due in Manila late on the afternoon of Tuesday 17 November, accompanied by the secretary of state, Marco Rubio, and the treasury secretary, Scott Bessent, as the 49th ASEAN summit draws to a close and the Philippines hands the bloc’s chairmanship to Singapore for 2027. The American president, who has promised a meeting focused "mostly on the economy", is to attend a Quad meeting with Japan, Australia and India, followed by a special summit with ASEAN leaders, a day after talks on a code of conduct for the South China Sea ended without agreement. An official welcome at the presidential palace with Ferdinand Marcos Jr is planned for Wednesday, before Mr Trump leaves for the APEC summit in Shenzhen, where an unprecedented meeting with Xi Jinping and Vladimir Putin had still not been formally confirmed on Tuesday.
+Donald Trump landed in Manila at 5.33pm local time on Tuesday 17 November, accompanied among others by the secretary of state, Marco Rubio, as the 49th ASEAN summit drew to a close and the Philippines handed the bloc’s chairmanship to Singapore for 2027. He promptly convened the Quad with the prime ministers of Australia, Anthony Albanese, Japan, Sanae Takaichi, and India, Narendra Modi, a first since his return to the White House, which announced work on artificial intelligence and a joint exercise for maritime patrol aircraft. On the sidelines, Washington and Bangkok signed a trade statement under which Thailand would scrap its tariffs on American goods, ahead of an official welcome by Ferdinand Marcos Jr on Wednesday and Mr Trump’s departure for APEC in Shenzhen.
 
 **The number :** 49th — ASEAN summit, which closes in Manila on Tuesday
 
@@ -58,7 +61,10 @@ Donald Trump is due in Manila late on the afternoon of Tuesday 17 November, acco
 
 The visit comes after the president’s party lost the midterm elections, and while the war in the Middle East dominates drafts of the summit’s final communiqué. For Greg Poling, an American analyst quoted by the AP, the short stop is meant to show South-East Asian allies that they have not been forgotten, without raising hopes of substantial progress at the meeting with Xi Jinping. ASEAN leaders concluded neither the maritime code of conduct with China, about 80% agreed, nor Myanmar’s readmission, its leader still being barred from summits. The Manila-Shenzhen sequence sets Washington’s two Asian priorities side by side: its alliances and its relationship with Beijing.
 
+- _What changed 19:44_ : Donald Trump has arrived in Manila and convened the Quad; standfirst and text rewritten in the past tense.
+
 Sources :
+- [ABC News — Trump Asia trip live updates: Trump and Quad leaders gather in Manila](https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702)
 - [Associated Press, via PBS — Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda](https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda)
 - [The Star — Trump set to arrive in Manila as 49th Asean Summit draws to a close](https://www.thestar.com.my/news/nation/2026/11/17/trump-set-to-arrive-in-manila-as-49th-asean-summit-draws-to-a-close)
 - [Daily Tribune — Trump en route to Manila for ASEAN Summit](https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit)
@@ -66,22 +72,25 @@ Sources :
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/donald-trump-lands-manila-close-asean-summit-before/
 
-## 4. Ukraine — Crimean bridge partly reopens as Europe refuses to discuss its security with Moscow before a ceasefire
+## 4. Ukraine — A section of the Crimean bridge collapses as Russia strikes Kyiv’s bridges
 
-**One lane of the Kerch bridge reopened on Monday evening, 17 hours after the Ukrainian strike. Several European ministers say it is premature to discuss the continent’s security architecture with Russia.**
+**A fresh Ukrainian strike overnight brought down a road span of the Kerch bridge, now closed to traffic. In Kyiv, Russian missiles hit two bridges and cut water and heating to some districts.**
 
-One lane of the Kerch bridge, the only direct link between Russia and annexed Crimea, reopened on the evening of Monday 16 November, about 17 hours after it was hit by Ukrainian drones in the largest attack Kyiv has launched since the war began, according to Reuters. Russia’s deputy prime minister, Marat Khusnullin, says the means for repairs are in place, while several European foreign ministers said on Monday that it was premature to discuss the continent’s security with Moscow before a ceasefire and Russian concessions. The Europeans accuse Russia of dragging out the Abu Dhabi talks to make the winter harder for Ukrainians, while a group of nuclear safety regulators says the risk of an accident in Ukraine is rising because of strikes on the power grid.
+The Kerch bridge, the only direct link between Russia and annexed Crimea, was struck overnight from 16 to 17 November for the second time in 24 hours, and Ukraine’s general staff says an arch and a span of the road section have collapsed. Russia’s transport ministry suspended road and rail traffic and said there were no casualties, while in Kyiv the mayor, Vitali Klitschko, said Russian missiles had hit the North and South bridges, cutting water and heating to some districts. The strikes come as several European ministers say it is premature to discuss the continent’s security with Moscow before a ceasefire, and two days before Vladimir Putin, Donald Trump and Xi Jinping are due to meet.
 
-**The number :** 17 hours — of closure on the Crimean bridge before one lane reopened
+**The number :** 2 — Ukrainian strikes on the Crimean bridge in 24 hours
 
 ### A war of attrition, fought at the table too
 
 The Kerch bridge, already struck in 2022, is a symbol as much as a logistical artery: the Kremlin insists that the Crimea question is closed "for ever". By targeting it, Kyiv shows that it can still strike far behind the front line, just as the trilateral talks in Abu Dhabi stall. According to the New York Times, Moscow restated its pre-war demands there for NATO to pull back, and the German daily Bild reported a demand that Finland leave the alliance, which Helsinki promptly rejected. The Europeans, who want a say in the negotiations, refuse to open the question of continental security without a ceasefire first.
 
+- _What changed 19:44_ : Another Ukrainian strike brought down part of the Crimean bridge and Russia struck Kyiv; headline and text rewritten.
+
 Sources :
+- [The Kyiv Independent — Entire section of Crimean Bridge collapsed after reported Ukrainian Flamingo missile strike](https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/)
+- [The Kyiv Independent — Key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine](https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/)
 - [Reuters — Ukraine hits key Crimean bridge, curbing traffic, Russian governor says](https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/)
 - [Reuters — Holding talks with Russia on Europe’s security now would be premature, EU ministers say](https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/)
-- [Reuters — Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say](https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/)
 - [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/crimean-bridge-partly-reopens-europe-refuses-discuss-security/
