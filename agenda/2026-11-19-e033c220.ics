@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-19-e033c220@diurna
+DTSTAMP:20261117T060241Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Rencontre Trump-Xi-Poutine prévue à Shenzhen\, en marge du somm
+ et de l’APEC.
+DESCRIPTION:Diurna — Édition du 17 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/17/
+END:VEVENT
+END:VCALENDAR

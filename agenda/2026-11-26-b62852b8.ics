@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — agenda
 BEGIN:VEVENT
 UID:2026-11-26-b62852b8@diurna
-DTSTAMP:20261116T184618Z
+DTSTAMP:20261117T060241Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Conseil européen de deux jours\, consacré notamment aux besoins
   de financement de l’Ukraine pour 2027.
-DESCRIPTION:Diurna — Édition du 16 novembre 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/16/
+DESCRIPTION:Diurna — Édition du 17 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/17/
 END:VEVENT
 END:VCALENDAR

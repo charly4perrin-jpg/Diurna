@@ -31,7 +31,7 @@
         "name_en": "Masoud Pezeshkian"
       }
     ],
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "source": {
       "name": "CBS News",
       "name_en": "CBS News",
@@ -48,7 +48,7 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "source": {
       "name": "Associated Press, via ABC News",
       "name_en": "Associated Press, via ABC News",
@@ -298,11 +298,11 @@
         "name": "Min Aung Hlaing"
       }
     ],
-    "checked": "2026-11-09",
+    "checked": "2026-11-17",
     "source": {
-      "name": "Wikipedia",
-      "name_en": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_in_Myanmar"
+      "name": "Associated Press, via KSAT",
+      "name_en": "Associated Press, via KSAT",
+      "url": "https://www.ksat.com/news/world/2026/11/15/southeast-asian-leaders-denounce-violence-in-myanmar-and-extend-ban-on-its-leader/"
     }
   },
   "POL": {
@@ -355,7 +355,7 @@
         "name_en": "Rashad al-Alimi"
       }
     ],
-    "checked": "2026-11-14",
+    "checked": "2026-11-17",
     "source": {
       "name": "Al Jazeera",
       "name_en": "Al Jazeera",
@@ -509,11 +509,11 @@
         "name": "Ferdinand Marcos Jr."
       }
     ],
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "source": {
-      "name": "The Philippine Star",
-      "name_en": "The Philippine Star",
-      "url": "https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17"
+      "name": "Associated Press, via PBS",
+      "name_en": "Associated Press, via PBS",
+      "url": "https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda"
     }
   }
 }

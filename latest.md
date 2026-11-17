@@ -1,127 +1,123 @@
-# Diurna — N° 12 — Lundi 16 novembre 2026
+# Diurna — N° 13 — Mardi 17 novembre 2026
 
-> L’Iran affirme que six pétroliers ont heurté des mines près d’Ormuz depuis dimanche
+> Nouveaux pétroliers en feu à Ormuz, les Houthis aux portes d’Aden
 
-Les Gardiens de la révolution affirment que six pétroliers ont pris feu après avoir heurté des mines près d’Ormuz depuis dimanche, tandis qu’un troisième porte-avions américain arrive dans la région. L’Ukraine lance sa plus vaste attaque de drones contre la Russie, l’ASEAN et la Chine échouent à conclure leur code de conduite maritime, la COP31 bute sur la finance, et l’armée soudanaise progresse au Kordofan.
+L’Iran affirme que de nouveaux pétroliers ont heurté des mines dans le détroit d’Ormuz, où croisent trois porte-avions américains, tandis qu’au Yémen les Houthis s’approchent d’Aden. Donald Trump arrive à Manille, l’Europe refuse de négocier sa sécurité avec Moscou sans cessez-le-feu, et une frappe tue douze déplacés en Birmanie.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Iran — Six pétroliers touchés par des mines près d’Ormuz selon l’Iran, un troisième porte-avions américain arrive
+## 1. Iran — Nouveaux pétroliers en feu dans le détroit d’Ormuz, où croisent désormais trois porte-avions américains
 
-**Les Gardiens de la révolution affirment que six pétroliers ont pris feu après avoir heurté des mines près d’Ormuz depuis dimanche, au lendemain d’une attaque de drones revendiquée contre Bahreïn. Un troisième porte-avions américain est arrivé dans la région, et Téhéran refuse toute inspection nucléaire avant la fin de la guerre.**
+**La marine des Gardiens de la révolution affirme que deux pétroliers ont heurté des mines lundi, et l’agence britannique UKMTO signale deux navires attaqués près d’Oman. Washington confirme l’arrivée d’un troisième porte-avions, tandis que la diplomatie reste bloquée.**
 
-Les Gardiens de la révolution ont affirmé lundi 16 novembre que deux nouveaux pétroliers avaient heurté des mines dans le détroit d’Ormuz, portant à six le nombre de navires incendiés depuis dimanche selon les médias d’État iraniens, au lendemain d’une attaque revendiquée de six drones contre la base de Riffa, à Bahreïn. Le porte-avions américain Theodore Roosevelt est arrivé dans la région, où croisent déjà le George H. W. Bush et le George Washington, tandis qu’un pétrolier sous pavillon panaméen, l’ON Phoenix, a été touché par un projectile inconnu au large d’Oman, sans faire de victime, rapporte The Times of Israel. Le vice-ministre iranien des affaires étrangères, Kazem Gharibabadi, exclut tout accès de l’AIEA aux sites nucléaires avant la fin définitive de la guerre, tandis que le chef de la diplomatie, Abbas Araghtchi, affirme depuis Islamabad que l’Organisation de coopération économique soutient un plan iranien de réouverture d’Ormuz en deux jours, sous conditions.
+La marine des Gardiens de la révolution a affirmé lundi 16 novembre que deux pétroliers avaient heurté des mines et pris feu en empruntant, dans le sud du détroit d’Ormuz, une route jugée non autorisée par Téhéran, tandis que la marine régulière iranienne faisait état d’un troisième navire immobilisé à l’est du détroit. Ces revendications sont invérifiables, mais l’agence britannique UKMTO a signalé de son côté deux attaques contre des pétroliers, dont l’une a désemparé un pétrolier à 13 kilomètres au nord de Khasab, à Oman, et avec la confirmation par un responsable américain de l’arrivée du porte-avions Theodore Roosevelt dans la région. Le vice-ministre iranien des affaires étrangères, Kazem Gharibabadi, prévient que l’Iran n’attendra pas d’être attaqué le premier, alors que le secrétaire d’État américain, Marco Rubio, promet une pression économique « encore pire » et que Téhéran attend toujours une réponse à ses sept conditions transmises par le Qatar.
 
-**Le chiffre du jour :** 92 $ — le prix du baril de Brent au 11 novembre
+**Le chiffre du jour :** 136 — incidents de sécurité visant des navires recensés par l’OMI depuis mars
 
-### Une guerre de basse intensité qui menace de déraper
+### Une escalade maritime sous le seuil de la guerre ouverte
 
-Les combats se sont atténués sans qu’aucun accord ne mette fin à la guerre déclenchée le 28 février par les frappes américaines et israéliennes : l’Iran continue de viser par intermittence les bases américaines du Golfe, et Washington étrangle son économie par le blocus. La revendication de vendredi contre Bahreïn, qui abrite le quartier général de la Ve flotte américaine, était la première visant des installations militaires américaines dans un pays du Golfe depuis début septembre, selon Reuters. Téhéran affirme contrôler seul, avec Oman, le détroit d’Ormuz, ce que les États-Unis contestent. Le danger tient désormais à l’erreur de calcul, estime le politiste Saeid Golkar, cité par Al Jazeera : des échanges limités peuvent dégénérer à tout moment.
-
-- _Ce qui a changé 19 h 55_ : Les Gardiens affirment que six pétroliers ont heurté des mines depuis dimanche et un troisième porte-avions américain est arrivé ; titre et texte réécrits.
+Depuis l’effondrement, début juillet, du protocole d’accord conclu en juin, les deux camps se livrent à ce que l’analyste Ali Vaez, de l’International Crisis Group, décrit comme un « jeu de la poule mouillée » périlleux. Washington parie sur l’asphyxie économique : blocus des ports iraniens, sanctions renforcées et nouvelle force chargée de couper le commerce terrestre et caspien de l’Iran. Téhéran répond en rendant le passage d’Ormuz dangereux pour quiconque ignore ses routes imposées. L’Organisation maritime internationale a recensé 136 incidents visant des navires dans la région entre le 1er mars et le 11 novembre. Le renforcement militaire américain, avec trois groupes aéronavals, accroît le risque qu’un incident isolé fasse basculer la région dans une nouvelle phase de combats.
 
 Sources :
-- [The Times of Israel — Third US aircraft carrier arrives in Mideast as Iran rules out nuclear inspections](https://www.timesofisrael.com/third-us-aircraft-carrier-arrives-in-mideast-as-iran-rules-out-nuclear-inspections/)
-- [The New Arab — Third US aircraft carrier arrives to region, Iran claims another tanker hit in Hormuz](https://www.newarab.com/news/third-us-aircraft-carrier-arrives-iran-says-tankers-hit-mines)
-- [Al Jazeera — Iran says it targets US radar in Bahrain. What do we know?](https://www.aljazeera.com/news/2026/11/15/iran-says-it-targets-us-radar-in-bahrain-what-do-we-know)
-- [The National — Bahrain intercepts Iranian attacks after first nationwide alert in months](https://www.thenationalnews.com/news/gulf/2026/11/15/bahrain-issues-first-nationwide-alert-in-months-as-iran-claims-attack-on-base-hosting-us-helicopters/)
-- [Anadolu — Morning Briefing: Nov. 15, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489)
+- [Al Jazeera — Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field](https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field)
+- [Al Jazeera — USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?](https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume)
+- [Anadolu — Iran says 2 oil tankers hit mines near Strait of Hormuz, 1 sinks](https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-near-strait-of-hormuz-1-sinks/4125887)
+- [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/16/iran-revendique-attaque-drones-contre-base-americaine-bahrein/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/17/nouveaux-petroliers-feu-detroit-ormuz-croisent-desormais-trois/
 
-## 2. Ukraine — L’Ukraine mène sa plus vaste attaque de drones contre la Russie, jusqu’au pont de Crimée
+## 2. Yémen — Au Yémen, les Houthis se rapprochent d’Aden après le retrait des forces progouvernementales de Bab el-Mandeb
 
-**Moscou affirme avoir intercepté 1 336 drones ukrainiens en une nuit, un record depuis le début de l’invasion, dont près de 600 dirigés vers la région de Moscou. Le Kremlin fait état de dégâts « insignifiants » sur le pont de Kertch, tandis que Kiev réclame la levée des restrictions de Starshield.**
+**Les forces soutenues par Riyad ont abandonné le littoral proche du détroit de Bab el-Mandeb pour défendre Aden, que les Houthis approchent à une soixantaine de kilomètres. Le roi Salmane a limogé lundi le commandant des forces conjointes saoudiennes.**
 
-Le ministère russe de la défense a affirmé lundi 16 novembre avoir intercepté 1 336 drones ukrainiens en une nuit, le chiffre le plus élevé revendiqué depuis l’invasion, dont environ 600 visaient la région de Moscou selon son maire, Sergueï Sobianine, rapporte l’Associated Press. Le pont de Kertch, qui relie la Crimée à la Russie, a été visé, le porte-parole du Kremlin, Dmitri Peskov, évoquant des dégâts « insignifiants », alors que Volodymyr Zelensky affirme avoir mis hors service plus de 55 % des capacités de raffinage russes et dénonce les limites de vitesse imposées aux terminaux Starshield de SpaceX. La Russie a tiré en une semaine plus de 2 300 drones, 1 590 bombes planantes et 15 missiles contre l’Ukraine, selon le président ukrainien, et ses frappes sur les régions de Zaporijia et de Dnipropetrovsk ont privé d’électricité des centaines de milliers de foyers à l’approche de l’hiver.
+Les forces progouvernementales yéménites ont annoncé dimanche 15 novembre leur retrait de l’aéroport de Dhubab et des positions qu’elles tenaient près du détroit de Bab el-Mandeb pour se replier sur Aden, siège du gouvernement reconnu, aussitôt suivies par les Houthis, désormais à environ 60 kilomètres au nord de la ville. Ce recul, qualifié de redéploiement par le porte-parole des forces armées, Majed Al-Nouzaili, prive la coalition d’une rive du détroit par lequel transitent les exportations saoudiennes de pétrole depuis la quasi-fermeture d’Ormuz, tandis que le roi Salmane a limogé lundi, sans explication, le commandant des forces conjointes, le général Fahd ben Hamad Al-Salman. Les Houthis ont tiré des drones vers les régions de La Mecque et de Riyad, que l’Arabie saoudite dit avoir abattus, tandis qu’à Taëz, assiégée, les autorités réclament des couloirs humanitaires et que les médecins redoutent l’arrêt des hôpitaux faute de carburant et d’oxygène.
 
-**Le chiffre du jour :** 1 336 — drones ukrainiens interceptés en une nuit, selon le ministère russe de la défense
+**Le chiffre du jour :** 60 km — la distance qui sépare les Houthis d’Aden, selon Reuters
 
-### Une dépendance devenue un levier
+### La guerre du Yémen rattrapée par celle d’Ormuz
 
-L’armée ukrainienne s’appuie à la fois sur le Starlink commercial et sur Starshield, auquel le Kyiv Independent attribue le succès de ses frappes contre la logistique russe à moyenne portée. Que ces terminaux soient bridés précisément au-dessus des territoires occupés donne à la question une portée politique : M. Zelensky y voit une reconnaissance partielle de ces zones comme non ukrainiennes, et doute que la contrainte soit purement technique, alors que le secrétaire d’État américain, Marco Rubio, lui avait assuré que Starshield relevait davantage du gouvernement américain. La restriction intervient au moment où Moscou concentre ses Shahed sur les sous-stations électriques, comme lors des hivers précédents, et où Washington évoque avec Kiev un compromis territorial dans le Donbass.
-
-- _Ce qui a changé 19 h 55_ : Moscou affirme avoir intercepté 1 336 drones ukrainiens, un record, et le pont de Kertch a été visé ; titre, texte et chiffre du jour réécrits.
+Relativement gelé pendant plusieurs années, le conflit yéménite a repris en juillet 2026, lorsque l’aviation gouvernementale a bombardé l’aéroport de Sanaa pour empêcher l’atterrissage d’une délégation houthiste. L’offensive lancée par les Houthis en septembre leur a donné la côte de la mer Rouge, dont Moka, puis l’encerclement complet de Taëz. La perte des positions de Bab el-Mandeb prend une dimension régionale : depuis que la guerre avec l’Iran a quasiment fermé Ormuz, ce détroit est devenu vital pour les exportations saoudiennes. Le stratège Ali Al-Dahab, cité par Al Jazeera, y voit une retraite plutôt qu’un redéploiement, et estime que les tirs houthistes visent d’abord l’Arabie saoudite.
 
 Sources :
-- [Associated Press, via PBS — Russia says its defenses intercepted over 1,300 Ukrainian drones in a major attack](https://www.pbs.org/newshour/world/russia-says-its-defenses-intercepted-over-1300-ukrainian-drones-in-a-major-attack)
-- [Associated Press, via ABC News — Zelenskyy warns Starshield restrictions threaten Ukraine’s energy defenses](https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524)
-- [Kyiv Independent — Starshield restrictions hamper Ukraine’s ability to defend energy infrastructure from Russian drones, Zelensky says](https://kyivindependent.com/starshield-speed-restrictions-hamper-ukraines-ability-to-defend-energy-infrastructure-against-russian-jet-powered-drones-zelensky-says/)
-- [Kyiv Independent — Ukraine war latest: Russia launches mass attack on Odesa Oblast as Ukraine strikes airfield, drone launch site in Russia](https://kyivindependent.com/ukraine-war-latest-russia-launches-mass-attack-on-odesa-oblast-as-ukraine-strikes-airfield-drone-launch-site-in-russia/)
+- [Al Jazeera — Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb](https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb)
+- [Al Jazeera — Saudi Arabia dismisses commander of coalition forces fighting Houthis](https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis)
+- [The New York Times — Saudi-backed forces withdraw from Yemen’s Red Sea coast](https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html)
+- [Associated Press — Houthis blame Saudi Arabia for strikes that killed three](https://apnews.com/article/mideast-news-israel-gaza-iran-houthis-november-16-2026-8830a880160d69e2d7f1fd654207a121)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/16/zelensky-accuse-restrictions-starshield-affaiblir-defense-reseau-electri/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/17/yemen-houthis-rapprochent-aden-apres-retrait-forces-progouvernementales/
 
-## 3. Philippines — L’ASEAN et la Chine échouent à conclure leur code de conduite en mer de Chine méridionale
+## 3. Philippines — Donald Trump arrive à Manille pour la clôture du sommet de l’ASEAN avant Shenzhen
 
-**Réunis à Manille, les pays d’Asie du Sud-Est n’ont pas pu boucler avec Pékin le texte promis pour 2026, provisoirement agréé à environ 80 %. La présidence philippine passe le dossier à Singapour, avant la venue de Donald Trump mardi.**
+**Le président américain est attendu mardi soir à Manille, au dernier jour du 49e sommet de l’ASEAN, pour une réunion du Quad et un sommet spécial avec les dirigeants d’Asie du Sud-Est. Il gagnera ensuite Shenzhen pour l’APEC.**
 
-La ministre des affaires étrangères philippine, Ma. Theresa Lazaro, a reconnu dimanche 15 novembre, en marge du 49e sommet de l’ASEAN à Manille, que l’organisation et la Chine n’avaient pas conclu le code de conduite en mer de Chine méridionale, malgré un accord provisoire sur environ 80 % des paragraphes du projet, rapporte Reuters. Restent en suspens le caractère juridiquement contraignant du texte et son étendue géographique, Pékin revendiquant la quasi-totalité de cette mer, par où transite la moitié des navires marchands du monde, malgré une sentence arbitrale de 2016 qu’il rejette, face aux revendications des Philippines, du Vietnam, de la Malaisie, de Brunei et de l’Indonésie. Singapour, qui prendra la présidence de l’ASEAN l’an prochain, hérite d’un texte négocié depuis plus de vingt ans, tandis que Donald Trump est attendu mardi à Manille pour un sommet spécial entre l’ASEAN et les États-Unis, avant de rejoindre Shenzhen pour l’APEC.
+Donald Trump est attendu mardi 17 novembre en fin d’après-midi à Manille, accompagné du secrétaire d’État, Marco Rubio, et du secrétaire au Trésor, Scott Bessent, au moment où s’achève le 49e sommet de l’ASEAN, dont les Philippines transmettent la présidence à Singapour pour 2027. Le président américain, qui a promis une rencontre consacrée « surtout à l’économie », doit participer à une réunion du Quad avec le Japon, l’Australie et l’Inde, puis à un sommet spécial avec les dirigeants de l’ASEAN, au lendemain de l’échec des négociations sur un code de conduite en mer de Chine méridionale. Un accueil officiel au palais présidentiel est prévu mercredi avec Ferdinand Marcos Jr., avant le départ de Donald Trump pour le sommet de l’APEC à Shenzhen, où une rencontre inédite avec Xi Jinping et Vladimir Poutine n’était pas encore formellement confirmée mardi.
 
-**Le chiffre du jour :** 80 % — des paragraphes du projet de code provisoirement agréés, selon Manille
+**Le chiffre du jour :** 49e — sommet de l’ASEAN, clos mardi à Manille
 
-### Un texte suspendu aux rapports sino-philippins
+### Une escale courte pour rassurer les alliés
 
-En 2023, les ministres des affaires étrangères de l’ASEAN et de la Chine s’étaient donné trois ans pour aboutir, une échéance qui tombait sous la présidence philippine. Mais Manille, en conflit ouvert avec Pékin autour des récifs qu’elle revendique, se trouvait dans une position délicate : un texte favorable aurait paru imposé à la Chine, un texte faible aurait affaibli le gouvernement de Ferdinand Marcos Jr., résume le politiste Aries Arugay, cité par Al Jazeera. Les relations se sont tendues ces derniers mois, entre les échanges d’invectives du ministre de la défense, Gilberto Teodoro, interdit d’entrée en Chine, et de l’ambassadeur chinois à Manille. Les divergences internes à l’ASEAN, notamment sur le périmètre du code, pèsent aussi, selon le chercheur singapourien Collin Koh, cité par Reuters.
-
-Sources :
-- [Reuters, via ThePrint — ASEAN, China fail to conclude South China Sea code of conduct](https://theprint.in/world/asean-china-fail-to-conclude-south-china-sea-code-of-conduct/3099511/)
-- [Al Jazeera — Pact on South China Sea code of conduct unlikely, as ASEAN leaders gather](https://www.aljazeera.com/economy/2026/11/15/pact-on-south-china-sea-code-of-conduct-unlikely-as-asean-leaders-gather)
-- [The Philippine Star — No final code of conduct on South China Sea – DFA](https://www.philstar.com/headlines/2026/11/16/2570417/no-final-code-conduct-south-china-sea-dfa)
-- [The Philippine Star — Donald Trump to join Marcos, ASEAN leaders for Manila summit on Nov. 17](https://www.philstar.com/headlines/2026/11/12/2569644/donald-trump-join-marcos-asean-leaders-manila-summit-nov-17)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/16/asean-chine-echouent-conclure-code-conduite-mer-chine/
-
-## 4. Turquie — À mi-parcours de la COP31, la finance climatique divise toujours pays riches et pays en développement
-
-**Le groupe des pays en développement a rejeté samedi à Antalya un texte jugé trop faible sur le financement climatique, au moment où les ministres prennent le relais des négociateurs. La coalition pour la sortie des énergies fossiles poursuit sa route sans la Colombie, l’un de ses fondateurs.**
-
-Le groupe des 77 et la Chine ont rejeté samedi 14 novembre, à Antalya, le dernier texte sur le programme de travail consacré au financement climatique, jugé trop faible, alors que la COP31 entre dans sa seconde semaine avec l’arrivée des ministres, selon le Réseau Action Climat. Les pays africains font du triplement des financements pour l’adaptation, à au moins 120 milliards de dollars par an d’ici à 2035, leur priorité, mais l’Union européenne, le Japon et la Norvège contestent cette référence, tandis que le mécanisme pour une transition juste se réduit pour l’heure à un centre de connaissances et une réunion annuelle. Le patron de l’ONU Climat, Simon Stiell, juge les progrès « constructifs » et appelle à éviter les manœuvres dilatoires avant la clôture prévue vendredi, tandis que la coalition née à Santa Marta pour sortir des énergies fossiles continue sans la Colombie, qui l’a quittée après l’élection d’Abelardo de la Espriella.
-
-**Le chiffre du jour :** 2,8 milliards $ — demandés par 119 pays au fonds pour les pertes et dommages
-
-### La promesse de Belém mise à l’épreuve
-
-La COP30, à Belém, avait lancé un mécanisme pour une transition juste et promis de tripler les financements pour l’adaptation ; Antalya doit en préciser le contenu. Or le premier texte sur la transition juste propose surtout un portail, des rapports et une réunion annuelle, sans mobilisation explicite de fonds, ce que dénoncent les organisations de la société civile. La présidence de la COP est partagée : l’Australie conduit les négociations, avec son ministre du climat, Chris Bowen, et la Turquie l’agenda de l’action. Une partie des grands pays émergents rejette aussi l’idée d’une décision chapeau qui fixerait des objectifs sectoriels, comme l’électrification, que l’UE pourrait ne plus qualifier de « propre », selon Climate Home News.
+La visite intervient après la défaite du camp présidentiel aux élections de mi-mandat, et alors que la guerre au Moyen-Orient domine les projets de communiqué final du sommet. Pour l’analyste américain Greg Poling, cité par l’AP, ce court passage doit montrer aux alliés d’Asie du Sud-Est qu’ils ne sont pas oubliés, sans laisser espérer de progrès substantiels lors de la rencontre avec Xi Jinping. Les dirigeants de l’ASEAN n’ont conclu ni le code de conduite maritime avec la Chine, agréé à environ 80 %, ni la réintégration de la Birmanie, dont le dirigeant reste exclu des sommets. L’enchaînement Manille-Shenzhen place Washington face à ses deux priorités asiatiques : ses alliances et sa relation avec Pékin.
 
 Sources :
-- [Climate Home News — COP31 Bulletin Day 6: Climate marchers call for justice as talks make limited progress](https://www.climatechangenews.com/2026/11/14/cop31-bulletin-day-6-limited-progress-as-ministers-arrive-in-antalya/)
-- [Réseau Action Climat — State of Play from Antalya: COP31 Midway Media Brief](https://climatenetwork.org/2026/11/15/state-of-play-from-antalya-cop31-midway-media-brief/)
-- [Morning Star — Coalition to move away from fossil fuels presses ahead without founding member Colombia](https://morningstaronline.co.uk/article/cop31-coalition-move-away-fossil-fuels-presses-ahead-without-founding-member-colombia)
+- [Associated Press, via PBS — Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda](https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda)
+- [The Star — Trump set to arrive in Manila as 49th Asean Summit draws to a close](https://www.thestar.com.my/news/nation/2026/11/17/trump-set-to-arrive-in-manila-as-49th-asean-summit-draws-to-a-close)
+- [Daily Tribune — Trump en route to Manila for ASEAN Summit](https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit)
+- [Al Jazeera — ASEAN, China fall short of agreeing on South China Sea code](https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/16/mi-parcours-cop31-finance-climatique-divise-pays-riches/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/17/donald-trump-arrive-manille-cloture-sommet-asean-avant/
 
-## 5. Soudan — Au Soudan, l’armée reprend du terrain au Kordofan, où les frappes de drones tuent des civils
+## 4. Ukraine — Le pont de Crimée rouvert en partie, l’Europe refuse de négocier sa sécurité avec Moscou avant un cessez-le-feu
 
-**L’armée soudanaise et ses alliés darfouris ont repris plusieurs localités du Kordofan-Occidental et desserré l’étau sur El-Obeid. Les civils paient le prix de cette offensive, sous les drones et les attaques des paramilitaires.**
+**Une voie du pont de Kertch a rouvert lundi soir, dix-sept heures après la frappe ukrainienne. Plusieurs ministres européens jugent prématuré de discuter de l’architecture de sécurité du continent avec la Russie.**
 
-L’armée soudanaise et les forces darfouries qui lui sont alliées ont repris ces derniers jours plusieurs localités stratégiques du Kordofan-Occidental, dont Al-Khouaï, rompant le siège qu’imposaient les Forces de soutien rapide à El-Obeid, capitale du Kordofan-Septentrional, selon Al Jazeera. Les paramilitaires du général Hemetti tiennent encore En-Nahoud, ville aurifère où ils ont tué dix civils depuis jeudi selon un groupe de secours local cité par l’agence Anadolu, tandis que des frappes de drones ont tué au moins quinze civils dans la région ces derniers jours, d’après le média soudanais Darfur24. Des analystes cités par Al Jazeera s’attendent à ce que les paramilitaires se replient vers le Darfour, leur base tribale, alors que l’ONU désigne le Kordofan comme l’épicentre du conflit et que la plupart des opérations humanitaires y sont suspendues.
+Une voie du pont de Kertch, seul lien direct entre la Russie et la Crimée annexée, a rouvert lundi 16 novembre en soirée, environ dix-sept heures après avoir été touchée par des drones ukrainiens lors de l’attaque la plus massive lancée par Kiev depuis le début de la guerre, selon Reuters. Le vice-premier ministre russe, Marat Khousnoulline, assure que les moyens de réparation sont réunis, tandis que plusieurs ministres européens des affaires étrangères ont jugé prématuré, lundi, de discuter avec Moscou de la sécurité du continent avant un cessez-le-feu et des concessions russes. Les Européens accusent la Russie de faire traîner les pourparlers d’Abou Dhabi pour rendre l’hiver plus dur aux Ukrainiens, alors qu’un groupe de régulateurs de sûreté nucléaire juge croissant le risque d’accident en Ukraine en raison des frappes sur le réseau électrique.
 
-**Le chiffre du jour :** ≥ 15 — civils tués par des frappes de drones au Kordofan-Occidental, selon Darfur24
+**Le chiffre du jour :** 17 heures — de fermeture du pont de Crimée avant la réouverture d’une voie
 
-### Le Kordofan, verrou entre Khartoum et le Darfour
+### Une guerre d’usure menée aussi à la table
 
-Après la chute d’El-Fasher en octobre 2025, les Forces de soutien rapide contrôlaient l’essentiel du Darfour et menaçaient El-Obeid, porte du centre du pays. La reprise de localités du Kordofan-Occidental ouvre à l’armée des routes vers Babanousa et le Darfour, et l’éloigne moins du cœur pétrolier du pays : selon l’économiste Mohamed al-Nayer, cité par Al Jazeera, les champs de Heglig et de Balila assurent 90 % de la production soudanaise, et la stabilité de la région conditionne aussi les exportations du Soudan du Sud. Les deux camps revendiquent tour à tour des victoires invérifiables, et plusieurs localités ont changé de mains à plusieurs reprises depuis le début du mois, selon Asharq Al-Awsat.
+Le pont de Kertch, déjà frappé en 2022, est un symbole autant qu’une artère logistique : le Kremlin répète que la question de la Crimée est close « pour toujours ». En le visant, Kiev rappelle sa capacité à frapper loin derrière la ligne de front, au moment où les pourparlers trilatéraux d’Abou Dhabi piétinent. Selon le New York Times, Moscou y a réitéré ses exigences d’avant-guerre sur le recul de l’OTAN, et le quotidien allemand Bild a fait état d’une demande de sortie de la Finlande de l’Alliance, aussitôt rejetée par Helsinki. Les Européens, qui veulent peser dans la négociation, refusent d’ouvrir le chantier de la sécurité continentale sans cessez-le-feu préalable.
 
 Sources :
-- [Al Jazeera — How SAF successes in Sudan’s Kordofan could turn tide against the RSF](https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf)
-- [Darfur24 — Drone Strikes Kill 15 Civilians in Sudan’s West Kordofan](https://darfur24.com/en/2026/11/15/drone-strikes-kill-15-civilians-in-sudans-west-kordofan/)
-- [Asharq Al-Awsat — Sudanese Army, RSF Clash in Fierce Battles in Kordofan](https://english.aawsat.com/arab-world/5338514-sudanese-army-rsf-clash-fierce-battles-kordofan)
-- [Anadolu — Morning Briefing: Nov. 15, 2026](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489)
+- [Reuters — Ukraine hits key Crimean bridge, curbing traffic, Russian governor says](https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/)
+- [Reuters — Holding talks with Russia on Europe’s security now would be premature, EU ministers say](https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/)
+- [Reuters — Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say](https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/)
+- [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/16/soudan-armee-reprend-terrain-kordofan-frappes-drones-tuent/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/17/pont-crimee-rouvert-partie-europe-refuse-negocier-securite/
+
+## 5. Birmanie — En Birmanie, une frappe aérienne tue douze déplacés en Arakan, l’ASEAN maintient l’exclusion de Min Aung Hlaing
+
+**Une frappe attribuée à l’armée a tué douze personnes dans un camp de déplacés de l’État d’Arakan, selon des témoins. Réunis à Manille, les dirigeants de l’ASEAN ont prolongé l’exclusion du président birman de leurs sommets.**
+
+Une frappe aérienne a tué douze personnes, dont un enfant de 5 ans, et en a blessé dix-huit vendredi 13 novembre au soir dans le camp de déplacés de Byar La, dans le canton de Ponnagyun, au nord-est de Sittwe, selon des témoins et une organisation de secours citée par l’AFP. L’État d’Arakan, presque entièrement contrôlé par l’Armée d’Arakan, est soumis à un blocus de l’armée et à des frappes régulières, et l’armée n’a pu être jointe, alors que la guerre civile ouverte par le coup d’État de 2021 a fait plus de 100 000 morts selon ACLED. Réunis à Manille dimanche, les dirigeants de l’ASEAN ont prolongé l’exclusion de leurs sommets du président Min Aung Hlaing, faute de progrès sur le plan de paix de 2021, tout en évoquant un rétablissement graduel de la représentation birmane sous conditions.
+
+**Le chiffre du jour :** 12 — morts dans la frappe sur le camp de déplacés de Byar La
+
+### Une ouverture prudente de l’ASEAN
+
+Le texte adopté à Manille maintient Naypyidaw à l’écart des sommets et des réunions ministérielles, mais introduit un « engagement calibré », progressif et lié aux progrès réalisés. Il encourage aussi les États membres à dialoguer chacun avec toutes les parties : Min Aung Hlaing s’est déjà rendu dans cinq pays de l’Association, dont la Thaïlande, la Malaisie et le Viêt Nam. Le plan de paix en cinq points de 2021, qui exige notamment la fin immédiate des violences et l’acceptation de l’aide humanitaire, reste la référence. Sur le terrain, la cheffe de la diplomatie philippine et envoyée spéciale de l’ASEAN, Theresa Lazaro, reconnaît que les bombardements et les déplacements de population se poursuivent.
+
+Sources :
+- [The Daily Star (AFP) — Myanmar airstrike on displaced persons camp kills 12: Witnesses](https://www.thedailystar.net/news/world/news/myanmar-airstrike-displaced-persons-camp-kills-12-witnesses-4323581)
+- [Associated Press, via KSAT — Southeast Asian leaders denounce violence in Myanmar and extend ban on its leader](https://www.ksat.com/news/world/2026/11/15/southeast-asian-leaders-denounce-violence-in-myanmar-and-extend-ban-on-its-leader/)
+- [Reuters, via CP24 — ASEAN keeps Myanmar restrictions but opens path to political return](https://www.cp24.com/news/world/2026/11/15/asean-keeps-myanmar-restrictions-but-opens-path-to-political-return/)
+- [Al Jazeera — ASEAN, China fall short of agreeing on South China Sea code](https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/17/birmanie-frappe-aerienne-tue-douze-deplaces-arakan-asean/
 
 ## En bref
 
-- **Israël** : Des proches de Benyamin Nétanyahou ont fait savoir à l’équipe de Gadi Eisenkot que le Likoud accepterait un gouvernement d’union sans le parti d’Itamar Ben-Gvir, selon le quotidien Israel Hayom, ce que le Likoud dément. ([Source](https://www.aa.com.tr/en/middle-east/netanyahu-allies-open-door-to-unity-government-without-ben-gvir-s-party-report/4126088))
-- **Hongrie** : Près de 20 millions de dollars en liquide ont été découverts, cachés dans des fermes et enterrés en forêt, dans l’enquête visant Miklos Sesztak, ancien ministre de Viktor Orban accusé de corruption, qui conteste. ([Source](https://morningstaronline.co.uk/article/world-brief-58))
-- **Italie** : L’autorité italienne de protection des données a infligé à Meta une amende de 805 millions d’euros pour avoir accédé aux photos et vidéos d’utilisateurs d’Android sans leur consentement ; le groupe annonce un recours. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489))
-- **États-Unis** : Le contrôle aérien américain est stabilisé après une panne nationale, selon l’Administration fédérale de l’aviation, mais les compagnies prévoyaient d’annuler 4 000 à 5 000 des quelque 41 000 vols programmés. ([Source](https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489))
+- **Israël** : L’opposition israélienne accuse Benyamin Nétanyahou de « tentative de coup d’État » après des révélations de la chaîne 12 selon lesquelles son cabinet aurait cherché à faire arrêter des membres du parti arabe Raam à la veille des législatives ; le Likoud dément. ([Source](https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup))
+- **Afrique du Sud** : Au moins dix-sept personnes ont été tuées dans deux fusillades de masse survenues le même jour en Afrique du Sud. ([Source](https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings))
+- **Tchéquie** : Des centaines de milliers de personnes ont manifesté dimanche à Prague contre le projet du gouvernement d’Andrej Babis de financer l’audiovisuel public par le budget de l’État, ce qui réduirait ses ressources d’environ 15 %. ([Source](https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3))
+- **Estonie** : L’Estonie fermera tous ses points de passage frontaliers avec la Russie le 1er décembre, après avoir accusé le renseignement militaire russe d’une tentative d’incendie contre le fabricant de drones Threod Systems, près de Tallinn. ([Source](https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/))
 
 ## À venir
 
-- 17 nov. : Sommet spécial entre l’ASEAN et les États-Unis à Manille, en présence de Donald Trump.
-- 17 nov. : Élection du président de la Knesset, en Israël.
-- 19 nov. : Rencontre Trump-Xi-Poutine à Shenzhen, en marge du sommet de l’APEC.
+- 18 nov. : Visite officielle de Donald Trump au palais présidentiel de Manille, puis départ pour l’APEC à Shenzhen.
+- 19 nov. : Rencontre Trump-Xi-Poutine prévue à Shenzhen, en marge du sommet de l’APEC.
 - 20 nov. : Clôture prévue de la COP31, à Antalya.
 - 26 nov. : Conseil européen de deux jours, consacré notamment aux besoins de financement de l’Ukraine pour 2027.
 - 29 nov. : Élections législatives anticipées en Espagne.
+- 1 déc. : Fermeture des points de passage entre l’Estonie et la Russie.
