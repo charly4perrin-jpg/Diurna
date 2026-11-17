@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-18-9499e1ef@diurna
+DTSTAMP:20261117T062507Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Donald Trump’s official visit to the presidential palace in Man
+ ila\, then departure for APEC in Shenzhen.
+DESCRIPTION:Diurna — Edition of 17 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/
+END:VEVENT
+END:VCALENDAR

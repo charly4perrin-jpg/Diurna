@@ -1,0 +1,921 @@
+{
+  "date": "2026-11-17",
+  "number": 13,
+  "updated": "2026-11-17T07:02:00+01:00",
+  "headline": "More tankers ablaze in Hormuz as the Houthis close in on Aden",
+  "standfirst": "Iran says more tankers have struck mines in the Strait of Hormuz, where three American aircraft carriers are now deployed, while in Yemen the Houthis advance towards Aden. Donald Trump lands in Manila, Europe refuses to discuss its security with Moscow before a ceasefire, and an air strike kills 12 displaced people in Myanmar.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "focus": [
+        55.5,
+        26.6
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "More tankers ablaze in the Strait of Hormuz, where three American carriers are now deployed",
+      "standfirst": "The Revolutionary Guards' navy says two tankers struck mines on Monday, and Britain's UKMTO reports two ships attacked off Oman. Washington confirms that a third aircraft carrier has arrived, while diplomacy remains stalled.",
+      "body": [
+        "The navy of Iran's Revolutionary Guards claimed on Monday 16 November that two tankers had struck mines and caught fire while using a route in the southern Strait of Hormuz that Tehran deems unauthorised, while Iran's regular navy reported a third vessel immobilised east of the strait.",
+        "These claims cannot be verified, but Britain's maritime agency, UKMTO, separately reported two attacks on tankers, one of which disabled a vessel 13 kilometres north of Khasab, in Oman, and an American official confirmed that the aircraft carrier Theodore Roosevelt had arrived in the region.",
+        "Iran's deputy foreign minister, Kazem Gharibabadi, warned that his country would not wait to be attacked first, as the American secretary of state, Marco Rubio, promised economic pressure that would be \"even worse\" and Tehran still awaits a reply to seven conditions relayed through Qatar."
+      ],
+      "figure": {
+        "value": "136",
+        "label": "security incidents involving ships recorded by the IMO since March",
+        "compare": "including 35 in October alone"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "since the war began"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "IRN",
+            "USA",
+            "QAT",
+            "PAK"
+          ],
+          "positions": [
+            {
+              "who": "Tehran",
+              "wants": "An end to the naval blockade and sanctions, the release of its frozen assets, an end to hostilities on every front and a formal declaration that the war is over, according to the speaker of parliament, Mohammad Bagher Ghalibaf."
+            },
+            {
+              "who": "Washington",
+              "wants": "To keep the blockade of Iranian ports and tighten sanctions; Donald Trump says he told his vice-president, JD Vance, that America does \"not need a deal\"."
+            },
+            {
+              "who": "Doha and Islamabad",
+              "wants": "To prevent a return to large-scale strikes by relaying Iran's conditions between the two sides, which have received no formal American reply."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Khasab (Oman)",
+              "coords": [
+                56.25,
+                26.18
+              ],
+              "note": "A tanker was disabled here on Monday by an attack 7 nautical miles north of the port, according to UKMTO."
+            },
+            {
+              "name": "Khor Mor gas field (Iraq)",
+              "coords": [
+                44.93,
+                35.08
+              ],
+              "note": "Sirens sounded on Monday as a drone flew overhead; production has been halted since an attack last week."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A maritime escalation just short of open war",
+        "text": "Since the memorandum of understanding agreed in June collapsed in early July, the two sides have been locked in what Ali Vaez of the International Crisis Group calls a perilous \"game of chicken\". Washington is betting on economic strangulation: a blockade of Iranian ports, tougher sanctions and a new force tasked with cutting Iran's overland and Caspian trade. Tehran's answer is to make the Strait of Hormuz dangerous for any ship that ignores the routes it imposes. The International Maritime Organization recorded 136 incidents involving ships in the region between 1 March and 11 November. The American build-up, now three carrier strike groups, raises the risk that a single incident could tip the region into a new round of fighting."
+      },
+      "keys": [
+        {
+          "title": "Three carriers",
+          "text": "The Theodore Roosevelt, which left San Diego in September, joins the George Washington and the George H. W. Bush in the area covered by America's Central Command. The Pentagon has yet to confirm its arrival officially."
+        },
+        {
+          "title": "Drones over Iraq",
+          "text": "A drone flew over the Khor Mor gas field in Iraqi Kurdistan on Monday, with no strike reported. According to its Emirati operator, Dana Gas, the previous week's attack had cut 2.8 gigawatts of electricity generation from the grid."
+        },
+        {
+          "title": "An arsenal still well stocked",
+          "text": "American officials estimate that Iran still has between 1,500 and 2,500 missiles, according to the Wall Street Journal. The estimate, which its authors consider uncertain, contradicts Donald Trump's claim that Iran's armed forces have been decimated."
+        }
+      ],
+      "involved": [
+        "USA",
+        "OMN",
+        "IRQ",
+        "QAT",
+        "PAK"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "War breaks out between the United States, Israel and Iran."
+        },
+        {
+          "d": "2026-07-12",
+          "t": "Tehran announces that the Strait of Hormuz is closed again after American strikes resume."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "The Revolutionary Guards say a supertanker has sunk after striking a mine."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "More tankers hit; the arrival of the carrier Theodore Roosevelt is confirmed."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "Trump-Xi-Putin meeting due in Shenzhen, where the Iran war is expected to be discussed."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
+          "url": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?",
+          "url": "https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Anadolu",
+          "title": "Iran says 2 oil tankers hit mines near Strait of Hormuz, 1 sinks",
+          "url": "https://www.aa.com.tr/en/middle-east/iran-says-2-oil-tankers-hit-mines-near-strait-of-hormuz-1-sinks/4125887",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition: November 16, 2026",
+          "url": "https://www.justsecurity.org/164727/early-edition-november-16-2026/",
+          "date": "2026-11-16"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "more-tankers-ablaze-strait-hormuz-where-three-american"
+    },
+    {
+      "rank": 2,
+      "id": "YEM",
+      "place": "Yemen",
+      "section": "Middle East",
+      "focus": [
+        44.5,
+        13.2
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "disaster"
+      ],
+      "title": "In Yemen, the Houthis close in on Aden after pro-government forces pull back from Bab al-Mandeb",
+      "standfirst": "Saudi-backed forces have abandoned the coast near the Bab al-Mandeb strait to defend Aden, which the Houthis are now approaching to within about 60 kilometres. On Monday King Salman dismissed the commander of Saudi Arabia's joint forces.",
+      "body": [
+        "Yemen's pro-government forces announced on Sunday 15 November that they had withdrawn from Dhubab airport and from their positions near the Bab al-Mandeb strait to fall back on Aden, seat of the internationally recognised government, and the Houthis promptly followed, coming to within about 60 kilometres north of the city.",
+        "The retreat, which the armed forces' spokesman called a redeployment, costs the coalition one shore of a strait that has carried Saudi oil exports since Hormuz was all but closed, and on Monday King Salman dismissed, without explanation, the commander of the joint forces, General Fahd bin Hamad al-Salman.",
+        "The Houthis have fired drones towards the Mecca and Riyadh regions, which Saudi Arabia says it shot down, while in besieged Taiz the authorities are calling for humanitarian corridors and doctors fear hospitals will shut down for lack of fuel and oxygen."
+      ],
+      "figure": {
+        "value": "60 km",
+        "label": "the distance between the Houthis and Aden, according to Reuters",
+        "compare": "after the fall of Mocha in September"
+      },
+      "since": {
+        "date": "2014-09-21",
+        "label": "since the Houthis seized Sanaa"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "3",
+              "label": "dead, including a child, in two strikes blamed on Saudi Arabia in Houthi-held territory",
+              "by": "the Houthi health ministry",
+              "date": "2026-11-16",
+              "source": {
+                "name": "Associated Press",
+                "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-houthis-november-16-2026-8830a880160d69e2d7f1fd654207a121"
+              }
+            },
+            {
+              "value": "173",
+              "label": "Houthi fighters killed or wounded, an unverified claim",
+              "by": "government forces",
+              "date": "2026-11-16",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Aden",
+              "coords": [
+                45.03,
+                12.79
+              ],
+              "note": "Interim capital of the recognised government, which pro-government forces are falling back to defend."
+            },
+            {
+              "name": "Bab al-Mandeb",
+              "coords": [
+                43.33,
+                12.6
+              ],
+              "note": "Strait between the Red Sea and the Gulf of Aden, whose Yemeni shore is passing under Houthi control."
+            },
+            {
+              "name": "Taiz",
+              "coords": [
+                44.02,
+                13.58
+              ],
+              "note": "Government-held city, completely encircled by the Houthis."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Recognised government and coalition",
+              "lead": "Rashad al-Alimi",
+              "ids": [
+                "YEM"
+              ],
+              "note": "Pro-government and southern forces, now falling back on Aden.",
+              "backers": [
+                {
+                  "id": "SAU",
+                  "note": "Leads the coalition and its joint forces."
+                }
+              ]
+            },
+            {
+              "name": "Houthis",
+              "lead": "Abdul-Malik al-Houthi",
+              "ids": [
+                "YEM"
+              ],
+              "note": "Zaydi movement that controls Sanaa and, since September, the Red Sea coast.",
+              "backers": [
+                {
+                  "id": "IRN",
+                  "note": "Close to Tehran, according to Al Jazeera."
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "msf",
+            "wfp",
+            "unicef"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Yemen's war is caught up in the Hormuz crisis",
+        "text": "Largely frozen for several years, Yemen's conflict flared again in July 2026, when government aircraft bombed Sanaa airport to stop a Houthi delegation from landing. The offensive the Houthis launched in September gave them the Red Sea coast, including Mocha, and then the complete encirclement of Taiz. The loss of the positions at Bab al-Mandeb has regional consequences: since the Iran war all but closed Hormuz, this strait has become vital to Saudi oil exports. The strategist Ali al-Dahab, quoted by Al Jazeera, sees a retreat rather than a redeployment, and believes the Houthis' fire is aimed first and foremost at Saudi Arabia."
+      },
+      "keys": [
+        {
+          "title": "The dismissal in Riyadh",
+          "text": "A royal decree on Monday replaced General Fahd bin Hamad al-Salman with General Fayyad al-Ruwaili as head of Saudi Arabia's joint forces. No reason was given; the dismissed officer becomes an adviser to the defence minister."
+        },
+        {
+          "title": "The decisive triangle",
+          "text": "According to Hassan Jouni, a retired Lebanese general, the war will be decided in the mountainous triangle linking Aden, Taiz and Bab al-Mandeb. The Houthis already hold Tor al-Baha, 80 kilometres from Aden."
+        }
+      ],
+      "involved": [
+        "SAU",
+        "IRN"
+      ],
+      "context": [
+        {
+          "d": "2014-09-21",
+          "t": "The Houthis seize Sanaa."
+        },
+        {
+          "d": "2015-03-26",
+          "t": "Saudi Arabia launches the Arab coalition's intervention."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "Pro-government forces leave Dhubab and the approaches to Bab al-Mandeb."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "King Salman dismisses the commander of Saudi Arabia's joint forces."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb",
+          "url": "https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Saudi Arabia dismisses commander of coalition forces fighting Houthis",
+          "url": "https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "The New York Times",
+          "title": "Saudi-backed forces withdraw from Yemen's Red Sea coast",
+          "url": "https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Associated Press",
+          "title": "Houthis blame Saudi Arabia for strikes that killed three",
+          "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-houthis-november-16-2026-8830a880160d69e2d7f1fd654207a121",
+          "date": "2026-11-16"
+        }
+      ],
+      "dossier": {
+        "id": "yemen-war",
+        "title": "The war in Yemen"
+      },
+      "slug": "yemen-houthis-close-aden-after-pro-government-forces"
+    },
+    {
+      "rank": 3,
+      "id": "PHL",
+      "place": "Philippines",
+      "section": "Asia-Pacific",
+      "focus": [
+        121,
+        14.6
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "economy"
+      ],
+      "title": "Donald Trump lands in Manila for the close of the ASEAN summit, before heading to Shenzhen",
+      "standfirst": "The American president is due in Manila on Tuesday evening, on the final day of the 49th ASEAN summit, for a Quad meeting and a special summit with South-East Asian leaders. He then travels on to Shenzhen for APEC.",
+      "body": [
+        "Donald Trump is due in Manila late on the afternoon of Tuesday 17 November, accompanied by the secretary of state, Marco Rubio, and the treasury secretary, Scott Bessent, as the 49th ASEAN summit draws to a close and the Philippines hands the bloc's chairmanship to Singapore for 2027.",
+        "The American president, who has promised a meeting focused \"mostly on the economy\", is to attend a Quad meeting with Japan, Australia and India, followed by a special summit with ASEAN leaders, a day after talks on a code of conduct for the South China Sea ended without agreement.",
+        "An official welcome at the presidential palace with Ferdinand Marcos Jr is planned for Wednesday, before Mr Trump leaves for the APEC summit in Shenzhen, where an unprecedented meeting with Xi Jinping and Vladimir Putin had still not been formally confirmed on Tuesday."
+      ],
+      "figure": {
+        "value": "49th",
+        "label": "ASEAN summit, which closes in Manila on Tuesday",
+        "compare": "Singapore takes over the chairmanship in 2027"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "PHL",
+            "USA",
+            "CHN"
+          ],
+          "host": "PHL",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "To put the economy and trade at the heart of the visit and to reaffirm the military alliance with Manila, according to Philippine officials quoted by the AP."
+            },
+            {
+              "who": "Manila",
+              "wants": "A shared commitment to international law and the UN Charter in the face of geopolitical tensions and economic uncertainty, according to Ferdinand Marcos Jr."
+            },
+            {
+              "who": "Beijing",
+              "wants": "A code of conduct for the South China Sea whose legal force remains disputed; the premier, Li Qiang, leaves Manila before Donald Trump arrives."
+            }
+          ],
+          "next": {
+            "d": "2026-11-18",
+            "t": "Official welcome for Donald Trump at the presidential palace in Manila, then departure for Shenzhen."
+          },
+          "source": {
+            "name": "Associated Press, via PBS",
+            "url": "https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A brief stopover to reassure allies",
+        "text": "The visit comes after the president's party lost the midterm elections, and while the war in the Middle East dominates drafts of the summit's final communiqué. For Greg Poling, an American analyst quoted by the AP, the short stop is meant to show South-East Asian allies that they have not been forgotten, without raising hopes of substantial progress at the meeting with Xi Jinping. ASEAN leaders concluded neither the maritime code of conduct with China, about 80% agreed, nor Myanmar's readmission, its leader still being barred from summits. The Manila-Shenzhen sequence sets Washington's two Asian priorities side by side: its alliances and its relationship with Beijing."
+      },
+      "keys": [
+        {
+          "title": "The Quad",
+          "text": "The Quadrilateral Security Dialogue brings together America, Japan, Australia and India. The AP describes it as a counterweight to Chinese power in the region."
+        },
+        {
+          "title": "The rest of the trip",
+          "text": "After Manila, Donald Trump is due in Shenzhen for the APEC summit hosted by Xi Jinping. He has mentioned a possible meeting with Kim Jong Un, with no date set."
+        }
+      ],
+      "involved": [
+        "USA",
+        "CHN"
+      ],
+      "context": [
+        {
+          "d": "2026-11-15",
+          "t": "The 49th ASEAN summit opens in Manila."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "ASEAN and China fail to conclude their maritime code of conduct."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "Donald Trump leaves Andrews air base for Asia."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "The summit closes and Donald Trump arrives in Manila."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Meeting with Ferdinand Marcos Jr, then departure for Shenzhen."
+        },
+        {
+          "d": "2026-12-14",
+          "t": "G20 summit in Miami, hosted by the United States."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda",
+          "url": "https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "The Star",
+          "title": "Trump set to arrive in Manila as 49th Asean Summit draws to a close",
+          "url": "https://www.thestar.com.my/news/nation/2026/11/17/trump-set-to-arrive-in-manila-as-49th-asean-summit-draws-to-a-close",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Daily Tribune",
+          "title": "Trump en route to Manila for ASEAN Summit",
+          "url": "https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "ASEAN, China fall short of agreeing on South China Sea code",
+          "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code",
+          "date": "2026-11-16"
+        }
+      ],
+      "dossier": {
+        "id": "trump-xi-putin-summit",
+        "title": "The Trump-Xi-Putin summit"
+      },
+      "slug": "donald-trump-lands-manila-close-asean-summit-before"
+    },
+    {
+      "rank": 4,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "focus": [
+        36.5,
+        45.3
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "title": "Crimean bridge partly reopens as Europe refuses to discuss its security with Moscow before a ceasefire",
+      "standfirst": "One lane of the Kerch bridge reopened on Monday evening, 17 hours after the Ukrainian strike. Several European ministers say it is premature to discuss the continent's security architecture with Russia.",
+      "body": [
+        "One lane of the Kerch bridge, the only direct link between Russia and annexed Crimea, reopened on the evening of Monday 16 November, about 17 hours after it was hit by Ukrainian drones in the largest attack Kyiv has launched since the war began, according to Reuters.",
+        "Russia's deputy prime minister, Marat Khusnullin, says the means for repairs are in place, while several European foreign ministers said on Monday that it was premature to discuss the continent's security with Moscow before a ceasefire and Russian concessions.",
+        "The Europeans accuse Russia of dragging out the Abu Dhabi talks to make the winter harder for Ukrainians, while a group of nuclear safety regulators says the risk of an accident in Ukraine is rising because of strikes on the power grid."
+      ],
+      "figure": {
+        "value": "17 hours",
+        "label": "of closure on the Crimean bridge before one lane reopened",
+        "compare": "1,336 Ukrainian drones intercepted in one night, according to Moscow"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Kerch bridge",
+              "coords": [
+                36.51,
+                45.3
+              ],
+              "note": "The 19-kilometre crossing linking Crimea to Russian territory, hit during the night from Sunday to Monday."
+            }
+          ],
+          "source": {
+            "name": "Reuters",
+            "url": "https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/"
+          }
+        },
+        "table": {
+          "ids": [
+            "UKR",
+            "RUS",
+            "USA"
+          ],
+          "host": "ARE",
+          "positions": [
+            {
+              "who": "Moscow",
+              "wants": "A return of NATO to its 1997 positions and a resolution of the war's \"root causes\", according to demands obtained by the New York Times."
+            },
+            {
+              "who": "European Union",
+              "wants": "No discussion of Europe's security architecture before a ceasefire in Ukraine and significant concessions from Russia."
+            },
+            {
+              "who": "Kyiv",
+              "wants": "To ensure that a new security framework proposed by Washington is not used by Moscow to weaken NATO and redraw borders, according to Volodymyr Zelensky."
+            }
+          ],
+          "source": {
+            "name": "Just Security",
+            "url": "https://www.justsecurity.org/164727/early-edition-november-16-2026/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "A war of attrition, fought at the table too",
+        "text": "The Kerch bridge, already struck in 2022, is a symbol as much as a logistical artery: the Kremlin insists that the Crimea question is closed \"for ever\". By targeting it, Kyiv shows that it can still strike far behind the front line, just as the trilateral talks in Abu Dhabi stall. According to the New York Times, Moscow restated its pre-war demands there for NATO to pull back, and the German daily Bild reported a demand that Finland leave the alliance, which Helsinki promptly rejected. The Europeans, who want a say in the negotiations, refuse to open the question of continental security without a ceasefire first."
+      },
+      "keys": [
+        {
+          "title": "The nuclear risk",
+          "text": "A group of nuclear safety regulators says the risk of an accident in Ukraine is rising this winter. It blames the war and repeated attacks on energy infrastructure."
+        },
+        {
+          "title": "Estonia hits back",
+          "text": "Estonia will close all its crossing points with Russia from 1 December. Tallinn accuses Russian military intelligence of ordering an attempted arson attack on a drone manufacturer."
+        }
+      ],
+      "involved": [
+        "RUS",
+        "USA",
+        "EST",
+        "FIN"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2022-10-08",
+          "t": "A truck bomb damages the Kerch bridge, killing four people."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Helsinki rejects a Russian demand, reported by Bild, that Finland leave NATO."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "Record Ukrainian drone attack; the Crimean bridge is hit."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "European Council meeting, focused partly on funding Ukraine in 2027."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters",
+          "title": "Ukraine hits key Crimean bridge, curbing traffic, Russian governor says",
+          "url": "https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Reuters",
+          "title": "Holding talks with Russia on Europe's security now would be premature, EU ministers say",
+          "url": "https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Reuters",
+          "title": "Risk of nuclear accident in Ukraine increasing this winter, atomic safety regulators say",
+          "url": "https://www.reuters.com/business/energy/risk-nuclear-accident-ukraine-increasing-this-winter-atomic-safety-regulators-2026-11-16/",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Just Security",
+          "title": "Early Edition: November 16, 2026",
+          "url": "https://www.justsecurity.org/164727/early-edition-november-16-2026/",
+          "date": "2026-11-16"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "crimean-bridge-partly-reopens-europe-refuses-discuss-security"
+    },
+    {
+      "rank": 5,
+      "id": "MMR",
+      "place": "Myanmar",
+      "section": "Asia-Pacific",
+      "focus": [
+        93,
+        20.3
+      ],
+      "radar": true,
+      "types": [
+        "conflict",
+        "diplomacy"
+      ],
+      "title": "In Myanmar, an air strike kills 12 displaced people in Rakhine as ASEAN keeps Min Aung Hlaing out",
+      "standfirst": "An air strike blamed on the army killed 12 people in a camp for displaced people in Rakhine state, according to witnesses. Meeting in Manila, ASEAN leaders extended the ban on Myanmar's president attending their summits.",
+      "body": [
+        "An air strike killed 12 people, including a five-year-old child, and wounded 18 on the evening of Friday 13 November at the Byar La camp for displaced people in Ponnagyun township, north-east of Sittwe, according to witnesses and a rescue organisation quoted by AFP.",
+        "Rakhine state, almost entirely controlled by the Arakan Army, is under an army blockade and regular air strikes, and the army could not be reached for comment, while the civil war that followed the 2021 coup has killed more than 100,000 people, according to ACLED.",
+        "Meeting in Manila on Sunday, ASEAN leaders extended the ban on President Min Aung Hlaing attending their summits, citing a lack of progress on the 2021 peace plan, while raising the prospect of Myanmar's representation being gradually restored under conditions."
+      ],
+      "figure": {
+        "value": "12",
+        "label": "killed in the strike on the Byar La displacement camp",
+        "compare": "and 18 wounded, according to rescuers"
+      },
+      "since": {
+        "date": "2021-02-01",
+        "label": "since the coup"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "12",
+              "label": "killed in the strike on the Byar La camp, including a five-year-old child",
+              "by": "witnesses and the Phyusin Yin Khwin rescue foundation, quoted by AFP",
+              "date": "2026-11-14",
+              "source": {
+                "name": "The Daily Star (AFP)",
+                "url": "https://www.thedailystar.net/news/world/news/myanmar-airstrike-displaced-persons-camp-kills-12-witnesses-4323581"
+              }
+            },
+            {
+              "value": "18",
+              "label": "wounded in the same strike",
+              "by": "the Phyusin Yin Khwin rescue foundation",
+              "date": "2026-11-14",
+              "source": {
+                "name": "The Daily Star (AFP)",
+                "url": "https://www.thedailystar.net/news/world/news/myanmar-airstrike-displaced-persons-camp-kills-12-witnesses-4323581"
+              }
+            },
+            {
+              "value": "3.5 million",
+              "label": "people displaced by the civil war",
+              "by": "the United Nations, quoted by Reuters",
+              "date": "2026-11-15",
+              "source": {
+                "name": "Reuters, via CP24",
+                "url": "https://www.cp24.com/news/world/2026/11/15/asean-keeps-myanmar-restrictions-but-opens-path-to-political-return/"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Ponnagyun",
+              "coords": [
+                93,
+                20.33
+              ],
+              "note": "Township where the Byar La displacement camp, struck on 13 November, is located."
+            },
+            {
+              "name": "Sittwe",
+              "coords": [
+                92.9,
+                20.15
+              ],
+              "note": "Capital of Rakhine state, still held by the army."
+            }
+          ],
+          "source": {
+            "name": "The Daily Star (AFP)",
+            "url": "https://www.thedailystar.net/news/world/news/myanmar-airstrike-displaced-persons-camp-kills-12-witnesses-4323581"
+          }
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "The army and the Naypyidaw government",
+              "lead": "Min Aung Hlaing",
+              "ids": [
+                "MMR"
+              ],
+              "note": "President since April 2026, after elections held in several phases and dismissed as a sham by critics."
+            },
+            {
+              "name": "Arakan Army",
+              "ids": [
+                "MMR"
+              ],
+              "note": "Armed group of the Rakhine minority, which controls almost all of Rakhine state."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via KSAT",
+            "url": "https://www.ksat.com/news/world/2026/11/15/southeast-asian-leaders-denounce-violence-in-myanmar-and-extend-ban-on-its-leader/"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "wfp",
+            "unhcr",
+            "msf"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A cautious opening from ASEAN",
+        "text": "The text adopted in Manila keeps Naypyidaw out of summits and ministerial meetings, but introduces a \"calibrated engagement\", gradual and tied to progress. It also encourages member states to talk individually to all parties: Min Aung Hlaing has already visited five of the bloc's countries, including Thailand, Malaysia and Vietnam. The five-point peace plan of 2021, which calls in particular for an immediate end to violence and the acceptance of humanitarian aid, remains the reference. On the ground, the Philippine foreign secretary and ASEAN special envoy, Theresa Lazaro, acknowledges that bombing and displacement continue."
+      },
+      "keys": [
+        {
+          "title": "Conflicting tolls",
+          "text": "The Assistance Association for Political Prisoners counts more than 8,600 people killed and 32,406 arrested by the security forces since 2021. The United Nations puts the war's total death toll at about 100,000."
+        },
+        {
+          "title": "A camp thought to be safe",
+          "text": "Residents of the Byar La camp had lived there for four years and believed they were out of harm's way. According to the head of the rescue team, Khine Hein Htet, the site was not a combat zone."
+        }
+      ],
+      "context": [
+        {
+          "d": "2021-02-01",
+          "t": "Military coup against Aung San Suu Kyi's government."
+        },
+        {
+          "d": "2021-04-24",
+          "t": "ASEAN adopts a five-point peace plan in Jakarta."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Air strike on the Byar La displacement camp in Rakhine."
+        },
+        {
+          "d": "2026-11-15",
+          "t": "ASEAN extends the ban on Myanmar's leader attending its summits."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Daily Star (AFP)",
+          "title": "Myanmar airstrike on displaced persons camp kills 12: Witnesses",
+          "url": "https://www.thedailystar.net/news/world/news/myanmar-airstrike-displaced-persons-camp-kills-12-witnesses-4323581",
+          "date": "2026-11-14"
+        },
+        {
+          "name": "Associated Press, via KSAT",
+          "title": "Southeast Asian leaders denounce violence in Myanmar and extend ban on its leader",
+          "url": "https://www.ksat.com/news/world/2026/11/15/southeast-asian-leaders-denounce-violence-in-myanmar-and-extend-ban-on-its-leader/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Reuters, via CP24",
+          "title": "ASEAN keeps Myanmar restrictions but opens path to political return",
+          "url": "https://www.cp24.com/news/world/2026/11/15/asean-keeps-myanmar-restrictions-but-opens-path-to-political-return/",
+          "date": "2026-11-15"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "ASEAN, China fall short of agreeing on South China Sea code",
+          "url": "https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code",
+          "date": "2026-11-16"
+        }
+      ],
+      "dossier": {
+        "id": "myanmar-civil-war",
+        "title": "Myanmar's civil war"
+      },
+      "slug": "myanmar-air-strike-kills-12-displaced-people-rakhine"
+    }
+  ],
+  "brief": [
+    {
+      "id": "ISR",
+      "place": "Israel",
+      "text": "Israel's opposition accuses Benjamin Netanyahu of an \"attempted coup\" after Channel 12 reported that his office had sought the arrest of members of the Arab party Raam on the eve of the election; Likud denies it.",
+      "url": "https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup"
+    },
+    {
+      "id": "ZAF",
+      "place": "South Africa",
+      "text": "At least 17 people have been killed in two separate mass shootings that took place on the same day in South Africa, Al Jazeera reports.",
+      "url": "https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings"
+    },
+    {
+      "id": "CZE",
+      "place": "Czech Republic",
+      "text": "Hundreds of thousands of people marched in Prague on Sunday against Andrej Babis's plan to fund public broadcasting from the state budget, which would cut its resources by about 15%.",
+      "url": "https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3"
+    },
+    {
+      "id": "EST",
+      "place": "Estonia",
+      "text": "Estonia will close all its border crossings with Russia on 1 December, after accusing Russian military intelligence of an attempted arson attack on the drone maker Threod Systems, near Tallinn.",
+      "url": "https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-18",
+      "t": "Donald Trump's official visit to the presidential palace in Manila, then departure for APEC in Shenzhen."
+    },
+    {
+      "d": "2026-11-19",
+      "t": "Trump-Xi-Putin meeting due in Shenzhen, on the sidelines of the APEC summit."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "COP31 scheduled to close in Antalya."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Two-day European Council, focused partly on Ukraine's funding needs for 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Snap general election in Spain."
+    },
+    {
+      "d": "2026-12-01",
+      "t": "Estonia's crossing points with Russia close."
+    }
+  ],
+  "consulted": [
+    "Reuters",
+    "Associated Press",
+    "AFP",
+    "Al Jazeera",
+    "The New York Times",
+    "Anadolu",
+    "Just Security",
+    "The Star",
+    "Daily Tribune",
+    "The Daily Star",
+    "PBS"
+  ]
+}

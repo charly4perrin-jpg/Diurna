@@ -8,7 +8,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 ## Édition du jour / Today's edition
 
 - [Édition du 2026-11-17 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): Nouveaux pétroliers en feu à Ormuz, les Houthis aux portes d’Aden
-- [Edition of 2026-11-16 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Iran says six tankers have struck mines near Hormuz since Sunday
+- [Edition of 2026-11-17 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): More tankers ablaze in Hormuz as the Houthis close in on Aden
 - [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
 
 ## Comprendre Diurna / About
@@ -34,10 +34,10 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 - [2026-11-13](https://charly4perrin-jpg.github.io/Diurna/2026/11/13/edition.md): Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains
 - [2026-11-12](https://charly4perrin-jpg.github.io/Diurna/2026/11/12/edition.md): Reçus par Vladimir Poutine, les émissaires de Donald Trump repartent vers Volodymyr Zelensky à Dublin
 - [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/2026/11/11/edition.md): À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
+- [2026-11-17](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/edition.md): More tankers ablaze in Hormuz as the Houthis close in on Aden
 - [2026-11-16](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/edition.md): Iran says six tankers have struck mines near Hormuz since Sunday
 - [2026-11-15](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/edition.md): Washington links Ukraine’s NATO membership to a withdrawal from the Donbas
 - [2026-11-14](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/edition.md): Europe names five countries to speak for it in the Ukraine peace talks
 - [2026-11-13](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/edition.md): Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys
 - [2026-11-12](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/12/edition.md): After seeing Vladimir Putin, Donald Trump’s envoys head to Dublin to meet Volodymyr Zelensky
 - [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/11/edition.md): Russia and Ukraine agree a vast prisoner exchange in Abu Dhabi, but no breakthrough
-- [2026-11-10](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/10/edition.md): In Abu Dhabi, Russia, Ukraine and America reopen talks as Europeans watch from the wings
