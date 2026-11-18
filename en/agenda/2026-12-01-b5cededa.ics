@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-12-01-b5cededa@diurna
+DTSTAMP:20261118T062520Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:Border crossings between Estonia and Russia close.
+DESCRIPTION:Diurna — Edition of 18 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/18/
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,919 @@
+{
+  "date": "2026-11-18",
+  "number": 14,
+  "updated": "2026-11-18T06:56:00+01:00",
+  "headline": "Washington strikes back at Qeshm as Putin lands in Shenzhen before the three-way summit",
+  "standfirst": "America has struck a missile site on the Iranian island of Qeshm after a drone attack on Bahrain, and Kuwait says it intercepted drones overnight. Vladimir Putin has arrived in Shenzhen for Thursday's meeting with Donald Trump and Xi Jinping, while the Board of Peace warns that the Gaza truce could collapse.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "focus": [
+        54,
+        26.5
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "diplomacy",
+        "economy"
+      ],
+      "title": "America strikes an Iranian missile site on Qeshm as drones target Kuwait",
+      "standfirst": "A US official says the military hit a missile-launch site on the island of Qeshm on Tuesday evening, in retaliation for Iran's attack on a base in Bahrain. Overnight, Kuwait said it was intercepting \"hostile\" drones.",
+      "body": [
+        "American forces struck a missile-launch site on the Iranian island of Qeshm, in the Strait of Hormuz, on the evening of Tuesday 17 November, according to a US official quoted by Al Jazeera, hours after the Revolutionary Guards claimed a drone attack on a radar at Sheikh Isa air base in Bahrain.",
+        "The deputy governor of Hormozgan province, Ahmad Nafisi, insists that no homes or businesses were hit, while US Central Command says the drones launched at Bahrain, in the third Iranian attack on the kingdom in five days, were intercepted without causing damage.",
+        "Overnight Kuwait's army said it was repelling \"hostile\" drone attacks without saying where they came from, and Manama condemned Iran's \"criminal attacks\", on the eve of the Shenzhen summit at which Washington wants to raise the war with Xi Jinping and Vladimir Putin."
+      ],
+      "figure": {
+        "value": "3",
+        "label": "Iranian drone attacks on Bahrain in five days",
+        "compare": "after several weeks of calm, according to AFP"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "since the war began"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Qeshm island (Iran)",
+              "coords": [
+                55.9,
+                26.8
+              ],
+              "note": "Missile-launch site struck on Tuesday evening, according to a US official; the IRNA news agency reported five or six explosions."
+            },
+            {
+              "name": "Sheikh Isa air base (Bahrain)",
+              "coords": [
+                50.59,
+                25.92
+              ],
+              "note": "The Revolutionary Guards say they targeted an American radar there; Bahrain and Central Command say the drones were intercepted."
+            },
+            {
+              "name": "Khasab (Oman)",
+              "coords": [
+                56.25,
+                26.18
+              ],
+              "note": "The tanker Tara Gas was hit on Monday about seven nautical miles north of the port, according to the security firm Vanguard."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain"
+          }
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Targeted reprisals around Hormuz",
+        "text": "Since the war began on 28 February, Tehran has sought to restrict traffic through the Strait of Hormuz, which normally carries a fifth of the world's oil, by imposing its own shipping lanes; Washington has answered with a blockade of Iranian ports and naval escorts for tankers. Friday's attack on Bahrain was, according to AFP, the first on a Gulf state since early September. The targets chosen on both sides, a radar and a launch site, remain strictly military. Kuwait has not said where the drones that targeted it overnight came from, and no casualty figures have been released. Yet the exchanges of fire are growing more frequent as American forces build up in the region, with a third aircraft carrier, the Theodore Roosevelt, arriving on Monday."
+      },
+      "keys": [
+        {
+          "title": "The Tara Gas",
+          "text": "The Panamanian-flagged tanker has been hit twice off Oman. According to India's ports minister, the crew abandoned ship and an Indian sailor is missing."
+        },
+        {
+          "title": "The Manama trial",
+          "text": "According to Reuters, the attack on Bahrain followed the sentencing by a Bahraini court of 64 people, most of them Shia clerics, to life imprisonment for colluding with Iran."
+        },
+        {
+          "title": "Oman's mediation",
+          "text": "Iran's foreign minister, Abbas Araghchi, discussed shipping security and diplomatic options in Muscat with his Omani counterpart, Badr Albusaidi, according to Omani news agencies."
+        }
+      ],
+      "involved": [
+        "USA",
+        "KWT",
+        "OMN"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "The war between America, Israel and Iran begins."
+        },
+        {
+          "d": "2026-07-12",
+          "t": "Tehran announces the Strait of Hormuz closed again after American strikes resume."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "First Iranian attack on a Gulf state since September, on Bahrain."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "The aircraft carrier Theodore Roosevelt arrives in the Middle East."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "The Revolutionary Guards target a radar in Bahrain; America strikes Qeshm."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "Trump-Xi-Putin meeting in Shenzhen, where the Iran war is due to be discussed."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
+          "url": "https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Iran war live: Kuwait says intercepting 'hostile' drone attacks",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "CBS News",
+          "title": "Live Updates: Iran's Revolutionary Guard claims another attack on U.S. radar system in Bahrain",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/",
+          "date": "2026-11-17"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "america-strikes-iranian-missile-site-qeshm-drones-target"
+    },
+    {
+      "rank": 2,
+      "id": "CHN",
+      "place": "China",
+      "section": "Asia-Pacific",
+      "focus": [
+        114.06,
+        22.54
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy"
+      ],
+      "title": "Putin arrives in Shenzhen ahead of his first three-way summit with Donald Trump and Xi Jinping",
+      "standfirst": "Russia's president landed in Shenzhen on Tuesday and is due to hold talks with Xi Jinping on Wednesday before Thursday's three-way meeting with Donald Trump. The American president flies on to China after a state visit to Manila on Wednesday.",
+      "body": [
+        "Vladimir Putin landed at Shenzhen's Bao'an airport on Tuesday 17 November for his first APEC summit in person since 2017, and is due to meet Xi Jinping on Wednesday ahead of the first three-way meeting with Donald Trump, scheduled for Thursday on the sidelines of the summit.",
+        "Washington wants to discuss cutting nuclear arsenals, since the last Russian-American nuclear-arms treaty expired in February, as well as the Iran war, while Ukraine's place on the agenda remains unclear, Donald Trump having said on Monday that he would raise it despite signals to the contrary from the White House.",
+        "Before leaving the Philippines, the American president was received on Wednesday for a state visit by Ferdinand Marcos Jr at Malacañang Palace, where he said he was \"not concerned\" about tensions in the South China Sea, and he has not ruled out seeing Kim Jong Un in China."
+      ],
+      "figure": {
+        "value": "2017",
+        "label": "Vladimir Putin's last APEC summit in person",
+        "compare": "according to TASS, quoted by the Kyiv Post"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "CHN",
+            "USA",
+            "RUS"
+          ],
+          "host": "CHN",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "To put nuclear disarmament and the Iran war at the centre of the talks; Donald Trump says he also wants to raise Ukraine."
+            },
+            {
+              "who": "Beijing",
+              "wants": "\"In-depth exchanges\" on world peace and strategic stability between great powers, while insisting that Washington and Moscow cut their arsenals before any talk of its own."
+            },
+            {
+              "who": "Moscow",
+              "wants": "To discuss energy and finance with Beijing, then Ukraine and North Korea in a smaller format, according to Russian officials."
+            }
+          ],
+          "next": {
+            "d": "2026-11-19",
+            "t": "Three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin in Shenzhen."
+          },
+          "source": {
+            "name": "RTÉ, avec l'AFP",
+            "url": "https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/",
+            "name_en": "RTÉ, with AFP"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Shenzhen",
+              "coords": [
+                114.06,
+                22.54
+              ],
+              "note": "Host city of the APEC summit, where Vladimir Putin arrived on Tuesday.",
+              "source": {
+                "name": "Kyiv Post",
+                "url": "https://www.kyivpost.com/post/90410"
+              }
+            },
+            {
+              "name": "Manila",
+              "coords": [
+                120.98,
+                14.6
+              ],
+              "note": "Donald Trump's state visit to Malacañang Palace on Wednesday.",
+              "source": {
+                "name": "GMA News",
+                "url": "https://www.gmanetwork.com/news/topstories/nation/1009897/trump-at-malaca-ang-as-part-of-ph-state-visit/story/"
+              }
+            }
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Three powers, three agendas",
+        "text": "The idea of a three-way meeting was floated during a telephone call on 9 October, according to the Kyiv Post. For Donald Trump it will be a third in-person meeting with Xi Jinping this year, after his visit to China in May and the Chinese leader's trip to America in September; he has not seen Vladimir Putin since their Alaska summit in August 2025. The nuclear question shows how far apart the three are: Washington wants to bring Beijing into arms control, while China refuses to negotiate over its smaller arsenal until the other two have cut theirs. The Kremlin hopes for a joint communiqué, and a one-to-one meeting between the Russian and American presidents is being prepared, according to the Kyiv Post."
+      },
+      "keys": [
+        {
+          "title": "Vladimir Putin's programme",
+          "text": "Russia's president is due to address the APEC business forum and plenary session. He also plans talks with Vietnam's president, To Lam, and Thailand's prime minister, Anutin Charnvirakul."
+        },
+        {
+          "title": "The Manila stopover",
+          "text": "Donald Trump said the alliance with the Philippines had \"never been better\". The day before, he had announced an $85m investment in artificial-intelligence software."
+        },
+        {
+          "title": "Sanctions",
+          "text": "On 18 September Donald Trump signed into law a sanctions bill targeting Russia and Iran, championed by Senator Lindsey Graham, according to the Kyiv Post."
+        }
+      ],
+      "involved": [
+        "USA",
+        "RUS",
+        "PHL"
+      ],
+      "context": [
+        {
+          "d": "2025-08-15",
+          "t": "Donald Trump and Vladimir Putin hold a summit in Alaska."
+        },
+        {
+          "d": "2026-10-09",
+          "t": "The idea of a three-way meeting is floated during a telephone call."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Vladimir Putin arrives in Shenzhen; Donald Trump convenes the Quad in Manila."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Donald Trump's state visit to Manila; Xi Jinping and Vladimir Putin hold talks."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "First three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Kyiv Post",
+          "title": "Putin Arrives in Shenzhen Ahead of First Trilateral Summit With Trump, Xi",
+          "url": "https://www.kyivpost.com/post/90410",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "RTÉ",
+          "title": "Xi and Putin to meet ahead of historic Trump trilateral",
+          "url": "https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/",
+          "date": "2026-11-18",
+          "name_en": "RTÉ"
+        },
+        {
+          "name": "CBS News",
+          "title": "Trump arrives in Asia ahead of summit with Putin and Xi, possible meeting with Kim Jong Un",
+          "url": "https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "The Philippine Star",
+          "title": "Trump 'not concerned' about South China Sea as he meets Marcos in Malacañang",
+          "url": "https://www.philstar.com/headlines/2026/11/18/2570984/trump-not-concerned-about-south-china-sea-he-meets-marcos-malacaang",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "GMA News",
+          "title": "Trump at Malacañang as part of PH state visit",
+          "url": "https://www.gmanetwork.com/news/topstories/nation/1009897/trump-at-malaca-ang-as-part-of-ph-state-visit/story/",
+          "date": "2026-11-18"
+        }
+      ],
+      "dossier": {
+        "id": "trump-xi-putin-summit",
+        "title": "The Trump-Xi-Putin summit"
+      },
+      "slug": "putin-arrives-shenzhen-ahead-his-first-three-way"
+    },
+    {
+      "rank": 3,
+      "id": "ISR",
+      "place": "Israel",
+      "section": "Middle East",
+      "focus": [
+        34.4,
+        31.45
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy",
+        "conflict"
+      ],
+      "title": "Board of Peace warns that the Gaza ceasefire is at risk of collapse",
+      "standfirst": "In a report delivered to the UN Security Council on Tuesday, the body overseeing the truce accuses Israel of blocking the transitional civilian administration. It argues that a ceasefire producing \"nothing visible\" cannot last indefinitely.",
+      "body": [
+        "The Board of Peace, set up in 2025 at Donald Trump's initiative to oversee the truce between Israel and Hamas, delivered a report to the United Nations Security Council on Tuesday 17 November warning that the deal risks collapse unless it is implemented immediately, according to the Associated Press.",
+        "The document accuses Israel of preventing the technocratic civilian administration from taking office in Gaza and of failing to decide on the return of a civilian police force, which is delaying the international stabilisation force, and also cites Israeli strikes and Hamas's military activity.",
+        "It asks the Security Council to press both sides, warns that if the plan fails there is \"no alternative roadmap\", and calls for shelters and winter supplies to be let in on a large scale for a population facing \"another winter in tents\"."
+      ],
+      "figure": {
+        "value": "6 months",
+        "label": "since the Board of Peace's first report, in May",
+        "compare": "the same obstacles persist, according to AP"
+      },
+      "since": {
+        "date": "2025-10-10",
+        "label": "since the truce took effect"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "ISR",
+            "PSE",
+            "USA"
+          ],
+          "positions": [
+            {
+              "who": "The Board of Peace",
+              "wants": "For the Security Council to back the deal and press both parties to end the delays, since neither can cite the other's to justify its own inaction."
+            },
+            {
+              "who": "Israel, according to the report",
+              "wants": "Has still not allowed the civilian administration to take office, nor set the terms for training and deploying a civilian police force in Gaza."
+            }
+          ],
+          "source": {
+            "name": "Associated Press, via KCRA",
+            "url": "https://www.kcra.com/article/board-of-peace-gaza-report-ceasefire-israel/74457396"
+          }
+        },
+        "help": {
+          "orgs": [
+            "icrc",
+            "unicef",
+            "wfp",
+            "msf"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "The missing link: a stabilisation force",
+        "text": "The whole plan rests on a sequence that the report describes as stalled: without a civilian police force there can be no international stabilisation force, and without that no Israeli withdrawal, no disarmament of Hamas and no reconstruction. As early as May, the Board of Peace's director-general, Nickolay Mladenov, blamed the impasse on the Islamist movement's disarmament; six months on, the diagnosis is unchanged. The report also stresses the humanitarian emergency: restrictions and a shortage of funding are hampering preparations for winter, and the body is seeking permits for pumps, generators and heavy machinery. The decision rests largely with Israel, where Gadi Eisenkot was asked on 7 November to form a government after October's election."
+      },
+      "keys": [
+        {
+          "title": "Nickolay Mladenov",
+          "text": "The former UN envoy for the Middle East leads the Board of Peace. In May he presented a first report finding that the truce had stalled."
+        },
+        {
+          "title": "The 20-point plan",
+          "text": "Put forward by Donald Trump in September 2025, it sets out the Board of Peace's mission. The report recalls that it must open a credible path to Palestinian self-determination and statehood."
+        },
+        {
+          "title": "The transition in Jerusalem",
+          "text": "Israel's president, Isaac Herzog, has asked Gadi Eisenkot to form a government. Benjamin Netanyahu heads a caretaker government in the meantime."
+        }
+      ],
+      "involved": [
+        "PSE",
+        "USA"
+      ],
+      "zones": [
+        {
+          "id": "GAZA",
+          "name": "Gaza",
+          "coords": [
+            34.4,
+            31.45
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2023-10-07",
+          "t": "Hamas attacks southern Israel, triggering the war in Gaza."
+        },
+        {
+          "d": "2025-09",
+          "t": "Donald Trump proposes his 20-point plan and the Board of Peace."
+        },
+        {
+          "d": "2025-10-10",
+          "t": "The Gaza ceasefire takes effect."
+        },
+        {
+          "d": "2026-05",
+          "t": "The Board of Peace's first report to the Security Council."
+        },
+        {
+          "d": "2026-11-07",
+          "t": "Isaac Herzog asks Gadi Eisenkot to form Israel's government."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "Second report, warning that the truce could collapse."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Associated Press, via KCRA",
+          "title": "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action",
+          "url": "https://www.kcra.com/article/board-of-peace-gaza-report-ceasefire-israel/74457396",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
+          "url": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Arab News",
+          "title": "Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action",
+          "url": "https://www.arabnews.com/middle-east/board-of-peace-delivers-bleak-report-on-gaza-warning-of-ceasefire-collapse-without-immediate-action-3012599",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Associated Press, via PBS",
+          "title": "Israel's president formally gives Eisenkot the first chance to form the next government",
+          "url": "https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government",
+          "date": "2026-11-08"
+        }
+      ],
+      "dossier": {
+        "id": "israel-gaza",
+        "title": "Israel and Gaza"
+      },
+      "slug": "board-peace-warns-that-gaza-ceasefire-risk-collapse"
+    },
+    {
+      "rank": 4,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "focus": [
+        45,
+        50
+      ],
+      "radar": false,
+      "types": [
+        "conflict"
+      ],
+      "title": "Ukraine launches a record drone attack on Russia, hitting a refinery in Bashkortostan",
+      "standfirst": "Moscow says it intercepted 1,441 Ukrainian drones overnight from Monday to Tuesday, a record since 2022. Fires were reported at a Gazprom petrochemical complex in Salavat, and an arch of the Crimean bridge has collapsed.",
+      "body": [
+        "Russia's defence ministry said on Tuesday 17 November that it had intercepted 1,441 Ukrainian drones overnight over Russia and annexed Crimea, a record since the invasion began that eclipses the 1,336 claimed the previous night.",
+        "Fires were reported at the Gazprom Neftekhim Salavat complex in Bashkortostan, more than 1,200 kilometres from the border, which regional authorities say is intact, while Ukraine's security service claims to have destroyed a road arch of the Crimean bridge in a seven-stage operation.",
+        "The same night, Russian missiles hit Kyiv's North and South bridges and energy facilities, cutting power in eight regions according to the deputy energy minister, Artem Nekrasov, two days before a summit in Shenzhen at which the war's place remains uncertain."
+      ],
+      "figure": {
+        "value": "1,441",
+        "label": "Ukrainian drones intercepted in one night, according to Moscow",
+        "compare": "against 1,336 the night before"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Salavat (Bashkortostan)",
+              "coords": [
+                55.93,
+                53.36
+              ],
+              "note": "Gazprom Neftekhim Salavat complex, about 2.7% of Russia's refining capacity; fires reported, no critical damage according to regional authorities.",
+              "source": {
+                "name": "The Moscow Times",
+                "url": "https://www.themoscowtimes.com/2026/11/17/ukrainian-drones-hit-gazprom-refinery-in-bashkortostan-in-second-record-overnight-attack-a94282"
+              }
+            },
+            {
+              "name": "Kerch bridge",
+              "coords": [
+                36.51,
+                45.3
+              ],
+              "note": "The 227-metre road arch has collapsed; rail traffic resumed on Tuesday, while road traffic goes by ferry.",
+              "source": {
+                "name": "The Moscow Times",
+                "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281"
+              }
+            },
+            {
+              "name": "Kyiv",
+              "coords": [
+                30.52,
+                50.45
+              ],
+              "note": "The North and South bridges over the Dnipro were hit by Russian missiles, according to the mayor, Vitali Klitschko.",
+              "source": {
+                "name": "The Moscow Times",
+                "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281"
+              }
+            }
+          ]
+        },
+        "toll": {
+          "items": [
+            {
+              "value": "2",
+              "label": "killed in a separate drone attack in Lenine district, Crimea",
+              "by": "the Moscow-installed authorities",
+              "date": "2026-11-17",
+              "source": {
+                "name": "The Moscow Times",
+                "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281"
+              }
+            },
+            {
+              "value": "3",
+              "label": "wounded in Cherkasy region",
+              "by": "local authorities",
+              "date": "2026-11-17",
+              "source": {
+                "name": "The Moscow Times",
+                "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281"
+              }
+            }
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A war of bridges and refineries",
+        "text": "Volodymyr Zelensky presents the strike on the Kerch bridge as a response to Russian attacks on Ukrainian infrastructure, including bridges in Zaporizhzhia, Dnipro, Kyiv and Odesa. The Salavat complex, already hit on 8 October according to Ukraine's general staff, produces petrol, diesel and jet fuel and supplies the Russian army, according to the Kyiv Post. Both sides deny deliberately targeting civilians. These very long-range attacks continue despite the first talks in nine months, held last week in Abu Dhabi under American auspices. The Kremlin's spokesman, Dmitry Peskov, said a plan to repair the bridge would be drawn up."
+      },
+      "keys": [
+        {
+          "title": "The Kerch bridge",
+          "text": "Nineteen kilometres long, it links Crimea to Russia's Krasnodar region. Ukraine's security service says this is the fourth time it has struck the bridge since 2022."
+        },
+        {
+          "title": "Moscow in the sights",
+          "text": "According to Moscow's mayor, Sergei Sobyanin, about 800 drones headed for the capital region. He says 321 were shot down as they approached the city."
+        },
+        {
+          "title": "The Shenzhen summit",
+          "text": "The White House had ruled Ukraine out of the agenda for the meeting with Xi Jinping and Vladimir Putin. Donald Trump said on Monday that he would raise it with both."
+        }
+      ],
+      "involved": [
+        "RUS"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2022-10-08",
+          "t": "A truck bomb damages the Kerch bridge, killing four people."
+        },
+        {
+          "d": "2026-10-08",
+          "t": "First Ukrainian strike claimed on the Salavat complex."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "A record 1,336 drones, according to Moscow; the Crimean bridge is hit."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "A new record of 1,441 drones; an arch of the Crimean bridge collapses."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "Trump-Xi-Putin meeting due in Shenzhen."
+        }
+      ],
+      "sources": [
+        {
+          "name": "The Moscow Times",
+          "title": "Ukrainian Drones Hit Gazprom Refinery in Bashkortostan in Second Record Overnight Attack",
+          "url": "https://www.themoscowtimes.com/2026/11/17/ukrainian-drones-hit-gazprom-refinery-in-bashkortostan-in-second-record-overnight-attack-a94282",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "The Moscow Times",
+          "title": "Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges",
+          "url": "https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Kyiv Post",
+          "title": "Ukraine Hits Major Russian Petrochemical Hub in Massive Drone Attack",
+          "url": "https://www.kyivpost.com/post/90314",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Kyiv Post",
+          "title": "Crimean Bridge Arch Collapses Into Sea After Fresh Ukrainian Missile Strike",
+          "url": "https://www.kyivpost.com/post/90298",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "The Kyiv Independent",
+          "title": "Fire reported at major Russian petrochemical complex in Bashkortostan amid drone attack",
+          "url": "https://kyivindependent.com/fire-reported-at-major-russian-petrochemical-complex-in-bashkortostan-amid-drone-attack/",
+          "date": "2026-11-17"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "ukraine-launches-record-drone-attack-russia-hitting-refinery"
+    },
+    {
+      "rank": 5,
+      "id": "HTI",
+      "place": "Haiti",
+      "section": "Americas",
+      "radar": true,
+      "types": [
+        "conflict",
+        "disaster"
+      ],
+      "title": "UN counts more than 4,500 killed in Haiti's gang violence since January",
+      "standfirst": "The UN human rights office recorded 4,595 deaths between January and October and urges the forces fighting the gangs to limit their use of lethal force. In Port-au-Prince, hundreds of people marched in support of Salvadoran troops.",
+      "body": [
+        "The UN human rights office said in Geneva on Tuesday 17 November that 4,595 people had been killed and 2,050 wounded in Haiti between 1 January and 31 October, including at least 514 killed in security-force operations against gangs between July and September.",
+        "The high commissioner, Volker Türk, urged national and international forces, including the UN-authorised Gang Suppression Force, to use lethal force only when \"unavoidable\", as El Salvador has deployed more than 2,000 troops since October, mostly outside that framework.",
+        "Hundreds of Haitians marched on Tuesday, notably in Port-au-Prince, in support of the deployment, which San Salvador says will end once four Salvadorans abducted on 18 October are found; the leader of the 400 Mawozo gang, Wilson Joseph, claims without evidence that they have been killed."
+      ],
+      "figure": {
+        "value": "4,595",
+        "label": "people killed in Haiti from January to October",
+        "compare": "and 2,050 wounded, according to the UN human rights office"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "4,595",
+              "label": "killed between 1 January and 31 October",
+              "by": "the UN human rights office",
+              "date": "2026-11-17",
+              "source": {
+                "name": "Jamaica Gleaner",
+                "url": "https://jamaica-gleaner.com/article/world-news/20261118/un-reports-more-4500-killed-haiti-gang-violence-year"
+              }
+            },
+            {
+              "value": "1,167",
+              "label": "killed between July and September",
+              "by": "the UN Integrated Office in Haiti",
+              "date": "2026-11-12",
+              "source": {
+                "name": "ONU Info",
+                "url": "https://news.un.org/en/story/2026/11/1168789",
+                "name_en": "UN News"
+              }
+            },
+            {
+              "value": "137",
+              "label": "kidnappings for ransom in the third quarter, against 81 in the previous one",
+              "by": "the UN Integrated Office in Haiti",
+              "date": "2026-11-12",
+              "source": {
+                "name": "ONU Info",
+                "url": "https://news.un.org/en/story/2026/11/1168789",
+                "name_en": "UN News"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Port-au-Prince",
+              "coords": [
+                -72.34,
+                18.54
+              ],
+              "note": "Gangs control more than 80% of the capital region; marches on Tuesday in support of the Salvadoran troops.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment"
+              }
+            },
+            {
+              "name": "Croix-des-Bouquets",
+              "coords": [
+                -72.23,
+                18.58
+              ],
+              "note": "Police operation backed by Salvadoran soldiers against the 400 Mawozo gang on 8 November: 20 killed.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead"
+              }
+            },
+            {
+              "name": "Kenscoff",
+              "coords": [
+                -72.29,
+                18.45
+              ],
+              "note": "Two gang attacks in July and August killed at least 105 people, including 19 children.",
+              "source": {
+                "name": "ONU Info",
+                "url": "https://news.un.org/en/story/2026/11/1168789",
+                "name_en": "UN News"
+              }
+            }
+          ]
+        },
+        "help": {
+          "orgs": [
+            "unicef",
+            "wfp",
+            "msf",
+            "icrc"
+          ]
+        }
+      },
+      "analysis": {
+        "title": "Civilians caught in the war on gangs",
+        "text": "The quarterly report of the UN Integrated Office in Haiti shows that the security response now weighs heavily in the toll: more than half of those killed or wounded between July and September fell in ground or air operations against gangs, sometimes conducted with a private military company using drones. More than 16% of the victims of these operations had no link to the gangs, and 44 extrajudicial executions or attempts involving the police were documented, against 14 the previous quarter. The gangs, for their part, are stepping up reprisals against residents suspected of co-operating with the security forces, and forcibly recruiting children. The Gang Suppression Force, which arrived in April, is still not fully deployed."
+      },
+      "keys": [
+        {
+          "title": "The Salvadoran contingent",
+          "text": "Nayib Bukele sent his troops after four Salvadorans went missing on 18 October. Amnesty International is asking both governments to publish their agreement and their rules on the use of force."
+        },
+        {
+          "title": "The Sylvio Cator stadium",
+          "text": "Haitian forces and their partners have retaken the national stadium, held by gangs for years, according to the Haitian minister Patrick Pélissier. He says no civilian casualties were reported."
+        },
+        {
+          "title": "The elections",
+          "text": "Haiti is due to vote in July and October 2027. In Cité Soleil, according to the UN, the leader of the Brooklyn gang reportedly drew up a list of municipal candidates, and two residents who denounced it were killed."
+        }
+      ],
+      "involved": [
+        "SLV"
+      ],
+      "context": [
+        {
+          "d": "2026-04",
+          "t": "The UN-authorised Gang Suppression Force arrives."
+        },
+        {
+          "d": "2026-10-18",
+          "t": "Four Salvadorans go missing near Port-au-Prince."
+        },
+        {
+          "d": "2026-11-08",
+          "t": "Twenty killed in a Salvadoran-backed operation in Croix-des-Bouquets."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "The UN counts 1,167 killed in Haiti between July and September."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "A toll of 4,595 dead since January; marches in support of the Salvadoran troops."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Jamaica Gleaner",
+          "title": "UN reports more than 4,500 killed in Haiti gang violence this year",
+          "url": "https://jamaica-gleaner.com/article/world-news/20261118/un-reports-more-4500-killed-haiti-gang-violence-year",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "ONU Info",
+          "title": "Haiti: More than 1,000 killed between July and September, UN report reveals",
+          "url": "https://news.un.org/en/story/2026/11/1168789",
+          "date": "2026-11-12",
+          "name_en": "UN News"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Haitians protest in support of El Salvador's anti-gang troop deployment",
+          "url": "https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment",
+          "date": "2026-11-17"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Salvadoran troops target Haitian gang, leaving 20 dead",
+          "url": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead",
+          "date": "2026-11-10"
+        }
+      ],
+      "dossier": {
+        "id": "haiti-crisis",
+        "title": "The crisis in Haiti"
+      },
+      "slug": "un-counts-more-than-4-500-killed-haiti"
+    }
+  ],
+  "brief": [
+    {
+      "id": "USA",
+      "place": "United States",
+      "text": "The Democrat Mary Peltola has unseated Alaska's Republican senator, Dan Sullivan, in the last Senate race of the midterms; Democrats have gained nine seats, a feat unmatched since 1958.",
+      "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win"
+    },
+    {
+      "id": "IRL",
+      "place": "Ireland",
+      "text": "Daithi O'Corrain, a 48-year-old Irishman, has been charged in New York with sabotaging an American C-130 military aircraft at Shannon airport, which prosecutors say was \"effectively destroyed\".",
+      "url": "https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport"
+    },
+    {
+      "id": "USA",
+      "place": "United States",
+      "text": "The secretary of state, Marco Rubio, says nothing links the recent outages that hit air travel, banks and Microsoft to one another or to foreign cyber-attacks.",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-18",
+      "t": "Xi Jinping and Vladimir Putin hold talks in Shenzhen, on the sidelines of APEC."
+    },
+    {
+      "d": "2026-11-19",
+      "t": "First three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin, in Shenzhen."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "COP31 is due to close in Antalya."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Two-day European Council, focused notably on funding Ukraine in 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Snap general election in Spain."
+    },
+    {
+      "d": "2026-12-01",
+      "t": "Border crossings between Estonia and Russia close."
+    },
+    {
+      "d": "2026-12-06",
+      "t": "Initial deadline for Gadi Eisenkot to form a government in Israel."
+    }
+  ],
+  "consulted": [
+    "Al Jazeera",
+    "Associated Press",
+    "AFP",
+    "Reuters",
+    "CBS News",
+    "Kyiv Post",
+    "The Moscow Times",
+    "The Kyiv Independent",
+    "RTÉ",
+    "The Philippine Star",
+    "GMA News",
+    "Arab News",
+    "UN News",
+    "Jamaica Gleaner"
+  ]
+}
