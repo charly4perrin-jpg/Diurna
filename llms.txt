@@ -7,7 +7,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 
 ## Édition du jour / Today's edition
 
-- [Édition du 2026-11-17 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): L’Iran vise une base américaine à Bahreïn, le pont de Crimée en partie effondré
+- [Édition du 2026-11-18 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): Washington riposte à Qeshm, Poutine arrive à Shenzhen avant le sommet à trois
 - [Edition of 2026-11-17 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Iran targets an American base in Bahrain as part of the Crimean bridge collapses
 - [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
 
@@ -27,13 +27,13 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 
 ## Optional
 
+- [2026-11-18](https://charly4perrin-jpg.github.io/Diurna/2026/11/18/edition.md): Washington riposte à Qeshm, Poutine arrive à Shenzhen avant le sommet à trois
 - [2026-11-17](https://charly4perrin-jpg.github.io/Diurna/2026/11/17/edition.md): L’Iran vise une base américaine à Bahreïn, le pont de Crimée en partie effondré
 - [2026-11-16](https://charly4perrin-jpg.github.io/Diurna/2026/11/16/edition.md): L’Iran affirme que six pétroliers ont heurté des mines près d’Ormuz depuis dimanche
 - [2026-11-15](https://charly4perrin-jpg.github.io/Diurna/2026/11/15/edition.md): Washington lie l’adhésion de l’Ukraine à l’OTAN à un retrait du Donbass
 - [2026-11-14](https://charly4perrin-jpg.github.io/Diurna/2026/11/14/edition.md): L’Europe désigne cinq pays pour la représenter aux pourparlers sur l’Ukraine
 - [2026-11-13](https://charly4perrin-jpg.github.io/Diurna/2026/11/13/edition.md): Volodymyr Zelensky annonce un échange record de prisonniers après la visite des émissaires américains
 - [2026-11-12](https://charly4perrin-jpg.github.io/Diurna/2026/11/12/edition.md): Reçus par Vladimir Poutine, les émissaires de Donald Trump repartent vers Volodymyr Zelensky à Dublin
-- [2026-11-11](https://charly4perrin-jpg.github.io/Diurna/2026/11/11/edition.md): À Abou Dhabi, Russes et Ukrainiens conviennent d’un vaste échange de prisonniers, sans percée
 - [2026-11-17](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/edition.md): Iran targets an American base in Bahrain as part of the Crimean bridge collapses
 - [2026-11-16](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/edition.md): Iran says six tankers have struck mines near Hormuz since Sunday
 - [2026-11-15](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/edition.md): Washington links Ukraine’s NATO membership to a withdrawal from the Donbas

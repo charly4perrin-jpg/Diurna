@@ -1,132 +1,124 @@
-# Diurna — N° 13 — Mardi 17 novembre 2026
+# Diurna — N° 14 — Mercredi 18 novembre 2026
 
-> L’Iran vise une base américaine à Bahreïn, le pont de Crimée en partie effondré
+> Washington riposte à Qeshm, Poutine arrive à Shenzhen avant le sommet à trois
 
-Les Gardiens de la révolution affirment avoir visé un radar américain à Bahreïn, qui dit avoir intercepté l’attaque, tandis que la marine iranienne annonce trois nouveaux pétroliers en feu à Ormuz. Une section du pont de Crimée s’est effondrée après une nouvelle frappe ukrainienne, Donald Trump a réuni le Quad à Manille et les Houthis approchent d’Aden.
+Les États-Unis ont frappé un site de missiles sur l’île iranienne de Qeshm après une attaque de drones contre Bahreïn, et le Koweït dit avoir intercepté des drones dans la nuit. Vladimir Poutine est arrivé à Shenzhen pour la rencontre de jeudi avec Donald Trump et Xi Jinping, tandis que le Conseil de la paix met en garde contre un effondrement de la trêve à Gaza.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Iran — L’Iran affirme avoir visé un radar américain à Bahreïn, nouveaux pétroliers en feu à Ormuz
+## 1. Iran — Washington frappe un site de missiles iranien à Qeshm, le Koweït visé par des drones
 
-**Les Gardiens de la révolution disent avoir pris pour cible mardi un radar de la base de Sheikh Isa, à Bahreïn, qui affirme avoir intercepté l’attaque. La marine iranienne annonce trois nouveaux pétroliers en feu après avoir heurté des mines.**
+**Un responsable américain affirme que l’armée a visé mardi soir un site de lancement de missiles sur l’île de Qeshm, en riposte à l’attaque iranienne contre une base de Bahreïn. Dans la nuit, le Koweït a dit intercepter des drones « hostiles ».**
 
-Les Gardiens de la révolution ont affirmé mardi 17 novembre avoir visé le système radar américain de la base de Sheikh Isa, à Bahreïn, siège de la Ve flotte, dont les autorités disent avoir intercepté l’attaque sans victime ni dégât, tandis que la marine iranienne annonçait trois pétroliers en feu après avoir heurté des mines depuis le matin. Ces revendications sont invérifiables, mais l’agence britannique UKMTO a signalé une nouvelle attaque contre un pétrolier au nord de Khasab, à Oman, dont l’équipage serait porté disparu, et un responsable iranien a attribué aux États-Unis une explosion survenue sur l’île de Qeshm, sans dégâts selon lui. Donald Trump, qui dit pouvoir surseoir à une attaque contre l’Iran selon le comportement de Téhéran, a prévenu que l’Iran « paierait le prix » de menaces contre Washington, alors que le ministre des affaires étrangères, Abbas Araghtchi, se rendait à Oman et que des responsables qatariens et iraniens se réunissaient.
+Les forces américaines ont frappé mardi 17 novembre au soir un site de lancement de missiles sur l’île iranienne de Qeshm, dans le détroit d’Ormuz, selon un responsable américain cité par Al Jazeera, quelques heures après l’attaque de drones revendiquée par les Gardiens de la révolution contre un radar de la base de Sheikh Isa, à Bahreïn. Le vice-gouverneur de la province d’Hormozgan, Ahmad Nafisi, assure qu’aucune zone d’habitation ni aucun commerce n’a été touché, tandis que le commandement central américain affirme que les drones lancés contre Bahreïn, troisième attaque iranienne visant le royaume en cinq jours, ont été interceptés sans dégâts. Dans la nuit, l’armée koweïtienne a dit repousser des attaques de drones « hostiles » sans en préciser l’origine et Manama a dénoncé des « attaques criminelles » de l’Iran, à la veille du sommet de Shenzhen où Washington veut aborder la guerre avec Xi Jinping et Vladimir Poutine.
 
-**Le chiffre du jour :** 136 — incidents de sécurité visant des navires recensés par l’OMI depuis mars
+**Le chiffre du jour :** 3 — attaques iraniennes de drones contre Bahreïn en cinq jours
 
-### Une escalade maritime sous le seuil de la guerre ouverte
+### Des représailles ciblées autour d’Ormuz
 
-Depuis l’effondrement, début juillet, du protocole d’accord conclu en juin, les deux camps se livrent à ce que l’analyste Ali Vaez, de l’International Crisis Group, décrit comme un « jeu de la poule mouillée » périlleux. Washington parie sur l’asphyxie économique : blocus des ports iraniens, sanctions renforcées et nouvelle force chargée de couper le commerce terrestre et caspien de l’Iran. Téhéran répond en rendant le passage d’Ormuz dangereux pour quiconque ignore ses routes imposées. L’Organisation maritime internationale a recensé 136 incidents visant des navires dans la région entre le 1er mars et le 11 novembre. Le renforcement militaire américain, avec trois groupes aéronavals, accroît le risque qu’un incident isolé fasse basculer la région dans une nouvelle phase de combats.
-
-- _Ce qui a changé 19 h 44_ : Les Gardiens disent avoir visé un radar américain à Bahreïn et Téhéran annonce trois pétroliers en feu ; titre et texte réécrits.
+Depuis le début de la guerre, le 28 février, Téhéran cherche à restreindre le trafic dans le détroit d’Ormuz, par lequel transite d’ordinaire un cinquième du pétrole mondial, en imposant ses propres routes ; Washington répond par le blocus des ports iraniens et l’escorte des pétroliers. L’attaque de vendredi contre Bahreïn était, selon l’AFP, la première visant un pays du Golfe depuis début septembre. Les cibles choisies de part et d’autre, un radar et un site de lancement, restent strictement militaires. Le Koweït n’a pas désigné l’origine des drones qui l’ont visé dans la nuit, et aucun bilan n’a été communiqué. Les échanges de tirs se multiplient pourtant à mesure que les forces américaines se renforcent dans la région, avec l’arrivée lundi d’un troisième porte-avions, le Theodore Roosevelt.
 
 Sources :
-- [Anadolu — Iranian navy says 3rd oil tanker catches fire after hitting mine in Strait of Hormuz](https://www.aa.com.tr/en/middle-east/iranian-navy-says-3rd-oil-tanker-catches-fire-after-hitting-mine-in-strait-of-hormuz/4128076)
-- [Reuters, via MarineLink — US Military Radar System in Bahrain Attacked by Iran](https://www.marinelink.com/news/us-military-radar-system-bahrain-attacked-544422)
-- [Associated Press, via KPRC — Saudi-backed forces in Yemen beef up defenses outside Aden to thwart Houthis, and other Mideast news](https://www.click2houston.com/news/world/2026/11/17/saudi-backed-forces-in-yemen-beef-up-defenses-outside-aden-to-thwart-houthis-and-other-mideast-news/)
-- [Al Jazeera — Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field](https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field)
-- [Al Jazeera — USS Roosevelt arrives in Middle East: Is the US-Iran war about to resume?](https://www.aljazeera.com/news/2026/11/16/uss-roosevelt-arrives-in-middle-east-is-the-us-iran-war-about-to-resume)
+- [Al Jazeera — Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain](https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain)
+- [Al Jazeera — Iran war live: Kuwait says intercepting ’hostile’ drone attacks](https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks)
+- [CBS News — Live Updates: Iran’s Revolutionary Guard claims another attack on U.S. radar system in Bahrain](https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/17/nouveaux-petroliers-feu-detroit-ormuz-croisent-desormais-trois/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/18/washington-frappe-site-missiles-iranien-qeshm-koweit-vise/
 
-## 2. Yémen — Au Yémen, les Houthis se rapprochent d’Aden après le retrait des forces progouvernementales de Bab el-Mandeb
+## 2. Chine — Poutine arrive à Shenzhen avant le premier sommet à trois avec Donald Trump et Xi Jinping
 
-**Les forces soutenues par Riyad ont abandonné le littoral proche du détroit de Bab el-Mandeb pour défendre Aden, que les Houthis approchent à une soixantaine de kilomètres. Le roi Salmane a limogé lundi le commandant des forces conjointes saoudiennes.**
+**Le président russe a atterri mardi à Shenzhen, où il doit s’entretenir mercredi avec Xi Jinping avant la rencontre à trois prévue jeudi avec Donald Trump. Le président américain doit gagner la Chine après une visite d’État mercredi à Manille.**
 
-Les forces progouvernementales yéménites ont annoncé dimanche 15 novembre leur retrait de l’aéroport de Dhubab et des positions qu’elles tenaient près du détroit de Bab el-Mandeb pour se replier sur Aden, siège du gouvernement reconnu, aussitôt suivies par les Houthis, désormais à environ 60 kilomètres au nord de la ville. Ce recul, qualifié de redéploiement par le porte-parole des forces armées, Majed Al-Nouzaili, prive la coalition d’une rive du détroit par lequel transitent les exportations saoudiennes de pétrole depuis la quasi-fermeture d’Ormuz, tandis que le roi Salmane a limogé lundi, sans explication, le commandant des forces conjointes, le général Fahd ben Hamad Al-Salman. Les Houthis ont tiré des drones vers les régions de La Mecque et de Riyad, que l’Arabie saoudite dit avoir abattus, tandis qu’à Taëz, assiégée, les autorités réclament des couloirs humanitaires et que les médecins redoutent l’arrêt des hôpitaux faute de carburant et d’oxygène.
+Vladimir Poutine a atterri mardi 17 novembre à l’aéroport de Bao’an, à Shenzhen, pour sa première participation en personne à un sommet de l’APEC depuis 2017, et doit s’entretenir mercredi avec Xi Jinping avant la première rencontre à trois avec Donald Trump, prévue jeudi en marge du sommet. Washington veut y parler de la réduction des arsenaux nucléaires, depuis l’expiration en février du dernier traité russo-américain sur les armes atomiques, et de la guerre avec l’Iran, tandis que la place de l’Ukraine reste incertaine, Donald Trump ayant dit lundi qu’il l’aborderait malgré les indications contraires de la Maison Blanche. Avant de quitter les Philippines, le président américain a été reçu mercredi en visite d’État au palais de Malacañang par Ferdinand Marcos Jr., s’y disant « pas du tout inquiet » des tensions en mer de Chine méridionale, et n’exclut pas de voir Kim Jong-un en Chine.
 
-**Le chiffre du jour :** 60 km — la distance qui sépare les Houthis d’Aden, selon Reuters
+**Le chiffre du jour :** 2017 — dernière participation de Vladimir Poutine en personne à l’APEC
 
-### La guerre du Yémen rattrapée par celle d’Ormuz
+### Trois puissances, trois agendas
 
-Relativement gelé pendant plusieurs années, le conflit yéménite a repris en juillet 2026, lorsque l’aviation gouvernementale a bombardé l’aéroport de Sanaa pour empêcher l’atterrissage d’une délégation houthiste. L’offensive lancée par les Houthis en septembre leur a donné la côte de la mer Rouge, dont Moka, puis l’encerclement complet de Taëz. La perte des positions de Bab el-Mandeb prend une dimension régionale : depuis que la guerre avec l’Iran a quasiment fermé Ormuz, ce détroit est devenu vital pour les exportations saoudiennes. Le stratège Ali Al-Dahab, cité par Al Jazeera, y voit une retraite plutôt qu’un redéploiement, et estime que les tirs houthistes visent d’abord l’Arabie saoudite.
+L’idée d’une rencontre à trois avait été lancée lors d’un entretien téléphonique le 9 octobre, selon le Kyiv Post. Pour Donald Trump, il s’agit d’une troisième rencontre en personne avec Xi Jinping cette année, après sa visite en Chine en mai et celle du dirigeant chinois aux États-Unis en septembre ; il n’a plus vu Vladimir Poutine depuis le sommet d’Alaska, en août 2025. Le dossier nucléaire illustre l’écart des positions : Washington veut associer Pékin à la maîtrise des armements, alors que la Chine refuse de négocier sur son arsenal, plus réduit, tant que les deux autres n’ont pas diminué les leurs. Le Kremlin espère un communiqué commun, et un tête-à-tête entre les présidents russe et américain est en préparation, selon le Kyiv Post.
 
 Sources :
-- [Al Jazeera — Houthis edge closer to Aden as Yemeni forces pull out of Bab al-Mandeb](https://www.aljazeera.com/news/2026/11/16/houthis-edge-closer-to-aden-as-yemeni-forces-pull-out-of-bab-al-mandeb)
-- [Al Jazeera — Saudi Arabia dismisses commander of coalition forces fighting Houthis](https://www.aljazeera.com/news/2026/11/16/saudi-arabia-dismisses-commander-of-coalition-forces-fighting-houthis)
-- [The New York Times — Saudi-backed forces withdraw from Yemen’s Red Sea coast](https://www.nytimes.com/2026/11/15/world/middleeast/saudi-houthis-yemen-red-sea.html)
-- [Associated Press — Houthis blame Saudi Arabia for strikes that killed three](https://apnews.com/article/mideast-news-israel-gaza-iran-houthis-november-16-2026-8830a880160d69e2d7f1fd654207a121)
+- [Kyiv Post — Putin Arrives in Shenzhen Ahead of First Trilateral Summit With Trump, Xi](https://www.kyivpost.com/post/90410)
+- [RTÉ — Xi and Putin to meet ahead of historic Trump trilateral](https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/)
+- [CBS News — Trump arrives in Asia ahead of summit with Putin and Xi, possible meeting with Kim Jong Un](https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/)
+- [The Philippine Star — Trump ’not concerned’ about South China Sea as he meets Marcos in Malacañang](https://www.philstar.com/headlines/2026/11/18/2570984/trump-not-concerned-about-south-china-sea-he-meets-marcos-malacaang)
+- [GMA News — Trump at Malacañang as part of PH state visit](https://www.gmanetwork.com/news/topstories/nation/1009897/trump-at-malaca-ang-as-part-of-ph-state-visit/story/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/17/yemen-houthis-rapprochent-aden-apres-retrait-forces-progouvernementales/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/18/poutine-arrive-shenzhen-avant-premier-sommet-trois-donald/
 
-## 3. Philippines — Donald Trump arrive à Manille pour la clôture du sommet de l’ASEAN avant Shenzhen
+## 3. Israël — À Gaza, le Conseil de la paix avertit que le cessez-le-feu risque de s’effondrer
 
-**Le président américain est arrivé mardi à Manille, au dernier jour du 49e sommet de l’ASEAN, et a réuni pour la première fois de son second mandat les dirigeants du Quad. Il gagnera ensuite Shenzhen pour l’APEC.**
+**Dans un rapport remis mardi au Conseil de sécurité de l’ONU, l’organe chargé de superviser la trêve reproche à Israël de bloquer l’administration civile de transition. Il juge qu’un cessez-le-feu qui ne produit « rien de visible » ne peut durer indéfiniment.**
 
-Donald Trump a atterri mardi 17 novembre à 17 h 33, heure locale, à Manille, accompagné notamment du secrétaire d’État, Marco Rubio, au moment où s’achevait le 49e sommet de l’ASEAN, dont les Philippines transmettent la présidence à Singapour pour 2027. Il a aussitôt réuni le Quad avec les premiers ministres australien, Anthony Albanese, japonais, Sanae Takaichi, et indien, Narendra Modi, une première depuis son retour à la Maison Blanche, qui a annoncé des travaux sur l’intelligence artificielle et un exercice commun d’avions de patrouille maritime. En marge du sommet, Washington et Bangkok ont signé une déclaration commerciale par laquelle la Thaïlande supprimerait ses droits de douane sur les produits américains, avant l’accueil officiel prévu mercredi par Ferdinand Marcos Jr. et le départ de Donald Trump pour l’APEC, à Shenzhen.
+Le Conseil de la paix, créé en 2025 à l’initiative de Donald Trump pour superviser la trêve entre Israël et le Hamas, a remis mardi 17 novembre au Conseil de sécurité des Nations unies un rapport qui juge l’accord menacé d’effondrement faute d’application immédiate, selon l’Associated Press. Le document reproche à Israël d’empêcher l’administration civile technocratique de prendre ses fonctions à Gaza et de n’avoir rien décidé sur le retour de la police civile, ce qui retarde la force internationale de stabilisation, et cite aussi les frappes israéliennes et les activités militaires du Hamas. Il demande au Conseil de sécurité de presser les deux camps, prévient qu’en cas d’échec il n’existerait « pas de feuille de route » de rechange et réclame l’entrée massive d’abris et de matériel d’hiver pour une population promise à « un autre hiver sous les tentes ».
 
-**Le chiffre du jour :** 49e — sommet de l’ASEAN, clos mardi à Manille
+**Le chiffre du jour :** 6 mois — depuis le premier rapport du Conseil de la paix, en mai
 
-### Une escale courte pour rassurer les alliés
+### La force de stabilisation, maillon manquant
 
-La visite intervient après la défaite du camp présidentiel aux élections de mi-mandat, et alors que la guerre au Moyen-Orient domine les projets de communiqué final du sommet. Pour l’analyste américain Greg Poling, cité par l’AP, ce court passage doit montrer aux alliés d’Asie du Sud-Est qu’ils ne sont pas oubliés, sans laisser espérer de progrès substantiels lors de la rencontre avec Xi Jinping. Les dirigeants de l’ASEAN n’ont conclu ni le code de conduite maritime avec la Chine, agréé à environ 80 %, ni la réintégration de la Birmanie, dont le dirigeant reste exclu des sommets. L’enchaînement Manille-Shenzhen place Washington face à ses deux priorités asiatiques : ses alliances et sa relation avec Pékin.
-
-- _Ce qui a changé 19 h 44_ : Donald Trump est arrivé à Manille et a réuni le Quad ; chapô et texte réécrits au passé.
-
-Sources :
-- [ABC News — Trump Asia trip live updates: Trump and Quad leaders gather in Manila](https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702)
-- [Associated Press, via PBS — Southeast Asian leaders open annual summit with major conflicts and their impact topping the agenda](https://www.pbs.org/newshour/world/southeast-asian-leaders-open-annual-summit-with-major-conflicts-and-their-impact-topping-the-agenda)
-- [The Star — Trump set to arrive in Manila as 49th Asean Summit draws to a close](https://www.thestar.com.my/news/nation/2026/11/17/trump-set-to-arrive-in-manila-as-49th-asean-summit-draws-to-a-close)
-- [Daily Tribune — Trump en route to Manila for ASEAN Summit](https://tribune.net.ph/2026/11/17/trump-en-route-to-manila-for-asean-summit)
-- [Al Jazeera — ASEAN, China fall short of agreeing on South China Sea code](https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/17/donald-trump-arrive-manille-cloture-sommet-asean-avant/
-
-## 4. Ukraine — Une section du pont de Crimée s’effondre, la Russie frappe les ponts de Kiev
-
-**Une nouvelle frappe ukrainienne a fait s’effondrer dans la nuit de lundi à mardi une travée routière du pont de Kertch, fermé à la circulation. À Kiev, des missiles russes ont touché deux ponts et privé des quartiers d’eau et de chauffage.**
-
-Le pont de Kertch, seul lien direct entre la Russie et la Crimée annexée, a été frappé dans la nuit du 16 au 17 novembre pour la deuxième fois en vingt-quatre heures, et l’état-major ukrainien affirme qu’une arche et une travée de la partie routière se sont effondrées. Le ministère russe des transports a suspendu la circulation routière et ferroviaire en faisant état d’une absence de victimes, tandis qu’à Kiev le maire, Vitali Klitschko, a indiqué que des missiles russes avaient touché les ponts Nord et Sud, privant certains quartiers d’eau et de chauffage. Ces frappes surviennent alors que plusieurs ministres européens jugent prématuré de discuter avec Moscou de la sécurité du continent avant un cessez-le-feu, et à deux jours de la rencontre prévue entre Vladimir Poutine, Donald Trump et Xi Jinping.
-
-**Le chiffre du jour :** 2 — frappes ukrainiennes contre le pont de Crimée en vingt-quatre heures
-
-### Une guerre d’usure menée aussi à la table
-
-Le pont de Kertch, déjà frappé en 2022, est un symbole autant qu’une artère logistique : le Kremlin répète que la question de la Crimée est close « pour toujours ». En le visant, Kiev rappelle sa capacité à frapper loin derrière la ligne de front, au moment où les pourparlers trilatéraux d’Abou Dhabi piétinent. Selon le New York Times, Moscou y a réitéré ses exigences d’avant-guerre sur le recul de l’OTAN, et le quotidien allemand Bild a fait état d’une demande de sortie de la Finlande de l’Alliance, aussitôt rejetée par Helsinki. Les Européens, qui veulent peser dans la négociation, refusent d’ouvrir le chantier de la sécurité continentale sans cessez-le-feu préalable.
-
-- _Ce qui a changé 19 h 44_ : Nouvelle frappe ukrainienne sur le pont de Crimée, dont une section s’est effondrée, et frappes russes sur Kiev ; titre et texte réécrits.
+Tout le plan repose sur un enchaînement que le rapport décrit comme bloqué : sans police civile, pas de force internationale de stabilisation, et sans elle ni retrait israélien, ni désarmement du Hamas, ni reconstruction. Dès mai, le directeur général du Conseil de la paix, Nickolay Mladenov, avait attribué l’impasse au désarmement du mouvement islamiste ; six mois plus tard, le constat est identique. Le rapport insiste aussi sur l’urgence humanitaire : les restrictions et le manque de financements entravent les préparatifs de l’hiver, et l’organe demande des autorisations pour des pompes, des générateurs et des engins lourds. La décision revient pour l’essentiel à Israël, où Gadi Eisenkot a été chargé le 7 novembre de former un gouvernement après les législatives d’octobre.
 
 Sources :
-- [The Kyiv Independent — Entire section of Crimean Bridge collapsed after reported Ukrainian Flamingo missile strike](https://kyivindependent.com/ukrainian-forces-reportedly-strike-crimean-bridge-after-russian-missiles-hit-kyiv-bridges/)
-- [The Kyiv Independent — Key bridges in Kyiv struck in massive Russian ballistic missile attack across Ukraine](https://kyivindependent.com/key-bridges-in-kyiv-struck-in-massive-russian-ballistic-missile-attack-across-ukraine/)
-- [Reuters — Ukraine hits key Crimean bridge, curbing traffic, Russian governor says](https://www.reuters.com/world/ukraine-hits-key-crimean-bridge-curbing-traffic-russian-governor-says-2026-11-16/)
-- [Reuters — Holding talks with Russia on Europe’s security now would be premature, EU ministers say](https://www.reuters.com/business/finance/holding-talks-with-russia-europes-security-now-would-be-premature-eu-ministers-2026-11-16/)
-- [Just Security — Early Edition: November 16, 2026](https://www.justsecurity.org/164727/early-edition-november-16-2026/)
+- [Associated Press, via KCRA — Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action](https://www.kcra.com/article/board-of-peace-gaza-report-ceasefire-israel/74457396)
+- [Al Jazeera — Board of Peace warns Gaza ceasefire faces imminent collapse without action](https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action)
+- [Arab News — Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action](https://www.arabnews.com/middle-east/board-of-peace-delivers-bleak-report-on-gaza-warning-of-ceasefire-collapse-without-immediate-action-3012599)
+- [Associated Press, via PBS — Israel’s president formally gives Eisenkot the first chance to form the next government](https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/17/pont-crimee-rouvert-partie-europe-refuse-negocier-securite/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/18/gaza-conseil-paix-avertit-cessez-feu-risque-effondrer/
 
-## 5. Birmanie — En Birmanie, une frappe aérienne tue douze déplacés en Arakan, l’ASEAN maintient l’exclusion de Min Aung Hlaing
+## 4. Ukraine — L’Ukraine lance une attaque record de drones contre la Russie, une raffinerie de Bachkirie visée
 
-**Une frappe attribuée à l’armée a tué douze personnes dans un camp de déplacés de l’État d’Arakan, selon des témoins. Réunis à Manille, les dirigeants de l’ASEAN ont prolongé l’exclusion du président birman de leurs sommets.**
+**Moscou dit avoir intercepté 1 441 drones ukrainiens dans la nuit de lundi à mardi, un record depuis 2022. Des incendies ont été signalés dans un complexe pétrochimique de Gazprom à Salavat, et une arche du pont de Crimée s’est effondrée.**
 
-Une frappe aérienne a tué douze personnes, dont un enfant de 5 ans, et en a blessé dix-huit vendredi 13 novembre au soir dans le camp de déplacés de Byar La, dans le canton de Ponnagyun, au nord-est de Sittwe, selon des témoins et une organisation de secours citée par l’AFP. L’État d’Arakan, presque entièrement contrôlé par l’Armée d’Arakan, est soumis à un blocus de l’armée et à des frappes régulières, et l’armée n’a pu être jointe, alors que la guerre civile ouverte par le coup d’État de 2021 a fait plus de 100 000 morts selon ACLED. Réunis à Manille dimanche, les dirigeants de l’ASEAN ont prolongé l’exclusion de leurs sommets du président Min Aung Hlaing, faute de progrès sur le plan de paix de 2021, tout en évoquant un rétablissement graduel de la représentation birmane sous conditions.
+Le ministère russe de la défense a affirmé mardi 17 novembre avoir intercepté dans la nuit 1 441 drones ukrainiens au-dessus de la Russie et de la Crimée annexée, un record depuis le début de l’invasion qui efface celui de 1 336 établi la veille. Des incendies ont été signalés au complexe Gazprom Neftekhim Salavat, en Bachkirie, à plus de 1 200 kilomètres de la frontière, que les autorités régionales disent intact, tandis que les services de sécurité ukrainiens affirment avoir détruit une arche routière du pont de Crimée au terme d’une opération en sept étapes. Dans la même nuit, des missiles russes ont touché les ponts Nord et Sud de Kiev et des installations énergétiques, privant de courant huit régions selon le vice-ministre de l’énergie, Artem Nekrassov, à deux jours d’un sommet à Shenzhen où la place de la guerre reste incertaine.
 
-**Le chiffre du jour :** 12 — morts dans la frappe sur le camp de déplacés de Byar La
+**Le chiffre du jour :** 1 441 — drones ukrainiens interceptés en une nuit, selon Moscou
 
-### Une ouverture prudente de l’ASEAN
+### La guerre des ponts et des raffineries
 
-Le texte adopté à Manille maintient Naypyidaw à l’écart des sommets et des réunions ministérielles, mais introduit un « engagement calibré », progressif et lié aux progrès réalisés. Il encourage aussi les États membres à dialoguer chacun avec toutes les parties : Min Aung Hlaing s’est déjà rendu dans cinq pays de l’Association, dont la Thaïlande, la Malaisie et le Viêt Nam. Le plan de paix en cinq points de 2021, qui exige notamment la fin immédiate des violences et l’acceptation de l’aide humanitaire, reste la référence. Sur le terrain, la cheffe de la diplomatie philippine et envoyée spéciale de l’ASEAN, Theresa Lazaro, reconnaît que les bombardements et les déplacements de population se poursuivent.
+Volodymyr Zelensky présente la frappe contre le pont de Kertch comme une réponse aux attaques russes contre les infrastructures ukrainiennes, dont les ponts de Zaporijia, Dnipro, Kiev et Odessa. Le complexe de Salavat, déjà frappé le 8 octobre selon l’état-major ukrainien, produit essence, gazole et kérosène et fournit l’armée russe, selon le Kyiv Post. Les deux camps démentent viser délibérément des civils. Ces attaques à très longue distance se poursuivent malgré les premiers pourparlers en neuf mois, tenus la semaine dernière à Abou Dhabi sous l’égide des États-Unis. Le porte-parole du Kremlin, Dmitri Peskov, a indiqué qu’un plan de réparation du pont serait préparé.
 
 Sources :
-- [The Daily Star (AFP) — Myanmar airstrike on displaced persons camp kills 12: Witnesses](https://www.thedailystar.net/news/world/news/myanmar-airstrike-displaced-persons-camp-kills-12-witnesses-4323581)
-- [Associated Press, via KSAT — Southeast Asian leaders denounce violence in Myanmar and extend ban on its leader](https://www.ksat.com/news/world/2026/11/15/southeast-asian-leaders-denounce-violence-in-myanmar-and-extend-ban-on-its-leader/)
-- [Reuters, via CP24 — ASEAN keeps Myanmar restrictions but opens path to political return](https://www.cp24.com/news/world/2026/11/15/asean-keeps-myanmar-restrictions-but-opens-path-to-political-return/)
-- [Al Jazeera — ASEAN, China fall short of agreeing on South China Sea code](https://www.aljazeera.com/news/2026/11/16/asean-china-fall-short-of-agreeing-on-south-china-sea-code)
+- [The Moscow Times — Ukrainian Drones Hit Gazprom Refinery in Bashkortostan in Second Record Overnight Attack](https://www.themoscowtimes.com/2026/11/17/ukrainian-drones-hit-gazprom-refinery-in-bashkortostan-in-second-record-overnight-attack-a94282)
+- [The Moscow Times — Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges](https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281)
+- [Kyiv Post — Ukraine Hits Major Russian Petrochemical Hub in Massive Drone Attack](https://www.kyivpost.com/post/90314)
+- [Kyiv Post — Crimean Bridge Arch Collapses Into Sea After Fresh Ukrainian Missile Strike](https://www.kyivpost.com/post/90298)
+- [The Kyiv Independent — Fire reported at major Russian petrochemical complex in Bashkortostan amid drone attack](https://kyivindependent.com/fire-reported-at-major-russian-petrochemical-complex-in-bashkortostan-amid-drone-attack/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/17/birmanie-frappe-aerienne-tue-douze-deplaces-arakan-asean/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/18/ukraine-lance-attaque-record-drones-contre-russie-raffinerie/
+
+## 5. Haïti — En Haïti, l’ONU recense plus de 4 500 morts depuis janvier dans les violences des gangs
+
+**Le Haut-Commissariat aux droits de l’homme a dénombré 4 595 morts entre janvier et octobre et demande aux forces engagées contre les gangs de limiter le recours à la force létale. À Port-au-Prince, des centaines de personnes ont manifesté en soutien aux soldats salvadoriens.**
+
+Le Haut-Commissariat des Nations unies aux droits de l’homme a fait état mardi 17 novembre, à Genève, de 4 595 morts et 2 050 blessés en Haïti entre le 1er janvier et le 31 octobre, dont au moins 514 tués lors d’opérations des forces de sécurité contre les gangs entre juillet et septembre. Le haut-commissaire, Volker Türk, demande aux forces nationales et internationales, dont la Force de répression des gangs autorisée par l’ONU, de ne recourir à la force létale que lorsqu’elle est « inévitable », alors que le Salvador a déployé depuis octobre plus de 2 000 soldats, pour la plupart hors de ce cadre. Des centaines de Haïtiens ont manifesté mardi, notamment à Port-au-Prince, pour soutenir ce déploiement, que San Salvador dit vouloir arrêter dès que seront retrouvés quatre Salvadoriens enlevés le 18 octobre, que le chef du gang 400 Mawozo, Wilson Joseph, affirme sans preuve avoir été tués.
+
+**Le chiffre du jour :** 4 595 — morts recensés en Haïti de janvier à octobre
+
+### Une guerre contre les gangs coûteuse en civils
+
+Le rapport trimestriel du Bureau intégré des Nations unies en Haïti montre que la réponse sécuritaire pèse désormais lourd dans le bilan : plus de la moitié des morts et blessés de juillet à septembre sont survenus lors d’opérations terrestres ou aériennes contre les gangs, parfois menées avec une société militaire privée utilisant des drones. Plus de 16 % des victimes de ces opérations n’avaient aucun lien avec les gangs, et 44 exécutions extrajudiciaires ou tentatives impliquant la police ont été documentées, contre 14 le trimestre précédent. Les gangs, eux, multiplient les représailles contre les habitants soupçonnés de coopérer avec les forces de sécurité et le recrutement forcé d’enfants. La Force de répression des gangs, arrivée en avril, n’est toujours pas pleinement déployée.
+
+Sources :
+- [Jamaica Gleaner — UN reports more than 4,500 killed in Haiti gang violence this year](https://jamaica-gleaner.com/article/world-news/20261118/un-reports-more-4500-killed-haiti-gang-violence-year)
+- [ONU Info — Haiti: More than 1,000 killed between July and September, UN report reveals](https://news.un.org/en/story/2026/11/1168789)
+- [Al Jazeera — Haitians protest in support of El Salvador’s anti-gang troop deployment](https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment)
+- [Al Jazeera — Salvadoran troops target Haitian gang, leaving 20 dead](https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/18/haiti-onu-recense-4-500-morts-depuis-janvier/
 
 ## En bref
 
-- **Israël** : L’opposition israélienne accuse Benyamin Nétanyahou de « tentative de coup d’État » après des révélations de la chaîne 12 selon lesquelles son cabinet aurait cherché à faire arrêter des membres du parti arabe Raam à la veille des législatives ; le Likoud dément. ([Source](https://www.aljazeera.com/news/2026/11/16/israeli-opposition-accuses-netanyahu-of-attempted-coup))
-- **Afrique du Sud** : Au moins dix-sept personnes ont été tuées dans deux fusillades de masse survenues le même jour en Afrique du Sud. ([Source](https://www.aljazeera.com/news/2026/11/16/at-least-17-killed-in-two-south-africa-mass-shootings))
-- **Tchéquie** : Des centaines de milliers de personnes ont manifesté dimanche à Prague contre le projet du gouvernement d’Andrej Babis de financer l’audiovisuel public par le budget de l’État, ce qui réduirait ses ressources d’environ 15 %. ([Source](https://apnews.com/article/czech-protest-public-media-babis-a48f46db181edaa14a156be89862f5e3))
-- **Estonie** : L’Estonie fermera tous ses points de passage frontaliers avec la Russie le 1er décembre, après avoir accusé le renseignement militaire russe d’une tentative d’incendie contre le fabricant de drones Threod Systems, près de Tallinn. ([Source](https://www.politico.eu/article/estonia-accuses-russia-of-attempted-arson-attack-on-drone-maker/))
+- **États-Unis** : La démocrate Mary Peltola a battu en Alaska le sénateur républicain sortant, Dan Sullivan, dans le dernier scrutin sénatorial des élections de mi-mandat ; les démocrates ont gagné neuf sièges, du jamais-vu depuis 1958. ([Source](https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win))
+- **Irlande** : Un Irlandais de 48 ans, Daithi O’Corrain, a été inculpé à New York pour avoir saboté à l’aéroport de Shannon un avion militaire américain C-130, que le parquet estime « effectivement détruit ». ([Source](https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport))
+- **États-Unis** : Le secrétaire d’État, Marco Rubio, affirme qu’aucun élément ne relie entre elles, ni à des cyberattaques étrangères, les récentes pannes qui ont touché le transport aérien, des banques et Microsoft. ([Source](https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages))
 
 ## À venir
 
-- 18 nov. : Visite officielle de Donald Trump au palais présidentiel de Manille, puis départ pour l’APEC à Shenzhen.
-- 19 nov. : Rencontre Trump-Xi-Poutine prévue à Shenzhen, en marge du sommet de l’APEC.
+- 18 nov. : Entretien entre Xi Jinping et Vladimir Poutine à Shenzhen, en marge de l’APEC.
+- 19 nov. : Première rencontre à trois entre Donald Trump, Xi Jinping et Vladimir Poutine, à Shenzhen.
 - 20 nov. : Clôture prévue de la COP31, à Antalya.
-- 26 nov. : Conseil européen de deux jours, consacré notamment aux besoins de financement de l’Ukraine pour 2027.
+- 26 nov. : Conseil européen de deux jours, consacré notamment au financement de l’Ukraine en 2027.
 - 29 nov. : Élections législatives anticipées en Espagne.
 - 1 déc. : Fermeture des points de passage entre l’Estonie et la Russie.
+- 6 déc. : Fin du délai initial accordé à Gadi Eisenkot pour former un gouvernement en Israël.

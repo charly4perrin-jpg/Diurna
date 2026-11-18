@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — agenda
 BEGIN:VEVENT
 UID:2026-11-29-2511bffd@diurna
-DTSTAMP:20261117T184502Z
+DTSTAMP:20261118T055622Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Élections législatives anticipées en Espagne.
-DESCRIPTION:Diurna — Édition du 17 novembre 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/17/
+DESCRIPTION:Diurna — Édition du 18 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/18/
 END:VEVENT
 END:VCALENDAR

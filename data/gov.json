@@ -31,11 +31,11 @@
         "name_en": "Masoud Pezeshkian"
       }
     ],
-    "checked": "2026-11-17",
+    "checked": "2026-11-18",
     "source": {
-      "name": "CBS News",
-      "name_en": "CBS News",
-      "url": "https://www.cbsnews.com/live-updates/iran-war-us-nuclear-strait-of-hormuz/"
+      "name": "Tasnim",
+      "name_en": "Tasnim",
+      "url": "https://www.tasnimnews.ir/en/news/2026/11/09/3744367/leader-has-ordered-end-to-no-war-no-peace-situation-iranian-president-says/amp"
     },
     "regime_en": "Islamic republic"
   },
@@ -48,11 +48,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-17",
+    "checked": "2026-11-18",
     "source": {
-      "name": "Associated Press, via ABC News",
-      "name_en": "Associated Press, via ABC News",
-      "url": "https://abcnews.com/International/wireStory/zelenskyy-warns-starshield-restrictions-threaten-ukraines-energy-defenses-138156524"
+      "name": "Kyiv Post",
+      "name_en": "Kyiv Post",
+      "url": "https://www.kyivpost.com/post/90298"
     },
     "regime_en": "Semi-presidential republic, under martial law"
   },
@@ -71,7 +71,7 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-09",
+    "checked": "2026-11-18",
     "source": {
       "name": "Associated Press, via PBS",
       "name_en": "Associated Press, via PBS",
@@ -230,7 +230,7 @@
         "name": "Alix Didier Fils-Aimé"
       }
     ],
-    "checked": "2026-11-11",
+    "checked": "2026-11-18",
     "source": {
       "name": "Al Jazeera",
       "name_en": "Al Jazeera",
@@ -475,11 +475,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-15",
+    "checked": "2026-11-18",
     "source": {
-      "name": "Al Jazeera",
-      "name_en": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/14/trump-xi-and-putin-to-hold-first-three-way-summit-in-china"
+      "name": "RTÉ, avec l'AFP",
+      "name_en": "RTÉ, with AFP",
+      "url": "https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/"
     }
   },
   "NGA": {
