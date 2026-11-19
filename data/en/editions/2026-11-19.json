@@ -1,9 +1,9 @@
 {
   "date": "2026-11-19",
   "number": 15,
-  "updated": "2026-11-19T06:54:00+01:00",
-  "headline": "Trump meets Putin in Shenzhen before the three-way summit as Iran claims an attack in Kuwait",
-  "standfirst": "Donald Trump held talks with Vladimir Putin on Thursday on the sidelines of APEC, ahead of a first three-way meeting with Xi Jinping. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.",
+  "updated": "2026-11-19T19:45:00+01:00",
+  "headline": "Trump, Xi and Putin issue a \"peace declaration\" as Iran claims an attack in Kuwait",
+  "standfirst": "Donald Trump, Xi Jinping and Vladimir Putin issued a joint declaration in Shenzhen on Thursday promising talks on nuclear risks, but saying nothing about Ukraine or Iran. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.",
   "essentials": [
     {
       "rank": 1,
@@ -18,17 +18,17 @@
       "types": [
         "diplomacy"
       ],
-      "title": "In Shenzhen, Trump sits down with Putin before a first three-way summit with Xi Jinping",
-      "standfirst": "The American president met his Russian counterpart on Thursday morning on the sidelines of the APEC summit, a day after Xi Jinping greeted him on the tarmac. The three-way meeting is due to cover nuclear arms and the war with Iran.",
+      "title": "In Shenzhen, Trump, Xi and Putin issue a \"peace declaration\" silent on Ukraine and Iran",
+      "standfirst": "Meeting as a trio for the first time, on the sidelines of APEC, the American, Chinese and Russian leaders issued a text promising dialogue on nuclear risks. The declaration mentions neither the war in Ukraine nor the war with Iran.",
       "body": [
-        "Donald Trump held talks with Vladimir Putin on Thursday November 19th on the sidelines of the 33rd APEC leaders' summit in Shenzhen, insisting that \"wonderful\" things could come of it and announcing a second meeting later in the day, according to India's ANI news agency.",
-        "The first three-way meeting with Xi Jinping is meant to cover cuts to nuclear arsenals, after the New START treaty lapsed in February, and the war with Iran, the White House told Al Jazeera, while Ukraine is not officially on the agenda.",
-        "Greeted at the foot of his plane on Wednesday by the Chinese leader, a break with protocol, the American president arrives at a summit from which analysts quoted by Al Jazeera expect little of substance, with the academic Vuk Vuksanovic calling it a far cry from a new Yalta."
+        "Meeting in Shenzhen on Thursday November 19th, on the sidelines of the APEC summit, for a first three-way session of more than an hour chaired by Xi Jinping, the Chinese, American and Russian leaders issued a \"peace declaration\" reaffirming that a nuclear war cannot be won, according to Reuters.",
+        "The largely symbolic text, as the agency describes it, sets out an open-ended dialogue on reducing nuclear risks and preventing proliferation, pledges UN reform, more fuel supplies and respect for the immunity of leaders before international courts, but mentions neither the war in Ukraine nor the one with Iran.",
+        "Vladimir Putin conceded that the declaration set no ambitious goals and said he would consider attending the G20 that Donald Trump hosts in Florida next month, while Ukraine's foreign minister, Andriy Sybiha, said Shenzhen had not turned out to be the \"Yalta\" Moscow had dreamed of."
       ],
       "figure": {
-        "value": "15 August 2025",
-        "label": "the last time Donald Trump and Vladimir Putin met in person",
-        "compare": "at the Alaska summit, according to the Kyiv Independent"
+        "value": "3",
+        "label": "leading nuclear powers gathered around one table",
+        "compare": "with no commitment to cut arsenals in the declaration, according to Reuters"
       },
       "modules": {
         "table": {
@@ -41,20 +41,24 @@
           "positions": [
             {
               "who": "Washington",
-              "wants": "To put nuclear arms reduction and the war with Iran at the heart of the talks; Donald Trump said on Monday he also wanted to discuss Ukraine."
+              "wants": "Donald Trump says Xi Jinping agreed that the Strait of Hormuz must stay open and that Iran must not have a nuclear weapon."
             },
             {
               "who": "Beijing",
-              "wants": "Presents the meeting as a way to preserve world peace and promote strategic stability, according to its foreign ministry."
+              "wants": "Xi Jinping urges the powers to shed a \"Cold War mentality\" and repeats that a nuclear war must never be fought."
+            },
+            {
+              "who": "Moscow",
+              "wants": "Vladimir Putin says the three countries can strengthen global stability if they co-operate constructively."
             }
           ],
           "next": {
-            "d": "2026-11-19",
-            "t": "Three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin in Shenzhen."
+            "d": "2026-12",
+            "t": "G20 summit in Florida, where Donald Trump is due to meet Xi Jinping again."
           },
           "source": {
-            "name": "Atlantic Council",
-            "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
           }
         },
         "places": {
@@ -65,10 +69,10 @@
                 114.06,
                 22.54
               ],
-              "note": "Host city of the APEC summit, where Donald Trump and Vladimir Putin held talks on Thursday.",
+              "note": "Host city of the APEC summit, where Donald Trump, Xi Jinping and Vladimir Putin held their first three-way meeting on Thursday.",
               "source": {
-                "name": "ANI, via The Tribune",
-                "url": "https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen"
+                "name": "Reuters, via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit"
               }
             }
           ]
@@ -76,12 +80,12 @@
       },
       "analysis": {
         "title": "A summit of modest ambitions",
-        "text": "The nuclear question shows how far apart the three are: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal. Trade also hangs over the meeting: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera. On Wednesday Xi Jinping and Vladimir Putin made a show of their friendship in Shenzhen, the former urging both countries to steer the rise of a multipolar world, the latter calling Western powers \"former hegemons\". According to the Kremlin's spokesman, Dmitry Peskov, the two leaders also discussed ending the war in Ukraine."
+        "text": "The declaration shows how far apart the three remain: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal, and the text contains no commitment to cuts, according to Reuters. The pledge to respect leaders' immunity before international courts comes more than three years after the International Criminal Court issued an arrest warrant for Vladimir Putin, whose government rejects the allegations. Trade remains unresolved: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera, and Donald Trump is due to see Xi Jinping again at the G20 in Florida."
       },
       "keys": [
         {
-          "title": "The welcome on the tarmac",
-          "text": "Xi Jinping came in person to greet Donald Trump at Bao'an airport on Wednesday, accompanied by his wife, Peng Liyuan. The American president had flown in from Manila, where he announced a major trade deal with the Philippines."
+          "title": "The fuel pledge",
+          "text": "The three powers promise to increase supplies of fuel products for all countries, according to Reuters, as the war with Iran disrupts the Gulf. Al Jazeera notes that it is unclear how the pledge will be put into practice."
         },
         {
           "title": "The Beijing-Moscow axis",
@@ -89,7 +93,7 @@
         },
         {
           "title": "Ukraine on the sidelines",
-          "text": "A senior American official said on November 13th that Donald Trump would not raise Ukraine. The president said the opposite on Monday, and parallel talks open in Berlin on Thursday."
+          "text": "Absent from the declaration, the war in Ukraine dominated the bilateral talks between Donald Trump and Vladimir Putin, according to Al Jazeera. The same day, European and Ukrainian leaders were due to meet the American envoys Steve Witkoff and Jared Kushner in Berlin."
         }
       ],
       "involved": [
@@ -115,10 +119,26 @@
         },
         {
           "d": "2026-11-19",
-          "t": "Trump-Putin talks, followed by a first three-way meeting with Xi Jinping."
+          "t": "Trump-Putin talks, then a first three-way meeting and a \"peace declaration\"."
+        },
+        {
+          "d": "2026-12",
+          "t": "G20 summit in Florida."
         }
       ],
       "sources": [
+        {
+          "name": "Reuters, via Al-Monitor",
+          "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+          "url": "https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "'Groundbreaking' Trump-Xi-Putin summit: Five key takeaways",
+          "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+          "date": "2026-11-19"
+        },
         {
           "name": "ANI, via The Tribune",
           "title": "\"Wonderful things can come out of this\": Trump holds bilateral talks with Putin in Shenzen",
@@ -132,18 +152,6 @@
           "date": "2026-11-19"
         },
         {
-          "name": "Al Jazeera",
-          "title": "APEC Live: Trump, Xi and Putin to meet in historic three-way China summit",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
-          "date": "2026-11-19"
-        },
-        {
-          "name": "ABC News",
-          "title": "Trump Asia trip live updates: Xi greets Trump as he arrives in Shenzhen for APEC summit",
-          "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702",
-          "date": "2026-11-18"
-        },
-        {
           "name": "Atlantic Council",
           "title": "What Trump, Putin, and Xi want from their meeting in Shenzhen",
           "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/",
@@ -154,7 +162,13 @@
         "id": "trump-xi-putin-summit",
         "title": "The Trump-Xi-Putin summit"
       },
-      "slug": "shenzhen-trump-sits-down-putin-before-first-three"
+      "slug": "shenzhen-trump-sits-down-putin-before-first-three",
+      "updates": [
+        {
+          "time": "2026-11-19T19:45:00+01:00",
+          "text": "The three-way meeting took place: title, text, figure, modules and keys rewritten after the \"peace declaration\" was issued."
+        }
+      ]
     },
     {
       "rank": 2,

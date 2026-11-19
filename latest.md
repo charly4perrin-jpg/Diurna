@@ -1,28 +1,30 @@
 # Diurna — N° 15 — Jeudi 19 novembre 2026
 
-> Trump rencontre Poutine à Shenzhen avant le sommet à trois, l’Iran revendique une attaque au Koweït
+> Trump, Xi et Poutine publient une déclaration commune, l’Iran revendique une attaque au Koweït
 
-Donald Trump s’est entretenu jeudi avec Vladimir Poutine en marge de l’APEC, avant la première rencontre à trois avec Xi Jinping. L’Iran dit avoir visé une base au Koweït, des frappes russes ont fait quatre morts à Odessa, et la COP31 bute sur les énergies fossiles.
+Donald Trump, Xi Jinping et Vladimir Poutine ont publié jeudi à Shenzhen une déclaration commune qui promet un dialogue sur les risques nucléaires, sans rien dire de l’Ukraine ni de l’Iran. L’Iran dit avoir visé une base au Koweït, des frappes russes ont fait quatre morts à Odessa, et la COP31 bute sur les énergies fossiles.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Chine — À Shenzhen, Trump s’entretient avec Poutine avant le premier sommet à trois avec Xi Jinping
+## 1. Chine — À Shenzhen, Trump, Xi et Poutine publient une « déclaration de paix » muette sur l’Ukraine et l’Iran
 
-**Le président américain a rencontré jeudi matin son homologue russe en marge du sommet de l’APEC, au lendemain de son accueil sur le tarmac par Xi Jinping. La rencontre à trois doit porter sur les armes nucléaires et la guerre avec l’Iran.**
+**Réunis jeudi pour la première fois à trois, en marge de l’APEC, les dirigeants américain, chinois et russe ont publié un texte qui promet un dialogue sur les risques nucléaires. La déclaration ne mentionne ni la guerre en Ukraine ni celle avec l’Iran.**
 
-Donald Trump s’est entretenu jeudi 19 novembre avec Vladimir Poutine en marge du 33e sommet des dirigeants de l’APEC, à Shenzhen, en assurant que de « merveilleuses » choses pouvaient en sortir et en annonçant une seconde rencontre dans la journée, selon l’agence indienne ANI. La première réunion à trois avec Xi Jinping doit porter, selon la Maison Blanche citée par Al Jazeera, sur la réduction des arsenaux nucléaires, après l’expiration en février du traité New START, et sur la guerre avec l’Iran, l’Ukraine ne figurant pas officiellement à l’ordre du jour. Accueilli mercredi au pied de son avion par le dirigeant chinois, une entorse au protocole, le président américain arrive à un sommet dont les analystes interrogés par Al Jazeera attendent peu de résultats concrets, l’universitaire Vuk Vuksanovic le jugeant très éloigné d’un nouveau Yalta.
+Réunis jeudi 19 novembre à Shenzhen, en marge du sommet de l’APEC, pour une première rencontre à trois de plus d’une heure présidée par Xi Jinping, les dirigeants chinois, américain et russe ont publié une « déclaration de paix » qui réaffirme qu’une guerre nucléaire ne peut être gagnée, selon Reuters. Ce texte symbolique, selon l’agence, prévoit un dialogue sans calendrier sur la réduction des risques nucléaires et la non-prolifération, promet une réforme des Nations unies, davantage de carburants et le respect de l’immunité des dirigeants devant les juridictions internationales, mais ne mentionne ni la guerre en Ukraine ni celle avec l’Iran. Vladimir Poutine a reconnu une déclaration sans objectifs ambitieux et envisage de se rendre au G20 que Donald Trump accueille le mois prochain en Floride, tandis que le chef de la diplomatie ukrainienne, Andriï Sybiha, juge que Shenzhen n’a pas été le « Yalta » dont rêvait Moscou.
 
-**Le chiffre du jour :** 15 août 2025 — dernière rencontre en personne entre Donald Trump et Vladimir Poutine
+**Le chiffre du jour :** 3 — premières puissances nucléaires du monde réunies autour d’une même table
 
 ### Un sommet aux ambitions limitées
 
-Le dossier nucléaire illustre l’écart des positions : depuis l’expiration de New START, Washington souhaite associer Pékin à la maîtrise des armements, mais la Chine refuse de négocier sur son arsenal, plus réduit. Le commerce pèse aussi sur la rencontre : la trêve conclue à Busan en octobre 2025, après une escalade qui avait porté les droits de douane américains sur les produits chinois jusqu’à 145 %, a été prolongée jusqu’au 10 janvier 2027, selon Al Jazeera. Mercredi, Xi Jinping et Vladimir Poutine ont affiché leur entente à Shenzhen, le premier appelant les deux pays à accompagner l’essor d’un monde multipolaire, le second qualifiant les puissances occidentales d’« anciens hégémons ». Selon le porte-parole du Kremlin, Dmitri Peskov, les deux dirigeants ont aussi évoqué la fin de la guerre en Ukraine.
+La déclaration illustre l’écart des positions : depuis l’expiration de New START, Washington souhaite associer Pékin à la maîtrise des armements, mais la Chine refuse de négocier sur son arsenal, plus réduit, et le texte ne contient aucun engagement de réduction, selon Reuters. La promesse de respecter l’immunité des dirigeants devant les juridictions internationales intervient plus de trois ans après le mandat d’arrêt délivré contre Vladimir Poutine par la Cour pénale internationale, dont Moscou rejette les accusations. Le commerce reste en suspens : la trêve conclue à Busan en octobre 2025, après une escalade qui avait porté les droits de douane américains sur les produits chinois jusqu’à 145 %, a été prolongée jusqu’au 10 janvier 2027, selon Al Jazeera, et Donald Trump doit revoir Xi Jinping au G20 de Floride.
+
+- _Ce qui a changé 19 h 45_ : La rencontre à trois a eu lieu : titre, texte, chiffre du jour, modules et clés réécrits après la publication de la « déclaration de paix ».
 
 Sources :
+- [Reuters, via Al-Monitor — Trump, Xi and Putin release ’peace declaration’ from unprecedented summit](https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit)
+- [Al Jazeera — ’Groundbreaking’ Trump-Xi-Putin summit: Five key takeaways](https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways)
 - [ANI, via The Tribune — "Wonderful things can come out of this": Trump holds bilateral talks with Putin in Shenzen](https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen)
 - [Al Jazeera — What do Trump, Putin and Xi want from their Shenzhen meeting?](https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting)
-- [Al Jazeera — APEC Live: Trump, Xi and Putin to meet in historic three-way China summit](https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit)
-- [ABC News — Trump Asia trip live updates: Xi greets Trump as he arrives in Shenzhen for APEC summit](https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702)
 - [Atlantic Council — What Trump, Putin, and Xi want from their meeting in Shenzhen](https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/)
 
 https://charly4perrin-jpg.github.io/Diurna/2026/11/19/shenzhen-trump-entretient-poutine-avant-premier-sommet-trois/

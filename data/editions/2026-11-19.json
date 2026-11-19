@@ -1,9 +1,9 @@
 {
   "date": "2026-11-19",
   "number": 15,
-  "updated": "2026-11-19T06:54:00+01:00",
-  "headline": "Trump rencontre Poutine à Shenzhen avant le sommet à trois, l'Iran revendique une attaque au Koweït",
-  "standfirst": "Donald Trump s'est entretenu jeudi avec Vladimir Poutine en marge de l'APEC, avant la première rencontre à trois avec Xi Jinping. L'Iran dit avoir visé une base au Koweït, des frappes russes ont fait quatre morts à Odessa, et la COP31 bute sur les énergies fossiles.",
+  "updated": "2026-11-19T19:45:00+01:00",
+  "headline": "Trump, Xi et Poutine publient une déclaration commune, l'Iran revendique une attaque au Koweït",
+  "standfirst": "Donald Trump, Xi Jinping et Vladimir Poutine ont publié jeudi à Shenzhen une déclaration commune qui promet un dialogue sur les risques nucléaires, sans rien dire de l'Ukraine ni de l'Iran. L'Iran dit avoir visé une base au Koweït, des frappes russes ont fait quatre morts à Odessa, et la COP31 bute sur les énergies fossiles.",
   "essentials": [
     {
       "rank": 1,
@@ -18,17 +18,17 @@
       "types": [
         "diplomacy"
       ],
-      "title": "À Shenzhen, Trump s'entretient avec Poutine avant le premier sommet à trois avec Xi Jinping",
-      "standfirst": "Le président américain a rencontré jeudi matin son homologue russe en marge du sommet de l'APEC, au lendemain de son accueil sur le tarmac par Xi Jinping. La rencontre à trois doit porter sur les armes nucléaires et la guerre avec l'Iran.",
+      "title": "À Shenzhen, Trump, Xi et Poutine publient une « déclaration de paix » muette sur l'Ukraine et l'Iran",
+      "standfirst": "Réunis jeudi pour la première fois à trois, en marge de l'APEC, les dirigeants américain, chinois et russe ont publié un texte qui promet un dialogue sur les risques nucléaires. La déclaration ne mentionne ni la guerre en Ukraine ni celle avec l'Iran.",
       "body": [
-        "Donald Trump s'est entretenu jeudi 19 novembre avec Vladimir Poutine en marge du 33e sommet des dirigeants de l'APEC, à Shenzhen, en assurant que de « merveilleuses » choses pouvaient en sortir et en annonçant une seconde rencontre dans la journée, selon l'agence indienne ANI.",
-        "La première réunion à trois avec Xi Jinping doit porter, selon la Maison Blanche citée par Al Jazeera, sur la réduction des arsenaux nucléaires, après l'expiration en février du traité New START, et sur la guerre avec l'Iran, l'Ukraine ne figurant pas officiellement à l'ordre du jour.",
-        "Accueilli mercredi au pied de son avion par le dirigeant chinois, une entorse au protocole, le président américain arrive à un sommet dont les analystes interrogés par Al Jazeera attendent peu de résultats concrets, l'universitaire Vuk Vuksanovic le jugeant très éloigné d'un nouveau Yalta."
+        "Réunis jeudi 19 novembre à Shenzhen, en marge du sommet de l'APEC, pour une première rencontre à trois de plus d'une heure présidée par Xi Jinping, les dirigeants chinois, américain et russe ont publié une « déclaration de paix » qui réaffirme qu'une guerre nucléaire ne peut être gagnée, selon Reuters.",
+        "Ce texte symbolique, selon l'agence, prévoit un dialogue sans calendrier sur la réduction des risques nucléaires et la non-prolifération, promet une réforme des Nations unies, davantage de carburants et le respect de l'immunité des dirigeants devant les juridictions internationales, mais ne mentionne ni la guerre en Ukraine ni celle avec l'Iran.",
+        "Vladimir Poutine a reconnu une déclaration sans objectifs ambitieux et envisage de se rendre au G20 que Donald Trump accueille le mois prochain en Floride, tandis que le chef de la diplomatie ukrainienne, Andriï Sybiha, juge que Shenzhen n'a pas été le « Yalta » dont rêvait Moscou."
       ],
       "figure": {
-        "value": "15 août 2025",
-        "label": "dernière rencontre en personne entre Donald Trump et Vladimir Poutine",
-        "compare": "lors du sommet d'Alaska, selon le Kyiv Independent"
+        "value": "3",
+        "label": "premières puissances nucléaires du monde réunies autour d'une même table",
+        "compare": "aucun engagement de réduction des arsenaux dans la déclaration, selon Reuters"
       },
       "modules": {
         "table": {
@@ -41,20 +41,24 @@
           "positions": [
             {
               "who": "Washington",
-              "wants": "Placer la réduction des armes nucléaires et la guerre avec l'Iran au centre des discussions ; Donald Trump a dit lundi vouloir aussi parler de l'Ukraine."
+              "wants": "Donald Trump affirme avoir obtenu de Xi Jinping l'accord que le détroit d'Ormuz doit rester ouvert et que l'Iran ne doit pas posséder l'arme nucléaire."
             },
             {
               "who": "Pékin",
-              "wants": "Présente la rencontre comme un moyen de préserver la paix mondiale et de promouvoir la stabilité stratégique, selon son ministère des affaires étrangères."
+              "wants": "Xi Jinping appelle à abandonner la « mentalité de guerre froide » et répète qu'une guerre nucléaire ne doit jamais être livrée."
+            },
+            {
+              "who": "Moscou",
+              "wants": "Vladimir Poutine estime que les trois pays peuvent renforcer la stabilité mondiale s'ils coopèrent de manière constructive."
             }
           ],
           "next": {
-            "d": "2026-11-19",
-            "t": "Rencontre à trois entre Donald Trump, Xi Jinping et Vladimir Poutine, à Shenzhen."
+            "d": "2026-12",
+            "t": "Sommet du G20 en Floride, où Donald Trump doit revoir Xi Jinping."
           },
           "source": {
-            "name": "Atlantic Council",
-            "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/"
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
           }
         },
         "places": {
@@ -65,10 +69,10 @@
                 114.06,
                 22.54
               ],
-              "note": "Ville hôte du sommet de l'APEC, où Donald Trump et Vladimir Poutine se sont entretenus jeudi.",
+              "note": "Ville hôte du sommet de l'APEC, où s'est tenue jeudi la première rencontre à trois entre Donald Trump, Xi Jinping et Vladimir Poutine.",
               "source": {
-                "name": "ANI, via The Tribune",
-                "url": "https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen"
+                "name": "Reuters, via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit"
               }
             }
           ]
@@ -76,12 +80,12 @@
       },
       "analysis": {
         "title": "Un sommet aux ambitions limitées",
-        "text": "Le dossier nucléaire illustre l'écart des positions : depuis l'expiration de New START, Washington souhaite associer Pékin à la maîtrise des armements, mais la Chine refuse de négocier sur son arsenal, plus réduit. Le commerce pèse aussi sur la rencontre : la trêve conclue à Busan en octobre 2025, après une escalade qui avait porté les droits de douane américains sur les produits chinois jusqu'à 145 %, a été prolongée jusqu'au 10 janvier 2027, selon Al Jazeera. Mercredi, Xi Jinping et Vladimir Poutine ont affiché leur entente à Shenzhen, le premier appelant les deux pays à accompagner l'essor d'un monde multipolaire, le second qualifiant les puissances occidentales d'« anciens hégémons ». Selon le porte-parole du Kremlin, Dmitri Peskov, les deux dirigeants ont aussi évoqué la fin de la guerre en Ukraine."
+        "text": "La déclaration illustre l'écart des positions : depuis l'expiration de New START, Washington souhaite associer Pékin à la maîtrise des armements, mais la Chine refuse de négocier sur son arsenal, plus réduit, et le texte ne contient aucun engagement de réduction, selon Reuters. La promesse de respecter l'immunité des dirigeants devant les juridictions internationales intervient plus de trois ans après le mandat d'arrêt délivré contre Vladimir Poutine par la Cour pénale internationale, dont Moscou rejette les accusations. Le commerce reste en suspens : la trêve conclue à Busan en octobre 2025, après une escalade qui avait porté les droits de douane américains sur les produits chinois jusqu'à 145 %, a été prolongée jusqu'au 10 janvier 2027, selon Al Jazeera, et Donald Trump doit revoir Xi Jinping au G20 de Floride."
       },
       "keys": [
         {
-          "title": "L'accueil sur le tarmac",
-          "text": "Xi Jinping est venu en personne accueillir Donald Trump à l'aéroport de Bao'an mercredi, accompagné de son épouse, Peng Liyuan. Le président américain arrivait de Manille, où il avait annoncé un important accord commercial avec les Philippines."
+          "title": "La promesse sur les carburants",
+          "text": "Les trois puissances s'engagent à accroître l'offre de produits pétroliers pour tous les pays, selon Reuters, alors que la guerre avec l'Iran perturbe le Golfe. Al Jazeera relève qu'on ignore comment cet engagement sera mis en œuvre."
         },
         {
           "title": "L'axe Pékin-Moscou",
@@ -89,7 +93,7 @@
         },
         {
           "title": "L'Ukraine en marge",
-          "text": "Un haut responsable américain avait indiqué le 13 novembre que Donald Trump n'aborderait pas l'Ukraine. Le président a affirmé lundi le contraire, et des pourparlers parallèles s'ouvrent jeudi à Berlin."
+          "text": "Absente de la déclaration, la guerre en Ukraine a dominé l'entretien bilatéral entre Donald Trump et Vladimir Poutine, selon Al Jazeera. Le même jour, des dirigeants européens et ukrainiens devaient retrouver à Berlin les émissaires américains Steve Witkoff et Jared Kushner."
         }
       ],
       "involved": [
@@ -115,10 +119,26 @@
         },
         {
           "d": "2026-11-19",
-          "t": "Entretien Trump-Poutine, puis première rencontre à trois avec Xi Jinping."
+          "t": "Entretien Trump-Poutine, puis première rencontre à trois et « déclaration de paix »."
+        },
+        {
+          "d": "2026-12",
+          "t": "Sommet du G20 en Floride."
         }
       ],
       "sources": [
+        {
+          "name": "Reuters, via Al-Monitor",
+          "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
+          "url": "https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "'Groundbreaking' Trump-Xi-Putin summit: Five key takeaways",
+          "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+          "date": "2026-11-19"
+        },
         {
           "name": "ANI, via The Tribune",
           "title": "\"Wonderful things can come out of this\": Trump holds bilateral talks with Putin in Shenzen",
@@ -132,18 +152,6 @@
           "date": "2026-11-19"
         },
         {
-          "name": "Al Jazeera",
-          "title": "APEC Live: Trump, Xi and Putin to meet in historic three-way China summit",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
-          "date": "2026-11-19"
-        },
-        {
-          "name": "ABC News",
-          "title": "Trump Asia trip live updates: Xi greets Trump as he arrives in Shenzhen for APEC summit",
-          "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702",
-          "date": "2026-11-18"
-        },
-        {
           "name": "Atlantic Council",
           "title": "What Trump, Putin, and Xi want from their meeting in Shenzhen",
           "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/",
@@ -154,7 +162,13 @@
         "id": "sommet-trump-xi-poutine",
         "title": "Le sommet Trump-Xi-Poutine"
       },
-      "slug": "shenzhen-trump-entretient-poutine-avant-premier-sommet-trois"
+      "slug": "shenzhen-trump-entretient-poutine-avant-premier-sommet-trois",
+      "updates": [
+        {
+          "time": "2026-11-19T19:45:00+01:00",
+          "text": "La rencontre à trois a eu lieu : titre, texte, chiffre du jour, modules et clés réécrits après la publication de la « déclaration de paix »."
+        }
+      ]
     },
     {
       "rank": 2,

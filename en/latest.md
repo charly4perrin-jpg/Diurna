@@ -1,28 +1,30 @@
 # Diurna — No. 15 — Thursday, 19 November 2026
 
-> Trump meets Putin in Shenzhen before the three-way summit as Iran claims an attack in Kuwait
+> Trump, Xi and Putin issue a "peace declaration" as Iran claims an attack in Kuwait
 
-Donald Trump held talks with Vladimir Putin on Thursday on the sidelines of APEC, ahead of a first three-way meeting with Xi Jinping. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.
+Donald Trump, Xi Jinping and Vladimir Putin issued a joint declaration in Shenzhen on Thursday promising talks on nuclear risks, but saying nothing about Ukraine or Iran. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. China — In Shenzhen, Trump sits down with Putin before a first three-way summit with Xi Jinping
+## 1. China — In Shenzhen, Trump, Xi and Putin issue a "peace declaration" silent on Ukraine and Iran
 
-**The American president met his Russian counterpart on Thursday morning on the sidelines of the APEC summit, a day after Xi Jinping greeted him on the tarmac. The three-way meeting is due to cover nuclear arms and the war with Iran.**
+**Meeting as a trio for the first time, on the sidelines of APEC, the American, Chinese and Russian leaders issued a text promising dialogue on nuclear risks. The declaration mentions neither the war in Ukraine nor the war with Iran.**
 
-Donald Trump held talks with Vladimir Putin on Thursday November 19th on the sidelines of the 33rd APEC leaders’ summit in Shenzhen, insisting that "wonderful" things could come of it and announcing a second meeting later in the day, according to India’s ANI news agency. The first three-way meeting with Xi Jinping is meant to cover cuts to nuclear arsenals, after the New START treaty lapsed in February, and the war with Iran, the White House told Al Jazeera, while Ukraine is not officially on the agenda. Greeted at the foot of his plane on Wednesday by the Chinese leader, a break with protocol, the American president arrives at a summit from which analysts quoted by Al Jazeera expect little of substance, with the academic Vuk Vuksanovic calling it a far cry from a new Yalta.
+Meeting in Shenzhen on Thursday November 19th, on the sidelines of the APEC summit, for a first three-way session of more than an hour chaired by Xi Jinping, the Chinese, American and Russian leaders issued a "peace declaration" reaffirming that a nuclear war cannot be won, according to Reuters. The largely symbolic text, as the agency describes it, sets out an open-ended dialogue on reducing nuclear risks and preventing proliferation, pledges UN reform, more fuel supplies and respect for the immunity of leaders before international courts, but mentions neither the war in Ukraine nor the one with Iran. Vladimir Putin conceded that the declaration set no ambitious goals and said he would consider attending the G20 that Donald Trump hosts in Florida next month, while Ukraine’s foreign minister, Andriy Sybiha, said Shenzhen had not turned out to be the "Yalta" Moscow had dreamed of.
 
-**The number :** 15 August 2025 — the last time Donald Trump and Vladimir Putin met in person
+**The number :** 3 — leading nuclear powers gathered around one table
 
 ### A summit of modest ambitions
 
-The nuclear question shows how far apart the three are: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal. Trade also hangs over the meeting: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera. On Wednesday Xi Jinping and Vladimir Putin made a show of their friendship in Shenzhen, the former urging both countries to steer the rise of a multipolar world, the latter calling Western powers "former hegemons". According to the Kremlin’s spokesman, Dmitry Peskov, the two leaders also discussed ending the war in Ukraine.
+The declaration shows how far apart the three remain: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal, and the text contains no commitment to cuts, according to Reuters. The pledge to respect leaders’ immunity before international courts comes more than three years after the International Criminal Court issued an arrest warrant for Vladimir Putin, whose government rejects the allegations. Trade remains unresolved: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera, and Donald Trump is due to see Xi Jinping again at the G20 in Florida.
+
+- _What changed 19:45_ : The three-way meeting took place: title, text, figure, modules and keys rewritten after the "peace declaration" was issued.
 
 Sources :
+- [Reuters, via Al-Monitor — Trump, Xi and Putin release ’peace declaration’ from unprecedented summit](https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit)
+- [Al Jazeera — ’Groundbreaking’ Trump-Xi-Putin summit: Five key takeaways](https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways)
 - [ANI, via The Tribune — "Wonderful things can come out of this": Trump holds bilateral talks with Putin in Shenzen](https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen)
 - [Al Jazeera — What do Trump, Putin and Xi want from their Shenzhen meeting?](https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting)
-- [Al Jazeera — APEC Live: Trump, Xi and Putin to meet in historic three-way China summit](https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit)
-- [ABC News — Trump Asia trip live updates: Xi greets Trump as he arrives in Shenzhen for APEC summit](https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702)
 - [Atlantic Council — What Trump, Putin, and Xi want from their meeting in Shenzhen](https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/)
 
 https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/shenzhen-trump-sits-down-putin-before-first-three/
