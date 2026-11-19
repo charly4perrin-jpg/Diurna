@@ -1,0 +1,883 @@
+{
+  "date": "2026-11-19",
+  "number": 15,
+  "updated": "2026-11-19T06:54:00+01:00",
+  "headline": "Trump meets Putin in Shenzhen before the three-way summit as Iran claims an attack in Kuwait",
+  "standfirst": "Donald Trump held talks with Vladimir Putin on Thursday on the sidelines of APEC, ahead of a first three-way meeting with Xi Jinping. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.",
+  "essentials": [
+    {
+      "rank": 1,
+      "id": "CHN",
+      "place": "China",
+      "section": "Asia-Pacific",
+      "focus": [
+        114.06,
+        22.54
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy"
+      ],
+      "title": "In Shenzhen, Trump sits down with Putin before a first three-way summit with Xi Jinping",
+      "standfirst": "The American president met his Russian counterpart on Thursday morning on the sidelines of the APEC summit, a day after Xi Jinping greeted him on the tarmac. The three-way meeting is due to cover nuclear arms and the war with Iran.",
+      "body": [
+        "Donald Trump held talks with Vladimir Putin on Thursday November 19th on the sidelines of the 33rd APEC leaders' summit in Shenzhen, insisting that \"wonderful\" things could come of it and announcing a second meeting later in the day, according to India's ANI news agency.",
+        "The first three-way meeting with Xi Jinping is meant to cover cuts to nuclear arsenals, after the New START treaty lapsed in February, and the war with Iran, the White House told Al Jazeera, while Ukraine is not officially on the agenda.",
+        "Greeted at the foot of his plane on Wednesday by the Chinese leader, a break with protocol, the American president arrives at a summit from which analysts quoted by Al Jazeera expect little of substance, with the academic Vuk Vuksanovic calling it a far cry from a new Yalta."
+      ],
+      "figure": {
+        "value": "15 August 2025",
+        "label": "the last time Donald Trump and Vladimir Putin met in person",
+        "compare": "at the Alaska summit, according to the Kyiv Independent"
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "CHN",
+            "USA",
+            "RUS"
+          ],
+          "host": "CHN",
+          "positions": [
+            {
+              "who": "Washington",
+              "wants": "To put nuclear arms reduction and the war with Iran at the heart of the talks; Donald Trump said on Monday he also wanted to discuss Ukraine."
+            },
+            {
+              "who": "Beijing",
+              "wants": "Presents the meeting as a way to preserve world peace and promote strategic stability, according to its foreign ministry."
+            }
+          ],
+          "next": {
+            "d": "2026-11-19",
+            "t": "Three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin in Shenzhen."
+          },
+          "source": {
+            "name": "Atlantic Council",
+            "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/"
+          }
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Shenzhen",
+              "coords": [
+                114.06,
+                22.54
+              ],
+              "note": "Host city of the APEC summit, where Donald Trump and Vladimir Putin held talks on Thursday.",
+              "source": {
+                "name": "ANI, via The Tribune",
+                "url": "https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen"
+              }
+            }
+          ]
+        }
+      },
+      "analysis": {
+        "title": "A summit of modest ambitions",
+        "text": "The nuclear question shows how far apart the three are: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal. Trade also hangs over the meeting: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera. On Wednesday Xi Jinping and Vladimir Putin made a show of their friendship in Shenzhen, the former urging both countries to steer the rise of a multipolar world, the latter calling Western powers \"former hegemons\". According to the Kremlin's spokesman, Dmitry Peskov, the two leaders also discussed ending the war in Ukraine."
+      },
+      "keys": [
+        {
+          "title": "The welcome on the tarmac",
+          "text": "Xi Jinping came in person to greet Donald Trump at Bao'an airport on Wednesday, accompanied by his wife, Peng Liyuan. The American president had flown in from Manila, where he announced a major trade deal with the Philippines."
+        },
+        {
+          "title": "The Beijing-Moscow axis",
+          "text": "Xi Jinping described Sino-Russian relations as solid \"as a mountain\". The two leaders signed more than 40 co-operation agreements at a summit in Beijing in May."
+        },
+        {
+          "title": "Ukraine on the sidelines",
+          "text": "A senior American official said on November 13th that Donald Trump would not raise Ukraine. The president said the opposite on Monday, and parallel talks open in Berlin on Thursday."
+        }
+      ],
+      "involved": [
+        "USA",
+        "RUS"
+      ],
+      "context": [
+        {
+          "d": "2025-08-15",
+          "t": "Summit between Donald Trump and Vladimir Putin in Alaska."
+        },
+        {
+          "d": "2025-10",
+          "t": "Sino-American trade truce agreed in Busan."
+        },
+        {
+          "d": "2026-02",
+          "t": "The Russian-American New START treaty expires."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Xi Jinping welcomes Donald Trump to Shenzhen; talks between Xi Jinping and Vladimir Putin."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "Trump-Putin talks, followed by a first three-way meeting with Xi Jinping."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ANI, via The Tribune",
+          "title": "\"Wonderful things can come out of this\": Trump holds bilateral talks with Putin in Shenzen",
+          "url": "https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "APEC Live: Trump, Xi and Putin to meet in historic three-way China summit",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "ABC News",
+          "title": "Trump Asia trip live updates: Xi greets Trump as he arrives in Shenzhen for APEC summit",
+          "url": "https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Atlantic Council",
+          "title": "What Trump, Putin, and Xi want from their meeting in Shenzhen",
+          "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/",
+          "date": "2026-11-17"
+        }
+      ],
+      "dossier": {
+        "id": "trump-xi-putin-summit",
+        "title": "The Trump-Xi-Putin summit"
+      },
+      "slug": "shenzhen-trump-sits-down-putin-before-first-three"
+    },
+    {
+      "rank": 2,
+      "id": "IRN",
+      "place": "Iran",
+      "section": "Middle East",
+      "focus": [
+        54,
+        26.5
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "economy"
+      ],
+      "title": "Iran claims an attack on a base in Kuwait as ships are hit near Hormuz",
+      "standfirst": "Iran's army says it targeted the Ali Al Salem base in Kuwait on Wednesday in retaliation for the American strike on Qeshm. A vessel belonging to the Emirati firm Adnoc was attacked off Oman, leaving 11 injured and one missing.",
+      "body": [
+        "Iran's army said on Wednesday November 18th that its drones had targeted Patriot air-defence batteries at the Ali Al Salem base in Kuwait, which hosts American forces, in retaliation for Washington's strike the day before on a missile site on Qeshm island, according to Press TV, quoted by ABC News.",
+        "Washington has not confirmed the claims; meanwhile Iran's navy says three tankers caught fire after hitting mines east of the Strait of Hormuz, and Adnoc's shipping arm reports 11 injured and one missing aboard one of its vessels, attacked off Oman on Tuesday night.",
+        "The head of Iran's army, General Amir Hatami, promises a response \"without geographical limits\" to any further American action, while Riyadh and Abu Dhabi have condemned the attacks and Bahrain is calling for action by the Security Council, on the eve of the Shenzhen summit."
+      ],
+      "figure": {
+        "value": "11",
+        "label": "sailors injured aboard the Adnoc vessel attacked off Oman",
+        "compare": "with one crew member missing"
+      },
+      "since": {
+        "date": "2026-02-28",
+        "label": "since the war began"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "11",
+              "label": "injured aboard the Adnoc vessel attacked in the Strait of Hormuz",
+              "by": "Adnoc Logistics and Services",
+              "date": "2026-11-18",
+              "source": {
+                "name": "Gulf News",
+                "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757"
+              }
+            },
+            {
+              "value": "1",
+              "label": "crew member missing, search under way",
+              "by": "Adnoc Logistics and Services",
+              "date": "2026-11-18",
+              "source": {
+                "name": "Gulf News",
+                "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Ali Al Salem air base (Kuwait)",
+              "coords": [
+                47.52,
+                29.35
+              ],
+              "note": "Iran's army says it targeted Patriot batteries there; Washington has not confirmed.",
+              "source": {
+                "name": "ABC News",
+                "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+              }
+            },
+            {
+              "name": "Qeshm island (Iran)",
+              "coords": [
+                55.9,
+                26.8
+              ],
+              "note": "Revolutionary Guards missile site struck by American aircraft on Tuesday, according to an American military official.",
+              "source": {
+                "name": "Gulf News",
+                "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757"
+              }
+            }
+          ]
+        },
+        "market": {
+          "series": "brent",
+          "from": "2026-01-01",
+          "mark": {
+            "d": "2026-02-28",
+            "label": "War begins"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Hormuz, a maritime battlefield",
+        "text": "Since April the United States has enforced a naval blockade of Iran's ports on the Gulf and the Gulf of Oman, now backed by three aircraft carriers after the Theodore Roosevelt joined the George H.W. Bush and the George Washington, according to Gulf News. Tehran has responded by claiming attacks on shipping and often blaming the damage on mines. The speaker of Iran's parliament and chief negotiator, Mohammad Ghalibaf, has warned that any dam, port or power station near an American or Israeli base could be treated as a dual-use target. Diplomatically, the memorandum of understanding signed in June to end the war remains a dead letter, according to ABC News, and Pakistan is awaiting Washington's reply to an Iranian proposal to reopen the strait."
+      },
+      "keys": [
+        {
+          "title": "Economic pressure",
+          "text": "America's treasury secretary, Scott Bessent, expects Iran's economy to shrink by 25% over the coming year. A new force, dubbed \"Iron Gate\", is targeting Iran's overland and Caspian routes, according to Gulf News."
+        },
+        {
+          "title": "The Yemeni front",
+          "text": "The Saudi-led coalition says it struck 60 Houthi targets on Tuesday and intercepted two cruise missiles fired towards Riyadh on Wednesday. The Houthis claim to have targeted oil pumping stations."
+        },
+        {
+          "title": "The airlines",
+          "text": "Etihad has suspended flights between Abu Dhabi, Riyadh and Dammam until Thursday. The Emirates is keeping its ban on citizens travelling to Iran."
+        }
+      ],
+      "involved": [
+        "USA",
+        "KWT",
+        "ARE",
+        "OMN"
+      ],
+      "zones": [
+        {
+          "id": "HORMUZ",
+          "name": "Hormuz",
+          "coords": [
+            56.4,
+            26.5
+          ]
+        }
+      ],
+      "context": [
+        {
+          "d": "2026-02-28",
+          "t": "War breaks out between the United States, Israel and Iran."
+        },
+        {
+          "d": "2026-04",
+          "t": "America begins its naval blockade of Iranian ports."
+        },
+        {
+          "d": "2026-06",
+          "t": "A memorandum of understanding to end the war is signed but goes nowhere."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "American strike on Qeshm; an Adnoc vessel is attacked off Oman."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Iran claims an attack on the Ali Al Salem base in Kuwait."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "The war is on the agenda of the Trump-Xi-Putin meeting in Shenzhen."
+        }
+      ],
+      "sources": [
+        {
+          "name": "ABC News",
+          "title": "Iran live updates: Tehran warns US against 'miscalculation,' tanker hit in strait",
+          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Gulf News",
+          "title": "US/Israel-Iran war: What UAE residents need to know today (Nov. 18, 2026)",
+          "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Iran war live: US says it hits IRGC Qeshm site; Iran says US drone downed",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Khaleej Times",
+          "title": "Three Indian sailors safe after attack on oil tanker in Gulf on Nov 18: Minister",
+          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-18-2026",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Al Jazeera",
+          "title": "Saudi coalition hits 60 Houthi military sites; Taiz sees 'fierce battles'",
+          "url": "https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites",
+          "date": "2026-11-18"
+        }
+      ],
+      "dossier": {
+        "id": "iran-war",
+        "title": "The Iran war"
+      },
+      "slug": "iran-claims-attack-base-kuwait-ships-hit-near"
+    },
+    {
+      "rank": 3,
+      "id": "UKR",
+      "place": "Ukraine",
+      "section": "Europe",
+      "focus": [
+        33,
+        48
+      ],
+      "radar": false,
+      "types": [
+        "conflict",
+        "economy"
+      ],
+      "title": "Russian strikes kill four in Odesa as Brussels offers Kyiv a €45bn loan",
+      "standfirst": "Russian strikes hit Odesa's historic centre, part of it a UNESCO World Heritage site, on Wednesday, killing at least four people. The European Commission is proposing a €45bn loan for next year.",
+      "body": [
+        "At least four people were killed and 13 injured in Odesa on Wednesday November 18th when three Russian strikes hit the historic centre, including a UNESCO-protected area, according to local officials, with Volodymyr Zelensky accusing Moscow of striking again after rescuers arrived.",
+        "The same day the European Commission proposed a €45bn loan to cover part of a financing gap put at €70bn for next year, to be repaid only once Russia has paid reparations, according to its president, Ursula von der Leyen.",
+        "Overnight Ukrainian forces struck the Crimean bridge again, where rail traffic was suspended according to Russia's transport ministry, while the coalition of the willing meets in Berlin on Thursday to discuss air defence and energy."
+      ],
+      "figure": {
+        "value": "€45bn",
+        "label": "loan to Ukraine proposed by the European Commission",
+        "compare": "against a financing need put at €70bn"
+      },
+      "since": {
+        "date": "2022-02-24",
+        "label": "since the full-scale invasion"
+      },
+      "modules": {
+        "toll": {
+          "items": [
+            {
+              "value": "4",
+              "label": "killed and 13 injured in the strikes on Odesa",
+              "by": "local authorities",
+              "date": "2026-11-18",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
+              }
+            },
+            {
+              "value": "5",
+              "label": "killed in the Donetsk and Kharkiv regions in 24 hours",
+              "by": "regional authorities",
+              "date": "2026-11-18",
+              "source": {
+                "name": "The Kyiv Independent",
+                "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/"
+              }
+            }
+          ]
+        },
+        "places": {
+          "items": [
+            {
+              "name": "Odesa",
+              "coords": [
+                30.73,
+                46.48
+              ],
+              "note": "Three strikes on the historic centre; a UNESCO-listed area was hit, according to the city council.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
+              }
+            },
+            {
+              "name": "Kerch bridge",
+              "coords": [
+                36.51,
+                45.3
+              ],
+              "note": "Struck again overnight from Wednesday to Thursday; rail traffic suspended, according to Moscow.",
+              "source": {
+                "name": "The Kyiv Independent",
+                "url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/"
+              }
+            },
+            {
+              "name": "Rivne region",
+              "coords": [
+                26.25,
+                50.62
+              ],
+              "note": "Eighty settlements left without power after a Russian attack.",
+              "source": {
+                "name": "Al Jazeera",
+                "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
+              }
+            }
+          ]
+        }
+      },
+      "analysis": {
+        "title": "An energy war on both sides",
+        "text": "According to Ukraine's energy ministry, Russia has carried out more than 1,000 attacks on energy infrastructure since September, and the situation remains \"extremely difficult\" in the Dnipropetrovsk and Kharkiv regions, where repeated strikes are hampering repairs. Ukraine is hitting back at Russian refining: according to Reuters, cited by the Kyiv Independent, its attacks disrupted or halted 15 of the country's 35 big refineries in 20 days, cutting processing capacity by 45%. The strategy divides Kyiv's allies: Germany's defence minister, Boris Pistorius, called \"stupid\" the criticism of Ukraine's long-range strikes by a senior Pentagon official, Elbridge Colby. Talks, meanwhile, continue after the meeting in Abu Dhabi, where a prisoner exchange was agreed."
+      },
+      "keys": [
+        {
+          "title": "The European loan",
+          "text": "The budget support proposed by the Commission is conditional on reforms, notably on the rule of law and fighting corruption. It still needs the approval of the European Parliament and the Council."
+        },
+        {
+          "title": "The Berlin meeting",
+          "text": "Volodymyr Zelensky set out the agenda for the coalition of the willing, focused on air defence and energy support. American envoys are also due to meet Ukrainian officials there, according to Al Jazeera."
+        },
+        {
+          "title": "The Crimean bridge",
+          "text": "A section of the bridge collapsed after a first Ukrainian strike on Tuesday, which killed two people according to Al Jazeera. Rail traffic had resumed before the new attack."
+        }
+      ],
+      "involved": [
+        "RUS"
+      ],
+      "context": [
+        {
+          "d": "2022-02-24",
+          "t": "Russia launches its full-scale invasion of Ukraine."
+        },
+        {
+          "d": "2026-09",
+          "t": "Russia steps up its strikes on Ukraine's power grid."
+        },
+        {
+          "d": "2026-11-11",
+          "t": "Talks in Abu Dhabi under American auspices."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "A section of the Crimean bridge collapses after a Ukrainian strike."
+        },
+        {
+          "d": "2026-11-18",
+          "t": "Deadly strikes on Odesa; Brussels proposes a €45bn loan."
+        },
+        {
+          "d": "2026-11-19",
+          "t": "The coalition of the willing meets in Berlin."
+        },
+        {
+          "d": "2026-11-26",
+          "t": "European Council meeting, focused partly on financing Ukraine."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera",
+          "title": "Russian attacks on Ukraine kill at least five people",
+          "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "The Kyiv Independent",
+          "title": "Russian attacks kill 5, injure 15, across Ukraine over past day, as Russia continues energy assault",
+          "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "The Kyiv Independent",
+          "title": "Ukrainian forces once more hit Russia's Crimean Bridge as railway traffic halted days after devastating strike",
+          "url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "The Kyiv Independent",
+          "title": "European Commission approves proposal to provide additional $49.5 billion to Ukraine",
+          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "The Kyiv Independent",
+          "title": "Ukrainian strikes cut Russian oil refinery processing by 45%, Reuters reports",
+          "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/",
+          "date": "2026-11-19"
+        }
+      ],
+      "dossier": {
+        "id": "ukraine-war",
+        "title": "The war in Ukraine"
+      },
+      "slug": "russian-strikes-kill-four-odesa-brussels-offers-kyiv"
+    },
+    {
+      "rank": 4,
+      "id": "TUR",
+      "place": "Turkey",
+      "section": "International",
+      "focus": [
+        30.71,
+        36.9
+      ],
+      "radar": false,
+      "types": [
+        "diplomacy"
+      ],
+      "title": "At COP31 in Antalya, phasing out fossil fuels divides delegates two days before the close",
+      "standfirst": "The draft deal published on Monday offers two options on fossil fuels, one of them an outright phase-out. The European Union wants major changes, and the conference is due to end on Friday.",
+      "body": [
+        "Some 200 countries gathered in Antalya, Turkey, for COP31 are haggling over an 18-page draft decision published on Monday November 16th, which offers two options on fossil fuels: the transition away from them agreed in 2023, or an outright phase-out.",
+        "The EU's climate commissioner, Wopke Hoekstra, says the text needs a thorough overhaul, while dozens of European, African and Pacific states that want the next IPCC report before COP33 are up against a bloc that includes Saudi Arabia and India.",
+        "Australia's minister, Chris Bowen, who is leading the negotiations under a presidency shared with Turkey, admitted that some clauses had already been rejected and promised at least one new draft before the close, due on Friday November 20th, though COPs often overrun."
+      ],
+      "figure": {
+        "value": "18 pages",
+        "label": "length of the draft decision published on Monday",
+        "compare": "a text the think-tank E3G called \"very long\""
+      },
+      "modules": {
+        "table": {
+          "ids": [
+            "TUR",
+            "AUS",
+            "SAU",
+            "BRA"
+          ],
+          "host": "TUR",
+          "positions": [
+            {
+              "who": "The European Union",
+              "wants": "A substantially amended draft decision, without which the talks could become untenable, according to Wopke Hoekstra."
+            },
+            {
+              "who": "Saudi Arabia",
+              "wants": "Insists it is not trying to delay climate science, without proposing a date for the next IPCC report."
+            },
+            {
+              "who": "Small island states",
+              "wants": "Swift publication of the IPCC report, whose delays the chair of their alliance, Ilana Seid, calls unjustifiable."
+            },
+            {
+              "who": "Brazil",
+              "wants": "Believes the deadlock can be broken by tweaking the wording, according to its environment minister, João Paulo Capobianco."
+            }
+          ],
+          "next": {
+            "d": "2026-11-20",
+            "t": "Scheduled close of COP31 in Antalya."
+          },
+          "source": {
+            "name": "Al Jazeera, avec l'AFP",
+            "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31",
+            "name_en": "Al Jazeera, with AFP"
+          }
+        }
+      },
+      "analysis": {
+        "title": "The old fossil-fuel divide",
+        "text": "The text repeats the 2023 pledge to transition away from fossil fuels, but also offers more ambitious wording that oil producers have fought for years; according to Reuters, both could vanish from the final deal. The draft also calls on rich countries to reach net zero as early as 2030, a prospect that Antigua and Barbuda's environment minister, Michael Joseph, thinks will be very hard to sell. Other issues divide delegates: adaptation finance for poor countries and a Turkish proposal to raise electricity's share of global energy use to 35% by 2035. Every decision requires consensus, which is why conferences often run on for days, while a UN report published last month found the world on course to overshoot 1.5°C of warming."
+      },
+      "keys": [
+        {
+          "title": "The shared presidency",
+          "text": "Turkey is hosting the conference, chaired by its minister Murat Kurum, while Australia, represented by Chris Bowen, leads the negotiations. Such a division of roles is unprecedented in the history of COPs."
+        },
+        {
+          "title": "The IPCC report",
+          "text": "The panel of experts suspended its last meeting, and a new session is planned for December. The timetable for its seventh assessment report has become one of the sticking points of the conference."
+        },
+        {
+          "title": "The AI pledge",
+          "text": "Only nine of the roughly 200 countries present had signed Turkey's proposed pledge on artificial intelligence early in the week, according to Reuters."
+        }
+      ],
+      "involved": [
+        "AUS",
+        "SAU"
+      ],
+      "context": [
+        {
+          "d": "2023-12",
+          "t": "COP28 in Dubai calls for a transition away from fossil fuels."
+        },
+        {
+          "d": "2026-11-09",
+          "t": "COP31 opens in Antalya."
+        },
+        {
+          "d": "2026-11-16",
+          "t": "The first draft decision, 18 pages long, is published."
+        },
+        {
+          "d": "2026-11-17",
+          "t": "The European Union demands major changes to the text."
+        },
+        {
+          "d": "2026-11-20",
+          "t": "Scheduled close of the conference."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Al Jazeera, avec l'AFP",
+          "title": "Tensions rise over draft climate deal at COP31",
+          "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31",
+          "date": "2026-11-17",
+          "name_en": "Al Jazeera, with AFP"
+        },
+        {
+          "name": "Reuters, via WHBL",
+          "title": "First draft of COP31 deal signals tough negotiations to come",
+          "url": "https://whbl.com/2026/11/16/first-draft-of-cop31-deal-signals-tough-negotiations-to-come/",
+          "date": "2026-11-16"
+        },
+        {
+          "name": "Reuters, via Al-Monitor",
+          "title": "First draft of COP31 deal signals tough negotiations to come",
+          "url": "https://www.al-monitor.com/originals/2026/11/first-draft-cop31-deal-signals-tough-negotiations-come",
+          "date": "2026-11-16"
+        }
+      ],
+      "dossier": {
+        "id": "cop31",
+        "title": "COP31 in Antalya"
+      },
+      "slug": "cop31-antalya-phasing-out-fossil-fuels-divides-delegates"
+    },
+    {
+      "rank": 5,
+      "id": "ETH",
+      "place": "Ethiopia",
+      "section": "Africa",
+      "focus": [
+        37.8,
+        14.6
+      ],
+      "radar": true,
+      "types": [
+        "conflict"
+      ],
+      "title": "On the Ethiopia-Eritrea border, the two armies mass around Badme",
+      "standfirst": "According to conflict monitors and sources close to Tigrayan militias, Addis Ababa and Asmara have concentrated forces along their border. Fire has been exchanged near Badme, the flashpoint of the 1998-2000 war.",
+      "body": [
+        "Ethiopia and Eritrea have massed forces along their shared border, according to the conflict monitor ACLED, the International Crisis Group and two sources close to Tigrayan militias quoted by Reuters on Wednesday November 18th, raising fears of open war between the neighbours.",
+        "According to ACLED, Ethiopian drones struck probable Eritrean positions around Badme on November 12th, Eritrea answered with artillery and the two armies clashed on the Ethiopian side the next day, the first direct exchanges in more than a month, which Reuters could not confirm.",
+        "Eritrea's information minister, Yemane Gebremeskel, decries \"propaganda\" from Addis Ababa's ruling party, which has not responded, while Magnus Taylor, an analyst at the International Crisis Group, fears that fighting against Tigrayan rebels could drag the two countries into direct conflict."
+      ],
+      "figure": {
+        "value": "1,000",
+        "label": "kilometres of border, at least, between Ethiopia and Eritrea",
+        "compare": "the scene of a bloody war from 1998 to 2000"
+      },
+      "modules": {
+        "places": {
+          "items": [
+            {
+              "name": "Badme",
+              "coords": [
+                37.8,
+                14.72
+              ],
+              "note": "Border town at the heart of the 1998-2000 war; artillery fire and clashes reported since last week.",
+              "source": {
+                "name": "Reuters, via Al-Monitor",
+                "url": "https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say"
+              }
+            }
+          ]
+        },
+        "sides": {
+          "groups": [
+            {
+              "name": "Ethiopian federal army",
+              "lead": "Abiy Ahmed, prime minister",
+              "ids": [
+                "ETH"
+              ],
+              "note": "Fighting Tigrayan rebels since September, pursuing them up to the border; backed by the Tigray Peace Force militia."
+            },
+            {
+              "name": "Tigrayan rebels and Eritrea",
+              "ids": [
+                "ERI"
+              ],
+              "note": "Addis Ababa accuses Eritrea of entering Tigray in October to back the rebels; Asmara denies any incursion.",
+              "backers": [
+                {
+                  "id": "SDN",
+                  "note": "Accused by Ethiopia of backing the rebels, which it denies."
+                },
+                {
+                  "id": "EGY",
+                  "note": "Accused by Ethiopia of backing the rebels, which it denies."
+                }
+              ]
+            }
+          ],
+          "source": {
+            "name": "Reuters, via TimesLIVE",
+            "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/"
+          }
+        }
+      },
+      "analysis": {
+        "title": "Yesterday's allies, rivals once more",
+        "text": "Reconciled by their 2018 peace deal, Ethiopia and Eritrea fought side by side in the Tigray war of 2020-22. Relations then soured, not least after Ethiopia's prime minister, Abiy Ahmed, called for his country to regain access to the sea, which Asmara read as an implicit threat of aggression, though Addis Ababa insists it wants to achieve this peacefully. The fighting between the federal army and Tigrayan rebels since September has brought the danger closer to the border, especially as Ethiopia's army is pursuing the rebels to its edge. Eritrea, independent since 1993, accuses its neighbour of seeking a pretext to invade. Badme, whose control sparked the 1998-2000 war, was awarded to Eritrea by a boundary commission after the conflict."
+      },
+      "keys": [
+        {
+          "title": "The 1998-2000 war",
+          "text": "The border conflict between the two countries killed tens of thousands of people. The town of Badme was its main prize."
+        },
+        {
+          "title": "Access to the sea",
+          "text": "Ethiopia lost its coastline when Eritrea became independent in 1993. Abiy Ahmed's remarks on the subject feed Asmara's mistrust."
+        },
+        {
+          "title": "Outside backers",
+          "text": "Addis Ababa accuses Sudan, itself in the grip of civil war, and Egypt of backing the Tigrayan rebels. Eritrea, Sudan and Egypt all deny it."
+        }
+      ],
+      "involved": [
+        "ERI",
+        "SDN",
+        "EGY"
+      ],
+      "context": [
+        {
+          "d": "1998-05",
+          "t": "Border war breaks out between Ethiopia and Eritrea."
+        },
+        {
+          "d": "2018-07",
+          "t": "Peace deal between Addis Ababa and Asmara."
+        },
+        {
+          "d": "2020-11",
+          "t": "The Tigray war begins, with the two countries fighting on the same side."
+        },
+        {
+          "d": "2026-09",
+          "t": "Fighting resumes between the federal army and Tigrayan rebels."
+        },
+        {
+          "d": "2026-10",
+          "t": "Eritrean forces enter Tigray, according to Addis Ababa and witnesses."
+        },
+        {
+          "d": "2026-11-12",
+          "t": "Ethiopian drone strikes around Badme, according to ACLED."
+        },
+        {
+          "d": "2026-11-13",
+          "t": "Direct clashes between the two armies, according to ACLED."
+        }
+      ],
+      "sources": [
+        {
+          "name": "Reuters, via Al-Monitor",
+          "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say",
+          "url": "https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say",
+          "date": "2026-11-18"
+        },
+        {
+          "name": "Reuters, via TimesLIVE",
+          "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say",
+          "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/",
+          "date": "2026-11-18"
+        }
+      ],
+      "dossier": {
+        "id": "ethiopia-tigray-eritrea",
+        "title": "Ethiopia, Tigray and Eritrea"
+      },
+      "slug": "ethiopia-eritrea-border-two-armies-mass-around-badme"
+    }
+  ],
+  "brief": [
+    {
+      "id": "ISR",
+      "place": "Israel",
+      "text": "The Knesset on Tuesday elected Matan Kahana as its speaker by 66 votes to 52, a win for Gadi Eisenkot, who has been asked to form a government, and for Binyamin Netanyahu's opponents.",
+      "url": "https://www.timesofisrael.com/liveblog-november-18-2026/"
+    },
+    {
+      "id": "MMR",
+      "place": "Myanmar",
+      "text": "Myanmar's president, Min Aung Hlaing, told parliament that his country would review its relations with ASEAN, which he accuses of treating it unfairly.",
+      "url": "https://apnews.com/article/min-aung-hlaing-asean-peace-plan-turmoil-97e863b842b3a3ad805635b11a7aea8c"
+    },
+    {
+      "id": "GBR",
+      "place": "United Kingdom",
+      "text": "An American lieutenant-colonel arrested in London on suspicion of spying for Russia has been handed over to the custody of the American army, according to British counter-terrorism police.",
+      "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo"
+    }
+  ],
+  "agenda": [
+    {
+      "d": "2026-11-19",
+      "t": "First three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin, in Shenzhen."
+    },
+    {
+      "d": "2026-11-19",
+      "t": "Meeting of the coalition of the willing for Ukraine, in Berlin."
+    },
+    {
+      "d": "2026-11-20",
+      "t": "Scheduled close of COP31, in Antalya."
+    },
+    {
+      "d": "2026-11-26",
+      "t": "Two-day European Council, focused partly on financing Ukraine in 2027."
+    },
+    {
+      "d": "2026-11-29",
+      "t": "Snap general election in Spain."
+    },
+    {
+      "d": "2026-12-01",
+      "t": "Border crossings between Estonia and Russia close."
+    },
+    {
+      "d": "2026-12-06",
+      "t": "Initial deadline for Gadi Eisenkot to form a government in Israel expires."
+    }
+  ],
+  "consulted": [
+    "Al Jazeera",
+    "Reuters",
+    "AFP",
+    "Associated Press",
+    "ABC News",
+    "BBC",
+    "The Kyiv Independent",
+    "Gulf News",
+    "Khaleej Times",
+    "The Times of Israel",
+    "Atlantic Council",
+    "ANI",
+    "Just Security"
+  ]
+}

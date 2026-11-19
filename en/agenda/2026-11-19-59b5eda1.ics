@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-19-59b5eda1@diurna
+DTSTAMP:20261119T062503Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Meeting of the coalition of the willing for Ukraine\, in Berlin.
+DESCRIPTION:Diurna — Edition of 19 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/
+END:VEVENT
+END:VCALENDAR

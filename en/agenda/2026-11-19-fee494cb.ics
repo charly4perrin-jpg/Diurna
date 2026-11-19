@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — calendar
 BEGIN:VEVENT
 UID:2026-11-19-fee494cb@diurna
-DTSTAMP:20261119T055511Z
+DTSTAMP:20261119T062503Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:First three-way meeting between Donald Trump\, Xi Jinping and Vla
  dimir Putin\, in Shenzhen.
-DESCRIPTION:Diurna — Edition of 18 November 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/18/
+DESCRIPTION:Diurna — Edition of 19 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/
 END:VEVENT
 END:VCALENDAR
