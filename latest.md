@@ -1,122 +1,121 @@
-# Diurna — N° 14 — Mercredi 18 novembre 2026
+# Diurna — N° 15 — Jeudi 19 novembre 2026
 
-> Washington riposte à Qeshm, Poutine arrive à Shenzhen avant le sommet à trois
+> Trump rencontre Poutine à Shenzhen avant le sommet à trois, l’Iran revendique une attaque au Koweït
 
-Les États-Unis ont frappé un site de missiles sur l’île iranienne de Qeshm après une attaque de drones contre Bahreïn, et le Koweït dit avoir intercepté des drones dans la nuit. Vladimir Poutine est arrivé à Shenzhen pour la rencontre de jeudi avec Donald Trump et Xi Jinping, tandis que le Conseil de la paix met en garde contre un effondrement de la trêve à Gaza.
+Donald Trump s’est entretenu jeudi avec Vladimir Poutine en marge de l’APEC, avant la première rencontre à trois avec Xi Jinping. L’Iran dit avoir visé une base au Koweït, des frappes russes ont fait quatre morts à Odessa, et la COP31 bute sur les énergies fossiles.
 
 _Rédigé par une IA à partir des sources citées. Méthode : https://charly4perrin-jpg.github.io/Diurna/methode/_
 
-## 1. Iran — Washington frappe un site de missiles iranien à Qeshm, le Koweït visé par des drones
+## 1. Chine — À Shenzhen, Trump s’entretient avec Poutine avant le premier sommet à trois avec Xi Jinping
 
-**Un responsable américain affirme que l’armée a visé mardi soir un site de lancement de missiles sur l’île de Qeshm, en riposte à l’attaque iranienne contre une base de Bahreïn. Dans la nuit, le Koweït a dit intercepter des drones « hostiles ».**
+**Le président américain a rencontré jeudi matin son homologue russe en marge du sommet de l’APEC, au lendemain de son accueil sur le tarmac par Xi Jinping. La rencontre à trois doit porter sur les armes nucléaires et la guerre avec l’Iran.**
 
-Les forces américaines ont frappé mardi 17 novembre au soir un site de lancement de missiles sur l’île iranienne de Qeshm, dans le détroit d’Ormuz, selon un responsable américain cité par Al Jazeera, quelques heures après l’attaque de drones revendiquée par les Gardiens de la révolution contre un radar de la base de Sheikh Isa, à Bahreïn. Le vice-gouverneur de la province d’Hormozgan, Ahmad Nafisi, assure qu’aucune zone d’habitation ni aucun commerce n’a été touché, tandis que le commandement central américain affirme que les drones lancés contre Bahreïn, troisième attaque iranienne visant le royaume en cinq jours, ont été interceptés sans dégâts. Dans la nuit, l’armée koweïtienne a dit repousser des attaques de drones « hostiles » sans en préciser l’origine et Manama a dénoncé des « attaques criminelles » de l’Iran, à la veille du sommet de Shenzhen où Washington veut aborder la guerre avec Xi Jinping et Vladimir Poutine.
+Donald Trump s’est entretenu jeudi 19 novembre avec Vladimir Poutine en marge du 33e sommet des dirigeants de l’APEC, à Shenzhen, en assurant que de « merveilleuses » choses pouvaient en sortir et en annonçant une seconde rencontre dans la journée, selon l’agence indienne ANI. La première réunion à trois avec Xi Jinping doit porter, selon la Maison Blanche citée par Al Jazeera, sur la réduction des arsenaux nucléaires, après l’expiration en février du traité New START, et sur la guerre avec l’Iran, l’Ukraine ne figurant pas officiellement à l’ordre du jour. Accueilli mercredi au pied de son avion par le dirigeant chinois, une entorse au protocole, le président américain arrive à un sommet dont les analystes interrogés par Al Jazeera attendent peu de résultats concrets, l’universitaire Vuk Vuksanovic le jugeant très éloigné d’un nouveau Yalta.
 
-**Le chiffre du jour :** 3 — attaques iraniennes de drones contre Bahreïn en cinq jours
+**Le chiffre du jour :** 15 août 2025 — dernière rencontre en personne entre Donald Trump et Vladimir Poutine
 
-### Des représailles ciblées autour d’Ormuz
+### Un sommet aux ambitions limitées
 
-Depuis le début de la guerre, le 28 février, Téhéran cherche à restreindre le trafic dans le détroit d’Ormuz, par lequel transite d’ordinaire un cinquième du pétrole mondial, en imposant ses propres routes ; Washington répond par le blocus des ports iraniens et l’escorte des pétroliers. L’attaque de vendredi contre Bahreïn était, selon l’AFP, la première visant un pays du Golfe depuis début septembre. Les cibles choisies de part et d’autre, un radar et un site de lancement, restent strictement militaires. Le Koweït n’a pas désigné l’origine des drones qui l’ont visé dans la nuit, et aucun bilan n’a été communiqué. Les échanges de tirs se multiplient pourtant à mesure que les forces américaines se renforcent dans la région, avec l’arrivée lundi d’un troisième porte-avions, le Theodore Roosevelt.
-
-Sources :
-- [Al Jazeera — Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain](https://www.aljazeera.com/news/2026/11/17/kuwait-reports-drone-attacks-as-iran-us-trade-attacks-on-qeshm-and-bahrain)
-- [Al Jazeera — Iran war live: Kuwait says intercepting ’hostile’ drone attacks](https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks)
-- [CBS News — Live Updates: Iran’s Revolutionary Guard claims another attack on U.S. radar system in Bahrain](https://www.cbsnews.com/live-updates/iran-war-us-nuclear-oil-strait-of-hormuz/)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/18/washington-frappe-site-missiles-iranien-qeshm-koweit-vise/
-
-## 2. Chine — Poutine arrive à Shenzhen avant le premier sommet à trois avec Donald Trump et Xi Jinping
-
-**Le président russe a atterri mardi à Shenzhen, où il doit s’entretenir mercredi avec Xi Jinping avant la rencontre à trois prévue jeudi avec Donald Trump. Le président américain doit gagner la Chine après une visite d’État mercredi à Manille.**
-
-Vladimir Poutine a atterri mardi 17 novembre à l’aéroport de Bao’an, à Shenzhen, pour sa première participation en personne à un sommet de l’APEC depuis 2017, et doit s’entretenir mercredi avec Xi Jinping avant la première rencontre à trois avec Donald Trump, prévue jeudi en marge du sommet. Washington veut y parler de la réduction des arsenaux nucléaires, depuis l’expiration en février du dernier traité russo-américain sur les armes atomiques, et de la guerre avec l’Iran, tandis que la place de l’Ukraine reste incertaine, Donald Trump ayant dit lundi qu’il l’aborderait malgré les indications contraires de la Maison Blanche. Avant de quitter les Philippines, le président américain a été reçu mercredi en visite d’État au palais de Malacañang par Ferdinand Marcos Jr., s’y disant « pas du tout inquiet » des tensions en mer de Chine méridionale, et n’exclut pas de voir Kim Jong-un en Chine.
-
-**Le chiffre du jour :** 2017 — dernière participation de Vladimir Poutine en personne à l’APEC
-
-### Trois puissances, trois agendas
-
-L’idée d’une rencontre à trois avait été lancée lors d’un entretien téléphonique le 9 octobre, selon le Kyiv Post. Pour Donald Trump, il s’agit d’une troisième rencontre en personne avec Xi Jinping cette année, après sa visite en Chine en mai et celle du dirigeant chinois aux États-Unis en septembre ; il n’a plus vu Vladimir Poutine depuis le sommet d’Alaska, en août 2025. Le dossier nucléaire illustre l’écart des positions : Washington veut associer Pékin à la maîtrise des armements, alors que la Chine refuse de négocier sur son arsenal, plus réduit, tant que les deux autres n’ont pas diminué les leurs. Le Kremlin espère un communiqué commun, et un tête-à-tête entre les présidents russe et américain est en préparation, selon le Kyiv Post.
+Le dossier nucléaire illustre l’écart des positions : depuis l’expiration de New START, Washington souhaite associer Pékin à la maîtrise des armements, mais la Chine refuse de négocier sur son arsenal, plus réduit. Le commerce pèse aussi sur la rencontre : la trêve conclue à Busan en octobre 2025, après une escalade qui avait porté les droits de douane américains sur les produits chinois jusqu’à 145 %, a été prolongée jusqu’au 10 janvier 2027, selon Al Jazeera. Mercredi, Xi Jinping et Vladimir Poutine ont affiché leur entente à Shenzhen, le premier appelant les deux pays à accompagner l’essor d’un monde multipolaire, le second qualifiant les puissances occidentales d’« anciens hégémons ». Selon le porte-parole du Kremlin, Dmitri Peskov, les deux dirigeants ont aussi évoqué la fin de la guerre en Ukraine.
 
 Sources :
-- [Kyiv Post — Putin Arrives in Shenzhen Ahead of First Trilateral Summit With Trump, Xi](https://www.kyivpost.com/post/90410)
-- [RTÉ — Xi and Putin to meet ahead of historic Trump trilateral](https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/)
-- [CBS News — Trump arrives in Asia ahead of summit with Putin and Xi, possible meeting with Kim Jong Un](https://www.cbsnews.com/news/trump-asia-trip-trilateral-summit-putin-xi/)
-- [The Philippine Star — Trump ’not concerned’ about South China Sea as he meets Marcos in Malacañang](https://www.philstar.com/headlines/2026/11/18/2570984/trump-not-concerned-about-south-china-sea-he-meets-marcos-malacaang)
-- [GMA News — Trump at Malacañang as part of PH state visit](https://www.gmanetwork.com/news/topstories/nation/1009897/trump-at-malaca-ang-as-part-of-ph-state-visit/story/)
+- [ANI, via The Tribune — "Wonderful things can come out of this": Trump holds bilateral talks with Putin in Shenzen](https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen)
+- [Al Jazeera — What do Trump, Putin and Xi want from their Shenzhen meeting?](https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting)
+- [Al Jazeera — APEC Live: Trump, Xi and Putin to meet in historic three-way China summit](https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit)
+- [ABC News — Trump Asia trip live updates: Xi greets Trump as he arrives in Shenzhen for APEC summit](https://abcnews.com/Politics/live-updates/trump-asia-trip-2026/?id=138187702)
+- [Atlantic Council — What Trump, Putin, and Xi want from their meeting in Shenzhen](https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/18/poutine-arrive-shenzhen-avant-premier-sommet-trois-donald/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/19/shenzhen-trump-entretient-poutine-avant-premier-sommet-trois/
 
-## 3. Israël — À Gaza, le Conseil de la paix avertit que le cessez-le-feu risque de s’effondrer
+## 2. Iran — L’Iran revendique une attaque contre une base au Koweït, des navires touchés près d’Ormuz
 
-**Dans un rapport remis mardi au Conseil de sécurité de l’ONU, l’organe chargé de superviser la trêve reproche à Israël de bloquer l’administration civile de transition. Il juge qu’un cessez-le-feu qui ne produit « rien de visible » ne peut durer indéfiniment.**
+**L’armée iranienne affirme avoir visé mercredi la base d’Ali Al Salem, au Koweït, en représailles à la frappe américaine sur Qeshm. Un navire de la compagnie émiratie Adnoc a été attaqué au large d’Oman, faisant onze blessés et un disparu.**
 
-Le Conseil de la paix, créé en 2025 à l’initiative de Donald Trump pour superviser la trêve entre Israël et le Hamas, a remis mardi 17 novembre au Conseil de sécurité des Nations unies un rapport qui juge l’accord menacé d’effondrement faute d’application immédiate, selon l’Associated Press. Le document reproche à Israël d’empêcher l’administration civile technocratique de prendre ses fonctions à Gaza et de n’avoir rien décidé sur le retour de la police civile, ce qui retarde la force internationale de stabilisation, et cite aussi les frappes israéliennes et les activités militaires du Hamas. Il demande au Conseil de sécurité de presser les deux camps, prévient qu’en cas d’échec il n’existerait « pas de feuille de route » de rechange et réclame l’entrée massive d’abris et de matériel d’hiver pour une population promise à « un autre hiver sous les tentes ».
+L’armée iranienne a affirmé mercredi 18 novembre que ses drones avaient visé des batteries antiaériennes Patriot sur la base d’Ali Al Salem, au Koweït, qui accueille des forces américaines, en représailles à la frappe menée la veille par Washington contre un site de missiles sur l’île de Qeshm, selon Press TV, citée par ABC News. Washington n’a pas confirmé ces affirmations, tandis que la marine iranienne dit que trois pétroliers ont pris feu après avoir heurté des mines à l’est du détroit d’Ormuz et que la filiale maritime d’Adnoc fait état de onze blessés et d’un disparu sur l’un de ses navires, attaqué mardi soir au large d’Oman. Le chef de l’armée iranienne, le général Amir Hatami, promet une riposte « sans limites géographiques » en cas de nouvelle action américaine, alors que Riyad et Abou Dhabi ont condamné ces attaques et que Bahreïn réclame une action du Conseil de sécurité, à la veille du sommet de Shenzhen.
 
-**Le chiffre du jour :** 6 mois — depuis le premier rapport du Conseil de la paix, en mai
+**Le chiffre du jour :** 11 — marins blessés sur le navire d’Adnoc attaqué au large d’Oman
 
-### La force de stabilisation, maillon manquant
+### Ormuz, champ de bataille maritime
 
-Tout le plan repose sur un enchaînement que le rapport décrit comme bloqué : sans police civile, pas de force internationale de stabilisation, et sans elle ni retrait israélien, ni désarmement du Hamas, ni reconstruction. Dès mai, le directeur général du Conseil de la paix, Nickolay Mladenov, avait attribué l’impasse au désarmement du mouvement islamiste ; six mois plus tard, le constat est identique. Le rapport insiste aussi sur l’urgence humanitaire : les restrictions et le manque de financements entravent les préparatifs de l’hiver, et l’organe demande des autorisations pour des pompes, des générateurs et des engins lourds. La décision revient pour l’essentiel à Israël, où Gadi Eisenkot a été chargé le 7 novembre de former un gouvernement après les législatives d’octobre.
-
-Sources :
-- [Associated Press, via KCRA — Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action](https://www.kcra.com/article/board-of-peace-gaza-report-ceasefire-israel/74457396)
-- [Al Jazeera — Board of Peace warns Gaza ceasefire faces imminent collapse without action](https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action)
-- [Arab News — Board of Peace delivers bleak report on Gaza, warning of ceasefire collapse without immediate action](https://www.arabnews.com/middle-east/board-of-peace-delivers-bleak-report-on-gaza-warning-of-ceasefire-collapse-without-immediate-action-3012599)
-- [Associated Press, via PBS — Israel’s president formally gives Eisenkot the first chance to form the next government](https://www.pbs.org/newshour/world/israels-president-formally-gives-eisenkot-the-first-chance-to-form-the-next-government)
-
-https://charly4perrin-jpg.github.io/Diurna/2026/11/18/gaza-conseil-paix-avertit-cessez-feu-risque-effondrer/
-
-## 4. Ukraine — L’Ukraine lance une attaque record de drones contre la Russie, une raffinerie de Bachkirie visée
-
-**Moscou dit avoir intercepté 1 441 drones ukrainiens dans la nuit de lundi à mardi, un record depuis 2022. Des incendies ont été signalés dans un complexe pétrochimique de Gazprom à Salavat, et une arche du pont de Crimée s’est effondrée.**
-
-Le ministère russe de la défense a affirmé mardi 17 novembre avoir intercepté dans la nuit 1 441 drones ukrainiens au-dessus de la Russie et de la Crimée annexée, un record depuis le début de l’invasion qui efface celui de 1 336 établi la veille. Des incendies ont été signalés au complexe Gazprom Neftekhim Salavat, en Bachkirie, à plus de 1 200 kilomètres de la frontière, que les autorités régionales disent intact, tandis que les services de sécurité ukrainiens affirment avoir détruit une arche routière du pont de Crimée au terme d’une opération en sept étapes. Dans la même nuit, des missiles russes ont touché les ponts Nord et Sud de Kiev et des installations énergétiques, privant de courant huit régions selon le vice-ministre de l’énergie, Artem Nekrassov, à deux jours d’un sommet à Shenzhen où la place de la guerre reste incertaine.
-
-**Le chiffre du jour :** 1 441 — drones ukrainiens interceptés en une nuit, selon Moscou
-
-### La guerre des ponts et des raffineries
-
-Volodymyr Zelensky présente la frappe contre le pont de Kertch comme une réponse aux attaques russes contre les infrastructures ukrainiennes, dont les ponts de Zaporijia, Dnipro, Kiev et Odessa. Le complexe de Salavat, déjà frappé le 8 octobre selon l’état-major ukrainien, produit essence, gazole et kérosène et fournit l’armée russe, selon le Kyiv Post. Les deux camps démentent viser délibérément des civils. Ces attaques à très longue distance se poursuivent malgré les premiers pourparlers en neuf mois, tenus la semaine dernière à Abou Dhabi sous l’égide des États-Unis. Le porte-parole du Kremlin, Dmitri Peskov, a indiqué qu’un plan de réparation du pont serait préparé.
+Depuis avril, les États-Unis imposent un blocus naval aux ports iraniens du Golfe et du golfe d’Oman, désormais appuyé par trois porte-avions, le Theodore Roosevelt ayant rejoint le George H.W. Bush et le George Washington, selon Gulf News. Téhéran répond en revendiquant des attaques contre des navires et en attribuant souvent les dégâts à des mines. Le président du Parlement iranien et négociateur en chef, Mohammad Ghalibaf, a prévenu que tout barrage, port ou centrale situé près d’une base américaine ou israélienne pourrait être considéré comme une cible à double usage. Sur le plan diplomatique, le mémorandum d’accord signé en juin pour mettre fin à la guerre reste lettre morte, selon ABC News, et le Pakistan attend la réponse de Washington à une proposition iranienne de réouverture du détroit.
 
 Sources :
-- [The Moscow Times — Ukrainian Drones Hit Gazprom Refinery in Bashkortostan in Second Record Overnight Attack](https://www.themoscowtimes.com/2026/11/17/ukrainian-drones-hit-gazprom-refinery-in-bashkortostan-in-second-record-overnight-attack-a94282)
-- [The Moscow Times — Ukraine Strikes Crimean Bridge for Second Day as Russia Pounds Kyiv Bridges](https://www.themoscowtimes.com/2026/11/17/ukraine-strikes-crimean-bridge-for-second-day-as-russia-pounds-kyiv-bridges-a94281)
-- [Kyiv Post — Ukraine Hits Major Russian Petrochemical Hub in Massive Drone Attack](https://www.kyivpost.com/post/90314)
-- [Kyiv Post — Crimean Bridge Arch Collapses Into Sea After Fresh Ukrainian Missile Strike](https://www.kyivpost.com/post/90298)
-- [The Kyiv Independent — Fire reported at major Russian petrochemical complex in Bashkortostan amid drone attack](https://kyivindependent.com/fire-reported-at-major-russian-petrochemical-complex-in-bashkortostan-amid-drone-attack/)
+- [ABC News — Iran live updates: Tehran warns US against ’miscalculation,’ tanker hit in strait](https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071)
+- [Gulf News — US/Israel-Iran war: What UAE residents need to know today (Nov. 18, 2026)](https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757)
+- [Al Jazeera — Iran war live: US says it hits IRGC Qeshm site; Iran says US drone downed](https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks)
+- [Khaleej Times — Three Indian sailors safe after attack on oil tanker in Gulf on Nov 18: Minister](https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-18-2026)
+- [Al Jazeera — Saudi coalition hits 60 Houthi military sites; Taiz sees ’fierce battles’](https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/18/ukraine-lance-attaque-record-drones-contre-russie-raffinerie/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/19/iran-revendique-attaque-contre-base-koweit-navires-touches/
 
-## 5. Haïti — En Haïti, l’ONU recense plus de 4 500 morts depuis janvier dans les violences des gangs
+## 3. Ukraine — À Odessa, des frappes russes font quatre morts, Bruxelles propose 45 milliards d’euros à Kiev
 
-**Le Haut-Commissariat aux droits de l’homme a dénombré 4 595 morts entre janvier et octobre et demande aux forces engagées contre les gangs de limiter le recours à la force létale. À Port-au-Prince, des centaines de personnes ont manifesté en soutien aux soldats salvadoriens.**
+**Des frappes russes ont touché mercredi le centre historique d’Odessa, en partie classé par l’Unesco, tuant au moins quatre personnes. La Commission européenne propose un prêt de 45 milliards d’euros pour l’an prochain.**
 
-Le Haut-Commissariat des Nations unies aux droits de l’homme a fait état mardi 17 novembre, à Genève, de 4 595 morts et 2 050 blessés en Haïti entre le 1er janvier et le 31 octobre, dont au moins 514 tués lors d’opérations des forces de sécurité contre les gangs entre juillet et septembre. Le haut-commissaire, Volker Türk, demande aux forces nationales et internationales, dont la Force de répression des gangs autorisée par l’ONU, de ne recourir à la force létale que lorsqu’elle est « inévitable », alors que le Salvador a déployé depuis octobre plus de 2 000 soldats, pour la plupart hors de ce cadre. Des centaines de Haïtiens ont manifesté mardi, notamment à Port-au-Prince, pour soutenir ce déploiement, que San Salvador dit vouloir arrêter dès que seront retrouvés quatre Salvadoriens enlevés le 18 octobre, que le chef du gang 400 Mawozo, Wilson Joseph, affirme sans preuve avoir été tués.
+Au moins quatre personnes ont été tuées et treize blessées mercredi 18 novembre à Odessa, où trois frappes russes ont touché le centre historique, dont une zone protégée par l’Unesco, selon les autorités locales, Volodymyr Zelensky accusant Moscou d’avoir frappé une seconde fois après l’arrivée des secouristes. La Commission européenne a proposé le même jour un prêt de 45 milliards d’euros pour combler une partie d’un besoin de financement évalué à 70 milliards l’an prochain, remboursable seulement une fois que la Russie aura payé des réparations, selon sa présidente, Ursula von der Leyen. Dans la nuit, les forces ukrainiennes ont de nouveau frappé le pont de Crimée, où le trafic ferroviaire a été suspendu selon le ministère russe des transports, tandis que la coalition des pays volontaires se réunit jeudi à Berlin pour parler défense aérienne et énergie.
 
-**Le chiffre du jour :** 4 595 — morts recensés en Haïti de janvier à octobre
+**Le chiffre du jour :** 45 milliards d’euros — prêt proposé par la Commission européenne à l’Ukraine
 
-### Une guerre contre les gangs coûteuse en civils
+### Une guerre de l’énergie de part et d’autre
 
-Le rapport trimestriel du Bureau intégré des Nations unies en Haïti montre que la réponse sécuritaire pèse désormais lourd dans le bilan : plus de la moitié des morts et blessés de juillet à septembre sont survenus lors d’opérations terrestres ou aériennes contre les gangs, parfois menées avec une société militaire privée utilisant des drones. Plus de 16 % des victimes de ces opérations n’avaient aucun lien avec les gangs, et 44 exécutions extrajudiciaires ou tentatives impliquant la police ont été documentées, contre 14 le trimestre précédent. Les gangs, eux, multiplient les représailles contre les habitants soupçonnés de coopérer avec les forces de sécurité et le recrutement forcé d’enfants. La Force de répression des gangs, arrivée en avril, n’est toujours pas pleinement déployée.
+Selon le ministère ukrainien de l’énergie, la Russie a mené plus de mille attaques contre les infrastructures énergétiques depuis septembre, et la situation reste « extrêmement difficile » dans les régions de Dnipropetrovsk et de Kharkiv, où les frappes répétées entravent les réparations. L’Ukraine vise en retour le raffinage russe : selon Reuters, cité par le Kyiv Independent, ses attaques ont perturbé ou arrêté quinze des trente-cinq grandes raffineries du pays en vingt jours, réduisant de 45 % les capacités de traitement. Cette stratégie divise les alliés de Kiev : le ministre allemand de la défense, Boris Pistorius, a jugé « stupides » les critiques d’un haut responsable du Pentagone, Elbridge Colby, contre les frappes ukrainiennes en profondeur. Les pourparlers, eux, se poursuivent après la rencontre d’Abou Dhabi, où un échange de prisonniers a été convenu.
 
 Sources :
-- [Jamaica Gleaner — UN reports more than 4,500 killed in Haiti gang violence this year](https://jamaica-gleaner.com/article/world-news/20261118/un-reports-more-4500-killed-haiti-gang-violence-year)
-- [ONU Info — Haiti: More than 1,000 killed between July and September, UN report reveals](https://news.un.org/en/story/2026/11/1168789)
-- [Al Jazeera — Haitians protest in support of El Salvador’s anti-gang troop deployment](https://www.aljazeera.com/news/2026/11/17/haitians-protest-in-support-of-el-salvadors-anti-gang-troop-deployment)
-- [Al Jazeera — Salvadoran troops target Haitian gang, leaving 20 dead](https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead)
+- [Al Jazeera — Russian attacks on Ukraine kill at least five people](https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people)
+- [The Kyiv Independent — Russian attacks kill 5, injure 15, across Ukraine over past day, as Russia continues energy assault](https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/)
+- [The Kyiv Independent — Ukrainian forces once more hit Russia’s Crimean Bridge as railway traffic halted days after devastating strike](https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/)
+- [The Kyiv Independent — European Commission approves proposal to provide additional $49.5 billion to Ukraine](https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/)
+- [The Kyiv Independent — Ukrainian strikes cut Russian oil refinery processing by 45%, Reuters reports](https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/)
 
-https://charly4perrin-jpg.github.io/Diurna/2026/11/18/haiti-onu-recense-4-500-morts-depuis-janvier/
+https://charly4perrin-jpg.github.io/Diurna/2026/11/19/odessa-frappes-russes-font-quatre-morts-bruxelles-propose/
+
+## 4. Turquie — À la COP31 d’Antalya, la sortie des énergies fossiles divise à deux jours de la clôture
+
+**Le projet d’accord publié lundi propose deux formulations sur les combustibles fossiles, dont une sortie pure et simple. L’Union européenne réclame des changements importants, et la conférence doit s’achever vendredi.**
+
+Les quelque deux cents pays réunis à Antalya, en Turquie, pour la COP31 négocient sur un projet de décision de dix-huit pages publié lundi 16 novembre, qui propose deux formulations sur les combustibles fossiles : la transition hors de ces énergies, adoptée en 2023, ou leur sortie pure et simple. Le commissaire européen chargé du climat, Wopke Hoekstra, estime que le texte doit être profondément remanié, tandis que des dizaines d’États européens, africains et du Pacifique, qui veulent le prochain rapport du GIEC avant la COP33, se heurtent à un bloc comprenant l’Arabie saoudite et l’Inde. Le ministre australien Chris Bowen, qui conduit les négociations dans le cadre d’une présidence partagée avec la Turquie, a reconnu que certaines clauses étaient déjà rejetées et annoncé au moins un nouveau projet avant la clôture, prévue vendredi 20 novembre, même si les COP débordent souvent.
+
+**Le chiffre du jour :** 18 pages — longueur du projet de décision publié lundi
+
+### Le vieux clivage des fossiles
+
+Le texte reprend l’engagement de 2023 sur la transition hors des énergies fossiles, mais propose aussi une formulation plus ambitieuse que les pays producteurs de pétrole combattent depuis des années ; selon Reuters, les deux pourraient disparaître de l’accord final. Le projet appelle aussi les pays riches à atteindre la neutralité carbone dès 2030, une perspective que le ministre de l’environnement d’Antigua-et-Barbuda, Michael Joseph, juge très difficile à faire accepter. D’autres points divisent : l’aide à l’adaptation des pays pauvres et une proposition turque visant à porter à 35 % la part de l’électricité dans la consommation mondiale d’énergie d’ici à 2035. Toute décision exige le consensus, ce qui explique que les conférences se prolongent souvent de plusieurs jours, alors qu’un rapport de l’ONU publié le mois dernier juge le monde en voie de dépasser 1,5 °C de réchauffement.
+
+Sources :
+- [Al Jazeera, avec l’AFP — Tensions rise over draft climate deal at COP31](https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31)
+- [Reuters, via WHBL — First draft of COP31 deal signals tough negotiations to come](https://whbl.com/2026/11/16/first-draft-of-cop31-deal-signals-tough-negotiations-to-come/)
+- [Reuters, via Al-Monitor — First draft of COP31 deal signals tough negotiations to come](https://www.al-monitor.com/originals/2026/11/first-draft-cop31-deal-signals-tough-negotiations-come)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/19/cop31-antalya-sortie-energies-fossiles-divise-deux-jours/
+
+## 5. Éthiopie — À la frontière entre l’Éthiopie et l’Érythrée, les deux armées se massent autour de Badme
+
+**Selon des observateurs des conflits et des sources proches des milices du Tigré, Addis-Abeba et Asmara ont concentré des forces le long de leur frontière. Des tirs ont été échangés près de Badme, enjeu de la guerre de 1998-2000.**
+
+L’Éthiopie et l’Érythrée ont massé des forces le long de leur frontière commune, selon l’organisation de suivi des conflits Acled, l’International Crisis Group et deux sources proches de milices du Tigré citées mercredi 18 novembre par Reuters, ce qui fait craindre une guerre ouverte entre les deux voisins. Selon Acled, des drones éthiopiens ont visé le 12 novembre des positions vraisemblablement érythréennes autour de Badme, l’Érythrée a riposté à l’artillerie et les deux armées se sont affrontées le lendemain du côté éthiopien, premiers échanges directs depuis plus d’un mois, que Reuters n’a pu confirmer. Le ministre érythréen de l’information, Yemane Gebremeskel, dénonce la « propagande » du parti au pouvoir à Addis-Abeba, qui n’a pas réagi, tandis que l’analyste de l’International Crisis Group Magnus Taylor redoute que les combats contre les rebelles tigréens n’entraînent un conflit direct.
+
+**Le chiffre du jour :** 1 000 — kilomètres de frontière, au moins, entre l’Éthiopie et l’Érythrée
+
+### Des alliés d’hier redevenus rivaux
+
+Réconciliés par l’accord de paix de 2018, l’Éthiopie et l’Érythrée avaient combattu côte à côte pendant la guerre du Tigré, de 2020 à 2022. Leurs relations se sont ensuite dégradées, notamment après les appels du Premier ministre éthiopien, Abiy Ahmed, à retrouver un accès à la mer, qu’Asmara a qualifiés de menace implicite d’agression, même si Addis-Abeba assure vouloir l’obtenir par des moyens pacifiques. Les combats qui opposent depuis septembre l’armée fédérale aux rebelles tigréens ont rapproché le danger de la frontière, d’autant que l’armée éthiopienne poursuit ces rebelles jusqu’à ses abords. L’Érythrée, devenue indépendante en 1993, accuse son voisin de chercher un prétexte pour l’envahir. Badme, dont le contrôle avait déclenché la guerre de 1998-2000, a été attribuée à l’Érythrée par une commission frontalière après le conflit.
+
+Sources :
+- [Reuters, via Al-Monitor — Ethiopia and Eritrea amass forces along border, heightening war fears, sources say](https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say)
+- [Reuters, via TimesLIVE — Ethiopia and Eritrea amass forces along border, heightening war fears, sources say](https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/)
+
+https://charly4perrin-jpg.github.io/Diurna/2026/11/19/frontiere-ethiopie-erythree-deux-armees-massent-autour-badme/
 
 ## En bref
 
-- **États-Unis** : La démocrate Mary Peltola a battu en Alaska le sénateur républicain sortant, Dan Sullivan, dans le dernier scrutin sénatorial des élections de mi-mandat ; les démocrates ont gagné neuf sièges, du jamais-vu depuis 1958. ([Source](https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win))
-- **Irlande** : Un Irlandais de 48 ans, Daithi O’Corrain, a été inculpé à New York pour avoir saboté à l’aéroport de Shannon un avion militaire américain C-130, que le parquet estime « effectivement détruit ». ([Source](https://www.aljazeera.com/news/2026/11/18/prosecutors-allege-man-destroyed-us-military-plane-at-irish-airport))
-- **États-Unis** : Le secrétaire d’État, Marco Rubio, affirme qu’aucun élément ne relie entre elles, ni à des cyberattaques étrangères, les récentes pannes qui ont touché le transport aérien, des banques et Microsoft. ([Source](https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages))
+- **Israël** : La Knesset a élu mardi Matan Kahana à sa présidence par 66 voix contre 52, un succès pour Gadi Eisenkot, chargé de former le gouvernement, et pour les adversaires de Benyamin Nétanyahou. ([Source](https://www.timesofisrael.com/liveblog-november-18-2026/))
+- **Birmanie** : Le président birman, Min Aung Hlaing, a annoncé devant le Parlement un réexamen des relations de son pays avec l’Asean, qu’il accuse de le traiter injustement. ([Source](https://apnews.com/article/min-aung-hlaing-asean-peace-plan-turmoil-97e863b842b3a3ad805635b11a7aea8c))
+- **Royaume-Uni** : Un lieutenant-colonel américain arrêté à Londres, soupçonné d’espionnage au profit de la Russie, a été remis à la garde de l’armée américaine, selon la police antiterroriste britannique. ([Source](https://www.bbc.co.uk/news/articles/c6x284ez38vdo))
 
 ## À venir
 
-- 18 nov. : Entretien entre Xi Jinping et Vladimir Poutine à Shenzhen, en marge de l’APEC.
 - 19 nov. : Première rencontre à trois entre Donald Trump, Xi Jinping et Vladimir Poutine, à Shenzhen.
+- 19 nov. : Réunion de la coalition des volontaires pour l’Ukraine, à Berlin.
 - 20 nov. : Clôture prévue de la COP31, à Antalya.
 - 26 nov. : Conseil européen de deux jours, consacré notamment au financement de l’Ukraine en 2027.
 - 29 nov. : Élections législatives anticipées en Espagne.

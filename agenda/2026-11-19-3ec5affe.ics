@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — agenda
 BEGIN:VEVENT
 UID:2026-11-19-3ec5affe@diurna
-DTSTAMP:20261118T062520Z
+DTSTAMP:20261119T055511Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Première rencontre à trois entre Donald Trump\, Xi Jinping et V
  ladimir Poutine\, à Shenzhen.
-DESCRIPTION:Diurna — Édition du 18 novembre 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/18/
+DESCRIPTION:Diurna — Édition du 19 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/19/
 END:VEVENT
 END:VCALENDAR

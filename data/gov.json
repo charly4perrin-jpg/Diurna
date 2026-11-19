@@ -31,7 +31,7 @@
         "name_en": "Masoud Pezeshkian"
       }
     ],
-    "checked": "2026-11-18",
+    "checked": "2026-11-19",
     "source": {
       "name": "Tasnim",
       "name_en": "Tasnim",
@@ -48,11 +48,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-18",
+    "checked": "2026-11-19",
     "source": {
-      "name": "Kyiv Post",
-      "name_en": "Kyiv Post",
-      "url": "https://www.kyivpost.com/post/90298"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
     },
     "regime_en": "Semi-presidential republic, under martial law"
   },
@@ -281,11 +281,11 @@
         "name": "Recep Tayyip Erdoğan"
       }
     ],
-    "checked": "2026-11-16",
+    "checked": "2026-11-19",
     "source": {
-      "name": "Anadolu",
-      "name_en": "Anadolu",
-      "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489"
+      "name": "IISD, Earth Negotiations Bulletin",
+      "name_en": "IISD, Earth Negotiations Bulletin",
+      "url": "https://enb.iisd.org/media/recep-tayyip-erdogan-president-republic-turkiye-2-unfccc-cop31-11nov2026-photo"
     }
   },
   "MMR": {
@@ -390,11 +390,11 @@
         "name": "Abiy Ahmed"
       }
     ],
-    "checked": "2026-11-12",
+    "checked": "2026-11-19",
     "source": {
-      "name": "Al Jazeera",
-      "name_en": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/10/5/ethiopias-pm-insists-on-access-to-red-sea-despite-regional-conflict-threat"
+      "name": "Reuters, via Al-Monitor",
+      "name_en": "Reuters, via Al-Monitor",
+      "url": "https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say"
     }
   },
   "ERI": {
@@ -475,11 +475,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-18",
+    "checked": "2026-11-19",
     "source": {
-      "name": "RTÉ, avec l'AFP",
-      "name_en": "RTÉ, with AFP",
-      "url": "https://www.rte.ie/news/2026/1118/1599626-asia-trilateral-summit/"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting"
     }
   },
   "NGA": {

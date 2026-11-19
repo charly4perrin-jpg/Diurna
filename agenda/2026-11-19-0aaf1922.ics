@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-19-0aaf1922@diurna
+DTSTAMP:20261119T055511Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Réunion de la coalition des volontaires pour l’Ukraine\, à Be
+ rlin.
+DESCRIPTION:Diurna — Édition du 19 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/19/
+END:VEVENT
+END:VCALENDAR
