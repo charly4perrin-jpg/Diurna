@@ -8,7 +8,7 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 ## Édition du jour / Today's edition
 
 - [Édition du 2026-11-20 en Markdown](https://charly4perrin-jpg.github.io/Diurna/latest.md): La CIJ reconnaît le génocide des Rohingyas, les Houthis frappent le cœur financier de Riyad
-- [Edition of 2026-11-19 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): Trump, Xi and Putin issue a "peace declaration" as Iran claims an attack in Kuwait
+- [Edition of 2026-11-20 in Markdown](https://charly4perrin-jpg.github.io/Diurna/en/latest.md): ICJ finds Myanmar guilty of genocide against the Rohingya as Houthis strike Riyadh’s financial heart
 - [Accueil](https://charly4perrin-jpg.github.io/Diurna/) · [Home (English)](https://charly4perrin-jpg.github.io/Diurna/en/)
 
 ## Comprendre Diurna / About
@@ -34,10 +34,10 @@ Chaque sujet cite ses sources ; les corrections et mises à jour sont datées et
 - [2026-11-16](https://charly4perrin-jpg.github.io/Diurna/2026/11/16/edition.md): L’Iran affirme que six pétroliers ont heurté des mines près d’Ormuz depuis dimanche
 - [2026-11-15](https://charly4perrin-jpg.github.io/Diurna/2026/11/15/edition.md): Washington lie l’adhésion de l’Ukraine à l’OTAN à un retrait du Donbass
 - [2026-11-14](https://charly4perrin-jpg.github.io/Diurna/2026/11/14/edition.md): L’Europe désigne cinq pays pour la représenter aux pourparlers sur l’Ukraine
+- [2026-11-20](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/edition.md): ICJ finds Myanmar guilty of genocide against the Rohingya as Houthis strike Riyadh’s financial heart
 - [2026-11-19](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/edition.md): Trump, Xi and Putin issue a "peace declaration" as Iran claims an attack in Kuwait
 - [2026-11-18](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/18/edition.md): Washington strikes back at Qeshm as Putin lands in Shenzhen before the three-way summit
 - [2026-11-17](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/17/edition.md): Iran targets an American base in Bahrain as part of the Crimean bridge collapses
 - [2026-11-16](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/16/edition.md): Iran says six tankers have struck mines near Hormuz since Sunday
 - [2026-11-15](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/15/edition.md): Washington links Ukraine’s NATO membership to a withdrawal from the Donbas
 - [2026-11-14](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/14/edition.md): Europe names five countries to speak for it in the Ukraine peace talks
-- [2026-11-13](https://charly4perrin-jpg.github.io/Diurna/en/2026/11/13/edition.md): Volodymyr Zelensky announces a record prisoner swap after meeting America’s envoys

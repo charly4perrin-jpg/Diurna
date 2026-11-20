@@ -1,125 +1,123 @@
-# Diurna — No. 15 — Thursday, 19 November 2026
+# Diurna — No. 16 — Friday, 20 November 2026
 
-> Trump, Xi and Putin issue a "peace declaration" as Iran claims an attack in Kuwait
+> ICJ finds Myanmar guilty of genocide against the Rohingya as Houthis strike Riyadh’s financial heart
 
-Donald Trump, Xi Jinping and Vladimir Putin issued a joint declaration in Shenzhen on Thursday promising talks on nuclear risks, but saying nothing about Ukraine or Iran. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.
+The International Court of Justice on Thursday found a state guilty of genocide for the first time: Myanmar, for the violence of 2017 against the Rohingya. A Houthi missile damaged the tower of Saudi Arabia’s sovereign wealth fund, Russian strikes hit two embassies in Kyiv, and COP31 enters its final day with no commitment on fossil fuels.
 
 _Written by an AI from the sources cited. Method : https://charly4perrin-jpg.github.io/Diurna/en/method/_
 
-## 1. China — In Shenzhen, Trump, Xi and Putin issue a "peace declaration" silent on Ukraine and Iran
+## 1. Myanmar — The International Court of Justice finds Myanmar guilty of genocide against the Rohingya
 
-**Meeting as a trio for the first time, on the sidelines of APEC, the American, Chinese and Russian leaders issued a text promising dialogue on nuclear risks. The declaration mentions neither the war in Ukraine nor the war with Iran.**
+**By nine votes to six, the court in The Hague ruled on Thursday that Myanmar’s army committed genocide in northern Rakhine state in 2017. It is the first time the court has found a state guilty of the crime.**
 
-Meeting in Shenzhen on Thursday November 19th, on the sidelines of the APEC summit, for a first three-way session of more than an hour chaired by Xi Jinping, the Chinese, American and Russian leaders issued a "peace declaration" reaffirming that a nuclear war cannot be won, according to Reuters. The largely symbolic text, as the agency describes it, sets out an open-ended dialogue on reducing nuclear risks and preventing proliferation, pledges UN reform, more fuel supplies and respect for the immunity of leaders before international courts, but mentions neither the war in Ukraine nor the one with Iran. Vladimir Putin conceded that the declaration set no ambitious goals and said he would consider attending the G20 that Donald Trump hosts in Florida next month, while Ukraine’s foreign minister, Andriy Sybiha, said Shenzhen had not turned out to be the "Yalta" Moscow had dreamed of.
+The International Court of Justice ruled in The Hague on Thursday November 19th, by nine votes to six, that Myanmar committed genocide against the Rohingya in northern Rakhine state, a first in the history of the UN’s top court, which The Gambia petitioned in 2019. Reading a judgment that took three hours, the court’s president, Yuji Iwasawa, found that security forces killed thousands of civilians in the 2017 operations, which drove more than 700,000 Rohingya into Bangladesh, and that only an intent to destroy the group could explain them. The ruling is final but the court has no means of enforcing it; it orders Naypyidaw to prosecute those responsible and allow refugees to return voluntarily, while Britain has expelled Myanmar’s defence attaché and is calling for an urgent meeting of the Security Council.
 
-**The number :** 3 — leading nuclear powers gathered around one table
+**The number :** 9 to 6 — the judges’ vote finding that Myanmar committed genocide
 
-### A summit of modest ambitions
+### A legal victory without teeth
 
-The declaration shows how far apart the three remain: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal, and the text contains no commitment to cuts, according to Reuters. The pledge to respect leaders’ immunity before international courts comes more than three years after the International Criminal Court issued an arrest warrant for Vladimir Putin, whose government rejects the allegations. Trade remains unresolved: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera, and Donald Trump is due to see Xi Jinping again at the G20 in Florida.
-
-- _What changed 19:45_ : The three-way meeting took place: title, text, figure, modules and keys rewritten after the "peace declaration" was issued.
+The judgment closes a seven-year case: the court ordered Myanmar to prevent genocidal acts as early as January 2020, then dismissed its objections in 2022. The judges cited killings, serious harm and measures intended to prevent births, rejecting the claim that these were mere counter-insurgency operations. The minority, led by the vice-president, Julia Sebutinde, accused them of lowering the standard of proof, according to the American Society of International Law. Myanmar must report back to the court within two years, but enforcement rests with the Security Council. Some 1.2m Rohingya live in the camps of Cox’s Bazar, in Bangladesh, according to the UN, and the ruling could weigh on other cases, including South Africa’s against Israel.
 
 Sources :
-- [Reuters, via Al-Monitor — Trump, Xi and Putin release ’peace declaration’ from unprecedented summit](https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit)
-- [Al Jazeera — ’Groundbreaking’ Trump-Xi-Putin summit: Five key takeaways](https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways)
-- [ANI, via The Tribune — "Wonderful things can come out of this": Trump holds bilateral talks with Putin in Shenzen](https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen)
-- [Al Jazeera — What do Trump, Putin and Xi want from their Shenzhen meeting?](https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting)
-- [Atlantic Council — What Trump, Putin, and Xi want from their meeting in Shenzhen](https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/)
+- [Al Jazeera — UN’s top court finds Myanmar guilty of genocide against Rohingya](https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide)
+- [Al Jazeera, avec Reuters — World reacts to ICJ finding Myanmar guilty of genocide against Rohingya](https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya)
+- [Human Rights Watch — World Court Finds Myanmar Committed Rohingya Genocide](https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide)
+- [American Society of International Law — ICJ Rules Myanmar Committed Genocide Against Rohingya](https://asil.org/ilib/icj-rules-myanmar-committed-genocide-against-rohingya/)
+- [Al Jazeera — What the ICJ genocide ruling means for the Rohingya people](https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/shenzhen-trump-sits-down-putin-before-first-three/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/international-court-justice-finds-myanmar-guilty-genocide-against/
 
-## 2. Iran — Iran claims an attack on a base in Kuwait as ships are hit near Hormuz
+## 2. Saudi Arabia — In Riyadh, a Houthi missile damages the tower of Saudi Arabia’s sovereign wealth fund
 
-**Iran’s army says it targeted the Ali Al Salem base in Kuwait on Wednesday in retaliation for the American strike on Qeshm. A vessel belonging to the Emirati firm Adnoc was attacked off Oman, leaving 11 injured and one missing.**
+**The Public Investment Fund tower, Riyadh’s tallest skyscraper, was hit before dawn on Thursday, with no casualties according to civil defence. The Saudi-led coalition is stepping up its strikes in Yemen.**
 
-Iran’s army said on Wednesday November 18th that its drones had targeted Patriot air-defence batteries at the Ali Al Salem base in Kuwait, which hosts American forces, in retaliation for Washington’s strike the day before on a missile site on Qeshm island, according to Press TV, quoted by ABC News. Washington has not confirmed the claims; meanwhile Iran’s navy says three tankers caught fire after hitting mines east of the Strait of Hormuz, and Adnoc’s shipping arm reports 11 injured and one missing aboard one of its vessels, attacked off Oman on Tuesday night. The head of Iran’s army, General Amir Hatami, promises a response "without geographical limits" to any further American action, while Riyadh and Abu Dhabi have condemned the attacks and Bahrain is calling for action by the Security Council, on the eve of the Shenzhen summit.
+A missile fired by the Houthis damaged the 80-storey tower of the Public Investment Fund, Saudi Arabia’s sovereign wealth fund, in Riyadh’s King Abdullah Financial District before dawn on Thursday November 19th, blowing out windows on seven or eight floors but injuring no one, according to civil defence. The Saudi-led coalition says it intercepted four ballistic missiles and a cruise missile aimed at the south of the kingdom and destroyed a launcher in Saada province; it was the second hit on the financial district in under two weeks, after an Aramco building on November 8th. The Houthis say Saudi strikes have killed ten people in Sanaa in two days, while Yemen’s Presidential Council has designated them a "terrorist" organisation and Donald Trump says he wants to see "what happens after January 1st" with Iran.
 
-**The number :** 11 — sailors injured aboard the Adnoc vessel attacked off Oman
+**The number :** 2,260 — deaths in Yemen since fighting resumed in August, according to the WHO
 
-### Hormuz, a maritime battlefield
+### Yemen’s war reaches the Gulf
 
-Since April the United States has enforced a naval blockade of Iran’s ports on the Gulf and the Gulf of Oman, now backed by three aircraft carriers after the Theodore Roosevelt joined the George H.W. Bush and the George Washington, according to Gulf News. Tehran has responded by claiming attacks on shipping and often blaming the damage on mines. The speaker of Iran’s parliament and chief negotiator, Mohammad Ghalibaf, has warned that any dam, port or power station near an American or Israeli base could be treated as a dual-use target. Diplomatically, the memorandum of understanding signed in June to end the war remains a dead letter, according to ABC News, and Pakistan is awaiting Washington’s reply to an Iranian proposal to reopen the strait.
-
-Sources :
-- [ABC News — Iran live updates: Tehran warns US against ’miscalculation,’ tanker hit in strait](https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071)
-- [Gulf News — US/Israel-Iran war: What UAE residents need to know today (Nov. 18, 2026)](https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757)
-- [Al Jazeera — Iran war live: US says it hits IRGC Qeshm site; Iran says US drone downed](https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks)
-- [Khaleej Times — Three Indian sailors safe after attack on oil tanker in Gulf on Nov 18: Minister](https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-18-2026)
-- [Al Jazeera — Saudi coalition hits 60 Houthi military sites; Taiz sees ’fierce battles’](https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/iran-claims-attack-base-kuwait-ships-hit-near/
-
-## 3. Ukraine — Russian strikes kill four in Odesa as Brussels offers Kyiv a €45bn loan
-
-**Russian strikes hit Odesa’s historic centre, part of it a UNESCO World Heritage site, on Wednesday, killing at least four people. The European Commission is proposing a €45bn loan for next year.**
-
-At least four people were killed and 13 injured in Odesa on Wednesday November 18th when three Russian strikes hit the historic centre, including a UNESCO-protected area, according to local officials, with Volodymyr Zelensky accusing Moscow of striking again after rescuers arrived. The same day the European Commission proposed a €45bn loan to cover part of a financing gap put at €70bn for next year, to be repaid only once Russia has paid reparations, according to its president, Ursula von der Leyen. Overnight Ukrainian forces struck the Crimean bridge again, where rail traffic was suspended according to Russia’s transport ministry, while the coalition of the willing meets in Berlin on Thursday to discuss air defence and energy.
-
-**The number :** €45bn — loan to Ukraine proposed by the European Commission
-
-### An energy war on both sides
-
-According to Ukraine’s energy ministry, Russia has carried out more than 1,000 attacks on energy infrastructure since September, and the situation remains "extremely difficult" in the Dnipropetrovsk and Kharkiv regions, where repeated strikes are hampering repairs. Ukraine is hitting back at Russian refining: according to Reuters, cited by the Kyiv Independent, its attacks disrupted or halted 15 of the country’s 35 big refineries in 20 days, cutting processing capacity by 45%. The strategy divides Kyiv’s allies: Germany’s defence minister, Boris Pistorius, called "stupid" the criticism of Ukraine’s long-range strikes by a senior Pentagon official, Elbridge Colby. Talks, meanwhile, continue after the meeting in Abu Dhabi, where a prisoner exchange was agreed.
+Yemen’s war resumed in August, after the Houthis seized strategic stretches of the Red Sea coast, ending the UN-brokered truce of 2022, according to Al Jazeera. Government forces say they have carried out some 750 strikes and operations, notably around Taiz and Lahij. The Iran-aligned Houthis are now hitting Saudi Arabia’s economic heart: King Khalid International Airport and an Aramco administrative building have already been targeted. On Thursday the Saudi defence minister, Prince Khalid bin Salman, received the head of US Central Command, Admiral Brad Cooper, in Riyadh, according to the official SPA news agency. In Washington, Donald Trump has suggested that a strike on Iran is not imminent, while promising to "obliterate" it if it attacks.
 
 Sources :
-- [Al Jazeera — Russian attacks on Ukraine kill at least five people](https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people)
-- [The Kyiv Independent — Russian attacks kill 5, injure 15, across Ukraine over past day, as Russia continues energy assault](https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/)
-- [The Kyiv Independent — Ukrainian forces once more hit Russia’s Crimean Bridge as railway traffic halted days after devastating strike](https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/)
-- [The Kyiv Independent — European Commission approves proposal to provide additional $49.5 billion to Ukraine](https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/)
-- [The Kyiv Independent — Ukrainian strikes cut Russian oil refinery processing by 45%, Reuters reports](https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/)
+- [Gulf News — Houthi Attack Damages Riyadh Financial District Tower, No Casualties Reported](https://gulfnews.com/world/gulf/saudi/houthi-attack-damages-riyadh-financial-district-tower-nearby-buildings-1.500753983)
+- [The National — Saudi Arabia says Houthi attack hit wealth fund PIF tower in Riyadh](https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/)
+- [Al Jazeera, avec Reuters — Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south](https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south)
+- [The Times of Israel — Liveblog, November 19, 2026](https://www.timesofisrael.com/liveblog-november-19-2026/)
+- [Al Jazeera — Iran war live: Houthis escalate attacks on Saudi capital](https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/russian-strikes-kill-four-odesa-brussels-offers-kyiv/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/riyadh-houthi-missile-damages-tower-saudi-arabia-sovereign/
 
-## 4. Türkiye — At COP31 in Antalya, phasing out fossil fuels divides delegates two days before the close
+## 3. Ukraine — In Kyiv, Russian strikes hit the Austrian and Dutch embassies
 
-**The draft deal published on Monday offers two options on fossil fuels, one of them an outright phase-out. The European Union wants major changes, and the conference is due to end on Friday.**
+**One person was killed and four wounded in Kyiv on Thursday, where two European embassies were damaged. The EU has summoned Russia’s envoy, and Kyiv confirms it struck the Crimean bridge with Neptune missiles.**
 
-Some 200 countries gathered in Antalya, Turkey, for COP31 are haggling over an 18-page draft decision published on Monday November 16th, which offers two options on fossil fuels: the transition away from them agreed in 2023, or an outright phase-out. The EU’s climate commissioner, Wopke Hoekstra, says the text needs a thorough overhaul, while dozens of European, African and Pacific states that want the next IPCC report before COP33 are up against a bloc that includes Saudi Arabia and India. Australia’s minister, Chris Bowen, who is leading the negotiations under a presidency shared with Turkey, admitted that some clauses had already been rejected and promised at least one new draft before the close, due on Friday November 20th, though COPs often overrun.
+Russian strikes on Kyiv on Thursday November 19th killed at least one person and wounded four, according to Ukrainian officials quoted by AFP, and damaged the Austrian and Dutch embassies, shattering their windows but harming none of their staff. The attacks, launched on the very day Donald Trump, Xi Jinping and Vladimir Putin met in Shenzhen, led the EU’s foreign-policy chief, Kaja Kallas, to summon Russia’s representative in Brussels, as Kyiv confirmed it had struck the Crimean bridge with Neptune missiles. In Berlin, more than 30 heads of state and government from the coalition of the willing hosted Volodymyr Zelensky and the American envoys Steve Witkoff and Jared Kushner, who are preparing a new round of multilateral talks for which no date has been set.
 
-**The number :** 18 pages — length of the draft decision published on Monday
+**The number :** 98 drones — launched by Russia against Ukraine overnight from Wednesday to Thursday
 
-### The old fossil-fuel divide
+### Russian pressure on European capitals
 
-The text repeats the 2023 pledge to transition away from fossil fuels, but also offers more ambitious wording that oil producers have fought for years; according to Reuters, both could vanish from the final deal. The draft also calls on rich countries to reach net zero as early as 2030, a prospect that Antigua and Barbuda’s environment minister, Michael Joseph, thinks will be very hard to sell. Other issues divide delegates: adaptation finance for poor countries and a Turkish proposal to raise electricity’s share of global energy use to 35% by 2035. Every decision requires consensus, which is why conferences often run on for days, while a UN report published last month found the world on course to overshoot 1.5°C of warming.
-
-Sources :
-- [Al Jazeera, avec l’AFP — Tensions rise over draft climate deal at COP31](https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31)
-- [Reuters, via WHBL — First draft of COP31 deal signals tough negotiations to come](https://whbl.com/2026/11/16/first-draft-of-cop31-deal-signals-tough-negotiations-to-come/)
-- [Reuters, via Al-Monitor — First draft of COP31 deal signals tough negotiations to come](https://www.al-monitor.com/originals/2026/11/first-draft-cop31-deal-signals-tough-negotiations-come)
-
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/cop31-antalya-phasing-out-fossil-fuels-divides-delegates/
-
-## 5. Ethiopia — On the Ethiopia-Eritrea border, the two armies mass around Badme
-
-**According to conflict monitors and sources close to Tigrayan militias, Addis Ababa and Asmara have concentrated forces along their border. Fire has been exchanged near Badme, the flashpoint of the 1998-2000 war.**
-
-Ethiopia and Eritrea have massed forces along their shared border, according to the conflict monitor ACLED, the International Crisis Group and two sources close to Tigrayan militias quoted by Reuters on Wednesday November 18th, raising fears of open war between the neighbours. According to ACLED, Ethiopian drones struck probable Eritrean positions around Badme on November 12th, Eritrea answered with artillery and the two armies clashed on the Ethiopian side the next day, the first direct exchanges in more than a month, which Reuters could not confirm. Eritrea’s information minister, Yemane Gebremeskel, decries "propaganda" from Addis Ababa’s ruling party, which has not responded, while Magnus Taylor, an analyst at the International Crisis Group, fears that fighting against Tigrayan rebels could drag the two countries into direct conflict.
-
-**The number :** 1,000 — kilometres of border, at least, between Ethiopia and Eritrea
-
-### Yesterday’s allies, rivals once more
-
-Reconciled by their 2018 peace deal, Ethiopia and Eritrea fought side by side in the Tigray war of 2020-22. Relations then soured, not least after Ethiopia’s prime minister, Abiy Ahmed, called for his country to regain access to the sea, which Asmara read as an implicit threat of aggression, though Addis Ababa insists it wants to achieve this peacefully. The fighting between the federal army and Tigrayan rebels since September has brought the danger closer to the border, especially as Ethiopia’s army is pursuing the rebels to its edge. Eritrea, independent since 1993, accuses its neighbour of seeking a pretext to invade. Badme, whose control sparked the 1998-2000 war, was awarded to Eritrea by a boundary commission after the conflict.
+The damage to two diplomatic missions comes as Europeans try to make their voice heard in the talks launched by Washington. The American envoys met Vladimir Putin in Moscow on November 12th, after three-way talks in Abu Dhabi on November 10th and 11th that produced no territorial deal but a large prisoner exchange, according to the Kyiv Post. Russia’s embassy in the Netherlands accuses The Hague of openly taking part in the war, after the Dutch firm Destinus said its weapons had been used against the Crimean bridge, according to Africanews. Kaja Kallas promises more support for Ukraine and more pressure on Moscow, a week before a European Council that must settle Kyiv’s funding for 2027.
 
 Sources :
-- [Reuters, via Al-Monitor — Ethiopia and Eritrea amass forces along border, heightening war fears, sources say](https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say)
-- [Reuters, via TimesLIVE — Ethiopia and Eritrea amass forces along border, heightening war fears, sources say](https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/)
+- [The Copenhagen Post, avec l’AFP — Russian strikes on Kyiv kill one and damage Austrian and Dutch embassies](https://cphpost.dk/2026-11-20/global/russian-strikes-on-kyiv-kill-one-and-damage-austrian-and-dutch-embassies/)
+- [The Kyiv Independent — ’For Russia, nothing is sacred’ — Massive Russian drone attack on Kyiv kills 1, damages embassies](https://kyivindependent.com/breaking-dutch-embassy-damaged-in-russian-drone-strike-on-kyiv/)
+- [Africanews, avec l’AFP et AP — Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv](https://www.africanews.com/amp/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv/)
+- [OTAN — NATO Secretary General attends meeting of the Coalition of the Willing in Berlin](https://nato.int/en/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin)
+- [Kyiv Post — Trump’s Envoys Witkoff, Kushner to Join Coalition of the Willing Summit in Berlin](https://www.kyivpost.com/post/90536)
 
-https://charly4perrin-jpg.github.io/Diurna/en/2026/11/19/ethiopia-eritrea-border-two-armies-mass-around-badme/
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/kyiv-russian-strikes-hit-austrian-dutch-embassies/
+
+## 4. Türkiye — At COP31, the draft final deal drops every mention of fossil fuels
+
+**The text published in Antalya on Thursday, half the length of its predecessor, no longer speaks of moving away from coal, oil and gas. It does, however, concede that the 1.5°C threshold will be breached.**
+
+The draft final decision published in Antalya on Thursday November 19th by Australia, which presides over the COP31 negotiations, is half the length of the first version and no longer refers at all to abandoning coal, oil and gas, according to the UN and Euronews. The text acknowledges, for the first time according to Chris Bowen, that warming will exceed 1.5°C, asks that the overshoot be as brief as possible, targets a 35% share of electricity in final energy consumption by 2035 and reaffirms the tripling of adaptation finance. Australia’s climate minister, Chris Bowen, vows not to leave Antalya without a consensus as the conference is due to end on Friday, while small island states are demanding firmer language on fossil fuels.
+
+**The number :** 35% — target share of electricity in final energy consumption by 2035
+
+### The ghost of Belém
+
+The transition away from fossil fuels agreed at COP28 in Dubai had already vanished from the final text of COP30 in Belém, Euronews notes. In Antalya, the presidency shared between Turkey and Australia has opted for a slimmer text centred on electrification, which more than 150 countries and the European Union have joined, according to the UN. Finance, adaptation and the just transition remain open: adaptation finance fell from $81.5bn in 2022 to $64.1bn in 2024, according to a yearbook published during the conference. The Fund for Responding to Loss and Damage has received about $2.8bn in requests against $342m allocated, according to CNC3. Several European states, including Denmark, Spain and Portugal, have published their own phase-out road maps.
+
+Sources :
+- [ONU Info — COP31: Ambition goes missing as fossil fuel language drops from draft deal](https://news.un.org/en/story/2026/11/1168839)
+- [Euronews — Fossil fuels scrubbed from COP31 draft deal despite growing momentum](https://www.euronews.com/2026/11/19/fossil-fuels-scrubbed-from-cop31-draft-deal-despite-growing-momentum)
+- [CNC3 — COP31 climate deal drops fossil fuel pledge as leaders race to secure global agreement](https://www.cnc3.co.tt/cop31-climate-deal-drops-fossil-fuel-pledge-as-leaders-race-to-secure-global-agreement/)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/cop31-draft-final-deal-drops-every-mention-fossil/
+
+## 5. Somalia — Somalia expels the UAE’s ambassador, accusing Abu Dhabi of an "open invasion"
+
+**Mogadishu on Thursday gave the Emirati diplomat 72 hours to leave the country and recalled its own envoy. The federal government accuses Abu Dhabi of backing the regions that defy it.**
+
+Somalia’s information minister, Abdifatah Kasim Mohamud, announced through the state news agency on Thursday November 19th that the ambassador of the United Arab Emirates had 72 hours to leave the country and that Mogadishu was recalling its own envoy from Abu Dhabi, denouncing an "open invasion". Two days earlier the president, Hassan Sheikh Mohamud, had accused the Emirates of giving economic and political backing to regional administrations opposed to the federal government and of signing deals with them over the ports of Berbera, Bosaso and Kismayo. Abu Dhabi, which denies any interference, calls the move "hostile" and regrets being dragged into Somalia’s power struggles, even as the Emirates still fund some 3,400 Somali troops around the capital, according to sources quoted by Reuters.
+
+**The number :** 72 hours — given to the Emirati ambassador to leave Somalia
+
+### Ports at the heart of a regional rivalry
+
+The expulsion is the harshest step taken against Abu Dhabi since January, when Mogadishu cancelled all its agreements with the Emirates, including port contracts and defence co-operation, according to Al Jazeera. The Emirates then closed their embassy and withdrew their staff. Three autonomous regions close to Abu Dhabi rejected the cancellation, a sign of the fragmentation of a country where the federal state struggles to assert itself. The Emirates have invested hundreds of millions of dollars in ports and military infrastructure along the coast, and trained hundreds of Somali soldiers between 2014 and 2018. The federal government has still not defeated the Islamists of al-Shabab, despite African peacekeepers and American air strikes, according to Reuters.
+
+Sources :
+- [Al Jazeera — Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty](https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty)
+- [Reuters, via Al-Monitor — Somalia orders UAE ambassador to leave, citing ’invasion’](https://www.al-monitor.com/originals/2026/11/somalia-orders-uae-ambassador-leave-citing-invasion)
+- [Reuters, via Cyprus Mail — Somalia orders UAE ambassador to leave, citing ’invasion’](https://cyprus-mail.com/2026/11/19/somalia-orders-uae-ambassador-to-leave-citing-invasion)
+
+https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/somalia-expels-uae-ambassador-accusing-abu-dhabi-open/
 
 ## In brief
 
-- **Israel** : The Knesset on Tuesday elected Matan Kahana as its speaker by 66 votes to 52, a win for Gadi Eisenkot, who has been asked to form a government, and for Binyamin Netanyahu’s opponents. ([Source](https://www.timesofisrael.com/liveblog-november-18-2026/))
-- **Myanmar** : Myanmar’s president, Min Aung Hlaing, told parliament that his country would review its relations with ASEAN, which he accuses of treating it unfairly. ([Source](https://apnews.com/article/min-aung-hlaing-asean-peace-plan-turmoil-97e863b842b3a3ad805635b11a7aea8c))
-- **United Kingdom** : An American lieutenant-colonel arrested in London on suspicion of spying for Russia has been handed over to the custody of the American army, according to British counter-terrorism police. ([Source](https://www.bbc.co.uk/news/articles/c6x284ez38vdo))
+- **Iraq** : Iraq’s prime minister, Ali al-Zaidi, has ordered the army into Jurf al-Sakhar, a stronghold of Kataib Hezbollah, and set Friday as the deadline for the militia to leave, amid an investigation into oil smuggling. ([Source](https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah))
+- **Mongolia** : Mongolia’s president, Ukhnaagiin Khurelsukh, accused of corruption by the opposition, announced his resignation on Tuesday; it must be approved by the State Great Khural, the 126-member parliament. ([Source](https://www.thestar.com.my/news/world/2026/11/17/mongolian-president-announces-resignation-over-alleged-corruption))
+- **Serbia** : The Student List, which won October’s parliamentary election with 140 of 250 seats, has taken its place in parliament, which now has 90 days to form a new government. ([Source](https://www.aljazeera.com/news/2026/11/17/election-winning-student-movement-enters-serbias-new-parliament))
 
 ## Coming up
 
-- 19 Nov : First three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin, in Shenzhen.
-- 19 Nov : Meeting of the coalition of the willing for Ukraine, in Berlin.
 - 20 Nov : Scheduled close of COP31, in Antalya.
-- 26 Nov : Two-day European Council, focused partly on financing Ukraine in 2027.
+- 22 Nov : The 72-hour deadline for the Emirati ambassador to leave Somalia expires.
+- 26 Nov : Two-day European Council summit, focused notably on financing Ukraine in 2027.
 - 29 Nov : Snap general election in Spain.
-- 1 Dec : Border crossings between Estonia and Russia close.
+- 1 Dec : Crossing points between Estonia and Russia close.
 - 6 Dec : Initial deadline for Gadi Eisenkot to form a government in Israel expires.

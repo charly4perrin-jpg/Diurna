@@ -1,364 +1,376 @@
 {
-  "date": "2026-11-19",
-  "number": 15,
-  "updated": "2026-11-19T19:45:00+01:00",
-  "headline": "Trump, Xi and Putin issue a \"peace declaration\" as Iran claims an attack in Kuwait",
-  "standfirst": "Donald Trump, Xi Jinping and Vladimir Putin issued a joint declaration in Shenzhen on Thursday promising talks on nuclear risks, but saying nothing about Ukraine or Iran. Iran says it targeted a base in Kuwait, Russian strikes killed four in Odesa, and COP31 is stuck on fossil fuels.",
+  "date": "2026-11-20",
+  "number": 16,
+  "updated": "2026-11-20T07:02:36+01:00",
+  "headline": "ICJ finds Myanmar guilty of genocide against the Rohingya as Houthis strike Riyadh's financial heart",
+  "standfirst": "The International Court of Justice on Thursday found a state guilty of genocide for the first time: Myanmar, for the violence of 2017 against the Rohingya. A Houthi missile damaged the tower of Saudi Arabia's sovereign wealth fund, Russian strikes hit two embassies in Kyiv, and COP31 enters its final day with no commitment on fossil fuels.",
   "essentials": [
     {
       "rank": 1,
-      "id": "CHN",
-      "place": "China",
+      "id": "MMR",
+      "place": "Myanmar",
       "section": "Asia-Pacific",
       "focus": [
-        114.06,
-        22.54
+        92.9,
+        20.8
       ],
       "radar": false,
       "types": [
+        "society",
         "diplomacy"
       ],
-      "title": "In Shenzhen, Trump, Xi and Putin issue a \"peace declaration\" silent on Ukraine and Iran",
-      "standfirst": "Meeting as a trio for the first time, on the sidelines of APEC, the American, Chinese and Russian leaders issued a text promising dialogue on nuclear risks. The declaration mentions neither the war in Ukraine nor the war with Iran.",
+      "title": "The International Court of Justice finds Myanmar guilty of genocide against the Rohingya",
+      "standfirst": "By nine votes to six, the court in The Hague ruled on Thursday that Myanmar's army committed genocide in northern Rakhine state in 2017. It is the first time the court has found a state guilty of the crime.",
       "body": [
-        "Meeting in Shenzhen on Thursday November 19th, on the sidelines of the APEC summit, for a first three-way session of more than an hour chaired by Xi Jinping, the Chinese, American and Russian leaders issued a \"peace declaration\" reaffirming that a nuclear war cannot be won, according to Reuters.",
-        "The largely symbolic text, as the agency describes it, sets out an open-ended dialogue on reducing nuclear risks and preventing proliferation, pledges UN reform, more fuel supplies and respect for the immunity of leaders before international courts, but mentions neither the war in Ukraine nor the one with Iran.",
-        "Vladimir Putin conceded that the declaration set no ambitious goals and said he would consider attending the G20 that Donald Trump hosts in Florida next month, while Ukraine's foreign minister, Andriy Sybiha, said Shenzhen had not turned out to be the \"Yalta\" Moscow had dreamed of."
+        "The International Court of Justice ruled in The Hague on Thursday November 19th, by nine votes to six, that Myanmar committed genocide against the Rohingya in northern Rakhine state, a first in the history of the UN's top court, which The Gambia petitioned in 2019.",
+        "Reading a judgment that took three hours, the court's president, Yuji Iwasawa, found that security forces killed thousands of civilians in the 2017 operations, which drove more than 700,000 Rohingya into Bangladesh, and that only an intent to destroy the group could explain them.",
+        "The ruling is final but the court has no means of enforcing it; it orders Naypyidaw to prosecute those responsible and allow refugees to return voluntarily, while Britain has expelled Myanmar's defence attaché and is calling for an urgent meeting of the Security Council."
       ],
       "figure": {
-        "value": "3",
-        "label": "leading nuclear powers gathered around one table",
-        "compare": "with no commitment to cut arsenals in the declaration, according to Reuters"
+        "value": "9 to 6",
+        "label": "the judges' vote finding that Myanmar committed genocide",
+        "compare": "the first time the court has convicted a state of genocide"
       },
       "modules": {
-        "table": {
-          "ids": [
-            "CHN",
-            "USA",
-            "RUS"
-          ],
-          "host": "CHN",
-          "positions": [
-            {
-              "who": "Washington",
-              "wants": "Donald Trump says Xi Jinping agreed that the Strait of Hormuz must stay open and that Iran must not have a nuclear weapon."
-            },
-            {
-              "who": "Beijing",
-              "wants": "Xi Jinping urges the powers to shed a \"Cold War mentality\" and repeats that a nuclear war must never be fought."
-            },
-            {
-              "who": "Moscow",
-              "wants": "Vladimir Putin says the three countries can strengthen global stability if they co-operate constructively."
-            }
-          ],
-          "next": {
-            "d": "2026-12",
-            "t": "G20 summit in Florida, where Donald Trump is due to meet Xi Jinping again."
-          },
-          "source": {
-            "name": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways"
-          }
-        },
-        "places": {
+        "actors": {
           "items": [
             {
-              "name": "Shenzhen",
-              "coords": [
-                114.06,
-                22.54
-              ],
-              "note": "Host city of the APEC summit, where Donald Trump, Xi Jinping and Vladimir Putin held their first three-way meeting on Thursday.",
-              "source": {
-                "name": "Reuters, via Al-Monitor",
-                "url": "https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit"
-              }
+              "name": "Yuji Iwasawa",
+              "role": "President of the International Court of Justice, who read out the judgment."
+            },
+            {
+              "name": "The Gambia",
+              "role": "The applicant state, backed by the Organisation of Islamic Cooperation, which brought the case in November 2019."
+            },
+            {
+              "name": "Min Aung Hlaing",
+              "role": "Commander of the 2017 operations and leader of the 2021 coup, now Myanmar's president."
+            },
+            {
+              "name": "Volker Türk",
+              "role": "UN High Commissioner for Human Rights, who welcomed a judgment establishing Myanmar's responsibility."
             }
-          ]
+          ],
+          "source": {
+            "name": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya"
+          }
+        },
+        "dates": {
+          "items": [
+            {
+              "d": "2017-08-25",
+              "t": "ARSA attacks on security posts, followed by the army's \"clearance operations\"."
+            },
+            {
+              "d": "2019-11-11",
+              "t": "The Gambia takes Myanmar to the International Court of Justice."
+            },
+            {
+              "d": "2026-11-19",
+              "t": "The court finds that genocide was committed, by nine votes to six."
+            }
+          ],
+          "source": {
+            "name": "American Society of International Law",
+            "url": "https://asil.org/ilib/icj-rules-myanmar-committed-genocide-against-rohingya/"
+          }
+        },
+        "table": {
+          "ids": [
+            "GMB",
+            "MMR",
+            "BGD"
+          ],
+          "positions": [
+            {
+              "who": "The Gambia",
+              "wants": "Hails \"a historic day for international justice\" and calls on Myanmar to comply with the ruling without delay."
+            },
+            {
+              "who": "Bangladesh",
+              "wants": "Welcomes the decision and says the repatriation of refugees remains the only viable solution."
+            },
+            {
+              "who": "The National Unity Government",
+              "wants": "Myanmar's opposition in exile says it respects the court's authority and will study its orders."
+            }
+          ],
+          "source": {
+            "name": "Al Jazeera, avec Reuters",
+            "name_en": "Al Jazeera, with Reuters",
+            "url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya"
+          }
         }
       },
       "analysis": {
-        "title": "A summit of modest ambitions",
-        "text": "The declaration shows how far apart the three remain: since New START expired, Washington has wanted to bring Beijing into arms control, but China refuses to negotiate over its smaller arsenal, and the text contains no commitment to cuts, according to Reuters. The pledge to respect leaders' immunity before international courts comes more than three years after the International Criminal Court issued an arrest warrant for Vladimir Putin, whose government rejects the allegations. Trade remains unresolved: the truce struck in Busan in October 2025, after an escalation that had pushed American tariffs on Chinese goods as high as 145%, has been extended to January 10th 2027, according to Al Jazeera, and Donald Trump is due to see Xi Jinping again at the G20 in Florida."
+        "title": "A legal victory without teeth",
+        "text": "The judgment closes a seven-year case: the court ordered Myanmar to prevent genocidal acts as early as January 2020, then dismissed its objections in 2022. The judges cited killings, serious harm and measures intended to prevent births, rejecting the claim that these were mere counter-insurgency operations. The minority, led by the vice-president, Julia Sebutinde, accused them of lowering the standard of proof, according to the American Society of International Law. Myanmar must report back to the court within two years, but enforcement rests with the Security Council. Some 1.2m Rohingya live in the camps of Cox's Bazar, in Bangladesh, according to the UN, and the ruling could weigh on other cases, including South Africa's against Israel."
       },
       "keys": [
         {
-          "title": "The fuel pledge",
-          "text": "The three powers promise to increase supplies of fuel products for all countries, according to Reuters, as the war with Iran disrupts the Gulf. Al Jazeera notes that it is unclear how the pledge will be put into practice."
+          "title": "The Srebrenica precedent",
+          "text": "In 2007 the court faulted Serbia for failing to prevent the Srebrenica massacre, without finding it a perpetrator of genocide. This time the state itself has been held responsible."
         },
         {
-          "title": "The Beijing-Moscow axis",
-          "text": "Xi Jinping described Sino-Russian relations as solid \"as a mountain\". The two leaders signed more than 40 co-operation agreements at a summit in Beijing in May."
+          "title": "Reparations",
+          "text": "The Gambia will be able to seek reparations on behalf of the victims, according to Human Rights Watch. The court calls for the return of property, a search for the missing and guarantees of non-repetition."
         },
         {
-          "title": "Ukraine on the sidelines",
-          "text": "Absent from the declaration, the war in Ukraine dominated the bilateral talks between Donald Trump and Vladimir Putin, according to Al Jazeera. The same day, European and Ukrainian leaders were due to meet the American envoys Steve Witkoff and Jared Kushner in Berlin."
+          "title": "America's position",
+          "text": "An American official told Al Jazeera that Washington was studying the decision and warned against politicising the court. The UN secretary-general, António Guterres, has urged Myanmar to comply."
         }
       ],
       "involved": [
-        "USA",
-        "RUS"
+        "GMB",
+        "BGD"
       ],
       "context": [
         {
-          "d": "2025-08-15",
-          "t": "Summit between Donald Trump and Vladimir Putin in Alaska."
+          "d": "2017-08-25",
+          "t": "Military operations against the Rohingya begin in Rakhine state."
         },
         {
-          "d": "2025-10",
-          "t": "Sino-American trade truce agreed in Busan."
+          "d": "2019-11-11",
+          "t": "The Gambia takes Myanmar to the International Court of Justice."
         },
         {
-          "d": "2026-02",
-          "t": "The Russian-American New START treaty expires."
+          "d": "2020-01",
+          "t": "The court orders Myanmar to prevent any act of genocide."
         },
         {
-          "d": "2026-11-18",
-          "t": "Xi Jinping welcomes Donald Trump to Shenzhen; talks between Xi Jinping and Vladimir Putin."
+          "d": "2026-01",
+          "t": "Hearings on the merits in The Hague, with some testimony heard behind closed doors."
         },
         {
           "d": "2026-11-19",
-          "t": "Trump-Putin talks, then a first three-way meeting and a \"peace declaration\"."
-        },
-        {
-          "d": "2026-12",
-          "t": "G20 summit in Florida."
+          "t": "The court finds Myanmar guilty of genocide."
         }
       ],
       "sources": [
         {
-          "name": "Reuters, via Al-Monitor",
-          "title": "Trump, Xi and Putin release 'peace declaration' from unprecedented summit",
-          "url": "https://www.al-monitor.com/originals/2026/11/trump-xi-and-putin-release-peace-declaration-unprecedented-summit",
+          "name": "Al Jazeera",
+          "title": "UN's top court finds Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/un-top-court-finds-myanmar-killed-10000-rohingya-as-it-rules-on-genocide",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Al Jazeera, avec Reuters",
+          "name_en": "Al Jazeera, with Reuters",
+          "title": "World reacts to ICJ finding Myanmar guilty of genocide against Rohingya",
+          "url": "https://www.aljazeera.com/news/2026/11/19/world-reacts-to-icj-finding-myanmar-guilty-of-genocide-against-rohingya",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Human Rights Watch",
+          "title": "World Court Finds Myanmar Committed Rohingya Genocide",
+          "url": "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "American Society of International Law",
+          "title": "ICJ Rules Myanmar Committed Genocide Against Rohingya",
+          "url": "https://asil.org/ilib/icj-rules-myanmar-committed-genocide-against-rohingya/",
           "date": "2026-11-19"
         },
         {
           "name": "Al Jazeera",
-          "title": "'Groundbreaking' Trump-Xi-Putin summit: Five key takeaways",
-          "url": "https://www.aljazeera.com/news/2026/11/19/groundbreaking-trump-xi-putin-summit-five-key-takeaways",
+          "title": "What the ICJ genocide ruling means for the Rohingya people",
+          "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya",
           "date": "2026-11-19"
-        },
-        {
-          "name": "ANI, via The Tribune",
-          "title": "\"Wonderful things can come out of this\": Trump holds bilateral talks with Putin in Shenzen",
-          "url": "https://www.tribuneindia.com/news/apec-summit/wonderful-things-can-come-out-of-this-trump-holds-bilateral-talks-with-putin-in-shenzen",
-          "date": "2026-11-19"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "What do Trump, Putin and Xi want from their Shenzhen meeting?",
-          "url": "https://www.aljazeera.com/news/2026/11/19/what-do-trump-putin-and-xi-want-from-their-shenzhen-meeting",
-          "date": "2026-11-19"
-        },
-        {
-          "name": "Atlantic Council",
-          "title": "What Trump, Putin, and Xi want from their meeting in Shenzhen",
-          "url": "https://www.atlanticcouncil.org/dispatches/what-trump-putin-and-xi-want-from-their-meeting-in-shenzhen/",
-          "date": "2026-11-17"
         }
       ],
       "dossier": {
-        "id": "trump-xi-putin-summit",
-        "title": "The Trump-Xi-Putin summit"
+        "id": "rohingya-genocide",
+        "title": "The Rohingya genocide"
       },
-      "slug": "shenzhen-trump-sits-down-putin-before-first-three",
-      "updates": [
-        {
-          "time": "2026-11-19T19:45:00+01:00",
-          "text": "The three-way meeting took place: title, text, figure, modules and keys rewritten after the \"peace declaration\" was issued."
-        }
-      ]
+      "slug": "international-court-justice-finds-myanmar-guilty-genocide-against"
     },
     {
       "rank": 2,
-      "id": "IRN",
-      "place": "Iran",
+      "id": "SAU",
+      "place": "Saudi Arabia",
       "section": "Middle East",
       "focus": [
-        54,
-        26.5
+        46.64,
+        24.76
       ],
       "radar": false,
       "types": [
-        "conflict",
-        "economy"
+        "conflict"
       ],
-      "title": "Iran claims an attack on a base in Kuwait as ships are hit near Hormuz",
-      "standfirst": "Iran's army says it targeted the Ali Al Salem base in Kuwait on Wednesday in retaliation for the American strike on Qeshm. A vessel belonging to the Emirati firm Adnoc was attacked off Oman, leaving 11 injured and one missing.",
+      "title": "In Riyadh, a Houthi missile damages the tower of Saudi Arabia's sovereign wealth fund",
+      "standfirst": "The Public Investment Fund tower, Riyadh's tallest skyscraper, was hit before dawn on Thursday, with no casualties according to civil defence. The Saudi-led coalition is stepping up its strikes in Yemen.",
       "body": [
-        "Iran's army said on Wednesday November 18th that its drones had targeted Patriot air-defence batteries at the Ali Al Salem base in Kuwait, which hosts American forces, in retaliation for Washington's strike the day before on a missile site on Qeshm island, according to Press TV, quoted by ABC News.",
-        "Washington has not confirmed the claims; meanwhile Iran's navy says three tankers caught fire after hitting mines east of the Strait of Hormuz, and Adnoc's shipping arm reports 11 injured and one missing aboard one of its vessels, attacked off Oman on Tuesday night.",
-        "The head of Iran's army, General Amir Hatami, promises a response \"without geographical limits\" to any further American action, while Riyadh and Abu Dhabi have condemned the attacks and Bahrain is calling for action by the Security Council, on the eve of the Shenzhen summit."
+        "A missile fired by the Houthis damaged the 80-storey tower of the Public Investment Fund, Saudi Arabia's sovereign wealth fund, in Riyadh's King Abdullah Financial District before dawn on Thursday November 19th, blowing out windows on seven or eight floors but injuring no one, according to civil defence.",
+        "The Saudi-led coalition says it intercepted four ballistic missiles and a cruise missile aimed at the south of the kingdom and destroyed a launcher in Saada province; it was the second hit on the financial district in under two weeks, after an Aramco building on November 8th.",
+        "The Houthis say Saudi strikes have killed ten people in Sanaa in two days, while Yemen's Presidential Council has designated them a \"terrorist\" organisation and Donald Trump says he wants to see \"what happens after January 1st\" with Iran."
       ],
       "figure": {
-        "value": "11",
-        "label": "sailors injured aboard the Adnoc vessel attacked off Oman",
-        "compare": "with one crew member missing"
-      },
-      "since": {
-        "date": "2026-02-28",
-        "label": "since the war began"
+        "value": "2,260",
+        "label": "deaths in Yemen since fighting resumed in August, according to the WHO",
+        "compare": "and 10,519 wounded"
       },
       "modules": {
         "toll": {
           "items": [
             {
-              "value": "11",
-              "label": "injured aboard the Adnoc vessel attacked in the Strait of Hormuz",
-              "by": "Adnoc Logistics and Services",
-              "date": "2026-11-18",
-              "source": {
-                "name": "Gulf News",
-                "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757"
-              }
+              "value": "2,260",
+              "label": "killed since the escalation began in August",
+              "by": "World Health Organisation",
+              "date": "2026-11-19"
             },
             {
-              "value": "1",
-              "label": "crew member missing, search under way",
-              "by": "Adnoc Logistics and Services",
-              "date": "2026-11-18",
-              "source": {
-                "name": "Gulf News",
-                "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757"
-              }
+              "value": "10,519",
+              "label": "wounded since the escalation began in August",
+              "by": "World Health Organisation",
+              "date": "2026-11-19"
+            },
+            {
+              "value": "330,000",
+              "label": "people displaced, around 174,000 of them children",
+              "by": "UNICEF",
+              "date": "2026-11-19"
             }
-          ]
+          ],
+          "source": {
+            "name": "Al Jazeera, avec Reuters",
+            "name_en": "Al Jazeera, with Reuters",
+            "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south"
+          }
         },
         "places": {
           "items": [
             {
-              "name": "Ali Al Salem air base (Kuwait)",
+              "name": "Public Investment Fund tower, Riyadh",
               "coords": [
-                47.52,
-                29.35
+                46.64,
+                24.76
               ],
-              "note": "Iran's army says it targeted Patriot batteries there; Washington has not confirmed.",
+              "note": "Eighty storeys, with windows blown out on seven or eight floors and the facade damaged; the financial district was evacuated.",
               "source": {
-                "name": "ABC News",
-                "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071"
+                "name": "Gulf News",
+                "url": "https://gulfnews.com/world/gulf/saudi/houthi-attack-damages-riyadh-financial-district-tower-nearby-buildings-1.500753983"
               }
             },
             {
-              "name": "Qeshm island (Iran)",
+              "name": "Sanaa (Yemen)",
               "coords": [
-                55.9,
-                26.8
+                44.21,
+                15.35
               ],
-              "note": "Revolutionary Guards missile site struck by American aircraft on Tuesday, according to an American military official.",
+              "note": "Targeted by Saudi air raids, according to the Houthi-controlled Saba news agency.",
               "source": {
-                "name": "Gulf News",
-                "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757"
+                "name": "Al Jazeera, avec Reuters",
+                "name_en": "Al Jazeera, with Reuters",
+                "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south"
+              }
+            },
+            {
+              "name": "Saada province (Yemen)",
+              "coords": [
+                43.76,
+                16.94
+              ],
+              "note": "The coalition says it destroyed a missile launcher there.",
+              "source": {
+                "name": "The National",
+                "url": "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/"
               }
             }
           ]
         },
-        "market": {
-          "series": "brent",
-          "from": "2026-01-01",
-          "mark": {
-            "d": "2026-02-28",
-            "label": "War begins"
-          }
+        "help": {
+          "orgs": [
+            "unicef",
+            "icrc",
+            "wfp"
+          ]
         }
       },
       "analysis": {
-        "title": "Hormuz, a maritime battlefield",
-        "text": "Since April the United States has enforced a naval blockade of Iran's ports on the Gulf and the Gulf of Oman, now backed by three aircraft carriers after the Theodore Roosevelt joined the George H.W. Bush and the George Washington, according to Gulf News. Tehran has responded by claiming attacks on shipping and often blaming the damage on mines. The speaker of Iran's parliament and chief negotiator, Mohammad Ghalibaf, has warned that any dam, port or power station near an American or Israeli base could be treated as a dual-use target. Diplomatically, the memorandum of understanding signed in June to end the war remains a dead letter, according to ABC News, and Pakistan is awaiting Washington's reply to an Iranian proposal to reopen the strait."
+        "title": "Yemen's war reaches the Gulf",
+        "text": "Yemen's war resumed in August, after the Houthis seized strategic stretches of the Red Sea coast, ending the UN-brokered truce of 2022, according to Al Jazeera. Government forces say they have carried out some 750 strikes and operations, notably around Taiz and Lahij. The Iran-aligned Houthis are now hitting Saudi Arabia's economic heart: King Khalid International Airport and an Aramco administrative building have already been targeted. On Thursday the Saudi defence minister, Prince Khalid bin Salman, received the head of US Central Command, Admiral Brad Cooper, in Riyadh, according to the official SPA news agency. In Washington, Donald Trump has suggested that a strike on Iran is not imminent, while promising to \"obliterate\" it if it attacks."
       },
       "keys": [
         {
-          "title": "Economic pressure",
-          "text": "America's treasury secretary, Scott Bessent, expects Iran's economy to shrink by 25% over the coming year. A new force, dubbed \"Iron Gate\", is targeting Iran's overland and Caspian routes, according to Gulf News."
+          "title": "The terrorist designation",
+          "text": "Yemen's Presidential Leadership Council on Thursday designated the Houthis a \"terrorist\" organisation, according to Al Jazeera. The move further narrows the prospects of a negotiated settlement."
         },
         {
-          "title": "The Yemeni front",
-          "text": "The Saudi-led coalition says it struck 60 Houthi targets on Tuesday and intercepted two cruise missiles fired towards Riyadh on Wednesday. The Houthis claim to have targeted oil pumping stations."
+          "title": "The displaced",
+          "text": "More than 330,000 people, around 174,000 of them children, have been displaced since fighting resumed, according to UNICEF. Besieged Taiz is short of water and humanitarian aid."
         },
         {
-          "title": "The airlines",
-          "text": "Etihad has suspended flights between Abu Dhabi, Riyadh and Dammam until Thursday. The Emirates is keeping its ban on citizens travelling to Iran."
+          "title": "America's timetable",
+          "text": "Speaking to Fox News, Donald Trump claimed that Iran was interested in chemical and biological weapons. He has put off any decision on the war until after January 1st."
         }
       ],
       "involved": [
-        "USA",
-        "KWT",
-        "ARE",
-        "OMN"
-      ],
-      "zones": [
-        {
-          "id": "HORMUZ",
-          "name": "Hormuz",
-          "coords": [
-            56.4,
-            26.5
-          ]
-        }
+        "YEM",
+        "IRN",
+        "USA"
       ],
       "context": [
         {
-          "d": "2026-02-28",
-          "t": "War breaks out between the United States, Israel and Iran."
+          "d": "2022-04",
+          "t": "UN-brokered truce in Yemen."
         },
         {
-          "d": "2026-04",
-          "t": "America begins its naval blockade of Iranian ports."
+          "d": "2026-08",
+          "t": "War resumes in Yemen after a Houthi offensive on the Red Sea coast."
         },
         {
-          "d": "2026-06",
-          "t": "A memorandum of understanding to end the war is signed but goes nowhere."
-        },
-        {
-          "d": "2026-11-17",
-          "t": "American strike on Qeshm; an Adnoc vessel is attacked off Oman."
-        },
-        {
-          "d": "2026-11-18",
-          "t": "Iran claims an attack on the Ali Al Salem base in Kuwait."
+          "d": "2026-11-08",
+          "t": "An Aramco building is hit in Riyadh's financial district."
         },
         {
           "d": "2026-11-19",
-          "t": "The war is on the agenda of the Trump-Xi-Putin meeting in Shenzhen."
+          "t": "The sovereign wealth fund's tower is damaged; Yemen's government designates the Houthis \"terrorists\"."
+        },
+        {
+          "d": "2027-01-01",
+          "t": "The date Donald Trump has cited for deciding the next steps in the war with Iran."
         }
       ],
       "sources": [
         {
-          "name": "ABC News",
-          "title": "Iran live updates: Tehran warns US against 'miscalculation,' tanker hit in strait",
-          "url": "https://abcnews.com/International/live-updates/iran-live-updates-tanker-attacked-strait-hormuz-ukmto/?id=138171071",
-          "date": "2026-11-18"
-        },
-        {
           "name": "Gulf News",
-          "title": "US/Israel-Iran war: What UAE residents need to know today (Nov. 18, 2026)",
-          "url": "https://gulfnews.com/uae/usisrael-iran-war-what-uae-residents-need-to-know-today-nov-18-2026-1.500751757",
-          "date": "2026-11-18"
+          "title": "Houthi Attack Damages Riyadh Financial District Tower, No Casualties Reported",
+          "url": "https://gulfnews.com/world/gulf/saudi/houthi-attack-damages-riyadh-financial-district-tower-nearby-buildings-1.500753983",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "The National",
+          "title": "Saudi Arabia says Houthi attack hit wealth fund PIF tower in Riyadh",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/11/19/saudi-sovereign-wealth-fund-tower-in-riyadh-damaged-in-houthi-strike/",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Al Jazeera, avec Reuters",
+          "name_en": "Al Jazeera, with Reuters",
+          "title": "Saudi-led coalition intercepts Houthi missiles targeting Riyadh and south",
+          "url": "https://www.aljazeera.com/news/2026/11/19/saudi-led-coalition-intercepts-houthi-missiles-targeting-riyadh-and-south",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "The Times of Israel",
+          "title": "Liveblog, November 19, 2026",
+          "url": "https://www.timesofisrael.com/liveblog-november-19-2026/",
+          "date": "2026-11-19"
         },
         {
           "name": "Al Jazeera",
-          "title": "Iran war live: US says it hits IRGC Qeshm site; Iran says US drone downed",
-          "url": "https://www.aljazeera.com/news/liveblog/2026/11/18/iran-war-live-kuwait-says-intercepting-hostile-drone-attacks",
-          "date": "2026-11-18"
-        },
-        {
-          "name": "Khaleej Times",
-          "title": "Three Indian sailors safe after attack on oil tanker in Gulf on Nov 18: Minister",
-          "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-18-2026",
-          "date": "2026-11-18"
-        },
-        {
-          "name": "Al Jazeera",
-          "title": "Saudi coalition hits 60 Houthi military sites; Taiz sees 'fierce battles'",
-          "url": "https://www.aljazeera.com/news/2026/11/18/houthis-advance-on-aden-as-saudi-coalition-targets-military-sites",
-          "date": "2026-11-18"
+          "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+          "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital",
+          "date": "2026-11-19"
         }
       ],
       "dossier": {
-        "id": "iran-war",
-        "title": "The Iran war"
+        "id": "yemen-war",
+        "title": "The war in Yemen"
       },
-      "slug": "iran-claims-attack-base-kuwait-ships-hit-near"
+      "slug": "riyadh-houthi-missile-damages-tower-saudi-arabia-sovereign"
     },
     {
       "rank": 3,
@@ -366,25 +378,25 @@
       "place": "Ukraine",
       "section": "Europe",
       "focus": [
-        33,
-        48
+        30.52,
+        50.45
       ],
       "radar": false,
       "types": [
         "conflict",
-        "economy"
+        "diplomacy"
       ],
-      "title": "Russian strikes kill four in Odesa as Brussels offers Kyiv a €45bn loan",
-      "standfirst": "Russian strikes hit Odesa's historic centre, part of it a UNESCO World Heritage site, on Wednesday, killing at least four people. The European Commission is proposing a €45bn loan for next year.",
+      "title": "In Kyiv, Russian strikes hit the Austrian and Dutch embassies",
+      "standfirst": "One person was killed and four wounded in Kyiv on Thursday, where two European embassies were damaged. The EU has summoned Russia's envoy, and Kyiv confirms it struck the Crimean bridge with Neptune missiles.",
       "body": [
-        "At least four people were killed and 13 injured in Odesa on Wednesday November 18th when three Russian strikes hit the historic centre, including a UNESCO-protected area, according to local officials, with Volodymyr Zelensky accusing Moscow of striking again after rescuers arrived.",
-        "The same day the European Commission proposed a €45bn loan to cover part of a financing gap put at €70bn for next year, to be repaid only once Russia has paid reparations, according to its president, Ursula von der Leyen.",
-        "Overnight Ukrainian forces struck the Crimean bridge again, where rail traffic was suspended according to Russia's transport ministry, while the coalition of the willing meets in Berlin on Thursday to discuss air defence and energy."
+        "Russian strikes on Kyiv on Thursday November 19th killed at least one person and wounded four, according to Ukrainian officials quoted by AFP, and damaged the Austrian and Dutch embassies, shattering their windows but harming none of their staff.",
+        "The attacks, launched on the very day Donald Trump, Xi Jinping and Vladimir Putin met in Shenzhen, led the EU's foreign-policy chief, Kaja Kallas, to summon Russia's representative in Brussels, as Kyiv confirmed it had struck the Crimean bridge with Neptune missiles.",
+        "In Berlin, more than 30 heads of state and government from the coalition of the willing hosted Volodymyr Zelensky and the American envoys Steve Witkoff and Jared Kushner, who are preparing a new round of multilateral talks for which no date has been set."
       ],
       "figure": {
-        "value": "€45bn",
-        "label": "loan to Ukraine proposed by the European Commission",
-        "compare": "against a financing need put at €70bn"
+        "value": "98 drones",
+        "label": "launched by Russia against Ukraine overnight from Wednesday to Thursday",
+        "compare": "alongside Onyx anti-ship missiles, according to Ukraine's air force"
       },
       "since": {
         "date": "2022-02-24",
@@ -394,156 +406,176 @@
         "toll": {
           "items": [
             {
-              "value": "4",
-              "label": "killed and 13 injured in the strikes on Odesa",
-              "by": "local authorities",
-              "date": "2026-11-18",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
-              }
+              "value": "1",
+              "label": "killed in Kyiv in Thursday's strikes",
+              "by": "Ukrainian officials, quoted by AFP",
+              "date": "2026-11-19"
             },
             {
-              "value": "5",
-              "label": "killed in the Donetsk and Kharkiv regions in 24 hours",
-              "by": "regional authorities",
-              "date": "2026-11-18",
-              "source": {
-                "name": "The Kyiv Independent",
-                "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/"
-              }
+              "value": "4",
+              "label": "wounded in Kyiv",
+              "by": "Ukrainian officials, quoted by AFP",
+              "date": "2026-11-19"
             }
-          ]
+          ],
+          "source": {
+            "name": "The Copenhagen Post, avec l'AFP",
+            "name_en": "The Copenhagen Post, with AFP",
+            "url": "https://cphpost.dk/2026-11-20/global/russian-strikes-on-kyiv-kill-one-and-damage-austrian-and-dutch-embassies/"
+          }
         },
         "places": {
           "items": [
             {
-              "name": "Odesa",
+              "name": "Kyiv",
               "coords": [
-                30.73,
-                46.48
+                30.52,
+                50.45
               ],
-              "note": "Three strikes on the historic centre; a UNESCO-listed area was hit, according to the city council.",
+              "note": "The Austrian and Dutch embassies were damaged; debris fell near Brazil's, according to the foreign minister, Andrii Sybiha.",
               "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
+                "name": "The Copenhagen Post, avec l'AFP",
+                "name_en": "The Copenhagen Post, with AFP",
+                "url": "https://cphpost.dk/2026-11-20/global/russian-strikes-on-kyiv-kill-one-and-damage-austrian-and-dutch-embassies/"
               }
             },
             {
-              "name": "Kerch bridge",
+              "name": "Crimean bridge",
               "coords": [
                 36.51,
-                45.3
+                45.31
               ],
-              "note": "Struck again overnight from Wednesday to Thursday; rail traffic suspended, according to Moscow.",
+              "note": "Hit by Neptune missiles, according to Kyiv; rail traffic was suspended, according to Moscow.",
               "source": {
                 "name": "The Kyiv Independent",
-                "url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/"
-              }
-            },
-            {
-              "name": "Rivne region",
-              "coords": [
-                26.25,
-                50.62
-              ],
-              "note": "Eighty settlements left without power after a Russian attack.",
-              "source": {
-                "name": "Al Jazeera",
-                "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
+                "url": "https://kyivindependent.com/breaking-dutch-embassy-damaged-in-russian-drone-strike-on-kyiv/"
               }
             }
           ]
+        },
+        "table": {
+          "ids": [
+            "DEU",
+            "UKR",
+            "USA",
+            "FRA",
+            "GBR"
+          ],
+          "host": "DEU",
+          "positions": [
+            {
+              "who": "Kyiv",
+              "wants": "Volodymyr Zelensky set out four priorities: air defence, energy and financial support, diplomacy and an end to the war."
+            },
+            {
+              "who": "Washington",
+              "wants": "Jared Kushner wants to agree with Ukraine and Europe the agenda and format of the next multilateral talks."
+            },
+            {
+              "who": "NATO",
+              "wants": "Its secretary-general, Mark Rutte, stresses continued support for Ukraine with a view to a just and lasting peace."
+            }
+          ],
+          "next": {
+            "d": "2026-11-26",
+            "t": "European Council summit, focused notably on financing Ukraine in 2027."
+          },
+          "source": {
+            "name": "Ukrinform",
+            "url": "https://www.ukrinform.net/rubric-polytics/4186320-witkoff-kushner-heading-to-berlin-for-coalition-of-the-willing-meeting.html"
+          }
         }
       },
       "analysis": {
-        "title": "An energy war on both sides",
-        "text": "According to Ukraine's energy ministry, Russia has carried out more than 1,000 attacks on energy infrastructure since September, and the situation remains \"extremely difficult\" in the Dnipropetrovsk and Kharkiv regions, where repeated strikes are hampering repairs. Ukraine is hitting back at Russian refining: according to Reuters, cited by the Kyiv Independent, its attacks disrupted or halted 15 of the country's 35 big refineries in 20 days, cutting processing capacity by 45%. The strategy divides Kyiv's allies: Germany's defence minister, Boris Pistorius, called \"stupid\" the criticism of Ukraine's long-range strikes by a senior Pentagon official, Elbridge Colby. Talks, meanwhile, continue after the meeting in Abu Dhabi, where a prisoner exchange was agreed."
+        "title": "Russian pressure on European capitals",
+        "text": "The damage to two diplomatic missions comes as Europeans try to make their voice heard in the talks launched by Washington. The American envoys met Vladimir Putin in Moscow on November 12th, after three-way talks in Abu Dhabi on November 10th and 11th that produced no territorial deal but a large prisoner exchange, according to the Kyiv Post. Russia's embassy in the Netherlands accuses The Hague of openly taking part in the war, after the Dutch firm Destinus said its weapons had been used against the Crimean bridge, according to Africanews. Kaja Kallas promises more support for Ukraine and more pressure on Moscow, a week before a European Council that must settle Kyiv's funding for 2027."
       },
       "keys": [
         {
-          "title": "The European loan",
-          "text": "The budget support proposed by the Commission is conditional on reforms, notably on the rule of law and fighting corruption. It still needs the approval of the European Parliament and the Council."
-        },
-        {
-          "title": "The Berlin meeting",
-          "text": "Volodymyr Zelensky set out the agenda for the coalition of the willing, focused on air defence and energy support. American envoys are also due to meet Ukrainian officials there, according to Al Jazeera."
-        },
-        {
           "title": "The Crimean bridge",
-          "text": "A section of the bridge collapsed after a first Ukrainian strike on Tuesday, which killed two people according to Al Jazeera. Rail traffic had resumed before the new attack."
+          "text": "Kyiv confirmed that it had targeted the bridge linking annexed Crimea to Russia with Neptune missiles. Russia's transport ministry announced a temporary suspension of rail traffic."
+        },
+        {
+          "title": "Dutch and Austrian reactions",
+          "text": "The Dutch foreign minister, Tom Berendsen, reported minor damage. Austria's chargé d'affaires, Daniel Roethlin, said ten people were inside the embassy at the time of the explosion."
+        },
+        {
+          "title": "The scale of the attack",
+          "text": "Russia launched 98 drones and anti-ship missiles overnight, with impacts in 18 places across the country, according to Ukrainian officials quoted by Africanews."
         }
       ],
       "involved": [
-        "RUS"
+        "RUS",
+        "NLD",
+        "AUT",
+        "DEU"
       ],
       "context": [
         {
           "d": "2022-02-24",
-          "t": "Russia launches its full-scale invasion of Ukraine."
+          "t": "Russia launches its full-scale invasion."
         },
         {
-          "d": "2026-09",
-          "t": "Russia steps up its strikes on Ukraine's power grid."
+          "d": "2026-11-10",
+          "t": "Three-way talks between Ukraine, Russia and America in Abu Dhabi."
         },
         {
-          "d": "2026-11-11",
-          "t": "Talks in Abu Dhabi under American auspices."
-        },
-        {
-          "d": "2026-11-17",
-          "t": "A section of the Crimean bridge collapses after a Ukrainian strike."
+          "d": "2026-11-12",
+          "t": "Vladimir Putin receives Steve Witkoff and Jared Kushner in Moscow."
         },
         {
           "d": "2026-11-18",
-          "t": "Deadly strikes on Odesa; Brussels proposes a €45bn loan."
+          "t": "Russian strikes on the historic centre of Odesa."
         },
         {
           "d": "2026-11-19",
-          "t": "The coalition of the willing meets in Berlin."
+          "t": "Two embassies hit in Kyiv; the coalition of the willing meets in Berlin."
         },
         {
           "d": "2026-11-26",
-          "t": "European Council meeting, focused partly on financing Ukraine."
+          "t": "European Council on funding for Ukraine."
         }
       ],
       "sources": [
         {
-          "name": "Al Jazeera",
-          "title": "Russian attacks on Ukraine kill at least five people",
-          "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people",
-          "date": "2026-11-18"
+          "name": "The Copenhagen Post, avec l'AFP",
+          "name_en": "The Copenhagen Post, with AFP",
+          "title": "Russian strikes on Kyiv kill one and damage Austrian and Dutch embassies",
+          "url": "https://cphpost.dk/2026-11-20/global/russian-strikes-on-kyiv-kill-one-and-damage-austrian-and-dutch-embassies/",
+          "date": "2026-11-20"
         },
         {
           "name": "The Kyiv Independent",
-          "title": "Russian attacks kill 5, injure 15, across Ukraine over past day, as Russia continues energy assault",
-          "url": "https://kyivindependent.com/russian-attacks-kill-5-injure-15-across-ukraine-over-past-day-as-russia-continues-energy-assault/",
-          "date": "2026-11-18"
-        },
-        {
-          "name": "The Kyiv Independent",
-          "title": "Ukrainian forces once more hit Russia's Crimean Bridge as railway traffic halted days after devastating strike",
-          "url": "https://kyivindependent.com/ukrainian-forces-once-more-hit-russias-crimean-bridge-days-after-devastating-strike/",
+          "title": "'For Russia, nothing is sacred' — Massive Russian drone attack on Kyiv kills 1, damages embassies",
+          "url": "https://kyivindependent.com/breaking-dutch-embassy-damaged-in-russian-drone-strike-on-kyiv/",
           "date": "2026-11-19"
         },
         {
-          "name": "The Kyiv Independent",
-          "title": "European Commission approves proposal to provide additional $49.5 billion to Ukraine",
-          "url": "https://kyivindependent.com/european-commission-approves-proposal-to-provide-additional-49-5-billion-to-ukraine-2/",
-          "date": "2026-11-18"
+          "name": "Africanews, avec l'AFP et AP",
+          "name_en": "Africanews, with AFP and AP",
+          "title": "Ukraine: Russian strikes damage Austrian and Dutch embassies in Kyiv",
+          "url": "https://www.africanews.com/amp/2026/11/20/ukraine-russian-strikes-damage-austrian-and-dutch-embassies-in-kyiv/",
+          "date": "2026-11-20"
         },
         {
-          "name": "The Kyiv Independent",
-          "title": "Ukrainian strikes cut Russian oil refinery processing by 45%, Reuters reports",
-          "url": "https://kyivindependent.com/ukrainian-strikes-cut-russian-oil-refinery-processing-by-45-reuters-reports/",
+          "name": "OTAN",
+          "name_en": "NATO",
+          "title": "NATO Secretary General attends meeting of the Coalition of the Willing in Berlin",
+          "url": "https://nato.int/en/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin",
           "date": "2026-11-19"
+        },
+        {
+          "name": "Kyiv Post",
+          "title": "Trump's Envoys Witkoff, Kushner to Join Coalition of the Willing Summit in Berlin",
+          "url": "https://www.kyivpost.com/post/90536",
+          "date": "2026-11-18"
         }
       ],
       "dossier": {
         "id": "ukraine-war",
         "title": "The war in Ukraine"
       },
-      "slug": "russian-strikes-kill-four-odesa-brussels-offers-kyiv"
+      "slug": "kyiv-russian-strikes-hit-austrian-dutch-embassies"
     },
     {
       "rank": 4,
@@ -552,83 +584,79 @@
       "section": "International",
       "focus": [
         30.71,
-        36.9
+        36.89
       ],
       "radar": false,
       "types": [
         "diplomacy"
       ],
-      "title": "At COP31 in Antalya, phasing out fossil fuels divides delegates two days before the close",
-      "standfirst": "The draft deal published on Monday offers two options on fossil fuels, one of them an outright phase-out. The European Union wants major changes, and the conference is due to end on Friday.",
+      "title": "At COP31, the draft final deal drops every mention of fossil fuels",
+      "standfirst": "The text published in Antalya on Thursday, half the length of its predecessor, no longer speaks of moving away from coal, oil and gas. It does, however, concede that the 1.5°C threshold will be breached.",
       "body": [
-        "Some 200 countries gathered in Antalya, Turkey, for COP31 are haggling over an 18-page draft decision published on Monday November 16th, which offers two options on fossil fuels: the transition away from them agreed in 2023, or an outright phase-out.",
-        "The EU's climate commissioner, Wopke Hoekstra, says the text needs a thorough overhaul, while dozens of European, African and Pacific states that want the next IPCC report before COP33 are up against a bloc that includes Saudi Arabia and India.",
-        "Australia's minister, Chris Bowen, who is leading the negotiations under a presidency shared with Turkey, admitted that some clauses had already been rejected and promised at least one new draft before the close, due on Friday November 20th, though COPs often overrun."
+        "The draft final decision published in Antalya on Thursday November 19th by Australia, which presides over the COP31 negotiations, is half the length of the first version and no longer refers at all to abandoning coal, oil and gas, according to the UN and Euronews.",
+        "The text acknowledges, for the first time according to Chris Bowen, that warming will exceed 1.5°C, asks that the overshoot be as brief as possible, targets a 35% share of electricity in final energy consumption by 2035 and reaffirms the tripling of adaptation finance.",
+        "Australia's climate minister, Chris Bowen, vows not to leave Antalya without a consensus as the conference is due to end on Friday, while small island states are demanding firmer language on fossil fuels."
       ],
       "figure": {
-        "value": "18 pages",
-        "label": "length of the draft decision published on Monday",
-        "compare": "a text the think-tank E3G called \"very long\""
+        "value": "35%",
+        "label": "target share of electricity in final energy consumption by 2035",
+        "compare": "a goal championed by Turkey, the host country"
       },
       "modules": {
         "table": {
           "ids": [
             "TUR",
-            "AUS",
-            "SAU",
-            "BRA"
+            "AUS"
           ],
           "host": "TUR",
           "positions": [
             {
-              "who": "The European Union",
-              "wants": "A substantially amended draft decision, without which the talks could become untenable, according to Wopke Hoekstra."
+              "who": "The negotiations presidency",
+              "wants": "Chris Bowen defends a text that he says offers the most ambitious outcome consensus allows, with the COP28 commitment still standing."
             },
             {
-              "who": "Saudi Arabia",
-              "wants": "Insists it is not trying to delay climate science, without proposing a date for the next IPCC report."
+              "who": "UN Climate Change",
+              "wants": "Its executive secretary, Simon Stiell, says the Dubai commitment cannot be erased and calls for affordable finance for vulnerable countries."
+            },
+            {
+              "who": "The Turkish presidency",
+              "wants": "Murat Kurum denies any backsliding and wants access to finance made simpler."
             },
             {
               "who": "Small island states",
-              "wants": "Swift publication of the IPCC report, whose delays the chair of their alliance, Ilana Seid, calls unjustifiable."
-            },
-            {
-              "who": "Brazil",
-              "wants": "Believes the deadlock can be broken by tweaking the wording, according to its environment minister, João Paulo Capobianco."
+              "wants": "Demand firmer wording on phasing out fossil fuels."
             }
           ],
           "next": {
             "d": "2026-11-20",
-            "t": "Scheduled close of COP31 in Antalya."
+            "t": "Scheduled close of COP31, with an overrun considered likely."
           },
           "source": {
-            "name": "Al Jazeera, avec l'AFP",
-            "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31",
-            "name_en": "Al Jazeera, with AFP"
+            "name": "CNC3",
+            "url": "https://www.cnc3.co.tt/cop31-climate-deal-drops-fossil-fuel-pledge-as-leaders-race-to-secure-global-agreement/"
           }
         }
       },
       "analysis": {
-        "title": "The old fossil-fuel divide",
-        "text": "The text repeats the 2023 pledge to transition away from fossil fuels, but also offers more ambitious wording that oil producers have fought for years; according to Reuters, both could vanish from the final deal. The draft also calls on rich countries to reach net zero as early as 2030, a prospect that Antigua and Barbuda's environment minister, Michael Joseph, thinks will be very hard to sell. Other issues divide delegates: adaptation finance for poor countries and a Turkish proposal to raise electricity's share of global energy use to 35% by 2035. Every decision requires consensus, which is why conferences often run on for days, while a UN report published last month found the world on course to overshoot 1.5°C of warming."
+        "title": "The ghost of Belém",
+        "text": "The transition away from fossil fuels agreed at COP28 in Dubai had already vanished from the final text of COP30 in Belém, Euronews notes. In Antalya, the presidency shared between Turkey and Australia has opted for a slimmer text centred on electrification, which more than 150 countries and the European Union have joined, according to the UN. Finance, adaptation and the just transition remain open: adaptation finance fell from $81.5bn in 2022 to $64.1bn in 2024, according to a yearbook published during the conference. The Fund for Responding to Loss and Damage has received about $2.8bn in requests against $342m allocated, according to CNC3. Several European states, including Denmark, Spain and Portugal, have published their own phase-out road maps."
       },
       "keys": [
         {
-          "title": "The shared presidency",
-          "text": "Turkey is hosting the conference, chaired by its minister Murat Kurum, while Australia, represented by Chris Bowen, leads the negotiations. Such a division of roles is unprecedented in the history of COPs."
+          "title": "Overshooting 1.5°C",
+          "text": "Chris Bowen presents COP31 as the first to admit that the world will miss the 1.5°C goal. The text asks that the overshoot be as small and as short as possible."
         },
         {
-          "title": "The IPCC report",
-          "text": "The panel of experts suspended its last meeting, and a new session is planned for December. The timetable for its seventh assessment report has become one of the sticking points of the conference."
+          "title": "The critics",
+          "text": "For Teresa Anderson of the charity ActionAid, the announcements in the decision cannot hide how difficult the negotiations have been."
         },
         {
-          "title": "The AI pledge",
-          "text": "Only nine of the roughly 200 countries present had signed Turkey's proposed pledge on artificial intelligence early in the week, according to Reuters."
+          "title": "The timetable",
+          "text": "Nearly 200 countries have until Friday to agree by consensus. Analysts expect the deadline to slip, as it has at several previous conferences, according to Euronews."
         }
       ],
       "involved": [
-        "AUS",
-        "SAU"
+        "AUS"
       ],
       "context": [
         {
@@ -636,16 +664,20 @@
           "t": "COP28 in Dubai calls for a transition away from fossil fuels."
         },
         {
+          "d": "2025-11",
+          "t": "COP30 in Belém ends with no mention of fossil fuels."
+        },
+        {
           "d": "2026-11-09",
           "t": "COP31 opens in Antalya."
         },
         {
           "d": "2026-11-16",
-          "t": "The first draft decision, 18 pages long, is published."
+          "t": "First draft decision, with two references to fossil fuels."
         },
         {
-          "d": "2026-11-17",
-          "t": "The European Union demands major changes to the text."
+          "d": "2026-11-19",
+          "t": "New draft, with no mention of fossil fuels at all."
         },
         {
           "d": "2026-11-20",
@@ -654,217 +686,167 @@
       ],
       "sources": [
         {
-          "name": "Al Jazeera, avec l'AFP",
-          "title": "Tensions rise over draft climate deal at COP31",
-          "url": "https://www.aljazeera.com/news/2026/11/17/tensions-rise-over-draft-climate-deal-at-cop31",
-          "date": "2026-11-17",
-          "name_en": "Al Jazeera, with AFP"
+          "name": "ONU Info",
+          "name_en": "UN News",
+          "title": "COP31: Ambition goes missing as fossil fuel language drops from draft deal",
+          "url": "https://news.un.org/en/story/2026/11/1168839",
+          "date": "2026-11-19"
         },
         {
-          "name": "Reuters, via WHBL",
-          "title": "First draft of COP31 deal signals tough negotiations to come",
-          "url": "https://whbl.com/2026/11/16/first-draft-of-cop31-deal-signals-tough-negotiations-to-come/",
-          "date": "2026-11-16"
+          "name": "Euronews",
+          "title": "Fossil fuels scrubbed from COP31 draft deal despite growing momentum",
+          "url": "https://www.euronews.com/2026/11/19/fossil-fuels-scrubbed-from-cop31-draft-deal-despite-growing-momentum",
+          "date": "2026-11-19"
         },
         {
-          "name": "Reuters, via Al-Monitor",
-          "title": "First draft of COP31 deal signals tough negotiations to come",
-          "url": "https://www.al-monitor.com/originals/2026/11/first-draft-cop31-deal-signals-tough-negotiations-come",
-          "date": "2026-11-16"
+          "name": "CNC3",
+          "title": "COP31 climate deal drops fossil fuel pledge as leaders race to secure global agreement",
+          "url": "https://www.cnc3.co.tt/cop31-climate-deal-drops-fossil-fuel-pledge-as-leaders-race-to-secure-global-agreement/",
+          "date": "2026-11-19"
         }
       ],
       "dossier": {
         "id": "cop31",
         "title": "COP31 in Antalya"
       },
-      "slug": "cop31-antalya-phasing-out-fossil-fuels-divides-delegates"
+      "slug": "cop31-draft-final-deal-drops-every-mention-fossil"
     },
     {
       "rank": 5,
-      "id": "ETH",
-      "place": "Ethiopia",
+      "id": "SOM",
+      "place": "Somalia",
       "section": "Africa",
       "focus": [
-        37.8,
-        14.6
+        45.34,
+        2.05
       ],
       "radar": true,
       "types": [
-        "conflict"
+        "diplomacy"
       ],
-      "title": "On the Ethiopia-Eritrea border, the two armies mass around Badme",
-      "standfirst": "According to conflict monitors and sources close to Tigrayan militias, Addis Ababa and Asmara have concentrated forces along their border. Fire has been exchanged near Badme, the flashpoint of the 1998-2000 war.",
+      "title": "Somalia expels the UAE's ambassador, accusing Abu Dhabi of an \"open invasion\"",
+      "standfirst": "Mogadishu on Thursday gave the Emirati diplomat 72 hours to leave the country and recalled its own envoy. The federal government accuses Abu Dhabi of backing the regions that defy it.",
       "body": [
-        "Ethiopia and Eritrea have massed forces along their shared border, according to the conflict monitor ACLED, the International Crisis Group and two sources close to Tigrayan militias quoted by Reuters on Wednesday November 18th, raising fears of open war between the neighbours.",
-        "According to ACLED, Ethiopian drones struck probable Eritrean positions around Badme on November 12th, Eritrea answered with artillery and the two armies clashed on the Ethiopian side the next day, the first direct exchanges in more than a month, which Reuters could not confirm.",
-        "Eritrea's information minister, Yemane Gebremeskel, decries \"propaganda\" from Addis Ababa's ruling party, which has not responded, while Magnus Taylor, an analyst at the International Crisis Group, fears that fighting against Tigrayan rebels could drag the two countries into direct conflict."
+        "Somalia's information minister, Abdifatah Kasim Mohamud, announced through the state news agency on Thursday November 19th that the ambassador of the United Arab Emirates had 72 hours to leave the country and that Mogadishu was recalling its own envoy from Abu Dhabi, denouncing an \"open invasion\".",
+        "Two days earlier the president, Hassan Sheikh Mohamud, had accused the Emirates of giving economic and political backing to regional administrations opposed to the federal government and of signing deals with them over the ports of Berbera, Bosaso and Kismayo.",
+        "Abu Dhabi, which denies any interference, calls the move \"hostile\" and regrets being dragged into Somalia's power struggles, even as the Emirates still fund some 3,400 Somali troops around the capital, according to sources quoted by Reuters."
       ],
       "figure": {
-        "value": "1,000",
-        "label": "kilometres of border, at least, between Ethiopia and Eritrea",
-        "compare": "the scene of a bloody war from 1998 to 2000"
+        "value": "72 hours",
+        "label": "given to the Emirati ambassador to leave Somalia"
       },
       "modules": {
-        "places": {
-          "items": [
+        "table": {
+          "ids": [
+            "SOM",
+            "ARE"
+          ],
+          "positions": [
             {
-              "name": "Badme",
-              "coords": [
-                37.8,
-                14.72
-              ],
-              "note": "Border town at the heart of the 1998-2000 war; artillery fire and clashes reported since last week.",
-              "source": {
-                "name": "Reuters, via Al-Monitor",
-                "url": "https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say"
-              }
-            }
-          ]
-        },
-        "sides": {
-          "groups": [
-            {
-              "name": "Ethiopian federal army",
-              "lead": "Abiy Ahmed, prime minister",
-              "ids": [
-                "ETH"
-              ],
-              "note": "Fighting Tigrayan rebels since September, pursuing them up to the border; backed by the Tigray Peace Force militia."
+              "who": "Mogadishu",
+              "wants": "Denounces a violation of its sovereignty and threatens action against anyone who co-operates with the Emirates."
             },
             {
-              "name": "Tigrayan rebels and Eritrea",
-              "ids": [
-                "ERI"
-              ],
-              "note": "Addis Ababa accuses Eritrea of entering Tigray in October to back the rebels; Asmara denies any incursion.",
-              "backers": [
-                {
-                  "id": "SDN",
-                  "note": "Accused by Ethiopia of backing the rebels, which it denies."
-                },
-                {
-                  "id": "EGY",
-                  "note": "Accused by Ethiopia of backing the rebels, which it denies."
-                }
-              ]
+              "who": "Abu Dhabi",
+              "wants": "Calls Somalia's conduct \"escalatory and hostile\" and says it wants to preserve its ties with the Somali people."
             }
           ],
           "source": {
-            "name": "Reuters, via TimesLIVE",
-            "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/"
+            "name": "Reuters, via Al-Monitor",
+            "url": "https://www.al-monitor.com/originals/2026/11/somalia-orders-uae-ambassador-leave-citing-invasion"
           }
         }
       },
       "analysis": {
-        "title": "Yesterday's allies, rivals once more",
-        "text": "Reconciled by their 2018 peace deal, Ethiopia and Eritrea fought side by side in the Tigray war of 2020-22. Relations then soured, not least after Ethiopia's prime minister, Abiy Ahmed, called for his country to regain access to the sea, which Asmara read as an implicit threat of aggression, though Addis Ababa insists it wants to achieve this peacefully. The fighting between the federal army and Tigrayan rebels since September has brought the danger closer to the border, especially as Ethiopia's army is pursuing the rebels to its edge. Eritrea, independent since 1993, accuses its neighbour of seeking a pretext to invade. Badme, whose control sparked the 1998-2000 war, was awarded to Eritrea by a boundary commission after the conflict."
+        "title": "Ports at the heart of a regional rivalry",
+        "text": "The expulsion is the harshest step taken against Abu Dhabi since January, when Mogadishu cancelled all its agreements with the Emirates, including port contracts and defence co-operation, according to Al Jazeera. The Emirates then closed their embassy and withdrew their staff. Three autonomous regions close to Abu Dhabi rejected the cancellation, a sign of the fragmentation of a country where the federal state struggles to assert itself. The Emirates have invested hundreds of millions of dollars in ports and military infrastructure along the coast, and trained hundreds of Somali soldiers between 2014 and 2018. The federal government has still not defeated the Islamists of al-Shabab, despite African peacekeepers and American air strikes, according to Reuters."
       },
       "keys": [
         {
-          "title": "The 1998-2000 war",
-          "text": "The border conflict between the two countries killed tens of thousands of people. The town of Badme was its main prize."
+          "title": "The forces the Emirates pay for",
+          "text": "Abu Dhabi still covers the wages and logistics of some 3,400 military police and special forces around Mogadishu, according to Somali sources quoted by Reuters."
         },
         {
-          "title": "Access to the sea",
-          "text": "Ethiopia lost its coastline when Eritrea became independent in 1993. Abiy Ahmed's remarks on the subject feed Asmara's mistrust."
-        },
-        {
-          "title": "Outside backers",
-          "text": "Addis Ababa accuses Sudan, itself in the grip of civil war, and Egypt of backing the Tigrayan rebels. Eritrea, Sudan and Egypt all deny it."
+          "title": "The street mobilised",
+          "text": "A protest against the Emirates was held in Mogadishu on Thursday. The information minister called on Somalis to unite in defence of their country."
         }
       ],
       "involved": [
-        "ERI",
-        "SDN",
-        "EGY"
+        "ARE"
       ],
       "context": [
         {
-          "d": "1998-05",
-          "t": "Border war breaks out between Ethiopia and Eritrea."
+          "d": "2026-01",
+          "t": "Somalia cancels all its agreements with the Emirates, which close their embassy."
         },
         {
-          "d": "2018-07",
-          "t": "Peace deal between Addis Ababa and Asmara."
+          "d": "2026-11-17",
+          "t": "Somalia's president accuses Abu Dhabi of backing the regional administrations."
         },
         {
-          "d": "2020-11",
-          "t": "The Tigray war begins, with the two countries fighting on the same side."
-        },
-        {
-          "d": "2026-09",
-          "t": "Fighting resumes between the federal army and Tigrayan rebels."
-        },
-        {
-          "d": "2026-10",
-          "t": "Eritrean forces enter Tigray, according to Addis Ababa and witnesses."
-        },
-        {
-          "d": "2026-11-12",
-          "t": "Ethiopian drone strikes around Badme, according to ACLED."
-        },
-        {
-          "d": "2026-11-13",
-          "t": "Direct clashes between the two armies, according to ACLED."
+          "d": "2026-11-19",
+          "t": "Mogadishu orders the Emirati ambassador to leave within 72 hours."
         }
       ],
       "sources": [
         {
-          "name": "Reuters, via Al-Monitor",
-          "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say",
-          "url": "https://www.al-monitor.com/originals/2026/11/ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say",
-          "date": "2026-11-18"
+          "name": "Al Jazeera",
+          "title": "Somalia expels UAE ambassador, accuses Abu Dhabi of violating sovereignty",
+          "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty",
+          "date": "2026-11-19"
         },
         {
-          "name": "Reuters, via TimesLIVE",
-          "title": "Ethiopia and Eritrea amass forces along border, heightening war fears, sources say",
-          "url": "https://www.timeslive.co.za/news/africa/2026-11-18-ethiopia-and-eritrea-amass-forces-along-border-heightening-war-fears-sources-say/",
-          "date": "2026-11-18"
+          "name": "Reuters, via Al-Monitor",
+          "title": "Somalia orders UAE ambassador to leave, citing 'invasion'",
+          "url": "https://www.al-monitor.com/originals/2026/11/somalia-orders-uae-ambassador-leave-citing-invasion",
+          "date": "2026-11-19"
+        },
+        {
+          "name": "Reuters, via Cyprus Mail",
+          "title": "Somalia orders UAE ambassador to leave, citing 'invasion'",
+          "url": "https://cyprus-mail.com/2026/11/19/somalia-orders-uae-ambassador-to-leave-citing-invasion",
+          "date": "2026-11-19"
         }
       ],
       "dossier": {
-        "id": "ethiopia-tigray-eritrea",
-        "title": "Ethiopia, Tigray and Eritrea"
+        "id": "somalia-crisis",
+        "title": "Somalia's political crisis"
       },
-      "slug": "ethiopia-eritrea-border-two-armies-mass-around-badme"
+      "slug": "somalia-expels-uae-ambassador-accusing-abu-dhabi-open"
     }
   ],
   "brief": [
     {
-      "id": "ISR",
-      "place": "Israel",
-      "text": "The Knesset on Tuesday elected Matan Kahana as its speaker by 66 votes to 52, a win for Gadi Eisenkot, who has been asked to form a government, and for Binyamin Netanyahu's opponents.",
-      "url": "https://www.timesofisrael.com/liveblog-november-18-2026/"
+      "id": "IRQ",
+      "place": "Iraq",
+      "text": "Iraq's prime minister, Ali al-Zaidi, has ordered the army into Jurf al-Sakhar, a stronghold of Kataib Hezbollah, and set Friday as the deadline for the militia to leave, amid an investigation into oil smuggling.",
+      "url": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah"
     },
     {
-      "id": "MMR",
-      "place": "Myanmar",
-      "text": "Myanmar's president, Min Aung Hlaing, told parliament that his country would review its relations with ASEAN, which he accuses of treating it unfairly.",
-      "url": "https://apnews.com/article/min-aung-hlaing-asean-peace-plan-turmoil-97e863b842b3a3ad805635b11a7aea8c"
+      "id": "MNG",
+      "place": "Mongolia",
+      "text": "Mongolia's president, Ukhnaagiin Khurelsukh, accused of corruption by the opposition, announced his resignation on Tuesday; it must be approved by the State Great Khural, the 126-member parliament.",
+      "url": "https://www.thestar.com.my/news/world/2026/11/17/mongolian-president-announces-resignation-over-alleged-corruption"
     },
     {
-      "id": "GBR",
-      "place": "United Kingdom",
-      "text": "An American lieutenant-colonel arrested in London on suspicion of spying for Russia has been handed over to the custody of the American army, according to British counter-terrorism police.",
-      "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo"
+      "id": "SRB",
+      "place": "Serbia",
+      "text": "The Student List, which won October's parliamentary election with 140 of 250 seats, has taken its place in parliament, which now has 90 days to form a new government.",
+      "url": "https://www.aljazeera.com/news/2026/11/17/election-winning-student-movement-enters-serbias-new-parliament"
     }
   ],
   "agenda": [
-    {
-      "d": "2026-11-19",
-      "t": "First three-way meeting between Donald Trump, Xi Jinping and Vladimir Putin, in Shenzhen."
-    },
-    {
-      "d": "2026-11-19",
-      "t": "Meeting of the coalition of the willing for Ukraine, in Berlin."
-    },
     {
       "d": "2026-11-20",
       "t": "Scheduled close of COP31, in Antalya."
     },
     {
+      "d": "2026-11-22",
+      "t": "The 72-hour deadline for the Emirati ambassador to leave Somalia expires."
+    },
+    {
       "d": "2026-11-26",
-      "t": "Two-day European Council, focused partly on financing Ukraine in 2027."
+      "t": "Two-day European Council summit, focused notably on financing Ukraine in 2027."
     },
     {
       "d": "2026-11-29",
@@ -872,7 +854,7 @@
     },
     {
       "d": "2026-12-01",
-      "t": "Border crossings between Estonia and Russia close."
+      "t": "Crossing points between Estonia and Russia close."
     },
     {
       "d": "2026-12-06",
@@ -884,14 +866,16 @@
     "Reuters",
     "AFP",
     "Associated Press",
-    "ABC News",
-    "BBC",
-    "The Kyiv Independent",
+    "UN News",
+    "Euronews",
+    "Human Rights Watch",
     "Gulf News",
-    "Khaleej Times",
+    "The National",
+    "The Kyiv Independent",
+    "Ukrinform",
+    "Al-Monitor",
     "The Times of Israel",
-    "Atlantic Council",
-    "ANI",
-    "Just Security"
+    "Just Security",
+    "Foreign Exchanges"
   ]
 }

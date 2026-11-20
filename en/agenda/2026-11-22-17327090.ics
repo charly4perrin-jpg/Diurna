@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — calendar
+BEGIN:VEVENT
+UID:2026-11-22-17327090@diurna
+DTSTAMP:20261120T062442Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:The 72-hour deadline for the Emirati ambassador to leave Somalia 
+ expires.
+DESCRIPTION:Diurna — Edition of 20 November 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/en/2026/11/20/
+END:VEVENT
+END:VCALENDAR
