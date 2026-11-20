@@ -6,12 +6,12 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — agenda
 BEGIN:VEVENT
 UID:2026-12-06-cd66e35f@diurna
-DTSTAMP:20261119T184514Z
+DTSTAMP:20261120T060252Z
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:Fin du délai initial accordé à Gadi Eisenkot pour former un go
  uvernement en Israël.
-DESCRIPTION:Diurna — Édition du 19 novembre 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/19/
+DESCRIPTION:Diurna — Édition du 20 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/20/
 END:VEVENT
 END:VCALENDAR

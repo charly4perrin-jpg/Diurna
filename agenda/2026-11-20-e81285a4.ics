@@ -6,11 +6,11 @@ METHOD:PUBLISH
 X-WR-CALNAME:Diurna — agenda
 BEGIN:VEVENT
 UID:2026-11-20-e81285a4@diurna
-DTSTAMP:20261119T184514Z
+DTSTAMP:20261120T060252Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:Clôture prévue de la COP31\, à Antalya.
-DESCRIPTION:Diurna — Édition du 19 novembre 2026
-URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/19/
+DESCRIPTION:Diurna — Édition du 20 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/20/
 END:VEVENT
 END:VCALENDAR

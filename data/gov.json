@@ -48,11 +48,11 @@
         "role_en": "President"
       }
     ],
-    "checked": "2026-11-19",
+    "checked": "2026-11-20",
     "source": {
-      "name": "Al Jazeera",
-      "name_en": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/18/russian-attacks-on-ukraine-kill-at-least-five-people"
+      "name": "OTAN",
+      "name_en": "NATO",
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/11/19/nato-secretary-general-attends-meeting-of-the-coalition-of-the-willing-in-berlin"
     },
     "regime_en": "Semi-presidential republic, under martial law"
   },
@@ -196,11 +196,11 @@
         "name_en": "Hassan Sheikh Mohamud"
       }
     ],
-    "checked": "2026-11-06",
+    "checked": "2026-11-20",
     "source": {
-      "name": "AFP, via Arab News",
-      "name_en": "AFP, via Arab News",
-      "url": "https://arabnews.com/world/somalia-president-term-extension-unlawful-supreme-court-3009974"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/19/somalia-expels-uae-ambassador-accuses-abu-dhabi-of-violating-sovereignty"
     }
   },
   "COD": {
@@ -264,11 +264,11 @@
         "name_en": "Mohammed bin Salman"
       }
     ],
-    "checked": "2026-11-09",
+    "checked": "2026-11-20",
     "source": {
-      "name": "Gulf News",
-      "name_en": "Gulf News",
-      "url": "https://gulfnews.com/world/gulf/saudi/houthi-missiles-intercepted-over-dhahran-and-haradh-debris-falls-in-residential-area-1.500709539"
+      "name": "Semafor",
+      "name_en": "Semafor",
+      "url": "https://www.semafor.com/article/10/23/2026/saudi-crown-prince-grapples-with-the-limits-of-his-power"
     }
   },
   "TUR": {
@@ -281,7 +281,7 @@
         "name": "Recep Tayyip Erdoğan"
       }
     ],
-    "checked": "2026-11-19",
+    "checked": "2026-11-20",
     "source": {
       "name": "IISD, Earth Negotiations Bulletin",
       "name_en": "IISD, Earth Negotiations Bulletin",
@@ -298,11 +298,11 @@
         "name": "Min Aung Hlaing"
       }
     ],
-    "checked": "2026-11-17",
+    "checked": "2026-11-20",
     "source": {
-      "name": "Associated Press, via KSAT",
-      "name_en": "Associated Press, via KSAT",
-      "url": "https://www.ksat.com/news/world/2026/11/15/southeast-asian-leaders-denounce-violence-in-myanmar-and-extend-ban-on-its-leader/"
+      "name": "Al Jazeera",
+      "name_en": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/19/what-the-icj-ruling-means-for-the-rohingya"
     }
   },
   "POL": {

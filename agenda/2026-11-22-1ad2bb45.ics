@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Diurna//Agenda//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Diurna — agenda
+BEGIN:VEVENT
+UID:2026-11-22-1ad2bb45@diurna
+DTSTAMP:20261120T060252Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:Fin du délai de 72 heures accordé à l’ambassadeur émirati p
+ our quitter la Somalie.
+DESCRIPTION:Diurna — Édition du 20 novembre 2026
+URL:https://charly4perrin-jpg.github.io/Diurna/2026/11/20/
+END:VEVENT
+END:VCALENDAR
